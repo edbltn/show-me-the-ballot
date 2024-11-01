@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c9a7d9348b787b5ea4a9db3dc648744 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cochran - Texas-CD19</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cochran - Texas-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cochran - Texas-CD19</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cochran - Texas-CD03</p>
+            </div>
+    
+            <div class="folium-map" id="map_8c9a7d9348b787b5ea4a9db3dc648744" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c9a7d9348b787b5ea4a9db3dc648744 = L.map(
+                "map_8c9a7d9348b787b5ea4a9db3dc648744",
+                {
+                    center: [33.62202824784111, -103.02898117061162],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_38bc3f00769d9d1516b8d49d784cf13e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_38bc3f00769d9d1516b8d49d784cf13e.addTo(map_8c9a7d9348b787b5ea4a9db3dc648744);
+        
+    
+            var polygon_bd4f8dbbab89ba04d03d22a69cd3cd2d = L.polygon(
+                [[33.58590800000003, -103.052285], [33.5864497625189, -103.05228265132331], [33.67216639971297, -103.05051001938794], [33.67215499999999, -103.050154], [33.67204399999999, -103.048023], [33.67203999999999, -103.047935], [33.67169699999997, -103.046428], [33.67158199999997, -103.044922], [33.67183300000001, -103.042868], [33.671810000000015, -103.041936], [33.67171899999999, -103.04166200000002], [33.67137499999999, -103.041279], [33.67107699999997, -103.041224], [33.67082499999997, -103.040951], [33.67080499999997, -103.04081], [33.67075700000003, -103.040458], [33.67105400000002, -103.039335], [33.67105400000002, -103.038267], [33.67102899999999, -103.034791], [33.67095699999995, -103.024363], [33.670933, -103.020888], [33.670884999999984, -103.015264], [33.67079400000001, -103.004353], [33.67079000000001, -103.003936], [33.67069799999998, -103.003607], [33.67046899999999, -103.003469], [33.665534999999956, -103.003517], [33.65991300000004, -103.003573], [33.65530500000005, -103.003614], [33.64148199999998, -103.003739], [33.63687499999998, -103.003781], [33.63429800000002, -103.003796], [33.62656999999998, -103.003846], [33.623994000000025, -103.003864], [33.623926999999966, -103.003836], [33.623834999999985, -103.003692], [33.62380400000002, -103.002798], [33.62371999999996, -103.00032600000002], [33.623729, -102.999389], [33.62374, -102.99825200000001], [33.623671999999985, -102.998369], [33.62346900000003, -102.998723], [33.623401999999984, -102.998841], [33.62282199999999, -102.99985300000002], [33.62255699999998, -103.000317], [33.62107900000001, -103.002886], [33.62049799999999, -103.003898], [33.620153, -103.004499], [33.62009999999999, -103.004593], [33.619636, -103.005431], [33.61944899999999, -103.005816], [33.61932599999998, -103.006138], [33.61926399999997, -103.006369], [33.61920199999999, -103.006617], [33.61911899999997, -103.00704700000001], [33.61910899999997, -103.007628], [33.619113, -103.008226], [33.619139999999966, -103.01177000000001], [33.61914900000003, -103.012952], [33.617475, -103.012943], [33.61731599999996, -103.012955], [33.61706, -103.013028], [33.616047000000016, -103.013053], [33.61303299999998, -103.013065], [33.612910999999976, -103.013089], [33.61284999999999, -103.013248], [33.61287299999996, -103.018826], [33.612861999999964, -103.019187], [33.612831, -103.020271], [33.61282099999999, -103.020633], [33.612767000000005, -103.021093], [33.612727000000035, -103.02145], [33.61169499999998, -103.021462], [33.61123200000001, -103.021468], [33.605509000000005, -103.021442], [33.59558500000002, -103.021403], [33.591532000000015, -103.021542], [33.588344, -103.021592], [33.58262300000003, -103.021683], [33.58251900000001, -103.025295], [33.58235200000001, -103.031204], [33.582114999999995, -103.03613], [33.58194199999996, -103.039741], [33.58193599999998, -103.040883], [33.58192099999997, -103.04412700000002], [33.581973, -103.0443], [33.58211500000003, -103.04477], [33.58244700000001, -103.045332], [33.58119600000002, -103.045856], [33.57914999999999, -103.046744], [33.575048000000024, -103.048481], [33.57458099999998, -103.048708], [33.574231, -103.048926], [33.57391099999998, -103.049184], [33.57347499999997, -103.049611], [33.572695999999986, -103.050435], [33.57124000000001, -103.051938], [33.570768000000044, -103.052439], [33.57058637947373, -103.05261026913101], [33.57059900000002, -103.05261], [33.575706028360315, -103.05250454528897], [33.58141300000001, -103.052375], [33.58590800000003, -103.052285]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8c9a7d9348b787b5ea4a9db3dc648744);
+        
+    
+        var popup_d9e9453e43ee1309029cd428d11c9553 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d37e0b12f939f29e455dcf7bea9add39 = $(`<div id="html_d37e0b12f939f29e455dcf7bea9add39" style="width: 100.0%; height: 100.0%;"><b>Cochran - Texas-CD19</b></div>`)[0];
+                popup_d9e9453e43ee1309029cd428d11c9553.setContent(html_d37e0b12f939f29e455dcf7bea9add39);
+            
+        
+
+        polygon_bd4f8dbbab89ba04d03d22a69cd3cd2d.bindPopup(popup_d9e9453e43ee1309029cd428d11c9553)
+        ;
+
+        
+    
+    
+            var circle_marker_a9c78dbcdf4e5af7c9b37b369cdc9da2 = L.circleMarker(
+                [33.62135741330162, -103.02436814063233],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8c9a7d9348b787b5ea4a9db3dc648744);
+        
+    
+        var popup_cfac92849d0d76ae44f6b1c9f20c007f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cdfb2306c2ecc39d47b5a59346dad9b8 = $(`<div id="html_cdfb2306c2ecc39d47b5a59346dad9b8" style="width: 100.0%; height: 100.0%;"><b>Cochran - Texas-CD19</b></div>`)[0];
+                popup_cfac92849d0d76ae44f6b1c9f20c007f.setContent(html_cdfb2306c2ecc39d47b5a59346dad9b8);
+            
+        
+
+        circle_marker_a9c78dbcdf4e5af7c9b37b369cdc9da2.bindPopup(popup_cfac92849d0d76ae44f6b1c9f20c007f)
+        ;
+
+        
+    
+    
+            circle_marker_a9c78dbcdf4e5af7c9b37b369cdc9da2.bindTooltip(
+                `<div>
+                     Cochran - Texas-CD19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_66f441b91c491bffbec93fa53126da03 = L.polygon(
+                [[33.58660000000001, -103.052282], [33.59240900000003, -103.05223], [33.594884000000015, -103.05224], [33.598862, -103.052147], [33.61191699999995, -103.051936], [33.614847999999945, -103.05189], [33.614899, -103.05189], [33.62170100000005, -103.051759], [33.62509899999995, -103.051683], [33.627529999999986, -103.05162], [33.629583999999994, -103.051584], [33.63002099999999, -103.051557], [33.64192999999997, -103.05132900000001], [33.64920200000003, -103.051166], [33.65114799999998, -103.051107], [33.65818099999998, -103.050924], [33.665490000000005, -103.050768], [33.672167999999985, -103.05056], [33.67216639971297, -103.05051001938794], [33.5864497625189, -103.05228265132331], [33.58660000000001, -103.052282]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8c9a7d9348b787b5ea4a9db3dc648744);
+        
+    
+        var popup_dfcf980e12b9a1f879186d65d81ded02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fcedee2281eb8f8cc66be8a46f329ee = $(`<div id="html_5fcedee2281eb8f8cc66be8a46f329ee" style="width: 100.0%; height: 100.0%;"><b>Cochran - Texas-CD03</b></div>`)[0];
+                popup_dfcf980e12b9a1f879186d65d81ded02.setContent(html_5fcedee2281eb8f8cc66be8a46f329ee);
+            
+        
+
+        polygon_66f441b91c491bffbec93fa53126da03.bindPopup(popup_dfcf980e12b9a1f879186d65d81ded02)
+        ;
+
+        
+    
+    
+            var circle_marker_f1ff5b856a0fd8dcb218cceaeb802c45 = L.circleMarker(
+                [33.62531853153484, -103.05160698431958],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8c9a7d9348b787b5ea4a9db3dc648744);
+        
+    
+        var popup_6a5e4ad29e8f9a28f0a70a9b35f4b995 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0a5691613a11bf2d92c6f96d7101472e = $(`<div id="html_0a5691613a11bf2d92c6f96d7101472e" style="width: 100.0%; height: 100.0%;"><b>Cochran - Texas-CD03</b></div>`)[0];
+                popup_6a5e4ad29e8f9a28f0a70a9b35f4b995.setContent(html_0a5691613a11bf2d92c6f96d7101472e);
+            
+        
+
+        circle_marker_f1ff5b856a0fd8dcb218cceaeb802c45.bindPopup(popup_6a5e4ad29e8f9a28f0a70a9b35f4b995)
+        ;
+
+        
+    
+    
+            circle_marker_f1ff5b856a0fd8dcb218cceaeb802c45.bindTooltip(
+                `<div>
+                     Cochran - Texas-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

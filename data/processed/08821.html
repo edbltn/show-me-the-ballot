@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0547ccebe96b7ae03dbc536dd5884c9e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Somerset - New Jersey-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Somerset - New Jersey-CD12</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Somerset - New Jersey-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Somerset - New Jersey-CD12</p>
+            </div>
+    
+            <div class="folium-map" id="map_0547ccebe96b7ae03dbc536dd5884c9e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0547ccebe96b7ae03dbc536dd5884c9e = L.map(
+                "map_0547ccebe96b7ae03dbc536dd5884c9e",
+                {
+                    center: [40.520075413425516, -74.68748032711784],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_44898b87990139ff4ebf5a5081604548 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_44898b87990139ff4ebf5a5081604548.addTo(map_0547ccebe96b7ae03dbc536dd5884c9e);
+        
+    
+            var polygon_4f7d47e17907c46005d69a0a1ff0a611 = L.polygon(
+                [[40.521353999999974, -74.692782], [40.52341899999998, -74.692044], [40.523169, -74.691081], [40.524747000000005, -74.690274], [40.52569300000002, -74.688685], [40.52531400000001, -74.688359], [40.52587399999996, -74.687596], [40.525983999999994, -74.687501], [40.52557300000001, -74.687132], [40.52520399999998, -74.686789], [40.52508199999997, -74.686687], [40.524665999999996, -74.686337], [40.52417080624407, -74.68594040641577], [40.517327596521504, -74.68551590711962], [40.51732399999998, -74.68553800000001], [40.51728099999998, -74.685679], [40.51689500000002, -74.686624], [40.516771000000006, -74.686903], [40.51652099999998, -74.687501], [40.516503, -74.687687], [40.51652099999998, -74.687876], [40.51653399999998, -74.68797900000001], [40.516737, -74.688735], [40.51697100000003, -74.689576], [40.517175999999964, -74.690293], [40.517199999999995, -74.690377], [40.51743300000004, -74.691234], [40.517662000000044, -74.692129], [40.517715000000024, -74.692337], [40.517729999999965, -74.692397], [40.517869999999995, -74.69294700000002], [40.51844800000005, -74.69316500000001], [40.518578000000005, -74.693639], [40.51928800000001, -74.693309], [40.51939099999999, -74.693689], [40.521105999999975, -74.692897], [40.521353999999974, -74.692782]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0547ccebe96b7ae03dbc536dd5884c9e);
+        
+    
+        var popup_ac26505c6887f434d7997f48e34c9f0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c00e658566e06c3aa3bb14b2e9203323 = $(`<div id="html_c00e658566e06c3aa3bb14b2e9203323" style="width: 100.0%; height: 100.0%;"><b>Somerset - New Jersey-CD07</b></div>`)[0];
+                popup_ac26505c6887f434d7997f48e34c9f0d.setContent(html_c00e658566e06c3aa3bb14b2e9203323);
+            
+        
+
+        polygon_4f7d47e17907c46005d69a0a1ff0a611.bindPopup(popup_ac26505c6887f434d7997f48e34c9f0d)
+        ;
+
+        
+    
+    
+            var circle_marker_8044cff7de985a981cb0f6cf31f5c0d1 = L.circleMarker(
+                [40.52017801088555, -74.68951395441988],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0547ccebe96b7ae03dbc536dd5884c9e);
+        
+    
+        var popup_a5b2692555423c9f6e3f4cff2fea529e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b1b6a8fa56bfe10df8dd879ac66bdd2 = $(`<div id="html_2b1b6a8fa56bfe10df8dd879ac66bdd2" style="width: 100.0%; height: 100.0%;"><b>Somerset - New Jersey-CD07</b></div>`)[0];
+                popup_a5b2692555423c9f6e3f4cff2fea529e.setContent(html_2b1b6a8fa56bfe10df8dd879ac66bdd2);
+            
+        
+
+        circle_marker_8044cff7de985a981cb0f6cf31f5c0d1.bindPopup(popup_a5b2692555423c9f6e3f4cff2fea529e)
+        ;
+
+        
+    
+    
+            circle_marker_8044cff7de985a981cb0f6cf31f5c0d1.bindTooltip(
+                `<div>
+                     Somerset - New Jersey-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_5c184ec41740d30cb9adacd10375539e = L.polygon(
+                [[40.522823, -74.684861], [40.52255700000005, -74.684621], [40.52242899999999, -74.684502], [40.52158400000002, -74.683645], [40.52107800000006, -74.683144], [40.520951, -74.683026], [40.52086800000003, -74.682985], [40.52077500000002, -74.68297700000001], [40.520604, -74.68302], [40.52019099999999, -74.683206], [40.519696000000046, -74.68344800000001], [40.51854699999997, -74.68397200000001], [40.51827399999996, -74.684084], [40.51815700000001, -74.68414], [40.518053999999985, -74.684189], [40.517842999999985, -74.68427700000001], [40.51718600000001, -74.68457200000002], [40.51732600000004, -74.685139], [40.51733600000003, -74.685226], [40.51733799999995, -74.685452], [40.517327596521504, -74.68551590711962], [40.52417080624407, -74.68594040641577], [40.522823, -74.684861]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0547ccebe96b7ae03dbc536dd5884c9e);
+        
+    
+        var popup_63a677f982f96a07473e6593770913fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_461da90e1773db8884884d39d32932d0 = $(`<div id="html_461da90e1773db8884884d39d32932d0" style="width: 100.0%; height: 100.0%;"><b>Somerset - New Jersey-CD12</b></div>`)[0];
+                popup_63a677f982f96a07473e6593770913fe.setContent(html_461da90e1773db8884884d39d32932d0);
+            
+        
+
+        polygon_5c184ec41740d30cb9adacd10375539e.bindPopup(popup_63a677f982f96a07473e6593770913fe)
+        ;
+
+        
+    
+    
+            var circle_marker_ecb7475e76931355abf73c4f94a14e6d = L.circleMarker(
+                [40.519910365337644, -74.68420883971893],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0547ccebe96b7ae03dbc536dd5884c9e);
+        
+    
+        var popup_a79b0119469e4d56d5df5eb65b354d53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd207465e62ede5741a81ea2be978eb9 = $(`<div id="html_dd207465e62ede5741a81ea2be978eb9" style="width: 100.0%; height: 100.0%;"><b>Somerset - New Jersey-CD12</b></div>`)[0];
+                popup_a79b0119469e4d56d5df5eb65b354d53.setContent(html_dd207465e62ede5741a81ea2be978eb9);
+            
+        
+
+        circle_marker_ecb7475e76931355abf73c4f94a14e6d.bindPopup(popup_a79b0119469e4d56d5df5eb65b354d53)
+        ;
+
+        
+    
+    
+            circle_marker_ecb7475e76931355abf73c4f94a14e6d.bindTooltip(
+                `<div>
+                     Somerset - New Jersey-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

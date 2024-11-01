@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_67ef99fcadd1f770606873e7f1ff5a27 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   District of Columbia - District of Columbia-CD98</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   District of Columbia - District of Columbia-CD98</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   District of Columbia - District of Columbia-CD98</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   District of Columbia - District of Columbia-CD98</p>
+            </div>
+    
+            <div class="folium-map" id="map_67ef99fcadd1f770606873e7f1ff5a27" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_67ef99fcadd1f770606873e7f1ff5a27 = L.map(
+                "map_67ef99fcadd1f770606873e7f1ff5a27",
+                {
+                    center: [38.89874448484849, -77.04846440151516],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_84891344d02dbc125416691873cd8319 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_84891344d02dbc125416691873cd8319.addTo(map_67ef99fcadd1f770606873e7f1ff5a27);
+        
+    
+            var polygon_f4482e7c4306434813727babd0531a56 = L.polygon(
+                [[38.897280999999985, -77.04491], [38.89735400000002, -77.04490999999999], [38.897351000000015, -77.044388], [38.897353, -77.04378200000001], [38.89735499999997, -77.043468], [38.89679300000002, -77.043459], [38.89659199999996, -77.04346], [38.896317, -77.043457], [38.896114000000004, -77.043459], [38.895979000000004, -77.043466], [38.89598399999999, -77.04367600000002], [38.89598999999998, -77.04416500000002], [38.89599, -77.044513], [38.895987999999996, -77.044697], [38.895985999999986, -77.044772], [38.895983, -77.044845], [38.89599500000003, -77.044918], [38.896098000000016, -77.044919], [38.897029999999944, -77.04491300000001], [38.897280999999985, -77.04491]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_67ef99fcadd1f770606873e7f1ff5a27);
+        
+    
+        var popup_cc771ebced1fea1814dd7f2fb971da2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11f270287b08dd232069695a8bd8c5b2 = $(`<div id="html_11f270287b08dd232069695a8bd8c5b2" style="width: 100.0%; height: 100.0%;"><b>District of Columbia - District of Columbia-CD98</b></div>`)[0];
+                popup_cc771ebced1fea1814dd7f2fb971da2c.setContent(html_11f270287b08dd232069695a8bd8c5b2);
+            
+        
+
+        polygon_f4482e7c4306434813727babd0531a56.bindPopup(popup_cc771ebced1fea1814dd7f2fb971da2c)
+        ;
+
+        
+    
+    
+            var circle_marker_225cf3b94109b7f40d9dce8b3d76745d = L.circleMarker(
+                [38.8965407, -77.04425435],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_67ef99fcadd1f770606873e7f1ff5a27);
+        
+    
+        var popup_092c98d93cd463117832a067f9c48514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e13738f122f0961c25dbdce2217029a = $(`<div id="html_7e13738f122f0961c25dbdce2217029a" style="width: 100.0%; height: 100.0%;"><b>District of Columbia - District of Columbia-CD98</b></div>`)[0];
+                popup_092c98d93cd463117832a067f9c48514.setContent(html_7e13738f122f0961c25dbdce2217029a);
+            
+        
+
+        circle_marker_225cf3b94109b7f40d9dce8b3d76745d.bindPopup(popup_092c98d93cd463117832a067f9c48514)
+        ;
+
+        
+    
+    
+            circle_marker_225cf3b94109b7f40d9dce8b3d76745d.bindTooltip(
+                `<div>
+                     District of Columbia - District of Columbia-CD98
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_2cfe1dda416ce739c92b5604b15573dc = L.polygon(
+                [[38.899279000000014, -77.050132], [38.89936599999998, -77.050132], [38.89941400000003, -77.05013300000002], [38.899491000000005, -77.050133], [38.89955400000002, -77.050132], [38.89957399999998, -77.050131], [38.899599000000016, -77.050131], [38.899648000000006, -77.050129], [38.899744, -77.050131], [38.899795000000005, -77.05013], [38.899848999999996, -77.050131], [38.9, -77.050127], [38.90008800000001, -77.050129], [38.90016299999998, -77.050133], [38.900253000000035, -77.050135], [38.90029400000004, -77.050135], [38.90033200000003, -77.050136], [38.90041300000004, -77.050133], [38.90051100000003, -77.050133], [38.900631000000025, -77.050131], [38.90065900000004, -77.050129], [38.900698999999996, -77.050128], [38.900698999999996, -77.049943], [38.900698000000006, -77.049887], [38.900698000000006, -77.049829], [38.90069699999998, -77.049774], [38.900699000000024, -77.049586], [38.900698000000006, -77.049533], [38.900698999999996, -77.049481], [38.90069699999998, -77.049411], [38.900693000000025, -77.049327], [38.900694000000016, -77.04924], [38.900693000000025, -77.04915], [38.900694000000016, -77.0491], [38.900694000000016, -77.04902000000001], [38.900693000000025, -77.048984], [38.90069200000002, -77.048824], [38.90069100000002, -77.048797], [38.900693000000025, -77.048751], [38.900692000000035, -77.048607], [38.900693000000025, -77.048556], [38.900693000000025, -77.0485], [38.90069500000002, -77.048445], [38.90069600000002, -77.048227], [38.90069600000002, -77.04785], [38.900694000000016, -77.047492], [38.900694000000016, -77.047271], [38.90069500000002, -77.046923], [38.900693000000025, -77.046651], [38.90059300000004, -77.046651], [38.90050399999996, -77.046652], [38.90013699999999, -77.04665], [38.89979300000001, -77.046654], [38.899577000000036, -77.04665300000002], [38.899494, -77.046652], [38.89918300000005, -77.04665500000002], [38.898795, -77.04665700000001], [38.89850700000002, -77.04665500000002], [38.89832200000001, -77.04665700000001], [38.898322, -77.047369], [38.89832400000002, -77.047919], [38.89832299999997, -77.048507], [38.898326, -77.04868], [38.898326, -77.048749], [38.89832900000004, -77.048837], [38.898207999999975, -77.048678], [38.898207999999975, -77.048427], [38.89785499999994, -77.048427], [38.89766400000001, -77.04842], [38.89765700000002, -77.048461], [38.897501, -77.048459], [38.897501, -77.048678], [38.89736000000001, -77.048847], [38.89735600000001, -77.049003], [38.897356999999985, -77.04907], [38.89735599999999, -77.049112], [38.897356999999985, -77.049253], [38.89735499999997, -77.049357], [38.89735499999997, -77.04946], [38.89735800000002, -77.049573], [38.89735600000001, -77.049683], [38.89735600000001, -77.049735], [38.89735800000002, -77.049776], [38.897359, -77.049822], [38.89735600000001, -77.049919], [38.89735499999997, -77.049984], [38.897356999999985, -77.05002], [38.89735800000002, -77.050136], [38.89741699999998, -77.050137], [38.89747900000002, -77.050135], [38.89755500000002, -77.050134], [38.89759799999998, -77.050132], [38.89767100000003, -77.050136], [38.897813999999954, -77.050139], [38.897953, -77.050134], [38.89801599999996, -77.050133], [38.898064999999995, -77.050135], [38.89810099999996, -77.050135], [38.89813500000004, -77.050134], [38.89818399999996, -77.050136], [38.898229000000015, -77.050136], [38.89829100000004, -77.050134], [38.898326999999995, -77.050135], [38.89850000000002, -77.050139], [38.89855700000002, -77.050139], [38.898637000000036, -77.050137], [38.89867799999999, -77.050137], [38.89871599999999, -77.050136], [38.898887, -77.05014], [38.898935000000044, -77.050142], [38.89915700000004, -77.05013700000002], [38.899279000000014, -77.050132]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_67ef99fcadd1f770606873e7f1ff5a27);
+        
+    
+        var popup_48fbb9071d40960199446e9a5e1c47f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_758e909d4267a7a66834502da4aa1b0c = $(`<div id="html_758e909d4267a7a66834502da4aa1b0c" style="width: 100.0%; height: 100.0%;"><b>District of Columbia - District of Columbia-CD98</b></div>`)[0];
+                popup_48fbb9071d40960199446e9a5e1c47f5.setContent(html_758e909d4267a7a66834502da4aa1b0c);
+            
+        
+
+        polygon_2cfe1dda416ce739c92b5604b15573dc.bindPopup(popup_48fbb9071d40960199446e9a5e1c47f5)
+        ;
+
+        
+    
+    
+            var circle_marker_0c91deaec814c051ac0c76f54e987c2f = L.circleMarker(
+                [38.89913801785714, -77.04921619642857],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_67ef99fcadd1f770606873e7f1ff5a27);
+        
+    
+        var popup_2dc3ac94f68401821f4721634f4a1f27 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc0d849dfdb382c76a10645eaf09ee24 = $(`<div id="html_fc0d849dfdb382c76a10645eaf09ee24" style="width: 100.0%; height: 100.0%;"><b>District of Columbia - District of Columbia-CD98</b></div>`)[0];
+                popup_2dc3ac94f68401821f4721634f4a1f27.setContent(html_fc0d849dfdb382c76a10645eaf09ee24);
+            
+        
+
+        circle_marker_0c91deaec814c051ac0c76f54e987c2f.bindPopup(popup_2dc3ac94f68401821f4721634f4a1f27)
+        ;
+
+        
+    
+    
+            circle_marker_0c91deaec814c051ac0c76f54e987c2f.bindTooltip(
+                `<div>
+                     District of Columbia - District of Columbia-CD98
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

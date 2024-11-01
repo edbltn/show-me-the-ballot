@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16b154700e67aebd02a5e0ecef086262 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Seward - Nebraska-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Seward - Nebraska-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Seward - Nebraska-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Seward - Nebraska-CD03</p>
+            </div>
+    
+            <div class="folium-map" id="map_16b154700e67aebd02a5e0ecef086262" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16b154700e67aebd02a5e0ecef086262 = L.map(
+                "map_16b154700e67aebd02a5e0ecef086262",
+                {
+                    center: [40.71066536820887, -97.34567068167556],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6a93bbde5105c9b000e55979f684034a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6a93bbde5105c9b000e55979f684034a.addTo(map_16b154700e67aebd02a5e0ecef086262);
+        
+    
+            var polygon_6e944bb8f3de5e36e69ea006a243d110 = L.polygon(
+                [[40.699965999999996, -97.349322], [40.70146399999996, -97.349291], [40.70295799999997, -97.349254], [40.704360999999984, -97.349226], [40.70586000000005, -97.349189], [40.70700400000001, -97.349151], [40.707286999999994, -97.349141], [40.70877600000002, -97.349142], [40.710271000000006, -97.349137], [40.71313699999996, -97.349156], [40.71313999999999, -97.350533], [40.71450800000001, -97.350521], [40.715841000000026, -97.350517], [40.71584200000001, -97.351213], [40.71583900000002, -97.351905], [40.71538899999999, -97.351904], [40.715082000000024, -97.351906], [40.71486600000006, -97.351908], [40.714588999999975, -97.35191], [40.71460699999996, -97.352613], [40.71462500000001, -97.353262], [40.715003999999965, -97.353267], [40.71512099999995, -97.353268], [40.71539399999998, -97.353271], [40.71585699999999, -97.353276], [40.71587100000002, -97.353891], [40.715884000000024, -97.354641], [40.71609599999998, -97.354634], [40.71632399999998, -97.354626], [40.71656699999998, -97.35461900000001], [40.71663800000005, -97.354599], [40.716850999999956, -97.35444300000002], [40.71692, -97.354376], [40.71723199999997, -97.354074], [40.71723599999995, -97.353287], [40.717503000000015, -97.35328000000001], [40.71767899999999, -97.353276], [40.717748999999976, -97.353275], [40.71792599999998, -97.353283], [40.71800199999998, -97.35325], [40.71848599999998, -97.352812], [40.718531000000034, -97.352747], [40.71856999999999, -97.35269], [40.718606000000044, -97.352527], [40.718633000000025, -97.352382], [40.71862900000001, -97.351885], [40.71862900000001, -97.351414], [40.71862700000004, -97.351221], [40.71862000000007, -97.350538], [40.71924999999999, -97.350534], [40.719239, -97.34993900000002], [40.71918399999998, -97.349151], [40.71910100000004, -97.34915], [40.71863100000002, -97.349148], [40.71761900000003, -97.349143], [40.71725299999997, -97.349147], [40.716594999999984, -97.349154], [40.71637199999997, -97.34915700000002], [40.71614800000001, -97.34916], [40.71583300000003, -97.349159], [40.71449599999996, -97.349153], [40.71418200000004, -97.349154], [40.71412500000002, -97.346691], [40.713125, -97.346715], [40.713124000000015, -97.346423], [40.71310899999999, -97.34328], [40.713115000000016, -97.34051], [40.71311299999999, -97.337908], [40.713105999999975, -97.335047], [40.71312099999999, -97.332198], [40.71311599999997, -97.331363], [40.71310799999997, -97.33006400000001], [40.71236199999999, -97.330067], [40.71134700000003, -97.330071], [40.709986999999984, -97.330123], [40.708709000000006, -97.330125], [40.70726699999997, -97.33014800000001], [40.705837999999964, -97.330142], [40.705656000000005, -97.330144], [40.70494899999998, -97.330153], [40.70452399999998, -97.330151], [40.701867999999955, -97.330206], [40.70050199999999, -97.330268], [40.69863081358872, -97.33031054897889], [40.69862933327314, -97.34936489815001], [40.699965999999996, -97.349322]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_16b154700e67aebd02a5e0ecef086262);
+        
+    
+        var popup_6f81d66098469224cb55f74078875574 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b32bbe7e6511310ce9f6efba85bee446 = $(`<div id="html_b32bbe7e6511310ce9f6efba85bee446" style="width: 100.0%; height: 100.0%;"><b>Seward - Nebraska-CD01</b></div>`)[0];
+                popup_6f81d66098469224cb55f74078875574.setContent(html_b32bbe7e6511310ce9f6efba85bee446);
+            
+        
+
+        polygon_6e944bb8f3de5e36e69ea006a243d110.bindPopup(popup_6f81d66098469224cb55f74078875574)
+        ;
+
+        
+    
+    
+            var circle_marker_9430331d69a7213031f6131b210bd515 = L.circleMarker(
+                [40.71319647845188, -97.3470115865945],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_16b154700e67aebd02a5e0ecef086262);
+        
+    
+        var popup_e656223be93a2bb22d962ddc08415c0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09c3becca574bddbbf23f231a9144619 = $(`<div id="html_09c3becca574bddbbf23f231a9144619" style="width: 100.0%; height: 100.0%;"><b>Seward - Nebraska-CD01</b></div>`)[0];
+                popup_e656223be93a2bb22d962ddc08415c0e.setContent(html_09c3becca574bddbbf23f231a9144619);
+            
+        
+
+        circle_marker_9430331d69a7213031f6131b210bd515.bindPopup(popup_e656223be93a2bb22d962ddc08415c0e)
+        ;
+
+        
+    
+    
+            circle_marker_9430331d69a7213031f6131b210bd515.bindTooltip(
+                `<div>
+                     Seward - Nebraska-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4d2815aab33a8fa68292d7d160c505e2 = L.polygon(
+                [[40.698551999999985, -97.332672], [40.698561, -97.334], [40.698551999999985, -97.335445], [40.69855799999996, -97.336585], [40.698563999999976, -97.339407], [40.698563999999976, -97.339583], [40.69856200000001, -97.339938], [40.698553999999994, -97.341595], [40.69856499999998, -97.344101], [40.69856699999994, -97.345969], [40.698575, -97.346794], [40.698589, -97.348176], [40.69859500000004, -97.349366], [40.69862933327314, -97.34936489815001], [40.69863081358872, -97.33031054897889], [40.698566999999926, -97.33031200000002], [40.698563999999976, -97.330464], [40.698551999999985, -97.332672]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_16b154700e67aebd02a5e0ecef086262);
+        
+    
+        var popup_185a0b843f339b4491ab7db6f9f1a703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4263229ea0f1098998eb99675950358 = $(`<div id="html_f4263229ea0f1098998eb99675950358" style="width: 100.0%; height: 100.0%;"><b>Seward - Nebraska-CD03</b></div>`)[0];
+                popup_185a0b843f339b4491ab7db6f9f1a703.setContent(html_f4263229ea0f1098998eb99675950358);
+            
+        
+
+        polygon_4d2815aab33a8fa68292d7d160c505e2.bindPopup(popup_185a0b843f339b4491ab7db6f9f1a703)
+        ;
+
+        
+    
+    
+            var circle_marker_6c4b2f05985894fa9213c5d8e86f0f3d = L.circleMarker(
+                [40.698572285936756, -97.33926413595161],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_16b154700e67aebd02a5e0ecef086262);
+        
+    
+        var popup_97908c7f3aa5b93dfe5f058d3fb54536 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_246d4a6b626a358dfc45a06377fc9fc3 = $(`<div id="html_246d4a6b626a358dfc45a06377fc9fc3" style="width: 100.0%; height: 100.0%;"><b>Seward - Nebraska-CD03</b></div>`)[0];
+                popup_97908c7f3aa5b93dfe5f058d3fb54536.setContent(html_246d4a6b626a358dfc45a06377fc9fc3);
+            
+        
+
+        circle_marker_6c4b2f05985894fa9213c5d8e86f0f3d.bindPopup(popup_97908c7f3aa5b93dfe5f058d3fb54536)
+        ;
+
+        
+    
+    
+            circle_marker_6c4b2f05985894fa9213c5d8e86f0f3d.bindTooltip(
+                `<div>
+                     Seward - Nebraska-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d4dfe497f06e359dc5ff4c1b2c4d0e58 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Alabama-CD06</p>
+            </div>
+    
+            <div class="folium-map" id="map_d4dfe497f06e359dc5ff4c1b2c4d0e58" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d4dfe497f06e359dc5ff4c1b2c4d0e58 = L.map(
+                "map_d4dfe497f06e359dc5ff4c1b2c4d0e58",
+                {
+                    center: [33.64023439860141, -86.77701088811189],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b94e067456b5578e9d3a47fa70c9aef4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b94e067456b5578e9d3a47fa70c9aef4.addTo(map_d4dfe497f06e359dc5ff4c1b2c4d0e58);
+        
+    
+            var polygon_7b1cea7cfeac670186fc26a7235696ed = L.polygon(
+                [[33.647529, -86.772083], [33.64784799999999, -86.771834], [33.64797499999997, -86.771735], [33.64858700000001, -86.771339], [33.64804499999994, -86.770531], [33.64799199999999, -86.770555], [33.64735899999998, -86.771213], [33.647292, -86.77128], [33.647208, -86.771364], [33.64717099999999, -86.771401], [33.646764999999995, -86.771809], [33.646638999999944, -86.77190900000001], [33.646569, -86.771964], [33.646357999999985, -86.772054], [33.64637399999999, -86.772156], [33.64616399999998, -86.77218], [33.64607099999998, -86.772177], [33.646057, -86.77285100000002], [33.64638999999994, -86.772817], [33.646478000000045, -86.772798], [33.64656199999999, -86.772788], [33.64685500000003, -86.772791], [33.64698300000003, -86.772599], [33.647158999999995, -86.772887], [33.64749499999999, -86.772663], [33.647318999999975, -86.772247], [33.647529, -86.772083]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d4dfe497f06e359dc5ff4c1b2c4d0e58);
+        
+    
+        var popup_e6a733d981965abdfa437243d098434c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bdb7bbd13b3c405b18263aa301e77a81 = $(`<div id="html_bdb7bbd13b3c405b18263aa301e77a81" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Alabama-CD06</b></div>`)[0];
+                popup_e6a733d981965abdfa437243d098434c.setContent(html_bdb7bbd13b3c405b18263aa301e77a81);
+            
+        
+
+        polygon_7b1cea7cfeac670186fc26a7235696ed.bindPopup(popup_e6a733d981965abdfa437243d098434c)
+        ;
+
+        
+    
+    
+            var circle_marker_aac67ffc79e2a016ee3aff56de652346 = L.circleMarker(
+                [33.647065666666656, -86.77200400000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d4dfe497f06e359dc5ff4c1b2c4d0e58);
+        
+    
+        var popup_61f97c94b0ae57bcbd1ee2ca9b4d7320 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7fb6624ae2a036079561965859c9bca = $(`<div id="html_a7fb6624ae2a036079561965859c9bca" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Alabama-CD06</b></div>`)[0];
+                popup_61f97c94b0ae57bcbd1ee2ca9b4d7320.setContent(html_a7fb6624ae2a036079561965859c9bca);
+            
+        
+
+        circle_marker_aac67ffc79e2a016ee3aff56de652346.bindPopup(popup_61f97c94b0ae57bcbd1ee2ca9b4d7320)
+        ;
+
+        
+    
+    
+            circle_marker_aac67ffc79e2a016ee3aff56de652346.bindTooltip(
+                `<div>
+                     Jefferson - Alabama-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_fa3205bb15824dfe6f9da8d1621f20fb = L.polygon(
+                [[33.646782000000016, -86.775139], [33.64578600000005, -86.776217], [33.64588299999995, -86.776297], [33.645937000000046, -86.776335], [33.64607799999997, -86.776509], [33.64645099999998, -86.777005], [33.64737300000001, -86.77578], [33.646782000000016, -86.775139]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d4dfe497f06e359dc5ff4c1b2c4d0e58);
+        
+    
+        var popup_eb13871893473640e3ceca162e455f5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bfd8c55b6b22dae2f96011602b07208 = $(`<div id="html_9bfd8c55b6b22dae2f96011602b07208" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Alabama-CD06</b></div>`)[0];
+                popup_eb13871893473640e3ceca162e455f5b.setContent(html_9bfd8c55b6b22dae2f96011602b07208);
+            
+        
+
+        polygon_fa3205bb15824dfe6f9da8d1621f20fb.bindPopup(popup_eb13871893473640e3ceca162e455f5b)
+        ;
+
+        
+    
+    
+            var circle_marker_ae427f2263c3de5441906a6ef1a815b6 = L.circleMarker(
+                [33.646384000000005, -86.776052625],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d4dfe497f06e359dc5ff4c1b2c4d0e58);
+        
+    
+        var popup_cdc9e77102aaf5743855365c46859889 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_201b7ba7aaf73e4427593b744da20991 = $(`<div id="html_201b7ba7aaf73e4427593b744da20991" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Alabama-CD06</b></div>`)[0];
+                popup_cdc9e77102aaf5743855365c46859889.setContent(html_201b7ba7aaf73e4427593b744da20991);
+            
+        
+
+        circle_marker_ae427f2263c3de5441906a6ef1a815b6.bindPopup(popup_cdc9e77102aaf5743855365c46859889)
+        ;
+
+        
+    
+    
+            circle_marker_ae427f2263c3de5441906a6ef1a815b6.bindTooltip(
+                `<div>
+                     Jefferson - Alabama-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_d3c9378e59551ff9b59ade6593ce02f6 = L.polygon(
+                [[33.63436000000004, -86.782986], [33.63502199999998, -86.782523], [33.635189, -86.78251800000001], [33.63538900000001, -86.782376], [33.635934000000006, -86.782087], [33.636272, -86.781922], [33.63651799999999, -86.781796], [33.63688700000002, -86.781571], [33.63694999999999, -86.781531], [33.63712399999999, -86.781434], [33.63757000000001, -86.781039], [33.63835300000005, -86.780217], [33.63840199999996, -86.780165], [33.63858499999997, -86.77999800000002], [33.63864199999999, -86.779938], [33.63909100000003, -86.779465], [33.63971200000001, -86.778945], [33.64048499999996, -86.778369], [33.640831999999946, -86.778174], [33.640972000000005, -86.778095], [33.64103200000001, -86.778044], [33.641298, -86.777817], [33.641321999999995, -86.777797], [33.641492000000014, -86.7777], [33.641613000000014, -86.777596], [33.64189600000002, -86.777354], [33.64202000000001, -86.777284], [33.642326999999945, -86.77706], [33.64243200000001, -86.776954], [33.64261599999998, -86.776755], [33.64277800000001, -86.776606], [33.64282100000002, -86.776506], [33.64283200000002, -86.77636200000002], [33.64278199999999, -86.776189], [33.642728999999974, -86.776112], [33.64264800000003, -86.776071], [33.642825999999985, -86.775993], [33.642875, -86.775671], [33.64271400000004, -86.77539], [33.64260499999997, -86.775296], [33.642494999999954, -86.7752], [33.64243299999996, -86.775008], [33.642355999999964, -86.774906], [33.642276999999964, -86.774838], [33.642161999999985, -86.77480400000002], [33.64210100000002, -86.774798], [33.64206300000003, -86.774803], [33.64202000000001, -86.774809], [33.641991999999995, -86.77482], [33.64178100000002, -86.774907], [33.641653000000005, -86.77485], [33.64157499999996, -86.774785], [33.64151400000002, -86.774771], [33.64139599999999, -86.774778], [33.641270000000006, -86.774821], [33.64121399999997, -86.774783], [33.64108099999999, -86.774807], [33.64079500000001, -86.774782], [33.640752000000006, -86.774887], [33.64059899999998, -86.775047], [33.640315000000015, -86.775467], [33.64012400000002, -86.775284], [33.64001500000001, -86.775457], [33.63987100000003, -86.775664], [33.639834, -86.775728], [33.639696, -86.775714], [33.63957400000002, -86.775737], [33.639291, -86.775646], [33.639360999999994, -86.77559000000001], [33.639025, -86.775204], [33.637260999999945, -86.776914], [33.637313000000006, -86.777004], [33.636880000000026, -86.777523], [33.63662600000004, -86.77771], [33.636152, -86.778139], [33.636061000000005, -86.778178], [33.63553699999998, -86.778305], [33.63538300000001, -86.778423], [33.635090000000005, -86.7787], [33.634844999999984, -86.778885], [33.63447200000002, -86.779068], [33.63418800000003, -86.77926], [33.63395300000004, -86.77943700000002], [33.633903000000046, -86.779491], [33.63378799999999, -86.779615], [33.63350999999997, -86.779915], [33.63343400000002, -86.779983], [33.633323, -86.780084], [33.633022000000004, -86.780301], [33.632997999999965, -86.780318], [33.63295399999996, -86.78035000000001], [33.631962, -86.780919], [33.63185199999998, -86.780959], [33.63177299999999, -86.781023], [33.63167900000002, -86.7811], [33.63113500000001, -86.781629], [33.631328999999944, -86.781831], [33.63149999999997, -86.782024], [33.63173800000001, -86.782339], [33.63210100000003, -86.782914], [33.632200000000054, -86.783072], [33.632224000000015, -86.783129], [33.63311100000003, -86.783303], [33.633623000000014, -86.783047], [33.63352499999998, -86.783494], [33.634014000000015, -86.783212], [33.634273000000015, -86.783043], [33.63436000000004, -86.782986]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d4dfe497f06e359dc5ff4c1b2c4d0e58);
+        
+    
+        var popup_0da78235017f08795ca984404d8646a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34d7066d54623041e80059e1c748fa20 = $(`<div id="html_34d7066d54623041e80059e1c748fa20" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Alabama-CD06</b></div>`)[0];
+                popup_0da78235017f08795ca984404d8646a3.setContent(html_34d7066d54623041e80059e1c748fa20);
+            
+        
+
+        polygon_d3c9378e59551ff9b59ade6593ce02f6.bindPopup(popup_0da78235017f08795ca984404d8646a3)
+        ;
+
+        
+    
+    
+            var circle_marker_84ca6edffaf6cf8398a67e852c1ee6da = L.circleMarker(
+                [33.638071055555564, -86.77833359259257],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d4dfe497f06e359dc5ff4c1b2c4d0e58);
+        
+    
+        var popup_69313191dc6b802384a040cc16a3b727 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_185fcd5e7199ada7858d99478bc29123 = $(`<div id="html_185fcd5e7199ada7858d99478bc29123" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Alabama-CD06</b></div>`)[0];
+                popup_69313191dc6b802384a040cc16a3b727.setContent(html_185fcd5e7199ada7858d99478bc29123);
+            
+        
+
+        circle_marker_84ca6edffaf6cf8398a67e852c1ee6da.bindPopup(popup_69313191dc6b802384a040cc16a3b727)
+        ;
+
+        
+    
+    
+            circle_marker_84ca6edffaf6cf8398a67e852c1ee6da.bindTooltip(
+                `<div>
+                     Jefferson - Alabama-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_69753d50581d9b4fafd9b8f2c6b617c2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marshall - Iowa-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marshall - Iowa-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marshall - Iowa-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marshall - Iowa-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_69753d50581d9b4fafd9b8f2c6b617c2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_69753d50581d9b4fafd9b8f2c6b617c2 = L.map(
+                "map_69753d50581d9b4fafd9b8f2c6b617c2",
+                {
+                    center: [42.00410565680617, -92.77722432835635],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d453cb8841811d880668376b6cc46187 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d453cb8841811d880668376b6cc46187.addTo(map_69753d50581d9b4fafd9b8f2c6b617c2);
+        
+    
+            var polygon_707df3787f3dbdb31b1b4466e49cb9c3 = L.polygon(
+                [[42.00664700000001, -92.766041], [42.00541600000002, -92.766053], [42.00172500000001, -92.766089], [42.000494999999994, -92.766102], [42.00025999999998, -92.766106], [41.999989, -92.766112], [41.99963199999998, -92.766112], [41.99954899999999, -92.766113], [41.99954899999999, -92.76628], [41.999548078734726, -92.76657479987472], [42.0073189923339, -92.76660748362724], [42.007109, -92.766042], [42.00685500000004, -92.766041], [42.00664700000001, -92.766041]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69753d50581d9b4fafd9b8f2c6b617c2);
+        
+    
+        var popup_8630dc29d824d4cf53ad25a75b5a86ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dd6ef09afa4a001437f557a92d98e10 = $(`<div id="html_4dd6ef09afa4a001437f557a92d98e10" style="width: 100.0%; height: 100.0%;"><b>Marshall - Iowa-CD02</b></div>`)[0];
+                popup_8630dc29d824d4cf53ad25a75b5a86ad.setContent(html_4dd6ef09afa4a001437f557a92d98e10);
+            
+        
+
+        polygon_707df3787f3dbdb31b1b4466e49cb9c3.bindPopup(popup_8630dc29d824d4cf53ad25a75b5a86ad)
+        ;
+
+        
+    
+    
+            var circle_marker_77970c34b5b33a16a563b6e521c4fd76 = L.circleMarker(
+                [42.00291000507634, -92.76616530596444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69753d50581d9b4fafd9b8f2c6b617c2);
+        
+    
+        var popup_8db55701f692e4f953c5d1294862cd61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60106444e1237d02db62fde9234b335a = $(`<div id="html_60106444e1237d02db62fde9234b335a" style="width: 100.0%; height: 100.0%;"><b>Marshall - Iowa-CD02</b></div>`)[0];
+                popup_8db55701f692e4f953c5d1294862cd61.setContent(html_60106444e1237d02db62fde9234b335a);
+            
+        
+
+        circle_marker_77970c34b5b33a16a563b6e521c4fd76.bindPopup(popup_8db55701f692e4f953c5d1294862cd61)
+        ;
+
+        
+    
+    
+            circle_marker_77970c34b5b33a16a563b6e521c4fd76.bindTooltip(
+                `<div>
+                     Marshall - Iowa-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8bf8d382a71634ad3214794f83387f20 = L.polygon(
+                [[41.99953799999997, -92.769786], [41.99866, -92.769773], [41.998710000000024, -92.770152], [41.99873799999997, -92.770344], [41.99882299999994, -92.770877], [41.998837000000016, -92.770975], [41.998927000000045, -92.771438], [41.999020999999985, -92.77189], [41.99928399999998, -92.772977], [41.99952899999998, -92.772969], [41.999526000000024, -92.773798], [41.999526000000024, -92.774088], [41.999523999999965, -92.774579], [41.999523999999965, -92.774746], [41.99952200000003, -92.775285], [41.999520999999994, -92.775648], [41.99966499999997, -92.775649], [41.99967699999997, -92.77565], [41.99972800000003, -92.775652], [41.99978700000002, -92.775908], [41.999967000000034, -92.776676], [41.99997400000001, -92.776704], [42.000072000000046, -92.776917], [42.00054199999999, -92.77754800000001], [42.00061399999998, -92.778181], [42.00075199999998, -92.778568], [42.00136600000002, -92.780288], [42.00180799999997, -92.78137], [42.002924999999976, -92.78362], [42.003538999999975, -92.784856], [42.00380700000005, -92.785226], [42.004007000000016, -92.78521100000002], [42.00424700000005, -92.785194], [42.004607000000014, -92.785177], [42.004807999999976, -92.785168], [42.004982000000005, -92.785158], [42.005504000000045, -92.785128], [42.005640000000035, -92.785121], [42.00567900000002, -92.78512], [42.005874999999975, -92.785117], [42.006464000000015, -92.785109], [42.006661, -92.785107], [42.00666099999999, -92.785285], [42.00666399999999, -92.785818], [42.006665, -92.785997], [42.006665, -92.786068], [42.006665, -92.786284], [42.006665999999996, -92.786356], [42.00666699999998, -92.786576], [42.007212, -92.786577], [42.00721, -92.785145], [42.007347, -92.785166], [42.007752999999944, -92.785225], [42.00821799999992, -92.785267], [42.00834, -92.785272], [42.008503999999974, -92.78528], [42.008852000000026, -92.785283], [42.01021700000003, -92.785248], [42.011071000000044, -92.785237], [42.011340000000004, -92.785234], [42.011809999999954, -92.785228], [42.012071000000006, -92.785225], [42.01209400000001, -92.782204], [42.01201300000006, -92.780368], [42.01194800000001, -92.779004], [42.01129700000002, -92.775692], [42.010842999999966, -92.774359], [42.01037199999996, -92.77317300000001], [42.00759899999997, -92.767154], [42.007376000000015, -92.76676100000002], [42.0073189923339, -92.76660748362724], [41.999548078734726, -92.76657479987472], [41.99953799999997, -92.769786]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69753d50581d9b4fafd9b8f2c6b617c2);
+        
+    
+        var popup_c87e3ad68261bcea024b04ab86b658ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36b8310c4c9eff382d0f8c6e0b9d0df1 = $(`<div id="html_36b8310c4c9eff382d0f8c6e0b9d0df1" style="width: 100.0%; height: 100.0%;"><b>Marshall - Iowa-CD04</b></div>`)[0];
+                popup_c87e3ad68261bcea024b04ab86b658ae.setContent(html_36b8310c4c9eff382d0f8c6e0b9d0df1);
+            
+        
+
+        polygon_8bf8d382a71634ad3214794f83387f20.bindPopup(popup_c87e3ad68261bcea024b04ab86b658ae)
+        ;
+
+        
+    
+    
+            var circle_marker_9910fc60e8392a10ec01c1662dbc56df = L.circleMarker(
+                [42.00433495987765, -92.7793452367603],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69753d50581d9b4fafd9b8f2c6b617c2);
+        
+    
+        var popup_1c1191e12bf9e97b26e37d2beb03cc6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feda867cae23c4063f8217b251f04d8d = $(`<div id="html_feda867cae23c4063f8217b251f04d8d" style="width: 100.0%; height: 100.0%;"><b>Marshall - Iowa-CD04</b></div>`)[0];
+                popup_1c1191e12bf9e97b26e37d2beb03cc6e.setContent(html_feda867cae23c4063f8217b251f04d8d);
+            
+        
+
+        circle_marker_9910fc60e8392a10ec01c1662dbc56df.bindPopup(popup_1c1191e12bf9e97b26e37d2beb03cc6e)
+        ;
+
+        
+    
+    
+            circle_marker_9910fc60e8392a10ec01c1662dbc56df.bindTooltip(
+                `<div>
+                     Marshall - Iowa-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

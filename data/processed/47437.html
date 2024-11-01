@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_199a2f641c3afbb77acc953cc22045f9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lawrence - Indiana-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lawrence - Indiana-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lawrence - Indiana-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lawrence - Indiana-CD09</p>
+            </div>
+    
+            <div class="folium-map" id="map_199a2f641c3afbb77acc953cc22045f9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_199a2f641c3afbb77acc953cc22045f9 = L.map(
+                "map_199a2f641c3afbb77acc953cc22045f9",
+                {
+                    center: [38.715242340086014, -86.67325388656775],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2c49fc70a3b760a5e424ba1f76ffdc48 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2c49fc70a3b760a5e424ba1f76ffdc48.addTo(map_199a2f641c3afbb77acc953cc22045f9);
+        
+    
+            var polygon_c01bf98c06f79a428074b015978469c0 = L.polygon(
+                [[38.71603100000002, -86.683257], [38.717300999999985, -86.683264], [38.71825000000003, -86.683285], [38.71871900000001, -86.683295], [38.71879117687058, -86.68306530294453], [38.7023197181612, -86.68308406126935], [38.70227400000001, -86.683185], [38.71384799999998, -86.683246], [38.71603100000002, -86.683257]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_199a2f641c3afbb77acc953cc22045f9);
+        
+    
+        var popup_a8a2ed067adc9508e30f51ba9f2d580b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8c5c04fd0c83d21f2a6b0aea60801b1 = $(`<div id="html_b8c5c04fd0c83d21f2a6b0aea60801b1" style="width: 100.0%; height: 100.0%;"><b>Lawrence - Indiana-CD08</b></div>`)[0];
+                popup_a8a2ed067adc9508e30f51ba9f2d580b.setContent(html_b8c5c04fd0c83d21f2a6b0aea60801b1);
+            
+        
+
+        polygon_c01bf98c06f79a428074b015978469c0.bindPopup(popup_a8a2ed067adc9508e30f51ba9f2d580b)
+        ;
+
+        
+    
+    
+            var circle_marker_94bce30fa6c61ce34375bfefe29c6429 = L.circleMarker(
+                [38.71372943278132, -86.68321537380154],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_199a2f641c3afbb77acc953cc22045f9);
+        
+    
+        var popup_12e46b2bbb2c96f7ef94761a3b69cf29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d8ca4bd6ae9cabf4bc0432246ced3bc = $(`<div id="html_5d8ca4bd6ae9cabf4bc0432246ced3bc" style="width: 100.0%; height: 100.0%;"><b>Lawrence - Indiana-CD08</b></div>`)[0];
+                popup_12e46b2bbb2c96f7ef94761a3b69cf29.setContent(html_5d8ca4bd6ae9cabf4bc0432246ced3bc);
+            
+        
+
+        circle_marker_94bce30fa6c61ce34375bfefe29c6429.bindPopup(popup_12e46b2bbb2c96f7ef94761a3b69cf29)
+        ;
+
+        
+    
+    
+            circle_marker_94bce30fa6c61ce34375bfefe29c6429.bindTooltip(
+                `<div>
+                     Lawrence - Indiana-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_96df03976fc25612b3a7e34c43fde425 = L.polygon(
+                [[38.71900399999998, -86.682388], [38.71986199999999, -86.679668], [38.720009000000005, -86.679205], [38.72010800000001, -86.678975], [38.72022300000002, -86.678795], [38.72063799999998, -86.677575], [38.72188300000002, -86.673918], [38.72229900000003, -86.672699], [38.72253500000001, -86.671804], [38.72255099999999, -86.671731], [38.72275700000002, -86.67082800000001], [38.722853000000015, -86.670076], [38.72287399999998, -86.669161], [38.72285200000002, -86.66876], [38.72284200000001, -86.668551], [38.72274099999997, -86.667767], [38.72272600000001, -86.667826], [38.722683, -86.668003], [38.722669999999965, -86.668063], [38.722663999999995, -86.66809], [38.72266099999998, -86.668137], [38.72265199999999, -86.668363], [38.722648999999976, -86.66843900000002], [38.72248700000001, -86.668405], [38.72200200000004, -86.668303], [38.72184100000001, -86.66827], [38.72148499999999, -86.668192], [38.721416, -86.668177], [38.72093300000005, -86.668085], [38.72042000000002, -86.667959], [38.720406, -86.667956], [38.720216000000015, -86.667941], [38.72016500000001, -86.667966], [38.72012600000003, -86.668023], [38.72011399999999, -86.668053], [38.72007200000002, -86.668155], [38.72006200000001, -86.668243], [38.719996, -86.66883600000001], [38.71997500000001, -86.669034], [38.719947, -86.669246], [38.71989600000001, -86.669642], [38.719848000000034, -86.669883], [38.71980699999996, -86.670094], [38.71962600000002, -86.67005400000001], [38.71908499999997, -86.669937], [38.71893499999999, -86.669905], [38.71890600000001, -86.669895], [38.718842000000016, -86.670314], [38.71879200000003, -86.670644], [38.71873000000002, -86.671305], [38.718708, -86.67158], [38.71868000000001, -86.671704], [38.718691999999976, -86.672002], [38.71836499999997, -86.671931], [38.71823100000002, -86.671905], [38.71774099999996, -86.671811], [38.717413, -86.671722], [38.71723899999998, -86.671596], [38.71696199999997, -86.67137], [38.71682300000001, -86.671257], [38.71657799999996, -86.671102], [38.71647100000003, -86.670898], [38.716208999999985, -86.67039600000001], [38.71618100000001, -86.670279], [38.71613000000003, -86.670056], [38.71543600000002, -86.669994], [38.71458800000003, -86.66992], [38.71335099999998, -86.669926], [38.71265500000004, -86.66993], [38.71263100000005, -86.669931], [38.71256299999997, -86.669935], [38.71254, -86.669937], [38.71190299999998, -86.67021800000002], [38.71121900000001, -86.67052], [38.71095300000004, -86.670937], [38.710424000000025, -86.671771], [38.71008299999999, -86.67213000000001], [38.708920000000006, -86.672834], [38.70852399999999, -86.673152], [38.707706999999964, -86.673855], [38.70759099999998, -86.67390900000001], [38.70748199999997, -86.673938], [38.707330999999975, -86.674079], [38.706776000000005, -86.674619], [38.706654000000015, -86.67473000000001], [38.706609, -86.674772], [38.706401000000014, -86.674904], [38.706159999999976, -86.674983], [38.70582200000001, -86.675021], [38.70552000000002, -86.67501], [38.705082000000026, -86.674828], [38.70496000000006, -86.674746], [38.70486299999998, -86.674689], [38.704797, -86.674836], [38.70471399999999, -86.676725], [38.70471199999999, -86.676784], [38.70553900000003, -86.677364], [38.70565400000004, -86.67762500000002], [38.70561100000001, -86.678614], [38.70533899999995, -86.679515], [38.705020999999995, -86.680214], [38.70476999999997, -86.680475], [38.703338, -86.681469], [38.703309999999966, -86.681489], [38.70283199999997, -86.681953], [38.7023197181612, -86.68308406126935], [38.71879117687058, -86.68306530294453], [38.71900399999998, -86.682388]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_199a2f641c3afbb77acc953cc22045f9);
+        
+    
+        var popup_e88bdbb4d8d8befe0c24c484506442be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83965675dc04a319a4409f4fb845e3fd = $(`<div id="html_83965675dc04a319a4409f4fb845e3fd" style="width: 100.0%; height: 100.0%;"><b>Lawrence - Indiana-CD09</b></div>`)[0];
+                popup_e88bdbb4d8d8befe0c24c484506442be.setContent(html_83965675dc04a319a4409f4fb845e3fd);
+            
+        
+
+        polygon_96df03976fc25612b3a7e34c43fde425.bindPopup(popup_e88bdbb4d8d8befe0c24c484506442be)
+        ;
+
+        
+    
+    
+            var circle_marker_998ac12cb3f8a6e354703951ed4085b0 = L.circleMarker(
+                [38.71536841569474, -86.67242376263158],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_199a2f641c3afbb77acc953cc22045f9);
+        
+    
+        var popup_64992dba76a0650313ffd4ebdf2209b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fffc27f37a60526143155f9079ef3f83 = $(`<div id="html_fffc27f37a60526143155f9079ef3f83" style="width: 100.0%; height: 100.0%;"><b>Lawrence - Indiana-CD09</b></div>`)[0];
+                popup_64992dba76a0650313ffd4ebdf2209b2.setContent(html_fffc27f37a60526143155f9079ef3f83);
+            
+        
+
+        circle_marker_998ac12cb3f8a6e354703951ed4085b0.bindPopup(popup_64992dba76a0650313ffd4ebdf2209b2)
+        ;
+
+        
+    
+    
+            circle_marker_998ac12cb3f8a6e354703951ed4085b0.bindTooltip(
+                `<div>
+                     Lawrence - Indiana-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

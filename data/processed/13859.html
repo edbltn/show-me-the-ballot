@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f33e3413eb1f0b170d2f30289fd96e2c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Otsego - New York-CD19</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Otsego - New York-CD19</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Otsego - New York-CD19</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Otsego - New York-CD19</p>
+            </div>
+    
+            <div class="folium-map" id="map_f33e3413eb1f0b170d2f30289fd96e2c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f33e3413eb1f0b170d2f30289fd96e2c = L.map(
+                "map_f33e3413eb1f0b170d2f30289fd96e2c",
+                {
+                    center: [42.36971792696629, -75.25506783146068],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a54ea746a05402ec9c9971766b5b55d7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a54ea746a05402ec9c9971766b5b55d7.addTo(map_f33e3413eb1f0b170d2f30289fd96e2c);
+        
+    
+            var polygon_ff7850665249c32304a7b5a70383208c = L.polygon(
+                [[42.36731299999997, -75.257374], [42.36736700000002, -75.256938], [42.367380999999966, -75.256676], [42.36740100000003, -75.256612], [42.36744499999999, -75.25658], [42.36757600000005, -75.256557], [42.367683000000014, -75.256495], [42.36775199999996, -75.256402], [42.36779999999997, -75.256305], [42.36814500000002, -75.255498], [42.36823300000004, -75.255385], [42.368331, -75.255312], [42.36843299999999, -75.255272], [42.36847700000002, -75.25526100000002], [42.36857100000001, -75.25526], [42.36876099999999, -75.255258], [42.36886300000002, -75.255225], [42.36918400000005, -75.255028], [42.369390999999986, -75.254922], [42.369501, -75.254846], [42.36964600000003, -75.254718], [42.36974499999997, -75.254601], [42.36996299999996, -75.254233], [42.37050299999997, -75.253506], [42.370603999999965, -75.25344], [42.37071000000001, -75.253396], [42.370815999999984, -75.253367], [42.37097200000002, -75.25338500000001], [42.371013000000026, -75.253411], [42.37105600000001, -75.253458], [42.371104, -75.253531], [42.37122000000001, -75.25375], [42.37126800000003, -75.253812], [42.371307999999935, -75.253841], [42.37144199999999, -75.253879], [42.37160600000001, -75.25389], [42.371843000000005, -75.253861], [42.37225500000004, -75.253712], [42.372345999999965, -75.253694], [42.37245899999997, -75.253723], [42.372574999999976, -75.253796], [42.37264499999999, -75.253785], [42.372767999999965, -75.253706], [42.372891999999965, -75.25358600000001], [42.37354799999998, -75.25260300000001], [42.373613, -75.252536], [42.37373800000001, -75.252449], [42.37398600000006, -75.252299], [42.374152999999986, -75.252186], [42.37455000000001, -75.252051], [42.374658999999966, -75.252004], [42.37478699999998, -75.251924], [42.374999000000024, -75.25174], [42.375103000000045, -75.25170100000001], [42.37517600000001, -75.251649], [42.375228000000035, -75.25159], [42.375358999999975, -75.25139300000001], [42.375424999999986, -75.251226], [42.37544600000003, -75.251195], [42.375522000000004, -75.251136], [42.375560000000014, -75.25108800000001], [42.37560099999999, -75.251012], [42.37576000000002, -75.250877], [42.37600599999998, -75.250589], [42.37618300000004, -75.25029200000002], [42.37638200000003, -75.249934], [42.376566, -75.249698], [42.37724499999999, -75.249048], [42.37752800000004, -75.248764], [42.377788999999986, -75.248031], [42.37793200000001, -75.247628], [42.37947800000005, -75.243307], [42.37517100000001, -75.24269900000002], [42.37145300000005, -75.242174], [42.37135199999998, -75.24211400000002], [42.36616000000001, -75.241364], [42.366277999999994, -75.241917], [42.36634899999999, -75.242153], [42.366435999999986, -75.242393], [42.366567000000046, -75.242729], [42.36688499999999, -75.243409], [42.36722399999998, -75.244072], [42.367078999999976, -75.244258], [42.36669999999998, -75.244886], [42.366878, -75.245037], [42.36703699999999, -75.245234], [42.367271999999964, -75.245702], [42.36742499999999, -75.246104], [42.367556000000015, -75.24655400000002], [42.36761099999998, -75.246853], [42.367624999999975, -75.247209], [42.36760399999995, -75.247621], [42.36756299999999, -75.248052], [42.36752400000002, -75.248356], [42.36739199999994, -75.24902], [42.36734399999998, -75.249161], [42.367247000000035, -75.249358], [42.367142999999984, -75.24962], [42.36697700000001, -75.24994700000002], [42.366756000000024, -75.250369], [42.366625000000056, -75.250547], [42.36629899999999, -75.25094], [42.36607799999997, -75.251165], [42.36566299999999, -75.251623], [42.365399999999994, -75.25196], [42.36521300000005, -75.25226], [42.36507499999999, -75.25255], [42.364999000000005, -75.252887], [42.364915999999994, -75.253412], [42.36473700000001, -75.254666], [42.36473700000001, -75.255218], [42.36477800000001, -75.25548100000002], [42.36487500000002, -75.255715], [42.365228, -75.25611700000002], [42.36561499999997, -75.25657600000001], [42.365774000000044, -75.256801], [42.365933, -75.257119], [42.36625200000002, -75.257643], [42.36658400000001, -75.258055], [42.36666, -75.258121], [42.36689499999998, -75.258196], [42.36699899999998, -75.258261], [42.367102, -75.258364], [42.36725899999994, -75.258641], [42.36740799999995, -75.25842], [42.36734700000003, -75.257888], [42.36731299999997, -75.257374]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f33e3413eb1f0b170d2f30289fd96e2c);
+        
+    
+        var popup_83036d08c1892e90c66594f9fed2b11a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e6a9364252fc563d3121362a8e30ca6 = $(`<div id="html_3e6a9364252fc563d3121362a8e30ca6" style="width: 100.0%; height: 100.0%;"><b>Otsego - New York-CD19</b></div>`)[0];
+                popup_83036d08c1892e90c66594f9fed2b11a.setContent(html_3e6a9364252fc563d3121362a8e30ca6);
+            
+        
+
+        polygon_ff7850665249c32304a7b5a70383208c.bindPopup(popup_83036d08c1892e90c66594f9fed2b11a)
+        ;
+
+        
+    
+    
+            var circle_marker_c5e554fba78fb986317a2d5b47c8685e = L.circleMarker(
+                [42.369843, -75.25198111811025],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f33e3413eb1f0b170d2f30289fd96e2c);
+        
+    
+        var popup_0cf21954df943c8d65b3464bf492b170 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2dc26890884b03b5a2d82e19940bc8e = $(`<div id="html_c2dc26890884b03b5a2d82e19940bc8e" style="width: 100.0%; height: 100.0%;"><b>Otsego - New York-CD19</b></div>`)[0];
+                popup_0cf21954df943c8d65b3464bf492b170.setContent(html_c2dc26890884b03b5a2d82e19940bc8e);
+            
+        
+
+        circle_marker_c5e554fba78fb986317a2d5b47c8685e.bindPopup(popup_0cf21954df943c8d65b3464bf492b170)
+        ;
+
+        
+    
+    
+            circle_marker_c5e554fba78fb986317a2d5b47c8685e.bindTooltip(
+                `<div>
+                     Otsego - New York-CD19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_30a7e07cc48cd129a69daefc4b9db9bc = L.polygon(
+                [[42.37151399999998, -75.263462], [42.37137799999997, -75.263133], [42.371243000000014, -75.262786], [42.371067, -75.262851], [42.37097200000007, -75.262874], [42.37087000000002, -75.262874], [42.370757999999995, -75.262864], [42.37061599999994, -75.262828], [42.370476999999966, -75.262722], [42.37017500000003, -75.262474], [42.36972400000001, -75.261988], [42.36934799999998, -75.261543], [42.368548000000004, -75.2608], [42.36837199999997, -75.260589], [42.367799, -75.259969], [42.36770300000001, -75.25980200000001], [42.367639999999966, -75.260292], [42.367582999999954, -75.260592], [42.36750900000002, -75.260927], [42.36742900000004, -75.261195], [42.36728100000001, -75.261612], [42.367040000000046, -75.262185], [42.36721699999999, -75.262417], [42.36749699999996, -75.262815], [42.36759299999994, -75.262937], [42.36765, -75.263022], [42.36769499999998, -75.263064], [42.36791300000001, -75.263125], [42.36807099999999, -75.263282], [42.368193, -75.26336200000001], [42.368439000000016, -75.263435], [42.36851799999999, -75.263454], [42.36856899999999, -75.263454], [42.36890199999996, -75.263282], [42.36910599999998, -75.263224], [42.36919900000004, -75.263228], [42.36927799999996, -75.263259], [42.36940799999998, -75.26334700000001], [42.36957800000002, -75.263485], [42.37005600000001, -75.263787], [42.370200000000025, -75.263818], [42.37026800000001, -75.263806], [42.370508000000044, -75.26373], [42.37058999999999, -75.263722], [42.37101000000001, -75.263814], [42.37137799999997, -75.263956], [42.371443000000035, -75.263994], [42.37160099999998, -75.264044], [42.371686000000004, -75.264051], [42.37160400000003, -75.26373400000001], [42.37151399999998, -75.263462]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f33e3413eb1f0b170d2f30289fd96e2c);
+        
+    
+        var popup_136caea8cf96e7e967755b92a7181bd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4523f12445f7687e2fc7b440a8152f8 = $(`<div id="html_f4523f12445f7687e2fc7b440a8152f8" style="width: 100.0%; height: 100.0%;"><b>Otsego - New York-CD19</b></div>`)[0];
+                popup_136caea8cf96e7e967755b92a7181bd8.setContent(html_f4523f12445f7687e2fc7b440a8152f8);
+            
+        
+
+        polygon_30a7e07cc48cd129a69daefc4b9db9bc.bindPopup(popup_136caea8cf96e7e967755b92a7181bd8)
+        ;
+
+        
+    
+    
+            var circle_marker_9ef0b611b27e2cef727d1c9f1f230137 = L.circleMarker(
+                [42.36940647058823, -75.26275435294119],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f33e3413eb1f0b170d2f30289fd96e2c);
+        
+    
+        var popup_ccc1eb6048047dcd7287b569a90d40c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_845e85f7d7cd598823de69da030c925c = $(`<div id="html_845e85f7d7cd598823de69da030c925c" style="width: 100.0%; height: 100.0%;"><b>Otsego - New York-CD19</b></div>`)[0];
+                popup_ccc1eb6048047dcd7287b569a90d40c9.setContent(html_845e85f7d7cd598823de69da030c925c);
+            
+        
+
+        circle_marker_9ef0b611b27e2cef727d1c9f1f230137.bindPopup(popup_ccc1eb6048047dcd7287b569a90d40c9)
+        ;
+
+        
+    
+    
+            circle_marker_9ef0b611b27e2cef727d1c9f1f230137.bindTooltip(
+                `<div>
+                     Otsego - New York-CD19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

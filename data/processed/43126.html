@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_566ea53f7bbd9a8fdfbbf65d5eaa370b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Ohio-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Ohio-CD15</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Ohio-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Ohio-CD15</p>
+            </div>
+    
+            <div class="folium-map" id="map_566ea53f7bbd9a8fdfbbf65d5eaa370b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_566ea53f7bbd9a8fdfbbf65d5eaa370b = L.map(
+                "map_566ea53f7bbd9a8fdfbbf65d5eaa370b",
+                {
+                    center: [39.81045657824048, -83.16911467909023],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fb1682f1de3007729210d2cc508fac63 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fb1682f1de3007729210d2cc508fac63.addTo(map_566ea53f7bbd9a8fdfbbf65d5eaa370b);
+        
+    
+            var polygon_8b53a8f8e2e01c5d21fd56a71537a5eb = L.polygon(
+                [[39.80876000000004, -83.168424], [39.808763, -83.168477], [39.808783999999996, -83.168888], [39.80878700000004, -83.16895], [39.80878900000004, -83.168981], [39.80879099999997, -83.16902], [39.808797000000006, -83.169383], [39.80881699999999, -83.169892], [39.80882299999999, -83.170043], [39.808852999999964, -83.170816], [39.808856999999946, -83.170929], [39.80889, -83.171869], [39.80890900000003, -83.172285], [39.808933, -83.172521], [39.808950000000024, -83.17269500000002], [39.80895400000003, -83.172731], [39.80895699999999, -83.172764], [39.80897399999998, -83.172938], [39.80964970730054, -83.17297217593966], [39.809259000559344, -83.1633636667603], [39.809079, -83.163952], [39.80899899999995, -83.164524], [39.808907000000026, -83.165133], [39.808852999999964, -83.165516], [39.80877999999994, -83.166052], [39.80874200000001, -83.166477], [39.80871100000002, -83.166829], [39.808706999999984, -83.167425], [39.808737999999984, -83.167798], [39.80875500000005, -83.16793], [39.80873499999997, -83.167938], [39.808738999999996, -83.168016], [39.80876000000004, -83.168424]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_566ea53f7bbd9a8fdfbbf65d5eaa370b);
+        
+    
+        var popup_92729cf368abd215688eede97686af05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c82513f859a65387498ecf09251added = $(`<div id="html_c82513f859a65387498ecf09251added" style="width: 100.0%; height: 100.0%;"><b>Franklin - Ohio-CD02</b></div>`)[0];
+                popup_92729cf368abd215688eede97686af05.setContent(html_c82513f859a65387498ecf09251added);
+            
+        
+
+        polygon_8b53a8f8e2e01c5d21fd56a71537a5eb.bindPopup(popup_92729cf368abd215688eede97686af05)
+        ;
+
+        
+    
+    
+            var circle_marker_fbe939209411fd81f9bf9b688f8b1699 = L.circleMarker(
+                [39.80887277902606, -83.16890775280909],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_566ea53f7bbd9a8fdfbbf65d5eaa370b);
+        
+    
+        var popup_5a9426cee7f2a3eb0b6346e087a97203 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_752e2e5c648c2a33f63c2f52ec9c36dc = $(`<div id="html_752e2e5c648c2a33f63c2f52ec9c36dc" style="width: 100.0%; height: 100.0%;"><b>Franklin - Ohio-CD02</b></div>`)[0];
+                popup_5a9426cee7f2a3eb0b6346e087a97203.setContent(html_752e2e5c648c2a33f63c2f52ec9c36dc);
+            
+        
+
+        circle_marker_fbe939209411fd81f9bf9b688f8b1699.bindPopup(popup_5a9426cee7f2a3eb0b6346e087a97203)
+        ;
+
+        
+    
+    
+            circle_marker_fbe939209411fd81f9bf9b688f8b1699.bindTooltip(
+                `<div>
+                     Franklin - Ohio-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9d413924f2e81a7cc263f24eb7e46c98 = L.polygon(
+                [[39.80966599999995, -83.172973], [39.809712000000026, -83.173028], [39.809865999999985, -83.173196], [39.81014600000001, -83.173465], [39.81026299999999, -83.17361000000001], [39.81044399999999, -83.173869], [39.81061500000001, -83.174061], [39.810688, -83.174834], [39.81141399999994, -83.174841], [39.81144899999999, -83.174859], [39.81176899999999, -83.17486100000002], [39.81203699999997, -83.174855], [39.812105999999986, -83.174854], [39.81229900000005, -83.17486300000002], [39.81266000000003, -83.174895], [39.812726, -83.174879], [39.81278399999998, -83.174836], [39.81281899999998, -83.174756], [39.81282200000002, -83.174664], [39.81281899999998, -83.173969], [39.81281199999999, -83.17367], [39.81278100000002, -83.172345], [39.81271899999997, -83.171821], [39.81353200000001, -83.171467], [39.813375999999955, -83.171196], [39.81316499999997, -83.170996], [39.81223399999998, -83.169544], [39.811723000000015, -83.168471], [39.81151800000001, -83.167533], [39.81204399999996, -83.165882], [39.81215800000003, -83.165302], [39.81215800000002, -83.164692], [39.812118000000034, -83.164062], [39.81202000000001, -83.163294], [39.811901999999975, -83.162585], [39.81194099999998, -83.161955], [39.81213800000003, -83.161385], [39.81220999999994, -83.161331], [39.81192200000003, -83.161207], [39.811508, -83.161089], [39.81084999999998, -83.160975], [39.810425, -83.160963], [39.810288000000035, -83.161011], [39.810067999999994, -83.161089], [39.809812000000015, -83.161651], [39.809537000000034, -83.162455], [39.809259000559344, -83.1633636667603], [39.80964970730054, -83.17297217593966], [39.80966599999995, -83.172973]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_566ea53f7bbd9a8fdfbbf65d5eaa370b);
+        
+    
+        var popup_b1aa7ee8175a42d9ae7c0421dd5702b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b56e2d0e75bddd8bf892400d842f1f72 = $(`<div id="html_b56e2d0e75bddd8bf892400d842f1f72" style="width: 100.0%; height: 100.0%;"><b>Franklin - Ohio-CD15</b></div>`)[0];
+                popup_b1aa7ee8175a42d9ae7c0421dd5702b9.setContent(html_b56e2d0e75bddd8bf892400d842f1f72);
+            
+        
+
+        polygon_9d413924f2e81a7cc263f24eb7e46c98.bindPopup(popup_b1aa7ee8175a42d9ae7c0421dd5702b9)
+        ;
+
+        
+    
+    
+            var circle_marker_413f57162c00132c67755d3cd9531e52 = L.circleMarker(
+                [39.811523218527746, -83.16925403760612],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_566ea53f7bbd9a8fdfbbf65d5eaa370b);
+        
+    
+        var popup_7e8f8d12f55a7c3ae0d1d0979d36af2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_289b3dc32cf4ae9b8b8019b882a33b09 = $(`<div id="html_289b3dc32cf4ae9b8b8019b882a33b09" style="width: 100.0%; height: 100.0%;"><b>Franklin - Ohio-CD15</b></div>`)[0];
+                popup_7e8f8d12f55a7c3ae0d1d0979d36af2b.setContent(html_289b3dc32cf4ae9b8b8019b882a33b09);
+            
+        
+
+        circle_marker_413f57162c00132c67755d3cd9531e52.bindPopup(popup_7e8f8d12f55a7c3ae0d1d0979d36af2b)
+        ;
+
+        
+    
+    
+            circle_marker_413f57162c00132c67755d3cd9531e52.bindTooltip(
+                `<div>
+                     Franklin - Ohio-CD15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cc134bf8168b91cba68e8cb977500e80 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Story - Iowa-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Story - Iowa-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Story - Iowa-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Story - Iowa-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_cc134bf8168b91cba68e8cb977500e80" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cc134bf8168b91cba68e8cb977500e80 = L.map(
+                "map_cc134bf8168b91cba68e8cb977500e80",
+                {
+                    center: [42.01778954140127, -93.64577429936307],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a6b4addc563cb156acc7a8b5600f7bfe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a6b4addc563cb156acc7a8b5600f7bfe.addTo(map_cc134bf8168b91cba68e8cb977500e80);
+        
+    
+            var polygon_25ef2190ae86043b152fb21c551d6fac = L.polygon(
+                [[42.02277899999999, -93.64273800000001], [42.02288199999997, -93.642737], [42.02312500000004, -93.642735], [42.02327400000001, -93.642748], [42.02345100000001, -93.642763], [42.02351099999999, -93.642762], [42.02365099999998, -93.642816], [42.023782999999995, -93.642884], [42.02405099999998, -93.643068], [42.02441399999994, -93.643282], [42.02455499999995, -93.64338300000001], [42.02514899999996, -93.64182500000001], [42.025372999999995, -93.641238], [42.025390000000044, -93.63899], [42.02527899999998, -93.637085], [42.02524799999999, -93.636548], [42.02506899999996, -93.63348], [42.025063999999944, -93.633387], [42.02427300000002, -93.633392], [42.022923999999975, -93.633407], [42.02282199999997, -93.633409], [42.022701000000026, -93.633409], [42.022649000000015, -93.63341], [42.02232899999996, -93.633375], [42.021774000000015, -93.633293], [42.021189999999976, -93.633135], [42.02063899999998, -93.632918], [42.02031900000002, -93.632818], [42.01993999999998, -93.632662], [42.019746000000005, -93.632591], [42.01930000000003, -93.632479], [42.018991000000014, -93.632414], [42.017831, -93.632395], [42.01724700000005, -93.632386], [42.016379999999984, -93.63234200000001], [42.01634800000003, -93.632341], [42.016356000000016, -93.633684], [42.01632800000002, -93.63451], [42.016289000000015, -93.634929], [42.016280000000016, -93.635382], [42.016275, -93.635689], [42.01627100000001, -93.635898], [42.016265999999995, -93.636199], [42.01625200000001, -93.637257], [42.016229000000024, -93.639253], [42.01622799999998, -93.639355], [42.01625800000001, -93.63935400000001], [42.016786, -93.639396], [42.01762099999999, -93.639407], [42.01834099999995, -93.639416], [42.018558, -93.639409], [42.01914200000001, -93.639435], [42.019388, -93.63944400000001], [42.019606999999986, -93.639447], [42.019722999999985, -93.639449], [42.020124, -93.639454], [42.020489, -93.639459], [42.02125199999995, -93.639458], [42.02141499999997, -93.639462], [42.02200799999999, -93.639477], [42.022601999999985, -93.639493], [42.022679999999994, -93.639496], [42.022749999999995, -93.639493], [42.02275300000002, -93.639653], [42.02277099999998, -93.640539], [42.02277299999997, -93.642024], [42.02262299999998, -93.642016], [42.021823999999995, -93.641978], [42.02152699999999, -93.641995], [42.02159100000003, -93.642138], [42.021605000000015, -93.642395], [42.02155000000003, -93.643178], [42.02151300000002, -93.644369], [42.022648000000025, -93.644394], [42.02278100000002, -93.644397], [42.02278699999999, -93.643278], [42.02277899999999, -93.64273800000001]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_cc134bf8168b91cba68e8cb977500e80);
+        
+    
+        var popup_390a77a572ea20fd3638aaf7510eaae5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79eb8393358fcd6d1f4f61e80b062552 = $(`<div id="html_79eb8393358fcd6d1f4f61e80b062552" style="width: 100.0%; height: 100.0%;"><b>Story - Iowa-CD04</b></div>`)[0];
+                popup_390a77a572ea20fd3638aaf7510eaae5.setContent(html_79eb8393358fcd6d1f4f61e80b062552);
+            
+        
+
+        polygon_25ef2190ae86043b152fb21c551d6fac.bindPopup(popup_390a77a572ea20fd3638aaf7510eaae5)
+        ;
+
+        
+    
+    
+            var circle_marker_3f9b1b20d87e34d9e6fa35985b41d0a7 = L.circleMarker(
+                [42.02099342857143, -93.63836937662336],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc134bf8168b91cba68e8cb977500e80);
+        
+    
+        var popup_ce1a90387497fe2a9c949b3d9d37fda6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d1a1265e32a8b7ddce06baa0458a34b = $(`<div id="html_1d1a1265e32a8b7ddce06baa0458a34b" style="width: 100.0%; height: 100.0%;"><b>Story - Iowa-CD04</b></div>`)[0];
+                popup_ce1a90387497fe2a9c949b3d9d37fda6.setContent(html_1d1a1265e32a8b7ddce06baa0458a34b);
+            
+        
+
+        circle_marker_3f9b1b20d87e34d9e6fa35985b41d0a7.bindPopup(popup_ce1a90387497fe2a9c949b3d9d37fda6)
+        ;
+
+        
+    
+    
+            circle_marker_3f9b1b20d87e34d9e6fa35985b41d0a7.bindTooltip(
+                `<div>
+                     Story - Iowa-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_48609806d301e32dcfe0538f523f815f = L.polygon(
+                [[42.01554999999998, -93.664704], [42.015541999999975, -93.659006], [42.016499999999986, -93.65902600000001], [42.017396000000055, -93.659052], [42.018289, -93.659069], [42.01890000000003, -93.65908], [42.019623000000045, -93.659095], [42.01986400000002, -93.659098], [42.02083599999998, -93.659105], [42.020917, -93.659106], [42.02093799999999, -93.657179], [42.020940000000046, -93.656699], [42.02041799999997, -93.656691], [42.02043200000003, -93.655387], [42.020948, -93.655399], [42.020948, -93.655118], [42.02094799999997, -93.654778], [42.02094200000001, -93.654218], [42.020377000000046, -93.654202], [42.020162, -93.654201], [42.019132, -93.65419], [42.019144000000026, -93.652609], [42.01914299999997, -93.652553], [42.01617499999998, -93.652538], [42.01522900000002, -93.652534], [42.01522900000003, -93.651657], [42.01556799999996, -93.651651], [42.01575800000003, -93.651657], [42.016183000000005, -93.65167], [42.01616800000001, -93.650058], [42.016159000000044, -93.649355], [42.01545800000004, -93.649355], [42.01542699999999, -93.644292], [42.014464000000004, -93.64428800000002], [42.01286199999996, -93.644267], [42.01271100000003, -93.644261], [42.01248399999999, -93.644283], [42.01237400000006, -93.644311], [42.01228700000001, -93.644364], [42.01217699999998, -93.644442], [42.01209599999999, -93.644534], [42.01200799999998, -93.64464600000001], [42.01191800000002, -93.644866], [42.01189100000005, -93.64520900000001], [42.01188100000001, -93.645586], [42.01189100000005, -93.645763], [42.01186900000006, -93.645904], [42.011835000000005, -93.646066], [42.01177999999996, -93.646178], [42.011653999999986, -93.646387], [42.01140999999998, -93.64667500000002], [42.01149099999997, -93.646813], [42.01161500000001, -93.647043], [42.01174199999999, -93.647403], [42.01182199999997, -93.64767400000001], [42.01188499999997, -93.647976], [42.01191699999997, -93.64823500000001], [42.011928, -93.64848], [42.01192299999998, -93.64858500000001], [42.01186800000005, -93.648894], [42.011872000000025, -93.649334], [42.011872000000025, -93.649371], [42.01188499999997, -93.651231], [42.01188799999998, -93.651657], [42.011884000000016, -93.652623], [42.01187999999998, -93.653827], [42.011881999999936, -93.654526], [42.011893000000036, -93.657888], [42.011901999999985, -93.65893600000001], [42.01190300000004, -93.659095], [42.01192500000001, -93.659997], [42.01192500000001, -93.6601], [42.011924000000015, -93.66101600000002], [42.01194099999994, -93.662692], [42.01195800000002, -93.664383], [42.01197300000003, -93.666009], [42.01197699999999, -93.666305], [42.013687999999995, -93.666288], [42.01371600000002, -93.664676], [42.01554999999998, -93.664704]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_cc134bf8168b91cba68e8cb977500e80);
+        
+    
+        var popup_75c9c8d57adc0cc809859a909ed15655 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_381aa38611fcbb66c1cc6c7a6b2f9b71 = $(`<div id="html_381aa38611fcbb66c1cc6c7a6b2f9b71" style="width: 100.0%; height: 100.0%;"><b>Story - Iowa-CD04</b></div>`)[0];
+                popup_75c9c8d57adc0cc809859a909ed15655.setContent(html_381aa38611fcbb66c1cc6c7a6b2f9b71);
+            
+        
+
+        polygon_48609806d301e32dcfe0538f523f815f.bindPopup(popup_75c9c8d57adc0cc809859a909ed15655)
+        ;
+
+        
+    
+    
+            var circle_marker_e5c9dba3d965b09cf73f59383db49c57 = L.circleMarker(
+                [42.0147058, -93.6529015375],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cc134bf8168b91cba68e8cb977500e80);
+        
+    
+        var popup_4ab39914f63c64f3e0e945c440f85d58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62142e2d3c40d5e4fec0a5a6c79ae7e4 = $(`<div id="html_62142e2d3c40d5e4fec0a5a6c79ae7e4" style="width: 100.0%; height: 100.0%;"><b>Story - Iowa-CD04</b></div>`)[0];
+                popup_4ab39914f63c64f3e0e945c440f85d58.setContent(html_62142e2d3c40d5e4fec0a5a6c79ae7e4);
+            
+        
+
+        circle_marker_e5c9dba3d965b09cf73f59383db49c57.bindPopup(popup_4ab39914f63c64f3e0e945c440f85d58)
+        ;
+
+        
+    
+    
+            circle_marker_e5c9dba3d965b09cf73f59383db49c57.bindTooltip(
+                `<div>
+                     Story - Iowa-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

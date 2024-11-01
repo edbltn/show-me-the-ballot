@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c46f25d00a2da8f4e1985eb681f65e75 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pierce - Washington-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pierce - Washington-CD08</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pierce - Washington-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pierce - Washington-CD08</p>
+            </div>
+    
+            <div class="folium-map" id="map_c46f25d00a2da8f4e1985eb681f65e75" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c46f25d00a2da8f4e1985eb681f65e75 = L.map(
+                "map_c46f25d00a2da8f4e1985eb681f65e75",
+                {
+                    center: [46.935826808972166, -122.56020588509456],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d1666616687032344fb6ec7042dac95d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d1666616687032344fb6ec7042dac95d.addTo(map_c46f25d00a2da8f4e1985eb681f65e75);
+        
+    
+            var polygon_5026948146f2a87b4c7544e78e602162 = L.polygon(
+                [[46.93369599999999, -122.560993], [46.934104, -122.561619], [46.934556000000015, -122.56232499999999], [46.93492699999996, -122.562753], [46.93497199999999, -122.562821], [46.93524799999996, -122.563128], [46.935304000000016, -122.56323100000002], [46.935442999999985, -122.56328800000001], [46.935531, -122.563404], [46.93559700000002, -122.56349300000001], [46.93562199999999, -122.56352600000001], [46.935810000000025, -122.563683], [46.936524000000006, -122.56428200000002], [46.93671900000004, -122.56433600000001], [46.936759999999985, -122.564347], [46.936806000000004, -122.564161], [46.937132, -122.56283299999998], [46.937220342248615, -122.56242189755315], [46.933456999999954, -122.56043600000001], [46.93361399999995, -122.560794], [46.93369599999999, -122.560993]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c46f25d00a2da8f4e1985eb681f65e75);
+        
+    
+        var popup_00551576b65093abd6e22e0ce89e24f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b28c3142d18fa72c8e2f72f133ef86b9 = $(`<div id="html_b28c3142d18fa72c8e2f72f133ef86b9" style="width: 100.0%; height: 100.0%;"><b>Pierce - Washington-CD10</b></div>`)[0];
+                popup_00551576b65093abd6e22e0ce89e24f8.setContent(html_b28c3142d18fa72c8e2f72f133ef86b9);
+            
+        
+
+        polygon_5026948146f2a87b4c7544e78e602162.bindPopup(popup_00551576b65093abd6e22e0ce89e24f8)
+        ;
+
+        
+    
+    
+            var circle_marker_7c052ed583415ee43f7492c904cfb320 = L.circleMarker(
+                [46.935368492488024, -122.56280323321683],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c46f25d00a2da8f4e1985eb681f65e75);
+        
+    
+        var popup_e2106f7382f5e5bc8053eebcabefdfa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9523e684f4687b577c9d1a8ef4d63b4 = $(`<div id="html_e9523e684f4687b577c9d1a8ef4d63b4" style="width: 100.0%; height: 100.0%;"><b>Pierce - Washington-CD10</b></div>`)[0];
+                popup_e2106f7382f5e5bc8053eebcabefdfa0.setContent(html_e9523e684f4687b577c9d1a8ef4d63b4);
+            
+        
+
+        circle_marker_7c052ed583415ee43f7492c904cfb320.bindPopup(popup_e2106f7382f5e5bc8053eebcabefdfa0)
+        ;
+
+        
+    
+    
+            circle_marker_7c052ed583415ee43f7492c904cfb320.bindTooltip(
+                `<div>
+                     Pierce - Washington-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_aa6c659bc1e100cd6e9e21dea39c59c8 = L.polygon(
+                [[46.93754200000002, -122.560925], [46.93724699999998, -122.560764], [46.937464000000034, -122.560248], [46.937427, -122.56012100000001], [46.93738600000003, -122.560017], [46.93716399999999, -122.559537], [46.93700000000002, -122.55924399999999], [46.936884, -122.55902], [46.93740800000005, -122.558453], [46.937462000000025, -122.558389], [46.93748999999998, -122.558345], [46.93751599999999, -122.55826800000001], [46.937463, -122.55813399999998], [46.937364, -122.55792900000002], [46.936857, -122.556925], [46.936474, -122.55615200000001], [46.936227999999964, -122.555615], [46.935709000000024, -122.556105], [46.93549399999998, -122.55632899999999], [46.935361, -122.55647999999998], [46.935197000000024, -122.55670499999998], [46.93501699999997, -122.55698999999998], [46.93492899999999, -122.55715799999999], [46.93473099999995, -122.55754], [46.93449, -122.558063], [46.93438299999994, -122.558305], [46.934283999999955, -122.55852600000001], [46.93414599999997, -122.558838], [46.934029999999986, -122.55911], [46.93354300000001, -122.56023200000001], [46.933456999999954, -122.56043600000001], [46.937220342248615, -122.56242189755315], [46.93754200000002, -122.560925]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c46f25d00a2da8f4e1985eb681f65e75);
+        
+    
+        var popup_73a6ddbc94806aa2a9360638ff1ee012 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38419902d49fd34984cfb4d7ba9d66cf = $(`<div id="html_38419902d49fd34984cfb4d7ba9d66cf" style="width: 100.0%; height: 100.0%;"><b>Pierce - Washington-CD08</b></div>`)[0];
+                popup_73a6ddbc94806aa2a9360638ff1ee012.setContent(html_38419902d49fd34984cfb4d7ba9d66cf);
+            
+        
+
+        polygon_aa6c659bc1e100cd6e9e21dea39c59c8.bindPopup(popup_73a6ddbc94806aa2a9360638ff1ee012)
+        ;
+
+        
+    
+    
+            var circle_marker_aa7ace40c771314ee67fbd44766fb163 = L.circleMarker(
+                [46.93611846491662, -122.55855302719858],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c46f25d00a2da8f4e1985eb681f65e75);
+        
+    
+        var popup_1f5384c8120dc466632126d6f64bfd01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcbc0fca055efa0bc40d22f8652bba2d = $(`<div id="html_fcbc0fca055efa0bc40d22f8652bba2d" style="width: 100.0%; height: 100.0%;"><b>Pierce - Washington-CD08</b></div>`)[0];
+                popup_1f5384c8120dc466632126d6f64bfd01.setContent(html_fcbc0fca055efa0bc40d22f8652bba2d);
+            
+        
+
+        circle_marker_aa7ace40c771314ee67fbd44766fb163.bindPopup(popup_1f5384c8120dc466632126d6f64bfd01)
+        ;
+
+        
+    
+    
+            circle_marker_aa7ace40c771314ee67fbd44766fb163.bindTooltip(
+                `<div>
+                     Pierce - Washington-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

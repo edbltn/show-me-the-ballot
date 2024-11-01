@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a34167e7e850854f2da1208b7ff631a0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD03</p>
+            </div>
+    
+            <div class="folium-map" id="map_a34167e7e850854f2da1208b7ff631a0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a34167e7e850854f2da1208b7ff631a0 = L.map(
+                "map_a34167e7e850854f2da1208b7ff631a0",
+                {
+                    center: [33.56191854470811, -84.81958654498429],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_938db5a39ceb78327ae15a50a8858dc8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_938db5a39ceb78327ae15a50a8858dc8.addTo(map_a34167e7e850854f2da1208b7ff631a0);
+        
+    
+            var polygon_ed0825d84ccd8f5470d9cd10c0591d87 = L.polygon(
+                [[33.525707, -84.816305], [33.52742199999995, -84.817516], [33.52855499999998, -84.818653], [33.52954700000001, -84.819896], [33.53049900000002, -84.821068], [33.53089700000001, -84.821444], [33.53159800000003, -84.821888], [33.53310799999997, -84.822839], [33.534201, -84.823354], [33.536252999999995, -84.824238], [33.538535, -84.82506], [33.54014200000002, -84.8261], [33.54130700000003, -84.827339], [33.541852000000056, -84.828271], [33.54213399999999, -84.828838], [33.54270999999993, -84.830042], [33.543525, -84.831179], [33.544581000000015, -84.832237], [33.54483200000003, -84.832474], [33.545746999999956, -84.833056], [33.54709899999997, -84.833172], [33.548459999999956, -84.832655], [33.54949200000001, -84.831935], [33.55077300000003, -84.830783], [33.55079552812932, -84.83075253679284], [33.550260999999985, -84.831159], [33.548671999999975, -84.832134], [33.547061, -84.8326], [33.54526700000003, -84.832336], [33.54404900000001, -84.831641], [33.54322199999997, -84.830613], [33.54248999999998, -84.829209], [33.541804, -84.827554], [33.54083299999998, -84.826499], [33.538572, -84.824876], [33.53518299999999, -84.8235], [33.532156, -84.822117], [33.53063599999999, -84.821003], [33.52685400000001, -84.816698], [33.52482123438471, -84.8152804096782], [33.524563380554326, -84.81531360550785], [33.525707, -84.816305]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a34167e7e850854f2da1208b7ff631a0);
+        
+    
+        var popup_736b5a93aca4e52fa4a7d3d2b6a267c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d129b4ba31e8734eb8b0dc60355e4b70 = $(`<div id="html_d129b4ba31e8734eb8b0dc60355e4b70" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD03</b></div>`)[0];
+                popup_736b5a93aca4e52fa4a7d3d2b6a267c4.setContent(html_d129b4ba31e8734eb8b0dc60355e4b70);
+            
+        
+
+        polygon_ed0825d84ccd8f5470d9cd10c0591d87.bindPopup(popup_736b5a93aca4e52fa4a7d3d2b6a267c4)
+        ;
+
+        
+    
+    
+            var circle_marker_1caf39d6622b70edb20c8884677b47a2 = L.circleMarker(
+                [33.53861721769211, -84.82595077504712],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a34167e7e850854f2da1208b7ff631a0);
+        
+    
+        var popup_78f566c7f08f639831a47d2964777e17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0d9db62043780599ee945a6dc989faa = $(`<div id="html_e0d9db62043780599ee945a6dc989faa" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD03</b></div>`)[0];
+                popup_78f566c7f08f639831a47d2964777e17.setContent(html_e0d9db62043780599ee945a6dc989faa);
+            
+        
+
+        circle_marker_1caf39d6622b70edb20c8884677b47a2.bindPopup(popup_78f566c7f08f639831a47d2964777e17)
+        ;
+
+        
+    
+    
+            circle_marker_1caf39d6622b70edb20c8884677b47a2.bindTooltip(
+                `<div>
+                     Fulton - Georgia-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9092cd224464fa183c35aa86a88aa915 = L.polygon(
+                [[33.55314800000002, -84.82837700000002], [33.55325999999998, -84.828316], [33.55359399999997, -84.828025], [33.55411800000004, -84.827828], [33.55529300000003, -84.82760300000001], [33.55678499999999, -84.82733], [33.55704700000001, -84.827258], [33.55835500000001, -84.826938], [33.560016999999995, -84.82652], [33.56127900000002, -84.826057], [33.561381000000004, -84.82602], [33.561457, -84.825989], [33.561533, -84.825959], [33.561609000000026, -84.825928], [33.56168499999997, -84.825898], [33.56178599999998, -84.825857], [33.561886, -84.825803], [33.56197900000002, -84.825742], [33.56210299999997, -84.825681], [33.562226, -84.825621], [33.56230000000002, -84.825585], [33.56239700000002, -84.825522], [33.56251, -84.82543700000001], [33.56257600000003, -84.82538800000002], [33.562645, -84.82535], [33.562736999999984, -84.8253], [33.562806000000016, -84.825249], [33.562866000000014, -84.825192], [33.56294499999997, -84.825116], [33.563034000000016, -84.825059], [33.56311400000002, -84.824979], [33.56320900000002, -84.824924], [33.563304, -84.824823], [33.56335999999998, -84.824762], [33.56342600000002, -84.824715], [33.56350099999996, -84.82463], [33.56359900000001, -84.824532], [33.563657, -84.824473], [33.56371500000001, -84.824413], [33.563751, -84.824375], [33.56381, -84.824312], [33.56388499999998, -84.824228], [33.56397699999996, -84.824123], [33.564032, -84.824059], [33.56411399999994, -84.823982], [33.56419200000005, -84.823862], [33.56426100000001, -84.823772], [33.56433, -84.823682], [33.56442299999998, -84.82358], [33.564485999999974, -84.823511], [33.56453200000002, -84.823421], [33.56459000000003, -84.823347], [33.564648000000005, -84.823272], [33.564705000000025, -84.823197], [33.56479100000003, -84.823084], [33.56484699999995, -84.823008], [33.564903, -84.822931], [33.564957999999976, -84.822854], [33.565012999999986, -84.822776], [33.56506699999999, -84.82269800000002], [33.56512100000003, -84.822619], [33.565174, -84.82254], [33.56522700000002, -84.82246], [33.565279, -84.82238], [33.56533099999996, -84.822299], [33.56538300000005, -84.822218], [33.565433000000006, -84.822137], [33.56548400000001, -84.822055], [33.565532999999995, -84.821972], [33.565582000000035, -84.821889], [33.56563099999998, -84.821806], [33.56568000000002, -84.821722], [33.56572699999999, -84.821638], [33.565774999999995, -84.821553], [33.565982999999996, -84.821166], [33.56685, -84.819562], [33.56693000000006, -84.819415], [33.56778913104186, -84.81785957325569], [33.56710500000004, -84.81871200000002], [33.56585999999999, -84.820953], [33.56504200000003, -84.822294], [33.56419200000005, -84.823606], [33.56337699999999, -84.824445], [33.56219800000004, -84.825184], [33.56056, -84.826122], [33.558184999999966, -84.826801], [33.55738800000001, -84.826962], [33.55695400000002, -84.82705], [33.555928999999985, -84.827256], [33.55442, -84.827345], [33.55347100000001, -84.827686], [33.552604999999964, -84.828266], [33.55159999999998, -84.829436], [33.55110802368235, -84.83032997030917], [33.55184500000001, -84.829406], [33.55314800000002, -84.82837700000002]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a34167e7e850854f2da1208b7ff631a0);
+        
+    
+        var popup_ee50a1acdf7608fbff7bdb52dd4a73e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8e6112da9f26d45d2a17dd12889f7524 = $(`<div id="html_8e6112da9f26d45d2a17dd12889f7524" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD03</b></div>`)[0];
+                popup_ee50a1acdf7608fbff7bdb52dd4a73e9.setContent(html_8e6112da9f26d45d2a17dd12889f7524);
+            
+        
+
+        polygon_9092cd224464fa183c35aa86a88aa915.bindPopup(popup_ee50a1acdf7608fbff7bdb52dd4a73e9)
+        ;
+
+        
+    
+    
+            var circle_marker_0e97e7af5b66096004f87c86fe81773f = L.circleMarker(
+                [33.56208808494505, -84.82458119316213],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a34167e7e850854f2da1208b7ff631a0);
+        
+    
+        var popup_b96a25ad0c5a67a593c8c15b21ff16bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e4ef5b9fa8ec7fe7a37f5d38df1e470 = $(`<div id="html_5e4ef5b9fa8ec7fe7a37f5d38df1e470" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD03</b></div>`)[0];
+                popup_b96a25ad0c5a67a593c8c15b21ff16bd.setContent(html_5e4ef5b9fa8ec7fe7a37f5d38df1e470);
+            
+        
+
+        circle_marker_0e97e7af5b66096004f87c86fe81773f.bindPopup(popup_b96a25ad0c5a67a593c8c15b21ff16bd)
+        ;
+
+        
+    
+    
+            circle_marker_0e97e7af5b66096004f87c86fe81773f.bindTooltip(
+                `<div>
+                     Fulton - Georgia-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9e31ad59416c0e807457efb4c6a4f234 = L.polygon(
+                [[33.568015, -84.817509], [33.568075, -84.817405], [33.56814500000002, -84.817308], [33.56823299999999, -84.817187], [33.56829000000004, -84.817121], [33.56835300000003, -84.817015], [33.56842000000002, -84.816916], [33.56848699999998, -84.816816], [33.56853700000003, -84.816741], [33.56858599999999, -84.816666], [33.568652000000014, -84.816564], [33.56871700000001, -84.81646200000002], [33.56879599999998, -84.816334], [33.56886, -84.81623], [33.568922000000015, -84.816126], [33.568969, -84.816049], [33.56901499999998, -84.81597], [33.569075999999974, -84.815865], [33.56914400000006, -84.815741], [33.56920000000001, -84.815634], [33.569255000000005, -84.815526], [33.56929099999997, -84.815453], [33.56932599999999, -84.81538], [33.56937900000003, -84.815271], [33.569413, -84.815197], [33.56946400000001, -84.815087], [33.56949699999996, -84.815012], [33.56953000000001, -84.814938], [33.569579, -84.814826], [33.56962599999997, -84.814713], [33.569657, -84.814637], [33.56970299999999, -84.814523], [33.56973299999998, -84.814447], [33.56977699999996, -84.814331], [33.569819, -84.814216], [33.56984700000003, -84.814139], [33.56988799999997, -84.814023], [33.569929, -84.813906], [33.56995499999998, -84.813827], [33.569981, -84.813749], [33.57000600000001, -84.813671], [33.57005199999996, -84.81352000000001], [33.57009599999995, -84.81338900000002], [33.57013799999997, -84.813265], [33.57017899999997, -84.813141], [33.570220000000006, -84.813018], [33.57027799999999, -84.812906], [33.57030299999996, -84.812771], [33.570343999999956, -84.812647], [33.57038600000002, -84.81252300000001], [33.570427000000024, -84.812399], [33.570483, -84.81228], [33.57051000000003, -84.812152], [33.57052500000003, -84.812017], [33.570593000000045, -84.811905], [33.57063399999999, -84.81178], [33.57067600000003, -84.81165700000001], [33.57074200000002, -84.811558], [33.570798999999965, -84.811474], [33.57085800000004, -84.811386], [33.57087800000005, -84.811355], [33.57093799999997, -84.81131500000001], [33.570995, -84.811219], [33.57104099999996, -84.811142], [33.57111899999996, -84.81101000000001], [33.571182000000015, -84.810903], [33.57121400000001, -84.81087300000002], [33.57126799999998, -84.810822], [33.57135900000001, -84.810735], [33.57143100000002, -84.810631], [33.57150400000002, -84.810555], [33.571648, -84.81043], [33.57167100000004, -84.810401], [33.57174200000001, -84.810309], [33.571817, -84.81025], [33.571885000000016, -84.810162], [33.571986000000024, -84.810102], [33.57207999999999, -84.810047], [33.57218099999999, -84.809946], [33.57224599999997, -84.809903], [33.57234299999998, -84.80984], [33.57240900000002, -84.809801], [33.572483999999996, -84.809777], [33.572576, -84.809705], [33.572647, -84.809683], [33.57277199999997, -84.809628], [33.57289000000004, -84.809568], [33.57300999999998, -84.809517], [33.57311499999999, -84.809476], [33.57320300000002, -84.809445], [33.573308999999966, -84.809406], [33.57341100000002, -84.809385], [33.57351200000001, -84.809353], [33.57361000000003, -84.809314], [33.57368399999999, -84.809291], [33.573711, -84.809284], [33.573778999999995, -84.809266], [33.573880000000024, -84.809238], [33.57394699999998, -84.809218], [33.574014000000034, -84.809198], [33.57407278981775, -84.80918106056103], [33.57408500000002, -84.808934], [33.57284499999998, -84.80927], [33.57162699999999, -84.810192], [33.57048900000003, -84.811797], [33.569554, -84.814314], [33.56893700000001, -84.815488], [33.567917999999985, -84.817699], [33.56799600000002, -84.81753], [33.568015, -84.817509]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a34167e7e850854f2da1208b7ff631a0);
+        
+    
+        var popup_98579194fe57804f860838a7c38b998a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79900e3a301a0d2021d299ebc91a3d9b = $(`<div id="html_79900e3a301a0d2021d299ebc91a3d9b" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD03</b></div>`)[0];
+                popup_98579194fe57804f860838a7c38b998a.setContent(html_79900e3a301a0d2021d299ebc91a3d9b);
+            
+        
+
+        polygon_9e31ad59416c0e807457efb4c6a4f234.bindPopup(popup_98579194fe57804f860838a7c38b998a)
+        ;
+
+        
+    
+    
+            var circle_marker_97423fecc802a940370e385089243242 = L.circleMarker(
+                [33.57066745263471, -84.81279760055055],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a34167e7e850854f2da1208b7ff631a0);
+        
+    
+        var popup_b0b1f79867c14e08168ab7ed41cbc71b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc2671882ca49b1728da44b58cb68ea6 = $(`<div id="html_bc2671882ca49b1728da44b58cb68ea6" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD03</b></div>`)[0];
+                popup_b0b1f79867c14e08168ab7ed41cbc71b.setContent(html_bc2671882ca49b1728da44b58cb68ea6);
+            
+        
+
+        circle_marker_97423fecc802a940370e385089243242.bindPopup(popup_b0b1f79867c14e08168ab7ed41cbc71b)
+        ;
+
+        
+    
+    
+            circle_marker_97423fecc802a940370e385089243242.bindTooltip(
+                `<div>
+                     Fulton - Georgia-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

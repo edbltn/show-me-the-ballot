@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0d60d4e0eec4d8d20cd4fa3fa1d10959 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tazewell - Illinois-CD16</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tazewell - Illinois-CD17</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tazewell - Illinois-CD16</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tazewell - Illinois-CD17</p>
+            </div>
+    
+            <div class="folium-map" id="map_0d60d4e0eec4d8d20cd4fa3fa1d10959" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0d60d4e0eec4d8d20cd4fa3fa1d10959 = L.map(
+                "map_0d60d4e0eec4d8d20cd4fa3fa1d10959",
+                {
+                    center: [40.49577723485777, -89.65278296847377],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a32ca703d3fd92d704e3cdad8a834018 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a32ca703d3fd92d704e3cdad8a834018.addTo(map_0d60d4e0eec4d8d20cd4fa3fa1d10959);
+        
+    
+            var polygon_6d86461e4ed8f18dcaf6fcd842fd9986 = L.polygon(
+                [[40.498357999999996, -89.648439], [40.49836400000001, -89.648233], [40.49836400000002, -89.648117], [40.49836400000002, -89.647906], [40.49836400000002, -89.647699], [40.49836499999994, -89.647381], [40.49836600000002, -89.64708], [40.498367, -89.646874], [40.49836699999998, -89.646663], [40.49836900000002, -89.646333], [40.498370000000065, -89.646033], [40.49837100000003, -89.645823], [40.498372000000025, -89.645714], [40.49837500000003, -89.645388], [40.49837699999998, -89.64528], [40.49837899999998, -89.645191], [40.498383999999966, -89.644994], [40.498394000000026, -89.644928], [40.49840899999995, -89.644841], [40.49842800000002, -89.644724], [40.49714800000002, -89.644709], [40.495911, -89.644708], [40.49543099999999, -89.644696], [40.494777, -89.644704], [40.494651999999974, -89.644707], [40.49363399999999, -89.644699], [40.492135999999995, -89.64468800000002], [40.49213399999998, -89.644793], [40.49212399999999, -89.645008], [40.492135999999995, -89.64557], [40.492135, -89.646194], [40.49179100000001, -89.646169], [40.49178699999998, -89.647056], [40.49206299999997, -89.647029], [40.49206514346058, -89.64721973901334], [40.493990129514586, -89.64768698056048], [40.494639999999976, -89.647699], [40.494639999999976, -89.647732], [40.494639999999976, -89.647833], [40.494640000001006, -89.64784472580014], [40.49835014471531, -89.64874535636957], [40.498357999999996, -89.648439]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0d60d4e0eec4d8d20cd4fa3fa1d10959);
+        
+    
+        var popup_007aa2a0646d94ec8a38a76128036c2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c355d1d4b225098ad854c3efb0f49acf = $(`<div id="html_c355d1d4b225098ad854c3efb0f49acf" style="width: 100.0%; height: 100.0%;"><b>Tazewell - Illinois-CD16</b></div>`)[0];
+                popup_007aa2a0646d94ec8a38a76128036c2e.setContent(html_c355d1d4b225098ad854c3efb0f49acf);
+            
+        
+
+        polygon_6d86461e4ed8f18dcaf6fcd842fd9986.bindPopup(popup_007aa2a0646d94ec8a38a76128036c2e)
+        ;
+
+        
+    
+    
+            var circle_marker_46fcb5f5a958071e979f00f6846165ba = L.circleMarker(
+                [40.49611165280218, -89.64632311432723],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0d60d4e0eec4d8d20cd4fa3fa1d10959);
+        
+    
+        var popup_084b409536a5a2a8a02bdf5741ba2845 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_675f836b0d4d43b1354e1da372d7e90b = $(`<div id="html_675f836b0d4d43b1354e1da372d7e90b" style="width: 100.0%; height: 100.0%;"><b>Tazewell - Illinois-CD16</b></div>`)[0];
+                popup_084b409536a5a2a8a02bdf5741ba2845.setContent(html_675f836b0d4d43b1354e1da372d7e90b);
+            
+        
+
+        circle_marker_46fcb5f5a958071e979f00f6846165ba.bindPopup(popup_084b409536a5a2a8a02bdf5741ba2845)
+        ;
+
+        
+    
+    
+            circle_marker_46fcb5f5a958071e979f00f6846165ba.bindTooltip(
+                `<div>
+                     Tazewell - Illinois-CD16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_a2d3774755bec5328ac7b54d98388db4 = L.polygon(
+                [[40.509063, -89.660771], [40.509080000000026, -89.65918], [40.509106999999965, -89.656578], [40.509128000000054, -89.654707], [40.50913199999999, -89.654303], [40.50914499999998, -89.65309000000002], [40.50914999999997, -89.652687], [40.508918999999985, -89.652599], [40.50832300000002, -89.652408], [40.50818600000001, -89.652368], [40.50782699999999, -89.65226300000002], [40.507520000000056, -89.652185], [40.507038, -89.652074], [40.506707999999975, -89.652012], [40.50623499999996, -89.651951], [40.505872, -89.651913], [40.505448000000044, -89.651877], [40.50519100000007, -89.651868], [40.50480800000003, -89.651855], [40.50423800000001, -89.651855], [40.50417599999996, -89.651853], [40.504150999999986, -89.651852], [40.504078000000014, -89.65185], [40.504054000000004, -89.65185], [40.50215999999999, -89.651858], [40.50004599999998, -89.651868], [40.49648099999997, -89.651854], [40.495389000000046, -89.65185], [40.49458800000003, -89.651855], [40.49458799999999, -89.651787], [40.49458999999997, -89.651586], [40.49459199999998, -89.651519], [40.49459400000001, -89.6514], [40.494593999999985, -89.651335], [40.494596000000044, -89.651105], [40.49460300000002, -89.650624], [40.494618999999986, -89.649866], [40.49462899999998, -89.649454], [40.49487399999999, -89.649454], [40.495172, -89.649455], [40.495374, -89.649449], [40.495610999999975, -89.649453], [40.495857, -89.64945800000001], [40.496101000000024, -89.649466], [40.49651800000001, -89.649481], [40.49660100000002, -89.649477], [40.49674799999998, -89.649486], [40.49683399999996, -89.649483], [40.49698799999996, -89.649479], [40.49707899999999, -89.649482], [40.49724299999999, -89.649482], [40.497735, -89.649483], [40.49789900000005, -89.649484], [40.49795699999998, -89.649484], [40.49799400000002, -89.649484], [40.498046000000016, -89.649464], [40.49810299999996, -89.649402], [40.49814399999996, -89.64936], [40.498228999999974, -89.64927], [40.498317999999976, -89.64917], [40.498334999999955, -89.649123], [40.49834500000004, -89.648963], [40.49834600000004, -89.64892], [40.49835000000003, -89.648751], [40.49835014471531, -89.64874535636957], [40.494640000001006, -89.64784472580014], [40.494639999999976, -89.647867], [40.494639999999976, -89.648077], [40.494639999999976, -89.648389], [40.494639999999976, -89.648708], [40.49464099999998, -89.648919], [40.49344199999996, -89.648836], [40.49110400000001, -89.648677], [40.49098400000002, -89.648669], [40.49097400000003, -89.649432], [40.49095899999997, -89.65082], [40.49087200000002, -89.65082], [40.48731000000004, -89.650809], [40.480119999999985, -89.650788], [40.48001000000001, -89.650788], [40.47999500000004, -89.650788], [40.47999199999996, -89.651062], [40.47999100000001, -89.65119], [40.47998900000003, -89.651317], [40.47998499999999, -89.651699], [40.479985000000035, -89.65174], [40.47998399999997, -89.651827], [40.47998099999999, -89.652012], [40.48010600000004, -89.65201], [40.48020700000004, -89.65201], [40.48134099999998, -89.65201300000001], [40.49050599999995, -89.65204], [40.49085699999999, -89.652038], [40.490935000000036, -89.652042], [40.490923999999985, -89.654209], [40.49089999999998, -89.654209], [40.490579000000025, -89.654204], [40.490077, -89.654197], [40.49007300000004, -89.654556], [40.49075899999999, -89.65456600000002], [40.490793, -89.654615], [40.49082100000002, -89.654657], [40.490855, -89.654696], [40.49089500000002, -89.654748], [40.49089299999997, -89.654945], [40.490888000000005, -89.655341], [40.490885999999996, -89.655538], [40.490884000000015, -89.655755], [40.49088, -89.65612400000002], [40.490875999999986, -89.656509], [40.49087200000002, -89.656886], [40.49086799999997, -89.657281], [40.49086400000001, -89.657659], [40.49085999999994, -89.658054], [40.49085399999998, -89.658629], [40.49084599999998, -89.659391], [40.49084100000005, -89.659894], [40.49083399999997, -89.660541], [40.49082800000001, -89.661151], [40.490819000000045, -89.66201200000002], [40.49081499999997, -89.662299], [40.490812, -89.662585], [40.49080900000002, -89.662872], [40.49080600000002, -89.663159], [40.49080199999999, -89.663559], [40.490801999999974, -89.663783], [40.49108900000001, -89.663786], [40.49118500000002, -89.663787], [40.49134599999995, -89.663787], [40.49183200000001, -89.66379], [40.491994000000005, -89.66379100000002], [40.492476999999994, -89.66379300000001], [40.49290799999997, -89.663796], [40.49392599999998, -89.663812], [40.494409999999974, -89.663821], [40.49587600000001, -89.66384000000001], [40.49832499999999, -89.663872], [40.49944800000001, -89.66389], [40.50000999999997, -89.6639], [40.50027600000001, -89.663906], [40.50105199999999, -89.663926], [40.50174300000002, -89.663935], [40.50272199999998, -89.663946], [40.503196, -89.663953], [40.503575999999946, -89.663959], [40.50422999999995, -89.663968], [40.50579800000002, -89.664008], [40.50741999999997, -89.664029], [40.507558000000024, -89.664031], [40.50901199999999, -89.664063], [40.50904000000004, -89.662191], [40.509063, -89.660771]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0d60d4e0eec4d8d20cd4fa3fa1d10959);
+        
+    
+        var popup_e8d6e91846cd1a8573c77fabd1c750af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b72a966283e3e564efe661c887932bdf = $(`<div id="html_b72a966283e3e564efe661c887932bdf" style="width: 100.0%; height: 100.0%;"><b>Tazewell - Illinois-CD17</b></div>`)[0];
+                popup_e8d6e91846cd1a8573c77fabd1c750af.setContent(html_b72a966283e3e564efe661c887932bdf);
+            
+        
+
+        polygon_a2d3774755bec5328ac7b54d98388db4.bindPopup(popup_e8d6e91846cd1a8573c77fabd1c750af)
+        ;
+
+        
+    
+    
+            var circle_marker_9bd438ad0c870f40ceac3688889638f2 = L.circleMarker(
+                [40.495684829899446, -89.65456792817217],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0d60d4e0eec4d8d20cd4fa3fa1d10959);
+        
+    
+        var popup_96406149e7efddeed98b9f62f80577b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf3e999c60a200835aa5890560702288 = $(`<div id="html_bf3e999c60a200835aa5890560702288" style="width: 100.0%; height: 100.0%;"><b>Tazewell - Illinois-CD17</b></div>`)[0];
+                popup_96406149e7efddeed98b9f62f80577b3.setContent(html_bf3e999c60a200835aa5890560702288);
+            
+        
+
+        circle_marker_9bd438ad0c870f40ceac3688889638f2.bindPopup(popup_96406149e7efddeed98b9f62f80577b3)
+        ;
+
+        
+    
+    
+            circle_marker_9bd438ad0c870f40ceac3688889638f2.bindTooltip(
+                `<div>
+                     Tazewell - Illinois-CD17
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0e914e11b5149449895cc6f6cbf07dc1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Warren - New Jersey-CD07</p>
+            </div>
+    
+            <div class="folium-map" id="map_0e914e11b5149449895cc6f6cbf07dc1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0e914e11b5149449895cc6f6cbf07dc1 = L.map(
+                "map_0e914e11b5149449895cc6f6cbf07dc1",
+                {
+                    center: [40.89082777752184, -75.06674395473672],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_384b95792428b0d66c2c094ce978659b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_384b95792428b0d66c2c094ce978659b.addTo(map_0e914e11b5149449895cc6f6cbf07dc1);
+        
+    
+            var polygon_2b74afc894efe61832a9f6c89e9fd0de = L.polygon(
+                [[40.88218799999996, -75.06207300000001], [40.88228900000001, -75.062149], [40.88449300000001, -75.064286], [40.885675, -75.06544], [40.88567637940422, -75.06544193319426], [40.88568200000002, -75.06543800000001], [40.88648399211633, -75.06606909775337], [40.886114000000006, -75.065607], [40.88583400000007, -75.065158], [40.885498999999975, -75.064695], [40.885169999999945, -75.064283], [40.884472, -75.063371], [40.88413699999999, -75.063009], [40.88374700000001, -75.062647], [40.88331900000006, -75.062155], [40.88289099999995, -75.061671], [40.88272599999997, -75.061475], [40.882418999999985, -75.061128], [40.88223700000005, -75.060998], [40.88208899999996, -75.060962], [40.881836000000014, -75.060795], [40.88117699999998, -75.060426], [40.88072700000001, -75.060137], [40.88068800000005, -75.060113], [40.88028199999997, -75.05986], [40.87973899999999, -75.059522], [40.87916800000003, -75.059095], [40.878871000000004, -75.058798], [40.878366, -75.058205], [40.87779500000001, -75.057518], [40.877493, -75.057055], [40.877031000000024, -75.056548], [40.87690499999998, -75.056766], [40.876881999999966, -75.057567], [40.87777600000001, -75.058747], [40.879982, -75.06041], [40.88218799999996, -75.06207300000001]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0e914e11b5149449895cc6f6cbf07dc1);
+        
+    
+        var popup_c9b9cb31195751d4799080fe875ab013 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4899839218cf937610086574d5f38a37 = $(`<div id="html_4899839218cf937610086574d5f38a37" style="width: 100.0%; height: 100.0%;"><b>Warren - New Jersey-CD07</b></div>`)[0];
+                popup_c9b9cb31195751d4799080fe875ab013.setContent(html_4899839218cf937610086574d5f38a37);
+            
+        
+
+        polygon_2b74afc894efe61832a9f6c89e9fd0de.bindPopup(popup_c9b9cb31195751d4799080fe875ab013)
+        ;
+
+        
+    
+    
+            var circle_marker_05b65c192477bbe4d5612044ff0da264 = L.circleMarker(
+                [40.88189317220326, -75.06139705489048],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0e914e11b5149449895cc6f6cbf07dc1);
+        
+    
+        var popup_38c08c1bf8286cab10f8771fada63d99 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99931fdd9ccaae50cac35c7f30909b53 = $(`<div id="html_99931fdd9ccaae50cac35c7f30909b53" style="width: 100.0%; height: 100.0%;"><b>Warren - New Jersey-CD07</b></div>`)[0];
+                popup_38c08c1bf8286cab10f8771fada63d99.setContent(html_99931fdd9ccaae50cac35c7f30909b53);
+            
+        
+
+        circle_marker_05b65c192477bbe4d5612044ff0da264.bindPopup(popup_38c08c1bf8286cab10f8771fada63d99)
+        ;
+
+        
+    
+    
+            circle_marker_05b65c192477bbe4d5612044ff0da264.bindTooltip(
+                `<div>
+                     Warren - New Jersey-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4dcb98b9b2794ae9216fd6a600051a96 = L.polygon(
+                [[40.899904000000035, -75.075237], [40.89994700000001, -75.075231], [40.89989699999996, -75.075016], [40.899704, -75.074291], [40.89959000000002, -75.07397], [40.899569000000035, -75.073912], [40.89965600000001, -75.07391], [40.89991500000001, -75.073936], [40.90040800000001, -75.073515], [40.89980099999995, -75.073195], [40.89947200000001, -75.073021], [40.89935799999997, -75.072958], [40.89914699999996, -75.072841], [40.898879999999984, -75.072104], [40.898837999999984, -75.07198600000001], [40.899057999999954, -75.07050200000002], [40.899109999999965, -75.070102], [40.899236, -75.06906], [40.89941299999996, -75.067699], [40.89941200000001, -75.06745200000002], [40.899200999999984, -75.067507], [40.899101999999964, -75.06752800000001], [40.89892100000003, -75.067567], [40.89890300000002, -75.06757], [40.89877199999998, -75.06759], [40.89847400000006, -75.067622], [40.898128, -75.067651], [40.89782499999999, -75.067664], [40.897085999999994, -75.067662], [40.89681199999998, -75.067655], [40.89665699999999, -75.067646], [40.89653199999999, -75.067614], [40.896475, -75.067592], [40.89639500000001, -75.067561], [40.896229000000034, -75.067466], [40.89591700000002, -75.067236], [40.895641999999995, -75.067021], [40.89543399999996, -75.066827], [40.89529800000001, -75.066673], [40.89515599999998, -75.066456], [40.895145999999976, -75.06644], [40.89538500000004, -75.063612], [40.89306399999998, -75.064166], [40.892565999999974, -75.0638], [40.89207900000006, -75.063456], [40.89202599999998, -75.063419], [40.89175899999996, -75.063208], [40.89147400000001, -75.062955], [40.89099100000001, -75.062452], [40.89085, -75.06229600000002], [40.890437999999925, -75.063322], [40.890217000000014, -75.063791], [40.89017600000001, -75.063907], [40.89011000000003, -75.064145], [40.890065, -75.064255], [40.88958699999996, -75.065418], [40.889141000000016, -75.066457], [40.88888300000001, -75.067123], [40.88863217550109, -75.0677596109615], [40.898396493049844, -75.07544511966148], [40.899904000000035, -75.075237]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0e914e11b5149449895cc6f6cbf07dc1);
+        
+    
+        var popup_bcc7785d0ad2226a22227b5dd4887eb4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2a3d4701631ab2efee6c983d8aade06 = $(`<div id="html_c2a3d4701631ab2efee6c983d8aade06" style="width: 100.0%; height: 100.0%;"><b>Warren - New Jersey-CD07</b></div>`)[0];
+                popup_bcc7785d0ad2226a22227b5dd4887eb4.setContent(html_c2a3d4701631ab2efee6c983d8aade06);
+            
+        
+
+        polygon_4dcb98b9b2794ae9216fd6a600051a96.bindPopup(popup_bcc7785d0ad2226a22227b5dd4887eb4)
+        ;
+
+        
+    
+    
+            var circle_marker_bad7fc4ba961874930f13e14b5373512 = L.circleMarker(
+                [40.89613383063198, -75.06837229066596],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0e914e11b5149449895cc6f6cbf07dc1);
+        
+    
+        var popup_e04bfb4612edc720c4fc9190de1963a6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa891e5b2f0db89765cd6fbb231bf33a = $(`<div id="html_fa891e5b2f0db89765cd6fbb231bf33a" style="width: 100.0%; height: 100.0%;"><b>Warren - New Jersey-CD07</b></div>`)[0];
+                popup_e04bfb4612edc720c4fc9190de1963a6.setContent(html_fa891e5b2f0db89765cd6fbb231bf33a);
+            
+        
+
+        circle_marker_bad7fc4ba961874930f13e14b5373512.bindPopup(popup_e04bfb4612edc720c4fc9190de1963a6)
+        ;
+
+        
+    
+    
+            circle_marker_bad7fc4ba961874930f13e14b5373512.bindTooltip(
+                `<div>
+                     Warren - New Jersey-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_3391272e379b093d0f5138face8c7ee6 = L.polygon(
+                [[40.88922599999998, -75.070417], [40.892177000000025, -75.073925], [40.892652000000034, -75.074264], [40.894165999999984, -75.075345], [40.89548900000003, -75.075896], [40.89569199999999, -75.07598], [40.89609299999994, -75.075897], [40.89647599999995, -75.07581700000001], [40.896876000000006, -75.075737], [40.89823800000002, -75.075467], [40.898396493049844, -75.07544511966148], [40.88863217550109, -75.0677596109615], [40.888331, -75.068524], [40.88826100000004, -75.068429], [40.888161999999994, -75.068176], [40.88793199999998, -75.067807], [40.887612999999995, -75.067438], [40.887399000000016, -75.067127], [40.887070000000044, -75.066801], [40.88648399211633, -75.06606909775337], [40.88568200000002, -75.06543800000001], [40.88567637940422, -75.06544193319426], [40.88922599999998, -75.070417]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0e914e11b5149449895cc6f6cbf07dc1);
+        
+    
+        var popup_fa6eb586ee712e34ee5fb1daafa67636 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fdefb26be0f45ec954ebd4743d8c12a = $(`<div id="html_3fdefb26be0f45ec954ebd4743d8c12a" style="width: 100.0%; height: 100.0%;"><b>Warren - New Jersey-CD07</b></div>`)[0];
+                popup_fa6eb586ee712e34ee5fb1daafa67636.setContent(html_3fdefb26be0f45ec954ebd4743d8c12a);
+            
+        
+
+        polygon_3391272e379b093d0f5138face8c7ee6.bindPopup(popup_fa6eb586ee712e34ee5fb1daafa67636)
+        ;
+
+        
+    
+    
+            var circle_marker_8f55cd9b9281e716d17d61179d519c5d = L.circleMarker(
+                [40.89112826261181, -75.07102685919872],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0e914e11b5149449895cc6f6cbf07dc1);
+        
+    
+        var popup_5dcf2357fe0047ed3ad014483f58b36b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17995b412af5ea9243e2143d5a01a3b1 = $(`<div id="html_17995b412af5ea9243e2143d5a01a3b1" style="width: 100.0%; height: 100.0%;"><b>Warren - New Jersey-CD07</b></div>`)[0];
+                popup_5dcf2357fe0047ed3ad014483f58b36b.setContent(html_17995b412af5ea9243e2143d5a01a3b1);
+            
+        
+
+        circle_marker_8f55cd9b9281e716d17d61179d519c5d.bindPopup(popup_5dcf2357fe0047ed3ad014483f58b36b)
+        ;
+
+        
+    
+    
+            circle_marker_8f55cd9b9281e716d17d61179d519c5d.bindTooltip(
+                `<div>
+                     Warren - New Jersey-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

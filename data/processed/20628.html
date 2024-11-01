@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_065f1342f6a6c1905d82314510a852d7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Mary's - Maryland-CD05</p>
+            </div>
+    
+            <div class="folium-map" id="map_065f1342f6a6c1905d82314510a852d7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_065f1342f6a6c1905d82314510a852d7 = L.map(
+                "map_065f1342f6a6c1905d82314510a852d7",
+                {
+                    center: [38.15550342405545, -76.36463131680095],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2e1b7ee450b10c22107fc71ecb5dd24a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_2e1b7ee450b10c22107fc71ecb5dd24a.addTo(map_065f1342f6a6c1905d82314510a852d7);
+        
+    
+            var polygon_6127ba195935434d939543500f5c5383 = L.polygon(
+                [[38.22582800000001, -76.385115], [38.22577570353468, -76.38382468348497], [38.19386282626259, -76.36351705172467], [38.195545000000024, -76.365071], [38.19733800000003, -76.366728], [38.198482000000034, -76.367917], [38.19855099999998, -76.368149], [38.198757, -76.368265], [38.19976399999998, -76.369251], [38.19983199999999, -76.369483], [38.200014999999965, -76.369541], [38.20102300000003, -76.370585], [38.20269300000002, -76.37192], [38.20342600000001, -76.372384], [38.20351699999998, -76.372558], [38.20372299999997, -76.3725], [38.20521100000002, -76.373573], [38.20650900000004, -76.374643], [38.206584000000035, -76.374705], [38.20777399999999, -76.37572], [38.208804000000015, -76.376851], [38.20944500000006, -76.377606], [38.20944500000004, -76.377693], [38.20962799999996, -76.37778], [38.21050700000004, -76.378838], [38.21163800000004, -76.380199], [38.21189399999998, -76.38050700000001], [38.21324400000004, -76.381784], [38.214983999999966, -76.383234], [38.217776, -76.38526600000002], [38.220296, -76.386326], [38.22158999999998, -76.38687000000002], [38.221642999999986, -76.386892], [38.223130999999945, -76.387414], [38.223566000000005, -76.387675], [38.22451200000003, -76.387966], [38.22498499999999, -76.388111], [38.225328000000005, -76.388082], [38.22574, -76.388285], [38.225861999999964, -76.386864], [38.22582800000001, -76.385115]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_065f1342f6a6c1905d82314510a852d7);
+        
+    
+        var popup_d134d063ed8ac10371a45a720280fb5c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2422b67f42e7f3d7f41875a7f8fde7c = $(`<div id="html_c2422b67f42e7f3d7f41875a7f8fde7c" style="width: 100.0%; height: 100.0%;"><b>St. Mary's - Maryland-CD05</b></div>`)[0];
+                popup_d134d063ed8ac10371a45a720280fb5c.setContent(html_c2422b67f42e7f3d7f41875a7f8fde7c);
+            
+        
+
+        polygon_6127ba195935434d939543500f5c5383.bindPopup(popup_d134d063ed8ac10371a45a720280fb5c)
+        ;
+
+        
+    
+    
+            var circle_marker_03c796ab6c88e21b15224ccfc08dde10 = L.circleMarker(
+                [38.21107454950726, -76.37792213988317],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_065f1342f6a6c1905d82314510a852d7);
+        
+    
+        var popup_798140ad80a1317eda16cfc6aa802035 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1a9ea404adb5314fa3fdb486d6fada8 = $(`<div id="html_a1a9ea404adb5314fa3fdb486d6fada8" style="width: 100.0%; height: 100.0%;"><b>St. Mary's - Maryland-CD05</b></div>`)[0];
+                popup_798140ad80a1317eda16cfc6aa802035.setContent(html_a1a9ea404adb5314fa3fdb486d6fada8);
+            
+        
+
+        circle_marker_03c796ab6c88e21b15224ccfc08dde10.bindPopup(popup_798140ad80a1317eda16cfc6aa802035)
+        ;
+
+        
+    
+    
+            circle_marker_03c796ab6c88e21b15224ccfc08dde10.bindTooltip(
+                `<div>
+                     St. Mary's - Maryland-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_efc3bf0b60ec7184e48043d43582a927 = L.polygon(
+                [[38.12073399999998, -76.32559], [38.11855997980618, -76.32554159156469], [38.113892781287205, -76.32681669874165], [38.11402600000005, -76.327291], [38.11872500000003, -76.338332], [38.11884999999998, -76.338617], [38.119154, -76.33930600000001], [38.119604999999986, -76.340436], [38.11942000000003, -76.341027], [38.119271999999995, -76.341502], [38.11919300000001, -76.34175600000002], [38.11923799999999, -76.341882], [38.119306999999985, -76.342075], [38.119261999999985, -76.342394], [38.119009999999996, -76.342568], [38.118552000000044, -76.342655], [38.11847099999999, -76.342655], [38.118426999999976, -76.343167], [38.118397999999964, -76.34347600000001], [38.11836999999997, -76.343786], [38.11841499999996, -76.343785], [38.118552000000044, -76.343872], [38.11864399999999, -76.345639], [38.11869000000001, -76.346363], [38.119102999999996, -76.347088], [38.119995, -76.347551], [38.12024700000001, -76.347551], [38.12095699999996, -76.347], [38.121253999999965, -76.347058], [38.121207999999946, -76.34729], [38.120911000000014, -76.347637], [38.12068199999996, -76.348072], [38.120566000000004, -76.348659], [38.121484, -76.35349], [38.12136999999996, -76.354852], [38.12173600000001, -76.35563400000001], [38.121781999999975, -76.35627100000002], [38.12148500000005, -76.356648], [38.121186999999985, -76.356938], [38.12119500000001, -76.35708], [38.121210000000005, -76.357372], [38.12141599999996, -76.35821300000002], [38.121348000000005, -76.358734], [38.12107299999996, -76.358763], [38.120660999999984, -76.3584], [38.12070800000001, -76.359748], [38.120803000000016, -76.361576], [38.12144499999998, -76.361537], [38.12152600000001, -76.364495], [38.12207800000002, -76.364506], [38.12211400000001, -76.36527], [38.12217400000002, -76.36651400000001], [38.12226600000003, -76.368441], [38.12259600000001, -76.368253], [38.12271100000003, -76.368172], [38.122852999999935, -76.368095], [38.12338199999998, -76.367751], [38.123938999999986, -76.367418], [38.12482299999995, -76.366875], [38.12512599999997, -76.366692], [38.12567199999996, -76.366401], [38.126723999999996, -76.365785], [38.12712499999998, -76.36555], [38.12763399999999, -76.365238], [38.12765900000002, -76.36522500000001], [38.12812300000004, -76.365001], [38.12828199999996, -76.36617], [38.12880699999996, -76.366087], [38.12884700000001, -76.366895], [38.129324, -76.367712], [38.130192000000065, -76.367386], [38.13051600000001, -76.367505], [38.13296600000002, -76.368605], [38.13877799999999, -76.371354], [38.14167400000002, -76.372758], [38.14312, -76.3754], [38.148063999999955, -76.376477], [38.14814000000002, -76.376414], [38.14819700000003, -76.376269], [38.14828600000001, -76.376138], [38.1482, -76.375977], [38.14821899999995, -76.375748], [38.14819299999997, -76.375622], [38.14811700000001, -76.375572], [38.148023, -76.37557700000002], [38.14794200000001, -76.375527], [38.147779000000014, -76.375336], [38.14762100000001, -76.375263], [38.147458, -76.375093], [38.14728200000005, -76.375076], [38.147173000000016, -76.37501800000001], [38.14711899999998, -76.374906], [38.147084000000056, -76.374669], [38.147064999999984, -76.37435500000001], [38.14708999999998, -76.374161], [38.14722299999998, -76.374004], [38.14735600000004, -76.373929], [38.14747799999998, -76.373841], [38.147651000000046, -76.373608], [38.147820000000046, -76.373256], [38.14786, -76.373097], [38.14789600000001, -76.372813], [38.147930999999986, -76.372695], [38.14801500000002, -76.372544], [38.14820999999999, -76.37226900000002], [38.148317, -76.372097], [38.14848200000003, -76.371557], [38.14856099999998, -76.371406], [38.148650999999965, -76.371261], [38.14890100000003, -76.37096], [38.14916199999998, -76.370728], [38.149364000000034, -76.370426], [38.14948800000001, -76.37015000000001], [38.14968100000003, -76.369555], [38.14987299999998, -76.369114], [38.149953, -76.368851], [38.150025000000035, -76.368706], [38.150119999999966, -76.368199], [38.150993, -76.368645], [38.15142300000001, -76.368854], [38.152176999999966, -76.369255], [38.152519, -76.369429], [38.15332299999997, -76.36993], [38.15440400000001, -76.370643], [38.15573199999995, -76.371437], [38.15790300000003, -76.372855], [38.158738000000035, -76.373401], [38.15970699999998, -76.374033], [38.159792999999986, -76.374089], [38.16059700000005, -76.37461300000001], [38.16124800000001, -76.375037], [38.16149700000002, -76.375198], [38.16105799999996, -76.374449], [38.163057000000016, -76.368299], [38.163282000000045, -76.368381], [38.16351700000002, -76.36857], [38.16388599999996, -76.368727], [38.16467499999996, -76.368936], [38.167821999999994, -76.369465], [38.16814300000001, -76.368429], [38.16968, -76.369309], [38.17062900000004, -76.367427], [38.17164799999998, -76.365447], [38.172224000000014, -76.36429100000001], [38.173678000000024, -76.36133], [38.17303200000001, -76.359939], [38.173029999999976, -76.358967], [38.17364799999999, -76.358494], [38.17568500000002, -76.357682], [38.17666899999997, -76.35716], [38.176852000000046, -76.35718900000002], [38.17726400000004, -76.356493], [38.17730900000003, -76.35513], [38.17781300000002, -76.354521], [38.178130925503574, -76.35351258015758], [38.138338999999995, -76.320136], [38.12189334328873, -76.3246307946819], [38.12073399999998, -76.32559]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_065f1342f6a6c1905d82314510a852d7);
+        
+    
+        var popup_795bb49e831ea2acc394f89d0a75b162 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7988fe9fbbff9c4c6384a9b8be60ffe2 = $(`<div id="html_7988fe9fbbff9c4c6384a9b8be60ffe2" style="width: 100.0%; height: 100.0%;"><b>St. Mary's - Maryland-CD05</b></div>`)[0];
+                popup_795bb49e831ea2acc394f89d0a75b162.setContent(html_7988fe9fbbff9c4c6384a9b8be60ffe2);
+            
+        
+
+        polygon_efc3bf0b60ec7184e48043d43582a927.bindPopup(popup_795bb49e831ea2acc394f89d0a75b162)
+        ;
+
+        
+    
+    
+            var circle_marker_d5a80b854b8e98f15e6c64075b0d3637 = L.circleMarker(
+                [38.13954713310054, -76.36162933965282],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_065f1342f6a6c1905d82314510a852d7);
+        
+    
+        var popup_187623ffd71eeb8d03ebe3f1c54eed06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9b423e1cc8df5964a4ca1ce07674f95 = $(`<div id="html_b9b423e1cc8df5964a4ca1ce07674f95" style="width: 100.0%; height: 100.0%;"><b>St. Mary's - Maryland-CD05</b></div>`)[0];
+                popup_187623ffd71eeb8d03ebe3f1c54eed06.setContent(html_b9b423e1cc8df5964a4ca1ce07674f95);
+            
+        
+
+        circle_marker_d5a80b854b8e98f15e6c64075b0d3637.bindPopup(popup_187623ffd71eeb8d03ebe3f1c54eed06)
+        ;
+
+        
+    
+    
+            circle_marker_d5a80b854b8e98f15e6c64075b0d3637.bindTooltip(
+                `<div>
+                     St. Mary's - Maryland-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7f13f95adb8aca8015552d743349e7a6 = L.polygon(
+                [[38.18035400000004, -76.355391], [38.18206999999998, -76.356695], [38.182391, -76.357101], [38.18277999999997, -76.357217], [38.18339799999996, -76.35771], [38.18500000000002, -76.358435], [38.187196223858145, -76.35927728772987], [38.17866541999361, -76.35385320651197], [38.18035400000004, -76.355391]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_065f1342f6a6c1905d82314510a852d7);
+        
+    
+        var popup_464090e79943637269a42e1f55f9c10e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54b3079197385204799ad3b9ec88028d = $(`<div id="html_54b3079197385204799ad3b9ec88028d" style="width: 100.0%; height: 100.0%;"><b>St. Mary's - Maryland-CD05</b></div>`)[0];
+                popup_464090e79943637269a42e1f55f9c10e.setContent(html_54b3079197385204799ad3b9ec88028d);
+            
+        
+
+        polygon_7f13f95adb8aca8015552d743349e7a6.bindPopup(popup_464090e79943637269a42e1f55f9c10e)
+        ;
+
+        
+    
+    
+            var circle_marker_0d9db748736831c2c84bf38369ce8fa4 = L.circleMarker(
+                [38.182467627094645, -76.3567856104713],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_065f1342f6a6c1905d82314510a852d7);
+        
+    
+        var popup_60f268c70fd313d5781faf65aed3a76f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_def6e3b541aa9c690094a008f397002e = $(`<div id="html_def6e3b541aa9c690094a008f397002e" style="width: 100.0%; height: 100.0%;"><b>St. Mary's - Maryland-CD05</b></div>`)[0];
+                popup_60f268c70fd313d5781faf65aed3a76f.setContent(html_def6e3b541aa9c690094a008f397002e);
+            
+        
+
+        circle_marker_0d9db748736831c2c84bf38369ce8fa4.bindPopup(popup_60f268c70fd313d5781faf65aed3a76f)
+        ;
+
+        
+    
+    
+            circle_marker_0d9db748736831c2c84bf38369ce8fa4.bindTooltip(
+                `<div>
+                     St. Mary's - Maryland-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

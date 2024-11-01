@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c91d27ff2b7c187f55edfe4368fbe56d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Orange - New York-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Orange - New York-CD18</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Orange - New York-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Orange - New York-CD18</p>
+            </div>
+    
+            <div class="folium-map" id="map_c91d27ff2b7c187f55edfe4368fbe56d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c91d27ff2b7c187f55edfe4368fbe56d = L.map(
+                "map_c91d27ff2b7c187f55edfe4368fbe56d",
+                {
+                    center: [41.18264956965068, -74.31863175239998],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b783806684bb78c76f835e63551f981d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b783806684bb78c76f835e63551f981d.addTo(map_c91d27ff2b7c187f55edfe4368fbe56d);
+        
+    
+            var polygon_f999832a0cf3f4b8a32a7aa06b24c7a2 = L.polygon(
+                [[41.18155900000002, -74.321846], [41.18199824607326, -74.32132764890041], [41.18097891932024, -74.31923154209909], [41.180611999999996, -74.31969600000001], [41.18090000000003, -74.320341], [41.18155900000002, -74.321846]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c91d27ff2b7c187f55edfe4368fbe56d);
+        
+    
+        var popup_4a7c1cc09fa7a75c1809d3931ce88208 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6c3446726dce07e29deebd1dcb78d5c0 = $(`<div id="html_6c3446726dce07e29deebd1dcb78d5c0" style="width: 100.0%; height: 100.0%;"><b>Orange - New York-CD05</b></div>`)[0];
+                popup_4a7c1cc09fa7a75c1809d3931ce88208.setContent(html_6c3446726dce07e29deebd1dcb78d5c0);
+            
+        
+
+        polygon_f999832a0cf3f4b8a32a7aa06b24c7a2.bindPopup(popup_4a7c1cc09fa7a75c1809d3931ce88208)
+        ;
+
+        
+    
+    
+            var circle_marker_c488d7adfd618c2a7023e9f217ce8f82 = L.circleMarker(
+                [41.181267860898934, -74.32071469849991],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c91d27ff2b7c187f55edfe4368fbe56d);
+        
+    
+        var popup_40535d1e019c2c82980e9e3d9837915e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6465f9292dcb490912a4833fe2fab12a = $(`<div id="html_6465f9292dcb490912a4833fe2fab12a" style="width: 100.0%; height: 100.0%;"><b>Orange - New York-CD05</b></div>`)[0];
+                popup_40535d1e019c2c82980e9e3d9837915e.setContent(html_6465f9292dcb490912a4833fe2fab12a);
+            
+        
+
+        circle_marker_c488d7adfd618c2a7023e9f217ce8f82.bindPopup(popup_40535d1e019c2c82980e9e3d9837915e)
+        ;
+
+        
+    
+    
+            circle_marker_c488d7adfd618c2a7023e9f217ce8f82.bindTooltip(
+                `<div>
+                     Orange - New York-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_22570897d8cb3d0df929b39b36a81c27 = L.polygon(
+                [[41.18235299999999, -74.320909], [41.182507, -74.320656], [41.182591000000045, -74.32066], [41.18273499999999, -74.32065500000002], [41.18280499999998, -74.32062000000002], [41.18285799999994, -74.320551], [41.18301000000005, -74.320277], [41.18306300000002, -74.320174], [41.18312799999996, -74.320027], [41.18317799999998, -74.319879], [41.183228999999976, -74.319633], [41.18324300000006, -74.319462], [41.18326600000003, -74.318866], [41.18326600000003, -74.318454], [41.18328499999994, -74.318066], [41.18332199999997, -74.317888], [41.18335399999997, -74.317771], [41.183404999999965, -74.317648], [41.18360100000001, -74.31722100000002], [41.18363700000001, -74.317242], [41.18369700000003, -74.317255], [41.18380800000001, -74.317267], [41.183919, -74.317224], [41.184021, -74.31716200000001], [41.184289, -74.316849], [41.18439500000003, -74.31675], [41.18436299999994, -74.31664], [41.184112999999975, -74.316012], [41.18374800000003, -74.316381], [41.18339300000003, -74.316784], [41.18331300000003, -74.31659], [41.18301399999997, -74.316089], [41.182171000000004, -74.316484], [41.18182300000002, -74.316626], [41.18186399999995, -74.316799], [41.18196399999998, -74.317075], [41.18237399999998, -74.318107], [41.18204000000001, -74.318228], [41.18189800000001, -74.31828], [41.18171699999994, -74.31833499999999], [41.181688, -74.31836000000001], [41.18160199999999, -74.31843700000002], [41.18153799999997, -74.31851300000001], [41.18151700000002, -74.31854100000001], [41.18134600000001, -74.318766], [41.181338000000004, -74.318777], [41.18097891932024, -74.31923154209909], [41.18199824607326, -74.32132764890041], [41.18235299999999, -74.320909]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c91d27ff2b7c187f55edfe4368fbe56d);
+        
+    
+        var popup_a3080a56c7bd3e7f299d66727eb515c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f28784fa6fe79577b4b2dcffb2aec7a5 = $(`<div id="html_f28784fa6fe79577b4b2dcffb2aec7a5" style="width: 100.0%; height: 100.0%;"><b>Orange - New York-CD18</b></div>`)[0];
+                popup_a3080a56c7bd3e7f299d66727eb515c6.setContent(html_f28784fa6fe79577b4b2dcffb2aec7a5);
+            
+        
+
+        polygon_22570897d8cb3d0df929b39b36a81c27.bindPopup(popup_a3080a56c7bd3e7f299d66727eb515c6)
+        ;
+
+        
+    
+    
+            var circle_marker_35898362424cb7cdd3287324b083fe04 = L.circleMarker(
+                [41.18281875847742, -74.3183766977755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c91d27ff2b7c187f55edfe4368fbe56d);
+        
+    
+        var popup_be14e0e99a536883f091b44abd2da5c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0d3c20155ec20342839cdc9a55f5e72 = $(`<div id="html_e0d3c20155ec20342839cdc9a55f5e72" style="width: 100.0%; height: 100.0%;"><b>Orange - New York-CD18</b></div>`)[0];
+                popup_be14e0e99a536883f091b44abd2da5c0.setContent(html_e0d3c20155ec20342839cdc9a55f5e72);
+            
+        
+
+        circle_marker_35898362424cb7cdd3287324b083fe04.bindPopup(popup_be14e0e99a536883f091b44abd2da5c0)
+        ;
+
+        
+    
+    
+            circle_marker_35898362424cb7cdd3287324b083fe04.bindTooltip(
+                `<div>
+                     Orange - New York-CD18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

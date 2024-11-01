@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_222cae1ec6fc0e187d98160db846d4ef {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dare - North Carolina-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dare - North Carolina-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dare - North Carolina-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dare - North Carolina-CD03</p>
+            </div>
+    
+            <div class="folium-map" id="map_222cae1ec6fc0e187d98160db846d4ef" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_222cae1ec6fc0e187d98160db846d4ef = L.map(
+                "map_222cae1ec6fc0e187d98160db846d4ef",
+                {
+                    center: [35.56545059682674, -75.46726701905364],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7ff62338d6c675165f674e5429cd95ed = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7ff62338d6c675165f674e5429cd95ed.addTo(map_222cae1ec6fc0e187d98160db846d4ef);
+        
+    
+            var polygon_d18b691f8e3a3e7f04d1e40c5d4058ce = L.polygon(
+                [[35.56404900000004, -75.469097], [35.56411799999998, -75.469091], [35.56425299999999, -75.469082], [35.564524000000006, -75.469063], [35.564600999999996, -75.469057], [35.564958999999995, -75.469005], [35.56535100000002, -75.468935], [35.565667000000026, -75.46886200000002], [35.56600600000003, -75.468773], [35.566197999999986, -75.468719], [35.566337000000026, -75.468677], [35.56665900000002, -75.468579], [35.566940999999986, -75.468492], [35.56718000000001, -75.468419], [35.567276000000014, -75.468389], [35.567766999999975, -75.468237], [35.568017000000026, -75.468161], [35.56817700000003, -75.468119], [35.56882700000002, -75.467917], [35.56935099999999, -75.467768], [35.56950600000001, -75.467732], [35.569661, -75.467698], [35.56981299999996, -75.46767], [35.570080000000004, -75.467629], [35.57039400000002, -75.467587], [35.57098100000002, -75.467516], [35.57115399999999, -75.467495], [35.57140799999997, -75.467459], [35.57168200000004, -75.467435], [35.57208500000003, -75.467379], [35.57290099999998, -75.46727800000001], [35.57311099999999, -75.467254], [35.57336799999995, -75.467224], [35.57368800000003, -75.467201], [35.57392900000001, -75.467191], [35.574212000000024, -75.467179], [35.574299999999994, -75.467178], [35.575126999999995, -75.467168], [35.57521400000002, -75.467168], [35.57614999999996, -75.467165], [35.57768800000003, -75.46716], [35.57817599999999, -75.467158], [35.579141, -75.467156], [35.57917699999999, -75.467095], [35.57918200000002, -75.467041], [35.57914899999997, -75.466906], [35.57919900000002, -75.466738], [35.57917699999999, -75.466638], [35.579093999999984, -75.466544], [35.57905500000002, -75.466516], [35.57908299999998, -75.466462], [35.579137, -75.466427], [35.578450000000004, -75.461729], [35.578364931140236, -75.46116622740693], [35.56136141956273, -75.46350338515619], [35.56128400000005, -75.464453], [35.561226000000005, -75.46523900000001], [35.56116300000001, -75.466117], [35.56113099999998, -75.46668500000001], [35.560997999999984, -75.469052], [35.561942, -75.469071], [35.56217299999995, -75.469076], [35.56305599999997, -75.46909600000001], [35.56351499999996, -75.469106], [35.563551000000004, -75.46910500000001], [35.56401800000001, -75.46909900000001], [35.56404900000004, -75.469097]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_222cae1ec6fc0e187d98160db846d4ef);
+        
+    
+        var popup_30eb1350a46a15c410fdc9dfff5dd52a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75c4d1681fa1c5088336c1a1dcf5b3e2 = $(`<div id="html_75c4d1681fa1c5088336c1a1dcf5b3e2" style="width: 100.0%; height: 100.0%;"><b>Dare - North Carolina-CD03</b></div>`)[0];
+                popup_30eb1350a46a15c410fdc9dfff5dd52a.setContent(html_75c4d1681fa1c5088336c1a1dcf5b3e2);
+            
+        
+
+        polygon_d18b691f8e3a3e7f04d1e40c5d4058ce.bindPopup(popup_30eb1350a46a15c410fdc9dfff5dd52a)
+        ;
+
+        
+    
+    
+            var circle_marker_29cf91d9a43e1141dd43aeb7daddd9f7 = L.circleMarker(
+                [35.56997854254781, -75.46751468078453],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_222cae1ec6fc0e187d98160db846d4ef);
+        
+    
+        var popup_bd55dc26134cb38a7272ee7cf0ab3b9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f25fd4a304c642a9b24dc67b0153d1e = $(`<div id="html_7f25fd4a304c642a9b24dc67b0153d1e" style="width: 100.0%; height: 100.0%;"><b>Dare - North Carolina-CD03</b></div>`)[0];
+                popup_bd55dc26134cb38a7272ee7cf0ab3b9b.setContent(html_7f25fd4a304c642a9b24dc67b0153d1e);
+            
+        
+
+        circle_marker_29cf91d9a43e1141dd43aeb7daddd9f7.bindPopup(popup_bd55dc26134cb38a7272ee7cf0ab3b9b)
+        ;
+
+        
+    
+    
+            circle_marker_29cf91d9a43e1141dd43aeb7daddd9f7.bindTooltip(
+                `<div>
+                     Dare - North Carolina-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9926358da56af6c723f7540408a0de47 = L.polygon(
+                [[35.535927999999984, -75.468591], [35.53779100000004, -75.468257], [35.53951799999999, -75.467647], [35.541221000000014, -75.467321], [35.543482999999966, -75.466909], [35.545835000000025, -75.466344], [35.54662899999998, -75.466192], [35.549956, -75.46556], [35.55015200000004, -75.465522], [35.55405800000004, -75.464776], [35.555094000000025, -75.464589], [35.55619099999997, -75.464393], [35.55758999999999, -75.464098], [35.55863265473759, -75.46387835714525], [35.53583053117897, -75.4670106117443], [35.535927999999984, -75.468591]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_222cae1ec6fc0e187d98160db846d4ef);
+        
+    
+        var popup_abf674da89b3bf7042a45690efda2ebc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59da85d9e8c434be153aebf0865e67fb = $(`<div id="html_59da85d9e8c434be153aebf0865e67fb" style="width: 100.0%; height: 100.0%;"><b>Dare - North Carolina-CD03</b></div>`)[0];
+                popup_abf674da89b3bf7042a45690efda2ebc.setContent(html_59da85d9e8c434be153aebf0865e67fb);
+            
+        
+
+        polygon_9926358da56af6c723f7540408a0de47.bindPopup(popup_abf674da89b3bf7042a45690efda2ebc)
+        ;
+
+        
+    
+    
+            var circle_marker_a8bc7cc53b67b69069d76537261dd1a5 = L.circleMarker(
+                [35.54648982411979, -75.46622993555559],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_222cae1ec6fc0e187d98160db846d4ef);
+        
+    
+        var popup_a5a83e9f1430231c7bcf37fc23eae197 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8784fea4557f1fb05a5eefd041e49e5 = $(`<div id="html_d8784fea4557f1fb05a5eefd041e49e5" style="width: 100.0%; height: 100.0%;"><b>Dare - North Carolina-CD03</b></div>`)[0];
+                popup_a5a83e9f1430231c7bcf37fc23eae197.setContent(html_d8784fea4557f1fb05a5eefd041e49e5);
+            
+        
+
+        circle_marker_a8bc7cc53b67b69069d76537261dd1a5.bindPopup(popup_a5a83e9f1430231c7bcf37fc23eae197)
+        ;
+
+        
+    
+    
+            circle_marker_a8bc7cc53b67b69069d76537261dd1a5.bindTooltip(
+                `<div>
+                     Dare - North Carolina-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d057ea3236b721baa68e90eac36eadd8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Middlesex - Massachusetts-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Middlesex - Massachusetts-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Middlesex - Massachusetts-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Middlesex - Massachusetts-CD07</p>
+            </div>
+    
+            <div class="folium-map" id="map_d057ea3236b721baa68e90eac36eadd8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d057ea3236b721baa68e90eac36eadd8 = L.map(
+                "map_d057ea3236b721baa68e90eac36eadd8",
+                {
+                    center: [42.36377742483631, -71.08210656687393],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8f08eb000cdac95b8c0b30e750ba421e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8f08eb000cdac95b8c0b30e750ba421e.addTo(map_d057ea3236b721baa68e90eac36eadd8);
+        
+    
+            var polygon_6fddf5ff2a5fcc5f10fc79be85dc6952 = L.polygon(
+                [[42.361930000000044, -71.07554500000002], [42.36161300000002, -71.075657], [42.361463000000036, -71.07571], [42.36037999999998, -71.076092], [42.359955999999976, -71.076403], [42.35992400000001, -71.076427], [42.35966800000002, -71.07666], [42.359504, -71.07681], [42.359084, -71.077334], [42.358735000000024, -71.077952], [42.35826699999998, -71.07936100000002], [42.356924999999976, -71.083398], [42.35633300000002, -71.085175], [42.356735723815646, -71.0854554505917], [42.3625416814003, -71.07532877529894], [42.361930000000044, -71.07554500000002]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d057ea3236b721baa68e90eac36eadd8);
+        
+    
+        var popup_45eefe37b4825cfdac2fb6e27479d4e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca00cc3bf3146d204e7e2f6d4528ebee = $(`<div id="html_ca00cc3bf3146d204e7e2f6d4528ebee" style="width: 100.0%; height: 100.0%;"><b>Middlesex - Massachusetts-CD08</b></div>`)[0];
+                popup_45eefe37b4825cfdac2fb6e27479d4e9.setContent(html_ca00cc3bf3146d204e7e2f6d4528ebee);
+            
+        
+
+        polygon_6fddf5ff2a5fcc5f10fc79be85dc6952.bindPopup(popup_45eefe37b4825cfdac2fb6e27479d4e9)
+        ;
+
+        
+    
+    
+            var circle_marker_2f00ca6d121a0d69a146be18c48833f4 = L.circleMarker(
+                [42.359686837826004, -71.07805332661817],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d057ea3236b721baa68e90eac36eadd8);
+        
+    
+        var popup_dde091b1d80a27c45893db53ae0e80cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3529bfa0227d1a1e79322436ab9c9f2 = $(`<div id="html_e3529bfa0227d1a1e79322436ab9c9f2" style="width: 100.0%; height: 100.0%;"><b>Middlesex - Massachusetts-CD08</b></div>`)[0];
+                popup_dde091b1d80a27c45893db53ae0e80cd.setContent(html_e3529bfa0227d1a1e79322436ab9c9f2);
+            
+        
+
+        circle_marker_2f00ca6d121a0d69a146be18c48833f4.bindPopup(popup_dde091b1d80a27c45893db53ae0e80cd)
+        ;
+
+        
+    
+    
+            circle_marker_2f00ca6d121a0d69a146be18c48833f4.bindTooltip(
+                `<div>
+                     Middlesex - Massachusetts-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f021561c09add5c22c9d53e6ca332be3 = L.polygon(
+                [[42.36505599999998, -71.073721], [42.36485999999999, -71.07388400000002], [42.363772999999966, -71.074792], [42.36350800000004, -71.074941], [42.363202999999984, -71.075095], [42.3625416814003, -71.07532877529894], [42.356735723815646, -71.0854554505917], [42.358809999999984, -71.08690000000001], [42.35895600000004, -71.086975], [42.35924299999999, -71.087159], [42.35897900000002, -71.087919], [42.358828000000024, -71.088435], [42.35945499999998, -71.088836], [42.35953699999998, -71.08886], [42.359573999999974, -71.088835], [42.35960099999998, -71.088804], [42.359967, -71.087654], [42.36076999999998, -71.088136], [42.36105799999999, -71.088299], [42.361172, -71.08834799999998], [42.36125500000001, -71.088359], [42.36148500000002, -71.088345], [42.362607999999994, -71.088207], [42.36263899999995, -71.088907], [42.362684, -71.089773], [42.36269099999999, -71.09002100000001], [42.363004, -71.089932], [42.36334900000003, -71.089862], [42.36449600000002, -71.089516], [42.36479000000005, -71.089432], [42.36489099999996, -71.089704], [42.364963, -71.08990000000001], [42.36497199999998, -71.08968600000001], [42.365650000000024, -71.089532], [42.366053999999956, -71.089432], [42.367064999999975, -71.089181], [42.366989999999944, -71.08905500000002], [42.366659, -71.088436], [42.366537, -71.08824000000001], [42.366609999999994, -71.088203], [42.36665099999997, -71.088184], [42.36719100000003, -71.088033], [42.366956999999985, -71.086255], [42.366903999999984, -71.085926], [42.36758299999994, -71.085727], [42.36753099999996, -71.085316], [42.367365000000014, -71.08409600000002], [42.367277000000016, -71.08325500000001], [42.36717799999998, -71.082403], [42.367065999999994, -71.081651], [42.367339, -71.081434], [42.36746600000006, -71.081323], [42.36767600000001, -71.08110900000001], [42.36754400000003, -71.08004], [42.36746800000004, -71.079403], [42.36679300000004, -71.079573], [42.366563999999954, -71.077907], [42.365913, -71.078063], [42.36582799999996, -71.077333], [42.36574599999995, -71.07673], [42.36700199999997, -71.075565], [42.36690799999994, -71.075363], [42.36790400000002, -71.074401], [42.368254000000036, -71.074049], [42.36849500000001, -71.073807], [42.368031999999985, -71.07295700000002], [42.367886999999996, -71.072651], [42.36778000000003, -71.072496], [42.36755100000004, -71.072076], [42.36745499999995, -71.07218200000001], [42.36710999999998, -71.071537], [42.366707999999974, -71.07196499999999], [42.36505599999998, -71.073721]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d057ea3236b721baa68e90eac36eadd8);
+        
+    
+        var popup_3497095d90c0adebd15a0bbe6d212d1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60908ee4d1bf7adce36fd74a2812a934 = $(`<div id="html_60908ee4d1bf7adce36fd74a2812a934" style="width: 100.0%; height: 100.0%;"><b>Middlesex - Massachusetts-CD07</b></div>`)[0];
+                popup_3497095d90c0adebd15a0bbe6d212d1d.setContent(html_60908ee4d1bf7adce36fd74a2812a934);
+            
+        
+
+        polygon_f021561c09add5c22c9d53e6ca332be3.bindPopup(popup_3497095d90c0adebd15a0bbe6d212d1d)
+        ;
+
+        
+    
+    
+            var circle_marker_0bf3021e928cadbf47faf33592f06847 = L.circleMarker(
+                [42.364673991852264, -71.08299494829987],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d057ea3236b721baa68e90eac36eadd8);
+        
+    
+        var popup_4f1f8c6c5c2d6452ff0bc79feb356540 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a25ce67583be615a5a27368aa42fac68 = $(`<div id="html_a25ce67583be615a5a27368aa42fac68" style="width: 100.0%; height: 100.0%;"><b>Middlesex - Massachusetts-CD07</b></div>`)[0];
+                popup_4f1f8c6c5c2d6452ff0bc79feb356540.setContent(html_a25ce67583be615a5a27368aa42fac68);
+            
+        
+
+        circle_marker_0bf3021e928cadbf47faf33592f06847.bindPopup(popup_4f1f8c6c5c2d6452ff0bc79feb356540)
+        ;
+
+        
+    
+    
+            circle_marker_0bf3021e928cadbf47faf33592f06847.bindTooltip(
+                `<div>
+                     Middlesex - Massachusetts-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1cfe47423cec202a79ab78b2cb91394a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lake - Illinois-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lake - Illinois-CD10</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lake - Illinois-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lake - Illinois-CD10</p>
+            </div>
+    
+            <div class="folium-map" id="map_1cfe47423cec202a79ab78b2cb91394a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1cfe47423cec202a79ab78b2cb91394a = L.map(
+                "map_1cfe47423cec202a79ab78b2cb91394a",
+                {
+                    center: [42.49271571392193, -87.90917759902078],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c70954cac9661bfdb0f80579055f2d0a = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c70954cac9661bfdb0f80579055f2d0a.addTo(map_1cfe47423cec202a79ab78b2cb91394a);
+        
+    
+            var polygon_4b5d5cd12a3f5fe3e260d96dd0f15fb8 = L.polygon(
+                [[42.49414499999999, -87.917287], [42.49414299999999, -87.91711], [42.494141999999954, -87.916989], [42.49408599999998, -87.91198200000001], [42.494043000000005, -87.908202], [42.49398199999997, -87.90281], [42.49397500000004, -87.902379], [42.493927000000006, -87.899683], [42.49391600000002, -87.900103], [42.49390500000001, -87.900533], [42.49387700000001, -87.90084900000001], [42.49385800000004, -87.901059], [42.49383499999994, -87.901315], [42.493790999999995, -87.901796], [42.49370899999999, -87.902166], [42.49360000000001, -87.902625], [42.49353599999998, -87.902867], [42.493236000000024, -87.903739], [42.49303474056303, -87.90419272392192], [42.49317589356338, -87.91790165257666], [42.49324099999997, -87.917868], [42.493814000000036, -87.917599], [42.49414699999996, -87.917457], [42.49414599999999, -87.917379], [42.49414499999999, -87.917287]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1cfe47423cec202a79ab78b2cb91394a);
+        
+    
+        var popup_5e25049e451343bcc3d06d98ea5d1a26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3b96a706c6eb41039de63d64ad1eb6d = $(`<div id="html_b3b96a706c6eb41039de63d64ad1eb6d" style="width: 100.0%; height: 100.0%;"><b>Lake - Illinois-CD01</b></div>`)[0];
+                popup_5e25049e451343bcc3d06d98ea5d1a26.setContent(html_b3b96a706c6eb41039de63d64ad1eb6d);
+            
+        
+
+        polygon_4b5d5cd12a3f5fe3e260d96dd0f15fb8.bindPopup(popup_5e25049e451343bcc3d06d98ea5d1a26)
+        ;
+
+        
+    
+    
+            var circle_marker_fbca9acb68af01688beccdd12152b2a9 = L.circleMarker(
+                [42.49381638536505, -87.90812713505994],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1cfe47423cec202a79ab78b2cb91394a);
+        
+    
+        var popup_487ddefc59cce5f55f9706c17b4fec05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a013916302b3a4d008c802826ba072f = $(`<div id="html_7a013916302b3a4d008c802826ba072f" style="width: 100.0%; height: 100.0%;"><b>Lake - Illinois-CD01</b></div>`)[0];
+                popup_487ddefc59cce5f55f9706c17b4fec05.setContent(html_7a013916302b3a4d008c802826ba072f);
+            
+        
+
+        circle_marker_fbca9acb68af01688beccdd12152b2a9.bindPopup(popup_487ddefc59cce5f55f9706c17b4fec05)
+        ;
+
+        
+    
+    
+            circle_marker_fbca9acb68af01688beccdd12152b2a9.bindTooltip(
+                `<div>
+                     Lake - Illinois-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e40b4bdaf473d29d010d2bab91ec6d3e = L.polygon(
+                [[42.49295299999999, -87.904377], [42.492730999999985, -87.904791], [42.49250800000001, -87.905207], [42.491633000000014, -87.906758], [42.491355000000006, -87.907318], [42.49118299999995, -87.907733], [42.49104899999997, -87.908096], [42.49101199999994, -87.908198], [42.49086600000001, -87.908699], [42.49075300000005, -87.909137], [42.490653000000016, -87.909641], [42.490566000000044, -87.910121], [42.49051799999997, -87.910578], [42.490488, -87.91098], [42.49047199999999, -87.911414], [42.49046500000002, -87.912629], [42.49047900000001, -87.919473], [42.490479999999984, -87.919536], [42.49276100000001, -87.918122], [42.49285600000005, -87.918067], [42.49317589356338, -87.91790165257666], [42.49303474056303, -87.90419272392192], [42.49295299999999, -87.904377]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1cfe47423cec202a79ab78b2cb91394a);
+        
+    
+        var popup_f5d5d2cd1a2ee157a0d7269352f64681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8c137c95af379f405b64728414c45ac = $(`<div id="html_d8c137c95af379f405b64728414c45ac" style="width: 100.0%; height: 100.0%;"><b>Lake - Illinois-CD10</b></div>`)[0];
+                popup_f5d5d2cd1a2ee157a0d7269352f64681.setContent(html_d8c137c95af379f405b64728414c45ac);
+            
+        
+
+        polygon_e40b4bdaf473d29d010d2bab91ec6d3e.bindPopup(popup_f5d5d2cd1a2ee157a0d7269352f64681)
+        ;
+
+        
+    
+    
+            var circle_marker_e4484ddb82f5232894d8e99f552d8c22 = L.circleMarker(
+                [42.49151933191854, -87.91031940767384],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1cfe47423cec202a79ab78b2cb91394a);
+        
+    
+        var popup_7af5f199af498113e948188d1e3acd88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a72cb3d461fe7d34fd668759a5c2e829 = $(`<div id="html_a72cb3d461fe7d34fd668759a5c2e829" style="width: 100.0%; height: 100.0%;"><b>Lake - Illinois-CD10</b></div>`)[0];
+                popup_7af5f199af498113e948188d1e3acd88.setContent(html_a72cb3d461fe7d34fd668759a5c2e829);
+            
+        
+
+        circle_marker_e4484ddb82f5232894d8e99f552d8c22.bindPopup(popup_7af5f199af498113e948188d1e3acd88)
+        ;
+
+        
+    
+    
+            circle_marker_e4484ddb82f5232894d8e99f552d8c22.bindTooltip(
+                `<div>
+                     Lake - Illinois-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

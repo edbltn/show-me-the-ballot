@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_998658958634c645028534038d5bda3b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clermont - Ohio-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clermont - Ohio-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clermont - Ohio-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clermont - Ohio-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_998658958634c645028534038d5bda3b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_998658958634c645028534038d5bda3b = L.map(
+                "map_998658958634c645028534038d5bda3b",
+                {
+                    center: [38.810563668207415, -84.21314751750373],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_c37ddfe02848ab405809ecae21fd7bde = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_c37ddfe02848ab405809ecae21fd7bde.addTo(map_998658958634c645028534038d5bda3b);
+        
+    
+            var polygon_e9c968f6a5136b0b8a74949dd1ce5577 = L.polygon(
+                [[38.80571947600637, -84.21291086973969], [38.81373451824083, -84.21732476885947], [38.814811999999975, -84.216528], [38.81474000000002, -84.216537], [38.814560000000036, -84.216553], [38.81435700000004, -84.216553], [38.814109000000016, -84.216537], [38.813963999999956, -84.216522], [38.81379700000003, -84.216499], [38.813597000000016, -84.216439], [38.81348899999999, -84.216408], [38.81335199999999, -84.216362], [38.81326600000001, -84.216331], [38.81305700000001, -84.21624], [38.812906000000034, -84.216163], [38.81267300000002, -84.216026], [38.81246699999998, -84.215881], [38.812356999999984, -84.215797], [38.81228599999996, -84.215736], [38.812163999999996, -84.215632], [38.81209, -84.215568], [38.81193300000002, -84.215416], [38.81177199999999, -84.21524], [38.81154899999999, -84.214958], [38.811440999999995, -84.214805], [38.81150699999999, -84.214755], [38.811812999999994, -84.214452], [38.811895, -84.214378], [38.81240699999998, -84.213921], [38.81233699999997, -84.213836], [38.81220500000003, -84.2136], [38.81211100000001, -84.213425], [38.81202199999996, -84.213272], [38.81187200000001, -84.213028], [38.81183000000002, -84.212974], [38.81177899999999, -84.212906], [38.81173700000001, -84.212852], [38.81170400000004, -84.212776], [38.81159900000004, -84.212555], [38.811443000000025, -84.212235], [38.811367000000054, -84.212082], [38.81126400000003, -84.211891], [38.81122599999996, -84.211815], [38.811173999999994, -84.211715], [38.81113700000001, -84.211662], [38.811094000000026, -84.211563], [38.81101300000002, -84.211411], [38.810871999999996, -84.211151], [38.810759, -84.210938], [38.810560999999964, -84.210556], [38.810510000000015, -84.210495], [38.810480999999974, -84.210419], [38.81041900000003, -84.210289], [38.81028300000003, -84.210045], [38.810117999999996, -84.209755], [38.810004999999975, -84.209549], [38.80994400000004, -84.209435], [38.80987399999997, -84.209328], [38.80976899999998, -84.209122], [38.809685, -84.208962], [38.80956600000002, -84.208725], [38.80949499999997, -84.20858], [38.809429000000016, -84.20845800000001], [38.80937799999998, -84.20836600000001], [38.809357999999996, -84.208334], [38.80932500000001, -84.208287], [38.808941, -84.207489], [38.808554000000015, -84.20780300000001], [38.80795, -84.208323], [38.807478999999994, -84.20872], [38.80699500000003, -84.209132], [38.80637799999998, -84.209663], [38.80525433708145, -84.21072894670874], [38.80570200529196, -84.2128799991914], [38.80571947600637, -84.21291086973969]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_998658958634c645028534038d5bda3b);
+        
+    
+        var popup_fdd5c20a5ae112f273d6bd6bbf0e6e56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eec52fcc054a339b0ddd59bf49e881c6 = $(`<div id="html_eec52fcc054a339b0ddd59bf49e881c6" style="width: 100.0%; height: 100.0%;"><b>Clermont - Ohio-CD02</b></div>`)[0];
+                popup_fdd5c20a5ae112f273d6bd6bbf0e6e56.setContent(html_eec52fcc054a339b0ddd59bf49e881c6);
+            
+        
+
+        polygon_e9c968f6a5136b0b8a74949dd1ce5577.bindPopup(popup_fdd5c20a5ae112f273d6bd6bbf0e6e56)
+        ;
+
+        
+    
+    
+            var circle_marker_d8d19f25f9846f61db24ca7027819345 = L.circleMarker(
+                [38.81106042416836, -84.21267352605653],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_998658958634c645028534038d5bda3b);
+        
+    
+        var popup_98496d1e80c7331a38a0b03a13d1e029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_65aa00115b52c3c55a2c32e468baffe6 = $(`<div id="html_65aa00115b52c3c55a2c32e468baffe6" style="width: 100.0%; height: 100.0%;"><b>Clermont - Ohio-CD02</b></div>`)[0];
+                popup_98496d1e80c7331a38a0b03a13d1e029.setContent(html_65aa00115b52c3c55a2c32e468baffe6);
+            
+        
+
+        circle_marker_d8d19f25f9846f61db24ca7027819345.bindPopup(popup_98496d1e80c7331a38a0b03a13d1e029)
+        ;
+
+        
+    
+    
+            circle_marker_d8d19f25f9846f61db24ca7027819345.bindTooltip(
+                `<div>
+                     Clermont - Ohio-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_05b7f25f53b7e639e8b88bcd5ce9783f = L.polygon(
+                [[38.80583500000002, -84.213115], [38.80607599999996, -84.213356], [38.80628300000002, -84.213567], [38.80634400000005, -84.213624], [38.80678699999999, -84.21401], [38.80697300000001, -84.214188], [38.807187, -84.214377], [38.80754400000003, -84.214755], [38.80888800000001, -84.216445], [38.81016200000003, -84.218204], [38.81064499999999, -84.218795], [38.811473999999976, -84.219719], [38.81227500000001, -84.218404], [38.81373451824083, -84.21732476885947], [38.80571947600637, -84.21291086973969], [38.80583500000002, -84.213115]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_998658958634c645028534038d5bda3b);
+        
+    
+        var popup_f2ce24685742ce3c2d155c757956713e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a460254ceb13c79fd21b82cfe665e5f = $(`<div id="html_4a460254ceb13c79fd21b82cfe665e5f" style="width: 100.0%; height: 100.0%;"><b>Clermont - Ohio-CD04</b></div>`)[0];
+                popup_f2ce24685742ce3c2d155c757956713e.setContent(html_4a460254ceb13c79fd21b82cfe665e5f);
+            
+        
+
+        polygon_05b7f25f53b7e639e8b88bcd5ce9783f.bindPopup(popup_f2ce24685742ce3c2d155c757956713e)
+        ;
+
+        
+    
+    
+            var circle_marker_b01b5a1d69d3095e344c75a10f951b5d = L.circleMarker(
+                [38.80823512464046, -84.21536935241244],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_998658958634c645028534038d5bda3b);
+        
+    
+        var popup_a8b2445f52e530fbd7aa7fcf21b7a128 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a744b6583cb025a98a4344567ee2a4d6 = $(`<div id="html_a744b6583cb025a98a4344567ee2a4d6" style="width: 100.0%; height: 100.0%;"><b>Clermont - Ohio-CD04</b></div>`)[0];
+                popup_a8b2445f52e530fbd7aa7fcf21b7a128.setContent(html_a744b6583cb025a98a4344567ee2a4d6);
+            
+        
+
+        circle_marker_b01b5a1d69d3095e344c75a10f951b5d.bindPopup(popup_a8b2445f52e530fbd7aa7fcf21b7a128)
+        ;
+
+        
+    
+    
+            circle_marker_b01b5a1d69d3095e344c75a10f951b5d.bindTooltip(
+                `<div>
+                     Clermont - Ohio-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

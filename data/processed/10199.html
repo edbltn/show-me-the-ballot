@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b0884d49cfdfcc7bf1e6a3f63adeb7e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   New York - New York-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   New York - New York-CD12</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   New York - New York-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   New York - New York-CD12</p>
+            </div>
+    
+            <div class="folium-map" id="map_0b0884d49cfdfcc7bf1e6a3f63adeb7e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0b0884d49cfdfcc7bf1e6a3f63adeb7e = L.map(
+                "map_0b0884d49cfdfcc7bf1e6a3f63adeb7e",
+                {
+                    center: [40.75135107142857, -73.99748050000001],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_00601cac076fb92c260dd3b0d511db31 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_00601cac076fb92c260dd3b0d511db31.addTo(map_0b0884d49cfdfcc7bf1e6a3f63adeb7e);
+        
+    
+            var polygon_c92b4801c666885a5df34e4df9154e7d = L.polygon(
+                [[40.75152200000001, -73.993948], [40.75099900000001, -73.994329], [40.75029300000006, -73.994844], [40.75143900000002, -73.99768], [40.75208300000002, -73.99725], [40.75272300000003, -73.99679], [40.75152200000001, -73.993948]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0b0884d49cfdfcc7bf1e6a3f63adeb7e);
+        
+    
+        var popup_c989bb010aaa45b9ac64bd5e5a43c19d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd526d11de10729f53d2622cd3ba1292 = $(`<div id="html_bd526d11de10729f53d2622cd3ba1292" style="width: 100.0%; height: 100.0%;"><b>New York - New York-CD12</b></div>`)[0];
+                popup_c989bb010aaa45b9ac64bd5e5a43c19d.setContent(html_bd526d11de10729f53d2622cd3ba1292);
+            
+        
+
+        polygon_c92b4801c666885a5df34e4df9154e7d.bindPopup(popup_c989bb010aaa45b9ac64bd5e5a43c19d)
+        ;
+
+        
+    
+    
+            var circle_marker_4c4fac02433441d26a6137ca718cda07 = L.circleMarker(
+                [40.751511571428594, -73.99554128571428],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0b0884d49cfdfcc7bf1e6a3f63adeb7e);
+        
+    
+        var popup_21e9b1590f3240f6ca4fe53bac2c5d30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ef41b18a30f41879ea422982019c188 = $(`<div id="html_0ef41b18a30f41879ea422982019c188" style="width: 100.0%; height: 100.0%;"><b>New York - New York-CD12</b></div>`)[0];
+                popup_21e9b1590f3240f6ca4fe53bac2c5d30.setContent(html_0ef41b18a30f41879ea422982019c188);
+            
+        
+
+        circle_marker_4c4fac02433441d26a6137ca718cda07.bindPopup(popup_21e9b1590f3240f6ca4fe53bac2c5d30)
+        ;
+
+        
+    
+    
+            circle_marker_4c4fac02433441d26a6137ca718cda07.bindTooltip(
+                `<div>
+                     New York - New York-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_470a0c67c1ac7424b68676af2bd636f5 = L.polygon(
+                [[40.751156999999964, -73.998757], [40.75090300000002, -73.99812], [40.75024099999998, -73.998594], [40.751444999999975, -74.00143000000001], [40.75205499999999, -74.000975], [40.751376, -73.999305], [40.751156999999964, -73.998757]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0b0884d49cfdfcc7bf1e6a3f63adeb7e);
+        
+    
+        var popup_068e2f6d57f37e20783b0edecc7a3c69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e16151dbd713a855d6b77d9e7f9955bc = $(`<div id="html_e16151dbd713a855d6b77d9e7f9955bc" style="width: 100.0%; height: 100.0%;"><b>New York - New York-CD12</b></div>`)[0];
+                popup_068e2f6d57f37e20783b0edecc7a3c69.setContent(html_e16151dbd713a855d6b77d9e7f9955bc);
+            
+        
+
+        polygon_470a0c67c1ac7424b68676af2bd636f5.bindPopup(popup_068e2f6d57f37e20783b0edecc7a3c69)
+        ;
+
+        
+    
+    
+            var circle_marker_ae28326f93c375f1095020d99d6d12d0 = L.circleMarker(
+                [40.75119057142855, -73.99941971428571],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0b0884d49cfdfcc7bf1e6a3f63adeb7e);
+        
+    
+        var popup_957e1c4a1863c87134f83f812cda0190 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_346c09288d489320de1090bd80b3755f = $(`<div id="html_346c09288d489320de1090bd80b3755f" style="width: 100.0%; height: 100.0%;"><b>New York - New York-CD12</b></div>`)[0];
+                popup_957e1c4a1863c87134f83f812cda0190.setContent(html_346c09288d489320de1090bd80b3755f);
+            
+        
+
+        circle_marker_ae28326f93c375f1095020d99d6d12d0.bindPopup(popup_957e1c4a1863c87134f83f812cda0190)
+        ;
+
+        
+    
+    
+            circle_marker_ae28326f93c375f1095020d99d6d12d0.bindTooltip(
+                `<div>
+                     New York - New York-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

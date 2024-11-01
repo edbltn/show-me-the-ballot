@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0b6cbd18eec77b9873d8579ee87e060e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD15</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD15</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD15</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bergen - New Jersey-CD05</p>
+            </div>
+    
+            <div class="folium-map" id="map_0b6cbd18eec77b9873d8579ee87e060e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0b6cbd18eec77b9873d8579ee87e060e = L.map(
+                "map_0b6cbd18eec77b9873d8579ee87e060e",
+                {
+                    center: [40.878595939105146, -73.9505829790784],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6da2802e79987dc3cac97f1e25874250 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6da2802e79987dc3cac97f1e25874250.addTo(map_0b6cbd18eec77b9873d8579ee87e060e);
+        
+    
+            var polygon_e4c12435aaf149a67feafb492ec8000c = L.polygon(
+                [[40.892561999999955, -73.92829400000001], [40.890308000000054, -73.929187], [40.88969199999995, -73.929428], [40.88962200000002, -73.92945500000002], [40.88868200000001, -73.92982100000002], [40.885578, -73.93172900000002], [40.88420999999999, -73.932573], [40.882467779124234, -73.9336490483466], [40.88264986164148, -73.9348922281485], [40.89663941880278, -73.92928334242461], [40.896303999999965, -73.928649], [40.89549599999998, -73.927119], [40.895197999999986, -73.92724200000002], [40.892561999999955, -73.92829400000001]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0b6cbd18eec77b9873d8579ee87e060e);
+        
+    
+        var popup_be608fec71181872bcbf79d8bd6194f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a0e452892027bedcde579695b3bb88a3 = $(`<div id="html_a0e452892027bedcde579695b3bb88a3" style="width: 100.0%; height: 100.0%;"><b>Bergen - New Jersey-CD15</b></div>`)[0];
+                popup_be608fec71181872bcbf79d8bd6194f5.setContent(html_a0e452892027bedcde579695b3bb88a3);
+            
+        
+
+        polygon_e4c12435aaf149a67feafb492ec8000c.bindPopup(popup_be608fec71181872bcbf79d8bd6194f5)
+        ;
+
+        
+    
+    
+            var circle_marker_e7620ca40c90140ac59f637d86869ded = L.circleMarker(
+                [40.890140789969166, -73.92997254420855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0b6cbd18eec77b9873d8579ee87e060e);
+        
+    
+        var popup_e760661b56868f7a662abe48aee6d997 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ffbfe6034d6bbf780cf80a25d689f324 = $(`<div id="html_ffbfe6034d6bbf780cf80a25d689f324" style="width: 100.0%; height: 100.0%;"><b>Bergen - New Jersey-CD15</b></div>`)[0];
+                popup_e760661b56868f7a662abe48aee6d997.setContent(html_ffbfe6034d6bbf780cf80a25d689f324);
+            
+        
+
+        circle_marker_e7620ca40c90140ac59f637d86869ded.bindPopup(popup_e760661b56868f7a662abe48aee6d997)
+        ;
+
+        
+    
+    
+            circle_marker_e7620ca40c90140ac59f637d86869ded.bindTooltip(
+                `<div>
+                     Bergen - New Jersey-CD15
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_097d4108a993924b6fce6bc9192eec88 = L.polygon(
+                [[40.88246299999997, -73.933652], [40.882213999999955, -73.933808], [40.88220699999999, -73.933788], [40.882012000000046, -73.933907], [40.87613532547234, -73.93750500125006], [40.88264986164148, -73.9348922281485], [40.882467779124234, -73.9336490483466], [40.88246299999997, -73.933652]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0b6cbd18eec77b9873d8579ee87e060e);
+        
+    
+        var popup_3a6b4898da271ee3c64a37736dae394a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c877b3bafa5e0d320451f8411c2954fb = $(`<div id="html_c877b3bafa5e0d320451f8411c2954fb" style="width: 100.0%; height: 100.0%;"><b>Bergen - New Jersey-CD13</b></div>`)[0];
+                popup_3a6b4898da271ee3c64a37736dae394a.setContent(html_c877b3bafa5e0d320451f8411c2954fb);
+            
+        
+
+        polygon_097d4108a993924b6fce6bc9192eec88.bindPopup(popup_3a6b4898da271ee3c64a37736dae394a)
+        ;
+
+        
+    
+    
+            var circle_marker_8cac9a56eb5bbd70a69952d9d69f2bdd = L.circleMarker(
+                [40.88157649577975, -73.93435665971813],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0b6cbd18eec77b9873d8579ee87e060e);
+        
+    
+        var popup_d73875bfe5493f673637a7ceb986ea38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d7f12d7c1425df7d61e6391d62b6000 = $(`<div id="html_6d7f12d7c1425df7d61e6391d62b6000" style="width: 100.0%; height: 100.0%;"><b>Bergen - New Jersey-CD13</b></div>`)[0];
+                popup_d73875bfe5493f673637a7ceb986ea38.setContent(html_6d7f12d7c1425df7d61e6391d62b6000);
+            
+        
+
+        circle_marker_8cac9a56eb5bbd70a69952d9d69f2bdd.bindPopup(popup_d73875bfe5493f673637a7ceb986ea38)
+        ;
+
+        
+    
+    
+            circle_marker_8cac9a56eb5bbd70a69952d9d69f2bdd.bindTooltip(
+                `<div>
+                     Bergen - New Jersey-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_377dc8c3fcda40609723ff89ca598cea = L.polygon(
+                [[40.87513399999995, -73.938118], [40.875038, -73.938177], [40.87474899999999, -73.938354], [40.873841999999975, -73.938909], [40.873782999999946, -73.938946], [40.867237, -73.942953], [40.86709200000003, -73.943042], [40.862615, -73.945783], [40.86252000000001, -73.94584], [40.86244800000002, -73.945885], [40.85851699999999, -73.948292], [40.85844600000001, -73.948336], [40.86117999999999, -73.95364600000002], [40.86123699999998, -73.953661], [40.861282000000045, -73.953687], [40.861348000000014, -73.953905], [40.86152500000004, -73.954495], [40.86163299999997, -73.954681], [40.86219600000002, -73.955651], [40.86270399999998, -73.956523], [40.86278999999998, -73.95667], [40.86304700000003, -73.957112], [40.86355399999997, -73.957983], [40.86393700000001, -73.958662], [40.864313999999965, -73.959338], [40.864701, -73.96002000000001], [40.86524500000004, -73.960981], [40.865463000000005, -73.961374], [40.86562700000001, -73.961553], [40.86592899999997, -73.962108], [40.86611600000001, -73.962535], [40.866374, -73.962992], [40.86673999999997, -73.963647], [40.86690200000003, -73.96394100000002], [40.86730500000002, -73.964673], [40.86775200000005, -73.965488], [40.86813800000003, -73.966179], [40.868524, -73.966883], [40.868845999999955, -73.96747000000002], [40.86897200000007, -73.967697], [40.86918000000001, -73.968071], [40.870287000000005, -73.967016], [40.87009799999999, -73.966661], [40.87008699999995, -73.96664400000002], [40.871481000000024, -73.9653], [40.871560999999964, -73.965223], [40.87161700000004, -73.965169], [40.87181499999996, -73.964978], [40.871946000000015, -73.964852], [40.87215700000001, -73.964648], [40.872233, -73.964574], [40.873482000000024, -73.96337], [40.873560999999974, -73.963514], [40.87360599999999, -73.963595], [40.87396799999999, -73.963298], [40.87666299999999, -73.961085], [40.87716099999999, -73.960676], [40.877252999999975, -73.960526], [40.87838000000005, -73.95962], [40.88008499999997, -73.95824700000001], [40.88051200000001, -73.957902], [40.880919, -73.957575], [40.88113599999998, -73.957403], [40.881425, -73.957173], [40.881588999999984, -73.957042], [40.88167799999999, -73.95697], [40.88231600000003, -73.956465], [40.883116999999984, -73.95583], [40.88354100000002, -73.956576], [40.88391899999999, -73.95724], [40.88426700000002, -73.957853], [40.88435799999999, -73.958014], [40.88470700000001, -73.958628], [40.88491199999998, -73.958987], [40.88504299999998, -73.958918], [40.88595899999999, -73.95837600000002], [40.889365, -73.95636699999999], [40.89036200000001, -73.955749], [40.891408000000006, -73.9551], [40.89156399999997, -73.95500300000002], [40.892189000000016, -73.95461600000002], [40.893007, -73.95411], [40.893972, -73.953512], [40.89480599999999, -73.952995], [40.895685, -73.952451], [40.90072899999997, -73.94939200000002], [40.90085699999998, -73.949322], [40.90605199999999, -73.946483], [40.901417000000016, -73.938187], [40.901123999999975, -73.937665], [40.90095100000004, -73.937348], [40.900765999999976, -73.937021], [40.90021199999993, -73.936057], [40.90008100000002, -73.935805], [40.899599, -73.934881], [40.89663941880278, -73.92928334242461], [40.88264986164148, -73.9348922281485], [40.87613532547234, -73.93750500125006], [40.87513399999995, -73.938118]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0b6cbd18eec77b9873d8579ee87e060e);
+        
+    
+        var popup_536da55f2a2afc100229691e218c8dc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aea3d175cd1089aebff732dc3b17e1fa = $(`<div id="html_aea3d175cd1089aebff732dc3b17e1fa" style="width: 100.0%; height: 100.0%;"><b>Bergen - New Jersey-CD05</b></div>`)[0];
+                popup_536da55f2a2afc100229691e218c8dc2.setContent(html_aea3d175cd1089aebff732dc3b17e1fa);
+            
+        
+
+        polygon_377dc8c3fcda40609723ff89ca598cea.bindPopup(popup_536da55f2a2afc100229691e218c8dc2)
+        ;
+
+        
+    
+    
+            var circle_marker_799a990988c5e7487030b86c081b0abd = L.circleMarker(
+                [40.87672248086784, -73.9548088037558],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_0b6cbd18eec77b9873d8579ee87e060e);
+        
+    
+        var popup_35aa95c27c2521a5efa87ee031645b70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f1b1eb956780f1a47daedd55ab5c4b2 = $(`<div id="html_7f1b1eb956780f1a47daedd55ab5c4b2" style="width: 100.0%; height: 100.0%;"><b>Bergen - New Jersey-CD05</b></div>`)[0];
+                popup_35aa95c27c2521a5efa87ee031645b70.setContent(html_7f1b1eb956780f1a47daedd55ab5c4b2);
+            
+        
+
+        circle_marker_799a990988c5e7487030b86c081b0abd.bindPopup(popup_35aa95c27c2521a5efa87ee031645b70)
+        ;
+
+        
+    
+    
+            circle_marker_799a990988c5e7487030b86c081b0abd.bindTooltip(
+                `<div>
+                     Bergen - New Jersey-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5cc583c243778cca3eee9a965a09a434 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clay - Arkansas-CD01</p>
+            </div>
+    
+            <div class="folium-map" id="map_5cc583c243778cca3eee9a965a09a434" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5cc583c243778cca3eee9a965a09a434 = L.map(
+                "map_5cc583c243778cca3eee9a965a09a434",
+                {
+                    center: [36.45467789775466, -90.14290462085677],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_05be40e550a91ad49f2fb79f90159566 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_05be40e550a91ad49f2fb79f90159566.addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+            var polygon_3f85322a49ee4bb463cb1b7cd0747908 = L.polygon(
+                [[36.454487, -90.14140300000001], [36.45466700000004, -90.141506], [36.45472800000002, -90.141541], [36.454877000000025, -90.141285], [36.455327999999994, -90.14052], [36.45541748661295, -90.14036787299393], [36.45430211683705, -90.14010982384711], [36.45409999999998, -90.140465], [36.45400399999998, -90.140665], [36.45395799999997, -90.140762], [36.453913000000014, -90.14097100000001], [36.453932, -90.141048], [36.453992000000056, -90.141281], [36.454012, -90.141359], [36.454, -90.141625], [36.453984999999975, -90.141978], [36.45397300000004, -90.142426], [36.453967000000006, -90.142693], [36.45444899999998, -90.142677], [36.45442699999995, -90.141369], [36.454487, -90.14140300000001]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_33a280c6be1766accb7d14173cf68517 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c05c3c28ec31b8fc4007e2e4eaa685cd = $(`<div id="html_c05c3c28ec31b8fc4007e2e4eaa685cd" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_33a280c6be1766accb7d14173cf68517.setContent(html_c05c3c28ec31b8fc4007e2e4eaa685cd);
+            
+        
+
+        polygon_3f85322a49ee4bb463cb1b7cd0747908.bindPopup(popup_33a280c6be1766accb7d14173cf68517)
+        ;
+
+        
+    
+    
+            var circle_marker_bd6f068add937293065c0023f9501043 = L.circleMarker(
+                [36.45433360016428, -90.14130736651626],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_3a748bcbb9f4e71f4b8ca6f062ca5c55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb413d050f803d57517d7fc129da0324 = $(`<div id="html_fb413d050f803d57517d7fc129da0324" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_3a748bcbb9f4e71f4b8ca6f062ca5c55.setContent(html_fb413d050f803d57517d7fc129da0324);
+            
+        
+
+        circle_marker_bd6f068add937293065c0023f9501043.bindPopup(popup_3a748bcbb9f4e71f4b8ca6f062ca5c55)
+        ;
+
+        
+    
+    
+            circle_marker_bd6f068add937293065c0023f9501043.bindTooltip(
+                `<div>
+                     Clay - Arkansas-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_85243f8957aaaec5fff33b52b8cb3466 = L.polygon(
+                [[36.45645099999999, -90.142901], [36.456445000000016, -90.142647], [36.455923000000006, -90.142636], [36.45547200000002, -90.142691], [36.455487, -90.143924], [36.45647799999995, -90.143918], [36.45647099999996, -90.143663], [36.45645099999999, -90.142901]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_06390a004634d55cf944dfe19662a642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_29da628e7867db3403980e37ab662c24 = $(`<div id="html_29da628e7867db3403980e37ab662c24" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_06390a004634d55cf944dfe19662a642.setContent(html_29da628e7867db3403980e37ab662c24);
+            
+        
+
+        polygon_85243f8957aaaec5fff33b52b8cb3466.bindPopup(popup_06390a004634d55cf944dfe19662a642)
+        ;
+
+        
+    
+    
+            var circle_marker_de655ce8c9a4369d249e081fe78a8711 = L.circleMarker(
+                [36.45614724999999, -90.14316012500001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_ceda9e11acb4cb670e81b6b02d749e00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cec5db84915955c68706d618eae0373 = $(`<div id="html_8cec5db84915955c68706d618eae0373" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_ceda9e11acb4cb670e81b6b02d749e00.setContent(html_8cec5db84915955c68706d618eae0373);
+            
+        
+
+        circle_marker_de655ce8c9a4369d249e081fe78a8711.bindPopup(popup_ceda9e11acb4cb670e81b6b02d749e00)
+        ;
+
+        
+    
+    
+            circle_marker_de655ce8c9a4369d249e081fe78a8711.bindTooltip(
+                `<div>
+                     Clay - Arkansas-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_67c1532af6c18ca57acc3dd4ac1ede6d = L.polygon(
+                [[36.45447800000002, -90.143924], [36.45448200000002, -90.144432], [36.45448200000002, -90.145124], [36.455496000000004, -90.145135], [36.455487, -90.143924], [36.45447800000002, -90.143924]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_3f070a338d63a22b7df72ac1eba4c858 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41974fb67311e44ae3523eeefdb8aa7b = $(`<div id="html_41974fb67311e44ae3523eeefdb8aa7b" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_3f070a338d63a22b7df72ac1eba4c858.setContent(html_41974fb67311e44ae3523eeefdb8aa7b);
+            
+        
+
+        polygon_67c1532af6c18ca57acc3dd4ac1ede6d.bindPopup(popup_3f070a338d63a22b7df72ac1eba4c858)
+        ;
+
+        
+    
+    
+            var circle_marker_3818a6f2bd805f6b271bfa04e7774152 = L.circleMarker(
+                [36.45481716666668, -90.14441049999999],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_4771c779fc3b0e79f83ab261a76c3875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49d2e41f35fcf7706bd5e464fe34b041 = $(`<div id="html_49d2e41f35fcf7706bd5e464fe34b041" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_4771c779fc3b0e79f83ab261a76c3875.setContent(html_49d2e41f35fcf7706bd5e464fe34b041);
+            
+        
+
+        circle_marker_3818a6f2bd805f6b271bfa04e7774152.bindPopup(popup_4771c779fc3b0e79f83ab261a76c3875)
+        ;
+
+        
+    
+    
+            circle_marker_3818a6f2bd805f6b271bfa04e7774152.bindTooltip(
+                `<div>
+                     Clay - Arkansas-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_aca8c8e86d5bc4cc8ab9256f1e69324c = L.polygon(
+                [[36.45447500000002, -90.145527], [36.454485000000005, -90.145362], [36.45448200000002, -90.145124], [36.45274800000002, -90.14515], [36.452741000000024, -90.146348], [36.45416000000001, -90.146328], [36.45449699999999, -90.146334], [36.45447500000002, -90.145527]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_7daa8258aa1a6c79c10e2036aea940be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7f0651f0621e6c936c7fba1055c9e20 = $(`<div id="html_c7f0651f0621e6c936c7fba1055c9e20" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_7daa8258aa1a6c79c10e2036aea940be.setContent(html_c7f0651f0621e6c936c7fba1055c9e20);
+            
+        
+
+        polygon_aca8c8e86d5bc4cc8ab9256f1e69324c.bindPopup(popup_7daa8258aa1a6c79c10e2036aea940be)
+        ;
+
+        
+    
+    
+            var circle_marker_075347ea145f2f9c93de25d7a369a419 = L.circleMarker(
+                [36.454007875000016, -90.1457125],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5cc583c243778cca3eee9a965a09a434);
+        
+    
+        var popup_52da619898f639cde4b30fd2e9095f7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa91dcb92647eef1d16d471d5f498c72 = $(`<div id="html_fa91dcb92647eef1d16d471d5f498c72" style="width: 100.0%; height: 100.0%;"><b>Clay - Arkansas-CD01</b></div>`)[0];
+                popup_52da619898f639cde4b30fd2e9095f7f.setContent(html_fa91dcb92647eef1d16d471d5f498c72);
+            
+        
+
+        circle_marker_075347ea145f2f9c93de25d7a369a419.bindPopup(popup_52da619898f639cde4b30fd2e9095f7f)
+        ;
+
+        
+    
+    
+            circle_marker_075347ea145f2f9c93de25d7a369a419.bindTooltip(
+                `<div>
+                     Clay - Arkansas-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

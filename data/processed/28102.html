@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_03325521ba346d10367e839eac313e27 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Anson - North Carolina-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Anson - North Carolina-CD08</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Anson - North Carolina-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Anson - North Carolina-CD08</p>
+            </div>
+    
+            <div class="folium-map" id="map_03325521ba346d10367e839eac313e27" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_03325521ba346d10367e839eac313e27 = L.map(
+                "map_03325521ba346d10367e839eac313e27",
+                {
+                    center: [34.81479782616635, -79.97724947206434],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_82a7e53fd3a9e72ecd39084160ed8897 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_82a7e53fd3a9e72ecd39084160ed8897.addTo(map_03325521ba346d10367e839eac313e27);
+        
+    
+            var polygon_0f606b64f3271bf0a53f0fb0e55b21e7 = L.polygon(
+                [[34.80758700000004, -79.972559], [34.80771499999999, -79.978741], [34.80784399999999, -79.985092], [34.808258, -79.985077], [34.80859866918717, -79.98506633568984], [34.80839420180703, -79.96882216146854], [34.807514999999995, -79.968915], [34.807555000000015, -79.970887], [34.80758700000004, -79.972559]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_03325521ba346d10367e839eac313e27);
+        
+    
+        var popup_af62383c1d8a6b5d32bf77ebf3dadb37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e26afa6afa9c20c1510840996bfa4b2 = $(`<div id="html_5e26afa6afa9c20c1510840996bfa4b2" style="width: 100.0%; height: 100.0%;"><b>Anson - North Carolina-CD07</b></div>`)[0];
+                popup_af62383c1d8a6b5d32bf77ebf3dadb37.setContent(html_5e26afa6afa9c20c1510840996bfa4b2);
+            
+        
+
+        polygon_0f606b64f3271bf0a53f0fb0e55b21e7.bindPopup(popup_af62383c1d8a6b5d32bf77ebf3dadb37)
+        ;
+
+        
+    
+    
+            var circle_marker_fe0dcf2d73994e84a6cff82512e269a3 = L.circleMarker(
+                [34.80789487455492, -79.97641316635094],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03325521ba346d10367e839eac313e27);
+        
+    
+        var popup_c347d0cd8b84f4b233b4cf8f68bb2eca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_481b42d73a987540c55d26f411b84c40 = $(`<div id="html_481b42d73a987540c55d26f411b84c40" style="width: 100.0%; height: 100.0%;"><b>Anson - North Carolina-CD07</b></div>`)[0];
+                popup_c347d0cd8b84f4b233b4cf8f68bb2eca.setContent(html_481b42d73a987540c55d26f411b84c40);
+            
+        
+
+        circle_marker_fe0dcf2d73994e84a6cff82512e269a3.bindPopup(popup_c347d0cd8b84f4b233b4cf8f68bb2eca)
+        ;
+
+        
+    
+    
+            circle_marker_fe0dcf2d73994e84a6cff82512e269a3.bindTooltip(
+                `<div>
+                     Anson - North Carolina-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f77b42e01526b6d618ed5ffc372ac79c = L.polygon(
+                [[34.80940800000004, -79.985041], [34.809792000000016, -79.985029], [34.81074399999998, -79.984999], [34.81360299999999, -79.984912], [34.81455599999999, -79.984884], [34.815200000000026, -79.98487], [34.81713500000003, -79.984829], [34.817780000000006, -79.984816], [34.821988999999974, -79.984721], [34.82192399999996, -79.981396], [34.821894999999955, -79.979919], [34.82197600000001, -79.977478], [34.82201200000003, -79.977335], [34.82208300000002, -79.976906], [34.82202700000001, -79.976365], [34.82170599999999, -79.97086500000002], [34.82178100000003, -79.970281], [34.82178000000002, -79.970215], [34.821766000000004, -79.968252], [34.821765000000006, -79.968011], [34.82135299999998, -79.968039], [34.81924600000003, -79.968144], [34.81292600000003, -79.96846], [34.81081999999999, -79.968566], [34.80839420180703, -79.96882216146854], [34.80859866918717, -79.98506633568984], [34.80940800000004, -79.985041]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_03325521ba346d10367e839eac313e27);
+        
+    
+        var popup_9ee6c1eddbcfe3d2e27ef7a084306140 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e85f8b4ed21132f04487c3d20672e86d = $(`<div id="html_e85f8b4ed21132f04487c3d20672e86d" style="width: 100.0%; height: 100.0%;"><b>Anson - North Carolina-CD08</b></div>`)[0];
+                popup_9ee6c1eddbcfe3d2e27ef7a084306140.setContent(html_e85f8b4ed21132f04487c3d20672e86d);
+            
+        
+
+        polygon_f77b42e01526b6d618ed5ffc372ac79c.bindPopup(popup_9ee6c1eddbcfe3d2e27ef7a084306140)
+        ;
+
+        
+    
+    
+            var circle_marker_1d926efe8f0648eac27dd57791d22db4 = L.circleMarker(
+                [34.81709881003683, -79.9775282406355],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_03325521ba346d10367e839eac313e27);
+        
+    
+        var popup_9f11af8eb5a01312dcc5db8fccc3ee2a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7304bc81e08bee40f788718cbdff79f7 = $(`<div id="html_7304bc81e08bee40f788718cbdff79f7" style="width: 100.0%; height: 100.0%;"><b>Anson - North Carolina-CD08</b></div>`)[0];
+                popup_9f11af8eb5a01312dcc5db8fccc3ee2a.setContent(html_7304bc81e08bee40f788718cbdff79f7);
+            
+        
+
+        circle_marker_1d926efe8f0648eac27dd57791d22db4.bindPopup(popup_9f11af8eb5a01312dcc5db8fccc3ee2a)
+        ;
+
+        
+    
+    
+            circle_marker_1d926efe8f0648eac27dd57791d22db4.bindTooltip(
+                `<div>
+                     Anson - North Carolina-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

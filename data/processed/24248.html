@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_034a3c820b9df1c86f72cf4e98ddc67a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD01</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD02</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lee - Virginia-CD09</p>
+            </div>
+    
+            <div class="folium-map" id="map_034a3c820b9df1c86f72cf4e98ddc67a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_034a3c820b9df1c86f72cf4e98ddc67a = L.map(
+                "map_034a3c820b9df1c86f72cf4e98ddc67a",
+                {
+                    center: [36.635483727057775, -83.49757352068106],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cfc8308834f9c05fa5cb757b56eab808 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cfc8308834f9c05fa5cb757b56eab808.addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+            var polygon_49e67538ea3ced3a333c1a0534561635 = L.polygon(
+                [[36.601154, -83.675293], [36.601558999999966, -83.675198], [36.602026, -83.675006], [36.60323900000002, -83.674719], [36.603620999999976, -83.67443600000001], [36.603846999999966, -83.673899], [36.60393299999999, -83.673695], [36.60416399999996, -83.673396], [36.60438799999995, -83.673338], [36.604524000000005, -83.673302], [36.604641000000015, -83.673204], [36.604762000000015, -83.67296000000002], [36.60480999999997, -83.67202], [36.60486599999998, -83.671007], [36.60498699999999, -83.67036600000002], [36.60514399999998, -83.669778], [36.605313, -83.669429], [36.60584199999998, -83.668952], [36.605924000000016, -83.668804], [36.60576828729411, -83.6663237557043], [36.60083085396368, -83.6753820835599], [36.601154, -83.675293]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_8b4e9fe7d7fed1f9da3ce02c761ee9b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28b9ecf6f8e780503cd757e8bbfc4fd5 = $(`<div id="html_28b9ecf6f8e780503cd757e8bbfc4fd5" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_8b4e9fe7d7fed1f9da3ce02c761ee9b8.setContent(html_28b9ecf6f8e780503cd757e8bbfc4fd5);
+            
+        
+
+        polygon_49e67538ea3ced3a333c1a0534561635.bindPopup(popup_8b4e9fe7d7fed1f9da3ce02c761ee9b8)
+        ;
+
+        
+    
+    
+            var circle_marker_63f4a5d269cd51d3918e09f9ed57c4c0 = L.circleMarker(
+                [36.60393168823898, -83.67253640178473],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_28c5de9df43636bb818f1159815e06a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_881ba0b54fd792e83b0b88dd1b59bde7 = $(`<div id="html_881ba0b54fd792e83b0b88dd1b59bde7" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_28c5de9df43636bb818f1159815e06a8.setContent(html_881ba0b54fd792e83b0b88dd1b59bde7);
+            
+        
+
+        circle_marker_63f4a5d269cd51d3918e09f9ed57c4c0.bindPopup(popup_28c5de9df43636bb818f1159815e06a8)
+        ;
+
+        
+    
+    
+            circle_marker_63f4a5d269cd51d3918e09f9ed57c4c0.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_102a140fa98c91b246d24d2ca89f937e = L.polygon(
+                [[36.607776000000015, -83.662967], [36.608305000000044, -83.662533], [36.60874200000004, -83.662041], [36.60905200000001, -83.66154], [36.60928399999998, -83.660981], [36.60942100000003, -83.660737], [36.61013599999997, -83.659869], [36.610372, -83.659435], [36.61052000000004, -83.65927400000001], [36.61086900000002, -83.65901200000002], [36.61113800000004, -83.658659], [36.61148000000003, -83.65846], [36.61168500000004, -83.658225], [36.61186500000001, -83.657906], [36.61202, -83.657745], [36.61268600000004, -83.657401], [36.61302799999998, -83.657109], [36.61308299999996, -83.656993], [36.61299500000001, -83.655126], [36.61301600000006, -83.654918], [36.61317699999998, -83.654569], [36.61342999999996, -83.654196], [36.61434299999999, -83.653188], [36.61487000000002, -83.652919], [36.61512499999998, -83.652682], [36.61561800000002, -83.652072], [36.61616000000001, -83.651847], [36.61654399999997, -83.651658], [36.61679900000003, -83.651357], [36.616950999999965, -83.650966], [36.616997000000005, -83.65030700000001], [36.61690000000001, -83.649726], [36.616774000000035, -83.649313], [36.616865000000004, -83.649227], [36.617388000000005, -83.649284], [36.617699000000044, -83.649211], [36.618881, -83.648643], [36.619307999999954, -83.64853600000001], [36.61969700000004, -83.648576], [36.620077000000016, -83.64872], [36.62032100000001, -83.648649], [36.620988999999994, -83.648238], [36.621334999999966, -83.64818400000001], [36.62205399999996, -83.64836000000001], [36.62244700000003, -83.648317], [36.622839, -83.648086], [36.623082999999994, -83.64770300000002], [36.62309900000001, -83.647394], [36.622898999999975, -83.64669], [36.622861000000015, -83.646463], [36.62293000000001, -83.646199], [36.62318400000001, -83.645848], [36.62346699999998, -83.645671], [36.62397699999999, -83.645551], [36.62418400000002, -83.645378], [36.62430599999998, -83.645124], [36.624379000000005, -83.644599], [36.62454200000004, -83.644303], [36.62461300000001, -83.644051], [36.62450699999999, -83.643876], [36.623938000000045, -83.643184], [36.62386599999999, -83.642957], [36.623862000000024, -83.642758], [36.62399899999996, -83.642463], [36.62451599999998, -83.641809], [36.624677, -83.641418], [36.62476099999999, -83.641071], [36.62476299999999, -83.640727], [36.62419400000003, -83.638857], [36.62409400000001, -83.638442], [36.624059, -83.637891], [36.624079, -83.637243], [36.62401399999999, -83.63700400000002], [36.62369300000001, -83.636504], [36.62324100000003, -83.635828], [36.623149999999974, -83.635572], [36.623105999999986, -83.635343], [36.622946999999996, -83.635066], [36.622887000000006, -83.634932], [36.62288747653572, -83.63489737365913], [36.60754735895478, -83.66305922528471], [36.607776000000015, -83.662967]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_75b55886ef2bb457129d87395117c36b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_709df08dd74452eabc8f3f10614f7059 = $(`<div id="html_709df08dd74452eabc8f3f10614f7059" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_75b55886ef2bb457129d87395117c36b.setContent(html_709df08dd74452eabc8f3f10614f7059);
+            
+        
+
+        polygon_102a140fa98c91b246d24d2ca89f937e.bindPopup(popup_75b55886ef2bb457129d87395117c36b)
+        ;
+
+        
+    
+    
+            var circle_marker_65a27563311edcf1ac20dcd5f45fee55 = L.circleMarker(
+                [36.61835547360354, -83.64910493413348],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_ad50b177494b044253caa123e532285f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15c8e8a2f250b930dbf9eb692190c30b = $(`<div id="html_15c8e8a2f250b930dbf9eb692190c30b" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_ad50b177494b044253caa123e532285f.setContent(html_15c8e8a2f250b930dbf9eb692190c30b);
+            
+        
+
+        circle_marker_65a27563311edcf1ac20dcd5f45fee55.bindPopup(popup_ad50b177494b044253caa123e532285f)
+        ;
+
+        
+    
+    
+            circle_marker_65a27563311edcf1ac20dcd5f45fee55.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7ead675bcd5b8064d311dcf55c3c4a47 = L.polygon(
+                [[36.633745, -83.614992], [36.63404099999997, -83.614626], [36.63425100000001, -83.614291], [36.634517000000024, -83.614084], [36.63484999999996, -83.613896], [36.634949000000006, -83.613673], [36.635048000000026, -83.613026], [36.63503099999999, -83.61258], [36.63488784014063, -83.61204520624035], [36.63398300000002, -83.614513], [36.63371511985534, -83.61500528886819], [36.633745, -83.614992]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_a1d4d66842e87809c0b41abd86a92dce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d083cab4a0cb7568fa624ad559ce460b = $(`<div id="html_d083cab4a0cb7568fa624ad559ce460b" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_a1d4d66842e87809c0b41abd86a92dce.setContent(html_d083cab4a0cb7568fa624ad559ce460b);
+            
+        
+
+        polygon_7ead675bcd5b8064d311dcf55c3c4a47.bindPopup(popup_a1d4d66842e87809c0b41abd86a92dce)
+        ;
+
+        
+    
+    
+            var circle_marker_c13913c507c836f69ab72ba57cb43d46 = L.circleMarker(
+                [36.634396913333, -83.61397695792571],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_8e7b45dd5c6bb983e9df29f0dade6b53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a62997604cba62606593ab0b79df31fa = $(`<div id="html_a62997604cba62606593ab0b79df31fa" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_8e7b45dd5c6bb983e9df29f0dade6b53.setContent(html_a62997604cba62606593ab0b79df31fa);
+            
+        
+
+        circle_marker_c13913c507c836f69ab72ba57cb43d46.bindPopup(popup_8e7b45dd5c6bb983e9df29f0dade6b53)
+        ;
+
+        
+    
+    
+            circle_marker_c13913c507c836f69ab72ba57cb43d46.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_645e8f9893b266276a003f3dd0235975 = L.polygon(
+                [[36.635734000000014, -83.610554], [36.636434999999985, -83.610076], [36.63682400000004, -83.609487], [36.63699599999999, -83.608976], [36.637158, -83.607928], [36.637406999999996, -83.607127], [36.637900999999985, -83.605901], [36.63785900000003, -83.60464300000001], [36.637985999999955, -83.604102], [36.63787099999999, -83.604058], [36.637821587679234, -83.60404255320152], [36.635291191114064, -83.61094507268122], [36.635734000000014, -83.610554]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_7ec11a166b1181a944bddc33123181c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812219a1c4b50d783be0b747154ba72d = $(`<div id="html_812219a1c4b50d783be0b747154ba72d" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_7ec11a166b1181a944bddc33123181c4.setContent(html_812219a1c4b50d783be0b747154ba72d);
+            
+        
+
+        polygon_645e8f9893b266276a003f3dd0235975.bindPopup(popup_7ec11a166b1181a944bddc33123181c4)
+        ;
+
+        
+    
+    
+            var circle_marker_379cf9d64548ae05ab7aebcb3e420faa = L.circleMarker(
+                [36.63700136759948, -83.60756874045252],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_0785276438a0f340ba5e68d67a82da09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c828a2ea4efd294ec6ccedcb8b51a417 = $(`<div id="html_c828a2ea4efd294ec6ccedcb8b51a417" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_0785276438a0f340ba5e68d67a82da09.setContent(html_c828a2ea4efd294ec6ccedcb8b51a417);
+            
+        
+
+        circle_marker_379cf9d64548ae05ab7aebcb3e420faa.bindPopup(popup_0785276438a0f340ba5e68d67a82da09)
+        ;
+
+        
+    
+    
+            circle_marker_379cf9d64548ae05ab7aebcb3e420faa.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4b26d2e415eeaecff55d28b36c71a839 = L.polygon(
+                [[36.66431899999998, -83.53231700000002], [36.66468900000001, -83.532404], [36.66499599999997, -83.532196], [36.66521099999998, -83.531762], [36.66543800000001, -83.530833], [36.66557700000001, -83.530569], [36.665932999999995, -83.530339], [36.66604899999999, -83.530146], [36.66599900000004, -83.53003], [36.66571900000004, -83.529721], [36.665585000000014, -83.529437], [36.66555599999998, -83.529141], [36.665627, -83.52882], [36.66602899999997, -83.528053], [36.666131000000014, -83.527632], [36.666077000000016, -83.527307], [36.665985228936194, -83.52701976751753], [36.665985000000006, -83.527112], [36.664135250688766, -83.53217067174657], [36.66431899999998, -83.53231700000002]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_b886ec1d65e6dcf6659c831581bd69ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e9d0af3748dbb17a38225543c24dc0e = $(`<div id="html_7e9d0af3748dbb17a38225543c24dc0e" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_b886ec1d65e6dcf6659c831581bd69ed.setContent(html_7e9d0af3748dbb17a38225543c24dc0e);
+            
+        
+
+        polygon_4b26d2e415eeaecff55d28b36c71a839.bindPopup(popup_b886ec1d65e6dcf6659c831581bd69ed)
+        ;
+
+        
+    
+    
+            var circle_marker_f91f55e25107aeb36cde0fad2ef507e0 = L.circleMarker(
+                [36.665467973981244, -83.5299663219632],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_330489e02dbc5ede63ca33bebf8a4ba2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f3895d8f251a7f4bb00fca57ab20bbe = $(`<div id="html_0f3895d8f251a7f4bb00fca57ab20bbe" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_330489e02dbc5ede63ca33bebf8a4ba2.setContent(html_0f3895d8f251a7f4bb00fca57ab20bbe);
+            
+        
+
+        circle_marker_f91f55e25107aeb36cde0fad2ef507e0.bindPopup(popup_330489e02dbc5ede63ca33bebf8a4ba2)
+        ;
+
+        
+    
+    
+            circle_marker_f91f55e25107aeb36cde0fad2ef507e0.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_fa8872bf2c1d7c06421ae3a2206085e4 = L.polygon(
+                [[36.66615800000002, -83.525016], [36.66618300000001, -83.524628], [36.666169000000004, -83.523994], [36.66622699999999, -83.523664], [36.666447999999995, -83.52321], [36.66657600000002, -83.522809], [36.66668700000002, -83.522128], [36.666833, -83.52174], [36.66717200000001, -83.521073], [36.66732700000005, -83.520542], [36.667422000000016, -83.520072], [36.667721000000014, -83.519526], [36.66796799999999, -83.519022], [36.66804199999998, -83.518722], [36.66798299999997, -83.517929], [36.66813299999999, -83.51773700000001], [36.66841499999999, -83.517449], [36.66849800000003, -83.517288], [36.66850100000002, -83.517088], [36.668417999999996, -83.516854], [36.66792099999997, -83.516125], [36.66781100000003, -83.515801], [36.66777500000003, -83.515584], [36.66784599999999, -83.515254], [36.668193999999986, -83.514657], [36.668229000000025, -83.51401], [36.66838299999999, -83.513818], [36.66870499999998, -83.513519], [36.66901500000002, -83.513399], [36.66938300000002, -83.51306], [36.669600999999986, -83.512437], [36.669627999999975, -83.512108], [36.66904599999997, -83.510758], [36.668999999999976, -83.510521], [36.669033000000006, -83.509805], [36.66877400000001, -83.509259], [36.668925999999956, -83.508421], [36.66882999999998, -83.50776700000002], [36.668965999999955, -83.50696], [36.66894600000001, -83.50575], [36.669026999999986, -83.505359], [36.66944200000003, -83.504243], [36.669544000000045, -83.503705], [36.669553, -83.503029], [36.66946499999997, -83.501564], [36.66943200000003, -83.50083], [36.66952899999998, -83.50045], [36.66976200000005, -83.500174], [36.67005400000003, -83.499906], [36.67021299999999, -83.499574], [36.67043899999997, -83.49921900000001], [36.670393000000004, -83.498585], [36.67041100000002, -83.497958], [36.67014600000004, -83.497153], [36.670064000000025, -83.496739], [36.670179999999995, -83.495783], [36.67004200000004, -83.494626], [36.670058, -83.494248], [36.67021199999996, -83.49319], [36.670187, -83.492805], [36.66909199999995, -83.491863], [36.66853199999999, -83.491157], [36.66838999999999, -83.490547], [36.667819000000016, -83.488977], [36.667695999999935, -83.488376], [36.66737100000002, -83.486922], [36.66716099999995, -83.486463], [36.667173, -83.4855], [36.667054000000014, -83.48480900000001], [36.666777999999994, -83.484069], [36.66657000000001, -83.483352], [36.666186999999994, -83.48268], [36.66610599999997, -83.481828], [36.66608902672097, -83.4817637067347], [36.66598848889238, -83.52570330809237], [36.66615800000002, -83.525016]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_1021574634f73cf2fc0b97873b639642 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bb0bb5b1def898b2312705bad86f8b5 = $(`<div id="html_6bb0bb5b1def898b2312705bad86f8b5" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_1021574634f73cf2fc0b97873b639642.setContent(html_6bb0bb5b1def898b2312705bad86f8b5);
+            
+        
+
+        polygon_fa8872bf2c1d7c06421ae3a2206085e4.bindPopup(popup_1021574634f73cf2fc0b97873b639642)
+        ;
+
+        
+    
+    
+            var circle_marker_b1b243bc99bafad3359f163601deda50 = L.circleMarker(
+                [36.6683317173107, -83.5064167107214],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_ded2f140c17636732aec4f5d60c55f54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aa51cac2c1edeef29101c264f9eb74f7 = $(`<div id="html_aa51cac2c1edeef29101c264f9eb74f7" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_ded2f140c17636732aec4f5d60c55f54.setContent(html_aa51cac2c1edeef29101c264f9eb74f7);
+            
+        
+
+        circle_marker_b1b243bc99bafad3359f163601deda50.bindPopup(popup_ded2f140c17636732aec4f5d60c55f54)
+        ;
+
+        
+    
+    
+            circle_marker_b1b243bc99bafad3359f163601deda50.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4ebc059bf03683dfd2593fde1b08652f = L.polygon(
+                [[36.666519000000015, -83.445167], [36.66699699999998, -83.444218], [36.667179000000004, -83.443545], [36.66709999999994, -83.44248200000001], [36.66697499999998, -83.441959], [36.66699400000002, -83.441544], [36.666913000000015, -83.44072], [36.666722000000014, -83.440088], [36.666537999999996, -83.439509], [36.66640399999995, -83.438316], [36.666409999999985, -83.437637], [36.66625899999999, -83.437098], [36.66622395426126, -83.43641183806673], [36.66618499999998, -83.436508], [36.66616459695491, -83.44601861789764], [36.666519000000015, -83.445167]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_87d641809182095f95d5ccdccb0f875e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_483359332e35adf9707f0e72dc5bc6e6 = $(`<div id="html_483359332e35adf9707f0e72dc5bc6e6" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_87d641809182095f95d5ccdccb0f875e.setContent(html_483359332e35adf9707f0e72dc5bc6e6);
+            
+        
+
+        polygon_4ebc059bf03683dfd2593fde1b08652f.bindPopup(popup_87d641809182095f95d5ccdccb0f875e)
+        ;
+
+        
+    
+    
+            var circle_marker_76a353e3e8a3975a65850fa0e2d37e3f = L.circleMarker(
+                [36.666631409451, -83.44102427849778],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_87128660d0f94f09524fd47ba5910b61 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb0c1ab92191219f7cbe5450e568b370 = $(`<div id="html_bb0c1ab92191219f7cbe5450e568b370" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD05</b></div>`)[0];
+                popup_87128660d0f94f09524fd47ba5910b61.setContent(html_bb0c1ab92191219f7cbe5450e568b370);
+            
+        
+
+        circle_marker_76a353e3e8a3975a65850fa0e2d37e3f.bindPopup(popup_87128660d0f94f09524fd47ba5910b61)
+        ;
+
+        
+    
+    
+            circle_marker_76a353e3e8a3975a65850fa0e2d37e3f.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e4c909f043faadaef6cad2276846d892 = L.polygon(
+                [[36.597385000000024, -83.405614], [36.597385000000024, -83.406034], [36.59738499999998, -83.415105], [36.59736699999996, -83.424903], [36.597365999999994, -83.425026], [36.597365999999994, -83.425398], [36.597366000000015, -83.425522], [36.597366000000015, -83.425644], [36.59736499999996, -83.425765], [36.597363999999956, -83.426565], [36.59736399999999, -83.426611], [36.59733999999998, -83.440575], [36.597337, -83.442453], [36.59733499999997, -83.443171], [36.59733199999998, -83.445328], [36.597330999999976, -83.446047], [36.59732799999998, -83.447575], [36.59732799999998, -83.447792], [36.597312999999986, -83.455508], [36.59728854312854, -83.46959189059515], [36.59947573205925, -83.4720935738096], [36.59897527932599, -83.39016047847345], [36.597385000000024, -83.389938], [36.597385, -83.40513800000001], [36.597385000000024, -83.405614]],
+                {"bubblingMouseEvents": true, "color": "#f032e6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f032e6", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_080b4ec544bb67bd7215a6a5b3587bec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e97d0622d9b5ad6012a2502b9a7aa24a = $(`<div id="html_e97d0622d9b5ad6012a2502b9a7aa24a" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD01</b></div>`)[0];
+                popup_080b4ec544bb67bd7215a6a5b3587bec.setContent(html_e97d0622d9b5ad6012a2502b9a7aa24a);
+            
+        
+
+        polygon_e4c909f043faadaef6cad2276846d892.bindPopup(popup_080b4ec544bb67bd7215a6a5b3587bec)
+        ;
+
+        
+    
+    
+            var circle_marker_7c233c18b9b7804d46c0d452e7853e15 = L.circleMarker(
+                [36.597504702180544, -83.42932687771513],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_c59da58c333c74cbad0a8fd5dfc224d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be8dc6851e4d718804862d7e604a59aa = $(`<div id="html_be8dc6851e4d718804862d7e604a59aa" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD01</b></div>`)[0];
+                popup_c59da58c333c74cbad0a8fd5dfc224d8.setContent(html_be8dc6851e4d718804862d7e604a59aa);
+            
+        
+
+        circle_marker_7c233c18b9b7804d46c0d452e7853e15.bindPopup(popup_c59da58c333c74cbad0a8fd5dfc224d8)
+        ;
+
+        
+    
+    
+            circle_marker_7c233c18b9b7804d46c0d452e7853e15.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_3a3e0492beeb5b865b6653cf328ee9f3 = L.polygon(
+                [[36.597284, -83.47210800000002], [36.59728100000002, -83.473706], [36.59727200000001, -83.4785], [36.597268999999976, -83.480098], [36.59726799999997, -83.480359], [36.59726700000002, -83.481145], [36.59726700000002, -83.481408], [36.59726599999999, -83.481761], [36.59726399999997, -83.482822], [36.59726399999997, -83.483176], [36.597261000000024, -83.48493], [36.597253999999985, -83.488319], [36.59725399999994, -83.488352], [36.59725399999994, -83.48856200000002], [36.597253, -83.488813], [36.59725100000001, -83.488827], [36.597246000000034, -83.493059], [36.59724099999997, -83.495571], [36.59723400000001, -83.499909], [36.59724200000005, -83.503107], [36.59724899999996, -83.505619], [36.597248999999984, -83.505634], [36.597248999999984, -83.505651], [36.597248999999984, -83.505747], [36.597250000000024, -83.505779], [36.59725, -83.505885], [36.597250000000024, -83.506206], [36.59725100000001, -83.506313], [36.59725100000001, -83.506442], [36.597252, -83.506831], [36.597253, -83.506961], [36.597260000000034, -83.509647], [36.59728100000003, -83.517705], [36.597289000000025, -83.520391], [36.59729000000003, -83.520831], [36.59729299999999, -83.522152], [36.597295, -83.522593], [36.597295, -83.522639], [36.597295, -83.522656], [36.597295, -83.52278], [36.597295, -83.522827], [36.59729999999997, -83.524946], [36.59731699999997, -83.531303], [36.59732300000001, -83.533423], [36.59732399999999, -83.533925], [36.59732799999998, -83.535433], [36.597330000000014, -83.535936], [36.59733000000002, -83.535971], [36.597330000000014, -83.53607900000002], [36.59733000000002, -83.536115], [36.59733199999998, -83.536844], [36.59733799999999, -83.539034], [36.59733999999995, -83.539764], [36.59733999999998, -83.540099], [36.597342999999995, -83.541104], [36.597344000000035, -83.54144], [36.597344000000035, -83.541472], [36.597344000000035, -83.541489], [36.597344000000014, -83.541542], [36.597344000000035, -83.54156], [36.59734500000002, -83.542176], [36.59734999999997, -83.544025], [36.59735199999999, -83.544434], [36.597353000000005, -83.54464200000001], [36.59735299999999, -83.54468], [36.597353000000005, -83.544799], [36.59735299999999, -83.544839], [36.59735599999997, -83.546204], [36.597366000000015, -83.550299], [36.597369999999984, -83.551664], [36.597369999999984, -83.551688], [36.597370000000005, -83.551723], [36.597370000000005, -83.551795], [36.597369999999984, -83.552014], [36.597371, -83.552087], [36.597373000000005, -83.553054], [36.597381999999996, -83.555955], [36.597385000000024, -83.556922], [36.597393000000004, -83.557801], [36.597416999999965, -83.560438], [36.59742499999997, -83.56131700000002], [36.59742600000003, -83.561417], [36.59742899999999, -83.561674], [36.59742899999999, -83.561719], [36.59743099999997, -83.56182], [36.59743099999997, -83.561837], [36.59743099999997, -83.561888], [36.59743099999997, -83.561906], [36.59743200000002, -83.56195], [36.597441999999994, -83.563032], [36.59747599999999, -83.56641], [36.59748799999998, -83.567537], [36.597489000000024, -83.567803], [36.597489000000024, -83.568604], [36.597496999999976, -83.568871], [36.597503, -83.56949], [36.59752299999999, -83.571347], [36.597530000000035, -83.571967], [36.59753499999998, -83.572435], [36.597549999999956, -83.573842], [36.59755499999994, -83.57424], [36.59755299999997, -83.574284], [36.59755199999999, -83.574311], [36.597549000000065, -83.574365], [36.597541999999954, -83.574501], [36.59754199999993, -83.574528], [36.59754299999998, -83.574583], [36.59763099999998, -83.583143], [36.59763199999999, -83.583272], [36.59763300000001, -83.583326], [36.59772100000002, -83.591865], [36.597724999999976, -83.592189], [36.59775599999998, -83.595098], [36.597755999999954, -83.595121], [36.597755999999954, -83.595193], [36.597757000000016, -83.595217], [36.59775700000001, -83.595241], [36.597757000000044, -83.595313], [36.59775799999995, -83.595337], [36.59776000000003, -83.595538], [36.59776600000006, -83.59614500000002], [36.59776899999999, -83.596347], [36.59776899999999, -83.596365], [36.59777099999996, -83.596605], [36.59777699999997, -83.597171], [36.59777900000004, -83.597379], [36.597782, -83.597637], [36.597782, -83.597663], [36.59778500000002, -83.597999], [36.59779700000003, -83.599085], [36.59780099999997, -83.599448], [36.59782099999997, -83.601404], [36.597880999999965, -83.607235], [36.59789000000003, -83.608652], [36.59789200000003, -83.60871], [36.59789200000006, -83.608747], [36.598329, -83.607541], [36.59877100000003, -83.606428], [36.59909199999997, -83.60572000000002], [36.599104999999994, -83.605787], [36.59904499999997, -83.606093], [36.59900600000001, -83.606243], [36.599001, -83.606304], [36.599011999999995, -83.606379], [36.59913299999998, -83.606577], [36.59919799999997, -83.606815], [36.59922600000001, -83.60687], [36.59951700000001, -83.607129], [36.59976900000002, -83.607443], [36.59985700000005, -83.607579], [36.600055000000026, -83.60796], [36.600137000000004, -83.60806200000002], [36.600251999999976, -83.60824000000001], [36.60034600000003, -83.608356], [36.600410975734846, -83.60840541815976], [36.59947573205925, -83.4720935738096], [36.59728854312854, -83.46959189059515], [36.597284, -83.47210800000002]],
+                {"bubblingMouseEvents": true, "color": "#bfef45", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bfef45", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_c37936f692307b1c540896717af904e3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46c4e93464b3d0466d3790585d683151 = $(`<div id="html_46c4e93464b3d0466d3790585d683151" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD02</b></div>`)[0];
+                popup_c37936f692307b1c540896717af904e3.setContent(html_46c4e93464b3d0466d3790585d683151);
+            
+        
+
+        polygon_3a3e0492beeb5b865b6653cf328ee9f3.bindPopup(popup_c37936f692307b1c540896717af904e3)
+        ;
+
+        
+    
+    
+            var circle_marker_c14e0d38a4803a4b351c456c6d3a61ff = L.circleMarker(
+                [36.59769238133496, -83.55242017014282],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_38e2d84e75d393d7f5906a6907b06738 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_712cfa9991ba02066cf0750f80a27e18 = $(`<div id="html_712cfa9991ba02066cf0750f80a27e18" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD02</b></div>`)[0];
+                popup_38e2d84e75d393d7f5906a6907b06738.setContent(html_712cfa9991ba02066cf0750f80a27e18);
+            
+        
+
+        circle_marker_c14e0d38a4803a4b351c456c6d3a61ff.bindPopup(popup_38e2d84e75d393d7f5906a6907b06738)
+        ;
+
+        
+    
+    
+            circle_marker_c14e0d38a4803a4b351c456c6d3a61ff.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_64e1ecc09a22b8b5628c8a65d6bf6756 = L.polygon(
+                [[36.59794299999999, -83.616534], [36.59795000000003, -83.617624], [36.59797199999999, -83.620894], [36.597980000000035, -83.621985], [36.59797400000004, -83.622001], [36.59798000000001, -83.622037], [36.59798200000005, -83.622051], [36.597983999999975, -83.622068], [36.59807100000002, -83.622694], [36.59809699999996, -83.62288400000001], [36.59813799999996, -83.623178], [36.59817799999997, -83.623457], [36.59819699999999, -83.623597], [36.59820500000005, -83.623648], [36.598210000000044, -83.623681], [36.59826199999998, -83.624052], [36.59835800000004, -83.624733], [36.59838300000001, -83.624912], [36.598387000000024, -83.625168], [36.59839499999999, -83.625543], [36.59840000000004, -83.625764], [36.59843800000002, -83.62625800000002], [36.598512000000014, -83.627199], [36.598606, -83.628403], [36.598662000000004, -83.62911800000002], [36.59869699999999, -83.629561], [36.59869800000001, -83.629574], [36.598822000000034, -83.63089100000002], [36.59886499999998, -83.631335], [36.59886799999999, -83.631374], [36.59888000000001, -83.631491], [36.59888399999996, -83.631531], [36.598914999999984, -83.631868], [36.598978, -83.632525], [36.599004, -83.63288300000002], [36.599028999999994, -83.633222], [36.599093, -83.634096], [36.599557000000026, -83.635027], [36.600130999999955, -83.635596], [36.600303999999994, -83.636139], [36.60053799999996, -83.636755], [36.60058676096878, -83.63687241379802], [36.60044793791625, -83.61430142513375], [36.59794299999999, -83.616534]],
+                {"bubblingMouseEvents": true, "color": "#fabed4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fabed4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_7c6aaaa8181d50eb20aa617f60f86060 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ccee25aa142cc0cbe4ac32724f05ce9 = $(`<div id="html_4ccee25aa142cc0cbe4ac32724f05ce9" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD02</b></div>`)[0];
+                popup_7c6aaaa8181d50eb20aa617f60f86060.setContent(html_4ccee25aa142cc0cbe4ac32724f05ce9);
+            
+        
+
+        polygon_64e1ecc09a22b8b5628c8a65d6bf6756.bindPopup(popup_7c6aaaa8181d50eb20aa617f60f86060)
+        ;
+
+        
+    
+    
+            var circle_marker_e54d9e54b85fc934115f43899669fc63 = L.circleMarker(
+                [36.598670561338295, -83.62684224633935],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_e23a0ae5d421816171adec3b5dd4b529 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7f3bfb67c41060fed561b360192d812 = $(`<div id="html_c7f3bfb67c41060fed561b360192d812" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD02</b></div>`)[0];
+                popup_e23a0ae5d421816171adec3b5dd4b529.setContent(html_c7f3bfb67c41060fed561b360192d812);
+            
+        
+
+        circle_marker_e54d9e54b85fc934115f43899669fc63.bindPopup(popup_e23a0ae5d421816171adec3b5dd4b529)
+        ;
+
+        
+    
+    
+            circle_marker_e54d9e54b85fc934115f43899669fc63.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4261ddc713a6e4dd48239a6206c2e622 = L.polygon(
+                [[36.60067899999997, -83.654978], [36.600381999999996, -83.655301], [36.60028100000002, -83.655402], [36.60028299999999, -83.655488], [36.600287000000044, -83.655628], [36.600287000000044, -83.655641], [36.60029199999999, -83.655808], [36.60031299999999, -83.65658600000002], [36.60036599999999, -83.658419], [36.60036900000006, -83.658539], [36.600396000000025, -83.659413], [36.600402, -83.66037], [36.60040300000001, -83.660547], [36.60040800000004, -83.661082], [36.600409999999975, -83.66126], [36.600410999999994, -83.661405], [36.60041300000004, -83.661674], [36.600414, -83.661843], [36.60041700000005, -83.661989], [36.600481000000016, -83.663233], [36.60067599999998, -83.666965], [36.60074099999996, -83.66821], [36.60074199999996, -83.668228], [36.600745000000025, -83.668283], [36.60074600000002, -83.668302], [36.60074799999999, -83.668509], [36.60075399999997, -83.66913], [36.600755999999976, -83.669337], [36.600756, -83.669381], [36.600757000000044, -83.669515], [36.600758000000006, -83.66956], [36.600758000000006, -83.669611], [36.600758000000006, -83.669628], [36.600758000000006, -83.669682], [36.600759, -83.6697], [36.60076, -83.669785], [36.60076299999996, -83.670042], [36.600763999999934, -83.670128], [36.60078361546564, -83.67013572730318], [36.60069493531966, -83.65495798374353], [36.60067899999997, -83.654978]],
+                {"bubblingMouseEvents": true, "color": "#469990", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#469990", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_7840f0f1d8224d8771fc7576b0314ff2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6dd56c4a674935b8a80b817d25594c42 = $(`<div id="html_6dd56c4a674935b8a80b817d25594c42" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD02</b></div>`)[0];
+                popup_7840f0f1d8224d8771fc7576b0314ff2.setContent(html_6dd56c4a674935b8a80b817d25594c42);
+            
+        
+
+        polygon_4261ddc713a6e4dd48239a6206c2e622.bindPopup(popup_7840f0f1d8224d8771fc7576b0314ff2)
+        ;
+
+        
+    
+    
+            var circle_marker_7801a99340470c24a63defebd02e16e4 = L.circleMarker(
+                [36.60056952562891, -83.6633822856353],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_2c35fb7b150b77c3d7d4e3cf19834bcf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_322863a741d5432e14d2841fd1ca6bb8 = $(`<div id="html_322863a741d5432e14d2841fd1ca6bb8" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD02</b></div>`)[0];
+                popup_2c35fb7b150b77c3d7d4e3cf19834bcf.setContent(html_322863a741d5432e14d2841fd1ca6bb8);
+            
+        
+
+        circle_marker_7801a99340470c24a63defebd02e16e4.bindPopup(popup_2c35fb7b150b77c3d7d4e3cf19834bcf)
+        ;
+
+        
+    
+    
+            circle_marker_7801a99340470c24a63defebd02e16e4.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8911d59700349a9c3e5fbb129e07817e = L.polygon(
+                [[36.60041700000001, -83.60841], [36.600571000000016, -83.608567], [36.600657999999996, -83.608615], [36.60094399999998, -83.608955], [36.600974999999984, -83.609001], [36.601047999999984, -83.609105], [36.60116300000001, -83.609296], [36.60136700000005, -83.609521], [36.60142100000002, -83.609616], [36.601442999999975, -83.60963], [36.601751, -83.610005], [36.60180600000002, -83.61008], [36.60181700000001, -83.610114], [36.602052999999984, -83.610421], [36.60213500000001, -83.610598], [36.60219000000001, -83.610761], [36.60221100000002, -83.611292], [36.602199999999996, -83.611715], [36.60217799999998, -83.611865], [36.60212300000002, -83.61213], [36.602074, -83.612246], [36.60202400000002, -83.61231400000001], [36.60200800000001, -83.612355], [36.601925000000016, -83.612437], [36.600508999999995, -83.614247], [36.60044793791625, -83.61430142513375], [36.60058676096878, -83.63687241379802], [36.600739, -83.637239], [36.60120199999997, -83.638254], [36.601748, -83.639427], [36.601942, -83.63986], [36.60207300000001, -83.64016900000001], [36.602170000000044, -83.640424], [36.60236299999999, -83.640959], [36.602480000000014, -83.641317], [36.602568000000005, -83.641616], [36.602732000000024, -83.64223], [36.60282599999998, -83.642637], [36.602903, -83.643023], [36.60290899999996, -83.643052], [36.603001000000006, -83.643581], [36.60303499999998, -83.643871], [36.60311, -83.644499], [36.60314200000004, -83.644955], [36.60315999999999, -83.645288], [36.603177000000024, -83.64596], [36.603159999999995, -83.646615], [36.60314599999999, -83.64684], [36.603091000000006, -83.64757], [36.603014000000016, -83.648189], [36.60290999999999, -83.648815], [36.602848000000016, -83.649126], [36.602734, -83.649647], [36.60262599999998, -83.650083], [36.60253899999999, -83.650365], [36.602381, -83.65094400000001], [36.60224100000003, -83.651486], [36.60212199999998, -83.651883], [36.601982, -83.652394], [36.601871, -83.652767], [36.60178400000003, -83.653025], [36.60170199999999, -83.653234], [36.601492999999984, -83.653702], [36.601349999999954, -83.653982], [36.60121400000002, -83.654216], [36.60103000000001, -83.654506], [36.60084299999994, -83.65477200000001], [36.60069493531966, -83.65495798374353], [36.60078361546564, -83.67013572730318], [36.60079699999999, -83.670141], [36.600796, -83.67082], [36.60079600350367, -83.67228245796255], [36.600813849558115, -83.6753867712418], [36.60083085396368, -83.6753820835599], [36.60576828729411, -83.6663237557043], [36.605757, -83.666144], [36.605769000000016, -83.665966], [36.605869000000034, -83.66572900000001], [36.60649200000002, -83.664885], [36.606696000000035, -83.664546], [36.606793999999994, -83.66401], [36.606928000000025, -83.663548], [36.60706800000005, -83.663355], [36.607299999999974, -83.663159], [36.60754735895478, -83.66305922528471], [36.62288747653572, -83.63489737365913], [36.622890000000005, -83.634714], [36.62293699999996, -83.63414800000001], [36.623496999999986, -83.631876], [36.62392999999998, -83.630392], [36.624270999999986, -83.62938000000001], [36.624330000000015, -83.628607], [36.62460400000002, -83.62833], [36.62477199999998, -83.627899], [36.62491900000004, -83.627299], [36.62494000000003, -83.626753], [36.625083, -83.626311], [36.625230000000045, -83.625235], [36.625373, -83.624883], [36.62542299999998, -83.62457500000001], [36.625508999999944, -83.624017], [36.62580100000001, -83.623433], [36.62593300000001, -83.622952], [36.626016000000014, -83.622672], [36.626637, -83.621952], [36.62673899999999, -83.62182], [36.62690700000002, -83.621389], [36.62723200000001, -83.620843], [36.627375999999984, -83.62051], [36.62760200000001, -83.619829], [36.62786399999997, -83.619274], [36.62835200000003, -83.618565], [36.628586999999996, -83.618261], [36.628909999999955, -83.618042], [36.62991100000005, -83.617662], [36.63029799999998, -83.617433], [36.63077999999999, -83.617099], [36.63136600000002, -83.61686300000001], [36.63168100000001, -83.616634], [36.63190100000001, -83.61636], [36.6321, -83.615917], [36.632264999999975, -83.615377], [36.63239, -83.615242], [36.632562000000036, -83.615148], [36.63293199999999, -83.615167], [36.63336499999998, -83.615161], [36.63371511985534, -83.61500528886819], [36.63398300000002, -83.614513], [36.63488784014063, -83.61204520624035], [36.63485700000002, -83.61193], [36.63489800000001, -83.611582], [36.63503599999997, -83.61125], [36.63515199999997, -83.611068], [36.635291191114064, -83.61094507268122], [36.637821587679234, -83.60404255320152], [36.63729200000001, -83.603877], [36.637177000000015, -83.603703], [36.63711599999996, -83.603466], [36.63714700000002, -83.603068], [36.63729199999998, -83.602677], [36.63757999999998, -83.601992], [36.63767100000001, -83.601683], [36.63784899999996, -83.600432], [36.63804399999999, -83.59985], [36.638391999999946, -83.599274], [36.63861699999997, -83.598513], [36.63886799999998, -83.597868], [36.640039999999956, -83.595749], [36.64034300000001, -83.594925], [36.640746000000014, -83.594297], [36.640653, -83.593704], [36.64053999999998, -83.592913], [36.64068600000002, -83.592175], [36.640897000000045, -83.591758], [36.64130799999995, -83.591178], [36.64138500000002, -83.590938], [36.641378, -83.589856], [36.64152300000003, -83.589545], [36.64201400000004, -83.588932], [36.64218199999996, -83.588501], [36.64218600000001, -83.587598], [36.642301000000025, -83.587296], [36.64255999999999, -83.58706], [36.642735, -83.587055], [36.642997000000015, -83.587295], [36.643208, -83.587437], [36.643439999999984, -83.587419], [36.64364000000002, -83.587086], [36.64386299999999, -83.586449], [36.643850000000036, -83.586171], [36.643755999999996, -83.585956], [36.64300600000002, -83.585652], [36.64192600000002, -83.584912], [36.64165500000002, -83.584574], [36.64159299999998, -83.58423800000001], [36.64154900000001, -83.583676], [36.64115699999998, -83.58332], [36.64110400000001, -83.583124], [36.64120400000002, -83.582922], [36.64146299999999, -83.582655], [36.64153400000003, -83.582544], [36.64146799999998, -83.581663], [36.641653999999996, -83.580615], [36.641756999999984, -83.580295], [36.64170100000001, -83.579424], [36.64172000000001, -83.578837], [36.641839999999995, -83.578467], [36.64144499999998, -83.577954], [36.641390000000015, -83.57760700000001], [36.641495999999975, -83.577316], [36.64172299999996, -83.577061], [36.641985000000005, -83.576924], [36.64230300000002, -83.576863], [36.64253200000006, -83.57665700000001], [36.643318000000036, -83.575333], [36.64367100000002, -83.575014], [36.64401299999995, -83.574825], [36.64421799999999, -83.57474900000001], [36.64433600000001, -83.57461600000002], [36.644434000000025, -83.574334], [36.64442600000001, -83.574017], [36.644319, -83.573028], [36.64435099999999, -83.57267100000001], [36.64442800000002, -83.572113], [36.64447300000003, -83.571645], [36.644811999999995, -83.570592], [36.64503400000002, -83.570059], [36.64566099999999, -83.569175], [36.64575400000002, -83.568954], [36.645913999999955, -83.568185], [36.646050999999964, -83.567853], [36.646272, -83.567698], [36.64683899999997, -83.56729300000002], [36.646985999999984, -83.567069], [36.64709400000004, -83.56652], [36.647112, -83.566221], [36.64716600000003, -83.566051], [36.64778199999997, -83.565406], [36.648153000000015, -83.56472], [36.64828599999999, -83.56456600000001], [36.64860699999997, -83.564228], [36.649183, -83.563446], [36.64951199999999, -83.562829], [36.64957000000001, -83.562763], [36.64973500000003, -83.562633], [36.64990199999999, -83.562647], [36.65048299999995, -83.562888], [36.65075599999998, -83.562899], [36.651016000000034, -83.562721], [36.651249000000035, -83.562426], [36.651423999999984, -83.561914], [36.65148399999996, -83.56144600000002], [36.651610000000005, -83.560965], [36.651745000000034, -83.560628], [36.651987999999996, -83.560094], [36.65208199999999, -83.559238], [36.652144000000014, -83.558343], [36.65225199999998, -83.557774], [36.65273799999995, -83.556875], [36.652903000000016, -83.556462], [36.652997, -83.555964], [36.65288999999998, -83.555045], [36.652955999999975, -83.55479400000002], [36.65321400000001, -83.554091], [36.653433999999976, -83.553568], [36.653804000000015, -83.552861], [36.65394100000002, -83.55252800000001], [36.65403899999996, -83.55218], [36.65402799999993, -83.551653], [36.65366799999997, -83.55057300000001], [36.653720999999976, -83.550085], [36.653735000000005, -83.549638], [36.65371599999998, -83.549064], [36.653814999999994, -83.548117], [36.65387399999998, -83.547871], [36.65413300000002, -83.546817], [36.65435200000003, -83.546195], [36.65457500000004, -83.545821], [36.65503700000004, -83.545369], [36.65520900000003, -83.545055], [36.65530200000002, -83.544635], [36.65529600000001, -83.544258], [36.655454999999996, -83.543857], [36.656031999999996, -83.543251], [36.65627299999998, -83.542837], [36.65649500000003, -83.542046], [36.656683000000015, -83.541742], [36.65684800000002, -83.541647], [36.656979000000014, -83.541425], [36.657138, -83.540993], [36.657324, -83.540719], [36.657852000000005, -83.540354], [36.65811899999998, -83.54008700000001], [36.658309999999965, -83.539695], [36.65841000000005, -83.539116], [36.658486999999994, -83.538578], [36.65866100000003, -83.538114], [36.65873599999998, -83.537845], [36.65878999999999, -83.537376], [36.658933999999995, -83.537054], [36.65918300000002, -83.536718], [36.65955400000001, -83.536479], [36.659811000000005, -83.536449], [36.66015300000002, -83.536449], [36.66036999999997, -83.536392], [36.660518, -83.536208], [36.660621999999975, -83.535857], [36.66079, -83.535281], [36.66117100000002, -83.534455], [36.661388999999986, -83.533813], [36.661482999999954, -83.533314], [36.66162499999998, -83.532832], [36.661964999999945, -83.532306], [36.662248, -83.532057], [36.662590000000016, -83.531936], [36.66308400000002, -83.531831], [36.66366100000001, -83.531833], [36.66393599999999, -83.532012], [36.664135250688766, -83.53217067174657], [36.665985000000006, -83.527112], [36.665985228936194, -83.52701976751753], [36.66592300000005, -83.526825], [36.66589299999999, -83.526424], [36.66597500000001, -83.525758], [36.66598848889238, -83.52570330809237], [36.66608902672097, -83.4817637067347], [36.66597400000004, -83.481328], [36.66609110301442, -83.48077558048321], [36.66609597932476, -83.47843953204534], [36.66596800000001, -83.477793], [36.66584700000002, -83.476587], [36.66576199999997, -83.47524], [36.665510999999995, -83.474455], [36.66544599999999, -83.474011], [36.66556600000003, -83.473262], [36.66527000000003, -83.471774], [36.66503700000003, -83.470997], [36.664922999999995, -83.470473], [36.665024000000045, -83.469638], [36.66498600000004, -83.469034], [36.66502000000005, -83.467989], [36.66489999999996, -83.467279], [36.664764000000034, -83.466955], [36.66470900000001, -83.46661100000001], [36.664775999999975, -83.466012], [36.664746, -83.464971], [36.66494600000001, -83.463516], [36.66495100000003, -83.463108], [36.66479300000001, -83.462022], [36.664764000000034, -83.461498], [36.664860000000004, -83.461016], [36.66493399999999, -83.46072], [36.66504900000003, -83.460483], [36.66525499999999, -83.46008], [36.66533400000001, -83.45967], [36.66538199999999, -83.459029], [36.665513000000026, -83.458638], [36.665590999999985, -83.458344], [36.665599000000014, -83.457785], [36.66543900000004, -83.457246], [36.66514200000002, -83.456936], [36.66497899999998, -83.456303], [36.66487200000001, -83.455362], [36.66482099999999, -83.454487], [36.66479300000001, -83.45369], [36.66497899999998, -83.452912], [36.66513599999999, -83.452309], [36.66518200000003, -83.451961], [36.66514500000002, -83.451379], [36.665313000000005, -83.45096800000002], [36.665397, -83.45054400000001], [36.665372000000026, -83.449827], [36.66531399999997, -83.44867100000002], [36.665315999999976, -83.447834], [36.665568, -83.447041], [36.66604500000004, -83.446306], [36.66616459695491, -83.44601861789764], [36.66618499999998, -83.436508], [36.66622395426126, -83.43641183806673], [36.666221000000036, -83.436354], [36.666400000000046, -83.435284], [36.666465, -83.433274], [36.666551000000005, -83.432767], [36.66665700000003, -83.431969], [36.66668700000002, -83.431751], [36.66700399999999, -83.430543], [36.667067000000024, -83.430023], [36.66697999999998, -83.428989], [36.66709600000003, -83.428412], [36.66718100000003, -83.427878], [36.66713299999998, -83.42670800000002], [36.66718200000005, -83.425823], [36.667340000000024, -83.424713], [36.66806100000001, -83.422228], [36.66817099999999, -83.421547], [36.66828199999998, -83.42073200000002], [36.668621000000016, -83.419112], [36.66872900000004, -83.418682], [36.66896400000003, -83.418196], [36.669525, -83.417378], [36.670015, -83.415752], [36.670207999999995, -83.414829], [36.66685299999999, -83.414312], [36.666523000000005, -83.41423000000002], [36.666386000000024, -83.414176], [36.66631500000002, -83.41413500000002], [36.66628699999993, -83.414135], [36.66617700000001, -83.414073], [36.66607799999996, -83.413985], [36.66595699999996, -83.413807], [36.66583700000004, -83.413726], [36.66581500000003, -83.413726], [36.66570999999997, -83.413685], [36.66552899999999, -83.413576], [36.665375000000004, -83.413446], [36.665155000000034, -83.41323500000001], [36.665057, -83.413167], [36.665006999999996, -83.413105], [36.66485899999996, -83.41299], [36.66479300000001, -83.412901], [36.66474900000002, -83.412833], [36.66466099999999, -83.412649], [36.66457899999999, -83.412294], [36.664502000000006, -83.41185100000001], [36.66447399999999, -83.411749], [36.66432600000004, -83.411442], [36.66428699999998, -83.41137400000001], [36.66421599999999, -83.411285], [36.664205000000024, -83.411251], [36.664176999999974, -83.410945], [36.66414999999999, -83.410842], [36.66408399999999, -83.410713], [36.663963, -83.410542], [36.66390800000002, -83.410495], [36.66378700000002, -83.41033800000001], [36.66368799999997, -83.410229], [36.66357800000004, -83.41007200000001], [36.663559, -83.410058], [36.66354600000001, -83.410024], [36.66336400000001, -83.409738], [36.66331500000003, -83.40961], [36.663128000000015, -83.409642], [36.6631, -83.409705], [36.66300000000002, -83.409894], [36.662769000000004, -83.410247], [36.66189699999997, -83.410812], [36.661783000000035, -83.411041], [36.66177699999997, -83.411136], [36.661783000000035, -83.411225], [36.661997000000014, -83.411463], [36.66201900000003, -83.411559], [36.66200299999996, -83.411654], [36.661953000000025, -83.411784], [36.66191500000002, -83.411832], [36.66181, -83.412023], [36.66161800000002, -83.412316], [36.66149200000002, -83.412445], [36.661388, -83.412486], [36.66126099999997, -83.412507], [36.661238999999995, -83.412486], [36.661162000000026, -83.412486], [36.661075, -83.412445], [36.66103099999998, -83.412445], [36.66102000000001, -83.412425], [36.66086599999998, -83.41237], [36.66083800000002, -83.41237], [36.660827000000026, -83.41235], [36.66078300000002, -83.41235], [36.66070700000004, -83.412398], [36.66060800000002, -83.41254100000002], [36.66059099999996, -83.412616], [36.660597000000045, -83.412752], [36.66061299999999, -83.412841], [36.660597000000045, -83.412964], [36.66057999999997, -83.412998], [36.660416000000055, -83.413195], [36.66035499999996, -83.413291], [36.660311, -83.413386], [36.660169000000046, -83.413945], [36.660037, -83.414409], [36.659971000000006, -83.414566], [36.65983899999996, -83.414941], [36.659762, -83.415295], [36.65964700000002, -83.415718], [36.659537000000014, -83.416079], [36.65937799999998, -83.416727], [36.659306999999984, -83.416979], [36.65913699999999, -83.4173], [36.658987999999994, -83.417511], [36.65892800000002, -83.417579], [36.658845000000014, -83.417743], [36.658828999999955, -83.417791], [36.65878500000004, -83.418227], [36.658741000000006, -83.418445], [36.65865300000001, -83.41867], [36.65859800000003, -83.41877900000001], [36.65855999999999, -83.418827], [36.658532999999984, -83.418881], [36.658400999999934, -83.419072], [36.65828, -83.41921500000001], [36.65826899999997, -83.41925600000002], [36.65821399999999, -83.419311], [36.658203000000015, -83.419338], [36.65809299999997, -83.419488], [36.65795000000001, -83.41974], [36.657918, -83.41989], [36.657884999999986, -83.420211], [36.657857, -83.420347], [36.657808000000024, -83.420518], [36.657730999999984, -83.420729], [36.657565999999996, -83.42124], [36.65738500000001, -83.421711], [36.65731900000002, -83.42184], [36.65723100000003, -83.421963], [36.65719399999996, -83.42198900000001], [36.657187, -83.422011], [36.65716499999997, -83.422017], [36.657154000000034, -83.422045], [36.657127, -83.422065], [36.656926, -83.422317], [36.656860999999985, -83.422296], [36.656772000000025, -83.422285], [36.65671199999997, -83.422293], [36.65664900000002, -83.42231], [36.656547999999994, -83.422353], [36.65645199999997, -83.422412], [36.65636399999998, -83.422487], [36.65617099999997, -83.42268100000001], [36.656002000000015, -83.422826], [36.655932000000035, -83.42288], [36.65584199999999, -83.42293], [36.65572900000001, -83.42297], [36.65563100000001, -83.42298400000001], [36.655551999999986, -83.42298400000001], [36.655435000000004, -83.422962], [36.65528799999998, -83.422912], [36.65517600000006, -83.422899], [36.65476499999998, -83.42293700000002], [36.65446900000002, -83.42298200000002], [36.65434700000002, -83.423017], [36.65422300000001, -83.423036], [36.65409800000003, -83.423037], [36.65397399999996, -83.42302100000002], [36.653851999999965, -83.422988], [36.653757, -83.42295], [36.65371099999999, -83.422927], [36.65336699999998, -83.422725], [36.65282599999999, -83.42237600000001], [36.652719, -83.422328], [36.65260900000001, -83.422298], [36.652564000000005, -83.422291], [36.65221600000001, -83.422268], [36.652147999999976, -83.422253], [36.652079000000036, -83.422256], [36.652010999999995, -83.422277], [36.651859000000016, -83.422372], [36.65175600000002, -83.422417], [36.65164999999998, -83.422444], [36.651540999999945, -83.422454], [36.651433, -83.422446], [36.65128700000002, -83.422425], [36.651162000000014, -83.42241900000002], [36.651005000000005, -83.422428], [36.65090899999999, -83.422442], [36.65082999999999, -83.422441], [36.650734000000014, -83.422424], [36.65064099999999, -83.422388], [36.65022, -83.422152], [36.65013900000002, -83.422126], [36.650105, -83.42212], [36.65002100000002, -83.42212], [36.64997, -83.422129], [36.64937499999999, -83.422313], [36.64928899999999, -83.422333], [36.64920200000003, -83.422333], [36.649132999999985, -83.42232], [36.64909999999998, -83.422309], [36.64848000000002, -83.422009], [36.64799800000002, -83.4218], [36.647919999999985, -83.421784], [36.647841000000014, -83.421785], [36.647763, -83.421803], [36.64770299999998, -83.42183], [36.647633, -83.421878], [36.64758299999995, -83.421926], [36.64753899999999, -83.421983], [36.64734000000005, -83.42234700000002], [36.64730099999996, -83.422396], [36.647255999999985, -83.422437], [36.64719399999995, -83.422474], [36.647126000000014, -83.422494], [36.647056, -83.422496], [36.64694499999998, -83.422471], [36.64694999999997, -83.422271], [36.646966, -83.422081], [36.64704300000002, -83.421753], [36.64705899999998, -83.421644], [36.64704300000002, -83.421549], [36.64701000000002, -83.42150800000002], [36.646966, -83.421494], [36.646922, -83.42146], [36.6469, -83.421385], [36.646888999999994, -83.421283], [36.64686199999997, -83.421188], [36.64682899999999, -83.421126], [36.646822999999976, -83.421086], [36.646833999999984, -83.420956], [36.646822999999976, -83.420915], [36.64678499999999, -83.420874], [36.646669, -83.420826], [36.64659199999996, -83.420772], [36.64654900000002, -83.420711], [36.64646100000003, -83.42052], [36.646350999999974, -83.42038400000001], [36.64629599999998, -83.420363], [36.64622999999999, -83.420309], [36.64620200000001, -83.420275], [36.646164000000006, -83.420179], [36.64604299999998, -83.420097], [36.64602099999999, -83.42005], [36.645845000000044, -83.419982], [36.645670000000024, -83.41986600000001], [36.64541100000001, -83.419661], [36.645346, -83.419648], [36.64523600000003, -83.419695], [36.64514200000005, -83.419627], [36.64495, -83.419566], [36.64462000000003, -83.419406], [36.64470499999998, -83.419208], [36.64482799999998, -83.418883], [36.644920000000006, -83.418605], [36.645005999999974, -83.418312], [36.645066, -83.418089], [36.64515400000001, -83.417714], [36.645179000000006, -83.417592], [36.64527100000002, -83.417136], [36.645493, -83.416143], [36.64556099999995, -83.415896], [36.645659000000045, -83.415593], [36.64576900000002, -83.415296], [36.64589100000001, -83.415007], [36.64602599999999, -83.414727], [36.646173000000005, -83.414456], [36.646384999999995, -83.414113], [36.646564, -83.413848], [36.646649999999994, -83.413728], [36.646749000000014, -83.41359], [36.647241999999956, -83.412952], [36.647569999999945, -83.412508], [36.64771999999999, -83.412295], [36.64800099999999, -83.41189800000001], [36.64819700000003, -83.411609], [36.648314999999975, -83.41143], [36.64817599999999, -83.411291], [36.65014399999995, -83.408159], [36.65082299999998, -83.407079], [36.65113299999996, -83.406579], [36.65231299999999, -83.404703], [36.65438199999996, -83.401404], [36.654612999999955, -83.401043], [36.654966000000044, -83.400482], [36.65551100000002, -83.399653], [36.655472999999986, -83.39963900000001], [36.655424, -83.39962], [36.65532499999999, -83.39954900000001], [36.655131, -83.399348], [36.654930999999955, -83.399131], [36.654906000000004, -83.399088], [36.654887999999985, -83.399041], [36.65487700000001, -83.398976], [36.654881000000024, -83.39891], [36.65489300000004, -83.39886], [36.654432, -83.399489], [36.654294000000014, -83.399682], [36.65411099999999, -83.399939], [36.65402700000002, -83.400057], [36.65397099999998, -83.400135], [36.65396, -83.40015], [36.653933, -83.400189], [36.653902, -83.400232], [36.65384399999998, -83.400313], [36.653464000000014, -83.400846], [36.652428, -83.402264], [36.65221399999997, -83.402566], [36.65207999999999, -83.402762], [36.6519, -83.403049], [36.651889000000004, -83.403066], [36.65178099999999, -83.40326], [36.651553, -83.403702], [36.65117100000002, -83.404448], [36.65099099999998, -83.404791], [36.650664000000006, -83.405358], [36.65054099999995, -83.40555], [36.65038999999998, -83.405769], [36.65024500000002, -83.405962], [36.6498, -83.406499], [36.64929400000003, -83.40711], [36.648748999999945, -83.407768], [36.648467000000025, -83.408106], [36.64797500000002, -83.408711], [36.64781900000002, -83.40891], [36.64761799999999, -83.409192], [36.64733300000003, -83.409613], [36.647080999999986, -83.410014], [36.64702699999999, -83.4101], [36.647014, -83.41006], [36.646985999999984, -83.41002500000002], [36.64696500000002, -83.410011], [36.646583000000035, -83.409833], [36.646516000000005, -83.409781], [36.646457, -83.409715], [36.646409, -83.409637], [36.646379, -83.409568], [36.64635699999998, -83.409494], [36.64634399999999, -83.409409], [36.64633800000002, -83.409269], [36.64634499999998, -83.409129], [36.64636100000003, -83.409019], [36.646469, -83.408488], [36.646474000000026, -83.408424], [36.646469, -83.408361], [36.64645599999999, -83.4083], [36.64643499999998, -83.408242], [36.646398000000005, -83.408178], [36.64636999999999, -83.408144], [36.64626800000004, -83.40804], [36.64595999999999, -83.407769], [36.645814000000016, -83.407645], [36.64561799999998, -83.407445], [36.64553699999996, -83.407382], [36.64544900000001, -83.407337], [36.645041, -83.407094], [36.64491799999999, -83.406992], [36.64480299999998, -83.406875], [36.64452499999998, -83.406533], [36.644440999999965, -83.406455], [36.644349000000055, -83.40639300000001], [36.64416000000007, -83.406303], [36.64403600000003, -83.406218], [36.643941, -83.40613], [36.64388899999996, -83.406071], [36.64376699999998, -83.40595900000001], [36.643535000000035, -83.405719], [36.643244999999986, -83.405395], [36.64321000000001, -83.405325], [36.64319600000001, -83.405259], [36.64319600000001, -83.405191], [36.643286999999994, -83.404844], [36.64336300000005, -83.404504], [36.643413000000024, -83.404229], [36.64345000000003, -83.404073], [36.643481999999985, -83.403874], [36.64349899999998, -83.403672], [36.64350199999997, -83.40359], [36.64349899999998, -83.403495], [36.64351099999995, -83.40340200000001], [36.643535999999976, -83.403312], [36.64356500000003, -83.403245], [36.643613000000045, -83.403163], [36.643620999999996, -83.403121], [36.64361499999999, -83.40308], [36.643594999999976, -83.403045], [36.643572, -83.403026], [36.64353899999999, -83.403017], [36.64351099999997, -83.403023], [36.64349299999997, -83.403034], [36.64327800000001, -83.40336], [36.64316700000002, -83.40352], [36.64305299999999, -83.40363], [36.64290299999998, -83.403755], [36.64284, -83.403801], [36.64280100000003, -83.4038], [36.64276400000002, -83.403782], [36.642733999999976, -83.403749], [36.64271600000002, -83.40370500000002], [36.64270999999999, -83.403657], [36.64273099999999, -83.403557], [36.64278999999999, -83.403363], [36.642829, -83.403248], [36.64284899999999, -83.403147], [36.64285599999998, -83.403043], [36.642829, -83.402735], [36.642799000000004, -83.402554], [36.64275400000001, -83.402377], [36.642720999999995, -83.402274], [36.64259600000001, -83.40205500000002], [36.64252199999997, -83.401901], [36.64250300000002, -83.401816], [36.64249299999997, -83.401733], [36.642472000000005, -83.401679], [36.64244599999999, -83.401643], [36.642407000000034, -83.401609], [36.642301000000025, -83.401545], [36.64220300000002, -83.401465], [36.64211300000002, -83.401371], [36.64204600000003, -83.401285], [36.64173999999999, -83.400946], [36.64161400000001, -83.400814], [36.64148099999998, -83.400688], [36.64135699999997, -83.400549], [36.641242999999996, -83.400397], [36.64117999999999, -83.4003], [36.641084000000006, -83.400232], [36.64099399999999, -83.400154], [36.640869999999985, -83.400019], [36.640712999999984, -83.399949], [36.64056200000003, -83.39986], [36.640447000000016, -83.399777], [36.64008700000003, -83.399438], [36.63998399999997, -83.399385], [36.63984999999998, -83.399335], [36.639711999999996, -83.399302], [36.63952399999998, -83.39928], [36.63940400000002, -83.399247], [36.639287, -83.39919700000002], [36.63915500000001, -83.39911500000001], [36.63865500000005, -83.39872], [36.63858999999997, -83.398623], [36.63853700000005, -83.398516], [36.63849699999999, -83.3984], [36.638446, -83.398182], [36.638402999999954, -83.398067], [36.638347999999944, -83.39796], [36.63825100000002, -83.397821], [36.63822699999997, -83.397772], [36.63820800000002, -83.397704], [36.63820300000002, -83.397633], [36.63820500000001, -83.397604], [36.63816900000003, -83.396604], [36.63819099999999, -83.396358], [36.63822799999999, -83.396115], [36.638268000000004, -83.395923], [36.63831700000002, -83.395734], [36.63837000000001, -83.39560000000002], [36.63843500000003, -83.395475], [36.638512000000006, -83.395361], [36.638598999999985, -83.39525800000001], [36.638696000000046, -83.395169], [36.63879999999999, -83.395095], [36.63886600000002, -83.395059], [36.639705, -83.394702], [36.639784999999996, -83.39462], [36.63985600000003, -83.394525], [36.639916000000014, -83.394419], [36.63994600000006, -83.394351], [36.64006599999999, -83.393937], [36.640149999999984, -83.393586], [36.640180000000036, -83.393444], [36.64028799999997, -83.393049], [36.640350000000026, -83.392782], [36.64037400000002, -83.39266], [36.64051599999998, -83.392727], [36.64065400000004, -83.392774], [36.64079500000001, -83.392804], [36.64104199999998, -83.392815], [36.641286999999984, -83.392806], [36.64159900000002, -83.39281], [36.64166700000003, -83.392795], [36.64171900000002, -83.392771], [36.64177799999999, -83.392726], [36.64182900000003, -83.392667], [36.64190799999994, -83.392537], [36.642168999999974, -83.392042], [36.642208000000046, -83.391981], [36.642243000000015, -83.391941], [36.64230700000001, -83.391885], [36.64224100000003, -83.391703], [36.64218900000001, -83.391527], [36.64214699999995, -83.391315], [36.64212699999999, -83.39113500000002], [36.64211500000002, -83.390818], [36.642115, -83.390532], [36.64213, -83.390247], [36.64215600000002, -83.389973], [36.64219499999998, -83.389787], [36.64224200000004, -83.389637], [36.642352000000045, -83.389346], [36.64243899999999, -83.389078], [36.64252500000001, -83.388748], [36.642599999999995, -83.388409], [36.64267899999996, -83.388128], [36.642752000000044, -83.387908], [36.64291700000004, -83.387461], [36.64302599999998, -83.387185], [36.64308100000004, -83.387027], [36.64313099999999, -83.386923], [36.64319399999998, -83.38683], [36.643305000000055, -83.386699], [36.64333899999994, -83.38663300000002], [36.64335999999998, -83.38656], [36.643367000000055, -83.386483], [36.64335499999995, -83.386329], [36.64333899999994, -83.386239], [36.64329800000005, -83.386111], [36.64324499999996, -83.385995], [36.643230000000024, -83.385938], [36.643226, -83.385848], [36.64325000000001, -83.385712], [36.64329099999998, -83.385564], [36.64341000000003, -83.385244], [36.643548, -83.384905], [36.64361999999998, -83.38477000000002], [36.64374299999998, -83.384587], [36.64405899999996, -83.384129], [36.64443100000001, -83.383467], [36.644603999999994, -83.383114], [36.64466000000001, -83.383003], [36.644757999999996, -83.382807], [36.644986, -83.382293], [36.645020999999964, -83.382181], [36.64504299999999, -83.382064], [36.64505000000003, -83.381943], [36.645045, -83.38185], [36.645020999999964, -83.381747], [36.64499200000001, -83.381669], [36.64494399999999, -83.381579], [36.644871000000016, -83.381487], [36.64480099999999, -83.38143300000002], [36.64472500000006, -83.381395], [36.64461300000001, -83.381368], [36.644569999999995, -83.381341], [36.64454000000001, -83.38131], [36.64452100000002, -83.381277], [36.644391000000006, -83.381337], [36.64425699999996, -83.381379], [36.64414699999996, -83.3814], [36.64405400000003, -83.381395], [36.64401099999999, -83.381384], [36.64396300000003, -83.381371], [36.64392800000002, -83.381357], [36.64384599999996, -83.381276], [36.643673999999976, -83.381106], [36.64362800000002, -83.381075], [36.64356500000003, -83.38105], [36.64349999999997, -83.381041], [36.64343500000003, -83.38105], [36.643384000000005, -83.381069], [36.64326199999999, -83.381148], [36.643174000000045, -83.381225], [36.643095, -83.381316], [36.64306599999998, -83.381355], [36.64241699999999, -83.381723], [36.64190799999994, -83.381288], [36.64125700000003, -83.380313], [36.640761999999995, -83.379718], [36.640552000000035, -83.379558], [36.639664, -83.378535], [36.63928600000001, -83.378326], [36.63926900000002, -83.378244], [36.638686000000035, -83.378005], [36.63842899999998, -83.377786], [36.63815299999998, -83.37753100000002], [36.63814000000005, -83.377548], [36.638098, -83.377569], [36.638058000000015, -83.377573], [36.638040999999966, -83.377574], [36.637993999999956, -83.377558], [36.63776600000003, -83.377387], [36.63740900000001, -83.377146], [36.637343999999985, -83.377093], [36.63717800000002, -83.376972], [36.63697599999997, -83.376848], [36.636900000000026, -83.376813], [36.63681899999995, -83.376796], [36.636737000000004, -83.376796], [36.63664699999997, -83.376829], [36.63653999999993, -83.37688600000001], [36.63643899999996, -83.376959], [36.63636499999996, -83.377029], [36.63627300000005, -83.377146], [36.63618900000001, -83.377271], [36.63609300000002, -83.377437], [36.63600999999994, -83.377612], [36.63573199999999, -83.378396], [36.63556299999998, -83.378807], [36.63546600000003, -83.379101], [36.63543199999996, -83.379259], [36.635412000000024, -83.379422], [36.63540199999997, -83.379703], [36.635384999999985, -83.379889], [36.635299999999994, -83.380423], [36.635291999999986, -83.38052], [36.63526200000002, -83.380756], [36.635257000000024, -83.38078600000001], [36.63522899999998, -83.380927], [36.63518799999998, -83.381017], [36.635135000000005, -83.381096], [36.63508499999997, -83.381151], [36.63503000000003, -83.381197], [36.63469700000002, -83.381391], [36.634407999999965, -83.381583], [36.63420499999998, -83.381733], [36.63404499999999, -83.38187500000001], [36.63388900000001, -83.382034], [36.63386799999999, -83.382055], [36.63382000000001, -83.382107], [36.633759999999974, -83.382175], [36.633636, -83.382336], [36.63352200000002, -83.382511], [36.63348900000001, -83.382572], [36.633416999999966, -83.382704], [36.633321000000024, -83.382914], [36.63314400000004, -83.3834], [36.63307699999999, -83.383564], [36.632923999999996, -83.3839], [36.63285599999994, -83.384067], [36.632783999999994, -83.384284], [36.63272200000001, -83.384525], [36.63266399999997, -83.38471], [36.632630999999996, -83.384793], [36.63260799999995, -83.384853], [36.63243799999999, -83.385212], [36.63232199999995, -83.385434], [36.632271000000024, -83.385514], [36.63221399999995, -83.385594], [36.632201, -83.385613], [36.63215800000002, -83.385672], [36.63200800000001, -83.385857], [36.631939999999965, -83.385952], [36.631908, -83.386012], [36.63188300000001, -83.386058], [36.63183900000002, -83.386173], [36.63180300000003, -83.386319], [36.63178999999998, -83.386445], [36.63178999999998, -83.386573], [36.63180300000001, -83.386658], [36.631825000000035, -83.386873], [36.631832000000024, -83.387089], [36.63182200000001, -83.387345], [36.631797, -83.387609], [36.631757999999955, -83.38787], [36.631732, -83.388318], [36.63172100000001, -83.388768], [36.63172799999995, -83.38909], [36.63172799999999, -83.389478], [36.63170999999997, -83.389943], [36.63170199999998, -83.390694], [36.63170400000001, -83.390887], [36.631686000000045, -83.391119], [36.631611999999976, -83.391592], [36.631582000000016, -83.391867], [36.63157600000003, -83.39192100000001], [36.631528000000024, -83.392553], [36.631513000000005, -83.392862], [36.63150399999997, -83.393457], [36.631492000000016, -83.393624], [36.63146399999998, -83.393831], [36.631242999999984, -83.39486100000002], [36.631125000000004, -83.395341], [36.63093600000002, -83.396064], [36.630537, -83.397656], [36.63035200000001, -83.398475], [36.63018700000003, -83.399175], [36.630040999999984, -83.399904], [36.63003500000001, -83.399952], [36.63001499999995, -83.400047], [36.629977000000004, -83.400159], [36.629926000000005, -83.400264], [36.62986299999998, -83.400357], [36.62989700000002, -83.400609], [36.629926000000005, -83.400898], [36.62995100000001, -83.401261], [36.629950999999984, -83.401422], [36.62993800000001, -83.40162300000001], [36.629912000000004, -83.401822], [36.62987099999999, -83.402017], [36.629830000000005, -83.40217], [36.62977900000001, -83.402319], [36.62971, -83.40248900000002], [36.629693, -83.402544], [36.629685999999964, -83.402602], [36.629689, -83.402675], [36.62971099999998, -83.402759], [36.62854200000004, -83.402936], [36.626875999999974, -83.40241], [36.62449900000003, -83.401951], [36.62408199999997, -83.401367], [36.622247, -83.400825], [36.619965999999984, -83.396606], [36.619784000000024, -83.396218], [36.61824499999996, -83.392945], [36.61807800000001, -83.390861], [36.617619, -83.39011], [36.616618999999965, -83.391278], [36.61574300000001, -83.392653], [36.612491000000006, -83.392153], [36.60636199999998, -83.391194], [36.59897527932599, -83.39016047847345], [36.59947573205925, -83.4720935738096], [36.600410975734846, -83.60840541815976], [36.60041700000001, -83.60841]],
+                {"bubblingMouseEvents": true, "color": "#dcbeff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dcbeff", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_3ef15bab1e053ad48421bd72438bceef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c08b30967c1c43fa4e04d08dd0ebd02 = $(`<div id="html_8c08b30967c1c43fa4e04d08dd0ebd02" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD09</b></div>`)[0];
+                popup_3ef15bab1e053ad48421bd72438bceef.setContent(html_8c08b30967c1c43fa4e04d08dd0ebd02);
+            
+        
+
+        polygon_8911d59700349a9c3e5fbb129e07817e.bindPopup(popup_3ef15bab1e053ad48421bd72438bceef)
+        ;
+
+        
+    
+    
+            var circle_marker_34875f0f87dea502036af423798645ae = L.circleMarker(
+                [36.643391522347514, -83.46119417724688],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_034a3c820b9df1c86f72cf4e98ddc67a);
+        
+    
+        var popup_fa24f645e2cf62502a715f79fbb5b6a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c680c8e49c6578d04eaff5cba707f805 = $(`<div id="html_c680c8e49c6578d04eaff5cba707f805" style="width: 100.0%; height: 100.0%;"><b>Lee - Virginia-CD09</b></div>`)[0];
+                popup_fa24f645e2cf62502a715f79fbb5b6a3.setContent(html_c680c8e49c6578d04eaff5cba707f805);
+            
+        
+
+        circle_marker_34875f0f87dea502036af423798645ae.bindPopup(popup_fa24f645e2cf62502a715f79fbb5b6a3)
+        ;
+
+        
+    
+    
+            circle_marker_34875f0f87dea502036af423798645ae.bindTooltip(
+                `<div>
+                     Lee - Virginia-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

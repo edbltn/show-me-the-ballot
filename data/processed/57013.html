@@ -1,0 +1,1500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b069433dc140eecac711d1610177fca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #469990;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            
+                <p><i style="background: #dcbeff;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lincoln - South Dakota-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_7b069433dc140eecac711d1610177fca" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b069433dc140eecac711d1610177fca = L.map(
+                "map_7b069433dc140eecac711d1610177fca",
+                {
+                    center: [43.30631301637827, -96.5540946251348],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9ce7d5908b827ca77ea6e9fb7c6174d8 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9ce7d5908b827ca77ea6e9fb7c6174d8.addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+            var polygon_f14df1b014f7ac683a993e6e452df672 = L.polygon(
+                [[43.419981000000035, -96.57305], [43.419942000000006, -96.573132], [43.419713, -96.57357300000001], [43.41966399999996, -96.573645], [43.41960300000003, -96.573693], [43.41953600000003, -96.573729], [43.419396000000035, -96.573764], [43.41936100000007, -96.573767], [43.419291, -96.573749], [43.41925499999995, -96.573746], [43.41918500000003, -96.573726], [43.41908799999999, -96.57366300000001], [43.41899699999999, -96.573585], [43.418968999999954, -96.573555], [43.41892, -96.573483], [43.41885700000002, -96.573364], [43.418702, -96.572866], [43.41869099999998, -96.572819], [43.41866100000001, -96.57273], [43.418354000000065, -96.572249], [43.41823200000003, -96.571947], [43.41795599999999, -96.571494], [43.41795900000002, -96.57139], [43.41795299999999, -96.571341], [43.41790100000002, -96.571158], [43.417843, -96.571034], [43.41758499999999, -96.570331], [43.41756399999999, -96.57029], [43.41753899999998, -96.570255], [43.41748000000002, -96.570199], [43.41741199999999, -96.569873], [43.41739700000002, -96.569823], [43.41725599999997, -96.56937200000002], [43.41722699999998, -96.569129], [43.417194000000066, -96.568936], [43.41718099999999, -96.56889], [43.41710825482247, -96.56869974304762], [43.415904619868456, -96.56689593160237], [43.415866999999956, -96.56685600000002], [43.41567, -96.566691], [43.41511600000005, -96.566438], [43.41439699999999, -96.565704], [43.41436699999996, -96.565678], [43.41339800000004, -96.565046], [43.41322799999997, -96.56486600000001], [43.413180999999966, -96.564793], [43.41309399999997, -96.564637], [43.41297199999997, -96.564391], [43.41286100000003, -96.564138], [43.41282800000001, -96.564051], [43.41277200000002, -96.563874], [43.41274199999996, -96.563779], [43.41265799999999, -96.563401], [43.41266100000003, -96.563303], [43.41266999999999, -96.563205], [43.41267299999998, -96.563106], [43.41266600000006, -96.563057], [43.41263100000005, -96.562918], [43.412617999999995, -96.56282], [43.41263699999999, -96.562725], [43.4126964199679, -96.56208847765542], [43.41108756665403, -96.55967788620586], [43.41074100000005, -96.55963], [43.409669999999984, -96.55965], [43.40942100000002, -96.559627], [43.40908100000001, -96.559474], [43.408953999999994, -96.559385], [43.40880599999997, -96.559246], [43.40864800000001, -96.559046], [43.408431999999976, -96.558718], [43.408410000000025, -96.55867500000001], [43.40828000000001, -96.558445], [43.408208, -96.558335], [43.40806899999997, -96.558181], [43.40800899999997, -96.558127], [43.40791299999999, -96.558061], [43.407779999999995, -96.55799], [43.407468, -96.557894], [43.40718499999997, -96.557847], [43.40690200000003, -96.557777], [43.40676200000001, -96.557737], [43.40662600000004, -96.55767800000001], [43.40655699999997, -96.557653], [43.40643099999999, -96.557561], [43.406285999999994, -96.557385], [43.40624399999996, -96.557334], [43.406214999999996, -96.557305], [43.406165999999985, -96.557234], [43.40607599999996, -96.55702300000002], [43.406062, -96.55697800000002], [43.406026999999995, -96.556686], [43.406026999999995, -96.556637], [43.40603699999997, -96.556539], [43.40603699999997, -96.55649], [43.406051999999974, -96.556343], [43.406155, -96.555767], [43.40620299999999, -96.555582], [43.40621900000003, -96.555537], [43.40624, -96.555497], [43.40626599999997, -96.555462], [43.406292000000036, -96.555318], [43.406295000000036, -96.55517], [43.40628800000001, -96.554924], [43.406257999999994, -96.554782], [43.40623399999999, -96.55469], [43.40616099999999, -96.55452], [43.406135999999975, -96.554485], [43.406105999999966, -96.554458], [43.406056000000035, -96.554432], [43.40573799999999, -96.554267], [43.405491000000005, -96.554218], [43.405239999999964, -96.554221], [43.40506499999998, -96.554267], [43.40494299999999, -96.554327], [43.404891000000056, -96.554353], [43.40478600000004, -96.554375], [43.40464299999997, -96.55437600000002], [43.40460900000004, -96.554362], [43.40455600000001, -96.554329], [43.40451099999998, -96.554302], [43.40445499999999, -96.554241], [43.404225999999994, -96.553742], [43.40416500000001, -96.55351000000002], [43.40397100000003, -96.55298], [43.40389699999998, -96.552702], [43.40375599999998, -96.551985], [43.403725999999956, -96.551691], [43.40369200000001, -96.55099800000002], [43.40369000000004, -96.550653], [43.40370600000002, -96.550506], [43.403714999999984, -96.550458], [43.403939999999984, -96.549622], [43.40399699999997, -96.549336], [43.40399299999994, -96.549251], [43.40395352510887, -96.54899082437078], [43.4033999582066, -96.54816170219861], [43.403397, -96.548159], [43.40324999999997, -96.548043], [43.40296299999999, -96.547817], [43.40273699999995, -96.547669], [43.402037999999955, -96.547295], [43.401937000000025, -96.547246], [43.401730000000036, -96.547169], [43.40162899999998, -96.547117], [43.40116499999997, -96.546748], [43.40104300000001, -96.546644], [43.40098399999999, -96.546588], [43.40085500000006, -96.546417], [43.400638999999984, -96.546088], [43.40052599999993, -96.545896], [43.400508999999985, -96.545852], [43.40034799999998, -96.545303], [43.40030900000003, -96.545219], [43.400187, -96.545039], [43.40012899999997, -96.544981], [43.400103, -96.544948], [43.400073000000035, -96.54492], [43.40000700000001, -96.544881], [43.39969400000005, -96.544783], [43.39930199999999, -96.544774], [43.39894800000002, -96.544838], [43.398232, -96.54515], [43.397830999999954, -96.545363], [43.39756999999997, -96.545525], [43.39743599999999, -96.545595], [43.397293, -96.545605], [43.397222000000006, -96.5456], [43.397150999999994, -96.545588], [43.396943, -96.545517], [43.396815, -96.54543], [43.396757, -96.545372], [43.39642800000001, -96.544921], [43.396366000000015, -96.5448], [43.396329, -96.544716], [43.39618899999997, -96.544429], [43.396103999999944, -96.544211], [43.39602499999998, -96.54393500000002], [43.396015000000006, -96.543887], [43.39596599999997, -96.543547], [43.395958, -96.543399], [43.39596799999999, -96.543053], [43.395974000000045, -96.543004], [43.396019000000045, -96.542765], [43.396074, -96.542639], [43.39611699999994, -96.542559], [43.39618899999997, -96.542449], [43.396410999999986, -96.542199], [43.39650099999998, -96.54211900000001], [43.39653300000002, -96.542096], [43.39656699999995, -96.542083], [43.39695299999999, -96.54199000000001], [43.39702299999998, -96.541972], [43.397193, -96.541895], [43.39734399999998, -96.541764], [43.39737000000002, -96.54173000000002], [43.39739099999999, -96.54169], [43.39742399999996, -96.54155], [43.397446000000016, -96.541205], [43.397432000000016, -96.540959], [43.39742599999999, -96.54091], [43.39731999999999, -96.540334], [43.397285, -96.540194], [43.397243000000024, -96.540057], [43.397049000000024, -96.539527], [43.39682499999997, -96.53914], [43.39641400000001, -96.538663], [43.39635400000003, -96.538608], [43.39525799999998, -96.53788], [43.39510999999999, -96.537742], [43.39508299999999, -96.53771], [43.39490900000002, -96.537459], [43.39487300000004, -96.537373], [43.394832999999984, -96.537235], [43.394793999999976, -96.537045], [43.394773000000036, -96.536849], [43.394765999999976, -96.536552], [43.394776999999976, -96.536157], [43.394815, -96.535742], [43.394835999999955, -96.535519], [43.39485551297832, -96.53536658110423], [43.38570817898412, -96.52167403547558], [43.38530099999997, -96.521697], [43.38526600000003, -96.521704], [43.38509299999998, -96.521757], [43.38502200000001, -96.521756], [43.38484600000001, -96.521739], [43.38481100000001, -96.521747], [43.38471100000001, -96.521795], [43.384556999999965, -96.521917], [43.384524999999975, -96.521938], [43.38420099999995, -96.522241], [43.384077000000005, -96.522335], [43.38395800000003, -96.522441], [43.38386699999999, -96.522517], [43.38381500000003, -96.522581], [43.383512999999994, -96.522992], [43.383378, -96.52322], [43.383256000000046, -96.52346], [43.382921999999986, -96.52396800000001], [43.382717000000014, -96.524368], [43.382647000000006, -96.52448], [43.382617000000025, -96.524504], [43.382377000000034, -96.524589], [43.38227099999999, -96.524606], [43.38188899999996, -96.5245], [43.381856000000006, -96.52448400000002], [43.38182500000004, -96.524459], [43.38159499999998, -96.524152], [43.38155, -96.524077], [43.381446000000004, -96.523879], [43.38139400000002, -96.523751], [43.381367, -96.523659], [43.38133099999999, -96.52347], [43.38132700000002, -96.523421], [43.38133100000002, -96.523323], [43.38134599999998, -96.52322900000001], [43.38136600000003, -96.523038], [43.381391, -96.522948], [43.381411000000014, -96.522906], [43.381436999999984, -96.522818], [43.381565, -96.522469], [43.38160599999997, -96.522282], [43.38161299999996, -96.522233], [43.381609999999974, -96.522185], [43.38159499999998, -96.522141], [43.381571999999984, -96.522104], [43.381544000000005, -96.522077], [43.38144799999998, -96.522008], [43.38138000000001, -96.521983], [43.381273999999976, -96.52197400000001], [43.38123900000003, -96.521978], [43.38120700000001, -96.521999], [43.38106200000003, -96.522144], [43.380987000000026, -96.522249], [43.38096500000001, -96.522289], [43.38095099999999, -96.522334], [43.38075800000001, -96.523235], [43.38055599999996, -96.523813], [43.38049700000003, -96.523936], [43.38044900000003, -96.524008], [43.380213000000005, -96.524309], [43.380181999999984, -96.524334], [43.37998399999998, -96.524448], [43.379812000000015, -96.524512], [43.37977600000001, -96.524517], [43.379705000000016, -96.524509], [43.37917500000003, -96.524405], [43.37910800000003, -96.524373], [43.379076, -96.524351], [43.37883699999999, -96.524133], [43.37873900000003, -96.524073], [43.378671000000026, -96.524047], [43.37860100000004, -96.524027], [43.37850000000002, -96.523979], [43.377994000000015, -96.523611], [43.377687000000044, -96.523367], [43.37766100000004, -96.523275], [43.37760700000007, -96.52314700000001], [43.377582000000025, -96.523112], [43.37755099999997, -96.523087], [43.37738300000002, -96.523005], [43.37731200000002, -96.522999], [43.37727300000003, -96.523005], [43.377127000000016, -96.522863], [43.37699099999997, -96.522701], [43.376758, -96.522475], [43.376598000000016, -96.522212], [43.37659770536532, -96.52221161470827], [43.371798608010444, -96.52255101854641], [43.371752, -96.522686], [43.371740999999965, -96.522733], [43.371725999999995, -96.522829], [43.37173299999996, -96.523076], [43.37173799999999, -96.523125], [43.371759, -96.523165], [43.371783999999955, -96.5232], [43.371896, -96.52339], [43.37194399999999, -96.523464], [43.371996000000024, -96.523531], [43.37201900000002, -96.523568], [43.372127000000035, -96.523697], [43.37250899999997, -96.524136], [43.372651000000026, -96.524298], [43.372676000000006, -96.524333], [43.37269800000002, -96.524373], [43.37273099999998, -96.524461], [43.37273600000003, -96.524509], [43.37273499999999, -96.52465800000002], [43.37271200000001, -96.524751], [43.37269700000005, -96.524796], [43.372628999999954, -96.524911], [43.37257999999995, -96.524982], [43.372551000000016, -96.52501000000001], [43.37248499999997, -96.52505], [43.372281, -96.525138], [43.371619000000024, -96.525343], [43.37154800000002, -96.525361], [43.371441999999945, -96.525381], [43.37124200000001, -96.52549], [43.371207999999996, -96.525499], [43.37110099999995, -96.525491], [43.37106499999998, -96.525493], [43.37103, -96.525484], [43.370996000000005, -96.525468], [43.37080900000004, -96.525323], [43.37075, -96.525267], [43.370636999999974, -96.525147], [43.370376, -96.524887], [43.37023999999997, -96.524828], [43.37010600000002, -96.524763], [43.37007100000003, -96.524751], [43.36992900000001, -96.524751], [43.36985900000002, -96.524762], [43.36976899999999, -96.524841], [43.369410999999985, -96.525247], [43.369357999999984, -96.525314], [43.36918200000006, -96.525559], [43.36904199999997, -96.525711], [43.368983999999955, -96.525768], [43.368958, -96.525802], [43.36892800000003, -96.52583], [43.36889599999997, -96.525852], [43.36880800000003, -96.525937], [43.36877599999998, -96.525946], [43.36874100000004, -96.525944], [43.36863500000002, -96.525963], [43.36860099999996, -96.52598], [43.36857099999994, -96.526006], [43.36833499999999, -96.526365], [43.36828599999999, -96.526433], [43.36822299999999, -96.526552], [43.36814699999999, -96.526718], [43.36813599999997, -96.526766], [43.36811400000002, -96.52692], [43.368107, -96.527109], [43.36812699999999, -96.52765], [43.368141, -96.527747], [43.368159000000006, -96.52779], [43.36818500000002, -96.52782300000001], [43.36824600000003, -96.527872], [43.368274000000014, -96.527903], [43.36836499999997, -96.527982], [43.36839899999998, -96.527996], [43.36861199999999, -96.52801], [43.368718000000015, -96.528035], [43.36892500000001, -96.528108], [43.368959000000004, -96.528123], [43.36899100000002, -96.528144], [43.36910000000002, -96.528271], [43.36919699999997, -96.528417], [43.369257000000054, -96.528557], [43.36929799999997, -96.528715], [43.369316999999974, -96.528911], [43.369309, -96.529306], [43.369299999999996, -96.529401], [43.369253000000064, -96.52994400000001], [43.36924499999993, -96.529992], [43.36917199999999, -96.530217], [43.36907200000004, -96.530422], [43.368891, -96.530724], [43.36871000000001, -96.530874], [43.36843300000003, -96.530961], [43.36839700000001, -96.530958], [43.368220000000036, -96.530968], [43.367825999999965, -96.530944], [43.367817, -96.530942], [43.367754999999974, -96.530936], [43.367685, -96.530921], [43.36726000000003, -96.530852], [43.36697499999999, -96.53088], [43.36688700000002, -96.530873], [43.36599699999995, -96.530907], [43.365784999999974, -96.530867], [43.36568099999997, -96.530838], [43.365648000000014, -96.530821], [43.36542000000002, -96.530676], [43.36523199999999, -96.530537], [43.36508299999999, -96.530403], [43.365024999999996, -96.530344], [43.364676999999986, -96.52985], [43.36462499999998, -96.529784], [43.36455299999998, -96.529676], [43.364525, -96.529644], [43.364492999999996, -96.529622], [43.36428299999997, -96.529439], [43.36424799999996, -96.52942600000002], [43.36403699999995, -96.529388], [43.36368100000002, -96.52936], [43.363470000000035, -96.529391], [43.36336599999999, -96.529419], [43.36312600000001, -96.529507], [43.36305699999995, -96.529528], [43.362950000000026, -96.529539], [43.362772000000014, -96.529522], [43.362636000000045, -96.52946], [43.36255000000002, -96.529373], [43.36241299999995, -96.529143], [43.36239999999998, -96.529098], [43.36238200000001, -96.528853], [43.362384, -96.528804], [43.362400999999984, -96.528692], [43.362414, -96.528613], [43.362463000000005, -96.528428], [43.362532, -96.52825500000002], [43.362665999999976, -96.528023], [43.36271299999998, -96.527836], [43.362713999999926, -96.527787], [43.362708000000005, -96.527738], [43.362685000000006, -96.527644], [43.36265699999994, -96.527614], [43.36262499999997, -96.527589], [43.36259100000005, -96.527575], [43.362556, -96.527569], [43.36219899999999, -96.527564], [43.362164, -96.527557], [43.36166400000003, -96.527292], [43.36155900000001, -96.527261], [43.36138200000003, -96.527228], [43.361275000000006, -96.527222], [43.361133000000024, -96.527233], [43.36106100000001, -96.527233], [43.360989999999966, -96.52724], [43.36074300000006, -96.527291], [43.36056999999999, -96.52735000000001], [43.360434, -96.527411], [43.36032900000004, -96.52743600000001], [43.36011800000002, -96.527475], [43.359795999999974, -96.527489], [43.359761000000006, -96.527487], [43.359654999999975, -96.527464], [43.358642000000046, -96.5272], [43.35832099999998, -96.527243], [43.358076000000025, -96.527304], [43.35797400000001, -96.527348], [43.35706600000002, -96.52781], [43.356995999999995, -96.527825], [43.35671100000003, -96.527825], [43.356675, -96.527829], [43.356603999999955, -96.527826], [43.35632500000003, -96.527748], [43.35618999999999, -96.527684], [43.355691000000014, -96.527415], [43.355622999999994, -96.527386], [43.355285999999985, -96.52722], [43.35519399999997, -96.527145], [43.355138000000004, -96.52708400000002], [43.354793000000036, -96.526653], [43.35452700000002, -96.526256], [43.354442, -96.526165], [43.35438800000001, -96.5261], [43.35405699999997, -96.525582], [43.354005999999934, -96.525514], [43.35383600000003, -96.525262], [43.35378500000001, -96.525195], [43.353752, -96.52517600000002], [43.353579000000046, -96.525114], [43.353508000000026, -96.525105], [43.35347199999999, -96.525108], [43.35334699999995, -96.525142], [43.35308899999996, -96.52531300000001], [43.35281399999998, -96.525542], [43.35275900000002, -96.525604], [43.35251899999998, -96.526035], [43.352426, -96.526185], [43.35240000000002, -96.52621800000001], [43.35225900000001, -96.526365], [43.352225999999945, -96.526386], [43.35209199999996, -96.526443], [43.352074, -96.526486], [43.35205000000003, -96.52652300000001], [43.35202199999996, -96.526555], [43.35199199999998, -96.526581], [43.35185599999995, -96.526638], [43.351827, -96.526668], [43.35176600000002, -96.526718], [43.35166800000004, -96.52686], [43.35161400000002, -96.52692], [43.35152800000001, -96.527004], [43.35146300000004, -96.527044], [43.35136099999999, -96.52708600000001], [43.351329, -96.527064], [43.35129900000001, -96.527036], [43.351267000000014, -96.527022], [43.351087999999976, -96.527017], [43.35098099999998, -96.52703700000002], [43.35094999999999, -96.527022], [43.35088500000001, -96.52698], [43.35084999999999, -96.52697], [43.35077899999998, -96.526965], [43.350637000000035, -96.526966], [43.35056699999997, -96.526958], [43.350530999999975, -96.52696], [43.350358000000014, -96.527015], [43.350325999999995, -96.527038], [43.350297999999974, -96.527069], [43.35027400000003, -96.527105], [43.35025300000004, -96.527146], [43.350041999999966, -96.527184], [43.34953799999998, -96.527337], [43.34950499999999, -96.527319], [43.34947399999997, -96.527294], [43.34943999999996, -96.527277], [43.349405000000004, -96.527268], [43.34936899999997, -96.527269], [43.34930000000001, -96.527288], [43.34917100000002, -96.527368], [43.34910499999999, -96.527403], [43.34907299999999, -96.527427], [43.34904600000001, -96.527459], [43.349007000000015, -96.527528], [43.348901999999974, -96.527593], [43.348682, -96.527733], [43.348614000000005, -96.527758], [43.34857799999999, -96.527766], [43.348543000000014, -96.527766], [43.34829500000003, -96.527716], [43.34826000000004, -96.527704], [43.34819400000001, -96.527667], [43.34816200000004, -96.527643], [43.34800500000001, -96.527442], [43.34795499999995, -96.527372], [43.34789099999998, -96.527253], [43.347836, -96.527126], [43.347807000000024, -96.527036], [43.34777099999997, -96.526896], [43.34776900000001, -96.526847], [43.34775000000002, -96.52665200000001], [43.347744999999975, -96.52630800000001], [43.34775099999997, -96.526259], [43.347766999999976, -96.526214], [43.347894999999994, -96.525976], [43.34799900000001, -96.525843], [43.34823899999999, -96.52563], [43.34831900000002, -96.525531], [43.34838100000003, -96.525411], [43.34839900000002, -96.525368], [43.34843800000001, -96.52523], [43.348454000000004, -96.525033], [43.348454000000004, -96.524984], [43.34842700000001, -96.524841], [43.34838199999997, -96.524706], [43.348356000000024, -96.524672], [43.34820999999997, -96.52453100000001], [43.34817600000003, -96.524516], [43.34792999999998, -96.524452], [43.34784100000002, -96.524442], [43.34776399999996, -96.524337], [43.34773499999999, -96.52431000000001], [43.347701999999984, -96.52429], [43.34760242460249, -96.52426154988426], [43.34757021874694, -96.52426382589557], [43.34752700000003, -96.52427], [43.34750259093305, -96.52426860519597], [43.347476345728516, -96.5242704599588], [43.34742199999995, -96.524279], [43.34738800000002, -96.524293], [43.34734499999998, -96.524339], [43.34720299999995, -96.524354], [43.347133999999954, -96.524376], [43.34691500000004, -96.524542], [43.34689199999997, -96.524567], [43.34660499999999, -96.524877], [43.346360000000054, -96.52509200000001], [43.34594400000001, -96.525461], [43.34548900000001, -96.52609], [43.34540800000004, -96.526186], [43.345323000000015, -96.526276], [43.34498699999999, -96.526558], [43.344799999999964, -96.526682], [43.34431099999998, -96.527008], [43.34418699999999, -96.52711], [43.34400399999998, -96.52726000000001], [43.343805000000046, -96.527372], [43.34376999999998, -96.527383], [43.34338100000002, -96.527459], [43.343311, -96.527478], [43.34324299999998, -96.527505], [43.34289699999997, -96.527621], [43.34286399999998, -96.527643], [43.342834999999994, -96.527672], [43.34277299999996, -96.527719], [43.34268300000001, -96.527798], [43.34257, -96.527919], [43.342472, -96.528063], [43.342245999999925, -96.528444], [43.34220699999998, -96.528527], [43.34216199999997, -96.528661], [43.34206799999998, -96.529177], [43.342050000000015, -96.529282], [43.342036000000036, -96.529677], [43.341987999999986, -96.53011800000002], [43.34198600000005, -96.530167], [43.341973000000024, -96.530213], [43.34191600000002, -96.53033900000001], [43.34191, -96.530383], [43.342009, -96.531011], [43.34201999999999, -96.531058], [43.34214299999994, -96.531359], [43.342308, -96.531546], [43.34237000000002, -96.53159600000001], [43.342404999999985, -96.531607], [43.342511000000016, -96.531625], [43.343008000000026, -96.531658], [43.34307700000002, -96.531682], [43.343110999999986, -96.531699], [43.34313699999998, -96.531731], [43.3432, -96.531851], [43.343192999999985, -96.532096], [43.343189, -96.532146], [43.34316599999999, -96.53223900000002], [43.343150000000016, -96.532283], [43.34310699999999, -96.532362], [43.342743999999996, -96.53275900000001], [43.34271399999996, -96.532785], [43.34265000000002, -96.532829], [43.34261599999997, -96.532843], [43.34247599999999, -96.53288], [43.34240599999998, -96.532892], [43.34226799999999, -96.53293100000002], [43.34219800000002, -96.532929], [43.34216300000002, -96.53292], [43.342092000000065, -96.532914], [43.34198600000005, -96.532897], [43.34191699999999, -96.53287], [43.34177799999994, -96.532828], [43.34169899999996, -96.532663], [43.34167099999992, -96.532631], [43.341517, -96.53251], [43.34143400000001, -96.532416], [43.34124600000003, -96.532119], [43.341219, -96.532087], [43.34112800000003, -96.532009], [43.340995999999954, -96.53193600000002], [43.34093100000002, -96.531895], [43.34082699999998, -96.531856], [43.34044600000005, -96.531736], [43.34037699999993, -96.531719], [43.340309000000005, -96.53169], [43.340211000000046, -96.531632], [43.340143, -96.531601], [43.33996900000005, -96.531561], [43.339543999999975, -96.53159600000001], [43.33933499999995, -96.531665], [43.338656999999955, -96.532102], [43.338419999999985, -96.532324], [43.338406, -96.532337], [43.338219999999936, -96.532531], [43.33779499999998, -96.533058], [43.33758799999999, -96.533329], [43.33748000000007, -96.533456], [43.33745699999997, -96.53349400000002], [43.337407999999975, -96.53362500000001], [43.33725900000003, -96.534072], [43.336937000000034, -96.534515], [43.33667400000003, -96.535022], [43.33663900000005, -96.535034], [43.336535999999974, -96.535074], [43.33650200000004, -96.535087], [43.33646700000005, -96.535089], [43.335687000000036, -96.534949], [43.33562000000002, -96.534914], [43.335159, -96.534645], [43.334877999999954, -96.534429], [43.33471599999998, -96.53423500000001], [43.33465200000002, -96.534117], [43.33463600000003, -96.534073], [43.33455299999997, -96.533642], [43.33454900000001, -96.533593], [43.33454700000005, -96.533396], [43.33457599999995, -96.532755], [43.33456900000004, -96.532607], [43.33456100000003, -96.532559], [43.33454499999999, -96.532516], [43.33451999999998, -96.53248], [43.33449100000003, -96.53245], [43.334457999999955, -96.532432], [43.33438800000001, -96.532418], [43.334245, -96.53242], [43.333820000000024, -96.53250100000001], [43.33360599999999, -96.53250700000001], [43.33357300000002, -96.532491], [43.33348100000003, -96.53241500000001], [43.333418, -96.53237000000001], [43.33311199999998, -96.532123], [43.333047999999984, -96.532078], [43.33275600000002, -96.531895], [43.332222999999935, -96.531604], [43.33198600000006, -96.531498], [43.33188300000002, -96.531458], [43.33166699999999, -96.531464], [43.33160000000001, -96.531477], [43.33069199999995, -96.531931], [43.33005200000002, -96.532375], [43.32998999999996, -96.532423], [43.32960800000003, -96.532689], [43.32954199999995, -96.53273], [43.32937499999999, -96.532819], [43.32931100000001, -96.532863], [43.32899400000002, -96.533187], [43.328962, -96.533207], [43.328817999999984, -96.533224], [43.32878300000001, -96.533218], [43.328714000000026, -96.533189], [43.32789100000001, -96.532702], [43.327764000000016, -96.532607], [43.327312999999975, -96.532199], [43.327279999999995, -96.53218], [43.32711000000005, -96.532106], [43.327041999999956, -96.532071], [43.32687999999998, -96.531964], [43.326616, -96.53181], [43.326453000000015, -96.531705], [43.326329000000044, -96.531604], [43.32630100000008, -96.531573], [43.32622500000001, -96.531468], [43.326000999999984, -96.531021], [43.32592200000001, -96.530798], [43.32585700000004, -96.530699], [43.32553500000001, -96.530385], [43.32524500000002, -96.530019], [43.32497900000002, -96.529552], [43.324549999999995, -96.52903], [43.32437099999996, -96.52886500000001], [43.324337000000014, -96.528848], [43.32419499999999, -96.528866], [43.32416100000002, -96.52888], [43.324097, -96.528926], [43.324061000000036, -96.528945], [43.32402999999998, -96.528959], [43.323892, -96.528906], [43.323251000000006, -96.528901], [43.32282499999999, -96.528933], [43.322717999999995, -96.52895], [43.322649000000006, -96.52897], [43.32247200000005, -96.529009], [43.322413000000026, -96.529056], [43.322337000000026, -96.529159], [43.32230800000002, -96.529189], [43.322005, -96.529332], [43.321559000000015, -96.529499], [43.321335999999974, -96.52964700000001], [43.321303, -96.529663], [43.32127199999996, -96.529689], [43.321248000000004, -96.529725], [43.32119499999998, -96.529789], [43.32114699999996, -96.52986000000001], [43.32108200000003, -96.530495], [43.321043999999944, -96.530686], [43.32093799999995, -96.530881], [43.32090999999996, -96.530912], [43.32087799999999, -96.530935], [43.32077499999998, -96.530973], [43.32070300000002, -96.530975], [43.32066899999997, -96.530962], [43.320638000000024, -96.53093900000002], [43.320470999999934, -96.530752], [43.32029599999999, -96.53051], [43.32023699999996, -96.530455], [43.32007700000004, -96.53019], [43.32003900000001, -96.530107], [43.319990000000004, -96.530035], [43.319783999999984, -96.529843], [43.31933699999999, -96.529531], [43.31927999999994, -96.529472], [43.319070000000025, -96.529206], [43.31894700000002, -96.529104], [43.31894399999995, -96.529021], [43.31893600000004, -96.528973], [43.318922000000015, -96.528927], [43.318900999999975, -96.528887], [43.318894000000014, -96.52884], [43.31885699999999, -96.528705], [43.318838000000014, -96.528667], [43.318832999999984, -96.52862], [43.31880999999997, -96.528585], [43.31878800000002, -96.528498], [43.318764999999985, -96.528464], [43.318761999999964, -96.528416], [43.318698, -96.528259], [43.31869600000004, -96.52821000000002], [43.31867699999998, -96.52817100000001], [43.31866700000004, -96.52812600000001], [43.318646055613, -96.52798537339983], [43.31639882135635, -96.52827601694986], [43.31640999999998, -96.52829400000002], [43.31649800000003, -96.528508], [43.31655900000002, -96.528629], [43.31656599999997, -96.528674], [43.316543999999965, -96.528819], [43.31652900000002, -96.52886500000001], [43.31650900000004, -96.528906], [43.31648600000005, -96.528942], [43.31642800000002, -96.529001], [43.31639500000003, -96.529011], [43.31621700000002, -96.529005], [43.315656999999966, -96.528853], [43.315280999999985, -96.528704], [43.315211, -96.528682], [43.31499899999998, -96.528641], [43.31496400000003, -96.528639], [43.31468000000004, -96.528669], [43.31460899999998, -96.528662], [43.31450400000003, -96.528636], [43.31432699652608, -96.52854395816233], [43.30481631001098, -96.52977374264276], [43.304674, -96.530221], [43.30460699999997, -96.530704], [43.304590999999974, -96.53085], [43.304587999999974, -96.530947], [43.304570999999996, -96.53114], [43.30446699999998, -96.531612], [43.304450000000024, -96.531654], [43.304428000000016, -96.531694], [43.30432499999996, -96.53183], [43.30429600000002, -96.53186], [43.30423299999995, -96.531905], [43.30392400000006, -96.532029], [43.303435000000036, -96.532175], [43.30307999999995, -96.53224300000001], [43.302938, -96.532255], [43.30286600000001, -96.532255], [43.30254600000003, -96.532222], [43.302309000000015, -96.532111], [43.30220900000002, -96.532058], [43.302144, -96.532018], [43.30201999999997, -96.531921], [43.30181400000002, -96.53172300000001], [43.30170100000003, -96.531603], [43.30128700000002, -96.531134], [43.30093399999998, -96.530718], [43.30072999999998, -96.530517], [43.30056516013157, -96.530323335607], [43.30003399999998, -96.530392], [43.29853462732585, -96.53852310091851], [43.29853499999996, -96.53852400000001], [43.29854799999997, -96.53856900000001], [43.29855500000003, -96.538618], [43.29855099999994, -96.538717], [43.298544, -96.538764], [43.29849799999998, -96.538839], [43.29847189704779, -96.53886322060264], [43.29541263754922, -96.55544383855532], [43.29541800000001, -96.555442], [43.29548099999998, -96.555396], [43.29556300000004, -96.555303], [43.29571200000001, -96.555092], [43.29576399999998, -96.555025], [43.296015000000025, -96.554751], [43.29613599999997, -96.554646], [43.29616799999994, -96.554626], [43.296236999999955, -96.55459900000001], [43.29637999999998, -96.55459], [43.296437000000005, -96.554605], [43.29646700000003, -96.554632], [43.29649099999998, -96.554669], [43.296508999999965, -96.554712], [43.296531999999964, -96.554805], [43.29654500000001, -96.55490200000001], [43.29654699999997, -96.55495], [43.29648299999998, -96.555736], [43.296372999999974, -96.556359], [43.29633199999995, -96.557096], [43.296335000000006, -96.55724400000001], [43.29633199999995, -96.557294], [43.29628099999999, -96.557733], [43.296275, -96.557881], [43.29614100000001, -96.5596], [43.29608700000001, -96.560879], [43.296066, -96.561024], [43.295948000000024, -96.56148800000001], [43.295933, -96.561532], [43.29588499999996, -96.561621], [43.29588800000003, -96.56167], [43.29589700000003, -96.561718], [43.295894999999994, -96.561768], [43.295872999999986, -96.56186], [43.29581300000006, -96.562038], [43.29576500000002, -96.562108], [43.29566299999997, -96.562243], [43.29561700000004, -96.562317], [43.29558799999996, -96.562347], [43.295521999999934, -96.562383], [43.29541399999996, -96.562426], [43.29532500000001, -96.56258], [43.29496900000001, -96.563067], [43.29488299999997, -96.563224], [43.294703000000005, -96.563651], [43.294692000000026, -96.563698], [43.29464900000005, -96.563988], [43.294629000000036, -96.564233], [43.29462800000003, -96.564282], [43.29463899999999, -96.56438], [43.29466600000002, -96.564471], [43.294676000000024, -96.564518], [43.29470900000004, -96.56460600000001], [43.29489600000004, -96.564964], [43.29515999999998, -96.565297], [43.29555599999999, -96.565717], [43.29591100000002, -96.566133], [43.29593500000002, -96.566168], [43.29598999999998, -96.56629500000001], [43.296039, -96.566427], [43.29604799999999, -96.566475], [43.296047999999985, -96.566525], [43.296032000000004, -96.56681900000001], [43.29601000000003, -96.567014], [43.29592300000004, -96.567284], [43.29590099999996, -96.567324], [43.29574600000001, -96.567527], [43.29557700000003, -96.567707], [43.29551200000005, -96.567748], [43.295418999999995, -96.567821], [43.295321999999985, -96.567906], [43.29523799999996, -96.567981], [43.29521200000001, -96.568013], [43.29520900000002, -96.568063], [43.295226999999976, -96.568309], [43.29523500000003, -96.568357], [43.295269, -96.56849800000002], [43.295313000000014, -96.568632], [43.29536100000004, -96.56876400000002], [43.295427000000004, -96.569009], [43.295539, -96.569319], [43.29589500000003, -96.569938], [43.29614099999999, -96.570483], [43.29627499999998, -96.570714], [43.29632399999998, -96.570786], [43.29659200000001, -96.571034], [43.296749999999996, -96.571148], [43.29757499999996, -96.571625], [43.29773599999996, -96.571733], [43.29826200000001, -96.57215000000001], [43.29829100000003, -96.57217900000002], [43.29852600000002, -96.572479], [43.298600000000064, -96.572586], [43.298829000000055, -96.573026], [43.29889499999999, -96.573201], [43.298931000000024, -96.573286], [43.29897300000001, -96.573422], [43.298987000000054, -96.573467], [43.299026, -96.573706], [43.29903199999997, -96.573902], [43.299046999999966, -96.574209], [43.299064000000016, -96.574542], [43.299063000000004, -96.574591], [43.299013999999964, -96.575279], [43.29892100000001, -96.575959], [43.29889099999996, -96.576501], [43.298882999999975, -96.57655], [43.298837999999975, -96.576839], [43.29870400000002, -96.577583], [43.29869400000001, -96.577634], [43.298666, -96.57779], [43.29865700000004, -96.577842], [43.29860999999999, -96.578102], [43.298547, -96.578447], [43.29834800000001, -96.579135], [43.298292, -96.579262], [43.298165, -96.579501], [43.29811199999999, -96.57968400000001], [43.29798600000002, -96.579924], [43.297968000000054, -96.579966], [43.29787199999998, -96.58034], [43.29786299999996, -96.580437], [43.29785300000006, -96.58063400000002], [43.29785800000001, -96.581029], [43.297873000000024, -96.581176], [43.297941000000044, -96.58156], [43.298030999999966, -96.581829], [43.298107, -96.58221], [43.298120000000026, -96.582307], [43.298134999999995, -96.582503], [43.29813599999993, -96.5828], [43.298124999999985, -96.582947], [43.29805099999992, -96.583225], [43.298016, -96.583311], [43.29790400000006, -96.583619], [43.297756000000035, -96.583956], [43.29756499999999, -96.584249], [43.29753799999999, -96.584281], [43.297477999999984, -96.584335], [43.297451, -96.584367], [43.297391999999995, -96.584421], [43.297132000000005, -96.584683], [43.29705899999996, -96.584791], [43.297015000000016, -96.584869], [43.29670500000001, -96.585647], [43.29665599999995, -96.585779], [43.296607, -96.58596500000002], [43.29653499999998, -96.586296], [43.29646000000001, -96.586879], [43.29646799999999, -96.587322], [43.29648700000003, -96.587417], [43.29650399999995, -96.587462], [43.29650200000005, -96.58751], [43.29634100000006, -96.588112], [43.296309, -96.5882], [43.29617500000001, -96.588492], [43.29590099999999, -96.588881], [43.29578700000004, -96.588999], [43.29568700000005, -96.589056], [43.295410000000025, -96.58915], [43.295355000000036, -96.589213], [43.29532500000001, -96.589239], [43.29526500000004, -96.589274], [43.295174999999965, -96.589192], [43.294932000000024, -96.589113], [43.29482600000001, -96.589093], [43.29457999999999, -96.589059], [43.29451200000004, -96.589041], [43.294266000000036, -96.589039], [43.29416200000001, -96.589069], [43.29412799999995, -96.589065], [43.293920000000035, -96.588994], [43.293506999999984, -96.588918], [43.29349600000001, -96.588916], [43.29342499999997, -96.588899], [43.29328400000003, -96.588876], [43.29286799999998, -96.588738], [43.29280099999993, -96.588702], [43.29277099999999, -96.588676], [43.29270600000003, -96.588636], [43.29258399999998, -96.588534], [43.29253299999999, -96.588465], [43.29250499999999, -96.588435], [43.29244400000003, -96.588314], [43.292426999999996, -96.588272], [43.29237900000005, -96.588033], [43.29237699999999, -96.587985], [43.292422999999964, -96.587645], [43.292506999999986, -96.587163], [43.29257199999998, -96.586678], [43.29267900000003, -96.586103], [43.292689999999986, -96.58600600000001], [43.29270399999999, -96.585809], [43.292711000000004, -96.585761], [43.292758000000006, -96.585574], [43.29296799999998, -96.584891], [43.29310600000006, -96.584547], [43.293208999999976, -96.584345], [43.29332499999999, -96.584158], [43.29342699999999, -96.58402000000001], [43.293585999999976, -96.583822], [43.293702999999965, -96.583708], [43.294100000000014, -96.583378], [43.29425000000001, -96.583246], [43.29446400000003, -96.58307], [43.294783, -96.58275700000002], [43.29503499999996, -96.582345], [43.295229999999975, -96.582066], [43.29559499999994, -96.581528], [43.29564500000003, -96.581397], [43.295657, -96.58135], [43.29571200000001, -96.580964], [43.29572199999999, -96.580867], [43.29573300000003, -96.580555], [43.295760999999985, -96.580526], [43.29578700000001, -96.580491], [43.29580899999998, -96.580452], [43.295819999999985, -96.580405], [43.295833999999964, -96.580309], [43.29584199999997, -96.580212], [43.29583899999999, -96.580113], [43.295818999999966, -96.57987], [43.29581, -96.579822], [43.29573900000004, -96.579543], [43.295717999999994, -96.579503], [43.29568900000004, -96.579473], [43.295657, -96.579454], [43.295621000000054, -96.579448], [43.29555000000001, -96.579448], [43.29548099999998, -96.57942800000001], [43.29544799999997, -96.57941], [43.295412999999975, -96.579401], [43.29537799999997, -96.579411], [43.29524300000001, -96.579472], [43.295138999999956, -96.57950800000002], [43.29506800000002, -96.579511], [43.29478299999998, -96.579541], [43.29474800000003, -96.579538], [43.29464599999997, -96.579495], [43.29421099999998, -96.579277], [43.293898, -96.579178], [43.29375700000007, -96.579145], [43.29286300000001, -96.57911500000002], [43.29247299999999, -96.579176], [43.29186299999997, -96.579457], [43.29173400000005, -96.579541], [43.291609, -96.57963900000001], [43.29158099999998, -96.579666], [43.291555999999986, -96.57976], [43.291538999999986, -96.579803], [43.29145300000001, -96.57996], [43.29142699999997, -96.579995], [43.29139800000002, -96.580024], [43.291247000000034, -96.580235], [43.291216999999996, -96.580261], [43.29058600000005, -96.580605], [43.29051800000003, -96.580637], [43.29007299999994, -96.580817], [43.289705999999974, -96.581018], [43.28888399999995, -96.581351], [43.288742, -96.581383], [43.288028999999995, -96.58142000000001], [43.28795799999999, -96.581416], [43.28781500000003, -96.581398], [43.28720199999998, -96.581136], [43.28677899999995, -96.581042], [43.28639599999998, -96.580913], [43.286124999999984, -96.580789], [43.28607099999999, -96.580753], [43.28569900000005, -96.580293], [43.285316000000016, -96.579924], [43.285185000000034, -96.57985], [43.284908000000016, -96.579624], [43.284617000000004, -96.579337], [43.28439399999998, -96.57909], [43.28430900000003, -96.57893], [43.28423200000003, -96.578828], [43.28417099999998, -96.578776], [43.28404400000004, -96.578685], [43.28394199999996, -96.578643], [43.28363099999997, -96.578532], [43.28338300000001, -96.578499], [43.282492, -96.578439], [43.28145600000001, -96.578319], [43.28142399999998, -96.578315], [43.28053900000003, -96.578138], [43.280266, -96.578016], [43.27993800000001, -96.577819], [43.27959100000003, -96.577703], [43.27931700000003, -96.577592], [43.279212, -96.57756], [43.27917699999995, -96.57755700000001], [43.27896400000002, -96.577597], [43.27892900000005, -96.577608], [43.27886199999999, -96.57764], [43.27851200000003, -96.577726], [43.27847700000001, -96.57772900000002], [43.278372999999974, -96.577754], [43.27819599999997, -96.577916], [43.27816899999998, -96.57795000000002], [43.278076999999996, -96.578133], [43.27783300000001, -96.57833900000001], [43.27760399999999, -96.578575], [43.27702699999997, -96.579239], [43.27640800000003, -96.57999], [43.27633200000004, -96.580096], [43.276063000000015, -96.580491], [43.276035999999976, -96.580522], [43.275779000000014, -96.580693], [43.27571100000004, -96.580724], [43.275573000000016, -96.580775], [43.27539699999998, -96.5808], [43.27532599999998, -96.580804], [43.275007000000045, -96.580846], [43.274940999999984, -96.580881], [43.274749, -96.5811], [43.27469199999999, -96.581159], [43.274668999999975, -96.581196], [43.27442299999997, -96.581683], [43.27432099999997, -96.581943], [43.27428199999997, -96.582184], [43.274286999999966, -96.58243], [43.27430799999997, -96.582575], [43.27442199999999, -96.582937], [43.27454900000006, -96.583111], [43.27460499999998, -96.583171], [43.27463800000002, -96.58319100000001], [43.27470699999999, -96.583216], [43.274884999999955, -96.58323400000002], [43.27502699999998, -96.58323], [43.275098000000014, -96.583216], [43.27537499999998, -96.583124], [43.275836000000005, -96.58303], [43.275906999999975, -96.583036], [43.275942000000015, -96.583033], [43.27601299999995, -96.583038], [43.27608400000002, -96.58305], [43.27632700000003, -96.583125], [43.27636100000003, -96.583142], [43.27650999999998, -96.583277], [43.27653599999997, -96.583312], [43.27655599999998, -96.583353], [43.27662300000001, -96.583527], [43.27663600000002, -96.583573], [43.27665499999994, -96.583667], [43.27666000000001, -96.583716], [43.276660000000014, -96.583765], [43.276626000000036, -96.583957], [43.276553000000014, -96.584127], [43.276500999999996, -96.584194], [43.27601299999995, -96.5846], [43.27558999999997, -96.584865], [43.27549400000001, -96.584932], [43.27514099999999, -96.585264], [43.274991, -96.58554], [43.27487099999999, -96.585722], [43.274794, -96.585825], [43.27457, -96.58607], [43.274479999999976, -96.586149], [43.27441699999997, -96.586196], [43.274227999999994, -96.586324], [43.27419400000001, -96.586337], [43.27402700000002, -96.586423], [43.27395799999999, -96.586452], [43.273888000000035, -96.586463], [43.27378400000001, -96.586504], [43.27371499999999, -96.586525], [43.27357200000002, -96.586534], [43.273428999999986, -96.586521], [43.27300299999999, -96.586454], [43.272547000000024, -96.586335], [43.27244499999999, -96.586291], [43.27238499999996, -96.586239], [43.27223900000001, -96.58609600000001], [43.27159399999999, -96.58539], [43.27146899999996, -96.585293], [43.27140899999998, -96.585241], [43.27134600000001, -96.585196], [43.271277999999995, -96.585164], [43.27114100000002, -96.585112], [43.27107400000002, -96.58508], [43.27089700000001, -96.585048], [43.27071999999992, -96.585046], [43.27068400000004, -96.58505], [43.27051099999996, -96.585103], [43.27044600000001, -96.585145], [43.27042199999998, -96.585179], [43.27036900000001, -96.585308], [43.270348000000006, -96.585348], [43.27032000000003, -96.585378], [43.270287, -96.585398], [43.27025200000002, -96.585407], [43.27021900000002, -96.585423], [43.270140000000005, -96.585524], [43.27001299999998, -96.58561500000002], [43.26994599999999, -96.585647], [43.269774999999974, -96.585715], [43.26973900000004, -96.585724], [43.26945499999997, -96.58569900000002], [43.26935200000002, -96.58566000000002], [43.26886900000004, -96.585341], [43.26883899999995, -96.585313], [43.268395000000034, -96.584817], [43.26826700000001, -96.584644], [43.26814499999997, -96.584463], [43.268117999999994, -96.584431], [43.267914999999995, -96.584229], [43.26782999999996, -96.58407], [43.26767599999999, -96.58362300000002], [43.267661999999994, -96.583569], [43.26756800000001, -96.582945], [43.267562999999996, -96.582699], [43.267566000000066, -96.582601], [43.26764500000003, -96.582328], [43.26766000000001, -96.582231], [43.26770300000004, -96.582096], [43.26786899999994, -96.581775], [43.267891999999975, -96.581737], [43.267968999999944, -96.581634], [43.26800999999999, -96.581553], [43.26804099999996, -96.581464], [43.268072000000004, -96.581322], [43.26810299999994, -96.581078], [43.268116999999975, -96.580485], [43.268111999999974, -96.580386], [43.26807999999999, -96.580043], [43.268067000000016, -96.579846], [43.26806599999998, -96.57945], [43.26812200000003, -96.579114], [43.26812699999999, -96.579065], [43.268120999999994, -96.578917], [43.26812200000003, -96.578868], [43.26812899999998, -96.57882000000001], [43.268185, -96.578585], [43.26834400000001, -96.578145], [43.26836900000003, -96.578002], [43.26838800000001, -96.577807], [43.268390000000004, -96.577708], [43.26833900000005, -96.577318], [43.26827299999999, -96.57703700000002], [43.26825899999997, -96.576991], [43.268070999999985, -96.57651500000001], [43.26799499999999, -96.576411], [43.267822999999986, -96.575947], [43.26737599999997, -96.575448], [43.267344999999956, -96.575393], [43.26726300000001, -96.575297], [43.267045999999965, -96.575124], [43.26677299999999, -96.574805], [43.26671100000002, -96.574755], [43.26645800000005, -96.574573], [43.266286, -96.574397], [43.26623200000004, -96.574333], [43.26583099999998, -96.57377], [43.26578499999999, -96.573695], [43.26543300000002, -96.573075], [43.26538699999999, -96.573001], [43.265346, -96.572921], [43.265302000000005, -96.57278700000002], [43.26519700000002, -96.57252900000002], [43.265176999999994, -96.572489], [43.26509499999999, -96.572394], [43.26507100000003, -96.572357], [43.26493799999996, -96.572065], [43.264890999999984, -96.571991], [43.26474099999995, -96.57178], [43.26468499999998, -96.571719], [43.264677000000034, -96.571707], [43.264589000000015, -96.571573], [43.264537999999966, -96.571504], [43.264352999999964, -96.571355], [43.26416399999996, -96.571127], [43.26410200000002, -96.571079], [43.263846000000065, -96.570903], [43.26381599999996, -96.570877], [43.26364799999996, -96.570692], [43.26344399999999, -96.570608], [43.26340800000001, -96.570599], [43.26337500000002, -96.570581], [43.26331799999998, -96.570523], [43.26318400000001, -96.57036300000001], [43.26315500000002, -96.570334], [43.262794, -96.569859], [43.26274799999999, -96.569784], [43.262639, -96.569529], [43.26258700000006, -96.569345], [43.26256999999999, -96.569249], [43.26251400000003, -96.568863], [43.262452, -96.568579], [43.262288999999996, -96.56822], [43.26222699999997, -96.567988], [43.26216800000003, -96.567501], [43.262158, -96.567454], [43.26205499999998, -96.567085], [43.26193599999997, -96.566784], [43.26189799999997, -96.566702], [43.26140399999996, -96.565986], [43.26131799999996, -96.565899], [43.26082099999997, -96.565506], [43.26057499999999, -96.565306], [43.26043100000005, -96.56516], [43.26037599999999, -96.565097], [43.26027699999996, -96.564955], [43.260226999999986, -96.564823], [43.260199, -96.56463], [43.260181000000024, -96.564535], [43.25997300000003, -96.563696], [43.25983899999996, -96.562573], [43.259801999999944, -96.562435], [43.259749000000035, -96.562306], [43.25964199999994, -96.562108], [43.259452, -96.561815], [43.259414000000014, -96.561731], [43.259399, -96.561686], [43.259330000000006, -96.561514], [43.259197999999984, -96.560847], [43.259086888908456, -96.55993066371899], [43.25755567561797, -96.5590273427097], [43.24750858130177, -96.55309730325243], [43.247508, -96.553103], [43.24746899999996, -96.553241], [43.247452999999986, -96.553285], [43.24741299999996, -96.553367], [43.24719999999997, -96.553702], [43.24682599999997, -96.554424], [43.24660699999998, -96.554934], [43.246459000000016, -96.555329], [43.24630699999997, -96.555831], [43.24595999999997, -96.556862], [43.24547900000004, -96.558669], [43.245450999999974, -96.55876], [43.24536499999999, -96.558977], [43.24520100000002, -96.559301], [43.24502700000001, -96.559614], [43.24466099999999, -96.560085], [43.24451300000001, -96.560192], [43.244409000000005, -96.56022500000002], [43.24426699999996, -96.560241], [43.24423099999998, -96.560251], [43.24409599999994, -96.560313], [43.24406399999997, -96.560335], [43.24400699999997, -96.560395], [43.24394699999996, -96.56045], [43.24392699999999, -96.56049], [43.24385, -96.560713], [43.24377899999998, -96.56114600000001], [43.24373699999999, -96.561537], [43.243724000000014, -96.561784], [43.243724999999976, -96.562031], [43.24374900000005, -96.562425], [43.24380599999998, -96.562812], [43.24388999999999, -96.56313800000001], [43.24409300000001, -96.563604], [43.24417800000005, -96.563763], [43.24425599999997, -96.563929], [43.244448, -96.564568], [43.24447199999997, -96.564661], [43.24449800000001, -96.564855], [43.24449900000002, -96.565004], [43.24449200000001, -96.565052], [43.24446899999995, -96.565146], [43.244454000000005, -96.565191], [43.24422600000001, -96.565633], [43.24420100000001, -96.56567], [43.24370400000002, -96.566244], [43.243489000000004, -96.566494], [43.24330899999999, -96.566735], [43.24295499999995, -96.567152], [43.24257699999997, -96.56767900000001], [43.24239000000002, -96.567908], [43.24222099999995, -96.568163], [43.24192600000001, -96.568524], [43.24177699999999, -96.568661], [43.24165399999999, -96.56876200000002], [43.241125999999966, -96.569068], [43.24081100000002, -96.569302], [43.240322, -96.569712], [43.24018099999999, -96.569864], [43.239178999999986, -96.571278], [43.239078, -96.571414], [43.239022000000006, -96.571438], [43.238856999999975, -96.571483], [43.238847000000014, -96.571486], [43.23863299999996, -96.571509], [43.23856100000006, -96.571502], [43.238491, -96.571486], [43.23836100000001, -96.57140300000002], [43.238330000000055, -96.571378], [43.238274000000054, -96.571316], [43.23825299999999, -96.571275], [43.238197, -96.571165], [43.23817000000001, -96.57106100000001], [43.237972000000006, -96.570307], [43.23789300000002, -96.570004], [43.23786599999996, -96.569913], [43.23776, -96.5696], [43.23774000000002, -96.56956], [43.23753000000005, -96.569291], [43.237256000000016, -96.569059], [43.23718899999999, -96.569023], [43.237013999999995, -96.568974], [43.23676399999998, -96.56896], [43.236424000000035, -96.56902400000001], [43.236411000000004, -96.569027], [43.23599099999999, -96.56915], [43.23568400000003, -96.569264], [43.23530299999999, -96.569405], [43.235231, -96.569423], [43.234670000000044, -96.569572], [43.234493, -96.569594], [43.23445700000002, -96.569591], [43.23438699999998, -96.569576], [43.23410299999997, -96.569531], [43.23392400000004, -96.569528], [43.23385300000001, -96.56952], [43.23381799999998, -96.569513], [43.23364099999999, -96.569483], [43.23335599999998, -96.56939], [43.23270000000003, -96.569178], [43.23191599999999, -96.568697], [43.23165999999999, -96.568521], [43.231344000000014, -96.56828900000001], [43.231314, -96.568261], [43.231219999999965, -96.568044], [43.23118700000002, -96.567957], [43.231113000000015, -96.567788], [43.231061999999966, -96.567658], [43.23079799999998, -96.566847], [43.230758, -96.566556], [43.230728, -96.566016], [43.23069399999998, -96.565876], [43.230678999999974, -96.56583], [43.230560999999994, -96.565583], [43.23047, -96.565431], [43.23036999999999, -96.56529], [43.23028100000002, -96.565207], [43.22919900000002, -96.564344], [43.22884200000004, -96.564114], [43.22857599999995, -96.563971], [43.22799000000002, -96.563748], [43.227888000000014, -96.563703], [43.227879, -96.563698], [43.22748300000001, -96.563508], [43.227322999999984, -96.5634], [43.227263000000036, -96.563346], [43.226693999999966, -96.562751], [43.22614299999996, -96.562123], [43.22583099999997, -96.561716], [43.225508999999995, -96.561194], [43.22539699999996, -96.561002], [43.22531299999998, -96.560844], [43.22521000000001, -96.560708], [43.225147999999976, -96.56065900000002], [43.22486099999997, -96.560462], [43.224761000000015, -96.560409], [43.224727000000016, -96.560396], [43.223960999999974, -96.560003], [43.223208000000035, -96.559696], [43.22314199999999, -96.559659], [43.22311300000001, -96.559631], [43.223011999999954, -96.559491], [43.22293399999999, -96.559326], [43.22290100000001, -96.559186], [43.22288700000002, -96.558989], [43.22292500000001, -96.558664], [43.222935000000014, -96.558616], [43.223011999999976, -96.55834], [43.223093999999996, -96.558178], [43.22328799999995, -96.557888], [43.223372000000026, -96.557795], [43.22343000000001, -96.557738], [43.22349099999999, -96.557686], [43.223866999999956, -96.5574], [43.223957999999975, -96.557321], [43.22410400000002, -96.557181], [43.224355, -96.556903], [43.22441399999997, -96.556848], [43.22469000000001, -96.556624], [43.224723, -96.556604], [43.22489499999998, -96.55654], [43.22510799999997, -96.556506], [43.225751, -96.556472], [43.225928, -96.556445], [43.22606500000002, -96.556388], [43.226161, -96.556322], [43.22625, -96.556242], [43.226306999999984, -96.556183], [43.22632999999998, -96.556146], [43.22636999999994, -96.55606500000002], [43.22639399999999, -96.556029], [43.22643299999997, -96.555946], [43.226587000000016, -96.555555], [43.22666599999999, -96.555281], [43.226804000000044, -96.554566], [43.22695600000001, -96.55360200000001], [43.22703399999998, -96.552922], [43.227038000000036, -96.552725], [43.227044999999976, -96.552628], [43.227065000000046, -96.552038], [43.227064000000006, -96.551889], [43.22702799999998, -96.551597], [43.22702700000005, -96.550561], [43.227015, -96.550413], [43.22699200000003, -96.550268], [43.226943, -96.549631], [43.22696500000003, -96.548497], [43.22696500000003, -96.548349], [43.226955, -96.548201], [43.22690299999998, -96.547914], [43.22680999999999, -96.547541], [43.22671099999996, -96.547223], [43.226651, -96.547043], [43.226428000000034, -96.54653700000001], [43.22617800000006, -96.546056], [43.226093999999975, -96.545838], [43.22597300000004, -96.54548], [43.225945000000046, -96.545286], [43.225914999999986, -96.544695], [43.22593, -96.544301], [43.225988999999984, -96.543815], [43.22602300000003, -96.543323], [43.226056000000014, -96.54296], [43.22609099999995, -96.54259000000002], [43.226094999999944, -96.542491], [43.226085999999974, -96.542195], [43.22606500000002, -96.5419], [43.22602100000002, -96.541661], [43.22595599999999, -96.541379], [43.22591999999999, -96.541239], [43.225826999999995, -96.540972], [43.22569500000002, -96.540678], [43.225670000000015, -96.540586], [43.22563299999999, -96.540345], [43.22563000000004, -96.540295], [43.22563200000008, -96.540246], [43.22565499999999, -96.540119], [43.225746999999984, -96.539907], [43.225984999999994, -96.539476], [43.22611499999999, -96.539183], [43.226267000000014, -96.538791], [43.22639500000003, -96.538384], [43.22653999999998, -96.537721], [43.22656399999997, -96.537628], [43.226631999999995, -96.5374], [43.226740000000014, -96.537144], [43.226764000000045, -96.537108], [43.226883999999984, -96.537], [43.22691900000001, -96.53699], [43.227061000000006, -96.536967], [43.22709500000002, -96.536952], [43.22712699999999, -96.53693], [43.22718700000003, -96.536877], [43.227280999999955, -96.536807], [43.227456999999994, -96.536762], [43.22749000000003, -96.536744], [43.227515999999945, -96.536711], [43.227538, -96.536672], [43.227594000000046, -96.536546], [43.227636000000025, -96.536357], [43.22764299999999, -96.536308], [43.227646999999976, -96.536061], [43.22763400000003, -96.535915], [43.227606000000016, -96.535823], [43.22740400000004, -96.535299], [43.22735499999999, -96.535172], [43.227094999999956, -96.534639], [43.227063, -96.534497], [43.227022, -96.534107], [43.22700000000002, -96.534013], [43.22698199999999, -96.53397], [43.22691500000001, -96.533854], [43.22676699999999, -96.533795], [43.226572999999966, -96.533669], [43.22654600000003, -96.533637], [43.226383, -96.533375], [43.226318, -96.533257], [43.226306999999984, -96.53321], [43.22630200000001, -96.533161], [43.22630699999999, -96.533063], [43.22632899999993, -96.532818], [43.22632200000001, -96.53262], [43.226310999999995, -96.532573], [43.226242, -96.532401], [43.22622100000001, -96.532361], [43.22606999999999, -96.53215], [43.22593000000001, -96.531997], [43.22566200000004, -96.531752], [43.22557500000001, -96.531665], [43.22546600000001, -96.531539], [43.22533999999998, -96.531363], [43.22508500000002, -96.53095], [43.22470300000003, -96.530235], [43.22433100000001, -96.529449], [43.22429600000001, -96.529363], [43.22416700000002, -96.528797], [43.22414900000002, -96.528651], [43.22414999999996, -96.528207], [43.22415900000003, -96.52806], [43.22417299999996, -96.527963], [43.22424799999998, -96.527583], [43.22426400000001, -96.527338], [43.22426700000001, -96.527239], [43.22423299999999, -96.526997], [43.22418999999998, -96.526808], [43.22415900000001, -96.52672], [43.22412199999995, -96.526635], [43.22405200000001, -96.526524], [43.22402500000003, -96.526488], [43.22366399999999, -96.526012], [43.22309499999996, -96.525335], [43.22242800000002, -96.524373], [43.222374999999985, -96.524307], [43.22212499999997, -96.524027], [43.222064999999986, -96.523974], [43.221994999999964, -96.52396600000002], [43.22196000000001, -96.523954], [43.221757999999966, -96.523856], [43.221667000000025, -96.523777], [43.221638999999996, -96.52374700000001], [43.22161400000002, -96.523711], [43.22159300000003, -96.52367100000001], [43.22156200000001, -96.523582], [43.22153900000003, -96.523437], [43.22153900000003, -96.523338], [43.221441, -96.522968], [43.22128800000003, -96.522521], [43.221267000000054, -96.522481], [43.221178267783216, -96.52233993843411], [43.22095999999995, -96.522084], [43.220960034264515, -96.52206841116582], [43.22061699999999, -96.521718], [43.220561, -96.521656], [43.22027599999997, -96.521451], [43.22003399999996, -96.521363], [43.219999000000016, -96.521354], [43.219902999999995, -96.521348], [43.219851000000006, -96.521387], [43.21981799999999, -96.521404], [43.21978200000003, -96.521415], [43.21939100000003, -96.521451], [43.21935499999998, -96.521446], [43.219251000000014, -96.521414], [43.21919499999999, -96.521481], [43.21916399999999, -96.521506], [43.219130000000014, -96.521523], [43.21895300000005, -96.521543], [43.218917, -96.52154200000001], [43.218776, -96.521518], [43.218568999999995, -96.521444], [43.21850099999999, -96.521415], [43.21846800000001, -96.521394], [43.218438999999954, -96.52136600000001], [43.21841399999999, -96.52133], [43.21834799999999, -96.521213], [43.21833300000005, -96.521168], [43.21825100000002, -96.521084], [43.21808800000003, -96.520891], [43.21806500000002, -96.520853], [43.217983000000025, -96.520692], [43.217901999999974, -96.520417], [43.21784800000001, -96.520182], [43.217820000000025, -96.52004], [43.21778500000003, -96.519748], [43.21777799999999, -96.519649], [43.21774899999995, -96.518367], [43.21775300000001, -96.517971], [43.21778799999994, -96.51768], [43.217825000000005, -96.51754], [43.21808299999995, -96.516837], [43.218163, -96.516674], [43.21833900000001, -96.516081], [43.21843499999999, -96.515873], [43.218543999999966, -96.515619], [43.218587, -96.515483], [43.21861099999997, -96.51539000000001], [43.21869100000002, -96.515117], [43.218782000000026, -96.514588], [43.218804999999975, -96.514294], [43.21880599999997, -96.513801], [43.21877299999999, -96.513309], [43.218702999999984, -96.512826], [43.218683000000006, -96.512731], [43.21866800000005, -96.512686], [43.21846100000001, -96.512166], [43.21815600000002, -96.511682], [43.21810499999999, -96.511613], [43.21788700000001, -96.51135700000002], [43.21781799999997, -96.511243], [43.21779999999999, -96.511201], [43.21777099999999, -96.51111], [43.217520999999984, -96.51018600000002], [43.21722399999995, -96.509342], [43.21718400000001, -96.509204], [43.21715999999996, -96.50906000000002], [43.217161999999966, -96.508906], [43.21717399999996, -96.50886], [43.217261999999955, -96.508644], [43.217368000000015, -96.508447], [43.217569000000054, -96.508244], [43.217601, -96.508224], [43.21780599999997, -96.508144], [43.218052999999955, -96.50809], [43.218229999999984, -96.508069], [43.218301000000004, -96.508069], [43.21876499999998, -96.50811000000002], [43.21897499999999, -96.508166], [43.219647000000016, -96.508509], [43.22026100000003, -96.508771], [43.22046899999997, -96.50884100000002], [43.22057599999998, -96.50884700000002], [43.22079, -96.50883], [43.22092799999998, -96.508775], [43.220957999999996, -96.508749], [43.22098871432769, -96.50871075206557], [43.221001603886286, -96.50249152103873], [43.22069400000001, -96.501856], [43.220657, -96.501771], [43.220619999999975, -96.501632], [43.22056399999999, -96.501296], [43.22057400000003, -96.501198], [43.22067699999997, -96.500776], [43.22073999999998, -96.500599], [43.22081899999996, -96.500434], [43.221005, -96.500072], [43.2210065442509, -96.50006932637595], [43.22102360787168, -96.49152843034597], [43.22044900000001, -96.491534], [43.22044900000001, -96.491136], [43.220449, -96.490714], [43.22034300000001, -96.490683], [43.22061799999998, -96.49068800000002], [43.22056600000002, -96.490235], [43.22028600000004, -96.490236], [43.21775500000001, -96.490245], [43.21674099999993, -96.490249], [43.214014999999954, -96.490238], [43.21175899999997, -96.490227], [43.20688799999997, -96.490201], [43.203706999999994, -96.490208], [43.202814, -96.49021], [43.202265000000004, -96.490208], [43.199550000000066, -96.490201], [43.19658399999999, -96.490194], [43.193195000000046, -96.490193], [43.192488000000004, -96.490193], [43.192252, -96.490191], [43.19088699999994, -96.490182], [43.19015000000002, -96.490177], [43.188638999999995, -96.490168], [43.18750700000004, -96.490161], [43.18615100000002, -96.49016], [43.185706000000074, -96.49017200000002], [43.185070999999944, -96.490188], [43.18505399999999, -96.490683], [43.18506700000004, -96.492251], [43.18508699999998, -96.493132], [43.18505999999995, -96.49549], [43.18506700000004, -96.496394], [43.18507099999997, -96.496946], [43.18506900000002, -96.499518], [43.18977999999999, -96.499657], [43.189908999999986, -96.499798], [43.19027399999995, -96.49983700000001], [43.19077700000005, -96.499838], [43.19111999999998, -96.499737], [43.19133399999999, -96.499702], [43.19230899999997, -96.499771], [43.19242199999997, -96.500314], [43.192604000000024, -96.501516], [43.19246999999995, -96.509959], [43.194147999999984, -96.509956], [43.19674299999996, -96.509968], [43.197804999999995, -96.509983], [43.199419999999996, -96.509976], [43.19965499999998, -96.50997500000001], [43.20105099999997, -96.509966], [43.202047000000036, -96.509978], [43.203507, -96.509979], [43.20540400000003, -96.50997300000002], [43.20649600000003, -96.509996], [43.206642000000045, -96.509997], [43.206748, -96.509997], [43.20979899999997, -96.510002], [43.210727, -96.510005], [43.21216100000005, -96.509999], [43.21383699999999, -96.510005], [43.21393699999999, -96.510022], [43.214036999999934, -96.510031], [43.21403000000005, -96.511276], [43.214022999999976, -96.513747], [43.21402200000006, -96.514487], [43.21403400000006, -96.516436], [43.214033000000036, -96.516736], [43.21400600000001, -96.517152], [43.213956, -96.517508], [43.21388900000001, -96.517873], [43.213858, -96.518191], [43.213845000000035, -96.518512], [43.21385299999997, -96.51876], [43.21387599999998, -96.519023], [43.21400400000002, -96.519866], [43.21403000000004, -96.520174], [43.21403600000002, -96.522246], [43.21402899999995, -96.526999], [43.21402700000004, -96.52981500000001], [43.21402599999998, -96.530872], [43.214025000000035, -96.531975], [43.214025000000035, -96.532664], [43.214025, -96.532989], [43.21403000000004, -96.53494], [43.21400699999999, -96.539004], [43.21400800000002, -96.53969], [43.21401000000003, -96.54094800000001], [43.213995000000025, -96.54395], [43.213993, -96.544492], [43.21398999999996, -96.549468], [43.213986000000034, -96.553692], [43.21398099999997, -96.55446000000002], [43.21397300000001, -96.555656], [43.213980000000014, -96.558095], [43.21398199999997, -96.558795], [43.213977000000064, -96.56165400000002], [43.21397899999994, -96.56191], [43.21398199999997, -96.56261200000002], [43.213978000000004, -96.563797], [43.213978000000004, -96.565644], [43.21397100000003, -96.56774], [43.213978999999966, -96.569184], [43.21372400000001, -96.569181], [43.21223700000002, -96.569225], [43.21046099999995, -96.569186], [43.21015700000001, -96.569179], [43.20805700000001, -96.569203], [43.206817999999984, -96.56920000000001], [43.20515199999995, -96.56919800000001], [43.20253900000004, -96.569207], [43.199470000000055, -96.569197], [43.19947000000004, -96.566989], [43.199482999999994, -96.564394], [43.19948499999999, -96.564057], [43.19947000000004, -96.561707], [43.19947000000004, -96.560155], [43.199480000000015, -96.559721], [43.199492, -96.559483], [43.19951600000001, -96.559331], [43.199565, -96.559175], [43.19969200000002, -96.55893300000001], [43.19981299999997, -96.558668], [43.19988300000004, -96.55842], [43.19994299999997, -96.558154], [43.20000999999999, -96.557665], [43.200049000000035, -96.557443], [43.20019900000006, -96.55658], [43.20023299999998, -96.556262], [43.200233999999995, -96.556036], [43.20019900000001, -96.555804], [43.20015700000002, -96.555636], [43.200036999999995, -96.555335], [43.19973099999997, -96.554666], [43.199629, -96.554417], [43.199573, -96.554235], [43.19954800000001, -96.554112], [43.19952000000003, -96.553856], [43.199507, -96.553488], [43.199501, -96.551683], [43.199505000000016, -96.551331], [43.19952399999996, -96.549768], [43.19952399999996, -96.549493], [43.199528999999984, -96.54757900000001], [43.19951499999999, -96.54497900000001], [43.199517, -96.54415400000002], [43.199521, -96.542828], [43.199517, -96.541676], [43.19951499999998, -96.541023], [43.19951600000001, -96.540592], [43.199521, -96.537466], [43.199542999999984, -96.533098], [43.199531999999955, -96.530529], [43.19953899999999, -96.52972], [43.198934000000015, -96.529716], [43.19616099999999, -96.529721], [43.19485400000001, -96.52972300000002], [43.193828999999965, -96.52972900000002], [43.193057000000024, -96.529734], [43.19240399999999, -96.529737], [43.19102300000004, -96.529742], [43.18750000000001, -96.52973], [43.185822000000044, -96.529716], [43.18539700000002, -96.529713], [43.18503500000002, -96.529712], [43.17868399999993, -96.5297], [43.17764199999998, -96.529697], [43.17696699999996, -96.529691], [43.17264099999999, -96.529656], [43.170576000000004, -96.52965], [43.170570000000026, -96.53150400000001], [43.17058899999996, -96.535843], [43.17057399999998, -96.538662], [43.17058499999995, -96.54245], [43.170592999999975, -96.543953], [43.170590000000004, -96.544234], [43.170576000000004, -96.545428], [43.17057200000001, -96.548406], [43.170559, -96.549428], [43.170548999999966, -96.550189], [43.17054699999995, -96.552281], [43.17054599999996, -96.553232], [43.170547999999975, -96.554828], [43.170551, -96.556382], [43.17055499999996, -96.562858], [43.17054599999996, -96.566085], [43.170550000000006, -96.569192], [43.170539000000026, -96.587075], [43.170550000000006, -96.589026], [43.170566, -96.59523], [43.17057799999998, -96.59552], [43.170576000000004, -96.596736], [43.170566999999956, -96.597307], [43.170571000000024, -96.59783], [43.170562999999966, -96.6], [43.17054499999998, -96.604477], [43.17058600000001, -96.60879400000002], [43.17522700000003, -96.60879600000001], [43.175529999999966, -96.60879600000001], [43.17897299999997, -96.608799], [43.18059000000003, -96.608802], [43.18419700000002, -96.60882], [43.185000000000024, -96.608814], [43.18498700000007, -96.610829], [43.18498600000001, -96.61373200000001], [43.18501599999997, -96.617129], [43.185020999999985, -96.623707], [43.185020999999956, -96.623934], [43.18504100000004, -96.624994], [43.185052999999975, -96.628647], [43.18288800000001, -96.628637], [43.18055799999998, -96.628606], [43.17763600000001, -96.628625], [43.17704400000002, -96.628617], [43.17534100000004, -96.62859100000001], [43.17450499999999, -96.628578], [43.172204999999984, -96.628558], [43.17169500000001, -96.628557], [43.17161899999997, -96.628557], [43.17061, -96.628551], [43.17061400000006, -96.63054], [43.17062399999996, -96.636176], [43.170638000000025, -96.639825], [43.17063000000005, -96.646868], [43.17062899999999, -96.647497], [43.170634000000085, -96.648382], [43.17066200000001, -96.654598], [43.17065399999994, -96.658378], [43.17065900000002, -96.659497], [43.170675000000024, -96.662755], [43.17067699999997, -96.668181], [43.17067299999997, -96.669503], [43.17068500000003, -96.671943], [43.170688999999996, -96.672634], [43.17068800000001, -96.675779], [43.17067799999998, -96.678817], [43.17070999999996, -96.681411], [43.170705, -96.684437], [43.17071400000001, -96.685084], [43.17069100000002, -96.685159], [43.17068800000001, -96.68530400000002], [43.17069999999998, -96.685714], [43.170697000000025, -96.68655900000002], [43.170702999999996, -96.687339], [43.17071100000005, -96.687494], [43.17072200000003, -96.689752], [43.170722999999924, -96.695716], [43.17072200000002, -96.696689], [43.17663799999994, -96.696725], [43.185235000000006, -96.696738], [43.19958499999996, -96.696816], [43.20693400000001, -96.69683400000001], [43.206906999999994, -96.707283], [43.20913700000005, -96.707293], [43.212512, -96.707297], [43.21426200000001, -96.70731200000002], [43.21689799999999, -96.70732000000001], [43.219002000000074, -96.707344], [43.22169400000003, -96.707336], [43.22610100000001, -96.707377], [43.22871100000001, -96.707382], [43.230329000000005, -96.707386], [43.23281599999995, -96.707377], [43.23568600000003, -96.707383], [43.23654700000001, -96.707385], [43.237841000000024, -96.707387], [43.23963300000002, -96.707392], [43.243192999999984, -96.707427], [43.24645799999999, -96.707416], [43.248454000000066, -96.70742], [43.25052400000002, -96.707427], [43.253209, -96.707437], [43.255207000000034, -96.707465], [43.25767299999996, -96.707447], [43.25771599999998, -96.716202], [43.25771800000005, -96.717304], [43.257722999999984, -96.719387], [43.25772900000001, -96.722022], [43.25773199999998, -96.723156], [43.257754000000034, -96.72732600000002], [43.257767000000015, -96.73009], [43.25775600000003, -96.737081], [43.257764000000044, -96.74193], [43.25777299999995, -96.74722100000001], [43.25975700000002, -96.747239], [43.264126999999974, -96.74723], [43.27226600000002, -96.747233], [43.27654100000001, -96.747227], [43.27917100000005, -96.747214], [43.286794999999955, -96.747206], [43.28918499999998, -96.7472], [43.292584000000005, -96.74717600000001], [43.295933999999974, -96.747194], [43.29925999999997, -96.747164], [43.30130399999998, -96.747175], [43.301225000000024, -96.739867], [43.30119999999999, -96.737448], [43.301131999999996, -96.732885], [43.301086999999974, -96.729042], [43.30107499999998, -96.728069], [43.30106199999998, -96.727341], [43.30106999999997, -96.726825], [43.30108399999997, -96.725727], [43.30108899999992, -96.725312], [43.30107499999997, -96.723526], [43.30106399999998, -96.722187], [43.301060999999955, -96.721918], [43.30107800000006, -96.717149], [43.315582, -96.717246], [43.31940899999997, -96.717224], [43.322003999999964, -96.71732100000001], [43.31998700000001, -96.707501], [43.320667999999976, -96.707501], [43.32372699999997, -96.707503], [43.325285, -96.70751], [43.33008500000002, -96.707503], [43.33101899999998, -96.707501], [43.33252199999999, -96.707519], [43.33439700000005, -96.707513], [43.33593099999997, -96.707521], [43.33921300000003, -96.707516], [43.34096199999997, -96.707524], [43.34127500000002, -96.707524], [43.34275800000004, -96.707526], [43.34457999999998, -96.70753500000001], [43.344577999999984, -96.704099], [43.344556000000004, -96.696579], [43.344538000000014, -96.687666], [43.346902999999955, -96.687637], [43.348529000000056, -96.68765], [43.35015500000003, -96.68763], [43.352023, -96.687616], [43.353388000000066, -96.687625], [43.35376699999997, -96.687627], [43.359027, -96.687624], [43.35903400000001, -96.688197], [43.35903600000002, -96.688265], [43.35903400000001, -96.690541], [43.359043999999976, -96.692143], [43.359050000000025, -96.693148], [43.35905499999996, -96.695563], [43.35905999999998, -96.697271], [43.35905999999998, -96.69964500000002], [43.359062999999956, -96.703346], [43.35907100000004, -96.705043], [43.35907999999999, -96.707527], [43.36015400000002, -96.707523], [43.363941000000004, -96.707538], [43.364703999999975, -96.707542], [43.366754999999976, -96.707544], [43.366795, -96.703682], [43.36674600000001, -96.698292], [43.366752999999996, -96.697148], [43.36681200000001, -96.687595], [43.36684100000005, -96.68274700000002], [43.36693099999998, -96.668468], [43.370594999999994, -96.668444], [43.37142300000001, -96.668438], [43.37353799999998, -96.66840800000001], [43.37352799999999, -96.667766], [43.373523000000006, -96.666718], [43.37350899999999, -96.664171], [43.373504, -96.66256100000001], [43.373501000000005, -96.661058], [43.373502999999964, -96.658608], [43.38073700000002, -96.658572], [43.380729999999964, -96.65692300000002], [43.38230500000002, -96.658566], [43.38344700000003, -96.658562], [43.38802900000004, -96.658398], [43.38800899999996, -96.653733], [43.38796299999999, -96.648502], [43.38796100000003, -96.645081], [43.38796299999997, -96.63888], [43.387966, -96.628577], [43.387966, -96.628056], [43.387961000000054, -96.624995], [43.38794700000001, -96.621907], [43.38794800000003, -96.62126600000002], [43.38795299999999, -96.617945], [43.38793200000002, -96.612664], [43.387926, -96.608846], [43.39123999999999, -96.60884300000001], [43.393759999999965, -96.608814], [43.39687500000003, -96.608813], [43.40189799999997, -96.608802], [43.402487, -96.608801], [43.40248099999997, -96.605234], [43.402493000000014, -96.602062], [43.40248799999999, -96.597585], [43.40247899999998, -96.59439], [43.402472999999986, -96.588871], [43.40389799999996, -96.58887], [43.40473300000005, -96.58887], [43.40597799999998, -96.588871], [43.40905900000001, -96.588889], [43.409939999999956, -96.588894], [43.40998899999997, -96.59973900000001], [43.416968999999995, -96.599683], [43.429822999999985, -96.599564], [43.43139299999998, -96.599652], [43.43141500000002, -96.600154], [43.431416, -96.600679], [43.431397999999966, -96.601289], [43.43141400000002, -96.601893], [43.431418000000036, -96.602152], [43.431592, -96.602172], [43.43170199999997, -96.599939], [43.43171999999999, -96.599548], [43.43212188781122, -96.5912078464607], [43.4199925436767, -96.57302263725155], [43.419981000000035, -96.57305]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_7d422301647dc3e4d7567cc8452b7a6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25e42deb6d6d817483f1351bb2994734 = $(`<div id="html_25e42deb6d6d817483f1351bb2994734" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD00</b></div>`)[0];
+                popup_7d422301647dc3e4d7567cc8452b7a6d.setContent(html_25e42deb6d6d817483f1351bb2994734);
+            
+        
+
+        polygon_f14df1b014f7ac683a993e6e452df672.bindPopup(popup_7d422301647dc3e4d7567cc8452b7a6d)
+        ;
+
+        
+    
+    
+            var circle_marker_bf08a00d3cecdc28949083be1ab67342 = L.circleMarker(
+                [43.2985284550632, -96.5592612118141],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_098cad2c0868a1904bcade749fd91cb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_035e63bed5e99d3e066329b570de8091 = $(`<div id="html_035e63bed5e99d3e066329b570de8091" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD00</b></div>`)[0];
+                popup_098cad2c0868a1904bcade749fd91cb8.setContent(html_035e63bed5e99d3e066329b570de8091);
+            
+        
+
+        circle_marker_bf08a00d3cecdc28949083be1ab67342.bindPopup(popup_098cad2c0868a1904bcade749fd91cb8)
+        ;
+
+        
+    
+    
+            circle_marker_bf08a00d3cecdc28949083be1ab67342.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6ababe7d47939383187a0f4380f52f7f = L.polygon(
+                [[43.43163599999994, -96.588691], [43.431597999999966, -96.588607], [43.431546999999945, -96.588424], [43.43153099999999, -96.588379], [43.431465000000024, -96.588047], [43.431463999999956, -96.587703], [43.431517999999976, -96.587392], [43.431529999999974, -96.587345], [43.43155999999994, -96.587256], [43.43161099999998, -96.587072], [43.431652999999976, -96.586992], [43.43172599999998, -96.586884], [43.43208899999999, -96.586486], [43.43211300000003, -96.586449], [43.432132999999986, -96.586407], [43.43215800000002, -96.586316], [43.432175000000015, -96.58627200000001], [43.43217799999998, -96.58622300000002], [43.43214999999994, -96.586031], [43.43214599999997, -96.585982], [43.432127999999956, -96.585886], [43.43208599999997, -96.585808], [43.431798000000036, -96.585308], [43.431712999999995, -96.58515], [43.43169600000004, -96.585107], [43.431595000000016, -96.584903], [43.43157399999997, -96.58465900000002], [43.431575000000024, -96.58461], [43.43160299999999, -96.584367], [43.43161499999997, -96.584321], [43.43175000000003, -96.58403], [43.43194999999999, -96.583681], [43.432024000000006, -96.583456], [43.432036, -96.583409], [43.43206099999993, -96.583265], [43.43206500000006, -96.583216], [43.43203899999999, -96.582918], [43.43201399999997, -96.582625], [43.43210000000003, -96.58184400000002], [43.43210000000003, -96.581745], [43.43208599999995, -96.581449], [43.43206099999993, -96.581091], [43.431944999999985, -96.580166], [43.431920999999996, -96.580021], [43.43183000000001, -96.57959400000001], [43.43181400000002, -96.579497], [43.43177799999999, -96.57920500000002], [43.431785000000026, -96.578312], [43.43177700000002, -96.578164], [43.43175599999994, -96.577969], [43.43172399999996, -96.577827], [43.43168900000005, -96.577741], [43.43167199999999, -96.577594], [43.43167800000003, -96.577348], [43.43186299999998, -96.576445], [43.43187799999997, -96.57634900000001], [43.43188199999999, -96.57615], [43.431873999999986, -96.576103], [43.431798999999984, -96.575774], [43.431745, -96.575593], [43.43166900000001, -96.575426], [43.431624000000035, -96.57535000000001], [43.431413, -96.574956], [43.43126399999997, -96.57474400000001], [43.43126599999998, -96.57469500000002], [43.43126300000003, -96.574645], [43.431250000000034, -96.57455], [43.43122999999997, -96.574508], [43.43120499999998, -96.574477], [43.43116499999998, -96.574401], [43.43111999999999, -96.57433], [43.43103300000002, -96.574252], [43.430972000000025, -96.574207], [43.430944999999944, -96.57417900000002], [43.43085500000002, -96.57411], [43.430798000000046, -96.574059], [43.43070499999999, -96.573993], [43.430599, -96.574009], [43.43054000000001, -96.574023], [43.43048899999999, -96.573982], [43.43026499999998, -96.573828], [43.43002, -96.573624], [43.429968000000024, -96.573558], [43.42994400000001, -96.57352], [43.429890999999984, -96.573454], [43.429783999999984, -96.573257], [43.429562999999995, -96.57281], [43.42948100000001, -96.57259], [43.42942600000002, -96.57235500000002], [43.429356000000006, -96.572128], [43.42931300000002, -96.57205000000002], [43.42919800000002, -96.571862], [43.429093000000044, -96.571662], [43.428943999999994, -96.571323], [43.42893099999997, -96.571277], [43.42889600000001, -96.571085], [43.42887399999999, -96.570991], [43.42874500000004, -96.570638], [43.42869000000001, -96.570512], [43.42854699999999, -96.570289], [43.428490000000004, -96.57023200000002], [43.428140000000006, -96.569986], [43.428039999999996, -96.56993500000002], [43.428005, -96.569922], [43.42764899999997, -96.569894], [43.42757799999996, -96.56988], [43.42750899999992, -96.569859], [43.427227999999985, -96.569794], [43.426799, -96.569766], [43.426477999999996, -96.56980600000001], [43.42626500000001, -96.569839], [43.42563300000002, -96.57], [43.425253, -96.570136], [43.42485000000001, -96.570339], [43.424583, -96.570479], [43.42355099999999, -96.570891], [43.42306, -96.571179], [43.422930000000036, -96.57126], [43.422514000000014, -96.571545], [43.42241400000002, -96.5716], [43.42218799999996, -96.571749], [43.42193399999999, -96.572037], [43.42178700000001, -96.572178], [43.42153800000001, -96.57237], [43.42147099999999, -96.572403], [43.421439000000014, -96.572413], [43.42140299999997, -96.572427], [43.42137000000001, -96.572446], [43.42130099999999, -96.572469], [43.42119499999995, -96.572486], [43.42065899999999, -96.572522], [43.42058899999995, -96.572541], [43.420241999999995, -96.572656], [43.42012599999999, -96.572771], [43.42009899999997, -96.572803], [43.420035000000006, -96.57292200000002], [43.4199925436767, -96.57302263725155], [43.43212188781122, -96.5912078464607], [43.432202000000046, -96.589544], [43.43177, -96.588921], [43.43163599999994, -96.588691]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_eeb95b30c5a9efb7eb7f4ac715e8e8fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0c2486e56e43d19a6a3355a0e26c8dc = $(`<div id="html_b0c2486e56e43d19a6a3355a0e26c8dc" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_eeb95b30c5a9efb7eb7f4ac715e8e8fa.setContent(html_b0c2486e56e43d19a6a3355a0e26c8dc);
+            
+        
+
+        polygon_6ababe7d47939383187a0f4380f52f7f.bindPopup(popup_eeb95b30c5a9efb7eb7f4ac715e8e8fa)
+        ;
+
+        
+    
+    
+            var circle_marker_033764d49fce763491eb240dfac3a66e = L.circleMarker(
+                [43.42922313071977, -96.57740630130293],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_4ca6d96a6b8091a9087ac4775d46c9da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cbc6f005f63c9a2d6b46d5fdf25fecb = $(`<div id="html_2cbc6f005f63c9a2d6b46d5fdf25fecb" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_4ca6d96a6b8091a9087ac4775d46c9da.setContent(html_2cbc6f005f63c9a2d6b46d5fdf25fecb);
+            
+        
+
+        circle_marker_033764d49fce763491eb240dfac3a66e.bindPopup(popup_4ca6d96a6b8091a9087ac4775d46c9da)
+        ;
+
+        
+    
+    
+            circle_marker_033764d49fce763491eb240dfac3a66e.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_115fdafb0c4b9adce3b5d43b0ff12531 = L.polygon(
+                [[43.412710000000054, -96.561943], [43.41272299999998, -96.561592], [43.412721000000005, -96.561543], [43.412692000000014, -96.561301], [43.41265900000001, -96.560959], [43.412651, -96.560911], [43.412584, -96.560682], [43.412507999999995, -96.560514], [43.41246199999999, -96.560439], [43.41245, -96.560425], [43.41235200000002, -96.560313], [43.411994000000035, -96.559987], [43.411829000000004, -96.55989], [43.411795000000005, -96.559876], [43.41127400000002, -96.55971100000001], [43.411167999999996, -96.559689], [43.41108756665403, -96.55967788620586], [43.4126964199679, -96.56208847765542], [43.412710000000054, -96.561943]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_2441ebf3cf1839cd7ed3022094d86d9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cffa5698132020b13213f4ecb7e5235 = $(`<div id="html_0cffa5698132020b13213f4ecb7e5235" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_2441ebf3cf1839cd7ed3022094d86d9a.setContent(html_0cffa5698132020b13213f4ecb7e5235);
+            
+        
+
+        polygon_115fdafb0c4b9adce3b5d43b0ff12531.bindPopup(popup_2441ebf3cf1839cd7ed3022094d86d9a)
+        ;
+
+        
+    
+    
+            var circle_marker_258b816ad7ecc7b77b1dd6aa6059e9c9 = L.circleMarker(
+                [43.41226663087485, -96.56070970336111],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_3eec711360f7ef13b14fc0efb2c7c03e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b95515a765762ef05749168ae6556d92 = $(`<div id="html_b95515a765762ef05749168ae6556d92" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_3eec711360f7ef13b14fc0efb2c7c03e.setContent(html_b95515a765762ef05749168ae6556d92);
+            
+        
+
+        circle_marker_258b816ad7ecc7b77b1dd6aa6059e9c9.bindPopup(popup_3eec711360f7ef13b14fc0efb2c7c03e)
+        ;
+
+        
+    
+    
+            circle_marker_258b816ad7ecc7b77b1dd6aa6059e9c9.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_dc7082c6b09a1e3e8ec77ab889fb300e = L.polygon(
+                [[43.39494199999998, -96.534691], [43.39501800000002, -96.533704], [43.395087000000046, -96.533269], [43.39509399999997, -96.533204], [43.39522900000002, -96.531996], [43.39531100000003, -96.531362], [43.39532099999998, -96.531314], [43.39542900000003, -96.530948], [43.39554399999996, -96.53064], [43.39566700000001, -96.530396], [43.39571600000004, -96.530324], [43.39585900000001, -96.530174], [43.39591999999997, -96.530123], [43.39598500000001, -96.530082], [43.39615699999998, -96.530015], [43.396408000000015, -96.53], [43.39651399999996, -96.530016], [43.39668999999997, -96.530059], [43.397238, -96.530195], [43.39730900000001, -96.530199], [43.39734500000003, -96.530195], [43.39738000000003, -96.530184], [43.39744300000002, -96.530138], [43.397527, -96.530046], [43.39754799999994, -96.530007], [43.397610000000014, -96.529828], [43.39762399999995, -96.529583], [43.397607, -96.52933600000001], [43.397588999999996, -96.52924], [43.39752599999998, -96.529063], [43.397432000000016, -96.528852], [43.397071999999966, -96.528236], [43.39688499999996, -96.527872], [43.39668400000002, -96.527291], [43.396617999999975, -96.52706], [43.39640599999997, -96.526114], [43.39637099999998, -96.525974], [43.39622700000001, -96.525576], [43.39617600000002, -96.525445], [43.396072000000025, -96.525242], [43.39598800000005, -96.525149], [43.395560000000046, -96.524702], [43.395529, -96.524677], [43.39517099999998, -96.52444700000001], [43.39483500000005, -96.524275], [43.39469799999996, -96.524218], [43.393853000000014, -96.524], [43.393783000000035, -96.523976], [43.39371299999996, -96.523996], [43.39367699999999, -96.524001], [43.393606000000005, -96.524], [43.39349900000007, -96.523987], [43.393319000000005, -96.523993], [43.39321199999997, -96.52400500000002], [43.39285799999995, -96.524074], [43.391551000000014, -96.524379], [43.39123100000001, -96.524434], [43.39113200000004, -96.52436300000001], [43.39103199999996, -96.524307], [43.390295999999985, -96.524113], [43.39026199999999, -96.524098], [43.390197000000015, -96.52405800000001], [43.38990800000001, -96.523861], [43.389845000000015, -96.523813], [43.38981700000001, -96.523782], [43.38979199999997, -96.523746], [43.389732000000016, -96.523622], [43.389715999999964, -96.523578], [43.389470000000024, -96.523377], [43.389416000000004, -96.52331100000002], [43.38929499999996, -96.523124], [43.389007000000035, -96.522683], [43.38895499999998, -96.522613], [43.38892600000001, -96.522583], [43.38877000000001, -96.522459], [43.38870399999998, -96.522417], [43.388602000000006, -96.52237], [43.388499, -96.52233], [43.38835700000001, -96.522288], [43.388107000000026, -96.522261], [43.38781800000003, -96.522251], [43.38774000000002, -96.522259], [43.38768799999996, -96.522191], [43.38765900000004, -96.522162], [43.38746199999994, -96.522038], [43.387361999999975, -96.521982], [43.387153, -96.521912], [43.38708500000004, -96.52188200000002], [43.386989999999955, -96.52181], [43.38693199999996, -96.52175], [43.38686200000002, -96.521734], [43.386755, -96.52172], [43.386682999999955, -96.521722], [43.38661200000004, -96.521742], [43.38650899999996, -96.521792], [43.38622899999997, -96.521698], [43.386151, -96.521686], [43.38590499999995, -96.521662], [43.385761999999986, -96.52167100000001], [43.38570817898412, -96.52167403547558], [43.39485551297832, -96.53536658110423], [43.39494199999998, -96.534691]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_15af3126bb94df0a7a870dfbedb20962 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ce2c6e916fdd756ea11cd811ad555e0 = $(`<div id="html_4ce2c6e916fdd756ea11cd811ad555e0" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_15af3126bb94df0a7a870dfbedb20962.setContent(html_4ce2c6e916fdd756ea11cd811ad555e0);
+            
+        
+
+        polygon_dc7082c6b09a1e3e8ec77ab889fb300e.bindPopup(popup_15af3126bb94df0a7a870dfbedb20962)
+        ;
+
+        
+    
+    
+            var circle_marker_e87a91b0ecc404077da9bcbd8451e953 = L.circleMarker(
+                [43.39253296756826, -96.52591037859392],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_f8a66389153c486ef9ca19c9b37de0df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_867a525ae915f8f6814cbd0f50a2c108 = $(`<div id="html_867a525ae915f8f6814cbd0f50a2c108" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_f8a66389153c486ef9ca19c9b37de0df.setContent(html_867a525ae915f8f6814cbd0f50a2c108);
+            
+        
+
+        circle_marker_e87a91b0ecc404077da9bcbd8451e953.bindPopup(popup_f8a66389153c486ef9ca19c9b37de0df)
+        ;
+
+        
+    
+    
+            circle_marker_e87a91b0ecc404077da9bcbd8451e953.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_adf9bc41cfbbd173fad2b41ae812ecca = L.polygon(
+                [[43.376572000000024, -96.522178], [43.376549000000004, -96.522139], [43.376516000000024, -96.522052], [43.37650299999999, -96.522006], [43.376480999999934, -96.521968], [43.376402000000034, -96.521867], [43.37590499999997, -96.521383], [43.37587400000003, -96.521358], [43.37583900000002, -96.521352], [43.37569599999998, -96.521349], [43.37541499999999, -96.521422], [43.375381, -96.521435], [43.37495700000002, -96.521519], [43.374921999999955, -96.521531], [43.374652999999974, -96.521662], [43.37456600000005, -96.521686], [43.374499000000014, -96.521652], [43.37435800000001, -96.521625], [43.374288, -96.521644], [43.37425400000002, -96.52166], [43.374185, -96.521677], [43.37408500000001, -96.521725], [43.37402099999997, -96.521765], [43.37399200000009, -96.521796], [43.37397000000002, -96.521834], [43.37394600000001, -96.521889], [43.373567999999985, -96.522041], [43.373333000000024, -96.522155], [43.37319200000004, -96.522182], [43.372978, -96.52219500000001], [43.372801000000024, -96.522175], [43.37272999999997, -96.52216], [43.37258900000003, -96.522146], [43.37252000000004, -96.522124], [43.372486, -96.522106], [43.37245800000003, -96.522076], [43.37243200000003, -96.52204], [43.372403, -96.52202], [43.372223999999996, -96.522046], [43.37218999999999, -96.522059], [43.37201299999999, -96.522163], [43.37198500000002, -96.522194], [43.37182899999999, -96.522463], [43.371798608010444, -96.52255101854641], [43.37659770536532, -96.52221161470827], [43.376572000000024, -96.522178]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_cb82c2e16491b5b07e43c6e7cd756e69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c0080737a981deb1bbe37c79ceef90e = $(`<div id="html_0c0080737a981deb1bbe37c79ceef90e" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_cb82c2e16491b5b07e43c6e7cd756e69.setContent(html_0c0080737a981deb1bbe37c79ceef90e);
+            
+        
+
+        polygon_adf9bc41cfbbd173fad2b41ae812ecca.bindPopup(popup_cb82c2e16491b5b07e43c6e7cd756e69)
+        ;
+
+        
+    
+    
+            var circle_marker_bd9a4be0c25d51de08f868e38256de44 = L.circleMarker(
+                [43.37418539811687, -96.5219012963751],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_9bec019a4a61f0ba0a8fe6f67701c046 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0e8874e153e883baabf03472b10a3e6 = $(`<div id="html_e0e8874e153e883baabf03472b10a3e6" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_9bec019a4a61f0ba0a8fe6f67701c046.setContent(html_e0e8874e153e883baabf03472b10a3e6);
+            
+        
+
+        circle_marker_bd9a4be0c25d51de08f868e38256de44.bindPopup(popup_9bec019a4a61f0ba0a8fe6f67701c046)
+        ;
+
+        
+    
+    
+            circle_marker_bd9a4be0c25d51de08f868e38256de44.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_c940b8dcf60cbc1f5566ab73bc330243 = L.polygon(
+                [[43.31864600000004, -96.527985], [43.31864800000003, -96.527936], [43.318642000000004, -96.527849], [43.318631999999965, -96.527695], [43.31864499999998, -96.527551], [43.318660999999985, -96.527459], [43.31866399999998, -96.52741], [43.318673000000004, -96.527364], [43.31870200000002, -96.527277], [43.31877500000002, -96.52711], [43.318780000000004, -96.527062], [43.31880499999999, -96.526972], [43.31882499999994, -96.526879], [43.31882799999993, -96.526829], [43.31881699999999, -96.526731], [43.31897500000005, -96.526464], [43.31899000000004, -96.52642], [43.31900600000007, -96.526324], [43.319018000000035, -96.526277], [43.319040000000044, -96.52613400000001], [43.31904099999996, -96.525985], [43.31903299999993, -96.525938], [43.31901000000003, -96.525899], [43.318959999999954, -96.52583], [43.31893199999995, -96.525801], [43.31889999999996, -96.525777], [43.31866700000004, -96.52565300000002], [43.31863299999995, -96.525639], [43.31856300000001, -96.525622], [43.318492000000035, -96.525611], [43.318279000000025, -96.525603], [43.31820799999998, -96.52560800000002], [43.318137, -96.525623], [43.31799800000003, -96.525664], [43.31735899999999, -96.52573700000002], [43.31689900000002, -96.525824], [43.316796999999994, -96.525866], [43.316734, -96.52591], [43.31670499999996, -96.525939], [43.31668099999999, -96.525976], [43.316640000000014, -96.526061], [43.31621400000003, -96.526312], [43.316025000000025, -96.52645], [43.31599800000002, -96.526483], [43.315965, -96.5265], [43.31592899999999, -96.526507], [43.31589300000001, -96.526503], [43.31586300000004, -96.526519], [43.315808000000004, -96.526646], [43.315793999999975, -96.526692], [43.31576099999997, -96.527034], [43.31576599999998, -96.527083], [43.31578500000001, -96.527177], [43.31582399999997, -96.527313], [43.31599800000002, -96.527683], [43.31604500000001, -96.527755], [43.31627399999998, -96.528067], [43.31632100000002, -96.528141], [43.316364, -96.52822], [43.31639882135635, -96.52827601694986], [43.318646055613, -96.52798537339983], [43.31864600000004, -96.527985]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_be49d8ffe99a7eca1ef564026df023c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b30071efeeea3dd49ac3449a9fe3580 = $(`<div id="html_9b30071efeeea3dd49ac3449a9fe3580" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_be49d8ffe99a7eca1ef564026df023c9.setContent(html_9b30071efeeea3dd49ac3449a9fe3580);
+            
+        
+
+        polygon_c940b8dcf60cbc1f5566ab73bc330243.bindPopup(popup_be49d8ffe99a7eca1ef564026df023c9)
+        ;
+
+        
+    
+    
+            var circle_marker_d9cc4c8077c4373fc6544d14340a1602 = L.circleMarker(
+                [43.31767351414467, -96.52668750629599],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_133cb2847b836402bf9e20004ed0f50f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fff79201b85d57ce12623bb7b3931cb = $(`<div id="html_9fff79201b85d57ce12623bb7b3931cb" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_133cb2847b836402bf9e20004ed0f50f.setContent(html_9fff79201b85d57ce12623bb7b3931cb);
+            
+        
+
+        circle_marker_d9cc4c8077c4373fc6544d14340a1602.bindPopup(popup_133cb2847b836402bf9e20004ed0f50f)
+        ;
+
+        
+    
+    
+            circle_marker_d9cc4c8077c4373fc6544d14340a1602.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_219ece4de1aa98ea218303bed568e9ed = L.polygon(
+                [[43.314304000000014, -96.528532], [43.31423600000006, -96.528506], [43.314027999999986, -96.528441], [43.31399599999999, -96.52842], [43.31387500000001, -96.528314], [43.31371900000004, -96.528199], [43.31363100000005, -96.528114], [43.313452999999974, -96.527873], [43.313354, -96.52773100000002], [43.313272999999974, -96.527635], [43.31324399999998, -96.527606], [43.31319199999998, -96.52754], [43.31305499999993, -96.527383], [43.312909999999945, -96.527166], [43.312887999999965, -96.527127], [43.31262700000001, -96.526538], [43.31246400000004, -96.5261], [43.31226499999996, -96.525466], [43.312239999999974, -96.525373], [43.312209, -96.525231], [43.31215599999999, -96.524895], [43.31211, -96.524708], [43.312090999999995, -96.524614], [43.312066999999956, -96.524522], [43.31204400000001, -96.524485], [43.31191100000002, -96.524321], [43.311758000000005, -96.524195], [43.311726, -96.524175], [43.311556999999986, -96.52409500000002], [43.311381, -96.524059], [43.311345, -96.524057], [43.31102900000002, -96.524104], [43.31089199999996, -96.524159], [43.31079699999997, -96.52422400000002], [43.31055500000003, -96.524433], [43.31049900000001, -96.524493], [43.310421999999996, -96.524596], [43.310204999999996, -96.524921], [43.310163, -96.525005], [43.31017099999995, -96.525103], [43.31016800000002, -96.525153], [43.31014599999998, -96.525247], [43.31008200000001, -96.525475], [43.31004500000001, -96.525678], [43.31002200000001, -96.525809], [43.31001299999996, -96.52605000000001], [43.30997100000005, -96.526435], [43.309961000000015, -96.526483], [43.30994500000003, -96.526527], [43.30990299999998, -96.526601], [43.30992900000003, -96.526945], [43.30992800000003, -96.526995], [43.30992199999997, -96.527044], [43.30990999999999, -96.52709], [43.30985600000003, -96.527217], [43.309812000000036, -96.527295], [43.30975799999996, -96.527359], [43.30972599999997, -96.527382], [43.309585999999996, -96.527417], [43.30955199999994, -96.52743400000001], [43.30952099999997, -96.527458], [43.309454999999986, -96.527495], [43.30942, -96.527499], [43.30928600000004, -96.52756500000001], [43.30921499999999, -96.527572], [43.30907800000004, -96.527631], [43.30904000000005, -96.527713], [43.30902600000001, -96.527758], [43.309025, -96.527807], [43.30907800000004, -96.528091], [43.30927299999999, -96.528617], [43.30927700000001, -96.528664], [43.309263999999985, -96.528761], [43.30924700000002, -96.528805], [43.30919800000001, -96.528877], [43.309152999999974, -96.529011], [43.309129999999975, -96.529105], [43.309110999999994, -96.529138], [43.30907800000004, -96.529154], [43.309041999999984, -96.529163], [43.30900700000002, -96.529165], [43.308972000000004, -96.529158], [43.308284000000015, -96.528887], [43.308043, -96.528678], [43.307912999999985, -96.528598], [43.30787800000001, -96.52859], [43.307700999999966, -96.528571], [43.307342000000006, -96.528353], [43.30731199999999, -96.528325], [43.30719999999998, -96.528177], [43.307131999999946, -96.528086], [43.30708600000004, -96.52801], [43.307070999999965, -96.527965], [43.30704999999998, -96.527871], [43.307035000000006, -96.527825], [43.306995000000065, -96.527744], [43.306906999999974, -96.527588], [43.30678700000003, -96.527343], [43.30676400000003, -96.52730500000001], [43.306681999999974, -96.52721], [43.30653799999996, -96.527091], [43.30628399999994, -96.526909], [43.30621500000002, -96.526885], [43.306037000000046, -96.526883], [43.30589499999998, -96.526901], [43.305610999999935, -96.526861], [43.30546900000001, -96.526869], [43.30536500000001, -96.526904], [43.30522899999994, -96.526962], [43.305132, -96.527026], [43.30510400000001, -96.527055], [43.30486700000001, -96.527355], [43.30482099999999, -96.527431], [43.304801999999974, -96.52747300000001], [43.304715999999985, -96.52763], [43.30470100000003, -96.527674], [43.304677999999996, -96.528116], [43.30467699999996, -96.528214], [43.30475199999997, -96.528491], [43.30478999999999, -96.528572], [43.30489600000002, -96.528827], [43.30491000000001, -96.528872], [43.30493200000003, -96.529016], [43.304947, -96.529163], [43.30494000000004, -96.529359], [43.30493300000002, -96.529407], [43.30481631001098, -96.52977374264276], [43.31432699652608, -96.52854395816233], [43.314304000000014, -96.528532]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_0190987c8f72a20293c07b98137b0c87 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de23bb173ac291059ed548c02f47b217 = $(`<div id="html_de23bb173ac291059ed548c02f47b217" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_0190987c8f72a20293c07b98137b0c87.setContent(html_de23bb173ac291059ed548c02f47b217);
+            
+        
+
+        polygon_219ece4de1aa98ea218303bed568e9ed.bindPopup(popup_0190987c8f72a20293c07b98137b0c87)
+        ;
+
+        
+    
+    
+            var circle_marker_c28b4e721c885485c7b28e134f751c6b = L.circleMarker(
+                [43.30922359152354, -96.52718002868842],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_a55223ab56a96d77b48712a0517b0597 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c7c6e4b009dca88446a3074cf75d020 = $(`<div id="html_4c7c6e4b009dca88446a3074cf75d020" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_a55223ab56a96d77b48712a0517b0597.setContent(html_4c7c6e4b009dca88446a3074cf75d020);
+            
+        
+
+        circle_marker_c28b4e721c885485c7b28e134f751c6b.bindPopup(popup_a55223ab56a96d77b48712a0517b0597)
+        ;
+
+        
+    
+    
+            circle_marker_c28b4e721c885485c7b28e134f751c6b.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e5eac7a5e17e102d47a42ddfb42d441a = L.polygon(
+                [[43.30054700000002, -96.530302], [43.30040499999997, -96.530154], [43.300310000000046, -96.530087], [43.30027400000001, -96.53008], [43.300095999999975, -96.530082], [43.30006299999998, -96.530099], [43.29999999999999, -96.530145], [43.29994100000002, -96.530195], [43.29982299999995, -96.530381], [43.29978799999999, -96.530467], [43.29971299999997, -96.530691], [43.29963200000002, -96.531018], [43.29955800000001, -96.531296], [43.29913699999999, -96.53297600000002], [43.298916000000006, -96.533965], [43.298803, -96.534588], [43.29876399999997, -96.53488000000002], [43.298761999999975, -96.534929], [43.29869700000002, -96.535612], [43.29859000000007, -96.53634], [43.298360999999986, -96.537326], [43.298314999999995, -96.537512], [43.298309, -96.537758], [43.29831000000007, -96.537856], [43.298317000000004, -96.537905], [43.29837500000001, -96.538138], [43.29853462732585, -96.53852310091851], [43.30003399999998, -96.530392], [43.30056516013157, -96.530323335607], [43.30054700000002, -96.530302]],
+                {"bubblingMouseEvents": true, "color": "#f032e6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f032e6", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_72f336d97662ae4737f8f8072a8e4b71 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_169d924426cb2f1900ced14808f2f55f = $(`<div id="html_169d924426cb2f1900ced14808f2f55f" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_72f336d97662ae4737f8f8072a8e4b71.setContent(html_169d924426cb2f1900ced14808f2f55f);
+            
+        
+
+        polygon_e5eac7a5e17e102d47a42ddfb42d441a.bindPopup(popup_72f336d97662ae4737f8f8072a8e4b71)
+        ;
+
+        
+    
+    
+            var circle_marker_bf56b02ca24db76edd1ac2cecf22874b = L.circleMarker(
+                [43.299382892915254, -96.53314408121751],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_f9f47330f6bf0624eb52ee6558d31429 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d600316a31aaa9d9b65b2aa47f04168b = $(`<div id="html_d600316a31aaa9d9b65b2aa47f04168b" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_f9f47330f6bf0624eb52ee6558d31429.setContent(html_d600316a31aaa9d9b65b2aa47f04168b);
+            
+        
+
+        circle_marker_bf56b02ca24db76edd1ac2cecf22874b.bindPopup(popup_f9f47330f6bf0624eb52ee6558d31429)
+        ;
+
+        
+    
+    
+            circle_marker_bf56b02ca24db76edd1ac2cecf22874b.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_65cf41433cfce1437bc62c6fba9f4941 = L.polygon(
+                [[43.298289999999994, -96.539032], [43.29825699999998, -96.539053], [43.29818400000003, -96.539091], [43.297857, -96.539262], [43.29755699999997, -96.539425], [43.297494999999984, -96.539473], [43.29734600000001, -96.53961], [43.29728299999998, -96.539655], [43.29650699999999, -96.540156], [43.296208000000014, -96.540315], [43.29612899999999, -96.54035], [43.29580000000001, -96.540498], [43.29576700000001, -96.540517], [43.29570700000003, -96.54057], [43.29562599999997, -96.540667], [43.295553000000005, -96.54077400000001], [43.29553300000001, -96.540815], [43.295518999999985, -96.54086], [43.29548000000001, -96.540943], [43.29539200000005, -96.541156], [43.29536499999994, -96.541247], [43.29534500000004, -96.541342], [43.29533099999998, -96.541387], [43.29522199999999, -96.541856], [43.29485199999999, -96.543403], [43.29474200000001, -96.543821], [43.29472899999999, -96.54395], [43.29474200000001, -96.544047], [43.294744999999985, -96.544096], [43.29474200000001, -96.544146], [43.29470900000004, -96.544388], [43.29470099999998, -96.544485], [43.29469, -96.544533], [43.29460700000001, -96.544692], [43.294581, -96.544727], [43.29457300000002, -96.544775], [43.29456200000007, -96.545219], [43.294529, -96.54541100000002], [43.294502000000044, -96.545604], [43.29448300000002, -96.545699], [43.294436000000005, -96.545832], [43.29422099999999, -96.546401], [43.29407000000001, -96.546957], [43.294052999999984, -96.54705300000002], [43.294052000000015, -96.547068], [43.29403500000001, -96.547397], [43.294041000000014, -96.54749500000001], [43.29410200000002, -96.54788200000002], [43.29433199999994, -96.54891600000002], [43.29435999999999, -96.549058], [43.29437100000002, -96.549206], [43.29435999999999, -96.549452], [43.294355, -96.549501], [43.294343, -96.549548], [43.29420900000005, -96.54995], [43.29417199999998, -96.550035], [43.29414799999998, -96.550072], [43.294106999999975, -96.550152], [43.29395900000001, -96.550367], [43.29385000000003, -96.550494], [43.29379399999997, -96.550553], [43.29376299999998, -96.550579], [43.29369599999997, -96.55061100000002], [43.293352, -96.55074200000001], [43.29332000000004, -96.550765], [43.29325400000001, -96.550799], [43.293158999999974, -96.55086900000002], [43.29312900000003, -96.550896], [43.29310800000003, -96.550935], [43.293020000000034, -96.551205], [43.29300900000004, -96.551251], [43.292958, -96.551639], [43.292877, -96.551914], [43.29284999999997, -96.552056], [43.29283400000002, -96.552203], [43.292832999999995, -96.552252], [43.29283800000003, -96.552351], [43.29287000000003, -96.552693], [43.29286400000001, -96.55294], [43.292847999999985, -96.553036], [43.292835000000025, -96.553082], [43.292845999999955, -96.553128], [43.29291100000003, -96.553305], [43.29305299999999, -96.553589], [43.29312599999995, -96.553757], [43.29323200000003, -96.553955], [43.29327899999998, -96.55403], [43.29332900000002, -96.5541], [43.29335, -96.554139], [43.29342600000001, -96.554243], [43.29368999999996, -96.554574], [43.29382099999998, -96.554738], [43.29402499999997, -96.554938], [43.29408899999996, -96.55498], [43.29468199999998, -96.555323], [43.29475099999998, -96.555351], [43.29489100000003, -96.555386], [43.29517000000006, -96.555466], [43.295240999999976, -96.555473], [43.295383000000044, -96.555454], [43.29541263754922, -96.55544383855532], [43.29847189704779, -96.53886322060264], [43.298289999999994, -96.539032]],
+                {"bubblingMouseEvents": true, "color": "#bfef45", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bfef45", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_6ef92071a817aa6cbf519b5b55ef0f21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_400f298842f812adf34558d4221ca3e3 = $(`<div id="html_400f298842f812adf34558d4221ca3e3" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_6ef92071a817aa6cbf519b5b55ef0f21.setContent(html_400f298842f812adf34558d4221ca3e3);
+            
+        
+
+        polygon_65cf41433cfce1437bc62c6fba9f4941.bindPopup(popup_6ef92071a817aa6cbf519b5b55ef0f21)
+        ;
+
+        
+    
+    
+            var circle_marker_cf2ab8c495d742ab497ea0b9a6bc24e9 = L.circleMarker(
+                [43.29458736441356, -96.54763616562289],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_4f7ea4c914c76f67b4347840588d40f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02e5622e6f646fe6ae8b37dcdcc128ed = $(`<div id="html_02e5622e6f646fe6ae8b37dcdcc128ed" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_4f7ea4c914c76f67b4347840588d40f7.setContent(html_02e5622e6f646fe6ae8b37dcdcc128ed);
+            
+        
+
+        circle_marker_cf2ab8c495d742ab497ea0b9a6bc24e9.bindPopup(popup_4f7ea4c914c76f67b4347840588d40f7)
+        ;
+
+        
+    
+    
+            circle_marker_cf2ab8c495d742ab497ea0b9a6bc24e9.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_a028daff36613d9866c801742da3b085 = L.polygon(
+                [[43.25903599999998, -96.559511], [43.258956999999995, -96.558852], [43.258944000000035, -96.558556], [43.25895599999998, -96.557865], [43.25903300000004, -96.557231], [43.25903400000001, -96.557184], [43.259023999999954, -96.557136], [43.25900800000004, -96.55699], [43.25900600000003, -96.55694], [43.25902300000002, -96.556794], [43.25903300000004, -96.556747], [43.25906199999999, -96.556656], [43.259111000000004, -96.556525], [43.259131999999944, -96.556485], [43.259329, -96.556198], [43.259658, -96.555819], [43.25973600000001, -96.555717], [43.25985899999998, -96.555617], [43.25988600000002, -96.555585], [43.25990100000002, -96.555541], [43.259958000000005, -96.555154], [43.259956, -96.55511700000001], [43.259951999999956, -96.555006], [43.259951000000015, -96.554969], [43.25994900000003, -96.554907], [43.25991700000001, -96.554664], [43.25990100000002, -96.554619], [43.25988199999998, -96.554583], [43.259795999999966, -96.55442], [43.25971700000002, -96.554319], [43.25971200000005, -96.554213], [43.25969000000003, -96.55411800000002], [43.259641, -96.55398700000002], [43.259640000000026, -96.553875], [43.25963100000003, -96.553777], [43.25961999999997, -96.55373], [43.25960100000005, -96.55368800000001], [43.259510000000006, -96.553536], [43.25948199999996, -96.553507], [43.259471999999995, -96.553499], [43.259450999999935, -96.553484], [43.259281999999985, -96.553408], [43.259174999999985, -96.553395], [43.25914100000001, -96.55338], [43.25911100000002, -96.553354], [43.25904200000003, -96.55337900000002], [43.25894999999997, -96.553391], [43.25890299999995, -96.553275], [43.25888300000001, -96.553235], [43.25882099999999, -96.553198], [43.25878599999998, -96.553194], [43.25868499999998, -96.553151], [43.25861399999999, -96.553143], [43.25858499999998, -96.553052], [43.258496, -96.552898], [43.258463999999975, -96.552879], [43.258287000000045, -96.552793], [43.258264000000004, -96.552774], [43.258178999999984, -96.552683], [43.25814800000001, -96.55266], [43.25811199999996, -96.552658], [43.25804199999999, -96.55264400000002], [43.257970000000014, -96.552648], [43.257899999999964, -96.552662], [43.25779499999998, -96.552675], [43.25776100000003, -96.552673], [43.257728, -96.552657], [43.25763200000001, -96.552599], [43.25760099999995, -96.552574], [43.25750399999995, -96.552514], [43.257384, -96.552497], [43.257290999999974, -96.552484], [43.257006000000054, -96.552475], [43.256934999999956, -96.552463], [43.256759999999964, -96.552418], [43.25668900000004, -96.552411], [43.25658199999997, -96.552422], [43.25637799999994, -96.552512], [43.25624699999999, -96.552591], [43.25597200000002, -96.552699], [43.255579, -96.552733], [43.255187, -96.552733], [43.255069, -96.552722], [43.25504400000003, -96.55272], [43.25476000000001, -96.552767], [43.25444799999994, -96.552665], [43.254352000000026, -96.552601], [43.25429599999997, -96.552541], [43.25408699999997, -96.552336], [43.253771, -96.552026], [43.253739999999986, -96.552001], [43.25361000000003, -96.551919], [43.25350699999996, -96.551879], [43.25322200000002, -96.551855], [43.253049, -96.551911], [43.25291799999997, -96.551988], [43.25285099999998, -96.55202], [43.252820000000014, -96.552045], [43.25271200000001, -96.552174], [43.25268900000005, -96.552211], [43.25263200000003, -96.552337], [43.25255099999999, -96.55243300000001], [43.25252800000006, -96.55247], [43.252465999999984, -96.552591], [43.25225999999997, -96.552677], [43.25208200000001, -96.552705], [43.25201200000001, -96.55268900000002], [43.251943000000004, -96.55266], [43.251817, -96.552567], [43.25178899999996, -96.552537], [43.25163699999999, -96.552346], [43.25126599999999, -96.551975], [43.25110200000001, -96.55174], [43.251012999999965, -96.551698], [43.25099299999998, -96.551656], [43.25096900000001, -96.551621], [43.25088299999999, -96.551531], [43.25085100000002, -96.551509], [43.25060799999997, -96.551425], [43.250361, -96.551373], [43.250325999999994, -96.551371], [43.250255000000045, -96.55138700000002], [43.25017199999994, -96.551429], [43.249932, -96.55133], [43.249801999999974, -96.551248], [43.249657999999975, -96.551102], [43.24960300000004, -96.551038], [43.24880100000002, -96.550009], [43.24865900000004, -96.549826], [43.24846500000006, -96.549607], [43.24837200000003, -96.54953400000001], [43.248004999999985, -96.54934], [43.247625999999954, -96.549195], [43.24709300000004, -96.549109], [43.246949999999934, -96.549125], [43.24684799999997, -96.549168], [43.24681399999997, -96.549187], [43.24673000000001, -96.549279], [43.24670700000001, -96.549316], [43.24667099999997, -96.549402], [43.24666300000003, -96.5495], [43.24666900000001, -96.549598], [43.246728000000004, -96.549883], [43.24720199999999, -96.551104], [43.24745799999998, -96.551974], [43.24749200000003, -96.552166], [43.24751200000003, -96.552511], [43.247513000000005, -96.553054], [43.24750858130177, -96.55309730325243], [43.25755567561797, -96.5590273427097], [43.259086888908456, -96.55993066371899], [43.25903599999998, -96.559511]],
+                {"bubblingMouseEvents": true, "color": "#fabed4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fabed4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_b1af365ecb1bb1d556503c0dacaaba05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b41add9672d7ce2cb8075408ef80cbca = $(`<div id="html_b41add9672d7ce2cb8075408ef80cbca" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_b1af365ecb1bb1d556503c0dacaaba05.setContent(html_b41add9672d7ce2cb8075408ef80cbca);
+            
+        
+
+        polygon_a028daff36613d9866c801742da3b085.bindPopup(popup_b1af365ecb1bb1d556503c0dacaaba05)
+        ;
+
+        
+    
+    
+            var circle_marker_b0160827fc9fb2d9219c19b1d9300f92 = L.circleMarker(
+                [43.2551161128015, -96.55308147572158],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_0b61666545235dae838edbc957b7ab7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e78be82334e450cff205dff6b7da5c81 = $(`<div id="html_e78be82334e450cff205dff6b7da5c81" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_0b61666545235dae838edbc957b7ab7c.setContent(html_e78be82334e450cff205dff6b7da5c81);
+            
+        
+
+        circle_marker_b0160827fc9fb2d9219c19b1d9300f92.bindPopup(popup_0b61666545235dae838edbc957b7ab7c)
+        ;
+
+        
+    
+    
+            circle_marker_b0160827fc9fb2d9219c19b1d9300f92.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6a4ff0279330c43a6c67273fe1601255 = L.polygon(
+                [[43.221117000000014, -96.508551], [43.221258, -96.508268], [43.22127700000001, -96.508226], [43.221525000000035, -96.507568], [43.22161700000006, -96.507248], [43.22167999999997, -96.506964], [43.22171099999997, -96.506721], [43.221781999999976, -96.505787], [43.22176300000001, -96.505293], [43.221756000000006, -96.505226], [43.22172299999998, -96.504852], [43.22170499999998, -96.504706], [43.22157899999999, -96.503935], [43.221557000000004, -96.503841], [43.22150400000002, -96.503658], [43.221406, -96.503393], [43.221363, -96.503315], [43.221316000000044, -96.50324], [43.22127400000004, -96.503161], [43.221067000000026, -96.50264], [43.22101199999999, -96.502513], [43.221001603886286, -96.50249152103873], [43.22098871432769, -96.50871075206557], [43.221117000000014, -96.508551]],
+                {"bubblingMouseEvents": true, "color": "#469990", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#469990", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_1836138e1239135352ce6f27da4ad689 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26331f973da8b7d7af74828cb721ea49 = $(`<div id="html_26331f973da8b7d7af74828cb721ea49" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_1836138e1239135352ce6f27da4ad689.setContent(html_26331f973da8b7d7af74828cb721ea49);
+            
+        
+
+        polygon_6a4ff0279330c43a6c67273fe1601255.bindPopup(popup_1836138e1239135352ce6f27da4ad689)
+        ;
+
+        
+    
+    
+            var circle_marker_6b3f34d24aac6284533d5c44a64257f8 = L.circleMarker(
+                [43.22142080492559, -96.50536913637934],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_988090f81dbc331277a5a2c690fc728c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6292bc613ff0dbfc7a50f7323d2655e6 = $(`<div id="html_6292bc613ff0dbfc7a50f7323d2655e6" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_988090f81dbc331277a5a2c690fc728c.setContent(html_6292bc613ff0dbfc7a50f7323d2655e6);
+            
+        
+
+        circle_marker_6b3f34d24aac6284533d5c44a64257f8.bindPopup(popup_988090f81dbc331277a5a2c690fc728c)
+        ;
+
+        
+    
+    
+            circle_marker_6b3f34d24aac6284533d5c44a64257f8.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_c2eb2c86436e0fbd8000e530b41e7701 = L.polygon(
+                [[43.22107200000001, -96.499956], [43.22164800000006, -96.499146], [43.2219, -96.498781], [43.22195400000002, -96.498716], [43.22281099999999, -96.497826], [43.223485000000025, -96.497176], [43.22354200000003, -96.497117], [43.22359500000006, -96.49705], [43.22363800000002, -96.496915], [43.22371599999998, -96.496639], [43.22371800000002, -96.496579], [43.223707000000005, -96.49633200000001], [43.223669999999956, -96.496091], [43.22365800000001, -96.496044], [43.22362099999994, -96.49596], [43.223572000000026, -96.495888], [43.22348099999999, -96.495734], [43.22346099999999, -96.495694], [43.22344599999998, -96.495643], [43.223403999999974, -96.495208], [43.223329, -96.494775], [43.223271999999994, -96.494337], [43.22326600000002, -96.494189], [43.223286, -96.492806], [43.22332200000005, -96.492565], [43.22333199999997, -96.492517], [43.22331899999998, -96.492502], [43.223278000000036, -96.492452], [43.223254000000004, -96.492416], [43.223237999999974, -96.492371], [43.22323199999993, -96.492323], [43.22324399999995, -96.492229], [43.22324999999997, -96.492135], [43.22324900000004, -96.492088], [43.22325899999997, -96.491995], [43.223254000000004, -96.49194900000002], [43.22325700000001, -96.4919], [43.22330299999999, -96.491716], [43.22332100000007, -96.491673], [43.223372, -96.49160300000001], [43.22337399999998, -96.491501], [43.222604999999994, -96.49151], [43.221687, -96.491522], [43.22102360787168, -96.49152843034597], [43.2210065442509, -96.50006932637595], [43.22107200000001, -96.499956]],
+                {"bubblingMouseEvents": true, "color": "#dcbeff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#dcbeff", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_92b36e41a6fb1015f5d257566af94d47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4500d427a4a091b5e6b5e086e3588dfe = $(`<div id="html_4500d427a4a091b5e6b5e086e3588dfe" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_92b36e41a6fb1015f5d257566af94d47.setContent(html_4500d427a4a091b5e6b5e086e3588dfe);
+            
+        
+
+        polygon_c2eb2c86436e0fbd8000e530b41e7701.bindPopup(popup_92b36e41a6fb1015f5d257566af94d47)
+        ;
+
+        
+    
+    
+            var circle_marker_bb7055d8a1557406fbb937f156999af6 = L.circleMarker(
+                [43.22303269895919, -96.49467658166785],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b069433dc140eecac711d1610177fca);
+        
+    
+        var popup_12c178a2d20a57ea3b92f2c00e1adf3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b1a064b931d6ace0029e6375b3d044f = $(`<div id="html_9b1a064b931d6ace0029e6375b3d044f" style="width: 100.0%; height: 100.0%;"><b>Lincoln - South Dakota-CD04</b></div>`)[0];
+                popup_12c178a2d20a57ea3b92f2c00e1adf3f.setContent(html_9b1a064b931d6ace0029e6375b3d044f);
+            
+        
+
+        circle_marker_bb7055d8a1557406fbb937f156999af6.bindPopup(popup_12c178a2d20a57ea3b92f2c00e1adf3f)
+        ;
+
+        
+    
+    
+            circle_marker_bb7055d8a1557406fbb937f156999af6.bindTooltip(
+                `<div>
+                     Lincoln - South Dakota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

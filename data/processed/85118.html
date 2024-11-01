@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_610e212f956fe7ccc32e96411ab2b00a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD05</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinal - Arizona-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_610e212f956fe7ccc32e96411ab2b00a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_610e212f956fe7ccc32e96411ab2b00a = L.map(
+                "map_610e212f956fe7ccc32e96411ab2b00a",
+                {
+                    center: [33.342828576382246, -111.40377807189999],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e2ee770aa3e4379fc64e95981ae525fd = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e2ee770aa3e4379fc64e95981ae525fd.addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+            var polygon_400d7ae3622e9a023e2448d99c9a7758 = L.polygon(
+                [[33.30728499999998, -111.441669], [33.307276, -111.443172], [33.307165999999995, -111.447742], [33.30713100000004, -111.452597], [33.30711399999997, -111.453137], [33.307139000000056, -111.457174], [33.30711800000001, -111.459484], [33.310380000000016, -111.45947600000001], [33.31949500000002, -111.459487], [33.32205900000001, -111.459452], [33.325715, -111.459444], [33.332017000000036, -111.45943], [33.34463199999997, -111.459402], [33.34453400000005, -111.459769], [33.34423300000002, -111.460372], [33.344006000000036, -111.460784], [33.34385399999997, -111.461097], [33.343741000000016, -111.461303], [33.34367100000002, -111.461516], [33.34371400000002, -111.461715], [33.343756000000006, -111.461883], [33.34372499999997, -111.462173], [33.34362900000001, -111.462409], [33.34329699999999, -111.462707], [33.34307699999998, -111.462867], [33.34286699999999, -111.463119], [33.34266400000002, -111.463599], [33.34255, -111.463912], [33.342450000000014, -111.464637], [33.34236699999998, -111.46505700000002], [33.342264, -111.465453], [33.34226400000003, -111.466094], [33.34210799999999, -111.466582], [33.34195900000001, -111.466849], [33.34167300000002, -111.467338], [33.34146699999998, -111.467773], [33.341043000000035, -111.468833], [33.34047899999997, -111.470184], [33.34027299999999, -111.470664], [33.34009300000004, -111.471038], [33.33998200000002, -111.471534], [33.33992199999997, -111.471915], [33.33985700000001, -111.472274], [33.339829999999985, -111.47247200000001], [33.339861, -111.472739], [33.33972699999995, -111.473296], [33.33964299999998, -111.473777], [33.339657999999986, -111.474174], [33.339651, -111.474357], [33.339578999999986, -111.47454800000001], [33.339590000000015, -111.474754], [33.33975399999997, -111.475074], [33.339959000000015, -111.475349], [33.340113000000024, -111.475868], [33.340176000000014, -111.476356], [33.34030300000003, -111.47673], [33.34042699999997, -111.476986], [33.34766799999997, -111.477008], [33.35045999999997, -111.476962], [33.35085900000002, -111.476956], [33.354287000000014, -111.476906], [33.35539099999999, -111.476892], [33.364594, -111.476889], [33.36543, -111.476886], [33.308789999999966, -111.408527], [33.30748170613311, -111.41746026331143], [33.30728499999998, -111.441669]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_4eb71beb5ad05debd3ce4a1ef958e800 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cc79fcd2134052de29b8b72d9153536 = $(`<div id="html_2cc79fcd2134052de29b8b72d9153536" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_4eb71beb5ad05debd3ce4a1ef958e800.setContent(html_2cc79fcd2134052de29b8b72d9153536);
+            
+        
+
+        polygon_400d7ae3622e9a023e2448d99c9a7758.bindPopup(popup_4eb71beb5ad05debd3ce4a1ef958e800)
+        ;
+
+        
+    
+    
+            var circle_marker_589d473a46ca02071f418fcc33785757 = L.circleMarker(
+                [33.33651586128558, -111.4644738994524],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_132c8e9cc3f20c46a6594189ce4e54e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c1ab72b1fd54a5c1d6bb1bfb3a139b4 = $(`<div id="html_7c1ab72b1fd54a5c1d6bb1bfb3a139b4" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_132c8e9cc3f20c46a6594189ce4e54e1.setContent(html_7c1ab72b1fd54a5c1d6bb1bfb3a139b4);
+            
+        
+
+        circle_marker_589d473a46ca02071f418fcc33785757.bindPopup(popup_132c8e9cc3f20c46a6594189ce4e54e1)
+        ;
+
+        
+    
+    
+            circle_marker_589d473a46ca02071f418fcc33785757.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_2430e9cae34bc4f0678ec16ed33cfa64 = L.polygon(
+                [[33.365668000000035, -111.47712], [33.36585699999998, -111.477307], [33.365916000000006, -111.477365], [33.36647000000001, -111.477899], [33.36652899999995, -111.477955], [33.36659799999996, -111.478023], [33.36676199999996, -111.477773], [33.36692600000003, -111.477522], [33.367018, -111.477389], [33.36713700000002, -111.477215], [33.36731699999995, -111.476954], [33.367363999999995, -111.476885], [33.36756200000003, -111.476885], [33.36949455698395, -111.4768830097253], [33.36543, -111.476886], [33.365668000000035, -111.47712]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_45930fa3c27b0f705d7fee4c8140bb12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b90a9ab7712d2dd39b749073f238a4c9 = $(`<div id="html_b90a9ab7712d2dd39b749073f238a4c9" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_45930fa3c27b0f705d7fee4c8140bb12.setContent(html_b90a9ab7712d2dd39b749073f238a4c9);
+            
+        
+
+        polygon_2430e9cae34bc4f0678ec16ed33cfa64.bindPopup(popup_45930fa3c27b0f705d7fee4c8140bb12)
+        ;
+
+        
+    
+    
+            var circle_marker_e3e01ed456c8bf87c51453d47c11207d = L.circleMarker(
+                [33.36673228481149, -111.47732381310783],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_1ce95d908c791d3952c40b8894d8fd47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bc92b3ecca461255bfcfcca3c3e03f6 = $(`<div id="html_1bc92b3ecca461255bfcfcca3c3e03f6" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_1ce95d908c791d3952c40b8894d8fd47.setContent(html_1bc92b3ecca461255bfcfcca3c3e03f6);
+            
+        
+
+        circle_marker_e3e01ed456c8bf87c51453d47c11207d.bindPopup(popup_1ce95d908c791d3952c40b8894d8fd47)
+        ;
+
+        
+    
+    
+            circle_marker_e3e01ed456c8bf87c51453d47c11207d.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7106feca1c72ff76cf5e58c6d34baa3f = L.polygon(
+                [[33.36956299999998, -111.476946], [33.369772999999995, -111.477283], [33.37164800000001, -111.480263], [33.37270000000002, -111.48198], [33.37900199999994, -111.488549], [33.379119, -111.488671], [33.37892499999999, -111.477547], [33.37892100000004, -111.477225], [33.37899900000005, -111.477225], [33.37899575378335, -111.4768760184679], [33.36950400259956, -111.47688300277582], [33.36956299999998, -111.476946]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_796388b2aa1415b72b91ba491c7714b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a251baabbb9b198e2d143a0835433965 = $(`<div id="html_a251baabbb9b198e2d143a0835433965" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_796388b2aa1415b72b91ba491c7714b9.setContent(html_a251baabbb9b198e2d143a0835433965);
+            
+        
+
+        polygon_7106feca1c72ff76cf5e58c6d34baa3f.bindPopup(popup_796388b2aa1415b72b91ba491c7714b9)
+        ;
+
+        
+    
+    
+            var circle_marker_7f12369a2df341c463c89ebcf3e7d6e0 = L.circleMarker(
+                [33.37472606303191, -111.4796995017703],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_6c49ddaa40cec8ba12f3b8da8259af70 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_994fbb7d984c9d96f422f51a6b7b5adf = $(`<div id="html_994fbb7d984c9d96f422f51a6b7b5adf" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_6c49ddaa40cec8ba12f3b8da8259af70.setContent(html_994fbb7d984c9d96f422f51a6b7b5adf);
+            
+        
+
+        circle_marker_7f12369a2df341c463c89ebcf3e7d6e0.bindPopup(popup_6c49ddaa40cec8ba12f3b8da8259af70)
+        ;
+
+        
+    
+    
+            circle_marker_7f12369a2df341c463c89ebcf3e7d6e0.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e34a0816304d35330a6789de5ee446b1 = L.polygon(
+                [[33.407804000000056, -111.476912], [33.40994299999998, -111.477072], [33.40996100000001, -111.477091], [33.409996, -111.477091], [33.41005000000002, -111.477117], [33.41008199999998, -111.477174], [33.41121900000001, -111.476892], [33.41155100000001, -111.477448], [33.41200800000002, -111.477362], [33.413171999999996, -111.47701300000001], [33.41454336880411, -111.47684984566837], [33.407803257337285, -111.47685481016], [33.407804000000056, -111.476912]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_282756248e8bb5bbed31d3978dfcfbdf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03739851b87c36fa40f342e2d9b4b52a = $(`<div id="html_03739851b87c36fa40f342e2d9b4b52a" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_282756248e8bb5bbed31d3978dfcfbdf.setContent(html_03739851b87c36fa40f342e2d9b4b52a);
+            
+        
+
+        polygon_e34a0816304d35330a6789de5ee446b1.bindPopup(popup_282756248e8bb5bbed31d3978dfcfbdf)
+        ;
+
+        
+    
+    
+            var circle_marker_10fb4a4b523a2b7c38fb7a245b75d5de = L.circleMarker(
+                [33.41045666354934, -111.47706066583295],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_8cae12c52f6396555676d48bfc1339f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_db663565b9aadb14dc9b2415ecb27708 = $(`<div id="html_db663565b9aadb14dc9b2415ecb27708" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_8cae12c52f6396555676d48bfc1339f1.setContent(html_db663565b9aadb14dc9b2415ecb27708);
+            
+        
+
+        circle_marker_10fb4a4b523a2b7c38fb7a245b75d5de.bindPopup(popup_8cae12c52f6396555676d48bfc1339f1)
+        ;
+
+        
+    
+    
+            circle_marker_10fb4a4b523a2b7c38fb7a245b75d5de.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7abd5e6675d2e3c28ec9d2ada4b0d414 = L.polygon(
+                [[33.42220700000001, -111.476994], [33.42322900000002, -111.477485], [33.42358799999998, -111.477252], [33.424659, -111.477016], [33.425941999999964, -111.476967], [33.42685899999997, -111.477233], [33.42779300000001, -111.477431], [33.428600215863774, -111.47683948907502], [33.41720070391407, -111.47684788813652], [33.42220700000001, -111.476994]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_8d1267bb0125845316770565bfdc07cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e480e6af71d0aad7786e34ee7065c59 = $(`<div id="html_1e480e6af71d0aad7786e34ee7065c59" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_8d1267bb0125845316770565bfdc07cb.setContent(html_1e480e6af71d0aad7786e34ee7065c59);
+            
+        
+
+        polygon_7abd5e6675d2e3c28ec9d2ada4b0d414.bindPopup(popup_8d1267bb0125845316770565bfdc07cb)
+        ;
+
+        
+    
+    
+            var circle_marker_cea3cba18070522d37c8ce6129a44a9a = L.circleMarker(
+                [33.424228491977786, -111.47710593772118],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_e27af51fcfe04ba3b456dc24edd1c0a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90f95ec9c1ddccdf5f3f74c1f911d862 = $(`<div id="html_90f95ec9c1ddccdf5f3f74c1f911d862" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_e27af51fcfe04ba3b456dc24edd1c0a0.setContent(html_90f95ec9c1ddccdf5f3f74c1f911d862);
+            
+        
+
+        circle_marker_cea3cba18070522d37c8ce6129a44a9a.bindPopup(popup_e27af51fcfe04ba3b456dc24edd1c0a0)
+        ;
+
+        
+    
+    
+            circle_marker_cea3cba18070522d37c8ce6129a44a9a.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_435aec4754c1cb215a0a6fc00ef4b05e = L.polygon(
+                [[33.435257, -111.477319], [33.43591000000008, -111.476871], [33.436188, -111.477127], [33.43642100000002, -111.47714000000002], [33.43654199999998, -111.47714800000001], [33.43861099999997, -111.47714800000001], [33.44000411864106, -111.47683108420472], [33.434361453300134, -111.47683524326683], [33.435257, -111.477319]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_3e16c34143d51ba92ddbad33ac93c7f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f52860a5d1c41c8b89a509d572883fb1 = $(`<div id="html_f52860a5d1c41c8b89a509d572883fb1" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_3e16c34143d51ba92ddbad33ac93c7f6.setContent(html_f52860a5d1c41c8b89a509d572883fb1);
+            
+        
+
+        polygon_435aec4754c1cb215a0a6fc00ef4b05e.bindPopup(popup_3e16c34143d51ba92ddbad33ac93c7f6)
+        ;
+
+        
+    
+    
+            var circle_marker_0a55349e36bccd7c69a18eeeb9794114 = L.circleMarker(
+                [33.43650573021569, -111.47708203638572],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_46fcea59f919756d18b0abebccc2a323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_089f1be063bb460741e2a8ff16f969a8 = $(`<div id="html_089f1be063bb460741e2a8ff16f969a8" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_46fcea59f919756d18b0abebccc2a323.setContent(html_089f1be063bb460741e2a8ff16f969a8);
+            
+        
+
+        circle_marker_0a55349e36bccd7c69a18eeeb9794114.bindPopup(popup_46fcea59f919756d18b0abebccc2a323)
+        ;
+
+        
+    
+    
+            circle_marker_0a55349e36bccd7c69a18eeeb9794114.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f57186a83e955de807dc1fa09606cfdc = L.polygon(
+                [[33.444038000000035, -111.47684300000002], [33.445100999999994, -111.476932], [33.445792999999995, -111.476917], [33.44598499999998, -111.476918], [33.44682899999999, -111.476921], [33.44762600000002, -111.476924], [33.44771899999997, -111.476925], [33.448537999999985, -111.47692900000001], [33.44861099999998, -111.47693], [33.44956100000001, -111.476944], [33.451008999999985, -111.476839], [33.45135200000001, -111.47684300000002], [33.45221799999998, -111.476841], [33.46588500000002, -111.476812], [33.443862804516975, -111.47682823970457], [33.444038000000035, -111.47684300000002]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_25cb780449c7432931f4d8427f290623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b70cbf29f2bc18df806acf1bc50d3715 = $(`<div id="html_b70cbf29f2bc18df806acf1bc50d3715" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_25cb780449c7432931f4d8427f290623.setContent(html_b70cbf29f2bc18df806acf1bc50d3715);
+            
+        
+
+        polygon_f57186a83e955de807dc1fa09606cfdc.bindPopup(popup_25cb780449c7432931f4d8427f290623)
+        ;
+
+        
+    
+    
+            var circle_marker_78a5e84e7d58a4011a81fd6661fdfe32 = L.circleMarker(
+                [33.44863536278231, -111.47688682748154],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_d23dec60948ea8eca8a56d2f46f2473b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90cc5ccc14827da62c1c68151992333a = $(`<div id="html_90cc5ccc14827da62c1c68151992333a" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD05</b></div>`)[0];
+                popup_d23dec60948ea8eca8a56d2f46f2473b.setContent(html_90cc5ccc14827da62c1c68151992333a);
+            
+        
+
+        circle_marker_78a5e84e7d58a4011a81fd6661fdfe32.bindPopup(popup_d23dec60948ea8eca8a56d2f46f2473b)
+        ;
+
+        
+    
+    
+            circle_marker_78a5e84e7d58a4011a81fd6661fdfe32.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_a871d8442af1edfede04a0a06a51fc19 = L.polygon(
+                [[33.46588800000001, -111.467387], [33.46588799999997, -111.464382], [33.465891000000035, -111.45670000000001], [33.465898000000045, -111.44314100000001], [33.465898000000045, -111.442165], [33.465901999999986, -111.429177], [33.46590400000002, -111.428783], [33.46590700000002, -111.428354], [33.46590700000005, -111.424423], [33.46590700000002, -111.409599], [33.46590799999999, -111.394774], [33.46590799999999, -111.392644], [33.46590799999999, -111.390512], [33.46590799999999, -111.38581800000001], [33.46590799999999, -111.380892], [33.46590799999996, -111.379982], [33.46590799999999, -111.371563], [33.46590999999999, -111.366682], [33.46591000000002, -111.36554600000001], [33.465914, -111.340344], [33.46591500000004, -111.333688], [33.46591699999999, -111.322774], [33.46592, -111.310345], [33.465922, -111.299366], [33.46592399999997, -111.2867], [33.46590700000002, -111.284757], [33.46590999999999, -111.281074], [33.46591500000004, -111.28028400000001], [33.46591899999998, -111.269748], [33.454614000000035, -111.269702], [33.44296499999999, -111.269884], [33.442013999999986, -111.269897], [33.43796999999999, -111.269854], [33.422654000000016, -111.269693], [33.39332699999999, -111.269384], [33.393341000000014, -111.269088], [33.39077000000001, -111.268906], [33.388193, -111.2689], [33.37605600000001, -111.269016], [33.37544099999997, -111.269016], [33.36785500000001, -111.268991], [33.362921, -111.26893000000001], [33.362350000000006, -111.268944], [33.35116999999998, -111.268909], [33.34519300000002, -111.26892800000002], [33.33488199999997, -111.268896], [33.333601999999985, -111.268957], [33.332460999999995, -111.268941], [33.32751399999998, -111.268937], [33.32224000000007, -111.268932], [33.318830999999996, -111.268934], [33.31417699999998, -111.26893600000001], [33.313597000000044, -111.268895], [33.30749000000003, -111.268917], [33.30276199999999, -111.268867], [33.30266900000002, -111.268939], [33.30000899999999, -111.26897], [33.29217599999999, -111.269073], [33.28654300000002, -111.26899], [33.282366999999994, -111.268962], [33.280521000000036, -111.26895], [33.28000799999999, -111.270121], [33.27911399999997, -111.271633], [33.277351, -111.274027], [33.27720900000002, -111.274163], [33.277173999999995, -111.274373], [33.276923999999994, -111.275187], [33.275472000000015, -111.279662], [33.27496800000002, -111.280757], [33.274350999999996, -111.281662], [33.27027999999998, -111.28558], [33.269531000000015, -111.286793], [33.26918700000002, -111.287252], [33.26893399999996, -111.287432], [33.26806000000002, -111.288448], [33.26740299999999, -111.289048], [33.26714700000001, -111.289282], [33.265245, -111.29071500000002], [33.264787000000005, -111.291036], [33.26141399999995, -111.293894], [33.26105200000001, -111.29440200000002], [33.260640000000016, -111.29522700000001], [33.260516000000024, -111.295542], [33.259966999999996, -111.29683000000001], [33.25976299999997, -111.297355], [33.258015, -111.300671], [33.257840999999985, -111.30098800000002], [33.25761200000004, -111.301408], [33.25757899999998, -111.304851], [33.25755899999999, -111.307698], [33.25753199999999, -111.310769], [33.25734800000001, -111.319267], [33.25728099999999, -111.320975], [33.257260999999986, -111.321493], [33.25725499999998, -111.322308], [33.257221000000044, -111.323257], [33.25712600000002, -111.324224], [33.25706900000001, -111.324686], [33.25699100000002, -111.325186], [33.25691399999998, -111.325578], [33.25661399999999, -111.32685100000002], [33.25654599999997, -111.327107], [33.25564800000006, -111.33057799999999], [33.25543200000001, -111.331449], [33.25524799999995, -111.332692], [33.25519699999996, -111.333584], [33.255198000000014, -111.33451], [33.25521800000001, -111.33495000000002], [33.25529699999997, -111.335737], [33.25540600000001, -111.33641], [33.25551200000004, -111.336921], [33.255688000000035, -111.337581], [33.25586400000006, -111.338146], [33.255922999999996, -111.338296], [33.25547899999999, -111.338529], [33.255225000000024, -111.338673], [33.254685, -111.338978], [33.25381899999995, -111.339455], [33.253197, -111.339822], [33.25274400000001, -111.340146], [33.253287000000014, -111.339883], [33.25349200000003, -111.339779], [33.25381299999999, -111.33958900000002], [33.25454199999998, -111.33923199999998], [33.25499999999998, -111.338997], [33.25528400000005, -111.338836], [33.25535600000002, -111.338801], [33.25584400000003, -111.33853099999999], [33.25598800000001, -111.338461], [33.256145999999994, -111.33886000000001], [33.256459, -111.339551], [33.25680100000001, -111.340177], [33.25684999999997, -111.340253], [33.25723300000001, -111.340851], [33.25750499999998, -111.341221], [33.25779599999997, -111.34158300000001], [33.25808200000001, -111.341912], [33.25824, -111.342074], [33.25839800000003, -111.34223800000001], [33.25857200000003, -111.34240400000002], [33.25864999999997, -111.342474], [33.25921099999998, -111.342978], [33.260174, -111.343884], [33.26055699999999, -111.34423000000001], [33.261374999999965, -111.345014], [33.26171200000004, -111.34528999999999], [33.262727000000034, -111.346243], [33.262816999999984, -111.346329], [33.263213000000036, -111.346708], [33.26397799999999, -111.347488], [33.26458399999995, -111.34815], [33.265228000000015, -111.348879], [33.26616800000001, -111.350022], [33.26680399999997, -111.350849], [33.26738400000001, -111.351632], [33.267757999999965, -111.352139], [33.26801299999998, -111.352483], [33.26853499999999, -111.353205], [33.26904699999997, -111.3539], [33.27038599999999, -111.355741], [33.270462, -111.355846], [33.27084600000003, -111.356387], [33.270991000000045, -111.356592], [33.272120999999984, -111.35812], [33.272748, -111.358968], [33.27305700000004, -111.359399], [33.273794, -111.360429], [33.27421400000003, -111.36099500000002], [33.27422700000005, -111.361012], [33.27481400000007, -111.361826], [33.274889999999964, -111.361928], [33.275401000000045, -111.362622], [33.276098999999974, -111.363572], [33.27627400000001, -111.363815], [33.276853999999986, -111.36461699999998], [33.27828600000003, -111.366575], [33.27893, -111.36744800000001], [33.27963899999998, -111.368448], [33.28049900000002, -111.369608], [33.28158099999999, -111.371104], [33.282334000000006, -111.372144], [33.283239, -111.373375], [33.284176999999985, -111.374678], [33.284422000000006, -111.375018], [33.284784000000016, -111.375509], [33.28536799999998, -111.376299], [33.28591599999998, -111.377055], [33.286706999999986, -111.378126], [33.28709800000001, -111.37866], [33.287434999999974, -111.379136], [33.28853099999999, -111.380651], [33.28904300000004, -111.381346], [33.289758000000006, -111.382325], [33.290118, -111.382814], [33.29043299999999, -111.383239], [33.29148000000003, -111.384699], [33.29211599999998, -111.385565], [33.292764000000005, -111.38646300000002], [33.292779, -111.392886], [33.29276899999999, -111.396527], [33.29276099999995, -111.41289900000001], [33.29274400000001, -111.438602], [33.293132000000014, -111.438896], [33.29321100000002, -111.438268], [33.29340499999997, -111.436309], [33.29375399999997, -111.435138], [33.294308999999984, -111.434458], [33.294935, -111.433397], [33.29526200000001, -111.431956], [33.29527299999996, -111.429669], [33.295601999999995, -111.427901], [33.296486999999956, -111.425016], [33.29729700000001, -111.423493], [33.29801400000008, -111.42265], [33.29819800000005, -111.422324], [33.29827100000002, -111.421289], [33.29862000000004, -111.420528], [33.29931200000001, -111.419684], [33.29965999999998, -111.419086], [33.30021299999999, -111.418624], [33.300766999999986, -111.418544], [33.30148100000003, -111.418682], [33.30177499999998, -111.418906], [33.302614999999996, -111.419549], [33.302887, -111.419521], [33.303835000000014, -111.418941], [33.30424000000003, -111.4185], [33.304688, -111.417649], [33.30506499999999, -111.416661], [33.30557099999997, -111.414905], [33.30592900000003, -111.414081], [33.306892999999974, -111.412433], [33.307299, -111.41207400000002], [33.307524999999984, -111.412046], [33.30748170613311, -111.41746026331143], [33.308789999999966, -111.408527], [33.36543, -111.476886], [33.36949455698395, -111.4768830097253], [33.369503999999985, -111.476883], [33.36950400259956, -111.47688300277582], [33.37899575378335, -111.4768760184679], [33.378994999999996, -111.476795], [33.38246399999995, -111.47680000000001], [33.382464503305755, -111.4768734656164], [33.38338201075995, -111.47687279033033], [33.383434000000015, -111.476826], [33.38353199999995, -111.47683], [33.38363409820472, -111.4768726047909], [33.38443801395072, -111.47687201309071], [33.384448, -111.476868], [33.38458000000002, -111.476859], [33.384716999999995, -111.476833], [33.384918000000006, -111.476834], [33.38525199999998, -111.476769], [33.38623199999999, -111.476809], [33.38701399999999, -111.47686], [33.38702007802434, -111.47687011254669], [33.39262446109696, -111.47686598695283], [33.39337600000006, -111.47684300000002], [33.39354099999996, -111.471554], [33.39356100000004, -111.471458], [33.39346499999999, -111.462249], [33.393455999999986, -111.459555], [33.394790000000015, -111.459555], [33.396072, -111.459554], [33.40770099999998, -111.459554], [33.40773000000003, -111.466854], [33.40773400000002, -111.468226], [33.407758, -111.476404], [33.4078, -111.476604], [33.407803257337285, -111.47685481016], [33.41454336880411, -111.47684984566837], [33.41508000000001, -111.476786], [33.41720070391407, -111.47684788813652], [33.428600215863774, -111.47683948907502], [33.42888200000003, -111.476633], [33.429504000000044, -111.476633], [33.430515000000014, -111.47663200000001], [33.43099199999999, -111.476687], [33.43132092425081, -111.47683748410051], [33.43319632930949, -111.47683610197097], [33.433343000000015, -111.476686], [33.43358599999997, -111.476738], [33.434136999999986, -111.47671400000002], [33.434361453300134, -111.47683524326683], [33.44000411864106, -111.47683108420472], [33.440510000000025, -111.47671600000001], [33.44214000000002, -111.476735], [33.44267300000003, -111.476728], [33.443862804516975, -111.47682823970457], [33.46588500000002, -111.476812], [33.46588500000004, -111.476259], [33.46588800000001, -111.467387]],
+                {"bubblingMouseEvents": true, "color": "#f032e6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f032e6", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_aca58b63d04b3f7cc37107c840d46516 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0fb5ac2fbabed2df5979646ddc32999 = $(`<div id="html_f0fb5ac2fbabed2df5979646ddc32999" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD02</b></div>`)[0];
+                popup_aca58b63d04b3f7cc37107c840d46516.setContent(html_f0fb5ac2fbabed2df5979646ddc32999);
+            
+        
+
+        polygon_a871d8442af1edfede04a0a06a51fc19.bindPopup(popup_aca58b63d04b3f7cc37107c840d46516)
+        ;
+
+        
+    
+    
+            var circle_marker_79ede70f70424d6dab67a0205bca3d48 = L.circleMarker(
+                [33.327226376657954, -111.37077521315325],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_610e212f956fe7ccc32e96411ab2b00a);
+        
+    
+        var popup_7d88d1358fe813745a83462fab3228ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_058a35227c01abf960172c3a0a70d6da = $(`<div id="html_058a35227c01abf960172c3a0a70d6da" style="width: 100.0%; height: 100.0%;"><b>Pinal - Arizona-CD02</b></div>`)[0];
+                popup_7d88d1358fe813745a83462fab3228ea.setContent(html_058a35227c01abf960172c3a0a70d6da);
+            
+        
+
+        circle_marker_79ede70f70424d6dab67a0205bca3d48.bindPopup(popup_7d88d1358fe813745a83462fab3228ea)
+        ;
+
+        
+    
+    
+            circle_marker_79ede70f70424d6dab67a0205bca3d48.bindTooltip(
+                `<div>
+                     Pinal - Arizona-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6bf887761b7e35425f393589ef7e4eff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Telfair - Georgia-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Telfair - Georgia-CD08</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Telfair - Georgia-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Telfair - Georgia-CD08</p>
+            </div>
+    
+            <div class="folium-map" id="map_6bf887761b7e35425f393589ef7e4eff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6bf887761b7e35425f393589ef7e4eff = L.map(
+                "map_6bf887761b7e35425f393589ef7e4eff",
+                {
+                    center: [32.04685006327053, -82.81883750695258],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_069116d7c607b076488a41610ceb6889 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_069116d7c607b076488a41610ceb6889.addTo(map_6bf887761b7e35425f393589ef7e4eff);
+        
+    
+            var polygon_a454cfef46d6f030c7970ea7ff219cbe = L.polygon(
+                [[32.05271999999999, -82.828635], [32.05155299999996, -82.82060800000001], [32.05115699999999, -82.818085], [32.05106700000002, -82.8177], [32.05080100000003, -82.816574], [32.05073000000001, -82.81635400000002], [32.05052800000001, -82.81644600000001], [32.05029499999998, -82.815736], [32.050266999999984, -82.815752], [32.049632000000045, -82.815998], [32.04883699999998, -82.81638], [32.04837800000001, -82.81503], [32.04719799999997, -82.815639], [32.04606000000002, -82.816104], [32.04584300000001, -82.815468], [32.04580099999996, -82.815358], [32.04517400000004, -82.813565], [32.04498599999999, -82.813179], [32.044178501472494, -82.81223732175663], [32.05297516903246, -82.83079805686596], [32.053027999999955, -82.830735], [32.05271999999999, -82.828635]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6bf887761b7e35425f393589ef7e4eff);
+        
+    
+        var popup_781409802b7917fcfa863f0b9b2b0a30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f77207668184457da05a3fe89dbbf510 = $(`<div id="html_f77207668184457da05a3fe89dbbf510" style="width: 100.0%; height: 100.0%;"><b>Telfair - Georgia-CD12</b></div>`)[0];
+                popup_781409802b7917fcfa863f0b9b2b0a30.setContent(html_f77207668184457da05a3fe89dbbf510);
+            
+        
+
+        polygon_a454cfef46d6f030c7970ea7ff219cbe.bindPopup(popup_781409802b7917fcfa863f0b9b2b0a30)
+        ;
+
+        
+    
+    
+            var circle_marker_0c83b8caa9a2f326d05ef018cfd2ab4d = L.circleMarker(
+                [32.049269485022954, -82.81840983539193],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6bf887761b7e35425f393589ef7e4eff);
+        
+    
+        var popup_1d3b6ee9f487baaf96c2a68394a34d96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49e2e0d93dc6f75af28c4876184f3d24 = $(`<div id="html_49e2e0d93dc6f75af28c4876184f3d24" style="width: 100.0%; height: 100.0%;"><b>Telfair - Georgia-CD12</b></div>`)[0];
+                popup_1d3b6ee9f487baaf96c2a68394a34d96.setContent(html_49e2e0d93dc6f75af28c4876184f3d24);
+            
+        
+
+        circle_marker_0c83b8caa9a2f326d05ef018cfd2ab4d.bindPopup(popup_1d3b6ee9f487baaf96c2a68394a34d96)
+        ;
+
+        
+    
+    
+            circle_marker_0c83b8caa9a2f326d05ef018cfd2ab4d.bindTooltip(
+                `<div>
+                     Telfair - Georgia-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_d13efb96885625ee8b53c90360449991 = L.polygon(
+                [[32.040916, -82.80843300000001], [32.040595, -82.808293], [32.039335, -82.807875], [32.03456900000003, -82.81377], [32.034266000000024, -82.814146], [32.038994000000024, -82.819483], [32.04193500000002, -82.822807], [32.044379, -82.82555], [32.04575100000004, -82.82709800000002], [32.04711800000001, -82.828638], [32.05106400000002, -82.833083], [32.05253200000001, -82.831327], [32.05297516903246, -82.83079805686596], [32.044178501472494, -82.81223732175663], [32.040916, -82.80843300000001]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6bf887761b7e35425f393589ef7e4eff);
+        
+    
+        var popup_18004c958eae5b03199d8e70e6a760ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_325561be17b757a67f6c516003ae4c58 = $(`<div id="html_325561be17b757a67f6c516003ae4c58" style="width: 100.0%; height: 100.0%;"><b>Telfair - Georgia-CD08</b></div>`)[0];
+                popup_18004c958eae5b03199d8e70e6a760ec.setContent(html_325561be17b757a67f6c516003ae4c58);
+            
+        
+
+        polygon_d13efb96885625ee8b53c90360449991.bindPopup(popup_18004c958eae5b03199d8e70e6a760ec)
+        ;
+
+        
+    
+    
+            var circle_marker_6890d54e3ec27ef5f842148d1a03a612 = L.circleMarker(
+                [32.04330157803367, -82.81946475857482],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6bf887761b7e35425f393589ef7e4eff);
+        
+    
+        var popup_15d1573d26d1ac3ebe0b0f3465ff82e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72f582dd9246223ba7a7c84aa2d90d12 = $(`<div id="html_72f582dd9246223ba7a7c84aa2d90d12" style="width: 100.0%; height: 100.0%;"><b>Telfair - Georgia-CD08</b></div>`)[0];
+                popup_15d1573d26d1ac3ebe0b0f3465ff82e8.setContent(html_72f582dd9246223ba7a7c84aa2d90d12);
+            
+        
+
+        circle_marker_6890d54e3ec27ef5f842148d1a03a612.bindPopup(popup_15d1573d26d1ac3ebe0b0f3465ff82e8)
+        ;
+
+        
+    
+    
+            circle_marker_6890d54e3ec27ef5f842148d1a03a612.bindTooltip(
+                `<div>
+                     Telfair - Georgia-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

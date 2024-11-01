@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_de7dca0ce37d06b59e0358aab95415d9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Greene - New York-CD19</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Greene - New York-CD19</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Greene - New York-CD19</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Greene - New York-CD19</p>
+            </div>
+    
+            <div class="folium-map" id="map_de7dca0ce37d06b59e0358aab95415d9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_de7dca0ce37d06b59e0358aab95415d9 = L.map(
+                "map_de7dca0ce37d06b59e0358aab95415d9",
+                {
+                    center: [42.2395929119171, -74.34688014507772],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d8e3094569fb439d9bcba337538ce3e0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d8e3094569fb439d9bcba337538ce3e0.addTo(map_de7dca0ce37d06b59e0358aab95415d9);
+        
+    
+            var polygon_e6d48c44d31340c68d66fc663d3ca6ec = L.polygon(
+                [[42.238984999999985, -74.339767], [42.23909100000005, -74.339698], [42.23971899999996, -74.339042], [42.24040699999998, -74.33837100000001], [42.24137699999999, -74.337691], [42.24162200000001, -74.33747], [42.24181699999996, -74.337269], [42.24196499999998, -74.337072], [42.242152999999945, -74.336728], [42.24223500000003, -74.336532], [42.24229599999999, -74.336163], [42.242319999999985, -74.335766], [42.242269000000036, -74.334322], [42.24222200000002, -74.333145], [42.242113999999965, -74.331768], [42.24212000000002, -74.331027], [42.24211200000002, -74.330622], [42.24206800000003, -74.330042], [42.24202600000001, -74.329639], [42.24192499999997, -74.329262], [42.241519, -74.328081], [42.241362999999986, -74.327712], [42.24128599999999, -74.327497], [42.241272000000045, -74.327367], [42.24132100000003, -74.327204], [42.24159099999999, -74.326573], [42.24167599999999, -74.326343], [42.241733, -74.326134], [42.24175399999996, -74.32577], [42.241738000000005, -74.325259], [42.24162200000001, -74.32465], [42.24058200000003, -74.326538], [42.24080799999997, -74.326949], [42.24117599999999, -74.327711], [42.241255, -74.327915], [42.241310999999996, -74.328168], [42.24133000000002, -74.328336], [42.24134800000002, -74.328632], [42.241479000000005, -74.329954], [42.241471, -74.33023], [42.241417000000034, -74.33061], [42.24139399999996, -74.33070200000002], [42.24128899999997, -74.33113], [42.24127399999998, -74.331231], [42.24123999999998, -74.331667], [42.241211, -74.331849], [42.24112199999999, -74.332043], [42.24104100000003, -74.33217800000001], [42.24071899999998, -74.332575], [42.240434, -74.332963], [42.24033499999999, -74.33310800000001], [42.24026700000002, -74.333227], [42.24019100000001, -74.333406], [42.23990599999998, -74.334008], [42.23973799999997, -74.334327], [42.23937400000003, -74.334941], [42.23892400000003, -74.335657], [42.23852100000002, -74.33634500000001], [42.238231, -74.336814], [42.23788199999998, -74.337301], [42.237792, -74.337426], [42.237341000000036, -74.338087], [42.23727799999996, -74.33821], [42.23722499999995, -74.338345], [42.237195999999976, -74.338445], [42.237138, -74.338522], [42.23757000000002, -74.338844], [42.23784600000004, -74.33902400000001], [42.238046000000004, -74.339139], [42.238418, -74.339374], [42.23846299999998, -74.339448], [42.23849699999999, -74.339522], [42.238518000000006, -74.339616], [42.23852100000002, -74.339849], [42.23867900000001, -74.339849], [42.23884899999999, -74.339817], [42.238984999999985, -74.339767]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_de7dca0ce37d06b59e0358aab95415d9);
+        
+    
+        var popup_737be995d77917e8f540ed5b4ad72c3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e5621dc40e0156a56f4c9658457a96e = $(`<div id="html_5e5621dc40e0156a56f4c9658457a96e" style="width: 100.0%; height: 100.0%;"><b>Greene - New York-CD19</b></div>`)[0];
+                popup_737be995d77917e8f540ed5b4ad72c3a.setContent(html_5e5621dc40e0156a56f4c9658457a96e);
+            
+        
+
+        polygon_e6d48c44d31340c68d66fc663d3ca6ec.bindPopup(popup_737be995d77917e8f540ed5b4ad72c3a)
+        ;
+
+        
+    
+    
+            var circle_marker_4476a82850f15d238595f095b3aca541 = L.circleMarker(
+                [42.24038116883117, -74.33347772727274],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_de7dca0ce37d06b59e0358aab95415d9);
+        
+    
+        var popup_89af116ac38e6a9a3b9c9cc648b0571b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6dc99b7b00a81463813ad6f0a25112 = $(`<div id="html_9d6dc99b7b00a81463813ad6f0a25112" style="width: 100.0%; height: 100.0%;"><b>Greene - New York-CD19</b></div>`)[0];
+                popup_89af116ac38e6a9a3b9c9cc648b0571b.setContent(html_9d6dc99b7b00a81463813ad6f0a25112);
+            
+        
+
+        circle_marker_4476a82850f15d238595f095b3aca541.bindPopup(popup_89af116ac38e6a9a3b9c9cc648b0571b)
+        ;
+
+        
+    
+    
+            circle_marker_4476a82850f15d238595f095b3aca541.bindTooltip(
+                `<div>
+                     Greene - New York-CD19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_07035d766e058834f86e6e1c3b5a7a66 = L.polygon(
+                [[42.243874000000005, -74.369924], [42.24383100000006, -74.369578], [42.24379100000003, -74.369203], [42.24370699999998, -74.367575], [42.24368099999997, -74.367235], [42.24361000000002, -74.366778], [42.24355200000003, -74.366481], [42.24348799999998, -74.36625], [42.243380999999964, -74.365911], [42.24326900000001, -74.365615], [42.24314600000004, -74.365335], [42.24289599999999, -74.364856], [42.242126, -74.36367700000001], [42.241739999999986, -74.363131], [42.240981000000026, -74.362018], [42.24062699999998, -74.36145900000001], [42.23998999999999, -74.360531], [42.23980699999998, -74.360246], [42.23919200000005, -74.35935300000001], [42.23912200000002, -74.359236], [42.23894400000007, -74.358938], [42.238819999999976, -74.358672], [42.23868699999995, -74.358349], [42.23859500000001, -74.358083], [42.238494999999965, -74.357729], [42.238445000000006, -74.35749400000002], [42.23835800000002, -74.357023], [42.238265999999996, -74.356229], [42.23818700000004, -74.3552], [42.23799299999998, -74.352426], [42.237956, -74.351964], [42.237691999999974, -74.348985], [42.237634999999976, -74.348189], [42.237628, -74.347855], [42.23763600000004, -74.34711200000001], [42.237662999999976, -74.346707], [42.237668, -74.346657], [42.237733000000006, -74.346016], [42.23778099999996, -74.345623], [42.237885000000055, -74.345029], [42.23805699999998, -74.34431], [42.23829899999998, -74.34352300000002], [42.23846299999998, -74.34307200000002], [42.23866200000001, -74.342591], [42.238713, -74.342467], [42.23901099999997, -74.341851], [42.23880899999999, -74.341701], [42.238669999999956, -74.341512], [42.238621, -74.341397], [42.23857900000001, -74.341254], [42.23853600000002, -74.341017], [42.238512, -74.340455], [42.238515, -74.340279], [42.23852100000002, -74.339849], [42.23786899999999, -74.339853], [42.23769000000002, -74.339907], [42.237551000000046, -74.33998], [42.237424000000004, -74.340099], [42.23733700000004, -74.340206], [42.23722499999995, -74.34041900000001], [42.236997000000024, -74.340918], [42.23682700000002, -74.341324], [42.236782000000055, -74.34146700000001], [42.23664200000004, -74.342158], [42.23655600000002, -74.342687], [42.236239999999995, -74.344203], [42.23587900000002, -74.347428], [42.23579300000003, -74.348289], [42.235767999999986, -74.34919100000002], [42.23576799999996, -74.34999], [42.235739999999986, -74.350174], [42.23541800000001, -74.351503], [42.23538299999996, -74.35176200000001], [42.235393999999985, -74.352119], [42.235378999999995, -74.352299], [42.235271, -74.352923], [42.235219, -74.353245], [42.235208000000014, -74.35427], [42.23523500000004, -74.354721], [42.235309, -74.354994], [42.23539699999998, -74.35557000000001], [42.235468000000004, -74.35633], [42.23548899999997, -74.35665900000001], [42.235527999999995, -74.35684], [42.235852999999985, -74.357568], [42.23617399999997, -74.358205], [42.23666000000003, -74.359129], [42.236961, -74.359762], [42.23715500000001, -74.360095], [42.238797999999996, -74.362531], [42.23911299999999, -74.363097], [42.23919400000002, -74.363281], [42.23930199999998, -74.363573], [42.23965000000002, -74.364717], [42.239794999999994, -74.365261], [42.240019000000004, -74.365848], [42.24003499999999, -74.365892], [42.240170000000006, -74.365724], [42.24031099999999, -74.36557], [42.24041899999997, -74.365467], [42.240456999999985, -74.365623], [42.24054300000001, -74.365856], [42.240679, -74.36611500000001], [42.24096300000002, -74.366515], [42.24133000000002, -74.36711100000001], [42.24190399999997, -74.367965], [42.242868000000016, -74.369132], [42.242975999999985, -74.369291], [42.24307699999997, -74.369494], [42.243368000000025, -74.370078], [42.243534999999994, -74.37030800000001], [42.243620999999976, -74.370366], [42.243726000000024, -74.370408], [42.24399700000002, -74.370483], [42.24392300000001, -74.37021600000001], [42.243874000000005, -74.369924]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_de7dca0ce37d06b59e0358aab95415d9);
+        
+    
+        var popup_864ce377fd4c4d06e7c39f9895609fd4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_340dd8b2b8d2838ead301dcee3f79802 = $(`<div id="html_340dd8b2b8d2838ead301dcee3f79802" style="width: 100.0%; height: 100.0%;"><b>Greene - New York-CD19</b></div>`)[0];
+                popup_864ce377fd4c4d06e7c39f9895609fd4.setContent(html_340dd8b2b8d2838ead301dcee3f79802);
+            
+        
+
+        polygon_07035d766e058834f86e6e1c3b5a7a66.bindPopup(popup_864ce377fd4c4d06e7c39f9895609fd4)
+        ;
+
+        
+    
+    
+            var circle_marker_4ec95f807b43ac2028c81013d4a14b0d = L.circleMarker(
+                [42.23906967241379, -74.35577657758621],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_de7dca0ce37d06b59e0358aab95415d9);
+        
+    
+        var popup_6bf93bf0d95342d9f89f3c21920476f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83d1780c4a6c3c7b1d35bdddcdd8a770 = $(`<div id="html_83d1780c4a6c3c7b1d35bdddcdd8a770" style="width: 100.0%; height: 100.0%;"><b>Greene - New York-CD19</b></div>`)[0];
+                popup_6bf93bf0d95342d9f89f3c21920476f4.setContent(html_83d1780c4a6c3c7b1d35bdddcdd8a770);
+            
+        
+
+        circle_marker_4ec95f807b43ac2028c81013d4a14b0d.bindPopup(popup_6bf93bf0d95342d9f89f3c21920476f4)
+        ;
+
+        
+    
+    
+            circle_marker_4ec95f807b43ac2028c81013d4a14b0d.bindTooltip(
+                `<div>
+                     Greene - New York-CD19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

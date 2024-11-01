@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8b517ef1e8ae76c8416c9dd9e05a58c0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div class="folium-map" id="map_8b517ef1e8ae76c8416c9dd9e05a58c0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8b517ef1e8ae76c8416c9dd9e05a58c0 = L.map(
+                "map_8b517ef1e8ae76c8416c9dd9e05a58c0",
+                {
+                    center: [47.92288656551723, -97.07815446206897],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b223db052b44e212a2171aa34c96409 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7b223db052b44e212a2171aa34c96409.addTo(map_8b517ef1e8ae76c8416c9dd9e05a58c0);
+        
+    
+            var polygon_e55bb3a36a3e4508c5b54bf60c8e190f = L.polygon(
+                [[47.93296099999996, -97.070678], [47.93302700000005, -97.070678], [47.93307700000001, -97.066623], [47.92922899999999, -97.066615], [47.92924099999998, -97.06902], [47.92924099999998, -97.069181], [47.92924200000001, -97.069258], [47.929223000000015, -97.070678], [47.93099600000004, -97.070678], [47.931045000000054, -97.070678], [47.93296099999996, -97.070678]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8b517ef1e8ae76c8416c9dd9e05a58c0);
+        
+    
+        var popup_faa36e34a8e7be88fc392494cad1c7e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d00cb362976ca4dce0fdb4a5697b77bd = $(`<div id="html_d00cb362976ca4dce0fdb4a5697b77bd" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD00</b></div>`)[0];
+                popup_faa36e34a8e7be88fc392494cad1c7e0.setContent(html_d00cb362976ca4dce0fdb4a5697b77bd);
+            
+        
+
+        polygon_e55bb3a36a3e4508c5b54bf60c8e190f.bindPopup(popup_faa36e34a8e7be88fc392494cad1c7e0)
+        ;
+
+        
+    
+    
+            var circle_marker_a5577246654172d8fa93603ce90d3c83 = L.circleMarker(
+                [47.93093118181819, -97.0695240909091],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b517ef1e8ae76c8416c9dd9e05a58c0);
+        
+    
+        var popup_7d1375d6a452e82007b27a66feadd4a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_023192eb956db7b3b34d2748bb15aaae = $(`<div id="html_023192eb956db7b3b34d2748bb15aaae" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD00</b></div>`)[0];
+                popup_7d1375d6a452e82007b27a66feadd4a0.setContent(html_023192eb956db7b3b34d2748bb15aaae);
+            
+        
+
+        circle_marker_a5577246654172d8fa93603ce90d3c83.bindPopup(popup_7d1375d6a452e82007b27a66feadd4a0)
+        ;
+
+        
+    
+    
+            circle_marker_a5577246654172d8fa93603ce90d3c83.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_ee46f1ad76d5197745136b0a7fd07887 = L.polygon(
+                [[47.92189299999995, -97.090508], [47.92227999999998, -97.090503], [47.92227799999999, -97.088121], [47.922276999999994, -97.087789], [47.922282000000024, -97.08618], [47.921932000000005, -97.086176], [47.921928999999984, -97.08608], [47.921902999999986, -97.085987], [47.92186400000005, -97.085963], [47.92182199999999, -97.085958], [47.92076299999993, -97.085959], [47.92070900000001, -97.085915], [47.920679000000014, -97.085811], [47.92067099999997, -97.085428], [47.92065300000003, -97.085325], [47.92057699999998, -97.085187], [47.920532, -97.08505100000002], [47.920507, -97.084895], [47.920509, -97.084316], [47.92050100000003, -97.083699], [47.92046400000006, -97.083464], [47.92040000000002, -97.083276], [47.92032099999998, -97.083101], [47.91917600000006, -97.080777], [47.91912500000002, -97.080673], [47.91929499999999, -97.080494], [47.919412000000015, -97.080435], [47.91955000000003, -97.080417], [47.920043999999976, -97.080427], [47.92096300000002, -97.080446], [47.921258, -97.080452], [47.92154399999998, -97.080458], [47.92154900000006, -97.080642], [47.921300999999985, -97.081049], [47.92103299999999, -97.08149], [47.92103499999996, -97.081608], [47.921051000000006, -97.082868], [47.92227999999998, -97.082887], [47.92227700000001, -97.08228300000002], [47.92281299999998, -97.082295], [47.92388600000005, -97.082299], [47.924812999999965, -97.082304], [47.925769999999964, -97.082298], [47.92577200000004, -97.081071], [47.92576800000003, -97.0789], [47.92574500000003, -97.077632], [47.925744000000044, -97.077602], [47.92563399999996, -97.077638], [47.92559799999999, -97.077641], [47.92549999999992, -97.0777], [47.92547100000001, -97.077731], [47.92537099999996, -97.077788], [47.925262999999994, -97.077797], [47.92522800000001, -97.077788], [47.925157999999975, -97.077759], [47.925126000000034, -97.07773600000002], [47.925008000000005, -97.077614], [47.92487899999999, -97.077432], [47.92473399999998, -97.077197], [47.92464800000002, -97.077028], [47.92452799999999, -97.07671], [47.92445199999994, -97.076532], [47.92435900000002, -97.076371], [47.924307000000006, -97.076299], [47.92427299999997, -97.07628], [47.92420100000004, -97.076278], [47.92416599999999, -97.076268], [47.924094000000004, -97.076281], [47.92399299999995, -97.076331], [47.92396199999999, -97.076356], [47.923826999999925, -97.076417], [47.92379799999997, -97.076448], [47.92361100000002, -97.076594], [47.92354599999999, -97.076637], [47.92347499999997, -97.076647], [47.923367000000006, -97.076628], [47.923265999999956, -97.076575], [47.92317200000004, -97.076498], [47.92312000000001, -97.076441], [47.92308600000005, -97.076405], [47.922957, -97.07630900000001], [47.922928000000006, -97.076281], [47.92289399999999, -97.07626400000001], [47.922859, -97.076255], [47.922824000000006, -97.076259], [47.92278999999998, -97.076243], [47.922719000000015, -97.07624], [47.92268400000003, -97.076247], [47.92265099999994, -97.07626400000001], [47.92255599999998, -97.076335], [47.922487999999944, -97.076343], [47.92246799999998, -97.076364], [47.922427, -97.076384], [47.922403000000045, -97.076388], [47.922329999999995, -97.076424], [47.92227799999999, -97.07644], [47.92227299999998, -97.075417], [47.92379799999997, -97.075417], [47.9243, -97.075417], [47.92429700000002, -97.073872], [47.92429899999997, -97.072155], [47.922268, -97.07214], [47.922268, -97.070923], [47.92226999999999, -97.07063200000002], [47.922267000000005, -97.069221], [47.92226399999999, -97.067809], [47.92227200000002, -97.06639200000001], [47.921209, -97.066285], [47.921200999999996, -97.06469], [47.92120000000002, -97.064467], [47.92119099999998, -97.062581], [47.921192000000005, -97.059668], [47.92015100000001, -97.059664], [47.919109999999954, -97.05967], [47.918681000000014, -97.059662], [47.91851599999999, -97.05966], [47.918530000000004, -97.066248], [47.91854700000001, -97.076128], [47.91854699999999, -97.076184], [47.91855200000001, -97.078599], [47.91856400000003, -97.084059], [47.91857100000001, -97.088277], [47.91898099999997, -97.088255], [47.91954199999999, -97.088157], [47.920238, -97.08813200000002], [47.92023999999998, -97.089418], [47.920305000000006, -97.089766], [47.92035500000003, -97.089919], [47.92051500000003, -97.09026], [47.92070499999995, -97.090526], [47.920930000000006, -97.09073400000001], [47.921168000000044, -97.090773], [47.921671999999965, -97.090563], [47.92189299999995, -97.090508]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8b517ef1e8ae76c8416c9dd9e05a58c0);
+        
+    
+        var popup_0ac1c2db51b0c845cd7b8b7db3fb7698 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2ed0b773106dfa83014593181b21543 = $(`<div id="html_e2ed0b773106dfa83014593181b21543" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD00</b></div>`)[0];
+                popup_0ac1c2db51b0c845cd7b8b7db3fb7698.setContent(html_e2ed0b773106dfa83014593181b21543);
+            
+        
+
+        polygon_ee46f1ad76d5197745136b0a7fd07887.bindPopup(popup_0ac1c2db51b0c845cd7b8b7db3fb7698)
+        ;
+
+        
+    
+    
+            var circle_marker_11ffdf45255c5b79f1ca4456449e1600 = L.circleMarker(
+                [47.92222618656716, -97.07886292537314],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8b517ef1e8ae76c8416c9dd9e05a58c0);
+        
+    
+        var popup_3d3d5806ae7b88b232e4aa1782d82f51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b38fdcc4aec08efc74944f565e7e23e2 = $(`<div id="html_b38fdcc4aec08efc74944f565e7e23e2" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD00</b></div>`)[0];
+                popup_3d3d5806ae7b88b232e4aa1782d82f51.setContent(html_b38fdcc4aec08efc74944f565e7e23e2);
+            
+        
+
+        circle_marker_11ffdf45255c5b79f1ca4456449e1600.bindPopup(popup_3d3d5806ae7b88b232e4aa1782d82f51)
+        ;
+
+        
+    
+    
+            circle_marker_11ffdf45255c5b79f1ca4456449e1600.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

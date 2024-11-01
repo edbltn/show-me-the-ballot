@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e9b0c8edf6068cf18945fe8781907bf0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fulton - Georgia-CD06</p>
+            </div>
+    
+            <div class="folium-map" id="map_e9b0c8edf6068cf18945fe8781907bf0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e9b0c8edf6068cf18945fe8781907bf0 = L.map(
+                "map_e9b0c8edf6068cf18945fe8781907bf0",
+                {
+                    center: [34.17550734774653, -84.25894507670561],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a508db6e26d21f00f8ead1709dc5ed7d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a508db6e26d21f00f8ead1709dc5ed7d.addTo(map_e9b0c8edf6068cf18945fe8781907bf0);
+        
+    
+            var polygon_1dcf5a991e6af6cab6cb61a6c7ef1d1d = L.polygon(
+                [[34.18590500000002, -84.258743], [34.185905999999996, -84.258707], [34.18590599999998, -84.258688], [34.18589300000003, -84.258688], [34.18276561459795, -84.25867700216124], [34.18285900000002, -84.25907], [34.183429, -84.259061], [34.18591799999998, -84.259019], [34.18590500000002, -84.259019], [34.18590500000002, -84.258743]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e9b0c8edf6068cf18945fe8781907bf0);
+        
+    
+        var popup_747399f4713cc948e126582766aafcab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6f0b46aaa16f49fa692cd506688e539 = $(`<div id="html_f6f0b46aaa16f49fa692cd506688e539" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD06</b></div>`)[0];
+                popup_747399f4713cc948e126582766aafcab.setContent(html_f6f0b46aaa16f49fa692cd506688e539);
+            
+        
+
+        polygon_1dcf5a991e6af6cab6cb61a6c7ef1d1d.bindPopup(popup_747399f4713cc948e126582766aafcab)
+        ;
+
+        
+    
+    
+            var circle_marker_582ef3c1c1ef5f80ae5119e4ba91b46f = L.circleMarker(
+                [34.185039161459805, -84.2588415002161],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e9b0c8edf6068cf18945fe8781907bf0);
+        
+    
+        var popup_181f197beba437a5c918aae66b743558 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f37d08ab9fcb940757f2ede8fbc99fde = $(`<div id="html_f37d08ab9fcb940757f2ede8fbc99fde" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD06</b></div>`)[0];
+                popup_181f197beba437a5c918aae66b743558.setContent(html_f37d08ab9fcb940757f2ede8fbc99fde);
+            
+        
+
+        circle_marker_582ef3c1c1ef5f80ae5119e4ba91b46f.bindPopup(popup_181f197beba437a5c918aae66b743558)
+        ;
+
+        
+    
+    
+            circle_marker_582ef3c1c1ef5f80ae5119e4ba91b46f.bindTooltip(
+                `<div>
+                     Fulton - Georgia-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_29bc0181562963a8c9b030f7dfd1951c = L.polygon(
+                [[34.17507200000001, -84.258903], [34.17302899999999, -84.258893], [34.17136500000003, -84.258883], [34.17088499999994, -84.258879], [34.16879999999999, -84.258866], [34.16749499999999, -84.258857], [34.1674947005443, -84.25885699734731], [34.16749400000002, -84.259015], [34.16758200000004, -84.259016], [34.168050000000015, -84.259022], [34.16889400000004, -84.259033], [34.16925799999999, -84.259037], [34.170881000000044, -84.25905800000001], [34.17095099999996, -84.259059], [34.17102499999999, -84.259062], [34.17107400000003, -84.25906], [34.17111500000002, -84.259061], [34.171350000000004, -84.259064], [34.171650999999976, -84.259062], [34.171692000000036, -84.259046], [34.17303799999997, -84.259047], [34.174944999999944, -84.259046], [34.175074, -84.259046], [34.17757099999997, -84.259026], [34.17824900000005, -84.259021], [34.17837800000002, -84.259019], [34.17845524697235, -84.25880099201089], [34.17845500000001, -84.258801], [34.17507200000001, -84.258903]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e9b0c8edf6068cf18945fe8781907bf0);
+        
+    
+        var popup_aeabd188adcb048bd822e5ebc0b10013 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c3a2ab356a87dafc34edeb6e0400763 = $(`<div id="html_1c3a2ab356a87dafc34edeb6e0400763" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD06</b></div>`)[0];
+                popup_aeabd188adcb048bd822e5ebc0b10013.setContent(html_1c3a2ab356a87dafc34edeb6e0400763);
+            
+        
+
+        polygon_29bc0181562963a8c9b030f7dfd1951c.bindPopup(popup_aeabd188adcb048bd822e5ebc0b10013)
+        ;
+
+        
+    
+    
+            var circle_marker_9b5719f71f481dd3be5cc9cf5c8e00b2 = L.circleMarker(
+                [34.17222051543162, -84.25898079273648],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e9b0c8edf6068cf18945fe8781907bf0);
+        
+    
+        var popup_7280b9171acb1374c78d861f4464a9bb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_493fcdd3da7cc04d526177cab2434fe2 = $(`<div id="html_493fcdd3da7cc04d526177cab2434fe2" style="width: 100.0%; height: 100.0%;"><b>Fulton - Georgia-CD06</b></div>`)[0];
+                popup_7280b9171acb1374c78d861f4464a9bb.setContent(html_493fcdd3da7cc04d526177cab2434fe2);
+            
+        
+
+        circle_marker_9b5719f71f481dd3be5cc9cf5c8e00b2.bindPopup(popup_7280b9171acb1374c78d861f4464a9bb)
+        ;
+
+        
+    
+    
+            circle_marker_9b5719f71f481dd3be5cc9cf5c8e00b2.bindTooltip(
+                `<div>
+                     Fulton - Georgia-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

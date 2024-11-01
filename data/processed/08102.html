@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f8d7ccee2d55f4f6748948d066c4301e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Camden - New Jersey-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Camden - New Jersey-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Camden - New Jersey-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Camden - New Jersey-CD01</p>
+            </div>
+    
+            <div class="folium-map" id="map_f8d7ccee2d55f4f6748948d066c4301e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f8d7ccee2d55f4f6748948d066c4301e = L.map(
+                "map_f8d7ccee2d55f4f6748948d066c4301e",
+                {
+                    center: [39.948402254560534, -75.11843315485478],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12856ed42740dde84e248dadb25e19b6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_12856ed42740dde84e248dadb25e19b6.addTo(map_f8d7ccee2d55f4f6748948d066c4301e);
+        
+    
+            var polygon_3f630c03bb0dc5ceac65e1eeecd7dd30 = L.polygon(
+                [[39.95462, -75.133698], [39.95511300000004, -75.133347], [39.955113532869426, -75.13334670247286], [39.956355, -75.132463], [39.957319, -75.131777], [39.95860799999999, -75.130591], [39.95873700000003, -75.130404], [39.95923400000004, -75.129685], [39.959296000000045, -75.12959], [39.96182300000001, -75.125701], [39.96196, -75.125421], [39.96270100000006, -75.12391], [39.96274399999997, -75.123821], [39.961529, -75.122796], [39.96151258359899, -75.12273672414759], [39.947111999999976, -75.13572], [39.94494602393011, -75.13562212270767], [39.944968999999965, -75.136078], [39.94564099999998, -75.136003], [39.946062, -75.135955], [39.94696799999995, -75.135816], [39.94831200000001, -75.135606], [39.949183000000026, -75.13547], [39.94940399999998, -75.135436], [39.95067699999995, -75.135239], [39.952217, -75.134636], [39.952740999999996, -75.134432], [39.952857, -75.134386], [39.95289799999998, -75.13437], [39.95294299999997, -75.134352], [39.952974, -75.13434], [39.95305899999995, -75.134307], [39.95315500000003, -75.13427], [39.95340900000002, -75.13417000000001], [39.95421699999999, -75.133855], [39.95445999999998, -75.13376], [39.95462, -75.133698]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f8d7ccee2d55f4f6748948d066c4301e);
+        
+    
+        var popup_bc84265e3afb4e5668ca4cbe41484239 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11f8ea51b5c36aedff1b1bc676588e8d = $(`<div id="html_11f8ea51b5c36aedff1b1bc676588e8d" style="width: 100.0%; height: 100.0%;"><b>Camden - New Jersey-CD02</b></div>`)[0];
+                popup_bc84265e3afb4e5668ca4cbe41484239.setContent(html_11f8ea51b5c36aedff1b1bc676588e8d);
+            
+        
+
+        polygon_3f630c03bb0dc5ceac65e1eeecd7dd30.bindPopup(popup_bc84265e3afb4e5668ca4cbe41484239)
+        ;
+
+        
+    
+    
+            var circle_marker_c9611bbc624127f5884b1d988c725946 = L.circleMarker(
+                [39.95404024703779, -75.13234617700887],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f8d7ccee2d55f4f6748948d066c4301e);
+        
+    
+        var popup_1746134ad61bcf25944e678763b6fdad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99fabaccc646484549123de5b823c33a = $(`<div id="html_99fabaccc646484549123de5b823c33a" style="width: 100.0%; height: 100.0%;"><b>Camden - New Jersey-CD02</b></div>`)[0];
+                popup_1746134ad61bcf25944e678763b6fdad.setContent(html_99fabaccc646484549123de5b823c33a);
+            
+        
+
+        circle_marker_c9611bbc624127f5884b1d988c725946.bindPopup(popup_1746134ad61bcf25944e678763b6fdad)
+        ;
+
+        
+    
+    
+            circle_marker_c9611bbc624127f5884b1d988c725946.bindTooltip(
+                `<div>
+                     Camden - New Jersey-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_60e8ac69672279981ad9147ecb6af474 = L.polygon(
+                [[39.960012000000006, -75.117319], [39.95923600000004, -75.113722], [39.959130000000044, -75.11323200000001], [39.95845899999997, -75.110126], [39.958286, -75.10932200000002], [39.95811200000003, -75.108519], [39.953224000000006, -75.110508], [39.95318800000001, -75.110524], [39.95283599999996, -75.110617], [39.95231900000001, -75.110588], [39.95178700000002, -75.11042], [39.95131799999997, -75.110091], [39.95130499999997, -75.110184], [39.951277, -75.110416], [39.95125299999999, -75.110621], [39.95123900000002, -75.11041], [39.950867999999964, -75.110356], [39.950685999999976, -75.110368], [39.950465999999984, -75.11028], [39.950445000000016, -75.110275], [39.950157999999995, -75.110212], [39.950115000000004, -75.110203], [39.949714000000064, -75.110099], [39.949215000000024, -75.10985000000001], [39.94888599999999, -75.109668], [39.948784, -75.109614], [39.948503000000024, -75.109464], [39.94797199999999, -75.10910000000001], [39.94738599999997, -75.108608], [39.94686600000001, -75.108309], [39.946493, -75.108048], [39.94615400000002, -75.107773], [39.945896999999974, -75.107535], [39.945674, -75.107225], [39.94560000000003, -75.106825], [39.94560000000003, -75.106764], [39.94559700000002, -75.106368], [39.94561200000004, -75.105789], [39.945697999999986, -75.105262], [39.94566199999998, -75.10499800000001], [39.94562, -75.104725], [39.945473, -75.104431], [39.94522699999998, -75.104265], [39.94513700000003, -75.104264], [39.94507499999999, -75.10426300000002], [39.944930000000035, -75.10426100000001], [39.944677000000006, -75.104258], [39.94439600000001, -75.104333], [39.94409699999995, -75.104434], [39.943979999999954, -75.10447200000002], [39.943973000000035, -75.104527], [39.94396699999995, -75.104868], [39.94395899999997, -75.105304], [39.943964999999956, -75.105614], [39.943985999999995, -75.10663], [39.94399000000003, -75.106838], [39.943984000000036, -75.106979], [39.943984000000036, -75.10705200000001], [39.943984000000036, -75.10712], [39.94398700000002, -75.107161], [39.94399699999997, -75.107281], [39.94399000000003, -75.107779], [39.94399099999995, -75.107882], [39.94399199999995, -75.10804], [39.94401900000002, -75.108942], [39.94403100000002, -75.109413], [39.944031999999964, -75.10961], [39.944046000000036, -75.110105], [39.94397599999997, -75.110401], [39.94399899999999, -75.111013], [39.94401400000001, -75.11164], [39.94401200000004, -75.112042], [39.944041999999996, -75.112834], [39.94404100000004, -75.113074], [39.944041999999996, -75.11317], [39.94404399999999, -75.113382], [39.944047000000005, -75.113572], [39.94404699999999, -75.11366100000001], [39.944046000000036, -75.11374800000002], [39.944046000000036, -75.11409300000001], [39.944047000000005, -75.115075], [39.944045000000045, -75.115551], [39.944031999999964, -75.115884], [39.94403700000002, -75.116255], [39.94404100000004, -75.116508], [39.94403899999997, -75.116927], [39.94407699999996, -75.118106], [39.94408899999998, -75.118422], [39.94409500000002, -75.11921], [39.94520800000005, -75.118855], [39.945340000000016, -75.119464], [39.945471999999995, -75.120073], [39.94565499999999, -75.12092], [39.945683999999986, -75.121056], [39.94453100000001, -75.121453], [39.94458499999999, -75.121903], [39.944693000000015, -75.12280000000001], [39.94453100000001, -75.12283800000002], [39.94419, -75.122871], [39.94424299999999, -75.123578], [39.944288, -75.12436], [39.94472099999997, -75.124227], [39.94482500000002, -75.124195], [39.945242000000015, -75.124067], [39.945642000000035, -75.123944], [39.94618700000004, -75.123776], [39.94623100000002, -75.124014], [39.94628299999997, -75.12429200000001], [39.94644100000001, -75.12514300000001], [39.946695000000005, -75.126453], [39.946181000000024, -75.126627], [39.94565499999999, -75.126806], [39.945559, -75.126839], [39.94593400000004, -75.12858], [39.94594599999999, -75.128636], [39.945248, -75.128855], [39.94519099999998, -75.128873], [39.944646, -75.12904300000001], [39.94467100000003, -75.129475], [39.944687, -75.129765], [39.94468199999995, -75.129933], [39.94466399999995, -75.12999500000001], [39.94476800000001, -75.132091], [39.94494602393011, -75.13562212270767], [39.947111999999976, -75.13572], [39.96151258359899, -75.12273672414759], [39.960012000000006, -75.117319]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f8d7ccee2d55f4f6748948d066c4301e);
+        
+    
+        var popup_6bf7edf2ddeabecbc4bb786d1e44d46b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64a525266e144dd5bc99f15cdc585b99 = $(`<div id="html_64a525266e144dd5bc99f15cdc585b99" style="width: 100.0%; height: 100.0%;"><b>Camden - New Jersey-CD01</b></div>`)[0];
+                popup_6bf7edf2ddeabecbc4bb786d1e44d46b.setContent(html_64a525266e144dd5bc99f15cdc585b99);
+            
+        
+
+        polygon_60e8ac69672279981ad9147ecb6af474.bindPopup(popup_6bf7edf2ddeabecbc4bb786d1e44d46b)
+        ;
+
+        
+    
+    
+            var circle_marker_640a87fe3a83c9b91a4f6d2395f76207 = L.circleMarker(
+                [39.94675968982307, -75.11437975469963],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f8d7ccee2d55f4f6748948d066c4301e);
+        
+    
+        var popup_df1c90b0a89df289a7b68bbe624c25f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bd237ec8e7c8db4f6bf97c4c88a112d = $(`<div id="html_9bd237ec8e7c8db4f6bf97c4c88a112d" style="width: 100.0%; height: 100.0%;"><b>Camden - New Jersey-CD01</b></div>`)[0];
+                popup_df1c90b0a89df289a7b68bbe624c25f0.setContent(html_9bd237ec8e7c8db4f6bf97c4c88a112d);
+            
+        
+
+        circle_marker_640a87fe3a83c9b91a4f6d2395f76207.bindPopup(popup_df1c90b0a89df289a7b68bbe624c25f0)
+        ;
+
+        
+    
+    
+            circle_marker_640a87fe3a83c9b91a4f6d2395f76207.bindTooltip(
+                `<div>
+                     Camden - New Jersey-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

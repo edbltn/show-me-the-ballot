@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e4d6124c061d9e1cd43cdf550e89ffca {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cattaraugus - New York-CD23</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cattaraugus - New York-CD23</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cattaraugus - New York-CD23</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cattaraugus - New York-CD23</p>
+            </div>
+    
+            <div class="folium-map" id="map_e4d6124c061d9e1cd43cdf550e89ffca" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e4d6124c061d9e1cd43cdf550e89ffca = L.map(
+                "map_e4d6124c061d9e1cd43cdf550e89ffca",
+                {
+                    center: [42.414162457446814, -78.9757711170213],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_77fe9245da84ded4fc7c3f0c41cafa35 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_77fe9245da84ded4fc7c3f0c41cafa35.addTo(map_e4d6124c061d9e1cd43cdf550e89ffca);
+        
+    
+            var polygon_13bf14c6cc3f06ae683d26c84367914f = L.polygon(
+                [[42.42616300000004, -78.982061], [42.42614700000004, -78.97595], [42.42613799999998, -78.972742], [42.424747999999994, -78.972737], [42.423949000000015, -78.970133], [42.424294999999994, -78.969497], [42.42445199999998, -78.969182], [42.42463200000005, -78.968752], [42.42412700000002, -78.968764], [42.423872999999965, -78.968797], [42.42365099999995, -78.968878], [42.42346299999994, -78.96898100000001], [42.423036000000025, -78.969244], [42.423052999999946, -78.969375], [42.42305399999998, -78.970396], [42.42307300000004, -78.97175], [42.42155200000005, -78.974563], [42.421049999999994, -78.975477], [42.42098500000004, -78.97559600000001], [42.420914000000025, -78.975735], [42.419723999999995, -78.975667], [42.41928200000006, -78.975569], [42.419334000000056, -78.97545], [42.41942700000004, -78.97519], [42.419471999999985, -78.97502300000001], [42.41919700000002, -78.974919], [42.418852, -78.974789], [42.41880900000001, -78.974462], [42.41852800000003, -78.97234100000001], [42.41819800000004, -78.972186], [42.41778400000004, -78.971991], [42.41639600000001, -78.971971], [42.415982000000014, -78.975126], [42.41645899999999, -78.975302], [42.41682600000002, -78.975397], [42.41753700000001, -78.975534], [42.417777, -78.97555], [42.41788399999999, -78.975557], [42.417868, -78.976324], [42.41717199999999, -78.976583], [42.41703700000005, -78.976654], [42.41695699999998, -78.976724], [42.416545, -78.97731200000001], [42.41631199999996, -78.977605], [42.41533799999996, -78.978902], [42.414852000000025, -78.979547], [42.414798999999974, -78.979617], [42.41441900000002, -78.980138], [42.41439599999999, -78.980169], [42.41427799999998, -78.980339], [42.41482699999996, -78.981126], [42.41669699999998, -78.981151], [42.41667900000003, -78.983131], [42.41909400000005, -78.983107], [42.41905599999997, -78.98108100000002], [42.42314000000001, -78.981141], [42.42315500000006, -78.983594], [42.425956000000006, -78.98367], [42.427337000000016, -78.983707], [42.42889100000002, -78.983561], [42.42616300000004, -78.982061]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e4d6124c061d9e1cd43cdf550e89ffca);
+        
+    
+        var popup_5170d960bc395a586f7b9a5fec4d485d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae3dbedb132ef025ba817c6a20710686 = $(`<div id="html_ae3dbedb132ef025ba817c6a20710686" style="width: 100.0%; height: 100.0%;"><b>Cattaraugus - New York-CD23</b></div>`)[0];
+                popup_5170d960bc395a586f7b9a5fec4d485d.setContent(html_ae3dbedb132ef025ba817c6a20710686);
+            
+        
+
+        polygon_13bf14c6cc3f06ae683d26c84367914f.bindPopup(popup_5170d960bc395a586f7b9a5fec4d485d)
+        ;
+
+        
+    
+    
+            var circle_marker_698203a48dd89c629cfeed5543ce2da0 = L.circleMarker(
+                [42.42017690163935, -78.975866852459],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e4d6124c061d9e1cd43cdf550e89ffca);
+        
+    
+        var popup_6fd46e0f2ac98fbcce8ed55c0c1bcda8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d617987e290cedbb7ab2f31a0e0fe2b = $(`<div id="html_4d617987e290cedbb7ab2f31a0e0fe2b" style="width: 100.0%; height: 100.0%;"><b>Cattaraugus - New York-CD23</b></div>`)[0];
+                popup_6fd46e0f2ac98fbcce8ed55c0c1bcda8.setContent(html_4d617987e290cedbb7ab2f31a0e0fe2b);
+            
+        
+
+        circle_marker_698203a48dd89c629cfeed5543ce2da0.bindPopup(popup_6fd46e0f2ac98fbcce8ed55c0c1bcda8)
+        ;
+
+        
+    
+    
+            circle_marker_698203a48dd89c629cfeed5543ce2da0.bindTooltip(
+                `<div>
+                     Cattaraugus - New York-CD23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_2b11312bdb1f2a1995f571d42e97e2eb = L.polygon(
+                [[42.40980599999999, -78.982199], [42.40947700000006, -78.982197], [42.407248999999986, -78.982239], [42.40717100000001, -78.97813100000002], [42.41019900000004, -78.978108], [42.41017600000001, -78.972864], [42.40989999999999, -78.972625], [42.40912500000003, -78.971967], [42.40893500000003, -78.971785], [42.40873399999997, -78.971539], [42.408616000000045, -78.971323], [42.40852500000003, -78.97109], [42.40678999999995, -78.971092], [42.406802000000006, -78.969747], [42.40169299999997, -78.969735], [42.40168599999997, -78.96747900000001], [42.395723000000025, -78.967564], [42.39573699999997, -78.969496], [42.39456499999996, -78.969507], [42.39456800000003, -78.970222], [42.39290700000001, -78.970227], [42.392901000000016, -78.96916600000002], [42.39153399999999, -78.969173], [42.391512, -78.974006], [42.39165600000003, -78.974003], [42.391690000000025, -78.984333], [42.40242799999998, -78.984528], [42.40249799999999, -78.983168], [42.40577299999999, -78.983121], [42.40579200000003, -78.98962], [42.40781199999999, -78.985899], [42.40869399999998, -78.984255], [42.40980599999999, -78.982199]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_e4d6124c061d9e1cd43cdf550e89ffca);
+        
+    
+        var popup_6bf1f36e8234e077224b60da17642dae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_384e7e059bf2eb9ca705d98304feb260 = $(`<div id="html_384e7e059bf2eb9ca705d98304feb260" style="width: 100.0%; height: 100.0%;"><b>Cattaraugus - New York-CD23</b></div>`)[0];
+                popup_6bf1f36e8234e077224b60da17642dae.setContent(html_384e7e059bf2eb9ca705d98304feb260);
+            
+        
+
+        polygon_2b11312bdb1f2a1995f571d42e97e2eb.bindPopup(popup_6bf1f36e8234e077224b60da17642dae)
+        ;
+
+        
+    
+    
+            var circle_marker_90163d78e29df20a555dc9d9843d22aa = L.circleMarker(
+                [42.40304484848485, -78.97559415151517],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_e4d6124c061d9e1cd43cdf550e89ffca);
+        
+    
+        var popup_a818042ed9568769241033b7cd3cd2bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fbbd3e7d5d769d28e425f3def33f0bef = $(`<div id="html_fbbd3e7d5d769d28e425f3def33f0bef" style="width: 100.0%; height: 100.0%;"><b>Cattaraugus - New York-CD23</b></div>`)[0];
+                popup_a818042ed9568769241033b7cd3cd2bf.setContent(html_fbbd3e7d5d769d28e425f3def33f0bef);
+            
+        
+
+        circle_marker_90163d78e29df20a555dc9d9843d22aa.bindPopup(popup_a818042ed9568769241033b7cd3cd2bf)
+        ;
+
+        
+    
+    
+            circle_marker_90163d78e29df20a555dc9d9843d22aa.bindTooltip(
+                `<div>
+                     Cattaraugus - New York-CD23
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

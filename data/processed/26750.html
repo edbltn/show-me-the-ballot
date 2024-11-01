@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_607a77fc0b1ac26c6780cf9436f698ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mineral - West Virginia-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mineral - West Virginia-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mineral - West Virginia-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mineral - West Virginia-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_607a77fc0b1ac26c6780cf9436f698ba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_607a77fc0b1ac26c6780cf9436f698ba = L.map(
+                "map_607a77fc0b1ac26c6780cf9436f698ba",
+                {
+                    center: [39.4751817145057, -79.04144088939954],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0a9a6171201e27972a547109c127f8f4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0a9a6171201e27972a547109c127f8f4.addTo(map_607a77fc0b1ac26c6780cf9436f698ba);
+        
+    
+            var polygon_a3d8d67d663b0d93df6a5a5357ee231c = L.polygon(
+                [[39.47696300000001, -79.053963], [39.47715000000001, -79.053955], [39.47735200000001, -79.053886], [39.477414000000024, -79.05389], [39.477623000000065, -79.05375], [39.477797, -79.053636], [39.47793899999999, -79.053543], [39.47866399999998, -79.053382], [39.47988, -79.053486], [39.479891999999985, -79.053481], [39.48020299999998, -79.053454], [39.48061700000002, -79.053369], [39.48109899999999, -79.053153], [39.481678000000024, -79.052748], [39.482572, -79.051631], [39.48266, -79.051363], [39.48292600000002, -79.050707], [39.48321399999998, -79.05008], [39.48319999999998, -79.049871], [39.48324999999995, -79.049374], [39.483402, -79.049093], [39.483452000000014, -79.048589], [39.483494999999984, -79.048214], [39.483437999999985, -79.04753700000002], [39.48335099999998, -79.04705], [39.483346, -79.047025], [39.483259, -79.046746], [39.48324000000003, -79.046708], [39.48309199999998, -79.04653600000002], [39.48303299999998, -79.046456], [39.48283000000002, -79.046232], [39.482807000000015, -79.046229], [39.482756999999985, -79.046154], [39.482620000000004, -79.046027], [39.48259000000001, -79.046033], [39.48256700000001, -79.046015], [39.48243299999999, -79.045911], [39.481982000000045, -79.04569600000002], [39.481474000000006, -79.045396], [39.48091899999998, -79.04511300000001], [39.48032699999997, -79.044761], [39.47993500000004, -79.04448], [39.47989399999998, -79.0444], [39.47979499999999, -79.044432], [39.47966500000004, -79.044166], [39.47910500000003, -79.042547], [39.47909299999996, -79.042505], [39.478657999999996, -79.042439], [39.47754399999998, -79.040171], [39.47747400000002, -79.039253], [39.47736999999999, -79.038944], [39.476323999999984, -79.037324], [39.476653, -79.037023], [39.47664200000002, -79.037017], [39.47649900000004, -79.036912], [39.475803, -79.03666], [39.475104000000016, -79.036439], [39.47493900000003, -79.036341], [39.47483699999998, -79.036328], [39.47480400000001, -79.036327], [39.47424699999998, -79.036199], [39.47333901105167, -79.03592184381911], [39.47330759404956, -79.03780277508011], [39.473428000000034, -79.037819], [39.47385200000003, -79.037879], [39.47399399999997, -79.0379], [39.473991, -79.03788200000001], [39.47398800000002, -79.037828], [39.47398699999995, -79.037811], [39.47399999999999, -79.037756], [39.47403699999996, -79.03766100000001], [39.474043999999985, -79.037646], [39.47406299999997, -79.037609], [39.47408799999999, -79.037585], [39.474128999999984, -79.037584], [39.47437999999998, -79.037656], [39.474453999999994, -79.03768], [39.47460400000001, -79.03773], [39.474590000000006, -79.037787], [39.47455000000006, -79.03796], [39.47453700000002, -79.038018], [39.474524, -79.038071], [39.47448700000004, -79.03823], [39.47447499999998, -79.038284], [39.474434999999986, -79.038458], [39.474318000000025, -79.038983], [39.474279, -79.039158], [39.47366499999999, -79.041974], [39.47320216327636, -79.04410254021353], [39.47319380083656, -79.04460140612267], [39.475021, -79.050267], [39.47549299999999, -79.051728], [39.475426999999954, -79.05219], [39.47585799999999, -79.052958], [39.475953, -79.053133], [39.47624099999997, -79.05366], [39.47633799999996, -79.05383600000002], [39.47638200000002, -79.053875], [39.476516999999994, -79.053992], [39.47656199999995, -79.054031], [39.47674899999997, -79.054008], [39.47696300000001, -79.053963]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_607a77fc0b1ac26c6780cf9436f698ba);
+        
+    
+        var popup_27980bb2f3d7869b0325a20c92fd22fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc9bde46f0260a6b7d9160eb94f39220 = $(`<div id="html_bc9bde46f0260a6b7d9160eb94f39220" style="width: 100.0%; height: 100.0%;"><b>Mineral - West Virginia-CD06</b></div>`)[0];
+                popup_27980bb2f3d7869b0325a20c92fd22fc.setContent(html_bc9bde46f0260a6b7d9160eb94f39220);
+            
+        
+
+        polygon_a3d8d67d663b0d93df6a5a5357ee231c.bindPopup(popup_27980bb2f3d7869b0325a20c92fd22fc)
+        ;
+
+        
+    
+    
+            var circle_marker_5ad875512ca6c341efb955da6cee83c0 = L.circleMarker(
+                [39.47788566244327, -79.04483498593368],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_607a77fc0b1ac26c6780cf9436f698ba);
+        
+    
+        var popup_b0ab4e923a41e1069a287aafabcb3319 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_228fbb891bfd86e595a25d2118e35af0 = $(`<div id="html_228fbb891bfd86e595a25d2118e35af0" style="width: 100.0%; height: 100.0%;"><b>Mineral - West Virginia-CD06</b></div>`)[0];
+                popup_b0ab4e923a41e1069a287aafabcb3319.setContent(html_228fbb891bfd86e595a25d2118e35af0);
+            
+        
+
+        circle_marker_5ad875512ca6c341efb955da6cee83c0.bindPopup(popup_b0ab4e923a41e1069a287aafabcb3319)
+        ;
+
+        
+    
+    
+            circle_marker_5ad875512ca6c341efb955da6cee83c0.bindTooltip(
+                `<div>
+                     Mineral - West Virginia-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e42734d12981d10949497e18772d671a = L.polygon(
+                [[39.47327399999999, -79.035902], [39.472620999999975, -79.035842], [39.472248000000036, -79.035881], [39.47186899999997, -79.036087], [39.47136599999998, -79.03618], [39.47131700000002, -79.036181], [39.471261999999975, -79.036179], [39.47097900000003, -79.036171], [39.47076400000002, -79.03610100000002], [39.46949300000005, -79.03542], [39.46754700000002, -79.034229], [39.466980000000014, -79.033719], [39.46610399999999, -79.032335], [39.465254000000016, -79.030876], [39.46489899999999, -79.029927], [39.464824999999976, -79.029403], [39.464779000000014, -79.028668], [39.464972000000024, -79.027273], [39.465067, -79.027015], [39.46508200000003, -79.026965], [39.46503, -79.02692300000001], [39.46495000000002, -79.026859], [39.46489099999998, -79.02678400000002], [39.46485100000002, -79.026732], [39.46455999999998, -79.028128], [39.464441, -79.029318], [39.464416000000014, -79.02957], [39.46464200000005, -79.030411], [39.465048999999944, -79.031493], [39.46661099999997, -79.033935], [39.46706500000002, -79.034448], [39.468733, -79.035559], [39.469357000000045, -79.035975], [39.471052, -79.036774], [39.47149599999996, -79.036985], [39.47276400000002, -79.037589], [39.47283000000002, -79.037615], [39.473287, -79.0378], [39.47330759404956, -79.03780277508011], [39.47333901105167, -79.03592184381911], [39.47327399999999, -79.035902]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_607a77fc0b1ac26c6780cf9436f698ba);
+        
+    
+        var popup_e6050b80478cb0e48a7885d6ba79bc49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9483642102a4fae9c76b75083d6d5367 = $(`<div id="html_9483642102a4fae9c76b75083d6d5367" style="width: 100.0%; height: 100.0%;"><b>Mineral - West Virginia-CD02</b></div>`)[0];
+                popup_e6050b80478cb0e48a7885d6ba79bc49.setContent(html_9483642102a4fae9c76b75083d6d5367);
+            
+        
+
+        polygon_e42734d12981d10949497e18772d671a.bindPopup(popup_e6050b80478cb0e48a7885d6ba79bc49)
+        ;
+
+        
+    
+    
+            var circle_marker_f6146ef9b2e6dedc21ead9da978577d5 = L.circleMarker(
+                [39.46845481963662, -79.03299703948535],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_607a77fc0b1ac26c6780cf9436f698ba);
+        
+    
+        var popup_8bc91dd5de3ba50ccecfe2c6ce7eb3d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72f8dc09631c6689c734c45d344bca11 = $(`<div id="html_72f8dc09631c6689c734c45d344bca11" style="width: 100.0%; height: 100.0%;"><b>Mineral - West Virginia-CD02</b></div>`)[0];
+                popup_8bc91dd5de3ba50ccecfe2c6ce7eb3d5.setContent(html_72f8dc09631c6689c734c45d344bca11);
+            
+        
+
+        circle_marker_f6146ef9b2e6dedc21ead9da978577d5.bindPopup(popup_8bc91dd5de3ba50ccecfe2c6ce7eb3d5)
+        ;
+
+        
+    
+    
+            circle_marker_f6146ef9b2e6dedc21ead9da978577d5.bindTooltip(
+                `<div>
+                     Mineral - West Virginia-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

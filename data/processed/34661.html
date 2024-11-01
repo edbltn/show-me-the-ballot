@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d89edff53d876225efa5af47bdd56fdd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hernando - Florida-CD11</p>
+            </div>
+    
+            <div class="folium-map" id="map_d89edff53d876225efa5af47bdd56fdd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d89edff53d876225efa5af47bdd56fdd = L.map(
+                "map_d89edff53d876225efa5af47bdd56fdd",
+                {
+                    center: [28.622636649925926, -82.25128101086919],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a8ac6904a1f47a0a99aaa833e48c3c6f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a8ac6904a1f47a0a99aaa833e48c3c6f.addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+            var polygon_d8f32ab278d7fc9c11b71fa90f98dbd1 = L.polygon(
+                [[28.637821999999993, -82.260615], [28.637590000000024, -82.260724], [28.637287, -82.260795], [28.63713600000001, -82.26076800000001], [28.63698600000001, -82.26074], [28.636738000000033, -82.260697], [28.63504399999998, -82.260155], [28.63476199999998, -82.259968], [28.634522000000047, -82.259472], [28.634015999999953, -82.258901], [28.633645999999956, -82.258651], [28.633477999999982, -82.258375], [28.63340100000004, -82.257761], [28.633349000000006, -82.257011], [28.633253999999987, -82.25678400000001], [28.6331597044134, -82.25655957645327], [28.62033534893706, -82.24639903305753], [28.62005699999998, -82.246338], [28.61985500000004, -82.246125], [28.619803670931734, -82.24597788304273], [28.61650860078082, -82.24336796979115], [28.616381999999966, -82.24340600000001], [28.615988999999992, -82.243322], [28.615670000000012, -82.242968], [28.615488192347367, -82.24255979496867], [28.614302381309756, -82.24162065275428], [28.614108999999985, -82.241769], [28.61374000000002, -82.242162], [28.613318, -82.242237], [28.612998000000008, -82.241931], [28.612876000000007, -82.241548], [28.61289300000002, -82.241134], [28.613061999999964, -82.240773], [28.613154000000034, -82.24075200000001], [28.613193481214783, -82.24074245509753], [28.605042882495233, -82.23428851807564], [28.604477999999972, -82.23402], [28.604283999999975, -82.234022], [28.603914999999972, -82.233797], [28.60374400000004, -82.233411], [28.603411000000005, -82.233103], [28.60284899999999, -82.232786], [28.602221000000025, -82.23274], [28.601922, -82.232893], [28.60169100000001, -82.233134], [28.601528999999985, -82.233348], [28.60136699999997, -82.233426], [28.60106800000001, -82.233365], [28.600843999999984, -82.233219], [28.600505999999985, -82.233009], [28.60026499999998, -82.232747], [28.600207000000005, -82.232577], [28.60020799999999, -82.232381], [28.600329999999982, -82.232291], [28.600497, -82.232236], [28.60053099999999, -82.232054], [28.60054499999999, -82.231662], [28.600534999999983, -82.231297], [28.600548, -82.230945], [28.60054124189145, -82.23072468211193], [28.59190737977639, -82.22389091290694], [28.591830999999996, -82.224007], [28.591779000000038, -82.224088], [28.59145800000004, -82.224906], [28.59138800000004, -82.2267], [28.591455999999987, -82.22728], [28.59266800000001, -82.227289], [28.592791, -82.227293], [28.59406100000002, -82.227335], [28.594225999999956, -82.227354], [28.594301999999992, -82.227378], [28.594373000000036, -82.227416], [28.594427999999997, -82.22745300000001], [28.594480999999995, -82.227497], [28.594530999999975, -82.227548], [28.59457700000002, -82.227635], [28.594661000000034, -82.227843], [28.595397000000013, -82.230279], [28.595642999999995, -82.231074], [28.595856999999977, -82.231875], [28.59590400000005, -82.23205], [28.595960000000048, -82.232267], [28.596027000000042, -82.23253], [28.596089000000035, -82.232837], [28.59614699999997, -82.233198], [28.596165999999993, -82.233295], [28.596213000000017, -82.233433], [28.596234999999947, -82.233486], [28.596293000000003, -82.233601], [28.59634600000003, -82.233671], [28.596362999999993, -82.233709], [28.59629800000001, -82.233791], [28.596244000000013, -82.233868], [28.596215999999952, -82.233957], [28.59620099999999, -82.234024], [28.59616699999997, -82.234218], [28.59612799999999, -82.234301], [28.595762999999927, -82.234851], [28.595597999999953, -82.235117], [28.594215999999978, -82.23716], [28.594147999999972, -82.23728], [28.59407299999996, -82.237471], [28.59404900000001, -82.237567], [28.594037, -82.23768100000001], [28.59404500000001, -82.24098], [28.59405300000001, -82.246582], [28.594036000000017, -82.247778], [28.59403500000005, -82.251749], [28.594023000000004, -82.253655], [28.59399599999997, -82.259812], [28.593973999999964, -82.26158700000002], [28.593949000000038, -82.26362], [28.593945999999992, -82.264133], [28.59394099999998, -82.264977], [28.593921000000016, -82.268291], [28.599453999999987, -82.268341], [28.608353000000015, -82.276311], [28.608381000000012, -82.276325], [28.62293500000001, -82.283551], [28.625269000000007, -82.28471], [28.625756000000028, -82.284957], [28.629966999999983, -82.287092], [28.629991999999977, -82.289578], [28.630039000000018, -82.294281], [28.629816000000012, -82.301523], [28.630900999999977, -82.301548], [28.633807000000033, -82.301576], [28.634819999999987, -82.30159], [28.637726999999973, -82.301635], [28.640354000000055, -82.301676], [28.64110199999998, -82.301697], [28.641531999999966, -82.301705], [28.642410000000023, -82.30171], [28.643233999999996, -82.301726], [28.64504599999998, -82.301749], [28.645080999999998, -82.301588], [28.645089999999986, -82.301482], [28.645099000000005, -82.30071600000001], [28.645116, -82.297607], [28.645163000000025, -82.292661], [28.645163000000025, -82.292628], [28.645164999999988, -82.292593], [28.645184999999973, -82.292274], [28.645229000000043, -82.292001], [28.645268000000073, -82.291839], [28.645318999999997, -82.291677], [28.645407000000006, -82.291432], [28.645505000000007, -82.29122500000001], [28.64559500000003, -82.291062], [28.646423999999982, -82.289693], [28.647259999999974, -82.288332], [28.647874000000012, -82.28731], [28.648273000000003, -82.286662], [28.649104999999977, -82.28528000000001], [28.650042, -82.283766], [28.65018000000003, -82.283527], [28.65035499999999, -82.2832], [28.650475999999987, -82.282947], [28.650586, -82.282673], [28.650660000000034, -82.282453], [28.650731999999998, -82.282191], [28.650790999999984, -82.28193], [28.650833000000006, -82.281653], [28.650861999999993, -82.281394], [28.65087699999997, -82.281112], [28.650876000000014, -82.280841], [28.650858, -82.280566], [28.650833000000006, -82.280344], [28.650806000000042, -82.279894], [28.65075999999997, -82.279704], [28.65064999999999, -82.279331], [28.650513999999944, -82.278968], [28.650395000000014, -82.278713], [28.648929000000013, -82.275923], [28.64812299999997, -82.274408], [28.647689999999976, -82.273554], [28.64750800000001, -82.27313], [28.647332999999993, -82.272588], [28.647267000000024, -82.272328], [28.64719599999997, -82.27198300000002], [28.647143000000014, -82.271645], [28.64711599999996, -82.271406], [28.647041999999974, -82.270579], [28.64698499999996, -82.270387], [28.64696499999999, -82.270155], [28.64695400000002, -82.270035], [28.64691900000001, -82.269633], [28.646861000000015, -82.269061], [28.646775999999967, -82.268041], [28.64670792399412, -82.26729817934537], [28.638103887847535, -82.26047789769662], [28.637821999999993, -82.260615]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_d2fa6e07a02509ffb0bf96107721b399 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_742cfb314345ffba111b9bb26ddee062 = $(`<div id="html_742cfb314345ffba111b9bb26ddee062" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD12</b></div>`)[0];
+                popup_d2fa6e07a02509ffb0bf96107721b399.setContent(html_742cfb314345ffba111b9bb26ddee062);
+            
+        
+
+        polygon_d8f32ab278d7fc9c11b71fa90f98dbd1.bindPopup(popup_d2fa6e07a02509ffb0bf96107721b399)
+        ;
+
+        
+    
+    
+            var circle_marker_f3fec0d83e6bea3d4f17f6eafc80fce2 = L.circleMarker(
+                [28.620397722374687, -82.2576929716422],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_5f70d49ddb2e6ca2f5a55f1fcc60c841 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aebff44adceb3a5880f5220b5380adef = $(`<div id="html_aebff44adceb3a5880f5220b5380adef" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD12</b></div>`)[0];
+                popup_5f70d49ddb2e6ca2f5a55f1fcc60c841.setContent(html_aebff44adceb3a5880f5220b5380adef);
+            
+        
+
+        circle_marker_f3fec0d83e6bea3d4f17f6eafc80fce2.bindPopup(popup_5f70d49ddb2e6ca2f5a55f1fcc60c841)
+        ;
+
+        
+    
+    
+            circle_marker_f3fec0d83e6bea3d4f17f6eafc80fce2.bindTooltip(
+                `<div>
+                     Hernando - Florida-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b8ac09e6ed8c9e64a443bc4da7469672 = L.polygon(
+                [[28.647852000000015, -82.263112], [28.647788, -82.262774], [28.64772200000003, -82.262434], [28.647620000000025, -82.262261], [28.647480999999967, -82.262156], [28.64734299999998, -82.262051], [28.647163000000013, -82.26171800000002], [28.647046999999983, -82.261333], [28.64697999999997, -82.26085800000001], [28.647016999999998, -82.260565], [28.647128999999982, -82.260231], [28.647287999999996, -82.25964200000001], [28.647329000000056, -82.25919], [28.64734099999999, -82.259064], [28.647368000000025, -82.25871], [28.647549999999992, -82.258511], [28.647734999999983, -82.258448], [28.64791199999998, -82.258388], [28.64822900000001, -82.258341], [28.64839500000004, -82.258406], [28.64855999999996, -82.25847100000001], [28.648609, -82.258497], [28.64867600000003, -82.258459], [28.64876499999996, -82.258339], [28.648767999999983, -82.258277], [28.648773000000027, -82.258217], [28.64878299999997, -82.258091], [28.64876999999998, -82.257887], [28.648825999999964, -82.257535], [28.648873000000027, -82.257365], [28.648962999999988, -82.257102], [28.648951000000004, -82.25695], [28.64886800000002, -82.25684], [28.648829999999965, -82.256811], [28.648582000000015, -82.256792], [28.648344000000023, -82.256854], [28.64764099999996, -82.256839], [28.64676400000002, -82.2568], [28.645886999999984, -82.256761], [28.64564599999999, -82.25675], [28.645224999999993, -82.256884], [28.644892000000013, -82.257165], [28.644590999999995, -82.257508], [28.644565999999983, -82.257537], [28.64430999999999, -82.257802], [28.642896999999973, -82.259446], [28.64260500000002, -82.259636], [28.642529000000003, -82.259659], [28.641787000000015, -82.259886], [28.64169600000002, -82.259901], [28.641624000000053, -82.259912], [28.641530999999997, -82.259927], [28.64140699999997, -82.25994700000001], [28.640946000000007, -82.259934], [28.640228000000032, -82.259718], [28.639828000000005, -82.259652], [28.639647000000032, -82.259622], [28.639169, -82.259682], [28.638707000000018, -82.259852], [28.63858100000003, -82.260122], [28.63829900000001, -82.260383], [28.638103887847535, -82.26047789769662], [28.64670792399412, -82.26729817934537], [28.64665199999996, -82.266688], [28.64658799999999, -82.266036], [28.64652599999998, -82.265299], [28.646455999999986, -82.264615], [28.646426999999985, -82.264291], [28.64785400000002, -82.26417], [28.64807099999999, -82.264145], [28.647961999999957, -82.263629], [28.647852000000015, -82.263112]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_f56f2814abd312f8494792f64a0d20a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_839a5b52d539b639b5d966e00d02c58e = $(`<div id="html_839a5b52d539b639b5d966e00d02c58e" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_f56f2814abd312f8494792f64a0d20a4.setContent(html_839a5b52d539b639b5d966e00d02c58e);
+            
+        
+
+        polygon_b8ac09e6ed8c9e64a443bc4da7469672.bindPopup(popup_f56f2814abd312f8494792f64a0d20a4)
+        ;
+
+        
+    
+    
+            var circle_marker_75b4d90d6f454fdcc7270df20264ccda = L.circleMarker(
+                [28.645839344608905, -82.25988563995892],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_fec0377481a92cf821d3e5b15ab17825 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72df40776b83979809740ec414219b2e = $(`<div id="html_72df40776b83979809740ec414219b2e" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_fec0377481a92cf821d3e5b15ab17825.setContent(html_72df40776b83979809740ec414219b2e);
+            
+        
+
+        circle_marker_75b4d90d6f454fdcc7270df20264ccda.bindPopup(popup_fec0377481a92cf821d3e5b15ab17825)
+        ;
+
+        
+    
+    
+            circle_marker_75b4d90d6f454fdcc7270df20264ccda.bindTooltip(
+                `<div>
+                     Hernando - Florida-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4808cbfea18c63f5edbc2742782d8f1e = L.polygon(
+                [[28.633153999999994, -82.256546], [28.63288199999997, -82.256131], [28.632695000000034, -82.255451], [28.632615999999985, -82.255373], [28.631972000000008, -82.254741], [28.63065200000002, -82.253697], [28.63043500000001, -82.253558], [28.629925999999998, -82.253481], [28.62974099999998, -82.253397], [28.62962000000004, -82.25324], [28.62922500000003, -82.252324], [28.629136000000017, -82.252117], [28.629095999999983, -82.251933], [28.629242000000012, -82.251657], [28.629699, -82.251069], [28.629799000000002, -82.25089000000001], [28.629915000000004, -82.250679], [28.630099000000005, -82.250455], [28.630095, -82.250228], [28.630089999999978, -82.250001], [28.630161000000005, -82.24976400000001], [28.630184999999994, -82.24945900000002], [28.630115000000018, -82.249173], [28.630033999999977, -82.248705], [28.629868999999996, -82.248409], [28.629719, -82.248293], [28.629502000000027, -82.248124], [28.629227000000018, -82.248083], [28.62897299999999, -82.248194], [28.62860300000001, -82.247579], [28.628409000000023, -82.247397], [28.62807700000001, -82.247337], [28.627757000000003, -82.24729], [28.627522999999986, -82.247187], [28.627181999999994, -82.247058], [28.627064000000008, -82.24686], [28.62698499999999, -82.246534], [28.626993000000017, -82.246281], [28.626918999999972, -82.246069], [28.62676999999999, -82.245948], [28.62659899999998, -82.245977], [28.626282999999987, -82.246146], [28.625927999999995, -82.246284], [28.62569000000001, -82.246271], [28.62529100000001, -82.245806], [28.624999000000045, -82.245782], [28.624695000000006, -82.245803], [28.624592999999972, -82.245897], [28.624457000000014, -82.246047], [28.62432299999999, -82.246299], [28.62407099999999, -82.246461], [28.623825999999994, -82.246603], [28.623767, -82.246689], [28.623765999999982, -82.2468], [28.62382999999999, -82.246937], [28.623839999999976, -82.24706], [28.62378399999999, -82.2472], [28.623531999999997, -82.247283], [28.62310300000002, -82.247318], [28.622528000000024, -82.247356], [28.622383000000013, -82.247255], [28.62229, -82.247114], [28.62206199999999, -82.246984], [28.621520999999998, -82.24687], [28.621235000000002, -82.246795], [28.62093399999994, -82.246618], [28.620659000000003, -82.24647000000002], [28.62033534893706, -82.24639903305753], [28.6331597044134, -82.25655957645327], [28.633153999999994, -82.256546]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_ba74bb22a4069e454f402a081ca98180 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f516437cccea2ca9458858310b966868 = $(`<div id="html_f516437cccea2ca9458858310b966868" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_ba74bb22a4069e454f402a081ca98180.setContent(html_f516437cccea2ca9458858310b966868);
+            
+        
+
+        polygon_4808cbfea18c63f5edbc2742782d8f1e.bindPopup(popup_ba74bb22a4069e454f402a081ca98180)
+        ;
+
+        
+    
+    
+            var circle_marker_6f78eaa2c0ac0774556f8698bcd0370c = L.circleMarker(
+                [28.627239915047866, -82.24897630870731],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_3f4ca4fa0c1a7ba83c3bd63f640abf5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e79b1df3dfbabbb41ed383810b790bbe = $(`<div id="html_e79b1df3dfbabbb41ed383810b790bbe" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_3f4ca4fa0c1a7ba83c3bd63f640abf5a.setContent(html_e79b1df3dfbabbb41ed383810b790bbe);
+            
+        
+
+        circle_marker_6f78eaa2c0ac0774556f8698bcd0370c.bindPopup(popup_3f4ca4fa0c1a7ba83c3bd63f640abf5a)
+        ;
+
+        
+    
+    
+            circle_marker_6f78eaa2c0ac0774556f8698bcd0370c.bindTooltip(
+                `<div>
+                     Hernando - Florida-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_cba882ce5457b6cd4cff87752aa98944 = L.polygon(
+                [[28.619727999999995, -82.245761], [28.61960999999999, -82.245454], [28.619535000000027, -82.245326], [28.619576999999985, -82.245079], [28.619663000000024, -82.244915], [28.619727999999995, -82.244545], [28.61970999999999, -82.244467], [28.619611999999982, -82.244045], [28.619165000000024, -82.242902], [28.618964000000016, -82.242685], [28.618348000000008, -82.242455], [28.617787000000042, -82.242472], [28.617344000000013, -82.242598], [28.61696299999994, -82.242793], [28.61663499999997, -82.24333], [28.61650860078082, -82.24336796979115], [28.619803670931734, -82.24597788304273], [28.619727999999995, -82.245761]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_1ff9e51da74a0a32f83fa848b1384b49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d253ca259b65cbe18518d0f4be823d6 = $(`<div id="html_6d253ca259b65cbe18518d0f4be823d6" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_1ff9e51da74a0a32f83fa848b1384b49.setContent(html_6d253ca259b65cbe18518d0f4be823d6);
+            
+        
+
+        polygon_cba882ce5457b6cd4cff87752aa98944.bindPopup(popup_1ff9e51da74a0a32f83fa848b1384b49)
+        ;
+
+        
+    
+    
+            var circle_marker_3a46f5ac263fb0aa3ab7d803befaf754 = L.circleMarker(
+                [28.61880051509514, -82.24410743626855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_854502f0542cdf4017eed18f1c1c8702 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6709e05471f787c907d3a930a76c53f8 = $(`<div id="html_6709e05471f787c907d3a930a76c53f8" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_854502f0542cdf4017eed18f1c1c8702.setContent(html_6709e05471f787c907d3a930a76c53f8);
+            
+        
+
+        circle_marker_3a46f5ac263fb0aa3ab7d803befaf754.bindPopup(popup_854502f0542cdf4017eed18f1c1c8702)
+        ;
+
+        
+    
+    
+            circle_marker_3a46f5ac263fb0aa3ab7d803befaf754.bindTooltip(
+                `<div>
+                     Hernando - Florida-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_c02183bd4ab8555a0f2dba73fa14c869 = L.polygon(
+                [[28.613244999999996, -82.24073], [28.613337000000023, -82.2406], [28.613464, -82.240198], [28.613458999999988, -82.239988], [28.613404000000013, -82.239786], [28.612903000000006, -82.238815], [28.612524999999998, -82.238188], [28.612278000000003, -82.2379], [28.611923999999984, -82.237607], [28.611749999999976, -82.237463], [28.611057999999932, -82.237107], [28.610352000000017, -82.236659], [28.609968000000002, -82.236261], [28.609697000000015, -82.235882], [28.60956299999997, -82.235542], [28.609377999999996, -82.2349], [28.609287000000002, -82.23476], [28.609223999999976, -82.234681], [28.609087999999968, -82.234511], [28.60899999999998, -82.234448], [28.608661999999946, -82.234203], [28.60827600000002, -82.234071], [28.607822999999986, -82.234003], [28.60731500000004, -82.23403900000001], [28.607210000000013, -82.234049], [28.607158999999996, -82.234072], [28.60703099999999, -82.23412900000001], [28.606734999999993, -82.234547], [28.606574000000013, -82.234618], [28.606250000000006, -82.234678], [28.605847000000015, -82.234628], [28.60561900000001, -82.234562], [28.60504600000001, -82.23429], [28.605042882495233, -82.23428851807564], [28.613193481214783, -82.24074245509753], [28.613244999999996, -82.24073]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_3c96ba2bb94a378d9dcd10f038ba5c1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb4c540e34929d7e78147519d42cad40 = $(`<div id="html_fb4c540e34929d7e78147519d42cad40" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_3c96ba2bb94a378d9dcd10f038ba5c1f.setContent(html_fb4c540e34929d7e78147519d42cad40);
+            
+        
+
+        polygon_c02183bd4ab8555a0f2dba73fa14c869.bindPopup(popup_3c96ba2bb94a378d9dcd10f038ba5c1f)
+        ;
+
+        
+    
+    
+            var circle_marker_bb83dcd6fa1733a970483e2eae4c37bb = L.circleMarker(
+                [28.60960923232527, -82.23632433258814],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_531ebe17b8dd693bed45bdabb7783337 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fa7d04ce9ad6716d105c74272351e24 = $(`<div id="html_4fa7d04ce9ad6716d105c74272351e24" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_531ebe17b8dd693bed45bdabb7783337.setContent(html_4fa7d04ce9ad6716d105c74272351e24);
+            
+        
+
+        circle_marker_bb83dcd6fa1733a970483e2eae4c37bb.bindPopup(popup_531ebe17b8dd693bed45bdabb7783337)
+        ;
+
+        
+    
+    
+            circle_marker_bb83dcd6fa1733a970483e2eae4c37bb.bindTooltip(
+                `<div>
+                     Hernando - Florida-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_ac400c224253b114f5cd9dc7fd8b7c63 = L.polygon(
+                [[28.600537999999993, -82.230619], [28.600297, -82.230357], [28.600091000000017, -82.230054], [28.600092000000032, -82.229821], [28.60031099999998, -82.22957400000001], [28.60065799999998, -82.229276], [28.600739999999988, -82.228651], [28.600523999999997, -82.228258], [28.60021500000002, -82.227878], [28.59993899999999, -82.22775800000001], [28.599719, -82.227953], [28.599523, -82.228173], [28.599166999999973, -82.228105], [28.599040999999996, -82.227713], [28.599169000000007, -82.227245], [28.599090000000025, -82.226957], [28.598780000000005, -82.226942], [28.598685999999987, -82.227216], [28.598614999999977, -82.227477], [28.59843200000002, -82.227559], [28.598247999999984, -82.227245], [28.59803099999999, -82.226841], [28.59767699999998, -82.226238], [28.59735700000004, -82.225544], [28.596944999999963, -82.224929], [28.596423999999956, -82.224512], [28.595785999999965, -82.224298], [28.59565000000001, -82.224226], [28.595445999999967, -82.224057], [28.595021000000017, -82.22364], [28.59457399999999, -82.223131], [28.594206, -82.222562], [28.59380899999997, -82.22195], [28.593696999999974, -82.221838], [28.593633000000008, -82.221774], [28.593447999999995, -82.22168], [28.59336400000002, -82.221668], [28.59326200000003, -82.221832], [28.59190737977639, -82.22389091290694], [28.60054124189145, -82.23072468211193], [28.600537999999993, -82.230619]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_553919479eb3c52d40608dc68a9fec5a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ebd6795314104e08adede4044c36800 = $(`<div id="html_0ebd6795314104e08adede4044c36800" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_553919479eb3c52d40608dc68a9fec5a.setContent(html_0ebd6795314104e08adede4044c36800);
+            
+        
+
+        polygon_ac400c224253b114f5cd9dc7fd8b7c63.bindPopup(popup_553919479eb3c52d40608dc68a9fec5a)
+        ;
+
+        
+    
+    
+            var circle_marker_99fce1efeb66cbca36de449e4a32724f = L.circleMarker(
+                [28.59763882004068, -82.22636062426875],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d89edff53d876225efa5af47bdd56fdd);
+        
+    
+        var popup_b5427756b3bf0fbfe59db06f2b860243 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1693fa8f1ecd82376a74a7baafc471d = $(`<div id="html_e1693fa8f1ecd82376a74a7baafc471d" style="width: 100.0%; height: 100.0%;"><b>Hernando - Florida-CD11</b></div>`)[0];
+                popup_b5427756b3bf0fbfe59db06f2b860243.setContent(html_e1693fa8f1ecd82376a74a7baafc471d);
+            
+        
+
+        circle_marker_99fce1efeb66cbca36de449e4a32724f.bindPopup(popup_b5427756b3bf0fbfe59db06f2b860243)
+        ;
+
+        
+    
+    
+            circle_marker_99fce1efeb66cbca36de449e4a32724f.bindTooltip(
+                `<div>
+                     Hernando - Florida-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

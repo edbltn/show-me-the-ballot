@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fc5c3579eeb87fffbf32489d58400be1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Vermont-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_fc5c3579eeb87fffbf32489d58400be1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fc5c3579eeb87fffbf32489d58400be1 = L.map(
+                "map_fc5c3579eeb87fffbf32489d58400be1",
+                {
+                    center: [44.41489533323824, -71.71007941597463],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8d01fbb68dba5fb9b00c02ca1ac6c8a6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_8d01fbb68dba5fb9b00c02ca1ac6c8a6.addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+            var polygon_5981566e0b827cd34c3bb0465fd32684 = L.polygon(
+                [[44.412557, -71.72791300000002], [44.41275400000004, -71.729302], [44.41290800000004, -71.729797], [44.41301799999999, -71.730506], [44.41308200000003, -71.730739], [44.41456799999999, -71.72565], [44.415884999999996, -71.72114400000001], [44.415899000000024, -71.720914], [44.416011999999995, -71.719804], [44.41643499999995, -71.71564900000001], [44.41670500000001, -71.712319], [44.416706999999995, -71.712295], [44.41705042845469, -71.70805312245652], [44.412615663895686, -71.72620298324127], [44.412557, -71.72791300000002]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_43a43dd3d874cf9e814fe7b45acb8525 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dea3794fc08507d8b999253e3fdd01c6 = $(`<div id="html_dea3794fc08507d8b999253e3fdd01c6" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD00</b></div>`)[0];
+                popup_43a43dd3d874cf9e814fe7b45acb8525.setContent(html_dea3794fc08507d8b999253e3fdd01c6);
+            
+        
+
+        polygon_5981566e0b827cd34c3bb0465fd32684.bindPopup(popup_43a43dd3d874cf9e814fe7b45acb8525)
+        ;
+
+        
+    
+    
+            var circle_marker_f97da88a87ebf3046e8fda1c56d76844 = L.circleMarker(
+                [44.41458353949003, -71.72254674037984],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_1c74c28e33f893f94ece80c8af0bf4f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faa434cd716a1efdb42320bd344dbddb = $(`<div id="html_faa434cd716a1efdb42320bd344dbddb" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD00</b></div>`)[0];
+                popup_1c74c28e33f893f94ece80c8af0bf4f4.setContent(html_faa434cd716a1efdb42320bd344dbddb);
+            
+        
+
+        circle_marker_f97da88a87ebf3046e8fda1c56d76844.bindPopup(popup_1c74c28e33f893f94ece80c8af0bf4f4)
+        ;
+
+        
+    
+    
+            circle_marker_f97da88a87ebf3046e8fda1c56d76844.bindTooltip(
+                `<div>
+                     Essex - Vermont-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_784122987a1251722019732474426786 = L.polygon(
+                [[44.42063499999999, -71.697696], [44.422781999999984, -71.694216], [44.424985, -71.689217], [44.42611799999998, -71.68664500000001], [44.42606875651061, -71.68641999721945], [44.42177302657843, -71.69041833163108], [44.42108315738827, -71.69153794176324], [44.4188887949908, -71.70052575021789], [44.42063499999999, -71.697696]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_e53e07cfa324281845d9e80347998978 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf07831e0e180d73d402c0259c2b4c5f = $(`<div id="html_cf07831e0e180d73d402c0259c2b4c5f" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD00</b></div>`)[0];
+                popup_e53e07cfa324281845d9e80347998978.setContent(html_cf07831e0e180d73d402c0259c2b4c5f);
+            
+        
+
+        polygon_784122987a1251722019732474426786.bindPopup(popup_e53e07cfa324281845d9e80347998978)
+        ;
+
+        
+    
+    
+            var circle_marker_b23a940ac36747d38fe84df77f737d19 = L.circleMarker(
+                [44.42255208171868, -71.69270800231463],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_2c9d6ed02dfcbf94a74621ccfda78508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef1030285df7ddc90280501dbe097c77 = $(`<div id="html_ef1030285df7ddc90280501dbe097c77" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD00</b></div>`)[0];
+                popup_2c9d6ed02dfcbf94a74621ccfda78508.setContent(html_ef1030285df7ddc90280501dbe097c77);
+            
+        
+
+        circle_marker_b23a940ac36747d38fe84df77f737d19.bindPopup(popup_2c9d6ed02dfcbf94a74621ccfda78508)
+        ;
+
+        
+    
+    
+            circle_marker_b23a940ac36747d38fe84df77f737d19.bindTooltip(
+                `<div>
+                     Essex - Vermont-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_98ea5b24db6e4da524b2e61105e069de = L.polygon(
+                [[44.41896999999998, -71.69468499999999], [44.41827700000001, -71.695331], [44.417916, -71.695661], [44.41738999999998, -71.69636900000002], [44.41719599999995, -71.696715], [44.416701, -71.6976], [44.41618600000002, -71.698561], [44.416112, -71.698699], [44.415642999999996, -71.699427], [44.41509, -71.700266], [44.41489399999998, -71.700587], [44.41459399999998, -71.701078], [44.41454700000001, -71.701156], [44.41407700000002, -71.701828], [44.413827999999974, -71.702186], [44.413542000000014, -71.70258000000001], [44.413276, -71.703155], [44.41325400000003, -71.703241], [44.41290399999999, -71.704628], [44.41268500000003, -71.705241], [44.41220999999998, -71.706387], [44.41140299999999, -71.70833100000002], [44.41070100000006, -71.710408], [44.41069099999999, -71.710438], [44.41036200000001, -71.711326], [44.410079999999994, -71.71217400000002], [44.40980600000004, -71.713022], [44.409651999999966, -71.713667], [44.409545000000016, -71.714279], [44.40956000000001, -71.714615], [44.409562999999956, -71.71466999999998], [44.40956700000003, -71.714759], [44.40966799999996, -71.716018], [44.40980600000001, -71.717107], [44.40984499999998, -71.717267], [44.40986200000001, -71.717337], [44.409968999999975, -71.717774], [44.410094, -71.718344], [44.41018300000002, -71.719083], [44.410461000000026, -71.720339], [44.41073899999998, -71.72145200000001], [44.41083600000003, -71.72206800000001], [44.41087200000003, -71.722616], [44.41087699999993, -71.722682], [44.410898000000024, -71.72298999999998], [44.410900999999974, -71.723131], [44.411285000000014, -71.723209], [44.41150400000004, -71.72325], [44.41196299999999, -71.723336], [44.412083999999986, -71.723351], [44.41219499999999, -71.723358], [44.41217400000001, -71.723115], [44.41214199999999, -71.722659], [44.41211999999999, -71.72249999999998], [44.412087000000014, -71.72231], [44.41205900000002, -71.722177], [44.412023, -71.722044], [44.41189100000002, -71.721634], [44.41173899999999, -71.721046], [44.411705, -71.720915], [44.41188800000007, -71.720782], [44.41216600000002, -71.7206], [44.41230900000002, -71.720478], [44.41240799999999, -71.720384], [44.41252099999999, -71.720279], [44.41266399999995, -71.720062], [44.41272499999999, -71.719867], [44.41274400000004, -71.71976], [44.41274200000005, -71.719655], [44.412705999999986, -71.719338], [44.412892999999976, -71.71927000000001], [44.41280299999999, -71.720754], [44.412654999999994, -71.72505600000001], [44.412615663895686, -71.72620298324127], [44.41705042845469, -71.70805312245652], [44.417474, -71.702819], [44.41757600000003, -71.702653], [44.4188887949908, -71.70052575021789], [44.42108315738827, -71.69153794176324], [44.420575999999954, -71.692361], [44.42029600000003, -71.692815], [44.419390999999976, -71.69413000000002], [44.419182999999954, -71.694448], [44.41896999999998, -71.69468499999999]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_4f2b2673c28c34c8072bfc07a62968c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02b5176bfef1017f8280e592c8b52dc1 = $(`<div id="html_02b5176bfef1017f8280e592c8b52dc1" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD02</b></div>`)[0];
+                popup_4f2b2673c28c34c8072bfc07a62968c7.setContent(html_02b5176bfef1017f8280e592c8b52dc1);
+            
+        
+
+        polygon_98ea5b24db6e4da524b2e61105e069de.bindPopup(popup_4f2b2673c28c34c8072bfc07a62968c7)
+        ;
+
+        
+    
+    
+            var circle_marker_da424635ffe502390c420af6992d3fd2 = L.circleMarker(
+                [44.413196810056306, -71.71193687854381],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_7e61a0760c5b308f21ed17cd73c9742f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b5f46831fb553d4cb56cf4dc8bf7393 = $(`<div id="html_1b5f46831fb553d4cb56cf4dc8bf7393" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD02</b></div>`)[0];
+                popup_7e61a0760c5b308f21ed17cd73c9742f.setContent(html_1b5f46831fb553d4cb56cf4dc8bf7393);
+            
+        
+
+        circle_marker_da424635ffe502390c420af6992d3fd2.bindPopup(popup_7e61a0760c5b308f21ed17cd73c9742f)
+        ;
+
+        
+    
+    
+            circle_marker_da424635ffe502390c420af6992d3fd2.bindTooltip(
+                `<div>
+                     Essex - Vermont-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_d8a8c34a975ca339b0aa2af55732c8e9 = L.polygon(
+                [[44.42587200000002, -71.685521], [44.425843, -71.685372], [44.42460099999998, -71.686338], [44.42383199999999, -71.68713], [44.42374299999996, -71.687221], [44.42177302657843, -71.69041833163108], [44.42606875651061, -71.68641999721945], [44.42587200000002, -71.685521]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_f7d403c04dd33bbe62fbeb576f9b4999 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cab307680c92696cee02572781a08b4e = $(`<div id="html_cab307680c92696cee02572781a08b4e" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD02</b></div>`)[0];
+                popup_f7d403c04dd33bbe62fbeb576f9b4999.setContent(html_cab307680c92696cee02572781a08b4e);
+            
+        
+
+        polygon_d8a8c34a975ca339b0aa2af55732c8e9.bindPopup(popup_f7d403c04dd33bbe62fbeb576f9b4999)
+        ;
+
+        
+    
+    
+            var circle_marker_2f123da0f8c7d13bebde31b3678de467 = L.circleMarker(
+                [44.42470059788613, -71.68674266610631],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fc5c3579eeb87fffbf32489d58400be1);
+        
+    
+        var popup_122e43496bc15b43214f7ebad3a5425d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46df0977df670d660648a0a47f2bb1e3 = $(`<div id="html_46df0977df670d660648a0a47f2bb1e3" style="width: 100.0%; height: 100.0%;"><b>Essex - Vermont-CD02</b></div>`)[0];
+                popup_122e43496bc15b43214f7ebad3a5425d.setContent(html_46df0977df670d660648a0a47f2bb1e3);
+            
+        
+
+        circle_marker_2f123da0f8c7d13bebde31b3678de467.bindPopup(popup_122e43496bc15b43214f7ebad3a5425d)
+        ;
+
+        
+    
+    
+            circle_marker_2f123da0f8c7d13bebde31b3678de467.bindTooltip(
+                `<div>
+                     Essex - Vermont-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

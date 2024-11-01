@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fdf5eac38f5ccf82035b4dabacff9ce9 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD04</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Perry - Arkansas-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_fdf5eac38f5ccf82035b4dabacff9ce9" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fdf5eac38f5ccf82035b4dabacff9ce9 = L.map(
+                "map_fdf5eac38f5ccf82035b4dabacff9ce9",
+                {
+                    center: [34.873483980448434, -93.1403321157533],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6977eddcaf70d9c1099fd8cc8f2bc235 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6977eddcaf70d9c1099fd8cc8f2bc235.addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+            var polygon_ae3c31f5b453d40ab941aed73610b32d = L.polygon(
+                [[34.86104899999998, -93.305864], [34.86109199999998, -93.305865], [34.86109199999998, -93.30588500000002], [34.86119899999999, -93.305883], [34.861386999999986, -93.305882], [34.86150799999999, -93.30588], [34.86152000000001, -93.305879], [34.861627999999996, -93.305877], [34.861691000000036, -93.305876], [34.86287200000001, -93.305859], [34.866367000000004, -93.30581], [34.866606999999995, -93.305806], [34.86783299999998, -93.305789], [34.867852999999975, -93.305789], [34.869400000000006, -93.305766], [34.87238299999999, -93.305723], [34.874043999999984, -93.305699], [34.87491099999998, -93.305687], [34.87509200000004, -93.305684], [34.875279, -93.305684], [34.87546299999997, -93.305682], [34.86101931196248, -93.30315015119237], [34.86104899999998, -93.305864]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_22b029912dca87f504de30b6fdf1d51b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10a71b5176c487a05a7fcd7a73c04413 = $(`<div id="html_10a71b5176c487a05a7fcd7a73c04413" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_22b029912dca87f504de30b6fdf1d51b.setContent(html_10a71b5176c487a05a7fcd7a73c04413);
+            
+        
+
+        polygon_ae3c31f5b453d40ab941aed73610b32d.bindPopup(popup_22b029912dca87f504de30b6fdf1d51b)
+        ;
+
+        
+    
+    
+            var circle_marker_40a40387b854486e816356c17566089c = L.circleMarker(
+                [34.86618862225923, -93.30569057179098],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_f191a604036a6992c1447958098bc8db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5762384099b61ec289f07f06f2da2649 = $(`<div id="html_5762384099b61ec289f07f06f2da2649" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_f191a604036a6992c1447958098bc8db.setContent(html_5762384099b61ec289f07f06f2da2649);
+            
+        
+
+        circle_marker_40a40387b854486e816356c17566089c.bindPopup(popup_f191a604036a6992c1447958098bc8db)
+        ;
+
+        
+    
+    
+            circle_marker_40a40387b854486e816356c17566089c.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0c2aedf0c5c876364efbb80627b4fa22 = L.polygon(
+                [[34.90367999999999, -93.270374], [34.90369036033349, -93.26866108818334], [34.90236490022203, -93.27040043809019], [34.90367999999999, -93.270374]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_a5c658fd55792d3033d9989310cdb61b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d36cbca6096c2cba3c41992957854c9f = $(`<div id="html_d36cbca6096c2cba3c41992957854c9f" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_a5c658fd55792d3033d9989310cdb61b.setContent(html_d36cbca6096c2cba3c41992957854c9f);
+            
+        
+
+        polygon_0c2aedf0c5c876364efbb80627b4fa22.bindPopup(popup_a5c658fd55792d3033d9989310cdb61b)
+        ;
+
+        
+    
+    
+            var circle_marker_e45ef1107671617ebf5246adaf198262 = L.circleMarker(
+                [34.90335381513887, -93.26995238156839],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_d97877194356add587b5b147d99f174a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04947d666bedb891e5e9278edca8329a = $(`<div id="html_04947d666bedb891e5e9278edca8329a" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_d97877194356add587b5b147d99f174a.setContent(html_04947d666bedb891e5e9278edca8329a);
+            
+        
+
+        circle_marker_e45ef1107671617ebf5246adaf198262.bindPopup(popup_d97877194356add587b5b147d99f174a)
+        ;
+
+        
+    
+    
+            circle_marker_e45ef1107671617ebf5246adaf198262.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0153308624b125a8aa73bd7c3464e76e = L.polygon(
+                [[34.91627999999999, -93.252339], [34.91820900000002, -93.252301], [34.918199999999985, -93.25083], [34.91819099394372, -93.24962618944205], [34.91612254252657, -93.25234213765442], [34.91627999999999, -93.252339]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_8e48b963bc006c8efaf6732def4bb3bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_12ba20735dc4866b993d22c7fbdab405 = $(`<div id="html_12ba20735dc4866b993d22c7fbdab405" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_8e48b963bc006c8efaf6732def4bb3bc.setContent(html_12ba20735dc4866b993d22c7fbdab405);
+            
+        
+
+        polygon_0153308624b125a8aa73bd7c3464e76e.bindPopup(popup_8e48b963bc006c8efaf6732def4bb3bc)
+        ;
+
+        
+    
+    
+            var circle_marker_4d05f494dae4a934605e26fce63ac5bd = L.circleMarker(
+                [34.91721375607838, -93.25162955451607],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_da1fdbdbc254273e578f308dc0fcebf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8f0b6143ebbff516827ee10e4572e40 = $(`<div id="html_d8f0b6143ebbff516827ee10e4572e40" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_da1fdbdbc254273e578f308dc0fcebf5.setContent(html_d8f0b6143ebbff516827ee10e4572e40);
+            
+        
+
+        circle_marker_4d05f494dae4a934605e26fce63ac5bd.bindPopup(popup_da1fdbdbc254273e578f308dc0fcebf5)
+        ;
+
+        
+    
+    
+            circle_marker_4d05f494dae4a934605e26fce63ac5bd.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8955447616d75b16f898b2814f1a6e2c = L.polygon(
+                [[34.92992599999998, -93.235059], [34.93259199999997, -93.235063], [34.93259799999997, -93.233966], [34.9326181055881, -93.23067637479983], [34.92928184400428, -93.23505952273403], [34.92992599999998, -93.235059]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_a20a62ec56ab963032126540412c7fe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edd4277b974daedc8bd5239804487dc7 = $(`<div id="html_edd4277b974daedc8bd5239804487dc7" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_a20a62ec56ab963032126540412c7fe8.setContent(html_edd4277b974daedc8bd5239804487dc7);
+            
+        
+
+        polygon_8955447616d75b16f898b2814f1a6e2c.bindPopup(popup_a20a62ec56ab963032126540412c7fe8)
+        ;
+
+        
+    
+    
+            var circle_marker_44001721178096756715edc8a49df616 = L.circleMarker(
+                [34.931156991598705, -93.23414714958898],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_008135234a7b9da4496e53e7efbca6dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57cd30cd48bb0fe6a8b8431ee4277214 = $(`<div id="html_57cd30cd48bb0fe6a8b8431ee4277214" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_008135234a7b9da4496e53e7efbca6dd.setContent(html_57cd30cd48bb0fe6a8b8431ee4277214);
+            
+        
+
+        circle_marker_44001721178096756715edc8a49df616.bindPopup(popup_008135234a7b9da4496e53e7efbca6dd)
+        ;
+
+        
+    
+    
+            circle_marker_44001721178096756715edc8a49df616.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_167be02b84ffcf6adb03dbe75dc9495d = L.polygon(
+                [[34.94657100000002, -93.217345], [34.94778199999999, -93.217338], [34.947708054089965, -93.21084372441], [34.94274016316141, -93.21737437984099], [34.94657100000002, -93.217345]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_f3a78ee41f0496b49c1d90511616a7b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1339e62713378e209ebfe06005b08f59 = $(`<div id="html_1339e62713378e209ebfe06005b08f59" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_f3a78ee41f0496b49c1d90511616a7b3.setContent(html_1339e62713378e209ebfe06005b08f59);
+            
+        
+
+        polygon_167be02b84ffcf6adb03dbe75dc9495d.bindPopup(popup_f3a78ee41f0496b49c1d90511616a7b3)
+        ;
+
+        
+    
+    
+            var circle_marker_71fa28c2186830a92386b44fd2b8f77d = L.circleMarker(
+                [34.946274443450285, -93.21604922085018],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_91983b036223038f74d0936ea0801bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bd097dc47c73646e8694189ff8e0412 = $(`<div id="html_5bd097dc47c73646e8694189ff8e0412" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_91983b036223038f74d0936ea0801bd6.setContent(html_5bd097dc47c73646e8694189ff8e0412);
+            
+        
+
+        circle_marker_71fa28c2186830a92386b44fd2b8f77d.bindPopup(popup_91983b036223038f74d0936ea0801bd6)
+        ;
+
+        
+    
+    
+            circle_marker_71fa28c2186830a92386b44fd2b8f77d.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_ab72bdf838169a7fd01fb152219741e6 = L.polygon(
+                [[34.96107599999997, -93.20006], [34.961161999999995, -93.200054], [34.962325999999976, -93.200017], [34.96221499999996, -93.195243], [34.96220199999996, -93.194652], [34.96213648409763, -93.19186881915022], [34.95578000415829, -93.20022966834705], [34.96107599999997, -93.20006]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_0a6974f76e073e5069aab781e43fa78e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6cd6bec80db3be3ff4ad0b0feb2c999e = $(`<div id="html_6cd6bec80db3be3ff4ad0b0feb2c999e" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_0a6974f76e073e5069aab781e43fa78e.setContent(html_6cd6bec80db3be3ff4ad0b0feb2c999e);
+            
+        
+
+        polygon_ab72bdf838169a7fd01fb152219741e6.bindPopup(popup_0a6974f76e073e5069aab781e43fa78e)
+        ;
+
+        
+    
+    
+            var circle_marker_18ae39655b9e55adc94638afa8b7684a = L.circleMarker(
+                [34.96099668603197, -93.19777306093715],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_5fbb6a455443e1dcf438596770fffdcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8b2a7b81896c351fe1e998f7ef57de7 = $(`<div id="html_c8b2a7b81896c351fe1e998f7ef57de7" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_5fbb6a455443e1dcf438596770fffdcb.setContent(html_c8b2a7b81896c351fe1e998f7ef57de7);
+            
+        
+
+        circle_marker_18ae39655b9e55adc94638afa8b7684a.bindPopup(popup_5fbb6a455443e1dcf438596770fffdcb)
+        ;
+
+        
+    
+    
+            circle_marker_18ae39655b9e55adc94638afa8b7684a.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_bc81bbc047b9352ae6ec38d5e998d93b = L.polygon(
+                [[34.97307100000001, -93.181433], [34.97629499999999, -93.181354], [34.976129485387744, -93.17345562586152], [34.97000778763926, -93.18151240576849], [34.97307100000001, -93.181433]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_d0357c30d01d58b2750f89dfd98bbab1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dc746cefa056d0e1b9af712bb7ac1f1 = $(`<div id="html_4dc746cefa056d0e1b9af712bb7ac1f1" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_d0357c30d01d58b2750f89dfd98bbab1.setContent(html_4dc746cefa056d0e1b9af712bb7ac1f1);
+            
+        
+
+        polygon_bc81bbc047b9352ae6ec38d5e998d93b.bindPopup(popup_d0357c30d01d58b2750f89dfd98bbab1)
+        ;
+
+        
+    
+    
+            var circle_marker_cfc673eee26f127c731dc75d2c85db7b = L.circleMarker(
+                [34.973714854605404, -93.179837606326],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_22d57e3cffcd6561fa41703bf8becc8e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0632a42a660bf4fbb84c1b0db1fd1131 = $(`<div id="html_0632a42a660bf4fbb84c1b0db1fd1131" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD04</b></div>`)[0];
+                popup_22d57e3cffcd6561fa41703bf8becc8e.setContent(html_0632a42a660bf4fbb84c1b0db1fd1131);
+            
+        
+
+        circle_marker_cfc673eee26f127c731dc75d2c85db7b.bindPopup(popup_22d57e3cffcd6561fa41703bf8becc8e)
+        ;
+
+        
+    
+    
+            circle_marker_cfc673eee26f127c731dc75d2c85db7b.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4806502304530353488a342b9dd3c57d = L.polygon(
+                [[34.85846400000003, -93.041252], [34.85840400000002, -93.04647], [34.85840400000002, -93.047915], [34.8584037348068, -93.04793038866049], [34.858402000000005, -93.055771], [34.85839800000001, -93.055883], [34.858376000000014, -93.056622], [34.85837399999999, -93.056691], [34.85833300000001, -93.061054], [34.85829400000001, -93.064637], [34.85824700000001, -93.06977300000001], [34.85824400000003, -93.07015], [34.85820002023076, -93.07392358496223], [34.85819999999996, -93.073928], [34.85819900000001, -93.074011], [34.84695699999999, -93.074249], [34.836821, -93.074469], [34.83235, -93.074592], [34.832256999999984, -93.074595], [34.83224799999999, -93.074741], [34.832246999999995, -93.07477], [34.83222800000004, -93.075147], [34.83218700000001, -93.075433], [34.83218599999999, -93.07552], [34.83221300000002, -93.075627], [34.83222800000004, -93.075774], [34.83228099999998, -93.075954], [34.83230200000006, -93.07605400000001], [34.83230699999999, -93.076168], [34.832306000000045, -93.076221], [34.83229499999998, -93.076274], [34.83226699999999, -93.076347], [34.832221999999994, -93.076427], [34.83216100000001, -93.076493], [34.83193500000003, -93.076636], [34.831889999999994, -93.076669], [34.831879000000015, -93.076742], [34.83188400000002, -93.076782], [34.83187200000003, -93.076849], [34.83188299999999, -93.07692200000001], [34.831881999999986, -93.077022], [34.83197500000001, -93.07763], [34.83212600000002, -93.078058], [34.83230100000001, -93.078787], [34.832344000000006, -93.078861], [34.83239199999999, -93.078961], [34.832468, -93.079099], [34.83256099999998, -93.07922], [34.832691000000004, -93.079375], [34.83270699999998, -93.079398], [34.83275599999998, -93.079469], [34.83285800000006, -93.079797], [34.83289499999999, -93.079937], [34.83293799999999, -93.080045], [34.83330699999999, -93.080642], [34.833499000000025, -93.081238], [34.83351500000003, -93.081325], [34.833519000000024, -93.081525], [34.83349400000002, -93.08185800000001], [34.833493000000026, -93.081984], [34.83349699999999, -93.082084], [34.833513, -93.082151], [34.83353500000001, -93.08219800000002], [34.833567000000016, -93.082252], [34.83382400000002, -93.082435], [34.83390100000002, -93.082463], [34.83395500000001, -93.082523], [34.83399300000001, -93.082584], [34.834025000000004, -93.082658], [34.83404099999998, -93.082764], [34.83406700000001, -93.082878], [34.83410500000002, -93.083005], [34.83416999999999, -93.083139], [34.834315999999994, -93.083354], [34.834462999999985, -93.083536], [34.834822000000024, -93.083967], [34.83547000000005, -93.084609], [34.835562999999986, -93.08467700000001], [34.835681, -93.084738], [34.835801, -93.08478], [34.835944000000005, -93.08480800000001], [34.83606400000005, -93.08484300000002], [34.836212000000046, -93.084872], [34.83630500000004, -93.08492], [34.83641500000006, -93.084988], [34.836490999999974, -93.085045], [34.83667599999999, -93.085294], [34.836916000000016, -93.085504], [34.83720000000001, -93.085728], [34.83754799999999, -93.086042], [34.83797899999994, -93.086431], [34.83841000000001, -93.086776], [34.83880399999999, -93.087068], [34.83909300000002, -93.087245], [34.839186000000005, -93.08727300000001], [34.83934000000005, -93.087295], [34.839598, -93.087291], [34.83973000000004, -93.087293], [34.840038, -93.087284], [34.84004400000003, -93.087264], [34.84012900000002, -93.087298], [34.84024299999998, -93.087366], [34.84031500000001, -93.087414], [34.84040199999997, -93.087502], [34.840664, -93.087712], [34.84069599999997, -93.087733], [34.84112800000002, -93.088011], [34.84146199999998, -93.088135], [34.84156600000001, -93.08821], [34.841643, -93.088244], [34.842014, -93.088482], [34.842193999999964, -93.088644], [34.84228599999998, -93.088806], [34.84231300000002, -93.088909], [34.84232800000004, -93.088996], [34.842338999999974, -93.08909], [34.842325999999986, -93.089243], [34.84228900000001, -93.089333], [34.842281000000014, -93.08935500000001], [34.842281000000014, -93.089395], [34.842297, -93.089429], [34.84232399999999, -93.089456], [34.842433999999955, -93.089524], [34.84248799999996, -93.089545], [34.842521, -93.089572], [34.842543000000006, -93.089612], [34.842563999999996, -93.08969900000001], [34.84257999999997, -93.089793], [34.842606999999994, -93.089853], [34.84269299999999, -93.089994], [34.842768, -93.089988], [34.842872, -93.089992], [34.843181000000016, -93.090114], [34.843400999999965, -93.090222], [34.84346800000002, -93.090455], [34.844022999999986, -93.091093], [34.84455799999997, -93.091025], [34.844739, -93.091106], [34.84480900000002, -93.091059], [34.84492499999998, -93.091147], [34.845029000000004, -93.091225], [34.846621999999996, -93.093054], [34.84663499999998, -93.093493], [34.84678300000002, -93.093664], [34.84679000000005, -93.093884], [34.84775299999997, -93.09499], [34.84782400000003, -93.097324], [34.84789699999998, -93.097507], [34.84803200000003, -93.097638], [34.84808099999997, -93.097704], [34.848195999999994, -93.097846], [34.848288999999994, -93.097926], [34.848474000000046, -93.098167], [34.84853900000003, -93.098272], [34.84867100000001, -93.098482], [34.84873699999997, -93.098602], [34.848840999999986, -93.09883], [34.848949000000005, -93.09904], [34.84931800000003, -93.099421], [34.849991999999986, -93.099811], [34.850305999999975, -93.099852], [34.85062000000001, -93.099894], [34.85061799999998, -93.10003], [34.85060999999998, -93.100436], [34.850607000000025, -93.10057200000001], [34.85067199999997, -93.100557], [34.85073700000003, -93.100543], [34.851031999999975, -93.100478], [34.851302, -93.100428], [34.85145199999999, -93.100367], [34.851570999999986, -93.100297], [34.851691, -93.100197], [34.85180000000003, -93.100047], [34.85237900000003, -93.098937], [34.852635000000014, -93.098448], [34.852884, -93.097958], [34.853063000000034, -93.097618], [34.85326199999997, -93.097208], [34.853391000000016, -93.096908], [34.85358, -93.096578], [34.85365899999999, -93.096458], [34.853798999999995, -93.096308], [34.85392799999997, -93.096188], [34.85405799999997, -93.096108], [34.85421700000001, -93.096037], [34.854347, -93.095997], [34.85449700000002, -93.095977], [34.854677, -93.095966], [34.85474699999999, -93.095976], [34.85485600000002, -93.095976], [34.85511600000001, -93.096035], [34.85569599999997, -93.096134], [34.85845400000002, -93.09663100000002], [34.85930199999999, -93.096784], [34.860471000000054, -93.096991], [34.86072000000001, -93.097031], [34.86096999999997, -93.09709], [34.86101000000003, -93.09711000000001], [34.86098000000002, -93.09727], [34.86085999999999, -93.0977], [34.86072000000001, -93.09827], [34.86071000000005, -93.0984], [34.86071000000005, -93.0985], [34.86073, -93.09864], [34.86079000000003, -93.09878], [34.86088999999998, -93.09892000000002], [34.861, -93.09903], [34.86117000000004, -93.09913], [34.86139999999999, -93.09925], [34.86159000000004, -93.09933], [34.861710000000016, -93.09943], [34.86180999999999, -93.09959], [34.861860000000014, -93.09973], [34.86187000000001, -93.09992], [34.86185, -93.10012], [34.86179000000004, -93.10027], [34.861710000000016, -93.10038], [34.86159999999996, -93.10052], [34.8613, -93.10074], [34.860449999999965, -93.10126], [34.860434000000055, -93.10127000000001], [34.86019999999997, -93.10143], [34.86004000000002, -93.10158], [34.859929999999984, -93.10171], [34.85971999999999, -93.10197], [34.859530000000014, -93.10223], [34.859170000000006, -93.10279], [34.85879999999999, -93.1033], [34.85858000000003, -93.10353], [34.85842999999994, -93.10363], [34.85826999999999, -93.10371], [34.85777999999997, -93.10392], [34.857539999999986, -93.10404000000001], [34.857390000000024, -93.10417], [34.85728999999998, -93.10430000000001], [34.85721000000004, -93.10443], [34.857090000000014, -93.10466], [34.85691, -93.10494], [34.85668, -93.10535], [34.856619999999985, -93.10557], [34.85661000000001, -93.10573], [34.85663000000002, -93.10584], [34.85668999999998, -93.10594000000002], [34.856800000000035, -93.10607], [34.856929999999984, -93.10616], [34.85705000000001, -93.1062], [34.857169999999996, -93.1062], [34.857439999999976, -93.10617], [34.85774000000002, -93.10615], [34.85783000000002, -93.10615], [34.857899999999994, -93.10619], [34.85800999999996, -93.10632], [34.85809, -93.1065], [34.858119999999985, -93.10668], [34.85811999999998, -93.10691], [34.85807000000002, -93.1071], [34.857989999999944, -93.10727], [34.85783999999998, -93.10745], [34.85759000000002, -93.10765], [34.85724, -93.10794000000001], [34.857119999999995, -93.10803], [34.856959999999994, -93.10814], [34.85667000000001, -93.10828], [34.85650000000003, -93.10835], [34.85631, -93.10836], [34.85618000000003, -93.10834], [34.85609000000002, -93.10827], [34.85573000000002, -93.10791], [34.855530000000016, -93.10773], [34.855349999999966, -93.10763], [34.85520999999996, -93.10757], [34.85501999999998, -93.10753], [34.85476000000001, -93.10754], [34.85425000000003, -93.10759000000002], [34.853799999999985, -93.1077], [34.85342999999996, -93.1078], [34.85328000000005, -93.10789], [34.85295000000003, -93.10814], [34.85268000000003, -93.10841], [34.852389999999986, -93.10876], [34.8522, -93.10907], [34.85193799999998, -93.109565], [34.85181999999998, -93.10979], [34.85159000000002, -93.11019000000002], [34.85144000000001, -93.11054000000001], [34.851349999999954, -93.11080000000001], [34.85131, -93.11108], [34.85128999999997, -93.11146], [34.85130000000003, -93.11173], [34.85130000000003, -93.11212], [34.851290000000006, -93.11252], [34.85125000000001, -93.1133], [34.851159999999936, -93.11488], [34.85117999999999, -93.11488], [34.85135999999996, -93.11493], [34.851459999999975, -93.115], [34.85151899999999, -93.115086], [34.85155, -93.11513], [34.85162999999999, -93.11526], [34.85167000000003, -93.11541], [34.851699999999994, -93.11567], [34.85171000000001, -93.11606], [34.851682, -93.116347], [34.85167999999998, -93.11637], [34.85161999999998, -93.11673], [34.851613000000015, -93.11677600000002], [34.85155, -93.11718], [34.85137000000002, -93.11863], [34.85134000000002, -93.11903], [34.85132999999999, -93.1195], [34.85135999999996, -93.11988], [34.851399999999956, -93.12016000000001], [34.85152, -93.12052], [34.851659999999995, -93.12084], [34.85202000000004, -93.12161], [34.85221000000001, -93.1221], [34.85232999999993, -93.12248], [34.85242999999996, -93.12288], [34.85245999999999, -93.12315], [34.85245999999999, -93.12367], [34.85245799999995, -93.123718], [34.85244, -93.12419], [34.85238000000001, -93.12518000000001], [34.85239, -93.12557], [34.85238999999997, -93.12601], [34.8524, -93.12638], [34.85244000000001, -93.12678], [34.852539999999976, -93.12742], [34.852570000000036, -93.12753], [34.852669999999954, -93.12779], [34.852739999999976, -93.12796], [34.85282999999996, -93.12815], [34.85287000000002, -93.12826], [34.85290000000002, -93.12836], [34.85290000000002, -93.12845], [34.85288999999998, -93.12855], [34.85283999999996, -93.12868], [34.852750000000015, -93.12884], [34.852570000000036, -93.12909], [34.85245999999999, -93.12929], [34.85235999999999, -93.12961], [34.85225999999999, -93.12997], [34.85217999999999, -93.1303], [34.85204999999999, -93.13089], [34.85195000000004, -93.13116], [34.851800000000026, -93.13151], [34.85162999999999, -93.13188], [34.851399999999956, -93.13235], [34.85087999999997, -93.13323], [34.850829999999966, -93.13343], [34.850819999999956, -93.13363], [34.850840000000034, -93.13377], [34.85090000000003, -93.13395], [34.85099999999994, -93.13418], [34.851139999999965, -93.13445000000002], [34.85120000000004, -93.13462], [34.85127999999996, -93.13487], [34.85127999999996, -93.13527], [34.85125999999998, -93.13589], [34.85122000000002, -93.13624], [34.85110000000001, -93.13683], [34.85102000000002, -93.13729], [34.850930000000034, -93.13772], [34.85090000000003, -93.13807], [34.850899999999996, -93.13838], [34.850930000000034, -93.13869], [34.85098000000003, -93.139], [34.851010000000045, -93.13934], [34.85099999999994, -93.13957], [34.85094999999998, -93.13979], [34.85087999999997, -93.14005], [34.850849999999994, -93.14026000000001], [34.85086999999994, -93.14124], [34.850849999999994, -93.14146], [34.85077, -93.14174], [34.85054000000002, -93.14223], [34.85045000000005, -93.14249], [34.850369999999984, -93.14287], [34.85029, -93.14311], [34.85017999999998, -93.14331], [34.85002999999999, -93.14357], [34.849839999999986, -93.14385], [34.84967, -93.14412], [34.84961200000002, -93.144224], [34.849569999999964, -93.1443], [34.84944000000001, -93.14463], [34.84916000000004, -93.14538], [34.84908000000004, -93.14565], [34.84902999999998, -93.1459], [34.849010000000064, -93.14617], [34.849039999999974, -93.14639], [34.84909000000002, -93.14662], [34.84916000000004, -93.14684], [34.84923999999999, -93.14704], [34.849299999999985, -93.14723], [34.84937000000001, -93.1475], [34.84938999999998, -93.1477], [34.849419999999974, -93.14792], [34.84945000000001, -93.14863], [34.84945999999999, -93.14913], [34.84950000000001, -93.14947], [34.84954, -93.14967], [34.84970999999995, -93.15024], [34.84977999999999, -93.15051], [34.84980999999999, -93.15064], [34.84981999999998, -93.15078], [34.84982000000001, -93.15107], [34.84979999999996, -93.15118000000001], [34.84977999999999, -93.15132], [34.84972, -93.15156], [34.849652999999975, -93.151791], [34.84962000000004, -93.15191], [34.849569999999964, -93.15211], [34.84941000000003, -93.15259], [34.849360000000004, -93.15286], [34.84932999999997, -93.15307], [34.849299999999985, -93.15334000000001], [34.849289999999996, -93.15358], [34.84929100000001, -93.153635], [34.849299999999985, -93.15388], [34.84929999999998, -93.15409], [34.84927999999997, -93.1542], [34.84925999999997, -93.15426], [34.849209999999985, -93.15439], [34.84909000000002, -93.15458], [34.84884, -93.15479], [34.84825599999996, -93.155181], [34.848049999999986, -93.15532], [34.84741999999997, -93.15565], [34.8471, -93.15586], [34.84674999999999, -93.15605], [34.84584000000003, -93.15657], [34.84570000000004, -93.15668], [34.84528000000001, -93.15717], [34.844952, -93.157632], [34.844869999999965, -93.15775], [34.844759999999994, -93.15794000000001], [34.844570000000004, -93.15822], [34.84429999999998, -93.15852], [34.84413000000003, -93.15875], [34.84401999999996, -93.15892], [34.84388000000004, -93.15919], [34.843719999999976, -93.15955], [34.84361000000001, -93.15993], [34.84355000000003, -93.16021], [34.843540000000026, -93.16049], [34.843559999999975, -93.16071000000001], [34.84358, -93.16088], [34.843639999999986, -93.16118], [34.84379000000003, -93.1617], [34.843990000000005, -93.16224], [34.844140000000046, -93.16274], [34.84431000000001, -93.16335], [34.844460000000026, -93.16384], [34.84452999999999, -93.16412], [34.84456000000001, -93.16429], [34.844570000000004, -93.16458], [34.84456000000001, -93.16478400000001], [34.84456000000001, -93.1648], [34.84452999999999, -93.16502], [34.84442000000002, -93.16538], [34.84432000000001, -93.16558], [34.844150000000035, -93.16585], [34.84397000000001, -93.16606], [34.843860000000035, -93.16615], [34.843840000000036, -93.16617000000001], [34.842928999999984, -93.166704], [34.84286999999999, -93.16674], [34.84250000000003, -93.16695], [34.84232000000002, -93.16702], [34.84221000000001, -93.16704], [34.84206999999999, -93.16704], [34.84191000000001, -93.16701], [34.841750000000005, -93.16695], [34.84143000000002, -93.1668], [34.84093000000001, -93.16653], [34.84025999999998, -93.16612], [34.84016000000001, -93.16607], [34.840018999999984, -93.16599200000002], [34.83968999999999, -93.16581], [34.839529999999996, -93.16573], [34.83918000000002, -93.16561], [34.83911000000001, -93.16559], [34.83904, -93.16554], [34.83896, -93.16536], [34.83884000000005, -93.16514], [34.83872999999998, -93.16492], [34.83863999999999, -93.16476], [34.838480000000004, -93.16458], [34.83832999999998, -93.16445], [34.838120000000046, -93.16435000000001], [34.83791000000004, -93.16427], [34.83767999999999, -93.16415], [34.83759, -93.16405], [34.8375, -93.16394], [34.83746699999998, -93.163889], [34.83738999999998, -93.16377], [34.83727, -93.16354], [34.83698000000003, -93.16305000000001], [34.83687000000001, -93.1629], [34.83669000000001, -93.16273], [34.83655000000003, -93.16262], [34.8362, -93.16238], [34.83600999999999, -93.16229], [34.83580999999998, -93.16223], [34.835539999999966, -93.16216], [34.83530999999998, -93.16209000000002], [34.83511000000002, -93.16201000000001], [34.83500999999997, -93.16193], [34.83490000000001, -93.16179], [34.834810000000026, -93.16162], [34.83466999999999, -93.16114000000002], [34.83458999999998, -93.16084], [34.83449, -93.16055], [34.83438000000002, -93.16032], [34.83425999999999, -93.16015], [34.83413000000001, -93.16], [34.83404000000003, -93.15987], [34.83392000000001, -93.15968], [34.83386000000002, -93.15957], [34.83380999999995, -93.15942], [34.83372000000002, -93.15909], [34.83362999999999, -93.15869], [34.833610000000036, -93.15851], [34.833610000000014, -93.158436], [34.833610000000036, -93.15829], [34.833650000000006, -93.15778], [34.833660000000044, -93.15755], [34.833650000000006, -93.15743], [34.83359999999999, -93.15725], [34.83354000000003, -93.15708], [34.83318999999998, -93.15633], [34.83309999999997, -93.15619], [34.833069999999964, -93.15624], [34.83283700000002, -93.156491], [34.83256, -93.15679], [34.83245000000001, -93.15694], [34.832410000000024, -93.15701], [34.83235999999998, -93.15712], [34.83228099999998, -93.157487], [34.83211999999994, -93.15798], [34.832050000000045, -93.15811000000001], [34.83198000000002, -93.15821], [34.831889999999994, -93.15832], [34.83184999999997, -93.15841], [34.83176999999998, -93.15857], [34.83172000000002, -93.15871], [34.83169000000005, -93.15881], [34.83143000000002, -93.15984000000002], [34.831337000000005, -93.16019200000001], [34.83133000000002, -93.16022], [34.831109999999995, -93.16099], [34.83091999999999, -93.1615], [34.83079999999999, -93.16176], [34.83059000000003, -93.16204], [34.83038000000002, -93.16233], [34.83016999999999, -93.16265], [34.83004000000002, -93.16291], [34.82985999999998, -93.16316], [34.82967000000002, -93.16338], [34.82959000000004, -93.1635], [34.829510000000006, -93.16366000000001], [34.82945999999996, -93.1638], [34.82930000000002, -93.16451], [34.829090000000015, -93.16526], [34.828960000000016, -93.16579], [34.82882000000002, -93.1663], [34.82865999999998, -93.16692], [34.82857000000003, -93.16738], [34.82850999999997, -93.16779], [34.828480000000035, -93.16814], [34.82845799999997, -93.168233], [34.82841999999997, -93.1684], [34.82835999999998, -93.16862], [34.82825999999994, -93.16886], [34.82804999999998, -93.16927], [34.82786, -93.16969], [34.82779000000003, -93.16988], [34.82776000000002, -93.17004], [34.82773999999997, -93.17026], [34.82772999999999, -93.17049], [34.82775, -93.17098], [34.82775, -93.17111], [34.82779000000003, -93.17157], [34.82781, -93.17185], [34.82779000000001, -93.17214], [34.82777999999999, -93.17248], [34.82776600000001, -93.17257], [34.827719999999985, -93.17287], [34.827709999999996, -93.1731], [34.82772999999999, -93.17327000000002], [34.82776999999998, -93.17352], [34.82781, -93.17364], [34.82782000000001, -93.17375], [34.82781999999998, -93.17387], [34.82779999999998, -93.17399], [34.82776999999998, -93.17436], [34.82772999999999, -93.17459], [34.827680000000036, -93.17522], [34.82755, -93.1763], [34.82751999999999, -93.17683000000001], [34.82751999999999, -93.17705], [34.827548, -93.17732], [34.82757000000001, -93.17753], [34.82759999999998, -93.17844], [34.827600000000004, -93.17885], [34.82757999999999, -93.17891], [34.82751999999999, -93.17908000000001], [34.827139999999986, -93.17997], [34.82698200000004, -93.180379], [34.826920000000015, -93.18054], [34.82670999999999, -93.18103], [34.82649, -93.18166], [34.826169999999955, -93.18252], [34.82615, -93.18268], [34.826160000000016, -93.18291], [34.82615, -93.18314], [34.826129999999985, -93.18338], [34.82604000000002, -93.18389], [34.825970000000005, -93.18418], [34.825930000000014, -93.18431], [34.82586000000004, -93.18441], [34.82575999999999, -93.18461], [34.82568, -93.18482], [34.825654999999955, -93.184902], [34.82562999999999, -93.18499], [34.825579999999995, -93.18521], [34.82554999999997, -93.18547], [34.82554999999997, -93.18559], [34.825580000000016, -93.18573], [34.82565000000002, -93.18602], [34.8257, -93.1862], [34.825709999999994, -93.18638], [34.82571999999997, -93.18646], [34.82572999999999, -93.18666], [34.82572999999999, -93.187057], [34.82572999999999, -93.18798], [34.82575000000004, -93.1881], [34.82588999999997, -93.18855], [34.825909999999986, -93.18868], [34.825891999999996, -93.188826], [34.82588999999997, -93.18885], [34.82585, -93.18902], [34.825800000000015, -93.18913], [34.82575000000001, -93.18927], [34.82575000000004, -93.1894], [34.82575000000001, -93.18942900000002], [34.82575000000004, -93.189516], [34.82574899999996, -93.189545], [34.825745000000005, -93.189628], [34.82573999999998, -93.18974], [34.82572599999998, -93.189878], [34.82571999999997, -93.18994], [34.825709999999994, -93.18996], [34.82565000000004, -93.19018], [34.82552999999997, -93.19046], [34.825390000000006, -93.19084], [34.82525999999999, -93.19112000000001], [34.82516999999999, -93.19128], [34.82505999999999, -93.19143], [34.824810000000014, -93.19166], [34.824675999999975, -93.191816], [34.824519999999964, -93.192], [34.82433, -93.19223], [34.82432, -93.19226], [34.824149999999996, -93.19258], [34.824030000000036, -93.19302], [34.82390999999998, -93.1934], [34.823869999999964, -93.19359], [34.823859999999954, -93.19374], [34.82389000000004, -93.19399], [34.824070000000006, -93.19477], [34.82419999999994, -93.19509], [34.82432, -93.19528000000001], [34.82447000000003, -93.19544], [34.824749999999995, -93.19563000000001], [34.82491000000004, -93.19569], [34.82503999999998, -93.19577], [34.825129999999966, -93.19584], [34.825199999999974, -93.19592], [34.825269999999975, -93.19603], [34.82532999999998, -93.19619], [34.82547000000001, -93.1967], [34.825706999999966, -93.197461], [34.82581999999998, -93.19778], [34.82592000000005, -93.19802], [34.82604000000002, -93.19824], [34.82615, -93.1984], [34.826280000000004, -93.19855], [34.826480000000004, -93.19875], [34.826779999999964, -93.19902], [34.826879999999946, -93.1991], [34.826950000000004, -93.19918000000001], [34.82700000000003, -93.19926], [34.827005000000014, -93.199271], [34.82714300000001, -93.199562], [34.82719000000002, -93.19966], [34.82734999999999, -93.20003], [34.82748, -93.20037], [34.82779999999998, -93.20127], [34.827949999999994, -93.20177], [34.82802999999998, -93.20196], [34.82823000000004, -93.20248], [34.828270999999994, -93.202577], [34.82831, -93.20267], [34.82842999999996, -93.20306], [34.828439999999986, -93.2032], [34.828435000000034, -93.20333], [34.82842999999996, -93.20346], [34.82841600000003, -93.203547], [34.828379999999974, -93.20378], [34.82835999999998, -93.20397], [34.82833999999998, -93.20412], [34.82834500000001, -93.204198], [34.828349999999986, -93.20426], [34.828409999999984, -93.20439], [34.82841999999997, -93.2044], [34.82842999999996, -93.20449], [34.82845999999999, -93.20462], [34.82861000000005, -93.20497], [34.82872999999999, -93.20519], [34.828869999999974, -93.20543], [34.82936200000001, -93.206318], [34.829480000000025, -93.20653], [34.829735, -93.206981], [34.83009000000002, -93.20761], [34.83038999999999, -93.20810000000002], [34.830720000000035, -93.20869], [34.83075999999998, -93.20885], [34.830769999999966, -93.20902], [34.83074999999998, -93.20914000000002], [34.83069999999998, -93.20927], [34.830619999999996, -93.20939], [34.830489999999976, -93.20955], [34.83038000000002, -93.20972], [34.830300000000015, -93.20987], [34.83025999999998, -93.21], [34.83024, -93.21019], [34.83021999999998, -93.21065], [34.83018999999998, -93.21085], [34.830159999999985, -93.21101], [34.83009000000003, -93.21123], [34.82990000000002, -93.21174000000002], [34.82977000000003, -93.21213], [34.82974999999997, -93.212183], [34.82961000000003, -93.21257], [34.82928999999996, -93.21339000000002], [34.82905999999995, -93.21403], [34.829001000000034, -93.214198], [34.82883000000001, -93.21469], [34.82862999999999, -93.21549], [34.828480000000035, -93.21595], [34.82833999999998, -93.21633], [34.82824999999998, -93.21656], [34.82813999999999, -93.21676], [34.82790000000001, -93.21706], [34.82761999999999, -93.21733], [34.827470000000005, -93.21756], [34.827280000000016, -93.21791], [34.827110000000026, -93.21816000000001], [34.82700700000003, -93.218294], [34.826950000000004, -93.21837], [34.826519999999995, -93.21888], [34.82631000000001, -93.21917], [34.82624000000001, -93.21929], [34.82620999999998, -93.21948], [34.82620000000005, -93.21976], [34.82620000000003, -93.22008], [34.82623000000002, -93.22041000000002], [34.82624000000001, -93.22065], [34.82623000000002, -93.22083], [34.82618999999996, -93.22099], [34.826109999999986, -93.22122], [34.826029999999996, -93.2214], [34.82592000000002, -93.22163], [34.82575000000004, -93.22191], [34.82565000000002, -93.22214], [34.825409999999955, -93.22297], [34.825320000000005, -93.22338], [34.82528999999998, -93.22361], [34.82528999999998, -93.22378], [34.82532999999998, -93.22409], [34.825419999999994, -93.22472], [34.82546999999999, -93.22499], [34.82552999999997, -93.22516], [34.825600000000016, -93.22531], [34.82567999999999, -93.22545], [34.825800000000015, -93.22563], [34.82592000000002, -93.22585], [34.82600000000001, -93.22609], [34.82610000000001, -93.22635], [34.82641000000003, -93.22725], [34.826499999999946, -93.2275], [34.826570000000004, -93.22776], [34.826600000000035, -93.22808], [34.826600000000035, -93.22871], [34.82657999999994, -93.22909], [34.82657999999994, -93.22923], [34.82659000000002, -93.22933000000002], [34.82663000000001, -93.22944], [34.826720000000016, -93.22962], [34.82682999999999, -93.22989], [34.826930000000004, -93.23019], [34.82706000000004, -93.23054000000002], [34.82719000000003, -93.23092], [34.827325, -93.231361], [34.82746000000001, -93.2318], [34.827600000000004, -93.23237], [34.82776999999998, -93.23309], [34.82784, -93.23347], [34.82788, -93.23377], [34.82789000000002, -93.23408], [34.82793000000001, -93.23433], [34.82799999999998, -93.23481], [34.82806999999999, -93.23521], [34.828149999999944, -93.23551], [34.82820999999997, -93.2358], [34.828219999999995, -93.23589], [34.82824000000001, -93.23599], [34.82823999999999, -93.236059], [34.82824000000001, -93.23619], [34.82822000000002, -93.23637], [34.82818999999999, -93.23656900000002], [34.828179999999996, -93.23664], [34.828158000000016, -93.236738], [34.82810999999999, -93.23696000000001], [34.82806000000002, -93.23714], [34.82801999999999, -93.23721600000002], [34.82794000000001, -93.23737], [34.82775, -93.2377], [34.82745000000002, -93.23819], [34.82734000000003, -93.23835], [34.82714999999998, -93.23855], [34.82698000000003, -93.23869000000002], [34.82680000000003, -93.23885], [34.826669999999986, -93.23895000000002], [34.82662300000003, -93.238996], [34.826510000000056, -93.23917], [34.82648000000002, -93.23922], [34.826300000000025, -93.23958], [34.826040000000035, -93.24015], [34.82587, -93.24058], [34.82581, -93.24082], [34.82575000000004, -93.2411], [34.82561999999997, -93.24141], [34.82547000000001, -93.24194], [34.82545400000001, -93.242016], [34.825390000000006, -93.24231], [34.82536999999998, -93.24295], [34.82534999999999, -93.24309], [34.82523999999998, -93.24337000000001], [34.82506999999999, -93.24372000000001], [34.82505999999999, -93.24376], [34.824749999999995, -93.24436], [34.82453000000002, -93.24467000000001], [34.82426999999999, -93.24501], [34.824120000000036, -93.24524], [34.824039999999975, -93.2454], [34.82395999999997, -93.24566], [34.823899999999966, -93.24599], [34.82389599999997, -93.246011], [34.82385999999998, -93.24625], [34.82380000000003, -93.24654], [34.82376000000003, -93.24671], [34.82372000000002, -93.24733], [34.82372000000002, -93.24779000000001], [34.823710000000005, -93.2482], [34.82369999999997, -93.24837], [34.823670000000014, -93.24848000000001], [34.82361999999999, -93.24859], [34.82354000000001, -93.24869], [34.82336999999998, -93.24878], [34.82291999999998, -93.24899], [34.822799999999994, -93.24908], [34.82239000000004, -93.24949], [34.82176000000004, -93.25003], [34.821360000000006, -93.25036], [34.82087000000004, -93.25083], [34.82046, -93.25121], [34.82011, -93.25152], [34.819830000000024, -93.25172], [34.81961200000002, -93.251879], [34.81949000000002, -93.25197], [34.81931999999999, -93.25212000000002], [34.81920000000001, -93.25228], [34.81912000000002, -93.25243], [34.819069999999996, -93.25261], [34.819069999999996, -93.25284], [34.81909000000006, -93.2531], [34.81920000000001, -93.25352], [34.81925000000001, -93.25378], [34.81927999999998, -93.25417], [34.81929000000002, -93.25426], [34.81930999999995, -93.2544], [34.81931400000003, -93.254483], [34.819320000000005, -93.2546], [34.819300000000005, -93.25484], [34.81925000000001, -93.2551], [34.81923599999998, -93.255151], [34.819179999999996, -93.25537], [34.81924200000006, -93.255387], [34.81939000000004, -93.25543], [34.81943200000003, -93.255438], [34.819495999999994, -93.255452], [34.81957999999998, -93.25547], [34.819910000000036, -93.25547], [34.82048000000003, -93.25541], [34.820681000000015, -93.255357], [34.820749999999975, -93.25534], [34.821070000000006, -93.25527], [34.82114999999997, -93.25526], [34.82128000000001, -93.25526], [34.82132000000003, -93.25527], [34.82141000000003, -93.25531], [34.82151, -93.25538], [34.82156000000002, -93.25548], [34.82157999999999, -93.25557], [34.821610000000035, -93.2562], [34.82164000000004, -93.25665], [34.82164999999999, -93.25696], [34.82166000000003, -93.25768], [34.82163500000001, -93.258084], [34.82162000000003, -93.25833], [34.82156999999999, -93.25857], [34.821470000000005, -93.25897], [34.821388, -93.259252], [34.82134999999997, -93.25938], [34.82120999999996, -93.25973], [34.82071999999998, -93.26085], [34.820642999999976, -93.26103], [34.820389999999996, -93.26163], [34.82020999999998, -93.26215], [34.82009999999999, -93.2625], [34.82007999999998, -93.26265], [34.82007000000003, -93.26284], [34.820090000000015, -93.26342], [34.820090000000015, -93.26371], [34.820080000000004, -93.26381], [34.820080000000004, -93.26391000000001], [34.82006000000002, -93.264], [34.81994000000002, -93.26471], [34.81978, -93.26544], [34.81971000000004, -93.26566], [34.819619999999986, -93.26589], [34.81954999999999, -93.26603], [34.819450000000025, -93.26617], [34.81933000000001, -93.26636], [34.81927000000003, -93.26649], [34.819243, -93.266558], [34.81919000000007, -93.2667], [34.81900300000001, -93.267075], [34.81895999999998, -93.26716], [34.81873999999997, -93.26754], [34.81826000000001, -93.26821], [34.81832999999997, -93.26829], [34.818369999999994, -93.2684], [34.81840599999999, -93.268562], [34.81840999999998, -93.26858], [34.818523999999954, -93.269724], [34.81855000000006, -93.26998], [34.81857000000001, -93.27006000000002], [34.818600000000025, -93.2701], [34.81851000000005, -93.27021], [34.81848000000004, -93.27028], [34.81832999999997, -93.27069], [34.81830899999996, -93.270742], [34.817649999999986, -93.27239], [34.81750799999997, -93.27272], [34.817439999999955, -93.27288], [34.81723200000004, -93.273376], [34.817280999999994, -93.27337], [34.817466999999965, -93.273373], [34.81759300000001, -93.273385], [34.817702999999966, -93.273396], [34.81801599999999, -93.273441], [34.818214000000005, -93.273457], [34.818526999999975, -93.273509], [34.81867299999998, -93.273508], [34.818861999999974, -93.273507], [34.819033, -93.273476], [34.818930000000066, -93.273821], [34.818860999999956, -93.274117], [34.818803000000024, -93.274462], [34.81878200000004, -93.274862], [34.818797000000046, -93.275015], [34.81881800000001, -93.275096], [34.81887699999998, -93.27521], [34.81894799999997, -93.275311], [34.81896900000001, -93.275391], [34.81895200000001, -93.275471], [34.81892299999996, -93.275544], [34.81887200000002, -93.275703], [34.81875999999997, -93.275928], [34.81861899999998, -93.276332], [34.81820999999999, -93.277619], [34.81818499999998, -93.277911], [34.818169, -93.278318], [34.818191000000006, -93.278871], [34.81816599999999, -93.279171], [34.818136, -93.27941], [34.81809400000001, -93.279509], [34.818045999999995, -93.279615], [34.81798999999996, -93.27972100000001], [34.81794000000003, -93.279787], [34.817835000000024, -93.279885], [34.81769699999999, -93.27993], [34.81760000000003, -93.280008], [34.817569000000006, -93.280074], [34.817546, -93.280174], [34.817539000000004, -93.280317], [34.817541999999996, -93.280537], [34.81757300000002, -93.280711], [34.81763700000002, -93.280925], [34.81765300000001, -93.28101900000001], [34.81764600000003, -93.281078], [34.81762400000003, -93.281118], [34.81757400000002, -93.281151], [34.81735899999999, -93.28123400000001], [34.817220999999975, -93.281259], [34.817012, -93.281315], [34.816772000000014, -93.281372], [34.81672000000003, -93.281384], [34.81653900000001, -93.281395], [34.816450000000025, -93.281487], [34.81642700000001, -93.281546], [34.81640899999995, -93.281673], [34.81636499999999, -93.28191], [34.816327999999984, -93.282105], [34.816249, -93.28229], [34.816170000000064, -93.282455], [34.81613599999997, -93.282608], [34.816141000000016, -93.282688], [34.81613900000001, -93.282848], [34.81618700000001, -93.282962], [34.81631700000002, -93.283171], [34.81641900000003, -93.283439], [34.81643899999999, -93.283579], [34.81644899999997, -93.283692], [34.816421999999996, -93.283873], [34.816396000000054, -93.28404500000002], [34.81639999999998, -93.284145], [34.81643200000002, -93.284258], [34.816463999999996, -93.284339], [34.81651299999999, -93.284433], [34.81654899999998, -93.2846], [34.81658000000003, -93.284787], [34.816595000000035, -93.284961], [34.816564, -93.285287], [34.81654100000003, -93.285453], [34.816556000000055, -93.285546], [34.81658299999995, -93.285593], [34.81662100000001, -93.285641], [34.81669699999997, -93.285708], [34.816789000000014, -93.285836], [34.81693500000002, -93.286069], [34.81698399999998, -93.286116], [34.81712099999999, -93.286231], [34.81731699999998, -93.286381], [34.817601, -93.28656500000001], [34.81772599999996, -93.286674], [34.817829000000025, -93.286815], [34.817959, -93.28721000000002], [34.81799200000002, -93.287244], [34.818056999999996, -93.287338], [34.818133, -93.28743300000001], [34.81820899999997, -93.287481], [34.81828599999997, -93.287508], [34.81840100000002, -93.287524], [34.81851099999998, -93.287505], [34.81861099999998, -93.287453], [34.81870499999999, -93.287415], [34.81877600000002, -93.287396], [34.818842000000025, -93.287424], [34.818912999999995, -93.287485], [34.81898299999999, -93.287592], [34.819112999999966, -93.287761], [34.81927000000003, -93.288003], [34.819292000000004, -93.288046], [34.81978500000001, -93.288049], [34.82126499999999, -93.288058], [34.82158499999998, -93.28806], [34.82175900000003, -93.288061], [34.822834, -93.288067], [34.826060999999974, -93.288085], [34.827136999999986, -93.288092], [34.835381, -93.288139], [34.835535000000014, -93.288139], [34.835869999999986, -93.28814], [34.83972899999999, -93.288164], [34.84012399999997, -93.28816600000002], [34.84017599999999, -93.28816600000002], [34.84051199999997, -93.288167], [34.84167600000001, -93.288174], [34.842064000000015, -93.288177], [34.84231799999999, -93.288178], [34.843328999999954, -93.288183], [34.847123999999994, -93.28820500000002], [34.84763999999999, -93.288208], [34.84838999999999, -93.288212], [34.85085900000004, -93.288226], [34.853853, -93.288243], [34.858267, -93.288268], [34.860736999999986, -93.288282], [34.86086999999998, -93.288283], [34.860924, -93.294476], [34.86101931196248, -93.30315015119237], [34.87546299999997, -93.305682], [34.875267999999984, -93.28835], [34.87737300000004, -93.288316], [34.886811999999985, -93.288204], [34.888386000000004, -93.28818], [34.888809244387346, -93.28818348348995], [34.88887320042504, -93.28809960607414], [34.88905000000001, -93.275623], [34.889123000000005, -93.270667], [34.89101200000003, -93.270624], [34.89661600000002, -93.270516], [34.90236490022203, -93.27040043809019], [34.90369036033349, -93.26866108818334], [34.90376299999996, -93.256533], [34.903775000000024, -93.254433], [34.90379100000001, -93.252575], [34.90403299999996, -93.252568], [34.906234999999974, -93.252525], [34.90855099999998, -93.252493], [34.91612254252657, -93.25234213765442], [34.91819099394372, -93.24962618944205], [34.918103000000016, -93.23795], [34.918097, -93.237147], [34.91809200000001, -93.23565600000002], [34.91809100000001, -93.235018], [34.926229, -93.235062], [34.92928184400428, -93.23505952273403], [34.9326181055881, -93.23067637479983], [34.93269800000002, -93.217452], [34.93586900000003, -93.217425], [34.938669999999995, -93.217407], [34.93900800000001, -93.217403], [34.94274016316141, -93.21737437984099], [34.947708054089965, -93.21084372441], [34.947703000000025, -93.210401], [34.94769699999997, -93.20988700000001], [34.947603000000015, -93.201623], [34.947598999999954, -93.201294], [34.947591000000045, -93.200492], [34.951804999999965, -93.200357], [34.95578000415829, -93.20022966834705], [34.96213648409763, -93.19186881915022], [34.96211999999996, -93.191169], [34.96209300000002, -93.189892], [34.96200699999997, -93.186146], [34.961903000000056, -93.181733], [34.962620000000015, -93.181706], [34.96435200000002, -93.181659], [34.97000778763926, -93.18151240576849], [34.976129485387744, -93.17345562586152], [34.97604900000007, -93.169624], [34.97599700000003, -93.168124], [34.975836999999984, -93.160277], [34.97579300000001, -93.160234], [34.975576, -93.160024], [34.97432300000002, -93.158805], [34.973906000000014, -93.158399], [34.96992400000002, -93.154544], [34.95797800000002, -93.142979], [34.95399700000002, -93.139124], [34.95339000000002, -93.138533], [34.95156899999997, -93.136762], [34.950963, -93.136172], [34.95078799999999, -93.136003], [34.950307000000016, -93.135538], [34.95026400000002, -93.135496], [34.95019800000002, -93.135433], [34.95009000000003, -93.135328], [34.95028999999998, -93.134544], [34.95027499999998, -93.133926], [34.95015300000001, -93.133312], [34.94996199999998, -93.132833], [34.94995899999995, -93.1327], [34.94958699999997, -93.132096], [34.94909999999999, -93.131557], [34.94881499999998, -93.131241], [34.94764800000002, -93.130356], [34.947168999999974, -93.129756], [34.94694099999999, -93.129234], [34.946706999999996, -93.128448], [34.946347000000046, -93.125413], [34.946197000000005, -93.125153], [34.94621099999999, -93.125], [34.945976999999985, -93.122388], [34.94590300000001, -93.122302], [34.94578499999999, -93.120407], [34.94574500000002, -93.120232], [34.94572, -93.120203], [34.945561000000026, -93.120018], [34.94551700000004, -93.11825200000001], [34.945263999999945, -93.116671], [34.945251000000034, -93.116147], [34.94524100000003, -93.115745], [34.945228999999976, -93.115259], [34.945254999999975, -93.11486], [34.945322000000026, -93.114681], [34.94531799999997, -93.114552], [34.945308999999995, -93.114151], [34.94537200000002, -93.113796], [34.94557499999995, -93.113302], [34.94569100000002, -93.113148], [34.945713000000005, -93.11312], [34.945739999999965, -93.112766], [34.946007, -93.11196], [34.946549, -93.110747], [34.94693000000004, -93.110247], [34.94698499999996, -93.110218], [34.947389000000015, -93.110009], [34.94767499999999, -93.109998], [34.948000000000036, -93.110118], [34.94874000000001, -93.109649], [34.94898399999999, -93.109419], [34.94914200000002, -93.109221], [34.94964399999998, -93.108599], [34.94988399999998, -93.108192], [34.95010799999999, -93.107123], [34.95003500000002, -93.105624], [34.94995300000002, -93.105185], [34.94995199999998, -93.105103], [34.949951000000034, -93.103639], [34.94987500000001, -93.103465], [34.949866999999955, -93.103156], [34.94975599999997, -93.102983], [34.949635999999984, -93.102502], [34.94941500000005, -93.102245], [34.94940899999999, -93.10198], [34.949112999999954, -93.101594], [34.94911200000004, -93.101566], [34.949107, -93.101329], [34.94899300000004, -93.101068], [34.948809000000026, -93.100854], [34.94876400000005, -93.100502], [34.94850500000002, -93.100159], [34.94850100000003, -93.099982], [34.94820499999998, -93.099595], [34.948201999999995, -93.099463], [34.94727900000002, -93.098305], [34.94673599999998, -93.098016], [34.94648000000001, -93.097805], [34.94615699999998, -93.097773], [34.94556799999998, -93.097088], [34.94547499999996, -93.096178], [34.94547399999999, -93.096164], [34.94557800000001, -93.096028], [34.94556899999998, -93.09567500000001], [34.94584600000001, -93.095311], [34.94591100000004, -93.095043], [34.94611900000001, -93.09477000000001], [34.94618099999998, -93.094414], [34.94631699999999, -93.0941], [34.94638599999998, -93.094009], [34.94637899999999, -93.093723], [34.946371, -93.093391], [34.94646500000001, -93.092857], [34.94645600000001, -93.092533], [34.94645600000002, -93.092504], [34.946555000000004, -93.092147], [34.946558000000024, -93.091627], [34.94656199999998, -93.090998], [34.946252999999984, -93.090123], [34.94617699999998, -93.089908], [34.94598799999998, -93.089688], [34.945440000000005, -93.08905200000001], [34.94512899999997, -93.08887400000002], [34.945005, -93.088804], [34.944752, -93.088681], [34.94417699999999, -93.08857], [34.94231800000001, -93.08864], [34.942069, -93.088694], [34.94200000000001, -93.088785], [34.941651, -93.08883700000001], [34.941216000000004, -93.088903], [34.94114699999998, -93.088994], [34.94078900000002, -93.089008], [34.940541999999986, -93.089149], [34.940147000000024, -93.089076], [34.939857, -93.08891], [34.93959900000001, -93.088611], [34.93933800000001, -93.088179], [34.93918200000004, -93.087655], [34.939034999999976, -93.087484], [34.93890600000004, -93.086649], [34.93921999999999, -93.086328], [34.939521000000006, -93.086182], [34.940209999999986, -93.085849], [34.94119500000001, -93.08519300000002], [34.941610999999995, -93.084647], [34.94177700000001, -93.084111], [34.94175199999998, -93.08314], [34.941593000000005, -93.082483], [34.941483000000034, -93.082355], [34.941438, -93.082003], [34.941180000000024, -93.081703], [34.94109999999998, -93.081353], [34.94087900000004, -93.081096], [34.940876, -93.080964], [34.940277000000016, -93.079926], [34.940121, -93.079402], [34.93997400000002, -93.079231], [34.93993299999997, -93.079012], [34.939673, -93.078624], [34.93925700000001, -93.077712], [34.939072, -93.077498], [34.93899299999999, -93.077192], [34.938471, -93.076328], [34.938409, -93.07609], [34.93839199999997, -93.076022], [34.93817099999997, -93.075766], [34.938127000000016, -93.075458], [34.93786900000001, -93.075158], [34.937678999999974, -93.07468], [34.93756799999999, -93.074551], [34.937564000000016, -93.074375], [34.93718100000001, -93.073373], [34.93713199999996, -93.072622], [34.937123000000035, -93.072492], [34.93714600000003, -93.07239], [34.93725200000001, -93.071913], [34.937243, -93.07156], [34.937456, -93.07005], [34.93743400000005, -93.06916700000001], [34.937409000000024, -93.068984], [34.937258000000014, -93.067849], [34.937108, -93.067589], [34.937042000000005, -93.066355], [34.936757999999976, -93.06504], [34.93671700000001, -93.063408], [34.93664200000001, -93.06323400000001], [34.936555, -93.062619], [34.936465999999996, -93.060502], [34.936425000000035, -93.06028200000002], [34.93635100000001, -93.060197], [34.93630299999999, -93.058821], [34.93622100000001, -93.056447], [34.936250000000015, -93.05539], [34.93616800000003, -93.05539], [34.936141, -93.05539], [34.93608699999999, -93.05539], [34.93594999999996, -93.05539], [34.93585000000006, -93.05538], [34.935819999999985, -93.05537], [34.935789999999976, -93.05535], [34.935749999999956, -93.05529], [34.93517400000001, -93.055659], [34.934697999999976, -93.057346], [34.93446500000002, -93.05781], [34.93385500000003, -93.058487], [34.933596999999985, -93.058529], [34.93347000000004, -93.05855000000001], [34.93330000000001, -93.05841], [34.93325000000002, -93.05838], [34.93315999999999, -93.05835], [34.93303000000002, -93.05833], [34.93294999999997, -93.05835], [34.93289000000001, -93.05837], [34.93281000000001, -93.05842], [34.93261999999996, -93.05858], [34.9325, -93.05866], [34.93223999999998, -93.05877], [34.932179999999995, -93.05881], [34.93211999999999, -93.05887], [34.931990000000006, -93.05903], [34.93187, -93.0592], [34.931750000000044, -93.0594], [34.93172000000002, -93.05948], [34.93170000000003, -93.05955], [34.93167999999998, -93.05985000000001], [34.93167999999999, -93.06116], [34.93161000000002, -93.06309], [34.93163, -93.06328], [34.93167999999998, -93.06349], [34.93176000000002, -93.06366000000001], [34.93186000000001, -93.06374], [34.93185000000002, -93.06387], [34.931869999999996, -93.06413], [34.931900000000006, -93.06434], [34.931899999999985, -93.0645], [34.93189000000001, -93.06458], [34.93183999999999, -93.06470000000002], [34.93167999999999, -93.06502], [34.9316, -93.06521], [34.93148000000008, -93.06552], [34.93138999999999, -93.06568], [34.9313, -93.06582], [34.93110999999998, -93.06604], [34.930969999999974, -93.06619], [34.93086000000005, -93.06635000000001], [34.93074999999997, -93.06649], [34.93064999999999, -93.0666], [34.930549999999954, -93.06672], [34.93038000000004, -93.06689], [34.93014000000001, -93.06709], [34.92995999999999, -93.06727], [34.92985, -93.06744], [34.92975999999999, -93.06763], [34.92972000000001, -93.06776], [34.92969999999997, -93.06789], [34.92969000000002, -93.06806], [34.92967999999996, -93.06816000000002], [34.92968999999999, -93.06823], [34.92984999999998, -93.06859], [34.92995999999997, -93.06881], [34.93001000000002, -93.06895], [34.93004000000002, -93.06911], [34.93004999999999, -93.06925], [34.930029999999974, -93.06937], [34.92998000000001, -93.06959], [34.92990999999996, -93.06985], [34.92989000000002, -93.07013], [34.92990000000002, -93.07041], [34.92990999999996, -93.07104], [34.92993, -93.07155], [34.92996999999999, -93.07205], [34.930025000000015, -93.072651], [34.930110000000035, -93.07359], [34.93019000000001, -93.0743], [34.93023999999995, -93.07484000000001], [34.93034000000001, -93.0758], [34.930414000000006, -93.076707], [34.93041999999994, -93.07677], [34.930489999999985, -93.07728], [34.93066999999997, -93.07883000000001], [34.930759999999964, -93.07958], [34.93086000000002, -93.08052], [34.93098999999993, -93.08132], [34.931110000000004, -93.08203000000002], [34.93114999999997, -93.08234], [34.93118000000005, -93.08268], [34.931200000000025, -93.08298000000002], [34.93121999999998, -93.08351], [34.93121999999998, -93.08366], [34.93125000000005, -93.08383], [34.93133000000002, -93.08415], [34.931360000000005, -93.08433], [34.93138999999999, -93.08454000000002], [34.931400000000046, -93.08488], [34.931430000000034, -93.08558], [34.93145999999998, -93.08617], [34.931470000000004, -93.08666], [34.93148999999998, -93.08688], [34.93161999999999, -93.08757], [34.93167999999998, -93.08793], [34.93170000000003, -93.08819], [34.931720000000006, -93.08857], [34.931738000000024, -93.088843], [34.931750000000015, -93.08902], [34.931750000000015, -93.08958], [34.931770000000014, -93.09008], [34.93181000000002, -93.09045], [34.93187, -93.09082], [34.93199999999999, -93.09186], [34.93205000000001, -93.0924], [34.932059999999986, -93.0927], [34.93205000000001, -93.0929], [34.93201, -93.09304], [34.93187, -93.0933], [34.93165999999998, -93.09371], [34.93150699999999, -93.094125], [34.931400000000046, -93.09442000000001], [34.93127, -93.0947], [34.93117000000004, -93.09479], [34.93103000000001, -93.09482], [34.93078999999999, -93.09485], [34.93043999999994, -93.09488], [34.93027999999998, -93.09491], [34.92994999999996, -93.09502], [34.92987999999996, -93.09505], [34.92978999999997, -93.0951], [34.92974000000001, -93.09516], [34.92967999999996, -93.09522], [34.92962999999998, -93.09531], [34.929590000000005, -93.09542], [34.929560000000016, -93.09555], [34.92951999999995, -93.09577], [34.92946999999997, -93.09615], [34.92945999999996, -93.09627], [34.92949000000003, -93.09645], [34.92951000000003, -93.09673], [34.92950100000003, -93.09687], [34.92949999999997, -93.0969], [34.92945999999996, -93.09706], [34.92927000000003, -93.09741], [34.929239999999965, -93.09759], [34.929239999999965, -93.09781], [34.92922999999999, -93.09799], [34.92920699999998, -93.098157], [34.92912, -93.0988], [34.92909, -93.09906], [34.92908, -93.09944], [34.92905999999998, -93.09971], [34.92901000000004, -93.09997000000001], [34.92889999999999, -93.10042], [34.92889000000007, -93.10057000000002], [34.92889, -93.10075], [34.92891000000001, -93.10094], [34.92894000000002, -93.10112], [34.92901999999997, -93.10155], [34.92909, -93.10217], [34.92912999999997, -93.102428], [34.92921000000001, -93.10293], [34.929250000000046, -93.10316], [34.929269999999995, -93.10349], [34.92927000000001, -93.10388], [34.929280000000034, -93.10409], [34.9293, -93.10428], [34.929339999999996, -93.10451], [34.92946999999997, -93.10516], [34.92951000000003, -93.10548], [34.929590000000005, -93.10642], [34.92969000000002, -93.10718], [34.929729999999964, -93.10758], [34.92975999999997, -93.10781], [34.92989000000002, -93.10847], [34.93004000000004, -93.1092], [34.930099999999996, -93.10957], [34.93013, -93.10984000000002], [34.930209999999974, -93.11066], [34.93026000000005, -93.11086], [34.93029999999997, -93.11105], [34.930429999999994, -93.11176], [34.930450000000086, -93.11209], [34.93045999999997, -93.11242], [34.930489999999985, -93.11284], [34.9305, -93.11311], [34.9305, -93.11331000000001], [34.930539999999986, -93.11365000000002], [34.93062, -93.11412], [34.93068999999998, -93.11476], [34.93070000000001, -93.11495], [34.93072000000001, -93.11518], [34.93072800000001, -93.115254], [34.93075999999996, -93.11553], [34.93077999999996, -93.1158], [34.93084, -93.11625], [34.93087, -93.11652000000001], [34.93088999999999, -93.11679], [34.93091000000002, -93.11696], [34.93092999999999, -93.11706], [34.93101999999994, -93.11738], [34.93105000000005, -93.11753], [34.93105999999998, -93.11762], [34.931059999999974, -93.11811], [34.93105000000004, -93.1184], [34.93106, -93.11853], [34.931080000000016, -93.11863], [34.931140000000056, -93.1188], [34.93117000000004, -93.11894], [34.93121999999998, -93.11938], [34.93124000000003, -93.119522], [34.931269999999984, -93.11966], [34.9313, -93.11976], [34.93138999999999, -93.11992], [34.93151999999995, -93.12017], [34.931653999999966, -93.120423], [34.93195000000001, -93.12098], [34.932069999999996, -93.12126], [34.932119999999976, -93.12143], [34.93214999999996, -93.12161], [34.93216000000001, -93.12189], [34.93215399999998, -93.123309], [34.93215100000001, -93.124307], [34.93215000000001, -93.12473], [34.93217000000003, -93.12501], [34.932221, -93.125362], [34.93223000000001, -93.12542], [34.932259999999985, -93.1256], [34.932259999999985, -93.12578], [34.93224000000002, -93.12599], [34.93221, -93.12619], [34.932159999999975, -93.12634], [34.93214000000001, -93.12651], [34.93214999999996, -93.12671], [34.93223000000001, -93.12761], [34.93229000000003, -93.12839000000001], [34.93230200000001, -93.12851900000001], [34.93231999999998, -93.12869], [34.93234000000001, -93.12898], [34.93234000000001, -93.12916], [34.93229000000003, -93.12937], [34.932223999999984, -93.12956100000001], [34.93219000000003, -93.12966], [34.93208999999998, -93.12996], [34.931980000000024, -93.13025], [34.931899999999985, -93.13052], [34.93189000000001, -93.1308], [34.931890000000024, -93.13149], [34.93184999999998, -93.13181], [34.931780000000025, -93.13205], [34.931740000000005, -93.13252], [34.93172000000002, -93.13265], [34.93168600000001, -93.132774], [34.93167999999998, -93.1328], [34.931640000000044, -93.13289000000002], [34.931579999999975, -93.13297], [34.93148000000005, -93.13308], [34.93124000000003, -93.13345], [34.93110999999998, -93.13372], [34.930950000000045, -93.13414], [34.93077999999996, -93.1344], [34.93060999999997, -93.13458], [34.93026000000005, -93.13488], [34.93004999999999, -93.13504], [34.929830000000045, -93.13526], [34.92972000000001, -93.13547], [34.92964999999998, -93.13572], [34.92963999999998, -93.1359], [34.92967999999996, -93.13638], [34.92974999999999, -93.137], [34.92979999999999, -93.13735], [34.92984999999998, -93.13776], [34.92986000000001, -93.13799], [34.929860000000026, -93.13823], [34.92987, -93.13836], [34.92990000000002, -93.1386], [34.92990000000002, -93.1388], [34.92989000000002, -93.13897], [34.92984999999998, -93.13927], [34.929830000000045, -93.13956], [34.929819999999985, -93.13983], [34.929839999999984, -93.14017], [34.929860000000026, -93.14031], [34.92987999999996, -93.14062], [34.92990000000002, -93.14083], [34.92990000000002, -93.14107], [34.92969300000002, -93.141878], [34.92968999999999, -93.14189], [34.92964999999998, -93.14215], [34.929649999999995, -93.14239], [34.929679999999976, -93.14266], [34.92977, -93.14335], [34.92978999999997, -93.14359], [34.92975999999997, -93.14409], [34.92975999999997, -93.14427], [34.929839999999984, -93.14462], [34.92987, -93.14483], [34.92986999999997, -93.14499], [34.92985, -93.14514], [34.929809999999975, -93.14513], [34.92953000000001, -93.14503], [34.92922999999999, -93.14491], [34.928483, -93.144636], [34.92833000000002, -93.14458], [34.92795000000001, -93.14445], [34.926600000000015, -93.14394], [34.925360000000005, -93.14348], [34.92519, -93.1434], [34.925039999999974, -93.1433], [34.92482999999999, -93.14317], [34.92451400000001, -93.142885], [34.92346000000002, -93.14188], [34.923159999999996, -93.14159], [34.92292999999998, -93.14134], [34.922779999999996, -93.14114], [34.92268999999998, -93.14099], [34.92260999999995, -93.14082], [34.92252000000002, -93.14055], [34.92246900000002, -93.140349], [34.922430000000006, -93.14019], [34.92231999999999, -93.13978], [34.922190000000015, -93.13927], [34.92207999999993, -93.13882], [34.921999999999976, -93.13851], [34.92181999999994, -93.13755], [34.92157999999999, -93.13616], [34.92144000000002, -93.13531], [34.92137999999998, -93.13498], [34.921356, -93.134883], [34.921290000000006, -93.13461], [34.92118000000001, -93.13424], [34.92107999999995, -93.13396], [34.920939999999995, -93.13359000000001], [34.92082, -93.13332], [34.92073899999998, -93.133132], [34.92066999999999, -93.13297], [34.920469999999995, -93.13252], [34.920320000000004, -93.13217], [34.920247, -93.131918], [34.92011999999996, -93.13148], [34.91999000000001, -93.13068], [34.91992000000003, -93.13036], [34.91985000000002, -93.13016], [34.919749999999986, -93.12997], [34.91963000000002, -93.12978], [34.91944999999999, -93.12954], [34.91895000000003, -93.12893], [34.91876000000001, -93.12868], [34.91858099999999, -93.128458], [34.91801000000002, -93.12775], [34.91775600000002, -93.12744], [34.917776, -93.12517800000002], [34.91769100000002, -93.122204], [34.91724400000001, -93.106499], [34.917105000000014, -93.101595], [34.91710300000002, -93.101265], [34.91709300000001, -93.099961], [34.91706500000003, -93.096051], [34.91705599999995, -93.094748], [34.91705599999995, -93.094682], [34.916959999999946, -93.090309], [34.91690900000003, -93.087983], [34.916287000000025, -93.080326], [34.916060000000016, -93.077024], [34.91605600000004, -93.076956], [34.91581299999998, -93.072842], [34.91606299999996, -93.072839], [34.91606599999997, -93.072491], [34.916075, -93.071713], [34.916073999999966, -93.071448], [34.916073999999966, -93.071101], [34.916072999999976, -93.070823], [34.916070000000005, -93.069989], [34.916070000000005, -93.069712], [34.916043999999985, -93.067953], [34.91603, -93.067567], [34.915955999999994, -93.06547], [34.91595999999997, -93.064023], [34.91596600000005, -93.061548], [34.915955999999994, -93.061134], [34.915941999999966, -93.060469], [34.91590999999996, -93.05899], [34.915930999999986, -93.058291], [34.91599299999997, -93.056295], [34.91599599999999, -93.056194], [34.916005, -93.055895], [34.91601699999994, -93.055495], [34.91594499999998, -93.055087], [34.91594000000001, -93.055059], [34.91582899999999, -93.05493], [34.915633000000035, -93.054231], [34.91545600000001, -93.05397], [34.91522400000003, -93.053629], [34.91505099999996, -93.053635], [34.91454499999998, -93.053655], [34.91453700000005, -93.053664], [34.91447599999996, -93.053746], [34.91440499999998, -93.053748], [34.914298000000045, -93.053752], [34.91412200000003, -93.053892], [34.91387000000002, -93.053979], [34.91383800000001, -93.053991], [34.91320400000001, -93.054368], [34.91306599999997, -93.05455], [34.91292299999997, -93.054556], [34.91250500000001, -93.055013], [34.91247600000001, -93.055024], [34.912257000000004, -93.055111], [34.91197299999997, -93.055336], [34.91171199999997, -93.055542], [34.91155500000001, -93.055668], [34.91088400000002, -93.056098], [34.91060500000001, -93.056278], [34.90871599999997, -93.05798500000002], [34.90853999999998, -93.058088], [34.90720000000003, -93.058882], [34.907061000000034, -93.05901900000002], [34.90681200000003, -93.059073], [34.90663600000001, -93.059212], [34.905855000000024, -93.059419], [34.90504199999997, -93.05980300000002], [34.90475700000004, -93.059858], [34.90419300000004, -93.060189], [34.90397800000004, -93.060197], [34.903555999999995, -93.060478], [34.902961999999995, -93.061031], [34.90207800000003, -93.061462], [34.901401000000014, -93.06197300000001], [34.90134099999999, -93.06202], [34.900707000000004, -93.062397], [34.900068999999995, -93.062642], [34.89957700000004, -93.063014], [34.898973999999974, -93.063214], [34.897651, -93.06322], [34.89718400000001, -93.06315], [34.89631799999997, -93.06283], [34.89606299999999, -93.06266300000001], [34.89592000000003, -93.062668], [34.89566399999998, -93.062457], [34.89547100000001, -93.062396], [34.89541200000003, -93.062378], [34.89439000000002, -93.061579], [34.89395599999994, -93.061374], [34.89333700000002, -93.060957], [34.89290300000002, -93.060752], [34.892651999999984, -93.06071800000001], [34.89228399999999, -93.060335], [34.891994, -93.060169], [34.891551999999976, -93.059656], [34.891355999999995, -93.058957], [34.891295000000014, -93.057988], [34.891139999999965, -93.057509], [34.891071000000025, -93.056187], [34.89136599999999, -93.055116], [34.89135899999997, -93.054807], [34.89145100000002, -93.05423], [34.891605999999975, -93.053539], [34.89177299999998, -93.052804], [34.89174899999993, -93.051834], [34.891671, -93.051572], [34.89169199999999, -93.050997], [34.89149799999998, -93.050387], [34.89148999999996, -93.050078], [34.891397, -93.04992700000001], [34.891517000000015, -93.049724], [34.891389000000004, -93.048123], [34.89112399999999, -93.047613], [34.89103499999996, -93.047411], [34.89096, -93.047262], [34.890943999999976, -93.04723], [34.89080500000001, -93.047008], [34.89074399999998, -93.046834], [34.89067900000002, -93.046693], [34.890625000000036, -93.046519], [34.890587999999994, -93.046426], [34.89053600000004, -93.046358], [34.89019400000003, -93.04581400000001], [34.89002600000003, -93.045632], [34.88931899999997, -93.044676], [34.889139999999955, -93.044427], [34.88814699999997, -93.042964], [34.888010999999985, -93.042769], [34.88796700000002, -93.042722], [34.887886, -93.042621], [34.88743, -93.041935], [34.88727799999999, -93.04174], [34.88708699999999, -93.041531], [34.88696199999999, -93.041402], [34.88683600000006, -93.041294], [34.886749000000016, -93.04124], [34.886640000000014, -93.041158], [34.886470999999965, -93.040976], [34.88605399999999, -93.040501], [34.885339000000016, -93.039685], [34.88490299999997, -93.039166], [34.88477899999998, -93.038965], [34.88463799999997, -93.038756], [34.88460500000001, -93.038696], [34.88458399999998, -93.038635], [34.88456200000002, -93.038542], [34.88455799999999, -93.038462], [34.88453599999997, -93.038355], [34.884519999999995, -93.038295], [34.88449899999997, -93.03822700000002], [34.884288, -93.037557], [34.88428499999996, -93.037545], [34.88421600000002, -93.03727100000002], [34.88416299999999, -93.037003], [34.88404899999998, -93.036195], [34.88400800000003, -93.035788], [34.883972000000014, -93.035494], [34.883970999999995, -93.035477], [34.883958000000014, -93.035233], [34.883932000000016, -93.035073], [34.88389999999995, -93.034926], [34.88389, -93.03485300000001], [34.883867999999985, -93.034786], [34.883792, -93.034671], [34.883655000000005, -93.034626], [34.883293, -93.034542], [34.88305300000002, -93.034359], [34.882928000000014, -93.034204], [34.882852000000035, -93.034136], [34.882808000000004, -93.034062], [34.88278199999998, -93.033975], [34.88278199999996, -93.033909], [34.88279400000003, -93.03385600000001], [34.882811, -93.033722], [34.882800999999986, -93.033649], [34.882779000000006, -93.033569], [34.882724999999986, -93.033468], [34.88259500000003, -93.033306], [34.88250199999998, -93.033218], [34.88248699999996, -93.03320500000001], [34.88237700000001, -93.03311], [34.882267000000006, -93.033036], [34.88208100000001, -93.032993], [34.881926999999976, -93.032991], [34.88172299999998, -93.033016], [34.88158599999997, -93.03302700000002], [34.88045800000002, -93.033167], [34.880353999999976, -93.033172], [34.880304, -93.033165], [34.88019999999997, -93.03316400000001], [34.88009599999995, -93.033142], [34.87994800000001, -93.033081], [34.87969099999995, -93.032931], [34.87954399999999, -93.03281600000001], [34.879489000000035, -93.032795], [34.87940599999998, -93.032787], [34.87927400000002, -93.032792], [34.879152999999995, -93.032811], [34.877810000000025, -93.033114], [34.87738300000003, -93.033283], [34.87726200000003, -93.033308], [34.87705299999999, -93.033292], [34.87594300000002, -93.033305], [34.875789000000005, -93.03328500000002], [34.875773, -93.033283], [34.875581000000004, -93.033221], [34.875499000000026, -93.033153], [34.875400999999954, -93.033038], [34.87535200000001, -93.032938], [34.87529299999999, -93.032804], [34.875250000000015, -93.032723], [34.875102999999974, -93.032555], [34.874961000000006, -93.032476], [34.874884000000016, -93.032402], [34.87479700000004, -93.032334], [34.87462699999998, -93.032235], [34.87447400000003, -93.03214], [34.874403, -93.032113], [34.874233, -93.032064], [34.87413999999997, -93.032056], [34.874013, -93.032055], [34.873977000000004, -93.032059], [34.87391400000004, -93.032067], [34.873721000000046, -93.032144], [34.87365099999998, -93.032175], [34.873619000000026, -93.03219], [34.873332, -93.032373], [34.87321100000002, -93.032458], [34.873122, -93.03251], [34.872984000000024, -93.032609], [34.872939999999964, -93.032655], [34.87289000000003, -93.032728], [34.87287300000002, -93.03276700000002], [34.872856999999954, -93.03281600000001], [34.87282199999999, -93.032933], [34.872798999999965, -93.033067], [34.87278899999997, -93.03315600000002], [34.87277500000004, -93.03328], [34.87273499999998, -93.033432], [34.87270200000001, -93.033512], [34.872635, -93.033638], [34.87255099999998, -93.033817], [34.87249000000002, -93.03390300000001], [34.872455999999985, -93.033982], [34.872256000000014, -93.034233], [34.87211199999999, -93.034352], [34.87199599999999, -93.03441700000002], [34.87194700000001, -93.03443], [34.871804000000004, -93.034441], [34.871688000000006, -93.034467], [34.87147300000003, -93.034524], [34.87138000000002, -93.034557], [34.871032000000014, -93.034685], [34.87063000000003, -93.03488], [34.87030900000003, -93.035063], [34.870030999999976, -93.035206], [34.86983800000003, -93.035291], [34.869656000000035, -93.035382], [34.86947399999998, -93.03546], [34.869347, -93.035531], [34.869231, -93.035603], [34.86910299999998, -93.035708], [34.86897099999999, -93.0358], [34.86887100000001, -93.035886], [34.868788, -93.035971], [34.86861000000005, -93.036222], [34.867969, -93.037335], [34.86791299999998, -93.037441], [34.86784600000002, -93.03754], [34.867785, -93.037586], [34.86765799999999, -93.037644], [34.86742699999997, -93.037695], [34.86735000000001, -93.037694], [34.867136, -93.03766400000002], [34.866955, -93.03762900000001], [34.866744, -93.037566], [34.86662400000001, -93.037511], [34.866427000000044, -93.037389], [34.86625199999997, -93.037327], [34.866229999999966, -93.037315], [34.86584699999999, -93.037115], [34.86522999999996, -93.036628], [34.86449899999997, -93.036012], [34.864311999999956, -93.035854], [34.864258, -93.035809], [34.86415, -93.035668], [34.86406800000001, -93.03554], [34.863942999999985, -93.035398], [34.86384500000006, -93.035311], [34.86383500000002, -93.035305], [34.86363199999995, -93.035171], [34.863287999999976, -93.034944], [34.86317299999997, -93.034849], [34.863107, -93.03480800000001], [34.86300900000002, -93.034774], [34.862961, -93.034753], [34.86292700000002, -93.034739], [34.86282199999997, -93.034711], [34.862618999999995, -93.034676], [34.86251499999999, -93.034654], [34.86208400000002, -93.03463200000002], [34.861892000000005, -93.034603], [34.86178700000001, -93.03459500000001], [34.86157300000001, -93.034633], [34.86144099999997, -93.034644], [34.86135300000003, -93.034643], [34.861248999999994, -93.034629], [34.86113299999999, -93.034607], [34.86099100000004, -93.034606], [34.86088600000003, -93.034598], [34.860754000000014, -93.034603], [34.86060200000002, -93.034627], [34.86048500000002, -93.034646], [34.86034100000002, -93.034691], [34.86021999999998, -93.034743], [34.859993999999965, -93.03485300000001], [34.85987199999998, -93.034925], [34.85929599999997, -93.035485], [34.859202, -93.03557], [34.85903600000001, -93.035735], [34.85894199999995, -93.035821], [34.858870000000046, -93.03586], [34.858793000000034, -93.035885], [34.858690999999965, -93.035897], [34.85861399999997, -93.03589], [34.85852500000001, -93.035869], [34.85849100000003, -93.038776], [34.85846400000003, -93.041252]],
+                {"bubblingMouseEvents": true, "color": "#f032e6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f032e6", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_2f36bcf94d39d1300870a87bf0abcf8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bbbc80aff1930c316f20b3fff6f362b6 = $(`<div id="html_bbbc80aff1930c316f20b3fff6f362b6" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD02</b></div>`)[0];
+                popup_2f36bcf94d39d1300870a87bf0abcf8c.setContent(html_bbbc80aff1930c316f20b3fff6f362b6);
+            
+        
+
+        polygon_4806502304530353488a342b9dd3c57d.bindPopup(popup_2f36bcf94d39d1300870a87bf0abcf8c)
+        ;
+
+        
+    
+    
+            var circle_marker_29599b730d1d7020ba7dae1e555b77a4 = L.circleMarker(
+                [34.872434962111036, -93.1370803680102],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_fdf5eac38f5ccf82035b4dabacff9ce9);
+        
+    
+        var popup_7f634d8d8a6e480c276e35eaa1794d35 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dada960420411db8f26688da561c6aa7 = $(`<div id="html_dada960420411db8f26688da561c6aa7" style="width: 100.0%; height: 100.0%;"><b>Perry - Arkansas-CD02</b></div>`)[0];
+                popup_7f634d8d8a6e480c276e35eaa1794d35.setContent(html_dada960420411db8f26688da561c6aa7);
+            
+        
+
+        circle_marker_29599b730d1d7020ba7dae1e555b77a4.bindPopup(popup_7f634d8d8a6e480c276e35eaa1794d35)
+        ;
+
+        
+    
+    
+            circle_marker_29599b730d1d7020ba7dae1e555b77a4.bindTooltip(
+                `<div>
+                     Perry - Arkansas-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

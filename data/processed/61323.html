@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a27d0bf170ed74d578997d73e226936b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bureau - Illinois-CD14</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bureau - Illinois-CD16</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bureau - Illinois-CD14</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bureau - Illinois-CD16</p>
+            </div>
+    
+            <div class="folium-map" id="map_a27d0bf170ed74d578997d73e226936b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a27d0bf170ed74d578997d73e226936b = L.map(
+                "map_a27d0bf170ed74d578997d73e226936b",
+                {
+                    center: [41.43603314822238, -89.39623172442334],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98cd1ed37fd462344848f91529b74141 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_98cd1ed37fd462344848f91529b74141.addTo(map_a27d0bf170ed74d578997d73e226936b);
+        
+    
+            var polygon_8d7da8c55ebbbd9b08de8acd031b3383 = L.polygon(
+                [[41.44001100000006, -89.393534], [41.439987000000016, -89.393534], [41.439697000000045, -89.39353500000001], [41.43965600000003, -89.39353500000001], [41.438274000000035, -89.393539], [41.43791000000005, -89.393537], [41.437546999999995, -89.393554], [41.43685600000003, -89.393572], [41.43686300000002, -89.392228], [41.436870999999975, -89.392109], [41.43616900000002, -89.392114], [41.43576600000006, -89.392096], [41.43574899999998, -89.392558], [41.43574500000001, -89.393325], [41.435750999999996, -89.393584], [41.43532400000001, -89.393589], [41.434654999999964, -89.39358000000001], [41.43428100000002, -89.39357800000002], [41.43357300000004, -89.393559], [41.433203999999996, -89.393562], [41.43275999999995, -89.393559], [41.43250999999994, -89.393567], [41.43250970654524, -89.39360427978804], [41.440011000015964, -89.39361061051126], [41.44001100000006, -89.393534]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a27d0bf170ed74d578997d73e226936b);
+        
+    
+        var popup_4f7da9cf2c74a76abd5adfd0ed6703ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0961e48bdbd2b476561b495092decaa6 = $(`<div id="html_0961e48bdbd2b476561b495092decaa6" style="width: 100.0%; height: 100.0%;"><b>Bureau - Illinois-CD14</b></div>`)[0];
+                popup_4f7da9cf2c74a76abd5adfd0ed6703ef.setContent(html_0961e48bdbd2b476561b495092decaa6);
+            
+        
+
+        polygon_8d7da8c55ebbbd9b08de8acd031b3383.bindPopup(popup_4f7da9cf2c74a76abd5adfd0ed6703ef)
+        ;
+
+        
+    
+    
+            var circle_marker_69126eb74c794063fa222f28b33058a2 = L.circleMarker(
+                [41.43646762826246, -89.39328387561198],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a27d0bf170ed74d578997d73e226936b);
+        
+    
+        var popup_e4792c18656ff2c1b3c5a6e07ac4e18a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a59d0b21c81c868d1fc205fb6f0fb70f = $(`<div id="html_a59d0b21c81c868d1fc205fb6f0fb70f" style="width: 100.0%; height: 100.0%;"><b>Bureau - Illinois-CD14</b></div>`)[0];
+                popup_e4792c18656ff2c1b3c5a6e07ac4e18a.setContent(html_a59d0b21c81c868d1fc205fb6f0fb70f);
+            
+        
+
+        circle_marker_69126eb74c794063fa222f28b33058a2.bindPopup(popup_e4792c18656ff2c1b3c5a6e07ac4e18a)
+        ;
+
+        
+    
+    
+            circle_marker_69126eb74c794063fa222f28b33058a2.bindTooltip(
+                `<div>
+                     Bureau - Illinois-CD14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_49d662ee6efd9bc858e1df78f6bd2587 = L.polygon(
+                [[41.433054, -89.399675], [41.433151000000045, -89.399654], [41.43335100000005, -89.399628], [41.433532000000035, -89.399619], [41.433945999999985, -89.399613], [41.43433900000002, -89.39963], [41.434620000000045, -89.39964800000001], [41.43487000000002, -89.399632], [41.43495400000004, -89.399618], [41.435072000000034, -89.399599], [41.43515399999998, -89.399581], [41.435364000000035, -89.3995], [41.43565099999999, -89.399357], [41.435712, -89.399499], [41.43576199999997, -89.399571], [41.435816999999936, -89.399623], [41.435869999999994, -89.399649], [41.43598700000001, -89.399675], [41.43639000000004, -89.39968700000001], [41.436807, -89.3997], [41.43683599999997, -89.398675], [41.43681800000003, -89.397317], [41.43684099999997, -89.39705000000001], [41.43684199999996, -89.397024], [41.43684700000003, -89.396873], [41.43693999999996, -89.396876], [41.43698700000003, -89.396876], [41.43707700000004, -89.396876], [41.43721400000001, -89.396876], [41.43795799999995, -89.396876], [41.43795900000001, -89.396538], [41.43793200000004, -89.396538], [41.43793399999996, -89.395982], [41.43793399999996, -89.395909], [41.43793599999995, -89.395386], [41.438383000000016, -89.395394], [41.43901400000002, -89.3954], [41.44000799999997, -89.395413], [41.440009999999994, -89.394437], [41.44001100000003, -89.393708], [41.44001100000006, -89.39366400000002], [41.440011000015964, -89.39361061051126], [41.43250970654524, -89.39360427978804], [41.432505000000035, -89.394202], [41.43250400000003, -89.394801], [41.43249799999999, -89.39508], [41.432486000000026, -89.397395], [41.43248099999999, -89.398097], [41.43249199999998, -89.399878], [41.43264799999993, -89.399801], [41.432777999999956, -89.399756], [41.433054, -89.399675]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a27d0bf170ed74d578997d73e226936b);
+        
+    
+        var popup_96a41c8e0aea099ec7b79c5349eb208c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c844a022fd9139c52083d30257ceb7f0 = $(`<div id="html_c844a022fd9139c52083d30257ceb7f0" style="width: 100.0%; height: 100.0%;"><b>Bureau - Illinois-CD16</b></div>`)[0];
+                popup_96a41c8e0aea099ec7b79c5349eb208c.setContent(html_c844a022fd9139c52083d30257ceb7f0);
+            
+        
+
+        polygon_49d662ee6efd9bc858e1df78f6bd2587.bindPopup(popup_96a41c8e0aea099ec7b79c5349eb208c)
+        ;
+
+        
+    
+    
+            var circle_marker_bcbf74ca54d03ff887c869814daa68e8 = L.circleMarker(
+                [41.43582426358772, -89.3976489594288],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_a27d0bf170ed74d578997d73e226936b);
+        
+    
+        var popup_795a84298e9ff2bc59b654413c078ef3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a045dcc2452af46921a1995079fdcc0a = $(`<div id="html_a045dcc2452af46921a1995079fdcc0a" style="width: 100.0%; height: 100.0%;"><b>Bureau - Illinois-CD16</b></div>`)[0];
+                popup_795a84298e9ff2bc59b654413c078ef3.setContent(html_a045dcc2452af46921a1995079fdcc0a);
+            
+        
+
+        circle_marker_bcbf74ca54d03ff887c869814daa68e8.bindPopup(popup_795a84298e9ff2bc59b654413c078ef3)
+        ;
+
+        
+    
+    
+            circle_marker_bcbf74ca54d03ff887c869814daa68e8.bindTooltip(
+                `<div>
+                     Bureau - Illinois-CD16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

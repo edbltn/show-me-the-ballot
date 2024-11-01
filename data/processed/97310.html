@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_140210971e96322557344cc0ea3b4fb5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Marion - Oregon-CD06</p>
+            </div>
+    
+            <div class="folium-map" id="map_140210971e96322557344cc0ea3b4fb5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_140210971e96322557344cc0ea3b4fb5 = L.map(
+                "map_140210971e96322557344cc0ea3b4fb5",
+                {
+                    center: [44.910958580645165, -122.98716482795702],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4fdcfc747e47e9e0f26973b86f324f12 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4fdcfc747e47e9e0f26973b86f324f12.addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+            var polygon_80b07e89d94b76cdcc33bf62bc1dec40 = L.polygon(
+                [[44.89830000000001, -122.95139000000002], [44.89959, -122.9496], [44.900160000000014, -122.94882], [44.90021000000002, -122.94872], [44.90021000000002, -122.9486], [44.89953999999998, -122.94763], [44.89936999999996, -122.94740000000002], [44.89906999999997, -122.94697], [44.898109999999996, -122.94563000000001], [44.897959999999976, -122.94586], [44.896579999999965, -122.94776999999999], [44.89638999999999, -122.94808], [44.895860000000006, -122.9488], [44.89557299999999, -122.94921600000002], [44.89555000000002, -122.94924999999999], [44.895390000000006, -122.94945], [44.89522000000001, -122.94974], [44.896069999999966, -122.95099], [44.896829999999966, -122.95204000000001], [44.89731999999999, -122.95276000000001], [44.89790600000006, -122.95194], [44.89830000000001, -122.95139000000002]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_c693cc084797966171a1ccf531277302 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cfd2e34ab6e2458984991a6c26fa5a0 = $(`<div id="html_9cfd2e34ab6e2458984991a6c26fa5a0" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_c693cc084797966171a1ccf531277302.setContent(html_9cfd2e34ab6e2458984991a6c26fa5a0);
+            
+        
+
+        polygon_80b07e89d94b76cdcc33bf62bc1dec40.bindPopup(popup_c693cc084797966171a1ccf531277302)
+        ;
+
+        
+    
+    
+            var circle_marker_9f3d9cebbcabbe94a4606e314f4701ad = L.circleMarker(
+                [44.89770495454546, -122.94918390909092],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_1a3543fe2c6488d258cc46caf88eaa88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b72f4bda6574bd5117cfa8bb97c567e5 = $(`<div id="html_b72f4bda6574bd5117cfa8bb97c567e5" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_1a3543fe2c6488d258cc46caf88eaa88.setContent(html_b72f4bda6574bd5117cfa8bb97c567e5);
+            
+        
+
+        circle_marker_9f3d9cebbcabbe94a4606e314f4701ad.bindPopup(popup_1a3543fe2c6488d258cc46caf88eaa88)
+        ;
+
+        
+    
+    
+            circle_marker_9f3d9cebbcabbe94a4606e314f4701ad.bindTooltip(
+                `<div>
+                     Marion - Oregon-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0811206882da0f1ac9deec87911503a0 = L.polygon(
+                [[44.878510000000034, -122.97454999999998], [44.87778000000002, -122.97377999999999], [44.877449999999996, -122.97344], [44.87730999999999, -122.97329000000002], [44.87711699999995, -122.973092], [44.876549999999995, -122.97251000000001], [44.876070000000006, -122.97201], [44.87583600000005, -122.971717], [44.875719999999966, -122.97153], [44.87556999999993, -122.97117999999999], [44.87540700000001, -122.97068400000002], [44.87539, -122.97063000000001], [44.875281999999984, -122.970332], [44.874706, -122.970855], [44.874909999999986, -122.97130099999998], [44.87393999999995, -122.97135199999998], [44.87384400000001, -122.97427500000002], [44.87397900000002, -122.974579], [44.87435700000003, -122.975832], [44.874978999999975, -122.97662999999999], [44.87951900000001, -122.975603], [44.878510000000034, -122.97454999999998]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_fb32aba877cdf8ea141d1d866425bea4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04f9d9dc2cbb0356023c9abb83a1e0ce = $(`<div id="html_04f9d9dc2cbb0356023c9abb83a1e0ce" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_fb32aba877cdf8ea141d1d866425bea4.setContent(html_04f9d9dc2cbb0356023c9abb83a1e0ce);
+            
+        
+
+        polygon_0811206882da0f1ac9deec87911503a0.bindPopup(popup_fb32aba877cdf8ea141d1d866425bea4)
+        ;
+
+        
+    
+    
+            var circle_marker_1ab7228ad8e22cb886e78e5251c3e79b = L.circleMarker(
+                [44.87603345454544, -122.97289645454545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_fd90941c07d4ce5e9c4846e0b6468916 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b9be2f6887767c0abeb370505c53cae = $(`<div id="html_3b9be2f6887767c0abeb370505c53cae" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_fd90941c07d4ce5e9c4846e0b6468916.setContent(html_3b9be2f6887767c0abeb370505c53cae);
+            
+        
+
+        circle_marker_1ab7228ad8e22cb886e78e5251c3e79b.bindPopup(popup_fd90941c07d4ce5e9c4846e0b6468916)
+        ;
+
+        
+    
+    
+            circle_marker_1ab7228ad8e22cb886e78e5251c3e79b.bindTooltip(
+                `<div>
+                     Marion - Oregon-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b7bf0850d603aacc0f476accbb7599c6 = L.polygon(
+                [[44.930518999999954, -123.005256], [44.930526, -123.00522700000002], [44.93053799999999, -123.005184], [44.93055799999998, -123.00511100000001], [44.93056700000002, -123.005028], [44.930577000000014, -123.004944], [44.93086500000001, -123.002437], [44.93119900000003, -122.99953000000001], [44.93087999999997, -122.999152], [44.93065000000005, -122.99833], [44.93036, -122.99846], [44.92983999999999, -122.99846999999998], [44.92908999999999, -122.99851], [44.92791000000002, -122.99859000000001], [44.928059999999974, -122.99988000000002], [44.92820699999998, -123.00073900000001], [44.92825000000005, -123.00099], [44.92831000000001, -123.00124999999998], [44.92864199999999, -123.00226100000002], [44.928672999999996, -123.00235500000001], [44.92870399999994, -123.002449], [44.928729000000004, -123.002524], [44.928752999999986, -123.002599], [44.928780000000025, -123.00268], [44.92878800000001, -123.002701], [44.92908200000001, -123.003442], [44.92918000000002, -123.00369000000002], [44.92943300000004, -123.004085], [44.92989000000004, -123.0048], [44.930165999999964, -123.005287], [44.93035000000004, -123.00561], [44.93039999999997, -123.005695], [44.930431000000006, -123.005578], [44.930518999999954, -123.005256]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_380da05957a40a1f15dcbdefa617c510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d754f7ea1560890db99adc71e7d0ef41 = $(`<div id="html_d754f7ea1560890db99adc71e7d0ef41" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_380da05957a40a1f15dcbdefa617c510.setContent(html_d754f7ea1560890db99adc71e7d0ef41);
+            
+        
+
+        polygon_b7bf0850d603aacc0f476accbb7599c6.bindPopup(popup_380da05957a40a1f15dcbdefa617c510)
+        ;
+
+        
+    
+    
+            var circle_marker_dd18ee2262254d73088551288e2a6b5c = L.circleMarker(
+                [44.92963017647059, -123.00259117647059],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_cdb5bd9fc868eebfabc1a22ee52aecc3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bd75a89457e8b23d3ad4dff7e6391da = $(`<div id="html_3bd75a89457e8b23d3ad4dff7e6391da" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_cdb5bd9fc868eebfabc1a22ee52aecc3.setContent(html_3bd75a89457e8b23d3ad4dff7e6391da);
+            
+        
+
+        circle_marker_dd18ee2262254d73088551288e2a6b5c.bindPopup(popup_cdb5bd9fc868eebfabc1a22ee52aecc3)
+        ;
+
+        
+    
+    
+            circle_marker_dd18ee2262254d73088551288e2a6b5c.bindTooltip(
+                `<div>
+                     Marion - Oregon-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9c3c51c386fbfa2f0a7a0e618f5d6389 = L.polygon(
+                [[44.93978700000005, -123.02917800000002], [44.940009999999965, -123.02906], [44.93994799999999, -123.028838], [44.93976100000001, -123.028172], [44.93969999999998, -123.02795000000002], [44.939479000000006, -123.02805200000002], [44.93915999999999, -123.02819999999998], [44.93882500000001, -123.028376], [44.93861000000005, -123.02849000000002], [44.938667, -123.028723], [44.938838999999994, -123.02942200000001], [44.938890000000015, -123.02963], [44.938896000000014, -123.02965599999999], [44.939117999999986, -123.02953600000001], [44.93978700000005, -123.02917800000002]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_62697446e8aec6d13df2c3645c99344c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90db1a40dd48983a3f02935b74fe3673 = $(`<div id="html_90db1a40dd48983a3f02935b74fe3673" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_62697446e8aec6d13df2c3645c99344c.setContent(html_90db1a40dd48983a3f02935b74fe3673);
+            
+        
+
+        polygon_9c3c51c386fbfa2f0a7a0e618f5d6389.bindPopup(popup_62697446e8aec6d13df2c3645c99344c)
+        ;
+
+        
+    
+    
+            var circle_marker_214f17a26a6ab923754756d2f09e7516 = L.circleMarker(
+                [44.93929846666667, -123.02883073333332],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_140210971e96322557344cc0ea3b4fb5);
+        
+    
+        var popup_be89e9fb9641f910f3af862cc26b1714 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bca8508e7baebfac96c92cd57db147d = $(`<div id="html_6bca8508e7baebfac96c92cd57db147d" style="width: 100.0%; height: 100.0%;"><b>Marion - Oregon-CD06</b></div>`)[0];
+                popup_be89e9fb9641f910f3af862cc26b1714.setContent(html_6bca8508e7baebfac96c92cd57db147d);
+            
+        
+
+        circle_marker_214f17a26a6ab923754756d2f09e7516.bindPopup(popup_be89e9fb9641f910f3af862cc26b1714)
+        ;
+
+        
+    
+    
+            circle_marker_214f17a26a6ab923754756d2f09e7516.bindTooltip(
+                `<div>
+                     Marion - Oregon-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

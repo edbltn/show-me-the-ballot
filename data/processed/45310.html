@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6e017160bc925d7fe7475de20415e796 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mercer - Ohio-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mercer - Ohio-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mercer - Ohio-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Mercer - Ohio-CD05</p>
+            </div>
+    
+            <div class="folium-map" id="map_6e017160bc925d7fe7475de20415e796" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6e017160bc925d7fe7475de20415e796 = L.map(
+                "map_6e017160bc925d7fe7475de20415e796",
+                {
+                    center: [40.353230619652614, -84.64251234519267],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_da75282caca7f9f578abfb09c69cf986 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_da75282caca7f9f578abfb09c69cf986.addTo(map_6e017160bc925d7fe7475de20415e796);
+        
+    
+            var polygon_65c5833e6512b5fdf460950a030e00f3 = L.polygon(
+                [[40.35178100000004, -84.638553], [40.351781999999986, -84.638657], [40.351781999999986, -84.638677], [40.35178499999999, -84.638794], [40.35179300000005, -84.639046], [40.351797000000026, -84.639601], [40.35179900000004, -84.6398], [40.35179900000003, -84.639941], [40.35179999999995, -84.640121], [40.35179900000004, -84.640613], [40.35179900000003, -84.641358], [40.351797000000026, -84.641496], [40.351792, -84.641811], [40.35179300000005, -84.641904], [40.351781999999986, -84.642369], [40.35179300000005, -84.642577], [40.35179600000004, -84.643046], [40.35179600000004, -84.643154], [40.351806999999994, -84.643414], [40.35180499999998, -84.643521], [40.35180499999998, -84.643912], [40.351808000000055, -84.644044], [40.35181500000002, -84.644973], [40.351820999999994, -84.645369], [40.35181500000002, -84.646192], [40.35181399999999, -84.646443], [40.35181300000002, -84.646691], [40.35180800000006, -84.647508], [40.35181100000003, -84.647907], [40.35181199999997, -84.648077], [40.35181300000002, -84.648129], [40.351905000000045, -84.648126], [40.353525921209, -84.6481136047336], [40.353571097848196, -84.63744876883584], [40.35219499999998, -84.637453], [40.35219200000002, -84.638175], [40.35178000000004, -84.638174], [40.35177999999998, -84.638217], [40.35178100000004, -84.638553]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6e017160bc925d7fe7475de20415e796);
+        
+    
+        var popup_0c2e18fbd2ff551103b8d69e9334a7da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b836e8a37548acedc20064cbca05ddaf = $(`<div id="html_b836e8a37548acedc20064cbca05ddaf" style="width: 100.0%; height: 100.0%;"><b>Mercer - Ohio-CD08</b></div>`)[0];
+                popup_0c2e18fbd2ff551103b8d69e9334a7da.setContent(html_b836e8a37548acedc20064cbca05ddaf);
+            
+        
+
+        polygon_65c5833e6512b5fdf460950a030e00f3.bindPopup(popup_0c2e18fbd2ff551103b8d69e9334a7da)
+        ;
+
+        
+    
+    
+            var circle_marker_6e2843bbfe6c8d0ea42824e0a33c008b = L.circleMarker(
+                [40.351911333821995, -84.6423579070146],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6e017160bc925d7fe7475de20415e796);
+        
+    
+        var popup_a5a4abfb83b7bec17ff2fc24c99e4c54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_936a3f9fb9712aaf42df18e53d35d1ce = $(`<div id="html_936a3f9fb9712aaf42df18e53d35d1ce" style="width: 100.0%; height: 100.0%;"><b>Mercer - Ohio-CD08</b></div>`)[0];
+                popup_a5a4abfb83b7bec17ff2fc24c99e4c54.setContent(html_936a3f9fb9712aaf42df18e53d35d1ce);
+            
+        
+
+        circle_marker_6e2843bbfe6c8d0ea42824e0a33c008b.bindPopup(popup_a5a4abfb83b7bec17ff2fc24c99e4c54)
+        ;
+
+        
+    
+    
+            circle_marker_6e2843bbfe6c8d0ea42824e0a33c008b.bindTooltip(
+                `<div>
+                     Mercer - Ohio-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_5a99d2bb95b4fdfc9e5cf4dd05a4e1c4 = L.polygon(
+                [[40.353604999999966, -84.648113], [40.35360600000002, -84.647884], [40.353604999999966, -84.647186], [40.35360100000005, -84.643618], [40.355481999999974, -84.643611], [40.356405999999986, -84.643608], [40.35640699999996, -84.643459], [40.35641, -84.643351], [40.35647500000002, -84.643366], [40.356556, -84.643373], [40.35664300000004, -84.643379], [40.35678500000005, -84.64338300000001], [40.35687499999996, -84.643378], [40.35687499999999, -84.641814], [40.35633600000002, -84.641816], [40.35633300000002, -84.640165], [40.356332000000045, -84.638737], [40.35633099999998, -84.638617], [40.35370500000001, -84.638626], [40.35479499999999, -84.637716], [40.35512200000002, -84.63744400000002], [40.353571097848196, -84.63744876883584], [40.353525921209, -84.6481136047336], [40.353604999999966, -84.648113]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6e017160bc925d7fe7475de20415e796);
+        
+    
+        var popup_4ae13d678dfe40d1f362cad4e7a6b553 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9341b0b3688b28f8da08c5ce3bec5e3 = $(`<div id="html_f9341b0b3688b28f8da08c5ce3bec5e3" style="width: 100.0%; height: 100.0%;"><b>Mercer - Ohio-CD05</b></div>`)[0];
+                popup_4ae13d678dfe40d1f362cad4e7a6b553.setContent(html_f9341b0b3688b28f8da08c5ce3bec5e3);
+            
+        
+
+        polygon_5a99d2bb95b4fdfc9e5cf4dd05a4e1c4.bindPopup(popup_4ae13d678dfe40d1f362cad4e7a6b553)
+        ;
+
+        
+    
+    
+            var circle_marker_b3c2c64071a94bee7baeb918d8301357 = L.circleMarker(
+                [40.35537445912738, -84.64276330723206],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_6e017160bc925d7fe7475de20415e796);
+        
+    
+        var popup_e210d58a1f7e4e05662840185e6c85c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dc9525ce9c42dd63415dd721c63a262 = $(`<div id="html_2dc9525ce9c42dd63415dd721c63a262" style="width: 100.0%; height: 100.0%;"><b>Mercer - Ohio-CD05</b></div>`)[0];
+                popup_e210d58a1f7e4e05662840185e6c85c6.setContent(html_2dc9525ce9c42dd63415dd721c63a262);
+            
+        
+
+        circle_marker_b3c2c64071a94bee7baeb918d8301357.bindPopup(popup_e210d58a1f7e4e05662840185e6c85c6)
+        ;
+
+        
+    
+    
+            circle_marker_b3c2c64071a94bee7baeb918d8301357.bindTooltip(
+                `<div>
+                     Mercer - Ohio-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

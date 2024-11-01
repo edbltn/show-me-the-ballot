@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_cedacda39c9a5b6c9869a6dbc1b7da11 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Clarke - Georgia-CD10</p>
+            </div>
+    
+            <div class="folium-map" id="map_cedacda39c9a5b6c9869a6dbc1b7da11" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_cedacda39c9a5b6c9869a6dbc1b7da11 = L.map(
+                "map_cedacda39c9a5b6c9869a6dbc1b7da11",
+                {
+                    center: [33.93681122727273, -83.37181547402596],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5e4c65f96fb1cb545fce6d971219f081 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5e4c65f96fb1cb545fce6d971219f081.addTo(map_cedacda39c9a5b6c9869a6dbc1b7da11);
+        
+    
+            var polygon_2973e4d98791c1a69898fbf13e018826 = L.polygon(
+                [[33.95292599999998, -83.372805], [33.953071, -83.371495], [33.95235399999997, -83.371535], [33.951643999999995, -83.37428400000002], [33.95183599999999, -83.374352], [33.952315, -83.374509], [33.95244699999998, -83.374545], [33.952800999999965, -83.374605], [33.952833999999996, -83.37458900000001], [33.952870999999995, -83.37388], [33.95292599999998, -83.372805]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_cedacda39c9a5b6c9869a6dbc1b7da11);
+        
+    
+        var popup_9d4ad4360cfb0e1b755102b7d039d46c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea305364ed2fcba4607301044c732883 = $(`<div id="html_ea305364ed2fcba4607301044c732883" style="width: 100.0%; height: 100.0%;"><b>Clarke - Georgia-CD10</b></div>`)[0];
+                popup_9d4ad4360cfb0e1b755102b7d039d46c.setContent(html_ea305364ed2fcba4607301044c732883);
+            
+        
+
+        polygon_2973e4d98791c1a69898fbf13e018826.bindPopup(popup_9d4ad4360cfb0e1b755102b7d039d46c)
+        ;
+
+        
+    
+    
+            var circle_marker_e431518aa026dc4abd2a8d106c9a176e = L.circleMarker(
+                [33.952547727272716, -83.37358218181818],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cedacda39c9a5b6c9869a6dbc1b7da11);
+        
+    
+        var popup_3e35b6a438c8f5cc13a2f5c6cbd75037 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f8b7b2d50486b5f0bd4b8f752e379fc = $(`<div id="html_3f8b7b2d50486b5f0bd4b8f752e379fc" style="width: 100.0%; height: 100.0%;"><b>Clarke - Georgia-CD10</b></div>`)[0];
+                popup_3e35b6a438c8f5cc13a2f5c6cbd75037.setContent(html_3f8b7b2d50486b5f0bd4b8f752e379fc);
+            
+        
+
+        circle_marker_e431518aa026dc4abd2a8d106c9a176e.bindPopup(popup_3e35b6a438c8f5cc13a2f5c6cbd75037)
+        ;
+
+        
+    
+    
+            circle_marker_e431518aa026dc4abd2a8d106c9a176e.bindTooltip(
+                `<div>
+                     Clarke - Georgia-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_077b9860f7aa741dee4733b4d3af9627 = L.polygon(
+                [[33.93109399999996, -83.376742], [33.93137899999998, -83.37662400000002], [33.931536, -83.37654400000001], [33.931763999999994, -83.376406], [33.93179400000004, -83.376382], [33.931952999999986, -83.376255], [33.93231000000001, -83.37591], [33.932821999999966, -83.375389], [33.93426000000001, -83.373965], [33.93462600000003, -83.373674], [33.934983999999986, -83.373492], [33.93518099999996, -83.373414], [33.935385000000004, -83.373374], [33.93531699999998, -83.372594], [33.935231, -83.372148], [33.93513299999998, -83.371689], [33.93508199999997, -83.371491], [33.935066000000006, -83.371425], [33.93488100000002, -83.370856], [33.93482499999996, -83.370663], [33.93477299999999, -83.370529], [33.934711, -83.370367], [33.93553399999999, -83.369785], [33.935779, -83.369592], [33.936012000000034, -83.369457], [33.93624499999998, -83.369312], [33.93653600000003, -83.369154], [33.93658699999998, -83.369122], [33.93663500000001, -83.36909000000001], [33.936706999999956, -83.369042], [33.93675599999998, -83.36901], [33.936828000000006, -83.36896300000001], [33.93685299999999, -83.36894600000001], [33.936998, -83.368851], [33.937093, -83.368791], [33.93719399999998, -83.368736], [33.93730900000002, -83.368683], [33.937371000000006, -83.368659], [33.93748600000001, -83.36862], [33.93760600000001, -83.36859], [33.93771599999995, -83.36857], [33.93782800000001, -83.368562], [33.93791099999995, -83.368556], [33.937965, -83.368552], [33.938048000000016, -83.368547], [33.938102, -83.368543], [33.938185, -83.368538], [33.938238000000005, -83.368534], [33.93832000000001, -83.36852900000001], [33.93838300000001, -83.36853], [33.93845999999997, -83.368543], [33.93854000000003, -83.36856600000002], [33.93862199999998, -83.368605], [33.938703999999994, -83.36865800000001], [33.938792, -83.368738], [33.93882299999995, -83.368765], [33.938902000000006, -83.368835], [33.93898999999997, -83.368885], [33.93904600000001, -83.368913], [33.93911700000004, -83.368939], [33.93923100000002, -83.368948], [33.93932900000003, -83.368934], [33.93943199999998, -83.368892], [33.93951399999999, -83.368856], [33.93966800000003, -83.368686], [33.93976799999997, -83.36809], [33.93982999999999, -83.367327], [33.939926, -83.366984], [33.94001100000001, -83.366503], [33.94027299999999, -83.365297], [33.940440999999986, -83.365107], [33.94015700000002, -83.364631], [33.939849999999986, -83.36479], [33.93975199999999, -83.36484000000002], [33.939306999999985, -83.365082], [33.938823999999975, -83.365279], [33.93860400000002, -83.365363], [33.938339999999954, -83.365476], [33.93766499999998, -83.36574], [33.93676499999998, -83.366066], [33.935573000000055, -83.366494], [33.93504400000001, -83.366702], [33.93502700000002, -83.366705], [33.93472900000002, -83.366837], [33.933503999999964, -83.36736], [33.93285199999999, -83.367625], [33.93227099999999, -83.367782], [33.931883, -83.3679], [33.93130399999998, -83.368102], [33.930975, -83.36823], [33.93064, -83.368361], [33.92992600000001, -83.368648], [33.929396999999994, -83.368873], [33.928593, -83.369149], [33.928211, -83.369334], [33.92782300000003, -83.369542], [33.92733600000001, -83.36983], [33.92707499999998, -83.370015], [33.926894999999945, -83.370127], [33.92668700000005, -83.370262], [33.92637200000004, -83.370504], [33.926308999999975, -83.370552], [33.92593900000002, -83.370836], [33.92563999999997, -83.371128], [33.925622999999995, -83.371145], [33.92535900000003, -83.371398], [33.925179, -83.371573], [33.924493000000005, -83.372347], [33.924152, -83.372793], [33.92372600000007, -83.37354], [33.92352299999999, -83.3739], [33.92329300000001, -83.374367], [33.92318000000001, -83.374659], [33.92295000000003, -83.37521], [33.92271499999996, -83.375752], [33.922774999999994, -83.375759], [33.923256999999964, -83.375767], [33.923710000000014, -83.375828], [33.92437699999997, -83.375918], [33.926083999999996, -83.376176], [33.92774999999999, -83.376451], [33.929362, -83.376706], [33.93047000000006, -83.37683900000002], [33.930741, -83.376817], [33.930931999999984, -83.376786], [33.93109399999996, -83.376742]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_cedacda39c9a5b6c9869a6dbc1b7da11);
+        
+    
+        var popup_ff5170c5d3b48522864f047dbf6c69d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18493b2f9682137d60b764f02bd9ab8f = $(`<div id="html_18493b2f9682137d60b764f02bd9ab8f" style="width: 100.0%; height: 100.0%;"><b>Clarke - Georgia-CD10</b></div>`)[0];
+                popup_ff5170c5d3b48522864f047dbf6c69d5.setContent(html_18493b2f9682137d60b764f02bd9ab8f);
+            
+        
+
+        polygon_077b9860f7aa741dee4733b4d3af9627.bindPopup(popup_ff5170c5d3b48522864f047dbf6c69d5)
+        ;
+
+        
+    
+    
+            var circle_marker_e3f12a4b1a973c2e852dbe47a92e7123 = L.circleMarker(
+                [33.93369654761904, -83.3703452857143],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cedacda39c9a5b6c9869a6dbc1b7da11);
+        
+    
+        var popup_98caa93a57edea7ccdc11231e1b84384 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0f79ef68b1087210f1425b34b6b43cc = $(`<div id="html_e0f79ef68b1087210f1425b34b6b43cc" style="width: 100.0%; height: 100.0%;"><b>Clarke - Georgia-CD10</b></div>`)[0];
+                popup_98caa93a57edea7ccdc11231e1b84384.setContent(html_e0f79ef68b1087210f1425b34b6b43cc);
+            
+        
+
+        circle_marker_e3f12a4b1a973c2e852dbe47a92e7123.bindPopup(popup_98caa93a57edea7ccdc11231e1b84384)
+        ;
+
+        
+    
+    
+            circle_marker_e3f12a4b1a973c2e852dbe47a92e7123.bindTooltip(
+                `<div>
+                     Clarke - Georgia-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_50ff12fe9092972db09c7ae7e53b0e60 = L.polygon(
+                [[33.95079099999993, -83.380927], [33.95076199999997, -83.38091700000001], [33.950744000000036, -83.38091700000001], [33.95062600000002, -83.380889], [33.950213000000005, -83.380765], [33.94992699999998, -83.380684], [33.94916299999997, -83.380437], [33.94889900000002, -83.38033], [33.94880799999998, -83.380284], [33.94875099999998, -83.380266], [33.94820100000004, -83.383172], [33.948908000000024, -83.383324], [33.94897099999999, -83.383333], [33.949051000000004, -83.383375], [33.95009999999998, -83.383744], [33.95043300000002, -83.382382], [33.95079099999993, -83.380927]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_cedacda39c9a5b6c9869a6dbc1b7da11);
+        
+    
+        var popup_75a4dc6068c4531fac2d363a03120df5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32a71155f04b07f0517b83cde5651645 = $(`<div id="html_32a71155f04b07f0517b83cde5651645" style="width: 100.0%; height: 100.0%;"><b>Clarke - Georgia-CD10</b></div>`)[0];
+                popup_75a4dc6068c4531fac2d363a03120df5.setContent(html_32a71155f04b07f0517b83cde5651645);
+            
+        
+
+        polygon_50ff12fe9092972db09c7ae7e53b0e60.bindPopup(popup_75a4dc6068c4531fac2d363a03120df5)
+        ;
+
+        
+    
+    
+            var circle_marker_ff16ff438cbcbbe24b4339e0a03c00e2 = L.circleMarker(
+                [33.94971405882353, -83.381569],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_cedacda39c9a5b6c9869a6dbc1b7da11);
+        
+    
+        var popup_8399c4e9b72ad55b696d3d018b4fadde = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08ba86c2d024c2e21ef3b55b6ac8d4a0 = $(`<div id="html_08ba86c2d024c2e21ef3b55b6ac8d4a0" style="width: 100.0%; height: 100.0%;"><b>Clarke - Georgia-CD10</b></div>`)[0];
+                popup_8399c4e9b72ad55b696d3d018b4fadde.setContent(html_08ba86c2d024c2e21ef3b55b6ac8d4a0);
+            
+        
+
+        circle_marker_ff16ff438cbcbbe24b4339e0a03c00e2.bindPopup(popup_8399c4e9b72ad55b696d3d018b4fadde)
+        ;
+
+        
+    
+    
+            circle_marker_ff16ff438cbcbbe24b4339e0a03c00e2.bindTooltip(
+                `<div>
+                     Clarke - Georgia-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

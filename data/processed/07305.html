@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1e5b54ce1ab9c4928b5d0b13b13882fb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD10</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD10</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hudson - New Jersey-CD10</p>
+            </div>
+    
+            <div class="folium-map" id="map_1e5b54ce1ab9c4928b5d0b13b13882fb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1e5b54ce1ab9c4928b5d0b13b13882fb = L.map(
+                "map_1e5b54ce1ab9c4928b5d0b13b13882fb",
+                {
+                    center: [40.69903321961486, -74.07736772300994],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_643f00ab99b3e1bb60c3452eb6a61739 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_643f00ab99b3e1bb60c3452eb6a61739.addTo(map_1e5b54ce1ab9c4928b5d0b13b13882fb);
+        
+    
+            var polygon_2c3b895da32425d3a021d5a8bd5b6587 = L.polygon(
+                [[40.70726199999998, -74.025294], [40.70476400000004, -74.025676], [40.70164900000002, -74.026153], [40.70010299999995, -74.02639000000002], [40.68825699999995, -74.03355300000001], [40.68512500000002, -74.035443], [40.684549999999994, -74.03579], [40.681784000000036, -74.037461], [40.672996000000005, -74.042769], [40.671866999999985, -74.043451], [40.671753999999964, -74.043519], [40.66789499999995, -74.045849], [40.667694000000026, -74.045971], [40.66544000000001, -74.047332], [40.664848999999954, -74.047689], [40.66440699999997, -74.04795600000001], [40.66392299999999, -74.048248], [40.66271800000002, -74.048976], [40.66163400000003, -74.049631], [40.666205261505134, -74.0637398273507], [40.67038059424457, -74.067720330319], [40.69046599999997, -74.04731300000002], [40.690751179213, -74.04716842090886], [40.690715000000004, -74.047146], [40.69062700000001, -74.047048], [40.69058900000002, -74.047027], [40.69056000000005, -74.047031], [40.690483000000036, -74.047041], [40.690426999999964, -74.04715], [40.690410999999976, -74.047183], [40.690096, -74.046922], [40.69008200000001, -74.046911], [40.68958899999999, -74.046485], [40.68931900000001, -74.046248], [40.688878, -74.04537], [40.68873500000001, -74.045074], [40.68859, -74.04479200000002], [40.68857599999999, -74.04471700000002], [40.68852599999998, -74.044445], [40.68850799999997, -74.044349], [40.68853799999999, -74.044132], [40.68856700000002, -74.043958], [40.688569, -74.043942], [40.68876000000002, -74.043619], [40.68917199999995, -74.043499], [40.689630000000044, -74.043455], [40.69016599999995, -74.043863], [40.690185, -74.043885], [40.690558999999965, -74.04457000000001], [40.690730999999985, -74.045034], [40.69089499999999, -74.045427], [40.69110300000003, -74.04597], [40.691109, -74.04598200000001], [40.691125000000035, -74.04611300000002], [40.691123, -74.046143], [40.691097999999975, -74.046164], [40.691092000000005, -74.046177], [40.691090000000024, -74.046309], [40.691078, -74.046487], [40.69107600000001, -74.046536], [40.691051000000016, -74.046965], [40.691043749508424, -74.0470201037721], [40.710607337405854, -74.03710398258966], [40.70947400000004, -74.024952], [40.708343000000035, -74.025127], [40.70726199999998, -74.025294]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1e5b54ce1ab9c4928b5d0b13b13882fb);
+        
+    
+        var popup_35797b09ba6c6fa64cc510e207ef269a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ac3e8c9e6ff71bd842b64e39ed072f9 = $(`<div id="html_3ac3e8c9e6ff71bd842b64e39ed072f9" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD10</b></div>`)[0];
+                popup_35797b09ba6c6fa64cc510e207ef269a.setContent(html_3ac3e8c9e6ff71bd842b64e39ed072f9);
+            
+        
+
+        polygon_2c3b895da32425d3a021d5a8bd5b6587.bindPopup(popup_35797b09ba6c6fa64cc510e207ef269a)
+        ;
+
+        
+    
+    
+            var circle_marker_fb9fe768e07c72dd661fc5c28fe0067e = L.circleMarker(
+                [40.68719139578602, -74.04357210098394],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1e5b54ce1ab9c4928b5d0b13b13882fb);
+        
+    
+        var popup_f3a724cb09c5fbab0e2d9bb4acce37f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5315cc0d8d672995c2163b077a7c6a61 = $(`<div id="html_5315cc0d8d672995c2163b077a7c6a61" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD10</b></div>`)[0];
+                popup_f3a724cb09c5fbab0e2d9bb4acce37f2.setContent(html_5315cc0d8d672995c2163b077a7c6a61);
+            
+        
+
+        circle_marker_fb9fe768e07c72dd661fc5c28fe0067e.bindPopup(popup_f3a724cb09c5fbab0e2d9bb4acce37f2)
+        ;
+
+        
+    
+    
+            circle_marker_fb9fe768e07c72dd661fc5c28fe0067e.bindTooltip(
+                `<div>
+                     Hudson - New Jersey-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_71d936389e860c1180e8cc4936a2b71f = L.polygon(
+                [[40.666881, -74.065826], [40.66694999999999, -74.065768], [40.667032000000006, -74.065714], [40.66708900000001, -74.06586], [40.66710799999999, -74.065895], [40.668625962633726, -74.06950313428817], [40.67038059424457, -74.067720330319], [40.666205261505134, -74.0637398273507], [40.666881, -74.065826]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1e5b54ce1ab9c4928b5d0b13b13882fb);
+        
+    
+        var popup_e8208795dad49aa90f4307e85536ceee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf6f98ab05fc11a8f5a126a25530b7d6 = $(`<div id="html_bf6f98ab05fc11a8f5a126a25530b7d6" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD11</b></div>`)[0];
+                popup_e8208795dad49aa90f4307e85536ceee.setContent(html_bf6f98ab05fc11a8f5a126a25530b7d6);
+            
+        
+
+        polygon_71d936389e860c1180e8cc4936a2b71f.bindPopup(popup_e8208795dad49aa90f4307e85536ceee)
+        ;
+
+        
+    
+    
+            var circle_marker_bbf81bd4e104bd9774e29d1ac81ce875 = L.circleMarker(
+                [40.66746142426482, -74.06620581021755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1e5b54ce1ab9c4928b5d0b13b13882fb);
+        
+    
+        var popup_4a5bfb54279aa4ca30d14bff04221158 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6768393a12be1c5e0248af7be0232621 = $(`<div id="html_6768393a12be1c5e0248af7be0232621" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD11</b></div>`)[0];
+                popup_4a5bfb54279aa4ca30d14bff04221158.setContent(html_6768393a12be1c5e0248af7be0232621);
+            
+        
+
+        circle_marker_bbf81bd4e104bd9774e29d1ac81ce875.bindPopup(popup_4a5bfb54279aa4ca30d14bff04221158)
+        ;
+
+        
+    
+    
+            circle_marker_bbf81bd4e104bd9774e29d1ac81ce875.bindTooltip(
+                `<div>
+                     Hudson - New Jersey-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7c52d75375a86c29313528a7f91efe47 = L.polygon(
+                [[40.69170999999995, -74.101231], [40.69190400000004, -74.10114], [40.69213499999997, -74.101045], [40.69223700000007, -74.10105], [40.69232799999996, -74.101068], [40.69240700000006, -74.10109], [40.692524000000034, -74.10113400000002], [40.692636999999955, -74.10118800000001], [40.69305900000002, -74.101449], [40.69319100000003, -74.101536], [40.69327800000002, -74.101583], [40.693877999999955, -74.101986], [40.694085000000015, -74.102122], [40.694372999999985, -74.102312], [40.69476699999996, -74.102573], [40.69505600000002, -74.102765], [40.69513, -74.102797], [40.695231, -74.102827], [40.69528300000002, -74.102839], [40.69536000000001, -74.102849], [40.695424000000024, -74.102851], [40.69577900000006, -74.103584], [40.69655800000003, -74.105187], [40.696797000000004, -74.105681], [40.69710199999994, -74.106311], [40.697188000000004, -74.106488], [40.69723199999996, -74.10658], [40.697710000000015, -74.107564], [40.69774699999999, -74.107641], [40.69775499999996, -74.107657], [40.69789099999999, -74.10793600000001], [40.69790299999992, -74.107962], [40.697913999999976, -74.107985], [40.698355000000035, -74.108893], [40.698889999999984, -74.109995], [40.69945999999999, -74.111171], [40.700039, -74.11236500000001], [40.70058299999998, -74.113487], [40.70094400000002, -74.114231], [40.70107200000007, -74.11455900000001], [40.70140199999999, -74.114287], [40.70247699999998, -74.113338], [40.70310200000001, -74.112787], [40.70420799999999, -74.113436], [40.70636800000004, -74.114703], [40.70852699999997, -74.11597], [40.709453999999994, -74.11651400000001], [40.71038100000002, -74.11705700000002], [40.71047700000003, -74.116904], [40.71596300000001, -74.108154], [40.71754399999999, -74.105632], [40.718665, -74.10384400000001], [40.71869400000004, -74.103774], [40.71823300000004, -74.102779], [40.717738000000004, -74.101716], [40.71776799999997, -74.101674], [40.717752000000004, -74.101595], [40.71788399999999, -74.10158000000001], [40.71799500000002, -74.101592], [40.71802099999999, -74.101595], [40.71815900000001, -74.101502], [40.71825799999995, -74.101566], [40.71824099999999, -74.101436], [40.718219999999974, -74.100972], [40.71819799999997, -74.100691], [40.718198, -74.10048], [40.71817000000002, -74.100199], [40.71812100000001, -74.10001], [40.71809299999998, -74.099816], [40.718104, -74.099548], [40.71814800000004, -74.099332], [40.71692900000003, -74.097153], [40.716491000000026, -74.096373], [40.71640700000001, -74.09605600000002], [40.71635000000003, -74.095874], [40.71623199999996, -74.095679], [40.716157999999915, -74.095511], [40.71648899999999, -74.095302], [40.71788999999999, -74.094458], [40.718133999999985, -74.094311], [40.71804000000003, -74.09405600000001], [40.71730400000003, -74.092782], [40.716965000000016, -74.092141], [40.71664100000003, -74.09152800000001], [40.716389999999976, -74.091054], [40.71497800000003, -74.088389], [40.71483400000001, -74.087856], [40.715256, -74.087304], [40.715479999999964, -74.087012], [40.715703000000005, -74.086721], [40.715760000000024, -74.086641], [40.71597199999999, -74.086351], [40.715827999999995, -74.08608], [40.71554200000002, -74.08611], [40.71485300000002, -74.084952], [40.71441699999998, -74.08502500000002], [40.713850000000015, -74.083965], [40.71370099999999, -74.083718], [40.713638, -74.083453], [40.71356200000003, -74.083133], [40.713133, -74.081517], [40.712953999999975, -74.080843], [40.712871, -74.08054], [40.712122999999956, -74.077799], [40.712023, -74.07789], [40.71187799999996, -74.077326], [40.71099800000001, -74.075689], [40.71151199999998, -74.075416], [40.711203, -74.074153], [40.71096000000001, -74.073151], [40.710892000000015, -74.072872], [40.710608999999984, -74.071698], [40.71037399999997, -74.070661], [40.710254999999975, -74.070136], [40.71012699999998, -74.069605], [40.70930200000002, -74.069985], [40.708907000000025, -74.070234], [40.707761, -74.07096], [40.707679000000034, -74.070887], [40.70711099999999, -74.070143], [40.70658199999999, -74.069451], [40.704873999999975, -74.071815], [40.704451574562945, -74.0713119865794], [40.686724999999996, -74.09449000000001], [40.69160462776363, -74.10131438152179], [40.69170999999995, -74.101231]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1e5b54ce1ab9c4928b5d0b13b13882fb);
+        
+    
+        var popup_4fdb315347f58365c5a1672c9d06700c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ca320cc5581cf7adf00b50b2dd614bf4 = $(`<div id="html_ca320cc5581cf7adf00b50b2dd614bf4" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD10</b></div>`)[0];
+                popup_4fdb315347f58365c5a1672c9d06700c.setContent(html_ca320cc5581cf7adf00b50b2dd614bf4);
+            
+        
+
+        polygon_7c52d75375a86c29313528a7f91efe47.bindPopup(popup_4fdb315347f58365c5a1672c9d06700c)
+        ;
+
+        
+    
+    
+            var circle_marker_e4c2890b0d9a0da1650b3419466f3edd = L.circleMarker(
+                [40.70749120795497, -74.09586747117541],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1e5b54ce1ab9c4928b5d0b13b13882fb);
+        
+    
+        var popup_6f760a1e5d4f6521dc099a551ef884d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6049b6cc9a738f4dfc6dba66d0f9f4a2 = $(`<div id="html_6049b6cc9a738f4dfc6dba66d0f9f4a2" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD10</b></div>`)[0];
+                popup_6f760a1e5d4f6521dc099a551ef884d2.setContent(html_6049b6cc9a738f4dfc6dba66d0f9f4a2);
+            
+        
+
+        circle_marker_e4c2890b0d9a0da1650b3419466f3edd.bindPopup(popup_6f760a1e5d4f6521dc099a551ef884d2)
+        ;
+
+        
+    
+    
+            circle_marker_e4c2890b0d9a0da1650b3419466f3edd.bindTooltip(
+                `<div>
+                     Hudson - New Jersey-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

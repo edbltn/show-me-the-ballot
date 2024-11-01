@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1a115b1efce9828b3aafecbed0f923f4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Genesee - New York-CD24</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Genesee - New York-CD24</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Genesee - New York-CD24</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Genesee - New York-CD24</p>
+            </div>
+    
+            <div class="folium-map" id="map_1a115b1efce9828b3aafecbed0f923f4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1a115b1efce9828b3aafecbed0f923f4 = L.map(
+                "map_1a115b1efce9828b3aafecbed0f923f4",
+                {
+                    center: [43.04522942105263, -78.06946664035087],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1719ee383d504c895de4d50a67b8c159 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1719ee383d504c895de4d50a67b8c159.addTo(map_1a115b1efce9828b3aafecbed0f923f4);
+        
+    
+            var polygon_1008483813c7e387210e6d4c5630f590 = L.polygon(
+                [[43.048322999999975, -78.065582], [43.04977000000004, -78.065054], [43.050837, -78.064656], [43.051072, -78.064559], [43.05139700000001, -78.064407], [43.05181199999997, -78.064177], [43.053126999999996, -78.06334], [43.053909000000026, -78.062874], [43.054145999999974, -78.062735], [43.054558000000036, -78.062539], [43.05513999999999, -78.062339], [43.05581200000004, -78.062196], [43.05621199999997, -78.062139], [43.05661700000001, -78.062096], [43.057185000000004, -78.062057], [43.057185000000025, -78.061718], [43.05712700000003, -78.05929], [43.05708700000003, -78.055972], [43.057025000000046, -78.052676], [43.057009999999956, -78.051019], [43.056884, -78.044903], [43.054391000000045, -78.044961], [43.05434799999997, -78.044961], [43.05173500000005, -78.052539], [43.050738999999965, -78.055426], [43.047213999999975, -78.06564], [43.047258999999976, -78.06564300000001], [43.048112000000025, -78.065623], [43.048322999999975, -78.065582]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1a115b1efce9828b3aafecbed0f923f4);
+        
+    
+        var popup_289132dfd86541e89c2ca5e56f301ac2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4611716b98dbbd1548d64b238898abb5 = $(`<div id="html_4611716b98dbbd1548d64b238898abb5" style="width: 100.0%; height: 100.0%;"><b>Genesee - New York-CD24</b></div>`)[0];
+                popup_289132dfd86541e89c2ca5e56f301ac2.setContent(html_4611716b98dbbd1548d64b238898abb5);
+            
+        
+
+        polygon_1008483813c7e387210e6d4c5630f590.bindPopup(popup_289132dfd86541e89c2ca5e56f301ac2)
+        ;
+
+        
+    
+    
+            var circle_marker_d9ef7c88265b1ce744be77baee36db6d = L.circleMarker(
+                [43.05325365517241, -78.05988631034482],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1a115b1efce9828b3aafecbed0f923f4);
+        
+    
+        var popup_b0860a88d2df8809f7f073d8fdbe60ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f261c297ff436744ab603e4084319ed = $(`<div id="html_1f261c297ff436744ab603e4084319ed" style="width: 100.0%; height: 100.0%;"><b>Genesee - New York-CD24</b></div>`)[0];
+                popup_b0860a88d2df8809f7f073d8fdbe60ad.setContent(html_1f261c297ff436744ab603e4084319ed);
+            
+        
+
+        circle_marker_d9ef7c88265b1ce744be77baee36db6d.bindPopup(popup_b0860a88d2df8809f7f073d8fdbe60ad)
+        ;
+
+        
+    
+    
+            circle_marker_d9ef7c88265b1ce744be77baee36db6d.bindTooltip(
+                `<div>
+                     Genesee - New York-CD24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_507e1c9f80391b401f0465a2a56bc46c = L.polygon(
+                [[43.03943500000004, -78.075694], [43.03949000000003, -78.075665], [43.03963899999999, -78.075668], [43.03992299999998, -78.07576], [43.040015000000025, -78.07576], [43.04033099999997, -78.075676], [43.04041500000001, -78.075668], [43.04058299999996, -78.075628], [43.04073199999994, -78.075647], [43.04093999999998, -78.075588], [43.040984, -78.075552], [43.04107800000001, -78.07543500000001], [43.04112200000001, -78.075399], [43.04117999999997, -78.075391], [43.041321999999965, -78.075439], [43.04159899999999, -78.075639], [43.041638999999975, -78.07565000000001], [43.04170500000001, -78.07569], [43.041759999999975, -78.07569], [43.04179800000001, -78.075668], [43.04183299999995, -78.075625], [43.04187499999996, -78.07551900000001], [43.04190699999996, -78.07535900000002], [43.04190699999998, -78.075273], [43.041886, -78.075181], [43.041800999999985, -78.074979], [43.04178400000002, -78.07491100000001], [43.04178399999998, -78.074853], [43.04181500000003, -78.074786], [43.041939000000056, -78.074584], [43.04195599999996, -78.074512], [43.04204099999996, -78.074367], [43.04235399999997, -78.073741], [43.04247800000003, -78.073557], [43.04255900000004, -78.073384], [43.042615, -78.073196], [43.04267499999999, -78.073109], [43.042724000000014, -78.073085], [43.042889999999964, -78.073041], [43.04293599999998, -78.073008], [43.04297100000005, -78.07296], [43.04299899999997, -78.072887], [43.04302000000001, -78.072771], [43.043040999999974, -78.072728], [43.04309400000004, -78.072718], [43.04331600000004, -78.072786], [43.043362, -78.072781], [43.04347800000002, -78.072718], [43.043535000000006, -78.07261200000002], [43.04357999999999, -78.072439], [43.04357700000001, -78.07214], [43.04356599999999, -78.072048], [43.04357299999999, -78.071865], [43.043587, -78.071817], [43.04362999999997, -78.071778], [43.04375300000001, -78.071735], [43.043861000000035, -78.07174], [43.04390299999998, -78.071759], [43.04395299999998, -78.071827], [43.044005999999996, -78.071933], [43.04412899999997, -78.072111], [43.04415000000005, -78.072236], [43.04409700000006, -78.072458], [43.044101000000026, -78.072545], [43.04412500000003, -78.072637], [43.04416100000001, -78.072704], [43.044266000000064, -78.072839], [43.044400000000024, -78.07304600000002], [43.044545, -78.07322000000002], [43.04458899999995, -78.07325400000002], [43.047213999999975, -78.06564], [43.04699699999998, -78.065638], [43.04707400000008, -78.065319], [43.04722699999994, -78.064852], [43.04771500000002, -78.063444], [43.04340499999996, -78.063536], [43.04338700000004, -78.062888], [43.04324299999996, -78.058062], [43.03887000000002, -78.058097], [43.038931999999974, -78.065813], [43.039019, -78.07435], [43.03904699999996, -78.075959], [43.03912299999999, -78.075922], [43.03929300000001, -78.075811], [43.03943500000004, -78.075694]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1a115b1efce9828b3aafecbed0f923f4);
+        
+    
+        var popup_df9217ebaa5b050228480020f4bbe98f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2426b31c60be373710367feb386cbe37 = $(`<div id="html_2426b31c60be373710367feb386cbe37" style="width: 100.0%; height: 100.0%;"><b>Genesee - New York-CD24</b></div>`)[0];
+                popup_df9217ebaa5b050228480020f4bbe98f.setContent(html_2426b31c60be373710367feb386cbe37);
+            
+        
+
+        polygon_507e1c9f80391b401f0465a2a56bc46c.bindPopup(popup_df9217ebaa5b050228480020f4bbe98f)
+        ;
+
+        
+    
+    
+            var circle_marker_5fc99e011bfd1551282f9ed293865759 = L.circleMarker(
+                [43.04249174117647, -78.0727352235294],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1a115b1efce9828b3aafecbed0f923f4);
+        
+    
+        var popup_cf71df90ab8a7c1d9ec234d4428c8496 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_50cc870b81045dae5363f471c11e15b8 = $(`<div id="html_50cc870b81045dae5363f471c11e15b8" style="width: 100.0%; height: 100.0%;"><b>Genesee - New York-CD24</b></div>`)[0];
+                popup_cf71df90ab8a7c1d9ec234d4428c8496.setContent(html_50cc870b81045dae5363f471c11e15b8);
+            
+        
+
+        circle_marker_5fc99e011bfd1551282f9ed293865759.bindPopup(popup_cf71df90ab8a7c1d9ec234d4428c8496)
+        ;
+
+        
+    
+    
+            circle_marker_5fc99e011bfd1551282f9ed293865759.bindTooltip(
+                `<div>
+                     Genesee - New York-CD24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d34cba9acb6645cdecdcdb85bf86852d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD18</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD19</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD18</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD19</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD18</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD19</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Berkshire - Massachusetts-CD01</p>
+            </div>
+    
+            <div class="folium-map" id="map_d34cba9acb6645cdecdcdb85bf86852d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d34cba9acb6645cdecdcdb85bf86852d = L.map(
+                "map_d34cba9acb6645cdecdcdb85bf86852d",
+                {
+                    center: [42.10590991657314, -73.46159805247515],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fecb22ee8132a8c44c62b417298d8a14 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fecb22ee8132a8c44c62b417298d8a14.addTo(map_d34cba9acb6645cdecdcdb85bf86852d);
+        
+    
+            var polygon_bf7f932c37934eb2701f3240337e20cc = L.polygon(
+                [[42.049568792566426, -73.49176776497335], [42.053797709586746, -73.4896799420321], [42.04963799999999, -73.487314], [42.0495250382288, -73.48732287678064], [42.049568792566426, -73.49176776497335]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d34cba9acb6645cdecdcdb85bf86852d);
+        
+    
+        var popup_fda738a38dc62e23a138f7e7f6338417 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dab69eb456cfd84d502d929713ee6c22 = $(`<div id="html_dab69eb456cfd84d502d929713ee6c22" style="width: 100.0%; height: 100.0%;"><b>Berkshire - Massachusetts-CD18</b></div>`)[0];
+                popup_fda738a38dc62e23a138f7e7f6338417.setContent(html_dab69eb456cfd84d502d929713ee6c22);
+            
+        
+
+        polygon_bf7f932c37934eb2701f3240337e20cc.bindPopup(popup_fda738a38dc62e23a138f7e7f6338417)
+        ;
+
+        
+    
+    
+            var circle_marker_4bc065e0f1de102eef7427f2fcd635e2 = L.circleMarker(
+                [42.050419666589676, -73.48957046975188],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d34cba9acb6645cdecdcdb85bf86852d);
+        
+    
+        var popup_0a0f82b700ec1869701866c63289adba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b703967616b1d74eefdc2e15b2b55985 = $(`<div id="html_b703967616b1d74eefdc2e15b2b55985" style="width: 100.0%; height: 100.0%;"><b>Berkshire - Massachusetts-CD18</b></div>`)[0];
+                popup_0a0f82b700ec1869701866c63289adba.setContent(html_b703967616b1d74eefdc2e15b2b55985);
+            
+        
+
+        circle_marker_4bc065e0f1de102eef7427f2fcd635e2.bindPopup(popup_0a0f82b700ec1869701866c63289adba)
+        ;
+
+        
+    
+    
+            circle_marker_4bc065e0f1de102eef7427f2fcd635e2.bindTooltip(
+                `<div>
+                     Berkshire - Massachusetts-CD18
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_237189fa71e53629e0ea3a2255d5e6f9 = L.polygon(
+                [[42.049587000000045, -73.493622], [42.04959, -73.4938], [42.049623999999994, -73.497018], [42.057937000000024, -73.499565], [42.069268999999956, -73.503023], [42.06966100000004, -73.503143], [42.06973299999999, -73.503165], [42.07773299999999, -73.505634], [42.085591000000015, -73.508048], [42.086133999999994, -73.50821], [42.087357, -73.507768], [42.08873299999997, -73.507252], [42.10999000000002, -73.499563], [42.11114800000004, -73.499099], [42.11530499999997, -73.497584], [42.11615799999998, -73.49727700000001], [42.12508999999994, -73.494025], [42.12599500000002, -73.493689], [42.12764300000004, -73.493127], [42.12766600000002, -73.493119], [42.12816799999998, -73.492931], [42.135451000000025, -73.490269], [42.137067999999985, -73.489681], [42.13709499999999, -73.489671], [42.139050999999974, -73.488961], [42.139433999999966, -73.488822], [42.14486099999998, -73.486882], [42.14682899999997, -73.48618], [42.152691000000026, -73.484053], [42.154447999999995, -73.483416], [42.15493199999998, -73.483232], [42.15486554359606, -73.4830736363866], [42.086256999999996, -73.508142], [42.053797709586746, -73.4896799420321], [42.049568792566426, -73.49176776497335], [42.049587000000045, -73.493622]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d34cba9acb6645cdecdcdb85bf86852d);
+        
+    
+        var popup_702a6697813930a3c440b94cc3fbb34b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe39114dcd7f29b2654f857afaca42b0 = $(`<div id="html_fe39114dcd7f29b2654f857afaca42b0" style="width: 100.0%; height: 100.0%;"><b>Berkshire - Massachusetts-CD19</b></div>`)[0];
+                popup_702a6697813930a3c440b94cc3fbb34b.setContent(html_fe39114dcd7f29b2654f857afaca42b0);
+            
+        
+
+        polygon_237189fa71e53629e0ea3a2255d5e6f9.bindPopup(popup_702a6697813930a3c440b94cc3fbb34b)
+        ;
+
+        
+    
+    
+            var circle_marker_2cb107298bc94fd1ae8c735373aec4d5 = L.circleMarker(
+                [42.104556890159685, -73.49522539842755],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d34cba9acb6645cdecdcdb85bf86852d);
+        
+    
+        var popup_b96d91135543d65687e279389141fcb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec3a88a12f18b9201289667291ab8eb4 = $(`<div id="html_ec3a88a12f18b9201289667291ab8eb4" style="width: 100.0%; height: 100.0%;"><b>Berkshire - Massachusetts-CD19</b></div>`)[0];
+                popup_b96d91135543d65687e279389141fcb9.setContent(html_ec3a88a12f18b9201289667291ab8eb4);
+            
+        
+
+        circle_marker_2cb107298bc94fd1ae8c735373aec4d5.bindPopup(popup_b96d91135543d65687e279389141fcb9)
+        ;
+
+        
+    
+    
+            circle_marker_2cb107298bc94fd1ae8c735373aec4d5.bindTooltip(
+                `<div>
+                     Berkshire - Massachusetts-CD19
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6e0d72726ceff0ddc9550613cb3a21aa = L.polygon(
+                [[42.05029899999998, -73.447736], [42.05004, -73.461104], [42.049925000000016, -73.466973], [42.049914000000015, -73.46759], [42.049585273469404, -73.48427207892212], [42.04963799999999, -73.487314], [42.053797709586746, -73.4896799420321], [42.086256999999996, -73.508142], [42.15486554359606, -73.4830736363866], [42.15301200000004, -73.478657], [42.152459, -73.47734], [42.15209199999999, -73.476454], [42.151954000000025, -73.476129], [42.15189700000003, -73.476004], [42.15165300000001, -73.47542400000002], [42.15107500000003, -73.474046], [42.14947699999997, -73.471455], [42.147598, -73.46936], [42.14607100000001, -73.467658], [42.145154, -73.466635], [42.14481099999997, -73.466253], [42.12812000000003, -73.447644], [42.12792000000001, -73.447423], [42.12733300000001, -73.446769], [42.126682000000024, -73.446044], [42.12602099999996, -73.445308], [42.12565800000003, -73.444903], [42.125340000000044, -73.444549], [42.125119000000026, -73.444303], [42.12506100000006, -73.444239], [42.12452600000002, -73.44364300000001], [42.12393599999997, -73.442985], [42.12336999999998, -73.442354], [42.12266800000002, -73.44157300000002], [42.12213300000004, -73.440977], [42.12164399999998, -73.44043200000002], [42.121099999999984, -73.439826], [42.12050600000008, -73.439164], [42.120019999999954, -73.438622], [42.11953800000001, -73.438085], [42.119032999999995, -73.437523], [42.118659, -73.437106], [42.118413, -73.436832], [42.11814899999998, -73.436538], [42.11851699999997, -73.435616], [42.118951999999986, -73.434527], [42.11950300000001, -73.43315], [42.11988999999996, -73.432182], [42.120153000000066, -73.431524], [42.12045299999998, -73.430772], [42.120835000000014, -73.429818], [42.121041, -73.429303], [42.121225999999986, -73.42883900000001], [42.12126299999996, -73.428748], [42.119446000000046, -73.42783100000001], [42.11800600000002, -73.427101], [42.116181, -73.42618200000001], [42.115113000000015, -73.425642], [42.11477100000004, -73.42546999999999], [42.11362, -73.424888], [42.113497999999986, -73.424818], [42.11158499999999, -73.42384400000002], [42.11057099999999, -73.423348], [42.10930999999998, -73.422711], [42.10729599999997, -73.421694], [42.10563899999999, -73.420857], [42.104028999999976, -73.420044], [42.10384600000003, -73.419952], [42.09972200000002, -73.42149300000001], [42.089388000000014, -73.425351], [42.08799500000002, -73.425874], [42.08179100000002, -73.428193], [42.07176500000002, -73.430578], [42.06072900000006, -73.433178], [42.05923100000003, -73.433541], [42.05519300000006, -73.43447600000002], [42.05458700000001, -73.434663], [42.050510999999965, -73.436758], [42.050475, -73.438554], [42.05029899999998, -73.447736]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d34cba9acb6645cdecdcdb85bf86852d);
+        
+    
+        var popup_cc9f7d69638f2705371f2885affcbe39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c9ae15728ab698489ddba30bda6e1502 = $(`<div id="html_c9ae15728ab698489ddba30bda6e1502" style="width: 100.0%; height: 100.0%;"><b>Berkshire - Massachusetts-CD01</b></div>`)[0];
+                popup_cc9f7d69638f2705371f2885affcbe39.setContent(html_c9ae15728ab698489ddba30bda6e1502);
+            
+        
+
+        polygon_6e0d72726ceff0ddc9550613cb3a21aa.bindPopup(popup_cc9f7d69638f2705371f2885affcbe39)
+        ;
+
+        
+    
+    
+            var circle_marker_42db40d0c1535404d41a6ebd31bc66cf = L.circleMarker(
+                [42.109986919083155, -73.44471747071677],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d34cba9acb6645cdecdcdb85bf86852d);
+        
+    
+        var popup_b4fa91e65cd3e9c101fdfd1740dec839 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d00f995c0dcc81062f0e127e25d5083f = $(`<div id="html_d00f995c0dcc81062f0e127e25d5083f" style="width: 100.0%; height: 100.0%;"><b>Berkshire - Massachusetts-CD01</b></div>`)[0];
+                popup_b4fa91e65cd3e9c101fdfd1740dec839.setContent(html_d00f995c0dcc81062f0e127e25d5083f);
+            
+        
+
+        circle_marker_42db40d0c1535404d41a6ebd31bc66cf.bindPopup(popup_b4fa91e65cd3e9c101fdfd1740dec839)
+        ;
+
+        
+    
+    
+            circle_marker_42db40d0c1535404d41a6ebd31bc66cf.bindTooltip(
+                `<div>
+                     Berkshire - Massachusetts-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3887b0d5637c5e6dfee7adfdfa0c2100 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cape May - New Jersey-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cape May - New Jersey-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cape May - New Jersey-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cape May - New Jersey-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_3887b0d5637c5e6dfee7adfdfa0c2100" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3887b0d5637c5e6dfee7adfdfa0c2100 = L.map(
+                "map_3887b0d5637c5e6dfee7adfdfa0c2100",
+                {
+                    center: [38.93598006681684, -74.95580459308805],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_218c1470e6ce333e336ba887b9f6ce19 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_218c1470e6ce333e336ba887b9f6ce19.addTo(map_3887b0d5637c5e6dfee7adfdfa0c2100);
+        
+    
+            var polygon_714d1e8160aae32da61f4f1ba5a57707 = L.polygon(
+                [[38.94177000000005, -74.964524], [38.94262599999999, -74.964528], [38.942722999999994, -74.96453], [38.94311900000003, -74.964529], [38.943189999999944, -74.964524], [38.94317199999999, -74.964447], [38.942788999999976, -74.962857], [38.942489, -74.961585], [38.942385999999956, -74.961149], [38.938140000000004, -74.96141400000002], [38.93487399999998, -74.961607], [38.93459600000002, -74.961631], [38.93389500000001, -74.961219], [38.93322099999997, -74.960805], [38.93309599999997, -74.960728], [38.93307600000001, -74.960716], [38.93240263857351, -74.9603105104524], [38.933413000000016, -74.967274], [38.94151919109803, -74.96585211729332], [38.94177000000005, -74.964524]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3887b0d5637c5e6dfee7adfdfa0c2100);
+        
+    
+        var popup_ac98954ff8eb58e1819aca8aa8c786c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bfeef7ba786f9800d9da72b56cbbb83 = $(`<div id="html_3bfeef7ba786f9800d9da72b56cbbb83" style="width: 100.0%; height: 100.0%;"><b>Cape May - New Jersey-CD02</b></div>`)[0];
+                popup_ac98954ff8eb58e1819aca8aa8c786c0.setContent(html_3bfeef7ba786f9800d9da72b56cbbb83);
+            
+        
+
+        polygon_714d1e8160aae32da61f4f1ba5a57707.bindPopup(popup_ac98954ff8eb58e1819aca8aa8c786c0)
+        ;
+
+        
+    
+    
+            var circle_marker_707205edf12958bc50454588096ce602 = L.circleMarker(
+                [38.93871334148357, -74.96293768138729],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3887b0d5637c5e6dfee7adfdfa0c2100);
+        
+    
+        var popup_f84b500f620ee8e6bbf255a85721fe40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6d38dfb5a543e92646f0388ec05c26e = $(`<div id="html_e6d38dfb5a543e92646f0388ec05c26e" style="width: 100.0%; height: 100.0%;"><b>Cape May - New Jersey-CD02</b></div>`)[0];
+                popup_f84b500f620ee8e6bbf255a85721fe40.setContent(html_e6d38dfb5a543e92646f0388ec05c26e);
+            
+        
+
+        circle_marker_707205edf12958bc50454588096ce602.bindPopup(popup_f84b500f620ee8e6bbf255a85721fe40)
+        ;
+
+        
+    
+    
+            circle_marker_707205edf12958bc50454588096ce602.bindTooltip(
+                `<div>
+                     Cape May - New Jersey-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_44e5ce5bb3c915e1bdb5974a69393a5b = L.polygon(
+                [[38.931493000000025, -74.952591], [38.931997999999986, -74.948429], [38.932044, -74.943536], [38.931769, -74.941338], [38.931733000000015, -74.93995], [38.93166900000002, -74.939593], [38.93152700000006, -74.938811], [38.93140199999999, -74.93884], [38.93125400000002, -74.938875], [38.92935470719666, -74.93932139600246], [38.93135860127047, -74.9531179550694], [38.931493000000025, -74.952591]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3887b0d5637c5e6dfee7adfdfa0c2100);
+        
+    
+        var popup_768c4dde8258d26733158d1128873145 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b55ec1f3bbe94ece3665506005b9a352 = $(`<div id="html_b55ec1f3bbe94ece3665506005b9a352" style="width: 100.0%; height: 100.0%;"><b>Cape May - New Jersey-CD02</b></div>`)[0];
+                popup_768c4dde8258d26733158d1128873145.setContent(html_b55ec1f3bbe94ece3665506005b9a352);
+            
+        
+
+        polygon_44e5ce5bb3c915e1bdb5974a69393a5b.bindPopup(popup_768c4dde8258d26733158d1128873145)
+        ;
+
+        
+    
+    
+            var circle_marker_40c4a0ca7898a404c5d314db9a6a1085 = L.circleMarker(
+                [38.931424609038935, -74.94391611258932],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3887b0d5637c5e6dfee7adfdfa0c2100);
+        
+    
+        var popup_895953224647c67a23b1693693f15dbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c922339d2ad2309da3cc9512b79fdc9 = $(`<div id="html_9c922339d2ad2309da3cc9512b79fdc9" style="width: 100.0%; height: 100.0%;"><b>Cape May - New Jersey-CD02</b></div>`)[0];
+                popup_895953224647c67a23b1693693f15dbf.setContent(html_9c922339d2ad2309da3cc9512b79fdc9);
+            
+        
+
+        circle_marker_40c4a0ca7898a404c5d314db9a6a1085.bindPopup(popup_895953224647c67a23b1693693f15dbf)
+        ;
+
+        
+    
+    
+            circle_marker_40c4a0ca7898a404c5d314db9a6a1085.bindTooltip(
+                `<div>
+                     Cape May - New Jersey-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

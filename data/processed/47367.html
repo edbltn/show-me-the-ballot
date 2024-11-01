@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c607fb8fba08a34dedeb50bbc9288b04 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Delaware - Indiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Delaware - Indiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Delaware - Indiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Delaware - Indiana-CD06</p>
+            </div>
+    
+            <div class="folium-map" id="map_c607fb8fba08a34dedeb50bbc9288b04" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c607fb8fba08a34dedeb50bbc9288b04 = L.map(
+                "map_c607fb8fba08a34dedeb50bbc9288b04",
+                {
+                    center: [40.08262704382829, -85.39278022104277],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3a9c992818611fe506a5f7207cea557e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3a9c992818611fe506a5f7207cea557e.addTo(map_c607fb8fba08a34dedeb50bbc9288b04);
+        
+    
+            var polygon_5a754719dd116c8d1ec2121da45f9bda = L.polygon(
+                [[40.07915899999998, -85.394444], [40.080065, -85.394445], [40.08326399999998, -85.394447], [40.08534900000001, -85.394441], [40.08716399999999, -85.394449], [40.08732800000003, -85.394454], [40.08950199999997, -85.39445100000002], [40.089800000000054, -85.394457], [40.09080000000001, -85.394454], [40.09098300000003, -85.394458], [40.09097099999999, -85.393772], [40.09095499999996, -85.391728], [40.090933, -85.389769], [40.08521099999995, -85.389699], [40.08385899999998, -85.389686], [40.081459999999964, -85.389661], [40.07917499999999, -85.389637], [40.07756900000003, -85.38962], [40.07714179830435, -85.38961887478702], [40.07714531529181, -85.39445071981163], [40.07915899999998, -85.394444]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c607fb8fba08a34dedeb50bbc9288b04);
+        
+    
+        var popup_ffe19778504c221e648a3faaef294a21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edc829949e93fbfd333e652954f5e573 = $(`<div id="html_edc829949e93fbfd333e652954f5e573" style="width: 100.0%; height: 100.0%;"><b>Delaware - Indiana-CD05</b></div>`)[0];
+                popup_ffe19778504c221e648a3faaef294a21.setContent(html_edc829949e93fbfd333e652954f5e573);
+            
+        
+
+        polygon_5a754719dd116c8d1ec2121da45f9bda.bindPopup(popup_ffe19778504c221e648a3faaef294a21)
+        ;
+
+        
+    
+    
+            var circle_marker_4bf00e7ecaa9c30909d937b1d9dc3db8 = L.circleMarker(
+                [40.084618719695044, -85.39269455212373],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c607fb8fba08a34dedeb50bbc9288b04);
+        
+    
+        var popup_0104ed0f037684be23cb9ee511d52c68 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd8d7f4a19309d60b10039a163f3758c = $(`<div id="html_cd8d7f4a19309d60b10039a163f3758c" style="width: 100.0%; height: 100.0%;"><b>Delaware - Indiana-CD05</b></div>`)[0];
+                popup_0104ed0f037684be23cb9ee511d52c68.setContent(html_cd8d7f4a19309d60b10039a163f3758c);
+            
+        
+
+        circle_marker_4bf00e7ecaa9c30909d937b1d9dc3db8.bindPopup(popup_0104ed0f037684be23cb9ee511d52c68)
+        ;
+
+        
+    
+    
+            circle_marker_4bf00e7ecaa9c30909d937b1d9dc3db8.bindTooltip(
+                `<div>
+                     Delaware - Indiana-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e32d8baebc0bdee18abb8ecd8f6f5823 = L.polygon(
+                [[40.076462000000035, -85.394423], [40.076462000000035, -85.39445300000001], [40.07714531529181, -85.39445071981163], [40.07714179830435, -85.38961887478702], [40.07643, -85.389617], [40.07646099999999, -85.394275], [40.076462000000035, -85.394423]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c607fb8fba08a34dedeb50bbc9288b04);
+        
+    
+        var popup_b74c27dc2bd24b92f0d97038df02062b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5fc14bec2f76e7279ce65149e461ac38 = $(`<div id="html_5fc14bec2f76e7279ce65149e461ac38" style="width: 100.0%; height: 100.0%;"><b>Delaware - Indiana-CD06</b></div>`)[0];
+                popup_b74c27dc2bd24b92f0d97038df02062b.setContent(html_5fc14bec2f76e7279ce65149e461ac38);
+            
+        
+
+        polygon_e32d8baebc0bdee18abb8ecd8f6f5823.bindPopup(popup_b74c27dc2bd24b92f0d97038df02062b)
+        ;
+
+        
+    
+    
+            var circle_marker_e750d06ba20d8ffbf92df5aecc6cc153 = L.circleMarker(
+                [40.07665201622804, -85.3930372277998],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_c607fb8fba08a34dedeb50bbc9288b04);
+        
+    
+        var popup_00d65343a8f841c9fda6f171d362296c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_585998788977c4ef304989a7e2325050 = $(`<div id="html_585998788977c4ef304989a7e2325050" style="width: 100.0%; height: 100.0%;"><b>Delaware - Indiana-CD06</b></div>`)[0];
+                popup_00d65343a8f841c9fda6f171d362296c.setContent(html_585998788977c4ef304989a7e2325050);
+            
+        
+
+        circle_marker_e750d06ba20d8ffbf92df5aecc6cc153.bindPopup(popup_00d65343a8f841c9fda6f171d362296c)
+        ;
+
+        
+    
+    
+            circle_marker_e750d06ba20d8ffbf92df5aecc6cc153.bindTooltip(
+                `<div>
+                     Delaware - Indiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

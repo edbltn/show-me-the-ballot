@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01321a1c44808cc29276b4682a11c9ab {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD07</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Grand Forks - North Dakota-CD00</p>
+            </div>
+    
+            <div class="folium-map" id="map_01321a1c44808cc29276b4682a11c9ab" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01321a1c44808cc29276b4682a11c9ab = L.map(
+                "map_01321a1c44808cc29276b4682a11c9ab",
+                {
+                    center: [47.97139575211444, -97.09282053131454],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_28de630a8d276e074d869ab2d05da903 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_28de630a8d276e074d869ab2d05da903.addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+            var polygon_a040aa76971086d70148673909c37eb3 = L.polygon(
+                [[48.01565799999998, -97.064927], [48.015269000000025, -97.063976], [48.014989000000014, -97.063289], [48.01446599999995, -97.06296], [48.01400400000003, -97.062888], [48.01379499999999, -97.062856], [48.013178999999994, -97.063012], [48.012566999999954, -97.063684], [48.01244199999998, -97.063859], [48.01220170299563, -97.0641969372631], [48.01569299929891, -97.06538575380337], [48.01565799999998, -97.064927]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_2a73ed94307ec62b9524e01aae598875 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3afe2602a3554f6b8624110a8b6a7c59 = $(`<div id="html_3afe2602a3554f6b8624110a8b6a7c59" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_2a73ed94307ec62b9524e01aae598875.setContent(html_3afe2602a3554f6b8624110a8b6a7c59);
+            
+        
+
+        polygon_a040aa76971086d70148673909c37eb3.bindPopup(popup_2a73ed94307ec62b9524e01aae598875)
+        ;
+
+        
+    
+    
+            var circle_marker_d7be00a9caa96943fd56d4a2fb5d82b1 = L.circleMarker(
+                [48.01416014185787, -97.06383005758886],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_989c6666a93690e9156a81c257a12600 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_976813771c3039505519c8379b7098c3 = $(`<div id="html_976813771c3039505519c8379b7098c3" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_989c6666a93690e9156a81c257a12600.setContent(html_976813771c3039505519c8379b7098c3);
+            
+        
+
+        circle_marker_d7be00a9caa96943fd56d4a2fb5d82b1.bindPopup(popup_989c6666a93690e9156a81c257a12600)
+        ;
+
+        
+    
+    
+            circle_marker_d7be00a9caa96943fd56d4a2fb5d82b1.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_3941b7a3ed5e2470a0ba6e64913a5d08 = L.polygon(
+                [[47.994091999999966, -97.057825], [47.99388399999996, -97.057137], [47.993739999999946, -97.056689], [47.993563999999964, -97.056161], [47.99325999999998, -97.055521], [47.992924, -97.054945], [47.992588, -97.054545], [47.992333999999964, -97.05424], [47.99229000000001, -97.054188], [47.992267999999996, -97.054161], [47.99190000000004, -97.053809], [47.99161200000003, -97.053553], [47.99143600000004, -97.053441], [47.99131399999999, -97.053387], [47.99114800000003, -97.053313], [47.99105800000003, -97.053284], [47.99084400000003, -97.053217], [47.990652, -97.053185], [47.99049799999996, -97.053114], [47.990477, -97.053104], [47.99044400000003, -97.053089], [47.990252000000005, -97.053089], [47.98970800000001, -97.053057], [47.98934, -97.053089], [47.988970000000016, -97.053203], [47.98873000000005, -97.053273], [47.988636, -97.053313], [47.98857, -97.053338], [47.98847000000003, -97.053376], [47.98830000000001, -97.053441], [47.98795100000002, -97.053543], [47.98762800000002, -97.053761], [47.98706800000002, -97.053985], [47.98650799999997, -97.054193], [47.98598000000003, -97.054401], [47.98548400000006, -97.05464100000002], [47.984917087027064, -97.05491028394492], [47.994161257737105, -97.05805585760923], [47.994091999999966, -97.057825]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_038869ce69096253c6c8213c71d6c100 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a336cd46fafa627e7f7f74809f2d4acf = $(`<div id="html_a336cd46fafa627e7f7f74809f2d4acf" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_038869ce69096253c6c8213c71d6c100.setContent(html_a336cd46fafa627e7f7f74809f2d4acf);
+            
+        
+
+        polygon_3941b7a3ed5e2470a0ba6e64913a5d08.bindPopup(popup_038869ce69096253c6c8213c71d6c100)
+        ;
+
+        
+    
+    
+            var circle_marker_1bb517c193f55d4728ab47a918eb42c4 = L.circleMarker(
+                [47.99043826525036, -97.05426672157833],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_0b19da6eb43e59cab39b1d329b20bc13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47da260984ab41d360e9937f704c406f = $(`<div id="html_47da260984ab41d360e9937f704c406f" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_0b19da6eb43e59cab39b1d329b20bc13.setContent(html_47da260984ab41d360e9937f704c406f);
+            
+        
+
+        circle_marker_1bb517c193f55d4728ab47a918eb42c4.bindPopup(popup_0b19da6eb43e59cab39b1d329b20bc13)
+        ;
+
+        
+    
+    
+            circle_marker_1bb517c193f55d4728ab47a918eb42c4.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_04af4da2f28a00d28d20ca6a56afbfae = L.polygon(
+                [[47.940588999999946, -97.039481], [47.94058600000001, -97.039449], [47.94054699999997, -97.038953], [47.940531000000036, -97.038796], [47.940420999999944, -97.038291], [47.940298999999975, -97.037849], [47.940251999999994, -97.037705], [47.94016400000002, -97.037473], [47.94013799999998, -97.037412], [47.940028999999946, -97.037159], [47.939883, -97.036855], [47.9397600000001, -97.03666], [47.939631, -97.036473], [47.939392000000005, -97.036149], [47.939335000000014, -97.036083], [47.93922199999998, -97.035996], [47.93899100000001, -97.03584500000001], [47.93882000000002, -97.035757], [47.938644000000025, -97.035693], [47.93818000000002, -97.035571], [47.937928000000056, -97.035524], [47.93731299999999, -97.035475], [47.93669700000001, -97.035492], [47.936587000000046, -97.035509], [47.93656499999998, -97.035513], [47.93640900000005, -97.035537], [47.93632399999995, -97.035558], [47.936265999999954, -97.035573], [47.936198, -97.03561], [47.936093, -97.035649], [47.93602400000004, -97.035682], [47.93591900000001, -97.035723], [47.93571300000001, -97.035825], [47.935657000000035, -97.035859], [47.93557999999996, -97.035908], [47.935443, -97.035978], [47.93534299999996, -97.036039], [47.93531099999998, -97.03606400000001], [47.93520799999998, -97.036115], [47.935077000000014, -97.036206], [47.93500900000005, -97.036258], [47.934693999999986, -97.036505], [47.934594999999966, -97.036571], [47.934491, -97.036618], [47.93436200000004, -97.036714], [47.934258999999955, -97.036766], [47.933855999999984, -97.037003], [47.93369899999999, -97.037081], [47.93368400000005, -97.037089], [47.93358599999996, -97.037157], [47.933517999999985, -97.037194], [47.93341899999997, -97.037257], [47.933349999999955, -97.037292], [47.93328000000004, -97.03731900000001], [47.933246000000025, -97.037324], [47.93322251022346, -97.03732791496279], [47.933279000000006, -97.037354], [47.94060876389777, -97.0398444824134], [47.940588999999946, -97.039481]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_55fdc42e1ad64a0a7a3a4dc7d0d876fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_142f3a17e4f08085eb87c22a7c0173ff = $(`<div id="html_142f3a17e4f08085eb87c22a7c0173ff" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_55fdc42e1ad64a0a7a3a4dc7d0d876fc.setContent(html_142f3a17e4f08085eb87c22a7c0173ff);
+            
+        
+
+        polygon_04af4da2f28a00d28d20ca6a56afbfae.bindPopup(popup_55fdc42e1ad64a0a7a3a4dc7d0d876fc)
+        ;
+
+        
+    
+    
+            var circle_marker_851c965ab0f4b1cf2ae9d558b53260f0 = L.circleMarker(
+                [47.93684434362916, -97.0367227863962],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_e52ffe6fe968ce3e37bb4918fc413603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d129aef91738b798d0c7ef5dc010256e = $(`<div id="html_d129aef91738b798d0c7ef5dc010256e" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_e52ffe6fe968ce3e37bb4918fc413603.setContent(html_d129aef91738b798d0c7ef5dc010256e);
+            
+        
+
+        circle_marker_851c965ab0f4b1cf2ae9d558b53260f0.bindPopup(popup_e52ffe6fe968ce3e37bb4918fc413603)
+        ;
+
+        
+    
+    
+            circle_marker_851c965ab0f4b1cf2ae9d558b53260f0.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6ad53f1b529bd949b9aeab6f8a9d41e7 = L.polygon(
+                [[47.93038699999998, -97.035961], [47.92993900000001, -97.035343], [47.929760999999935, -97.035078], [47.92933699999997, -97.034353], [47.92916600000005, -97.03401], [47.929128, -97.03392], [47.92902600000001, -97.033709], [47.92887100000003, -97.033351], [47.928801000000036, -97.033165], [47.92876200000001, -97.033075], [47.928694000000036, -97.03283], [47.92858799999998, -97.032552], [47.92855600000003, -97.032457], [47.92848900000004, -97.032284], [47.92839499999999, -97.032042], [47.92832899999998, -97.031852], [47.928284000000055, -97.031707], [47.92820200000003, -97.031412], [47.928171000000056, -97.031317], [47.928145999999984, -97.031217], [47.92802399999999, -97.030832], [47.927988999999975, -97.030739], [47.927913, -97.030558], [47.92779299999999, -97.030292], [47.927621999999936, -97.02995100000001], [47.92756699999998, -97.029814], [47.927542000000024, -97.02973600000001], [47.92752099999996, -97.029669], [47.927484999999976, -97.029578], [47.92743999999999, -97.029495], [47.927288000000026, -97.029265], [47.927102999999924, -97.028938], [47.927062999999976, -97.02885], [47.926978999999996, -97.028616], [47.92691999999999, -97.028467], [47.92687799999999, -97.028454], [47.92669900000005, -97.028684], [47.92615400000005, -97.029384], [47.92525200000003, -97.030515], [47.92444999999996, -97.031528], [47.92513599999998, -97.032699], [47.92461990902782, -97.03335602219839], [47.93045455248643, -97.0360498189389], [47.93038699999998, -97.035961]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_0e8f6155ca22fd5a79f6df0ef70299e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e484026f790e3003b7b445664ddb1736 = $(`<div id="html_e484026f790e3003b7b445664ddb1736" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_0e8f6155ca22fd5a79f6df0ef70299e4.setContent(html_e484026f790e3003b7b445664ddb1736);
+            
+        
+
+        polygon_6ad53f1b529bd949b9aeab6f8a9d41e7.bindPopup(popup_0e8f6155ca22fd5a79f6df0ef70299e4)
+        ;
+
+        
+    
+    
+            var circle_marker_a2319053e520a6a4470024f2c35cde48 = L.circleMarker(
+                [47.92793889685259, -97.03166058729857],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_bf5183ee5437c57a9fce4abf1a08531a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7059989df98ecc2d8e458d0801e27bb1 = $(`<div id="html_7059989df98ecc2d8e458d0801e27bb1" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_bf5183ee5437c57a9fce4abf1a08531a.setContent(html_7059989df98ecc2d8e458d0801e27bb1);
+            
+        
+
+        circle_marker_a2319053e520a6a4470024f2c35cde48.bindPopup(popup_bf5183ee5437c57a9fce4abf1a08531a)
+        ;
+
+        
+    
+    
+            circle_marker_a2319053e520a6a4470024f2c35cde48.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_72bddf22c4c00d06b77b691d2a859bc0 = L.polygon(
+                [[48.03297600000001, -97.072716], [48.032950000000035, -97.07239], [48.032950000000035, -97.072298], [48.032981999999954, -97.07201800000001], [48.033010000000026, -97.071824], [48.03304799999999, -97.071646], [48.033069000000005, -97.071564], [48.03309699999999, -97.071503], [48.03311100000001, -97.071431], [48.03314499999995, -97.07136], [48.03315200000003, -97.07132], [48.03319300000006, -97.071238], [48.033200999999956, -97.071186], [48.03321500000004, -97.071162], [48.033339, -97.070841], [48.03336000000005, -97.07080000000002], [48.03340799999998, -97.070596], [48.03342299999995, -97.07025], [48.033389, -97.070197], [48.03327800000001, -97.070164], [48.03286400000001, -97.070087], [48.03250799999995, -97.069973], [48.032152000000046, -97.069879], [48.03184999999998, -97.069815], [48.03149800000001, -97.06976600000002], [48.03086399999996, -97.069605], [48.030412, -97.069498], [48.029891, -97.069353], [48.02970599999999, -97.06931], [48.02956900000002, -97.06928900000001], [48.029088999999985, -97.069235], [48.027735, -97.06916000000001], [48.02726199999999, -97.069218], [48.02692600000001, -97.069267], [48.02680293974237, -97.06928828776185], [48.03298819008664, -97.07276577614405], [48.03297600000001, -97.072716]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_3d0ec00228d25c5577c7278618b3cd5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45cff0b88e95593aec4b452ed242ffb8 = $(`<div id="html_45cff0b88e95593aec4b452ed242ffb8" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_3d0ec00228d25c5577c7278618b3cd5b.setContent(html_45cff0b88e95593aec4b452ed242ffb8);
+            
+        
+
+        polygon_72bddf22c4c00d06b77b691d2a859bc0.bindPopup(popup_3d0ec00228d25c5577c7278618b3cd5b)
+        ;
+
+        
+    
+    
+            var circle_marker_ae58de53d7227d10efdc11f4c10c24f4 = L.circleMarker(
+                [48.031848354860244, -97.07066835307855],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_db2e148f4356c182aefd705db049da40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_33b8f6956aacacac45cde3c82b36fbb9 = $(`<div id="html_33b8f6956aacacac45cde3c82b36fbb9" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD07</b></div>`)[0];
+                popup_db2e148f4356c182aefd705db049da40.setContent(html_33b8f6956aacacac45cde3c82b36fbb9);
+            
+        
+
+        circle_marker_ae58de53d7227d10efdc11f4c10c24f4.bindPopup(popup_db2e148f4356c182aefd705db049da40)
+        ;
+
+        
+    
+    
+            circle_marker_ae58de53d7227d10efdc11f4c10c24f4.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9a41897a4ddf5b5eb0f43315532258aa = L.polygon(
+                [[48.01896200000002, -97.072176], [48.01814900000003, -97.071825], [48.01805700000001, -97.071785], [48.018023000000014, -97.071751], [48.01758400000006, -97.071316], [48.017548, -97.07128], [48.01714600000001, -97.07088], [48.01691799999998, -97.070654], [48.01672200000001, -97.070293], [48.016639000000026, -97.070132], [48.01655200000003, -97.06998], [48.01619999999993, -97.069329], [48.01617600000001, -97.069284], [48.01593199999998, -97.068519], [48.01569299929891, -97.06538575380337], [48.01220170299563, -97.0641969372631], [48.011332000000024, -97.06542], [48.01036499999998, -97.066577], [48.009558, -97.066762], [48.008841, -97.066744], [48.00797800000004, -97.066355], [48.00780699999997, -97.066278], [48.007180000000005, -97.066028], [48.007075, -97.065986], [48.00615899999993, -97.065596], [48.00571200000002, -97.065405], [48.00440599999997, -97.064849], [48.00437299999998, -97.064837], [48.003913000000004, -97.064684], [48.00339899999996, -97.064513], [48.002670999999964, -97.064413], [48.001914000000035, -97.064409], [48.00037800000002, -97.0645], [47.999980000000015, -97.064533], [47.99930800000002, -97.064465], [47.99889199999999, -97.064416], [47.99850799999992, -97.064289], [47.99812399999992, -97.064129], [47.99795700000005, -97.064059], [47.997927999999995, -97.06404800000001], [47.99765999999991, -97.063937], [47.997387999999994, -97.06374500000001], [47.99711199999995, -97.063462], [47.996886, -97.063258], [47.99680000000004, -97.063183], [47.996604, -97.063025], [47.99641200000003, -97.062881], [47.99615599999999, -97.062561], [47.995948, -97.062257], [47.99580399999995, -97.061937], [47.99569199999997, -97.061761], [47.99551600000002, -97.061409], [47.99522799999998, -97.060897], [47.99503599999999, -97.060481], [47.99489199999994, -97.060129], [47.99473200000004, -97.059745], [47.99449200000001, -97.05915300000001], [47.99428400000006, -97.058465], [47.994161257737105, -97.05805585760923], [47.984917087027064, -97.05491028394492], [47.984843999999974, -97.054945], [47.984155999999984, -97.055201], [47.983707999999964, -97.055345], [47.98331299999999, -97.055468], [47.983243999999985, -97.055489], [47.98322699999994, -97.055495], [47.982732000000006, -97.05568100000002], [47.982075999999935, -97.055905], [47.98165100000001, -97.056085], [47.98140400000002, -97.056193], [47.981126999999965, -97.056287], [47.981067999999965, -97.056305], [47.98055599999999, -97.056481], [47.97999999999998, -97.056709], [47.979807999999984, -97.05680900000002], [47.97923499999998, -97.057108], [47.97911699999997, -97.05717], [47.979049000000046, -97.057216], [47.97875199999999, -97.05741900000001], [47.978652000000025, -97.057489], [47.97818799999996, -97.057713], [47.97780800000005, -97.05793500000001], [47.97772399999999, -97.057985], [47.97750700000001, -97.058131], [47.97738800000003, -97.058209], [47.97726900000003, -97.058279], [47.976956, -97.058465], [47.97655600000001, -97.058721], [47.97629800000006, -97.05883], [47.976139999999994, -97.058897], [47.976101999999926, -97.058914], [47.97593200000002, -97.058993], [47.97551900000002, -97.05917], [47.975323999999986, -97.059255], [47.97482100000002, -97.059341], [47.97456700000001, -97.059355], [47.974276999999994, -97.059362], [47.974132000000026, -97.059357], [47.973915999999996, -97.059326], [47.97366499999995, -97.05927200000002], [47.973417000000026, -97.059195], [47.97327899999998, -97.05913], [47.973177, -97.059075], [47.97294899999997, -97.058913], [47.972355000000036, -97.058519], [47.97221499999997, -97.058402], [47.972034000000065, -97.058227], [47.971999999999966, -97.058207], [47.971817999999985, -97.058034], [47.971719000000014, -97.057967], [47.971688, -97.057939], [47.97129799999994, -97.057658], [47.97120399999999, -97.05758], [47.97103800000004, -97.057473], [47.97093599999994, -97.057418], [47.970769000000004, -97.057314], [47.97066700000001, -97.057261], [47.97059700000004, -97.057234], [47.970525000000016, -97.05722], [47.97030799999997, -97.05721], [47.97027099999998, -97.057213], [47.96998399999998, -97.057267], [47.969663999999945, -97.057358], [47.96942400000005, -97.057478], [47.96929000000006, -97.05756], [47.969225999999985, -97.057609], [47.96912600000001, -97.05767], [47.96899599999999, -97.057765], [47.96874699999999, -97.05798200000001], [47.96863500000006, -97.058115], [47.96780599999996, -97.059226], [47.96761199999994, -97.059465], [47.967300999999956, -97.059911], [47.967216, -97.06001], [47.967157, -97.060089], [47.96665599999996, -97.060763], [47.966538999999976, -97.060888], [47.96644499999997, -97.06096700000002], [47.96635499999997, -97.061057], [47.966164999999954, -97.061211], [47.966098, -97.06125], [47.96599899999998, -97.06131700000002], [47.96574499999999, -97.061519], [47.96554899999996, -97.061656], [47.96544800000002, -97.061716], [47.96537899999997, -97.061747], [47.96516499999996, -97.061803], [47.96473100000001, -97.061831], [47.96451399999997, -97.061812], [47.96433499999998, -97.061767], [47.96412299999995, -97.061699], [47.96394799999998, -97.061629], [47.96374499999999, -97.061518], [47.963650000000015, -97.061449], [47.96359600000001, -97.061411], [47.963516999999996, -97.061354], [47.96345499999998, -97.061301], [47.963305, -97.061151], [47.96320999999999, -97.061044], [47.96304600000001, -97.060861], [47.96293799999998, -97.06072], [47.962728000000006, -97.060427], [47.96241799999998, -97.059908], [47.96231700000001, -97.059723], [47.96225999999996, -97.059617], [47.96224399999995, -97.059572], [47.962263000000036, -97.059354], [47.96224200000001, -97.059328], [47.96213300000002, -97.0593], [47.96206999999998, -97.05928000000002], [47.96202500000002, -97.059266], [47.96199999999994, -97.05924], [47.962007000000035, -97.059126], [47.96201100000001, -97.059081], [47.96201, -97.05906100000001], [47.96200799999999, -97.059028], [47.96196899999999, -97.058908], [47.96194199999995, -97.058821], [47.96192199999994, -97.058777], [47.96190500000001, -97.058718], [47.961867, -97.05862700000002], [47.96173399999997, -97.05825], [47.96170500000004, -97.05815400000002], [47.961655000000015, -97.058013], [47.96162799999998, -97.057915], [47.96159400000004, -97.057821], [47.961506000000014, -97.05753], [47.961345999999956, -97.057054], [47.96123799999998, -97.056778], [47.96108500000002, -97.056416], [47.96090400000001, -97.056019], [47.960769999999975, -97.055768], [47.96053299999999, -97.055367], [47.960380000000015, -97.055141], [47.96019700000001, -97.054883], [47.959689999999966, -97.054126], [47.959451999999985, -97.0538], [47.95936799999999, -97.053699], [47.95925100000001, -97.053575], [47.95915900000003, -97.053489], [47.95909999999995, -97.053427], [47.958746, -97.053159], [47.95848199999997, -97.052985], [47.958386000000004, -97.05290900000001], [47.95825300000004, -97.052826], [47.95808199999996, -97.052736], [47.957665999999996, -97.052548], [47.957422, -97.052451], [47.957032000000005, -97.052328], [47.956816, -97.052289], [47.95659900000003, -97.052267], [47.95587399999999, -97.052253], [47.955766000000004, -97.052261], [47.95547799999994, -97.052314], [47.955372000000025, -97.052345], [47.95530399999995, -97.052382], [47.95519800000001, -97.052418], [47.95498399999995, -97.05247500000002], [47.954878000000036, -97.052511], [47.95473899999999, -97.05257], [47.95442200000002, -97.052681], [47.954017000000015, -97.052912], [47.95388500000004, -97.05299900000001], [47.953783999999935, -97.053056], [47.95358600000003, -97.05319], [47.953318999999986, -97.053352], [47.953256, -97.053405], [47.95322199999996, -97.053422], [47.953056999999966, -97.053531], [47.952768, -97.053752], [47.95258100000003, -97.053915], [47.95242299999999, -97.054044], [47.95235599999996, -97.054085], [47.952292999999976, -97.054136], [47.952174000000035, -97.054221], [47.95204599999997, -97.054321], [47.95194499999999, -97.054379], [47.95185200000005, -97.054462], [47.95172100000003, -97.054554], [47.95163000000007, -97.054639], [47.95146899999996, -97.05476], [47.95140799999999, -97.054818], [47.951221000000025, -97.054923], [47.95103599999996, -97.055027], [47.95090400000002, -97.055115], [47.95087000000001, -97.055133], [47.950779, -97.05517], [47.950694999999975, -97.05520400000002], [47.95052300000001, -97.055288], [47.95048800000004, -97.055302], [47.950384, -97.055345], [47.950277000000014, -97.055373], [47.95017199999997, -97.055414], [47.950073999999965, -97.055434], [47.950017, -97.055445], [47.949597999999995, -97.05553], [47.949382000000014, -97.055565], [47.949129000000006, -97.055597], [47.94908499999996, -97.055598], [47.94865800000001, -97.055603], [47.948610000000016, -97.0556], [47.94851299999998, -97.055595], [47.94825999999996, -97.055562], [47.94783199999999, -97.055451], [47.94762, -97.055383], [47.94751499999999, -97.05534100000001], [47.94741200000002, -97.055289], [47.947249999999976, -97.055215], [47.94709999999999, -97.055147], [47.946828000000025, -97.055001], [47.94662900000003, -97.054874], [47.946473999999945, -97.054737], [47.946378, -97.054662], [47.94631800000001, -97.054603], [47.946163000000006, -97.054466], [47.94604400000002, -97.054345], [47.94585800000005, -97.05418], [47.945506000000044, -97.053907], [47.94532399999995, -97.053732], [47.945259999999976, -97.053683], [47.94511699999998, -97.053521], [47.945043000000005, -97.053452], [47.945024999999944, -97.05343500000001], [47.94494100000007, -97.053335], [47.94488099999998, -97.053274], [47.94461699999998, -97.05291], [47.94453499999997, -97.052806], [47.94412000000002, -97.052212], [47.94372800000006, -97.051587], [47.94357900000003, -97.051287], [47.94335399999997, -97.050871], [47.94307600000005, -97.050381], [47.94283, -97.049921], [47.942744000000026, -97.049751], [47.94266399999997, -97.04957400000002], [47.94244400000006, -97.049152], [47.94238200000001, -97.049022], [47.94233099999998, -97.048881], [47.94223699999999, -97.048664], [47.942114000000004, -97.048401], [47.94203599999999, -97.048222], [47.94202099999998, -97.048174], [47.94196600000004, -97.048037], [47.94188299999999, -97.047801], [47.941843000000006, -97.04771300000002], [47.94181399999997, -97.047616], [47.94170500000002, -97.04734], [47.941668, -97.047239], [47.94165399999998, -97.047199], [47.941504000000016, -97.046717], [47.94136999999996, -97.046225], [47.94133399999999, -97.046074], [47.94130099999998, -97.04598], [47.94126600000002, -97.045829], [47.941241000000026, -97.045566], [47.941212000000014, -97.045413], [47.94115200000004, -97.045163], [47.94110199999995, -97.045022], [47.941085, -97.044949], [47.94106700000002, -97.044871], [47.94103700000001, -97.044774], [47.94101299999999, -97.044619], [47.940956999999976, -97.044312], [47.94089600000001, -97.044062], [47.94087699999997, -97.043959], [47.94082000000003, -97.043708], [47.94076500000004, -97.043237], [47.94070699999999, -97.042606], [47.94068899999999, -97.042342], [47.940677999999984, -97.042237], [47.94065099999995, -97.041814], [47.94064500000001, -97.04164700000001], [47.940634000000024, -97.041338], [47.94061200000004, -97.039904], [47.94060876389777, -97.0398444824134], [47.933279000000006, -97.037354], [47.93322251022346, -97.03732791496279], [47.93322199999997, -97.037328], [47.933165999999986, -97.037336], [47.932991999999956, -97.037362], [47.932558000000014, -97.037393], [47.932485, -97.037388], [47.932341000000015, -97.03736], [47.93209199999997, -97.037291], [47.931915999999966, -97.037232], [47.93160299999996, -97.037094], [47.931569999999994, -97.037075], [47.93150500000002, -97.037026], [47.931371999999975, -97.036943], [47.931208999999974, -97.036826], [47.93102700000001, -97.036652], [47.930995000000024, -97.03662700000001], [47.930781000000046, -97.036428], [47.930494999999965, -97.03610300000001], [47.93045455248643, -97.0360498189389], [47.92461990902782, -97.03335602219839], [47.924334, -97.03372000000002], [47.92395341179703, -97.03304833573043], [47.92343725234303, -97.03281005628841], [47.922875000000026, -97.033531], [47.921969000000004, -97.035146], [47.92160599999998, -97.035755], [47.92045999999998, -97.037703], [47.92027100000001, -97.037953], [47.92005599999996, -97.03824], [47.91971300000003, -97.039035], [47.919247999999996, -97.040167], [47.919128999999984, -97.040527], [47.91895900000003, -97.041097], [47.918873, -97.041442], [47.91877599999997, -97.04186400000002], [47.91869299999997, -97.042305], [47.91862699999999, -97.04273400000001], [47.91856499999998, -97.043212], [47.918494000000045, -97.044239], [47.91848300000003, -97.044484], [47.91848300000003, -97.04489200000002], [47.918487000000006, -97.046455], [47.918494000000045, -97.049395], [47.918497, -97.05086], [47.91850600000005, -97.055267], [47.91850799999999, -97.055976], [47.91851599999999, -97.05966], [47.918681000000014, -97.059662], [47.919109999999954, -97.05967], [47.92015100000001, -97.059664], [47.921192000000005, -97.059668], [47.92119099999998, -97.062581], [47.92120000000002, -97.064467], [47.921200999999996, -97.06469], [47.921209, -97.066285], [47.92227200000002, -97.06639200000001], [47.92226399999999, -97.067809], [47.922267000000005, -97.069221], [47.92226999999999, -97.07063200000002], [47.922268, -97.070923], [47.922268, -97.07214], [47.92429899999997, -97.072155], [47.92429700000002, -97.073872], [47.9243, -97.075417], [47.92379799999997, -97.075417], [47.92227299999998, -97.075417], [47.92227799999999, -97.07644], [47.922329999999995, -97.076424], [47.922403000000045, -97.076388], [47.922427, -97.076384], [47.92246799999998, -97.076364], [47.922487999999944, -97.076343], [47.92255599999998, -97.076335], [47.92265099999994, -97.07626400000001], [47.92268400000003, -97.076247], [47.922719000000015, -97.07624], [47.92278999999998, -97.076243], [47.922824000000006, -97.076259], [47.922859, -97.076255], [47.92289399999999, -97.07626400000001], [47.922928000000006, -97.076281], [47.922957, -97.07630900000001], [47.92308600000005, -97.076405], [47.92312000000001, -97.076441], [47.92317200000004, -97.076498], [47.923265999999956, -97.076575], [47.923367000000006, -97.076628], [47.92347499999997, -97.076647], [47.92354599999999, -97.076637], [47.92361100000002, -97.076594], [47.92379799999997, -97.076448], [47.923826999999925, -97.076417], [47.92396199999999, -97.076356], [47.92399299999995, -97.076331], [47.924094000000004, -97.076281], [47.92416599999999, -97.076268], [47.92420100000004, -97.076278], [47.92427299999997, -97.07628], [47.924307000000006, -97.076299], [47.92435900000002, -97.076371], [47.92445199999994, -97.076532], [47.92452799999999, -97.07671], [47.92464800000002, -97.077028], [47.92473399999998, -97.077197], [47.92487899999999, -97.077432], [47.925008000000005, -97.077614], [47.925126000000034, -97.07773600000002], [47.925157999999975, -97.077759], [47.92522800000001, -97.077788], [47.925262999999994, -97.077797], [47.92537099999996, -97.077788], [47.92547100000001, -97.077731], [47.92549999999992, -97.0777], [47.92559799999999, -97.077641], [47.92563399999996, -97.077638], [47.925744000000044, -97.077602], [47.92574500000003, -97.077632], [47.92576800000003, -97.0789], [47.92577200000004, -97.081071], [47.925769999999964, -97.082298], [47.924812999999965, -97.082304], [47.92388600000005, -97.082299], [47.92281299999998, -97.082295], [47.92227700000001, -97.08228300000002], [47.92227999999998, -97.082887], [47.921051000000006, -97.082868], [47.92103499999996, -97.081608], [47.92103299999999, -97.08149], [47.921300999999985, -97.081049], [47.92154900000006, -97.080642], [47.92154399999998, -97.080458], [47.921258, -97.080452], [47.92096300000002, -97.080446], [47.920043999999976, -97.080427], [47.91955000000003, -97.080417], [47.919412000000015, -97.080435], [47.91929499999999, -97.080494], [47.91912500000002, -97.080673], [47.91917600000006, -97.080777], [47.92032099999998, -97.083101], [47.92040000000002, -97.083276], [47.92046400000006, -97.083464], [47.92050100000003, -97.083699], [47.920509, -97.084316], [47.920507, -97.084895], [47.920532, -97.08505100000002], [47.92057699999998, -97.085187], [47.92065300000003, -97.085325], [47.92067099999997, -97.085428], [47.920679000000014, -97.085811], [47.92070900000001, -97.085915], [47.92076299999993, -97.085959], [47.92182199999999, -97.085958], [47.92186400000005, -97.085963], [47.921902999999986, -97.085987], [47.921928999999984, -97.08608], [47.921932000000005, -97.086176], [47.922282000000024, -97.08618], [47.922276999999994, -97.087789], [47.92227799999999, -97.088121], [47.92227999999998, -97.090503], [47.92189299999995, -97.090508], [47.921671999999965, -97.090563], [47.921168000000044, -97.090773], [47.920930000000006, -97.09073400000001], [47.92070499999995, -97.090526], [47.92051500000003, -97.09026], [47.92035500000003, -97.089919], [47.920305000000006, -97.089766], [47.92023999999998, -97.089418], [47.920238, -97.08813200000002], [47.91954199999999, -97.088157], [47.91898099999997, -97.088255], [47.91857100000001, -97.088277], [47.918579000000015, -97.093363], [47.918580000000006, -97.093556], [47.91858099999997, -97.093691], [47.91867999999996, -97.105156], [47.91828000000001, -97.10685600000001], [47.91819799999999, -97.106974], [47.91822100000001, -97.109764], [47.918254999999995, -97.112735], [47.91826000000003, -97.114632], [47.91826699999997, -97.114671], [47.91826800000002, -97.114889], [47.918269, -97.115128], [47.91827000000003, -97.115208], [47.918270999999976, -97.115408], [47.91834800000004, -97.125356], [47.918317000000016, -97.13155], [47.918295999999955, -97.13167300000002], [47.918313, -97.149531], [47.91833799999993, -97.153305], [47.91834299999999, -97.155557], [47.91833799999993, -97.15870900000002], [47.918336, -97.159653], [47.91834299999998, -97.162952], [47.918346000000035, -97.164988], [47.918347000000004, -97.167254], [47.918349999999954, -97.168568], [47.918353000000025, -97.170349], [47.91835899999997, -97.172522], [47.91836600000003, -97.174829], [47.918361999999966, -97.176375], [47.91835599999997, -97.17833800000001], [47.91836600000003, -97.180269], [47.918377000000035, -97.183124], [47.918382000000015, -97.18511], [47.918376000000016, -97.185482], [47.91834099999997, -97.187485], [47.91836800000003, -97.189641], [47.91839100000002, -97.194078], [47.91838800000003, -97.196236], [47.91839299999995, -97.20553], [47.91842000000007, -97.209033], [47.918423000000004, -97.217798], [47.91689800000003, -97.21780500000001], [47.91515799999997, -97.217783], [47.91111899999995, -97.217774], [47.91118299999994, -97.23881], [47.918487000000034, -97.238844], [47.918836000000006, -97.238845], [47.92670499999999, -97.238783], [47.927942999999985, -97.238851], [47.93044599999996, -97.238854], [47.932823000000006, -97.239117], [47.93307700000001, -97.239145], [47.933531000000045, -97.23915800000002], [47.934136, -97.23915], [47.935248999999956, -97.239135], [47.937503999999976, -97.239127], [47.943582, -97.239089], [47.946024, -97.23907400000002], [47.94686900000003, -97.239061], [47.94752999999996, -97.239062], [47.94755599999999, -97.240087], [47.94753199999999, -97.244728], [47.94754100000001, -97.246365], [47.94751800000003, -97.248382], [47.94752599999998, -97.25], [47.94752599999998, -97.25476200000001], [47.94751599999999, -97.257128], [47.94749200000007, -97.259302], [47.94748800000001, -97.260585], [47.95313899999998, -97.260654], [47.9547, -97.260685], [47.95475099999998, -97.260685], [47.95546699999999, -97.26068], [47.95701700000001, -97.260706], [47.957315, -97.260707], [47.95950299999995, -97.260723], [47.96195100000002, -97.26075], [47.962652, -97.260759], [47.962998000000034, -97.260747], [47.96448800000003, -97.260734], [47.96504399999993, -97.26073800000002], [47.97642900000004, -97.260673], [47.976754999999976, -97.260679], [47.978172, -97.260649], [47.979125000000025, -97.260614], [47.97931299999998, -97.2606], [47.979455999999956, -97.260558], [47.979622999999975, -97.26047400000002], [47.97991500000002, -97.260239], [47.98014400000003, -97.260082], [47.98021399999997, -97.26005], [47.98030399999993, -97.260024], [47.980405999999974, -97.260014], [47.98064299999994, -97.260047], [47.98118700000004, -97.260171], [47.98178500000004, -97.260364], [47.98225400000002, -97.260502], [47.98243300000004, -97.260555], [47.982953, -97.26062], [47.98394499999996, -97.260631], [47.98433899999998, -97.260622], [47.984900999999994, -97.260569], [47.98505700000004, -97.260549], [47.98552899999997, -97.260488], [47.98589300000003, -97.260495], [47.98648100000002, -97.260486], [47.988193000000024, -97.260515], [47.98908200000002, -97.260515], [47.99092300000001, -97.260537], [47.99208199999998, -97.260541], [47.99457999999997, -97.260574], [47.995640999999985, -97.260584], [47.99714600000001, -97.260599], [47.99747499999999, -97.260606], [47.999166999999986, -97.260632], [48.00000099999999, -97.260635], [48.001644000000006, -97.260664], [48.00268899999999, -97.260663], [48.003978, -97.260676], [48.00497699999998, -97.260701], [48.005437000000036, -97.260706], [48.00543000000001, -97.262311], [48.005394000000024, -97.265641], [48.00539500000001, -97.267433], [48.005377999999965, -97.269293], [48.005380999999986, -97.270842], [48.005337999999995, -97.275622], [48.00534199999997, -97.277448], [48.00532600000003, -97.27910400000002], [48.00531899999999, -97.282085], [48.012516000000076, -97.282262], [48.01316099999996, -97.282281], [48.013431000000004, -97.282289], [48.014509000000025, -97.282297], [48.01536399999999, -97.282303], [48.016386999999995, -97.282344], [48.01720900000001, -97.282347], [48.018580000000014, -97.282381], [48.01895599999997, -97.28239], [48.01927600000001, -97.28239800000001], [48.02016999999997, -97.282429], [48.020218999999976, -97.280917], [48.020233000000005, -97.280188], [48.02023600000004, -97.28005], [48.02018899999995, -97.272566], [48.02013399999998, -97.270922], [48.02006299999999, -97.269467], [48.020021000000035, -97.268417], [48.019987999999984, -97.267173], [48.019970000000015, -97.266656], [48.019938000000025, -97.265775], [48.01991999999994, -97.264427], [48.019887000000004, -97.26289800000002], [48.01987900000002, -97.260505], [48.0198, -97.25566900000001], [48.01978800000002, -97.254783], [48.01978900000002, -97.25467000000002], [48.01979700000001, -97.252555], [48.01980100000001, -97.251621], [48.019799000000006, -97.249987], [48.019802000000006, -97.248561], [48.01978900000003, -97.24700700000001], [48.019799000000006, -97.238136], [48.0198, -97.237257], [48.019796000000014, -97.234769], [48.01979200000002, -97.233005], [48.01982199999997, -97.230035], [48.01980100000001, -97.225558], [48.01980700000004, -97.22414], [48.01979100000003, -97.217358], [48.01979399999998, -97.215502], [48.01978199999997, -97.21401], [48.019782999999926, -97.213002], [48.01978399999998, -97.212456], [48.019775, -97.211035], [48.01979000000003, -97.209361], [48.01979000000003, -97.20775300000001], [48.019802000000006, -97.206157], [48.019799999999975, -97.205595], [48.019797000000004, -97.204555], [48.01980500000001, -97.203274], [48.019732, -97.201399], [48.019795000000016, -97.20068600000002], [48.01979000000003, -97.200104], [48.01980399999995, -97.195906], [48.01978199999997, -97.194376], [48.019782999999926, -97.194273], [48.019796, -97.193219], [48.019797999999994, -97.193067], [48.019777999999995, -97.191672], [48.019783999999966, -97.190108], [48.01976899999999, -97.187543], [48.01975500000001, -97.18093600000002], [48.01975500000004, -97.177179], [48.01976099999998, -97.174791], [48.01978900000002, -97.172412], [48.019775, -97.170087], [48.01972900000002, -97.16104500000002], [48.01970500000003, -97.157547], [48.01969000000003, -97.152972], [48.01970899999999, -97.148508], [48.01973999999999, -97.132669], [48.019724000000004, -97.131696], [48.019718, -97.13133], [48.019663000000016, -97.126544], [48.01959699999999, -97.126251], [48.019518999999974, -97.125666], [48.01949700000003, -97.124978], [48.01954000000001, -97.124464], [48.01967700000002, -97.12283100000002], [48.01967499999999, -97.122758], [48.019699999999986, -97.120175], [48.019649999999956, -97.109679], [48.019649999999956, -97.109435], [48.019648000000004, -97.106802], [48.01965799999996, -97.105505], [48.02075099999999, -97.105478], [48.03409400000002, -97.105409], [48.04515299999998, -97.105455], [48.048481, -97.105469], [48.048357999999986, -97.091416], [48.048316000000035, -97.086592], [48.04827700000005, -97.084226], [48.04823399999996, -97.08411], [48.048169999999956, -97.084047], [48.04802799999999, -97.083996], [48.04770799999997, -97.083994], [48.04610300000006, -97.084046], [48.04574800000001, -97.084057], [48.04421799999996, -97.084086], [48.04247000000004, -97.084136], [48.041560999999994, -97.08411], [48.04125099999999, -97.084072], [48.04088399999999, -97.08406200000002], [48.040869999999984, -97.084048], [48.04069600000001, -97.08388600000002], [48.040478000000014, -97.08367500000001], [48.04037499999998, -97.083568], [48.04028000000005, -97.083445], [48.04020400000001, -97.083362], [48.039958999999996, -97.082987], [48.03990999999999, -97.08289100000002], [48.03988300000003, -97.082778], [48.03986300000003, -97.082727], [48.03980900000003, -97.082522], [48.03975499999997, -97.082297], [48.03973500000006, -97.082114], [48.03970099999999, -97.081971], [48.03969800000002, -97.08193500000002], [48.03968, -97.081899], [48.03966700000001, -97.081745], [48.03964, -97.081603], [48.03964099999999, -97.081562], [48.039620000000056, -97.081511], [48.03959300000002, -97.081398], [48.03958300000001, -97.08125100000001], [48.03956599999999, -97.081215], [48.03949999999999, -97.080325], [48.03948699999992, -97.080275], [48.03944900000001, -97.080182], [48.03937100000004, -97.080028], [48.03934699999999, -97.079998], [48.039283, -97.079947], [48.03884399999998, -97.079708], [48.03863199999998, -97.079625], [48.038345000000035, -97.079501], [48.03821399999998, -97.079439], [48.03811199999998, -97.079397], [48.03785800000003, -97.079406], [48.03746800000002, -97.079403], [48.037042, -97.07933900000002], [48.03667299999996, -97.079265], [48.03658299999994, -97.079203], [48.03655599999996, -97.079172], [48.03639799999997, -97.079059], [48.036370999999995, -97.079029], [48.03629600000002, -97.078977], [48.03624799999991, -97.078925], [48.03615899999997, -97.07886400000001], [48.036083999999974, -97.078782], [48.03604299999996, -97.078761], [48.03588600000001, -97.078616], [48.03576200000002, -97.078483], [48.03574199999999, -97.07847300000002], [48.03559200000005, -97.078319], [48.035294999999955, -97.077918], [48.03514399999999, -97.077733], [48.03472399999999, -97.077169], [48.03456700000004, -97.076928], [48.03420699999998, -97.076186], [48.034187, -97.076155], [48.03415200000004, -97.076033], [48.034127, -97.075543], [48.03413200000002, -97.07483300000001], [48.034120000000016, -97.074758], [48.03410099999998, -97.074674], [48.034087999999976, -97.074649], [48.03405700000002, -97.074562], [48.03397899999999, -97.074419], [48.03394900000002, -97.074366], [48.03378699999996, -97.074254], [48.03350700000007, -97.074109], [48.033417999999976, -97.074017], [48.03322000000003, -97.073718], [48.03316499999998, -97.073627], [48.03315899999995, -97.073585], [48.033139, -97.073544], [48.033131000000026, -97.07349400000001], [48.03310400000003, -97.073432], [48.033036999999986, -97.073115], [48.03299999999997, -97.072814], [48.03298819008664, -97.07276577614405], [48.02680293974237, -97.06928828776185], [48.02650400000002, -97.06934], [48.02612299999998, -97.069526], [48.026005999999995, -97.069576], [48.025807, -97.069677], [48.025786, -97.069708], [48.025285, -97.069949], [48.02490000000002, -97.070253], [48.02472800000001, -97.07041500000001], [48.02438400000001, -97.070719], [48.02423899999999, -97.070841], [48.02410900000003, -97.070972], [48.02407400000003, -97.070983], [48.023956999999974, -97.071094], [48.02389599999998, -97.071129], [48.02383400000003, -97.071185], [48.02377899999997, -97.071215], [48.02371799999997, -97.071276], [48.023655000000005, -97.071306], [48.023635000000006, -97.071337], [48.02352499999997, -97.071398], [48.02346300000002, -97.071458], [48.02317499999998, -97.07162900000002], [48.02313299999999, -97.07167000000001], [48.022989000000024, -97.07175], [48.022927000000045, -97.071812], [48.02241199999998, -97.072165], [48.02174600000002, -97.072487], [48.021566999999926, -97.072557], [48.021419000000066, -97.072592], [48.02133399999992, -97.072638], [48.02111000000005, -97.072692], [48.021065999999955, -97.072718], [48.020997999999985, -97.072727], [48.02088699999999, -97.07275700000001], [48.02085300000001, -97.072788], [48.02008499999997, -97.072885], [48.020037, -97.07288400000002], [48.01993500000001, -97.072863], [48.01956100000006, -97.072769], [48.01949100000007, -97.072483], [48.01950100000001, -97.072395], [48.01951099999998, -97.072307], [48.019107, -97.07223900000001], [48.01896200000002, -97.072176]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_b45da4e7db7aead41f01747d3e42d3ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e26883424bc606cba9c9aa1fa3f1af51 = $(`<div id="html_e26883424bc606cba9c9aa1fa3f1af51" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD00</b></div>`)[0];
+                popup_b45da4e7db7aead41f01747d3e42d3ec.setContent(html_e26883424bc606cba9c9aa1fa3f1af51);
+            
+        
+
+        polygon_9a41897a4ddf5b5eb0f43315532258aa.bindPopup(popup_b45da4e7db7aead41f01747d3e42d3ec)
+        ;
+
+        
+    
+    
+            var circle_marker_6d25aebbbf27d61fe50877db32eeaf6a = L.circleMarker(
+                [47.97192346840629, -97.10281122180535],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_01321a1c44808cc29276b4682a11c9ab);
+        
+    
+        var popup_14b50bd5f9efc8a86acdde40e02e882e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aed876fc6b6d184bcedaf0f4c7646160 = $(`<div id="html_aed876fc6b6d184bcedaf0f4c7646160" style="width: 100.0%; height: 100.0%;"><b>Grand Forks - North Dakota-CD00</b></div>`)[0];
+                popup_14b50bd5f9efc8a86acdde40e02e882e.setContent(html_aed876fc6b6d184bcedaf0f4c7646160);
+            
+        
+
+        circle_marker_6d25aebbbf27d61fe50877db32eeaf6a.bindPopup(popup_14b50bd5f9efc8a86acdde40e02e882e)
+        ;
+
+        
+    
+    
+            circle_marker_6d25aebbbf27d61fe50877db32eeaf6a.bindTooltip(
+                `<div>
+                     Grand Forks - North Dakota-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5abc52f4d68229ec2643c5e8e0ba1895 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Onondaga - New York-CD22</p>
+            </div>
+    
+            <div class="folium-map" id="map_5abc52f4d68229ec2643c5e8e0ba1895" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_5abc52f4d68229ec2643c5e8e0ba1895 = L.map(
+                "map_5abc52f4d68229ec2643c5e8e0ba1895",
+                {
+                    center: [43.0289748015873, -76.12725467460317],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a9dee507a463855fdcd663ad49c6d289 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_a9dee507a463855fdcd663ad49c6d289.addTo(map_5abc52f4d68229ec2643c5e8e0ba1895);
+        
+    
+            var polygon_6214bd8ac509afcc80e30a15d240427c = L.polygon(
+                [[43.02721200000002, -76.127602], [43.025348999999984, -76.125908], [43.025640000000024, -76.121892], [43.02478100000002, -76.121819], [43.024642999999976, -76.121807], [43.02296800000001, -76.121661], [43.021896000000005, -76.121578], [43.021967000000004, -76.120305], [43.02201400000005, -76.119381], [43.021487999999984, -76.119322], [43.02151200000003, -76.118873], [43.02158, -76.11752700000001], [43.02164299999997, -76.115801], [43.021740999999935, -76.114381], [43.021789000000034, -76.113675], [43.01943600000003, -76.113571], [43.01444599999999, -76.112961], [43.01401500000001, -76.112908], [43.01063599999997, -76.112495], [43.01067699999999, -76.11425300000002], [43.010507, -76.114103], [43.009933999999994, -76.113705], [43.009612, -76.11344], [43.009378000000034, -76.113222], [43.00905599999997, -76.112858], [43.008912999999986, -76.112689], [43.008582999999994, -76.112236], [43.00845799999999, -76.112035], [43.00818800000005, -76.111541], [43.00811300000004, -76.111468], [43.00803699999997, -76.11144], [43.007923000000005, -76.111439], [43.007861, -76.111463], [43.00775300000003, -76.111526], [43.007471999999964, -76.111739], [43.007233, -76.111979], [43.00712000000001, -76.112129], [43.011586, -76.121674], [43.01350199999995, -76.122629], [43.01351399999999, -76.12263500000002], [43.01432699999999, -76.12304], [43.01603600000001, -76.123436], [43.016724999999994, -76.123596], [43.022125, -76.124559], [43.02273299999995, -76.126102], [43.02286000000002, -76.126397], [43.023488999999955, -76.12786], [43.023863, -76.128663], [43.024892, -76.128756], [43.027688999999995, -76.12901000000001], [43.027798999999995, -76.129021], [43.027720000000045, -76.128449], [43.02721200000002, -76.127602]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5abc52f4d68229ec2643c5e8e0ba1895);
+        
+    
+        var popup_f1593abffa0a80790b9992a8b4afbbd1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f553539e71db4706c3ce6369c008b22 = $(`<div id="html_6f553539e71db4706c3ce6369c008b22" style="width: 100.0%; height: 100.0%;"><b>Onondaga - New York-CD22</b></div>`)[0];
+                popup_f1593abffa0a80790b9992a8b4afbbd1.setContent(html_6f553539e71db4706c3ce6369c008b22);
+            
+        
+
+        polygon_6214bd8ac509afcc80e30a15d240427c.bindPopup(popup_f1593abffa0a80790b9992a8b4afbbd1)
+        ;
+
+        
+    
+    
+            var circle_marker_fc4528a6cc28d68bb67c8fb040cff01e = L.circleMarker(
+                [43.01689898113207, -76.11868228301887],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5abc52f4d68229ec2643c5e8e0ba1895);
+        
+    
+        var popup_56a4d25647933364b71324f982f02ddb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3739f1514fb2ac92f4cfe8e7c70f7f3c = $(`<div id="html_3739f1514fb2ac92f4cfe8e7c70f7f3c" style="width: 100.0%; height: 100.0%;"><b>Onondaga - New York-CD22</b></div>`)[0];
+                popup_56a4d25647933364b71324f982f02ddb.setContent(html_3739f1514fb2ac92f4cfe8e7c70f7f3c);
+            
+        
+
+        circle_marker_fc4528a6cc28d68bb67c8fb040cff01e.bindPopup(popup_56a4d25647933364b71324f982f02ddb)
+        ;
+
+        
+    
+    
+            circle_marker_fc4528a6cc28d68bb67c8fb040cff01e.bindTooltip(
+                `<div>
+                     Onondaga - New York-CD22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_75865380329441323acba4098f3a7c68 = L.polygon(
+                [[43.037387000000024, -76.128988], [43.03740999999998, -76.128276], [43.03635000000002, -76.128174], [43.03632100000004, -76.128929], [43.03627800000001, -76.129797], [43.037036999999955, -76.12987600000001], [43.03704299999995, -76.12896], [43.037387000000024, -76.128988]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5abc52f4d68229ec2643c5e8e0ba1895);
+        
+    
+        var popup_1f71c6e35dc96f4439aa12c32de9d94a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e36474f763f4d41b6e704c3759d0bc11 = $(`<div id="html_e36474f763f4d41b6e704c3759d0bc11" style="width: 100.0%; height: 100.0%;"><b>Onondaga - New York-CD22</b></div>`)[0];
+                popup_1f71c6e35dc96f4439aa12c32de9d94a.setContent(html_e36474f763f4d41b6e704c3759d0bc11);
+            
+        
+
+        polygon_75865380329441323acba4098f3a7c68.bindPopup(popup_1f71c6e35dc96f4439aa12c32de9d94a)
+        ;
+
+        
+    
+    
+            var circle_marker_edeaf10b290b35f574261cf9ccd8f47a = L.circleMarker(
+                [43.036901625, -76.1289985],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5abc52f4d68229ec2643c5e8e0ba1895);
+        
+    
+        var popup_1f2c5cb368d643ae022aceefc6ac6116 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10e53003386c026598e965d60d6ce341 = $(`<div id="html_10e53003386c026598e965d60d6ce341" style="width: 100.0%; height: 100.0%;"><b>Onondaga - New York-CD22</b></div>`)[0];
+                popup_1f2c5cb368d643ae022aceefc6ac6116.setContent(html_10e53003386c026598e965d60d6ce341);
+            
+        
+
+        circle_marker_edeaf10b290b35f574261cf9ccd8f47a.bindPopup(popup_1f2c5cb368d643ae022aceefc6ac6116)
+        ;
+
+        
+    
+    
+            circle_marker_edeaf10b290b35f574261cf9ccd8f47a.bindTooltip(
+                `<div>
+                     Onondaga - New York-CD22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7ae5ca4457229ce7b1ab397011da8f13 = L.polygon(
+                [[43.037953999999985, -76.138269], [43.03822300000002, -76.138257], [43.03862399999996, -76.138169], [43.03942799999997, -76.138018], [43.039414000000036, -76.136594], [43.039552000000036, -76.136636], [43.03975599999999, -76.136646], [43.04012299999999, -76.136576], [43.04021800000001, -76.13658100000002], [43.040454000000054, -76.136695], [43.040524000000026, -76.136699], [43.041074000000016, -76.136666], [43.041592999999985, -76.136649], [43.04159600000001, -76.134441], [43.04050799999999, -76.134473], [43.04050200000001, -76.132873], [43.04050200000001, -76.132253], [43.04097200000002, -76.132239], [43.04098500000001, -76.131384], [43.041568, -76.13137500000002], [43.04157699999999, -76.132223], [43.04197000000001, -76.132215], [43.04197199999997, -76.131444], [43.04261700000001, -76.131444], [43.042615, -76.130377], [43.041557000000026, -76.130284], [43.04154800000003, -76.128655], [43.040464, -76.128557], [43.03934699999997, -76.128455], [43.039351999999994, -76.130082], [43.03936700000002, -76.131134], [43.03936400000001, -76.131603], [43.037624, -76.131492], [43.03675199999999, -76.131414], [43.03631600000005, -76.13134400000001], [43.03625800000001, -76.131291], [43.03621499999999, -76.131216], [43.03620399999999, -76.131066], [43.036241000000004, -76.130522], [43.03627800000001, -76.129797], [43.033963, -76.129586], [43.03252999999999, -76.129458], [43.03238900000001, -76.129443], [43.032567, -76.129975], [43.032897999999975, -76.130964], [43.03370800000004, -76.132486], [43.033684000000044, -76.133415], [43.035491, -76.133482], [43.03544799999999, -76.134446], [43.03542200000001, -76.13450700000001], [43.03541600000004, -76.134642], [43.03542700000001, -76.13567], [43.035416000000026, -76.13668900000002], [43.035419999999995, -76.137096], [43.03542800000002, -76.137165], [43.03503399999996, -76.13717400000002], [43.03442200000002, -76.13718900000002], [43.034430999999955, -76.139258], [43.03450700000002, -76.139265], [43.034906999999976, -76.139279], [43.03523100000002, -76.139289], [43.03582700000003, -76.13934], [43.03759099999996, -76.139495], [43.037646999999986, -76.13825], [43.037953999999985, -76.138269]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_5abc52f4d68229ec2643c5e8e0ba1895);
+        
+    
+        var popup_7777b380f6b4909020053fc35b154193 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_77ea1c612b42047d4436563f93a7feef = $(`<div id="html_77ea1c612b42047d4436563f93a7feef" style="width: 100.0%; height: 100.0%;"><b>Onondaga - New York-CD22</b></div>`)[0];
+                popup_7777b380f6b4909020053fc35b154193.setContent(html_77ea1c612b42047d4436563f93a7feef);
+            
+        
+
+        polygon_7ae5ca4457229ce7b1ab397011da8f13.bindPopup(popup_7777b380f6b4909020053fc35b154193)
+        ;
+
+        
+    
+    
+            var circle_marker_44cc875c1eabf9a976e69d487a8050e4 = L.circleMarker(
+                [43.037845630769226, -76.13402984615385],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_5abc52f4d68229ec2643c5e8e0ba1895);
+        
+    
+        var popup_758e67812c5de292148ebd8c7c76ac50 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3bf8946f3648cfc5d6af94c1253fe00 = $(`<div id="html_b3bf8946f3648cfc5d6af94c1253fe00" style="width: 100.0%; height: 100.0%;"><b>Onondaga - New York-CD22</b></div>`)[0];
+                popup_758e67812c5de292148ebd8c7c76ac50.setContent(html_b3bf8946f3648cfc5d6af94c1253fe00);
+            
+        
+
+        circle_marker_44cc875c1eabf9a976e69d487a8050e4.bindPopup(popup_758e67812c5de292148ebd8c7c76ac50)
+        ;
+
+        
+    
+    
+            circle_marker_44cc875c1eabf9a976e69d487a8050e4.bindTooltip(
+                `<div>
+                     Onondaga - New York-CD22
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

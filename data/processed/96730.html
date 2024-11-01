@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_39a3a842587648afa387817faa51d9c5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Honolulu - Hawaii-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Honolulu - Hawaii-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Honolulu - Hawaii-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Honolulu - Hawaii-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_39a3a842587648afa387817faa51d9c5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_39a3a842587648afa387817faa51d9c5 = L.map(
+                "map_39a3a842587648afa387817faa51d9c5",
+                {
+                    center: [21.538639362619836, -157.85049948703838],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_73e6b286f61be24ff437d8915954ae14 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_73e6b286f61be24ff437d8915954ae14.addTo(map_39a3a842587648afa387817faa51d9c5);
+        
+    
+            var polygon_48a0ed2c61503de40abed70863ff4627 = L.polygon(
+                [[21.56051643730751, -157.8641869568076], [21.551778574846427, -157.85639786157697], [21.551679000000007, -157.856455], [21.551475999999983, -157.856531], [21.551420999999998, -157.856578], [21.55128800000001, -157.85682], [21.551206000000004, -157.85690799999998], [21.55111200000002, -157.856967], [21.550913999999988, -157.856967], [21.55081999999998, -157.856925], [21.550688000000036, -157.856796], [21.553324000000007, -157.86298], [21.557127000000012, -157.86351], [21.55801200000003, -157.863708], [21.560212, -157.864199], [21.560270999999982, -157.864217], [21.560451000000004, -157.864272], [21.560511000000016, -157.864291], [21.560513999999998, -157.864229], [21.56051643730751, -157.8641869568076]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_39a3a842587648afa387817faa51d9c5);
+        
+    
+        var popup_44b97386cbd027c391f4cee0eb19fce2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27af5c5a7316c8aef8d724d6a51229ce = $(`<div id="html_27af5c5a7316c8aef8d724d6a51229ce" style="width: 100.0%; height: 100.0%;"><b>Honolulu - Hawaii-CD02</b></div>`)[0];
+                popup_44b97386cbd027c391f4cee0eb19fce2.setContent(html_27af5c5a7316c8aef8d724d6a51229ce);
+            
+        
+
+        polygon_48a0ed2c61503de40abed70863ff4627.bindPopup(popup_44b97386cbd027c391f4cee0eb19fce2)
+        ;
+
+        
+    
+    
+            var circle_marker_42a650f438cb7fbcea57298e6eedc1f4 = L.circleMarker(
+                [21.555191872473078, -157.8603562387596],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_39a3a842587648afa387817faa51d9c5);
+        
+    
+        var popup_333af2ab0341b23501c94247a4fed1a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad0d4a2f74e0bcad681145c82aed165e = $(`<div id="html_ad0d4a2f74e0bcad681145c82aed165e" style="width: 100.0%; height: 100.0%;"><b>Honolulu - Hawaii-CD02</b></div>`)[0];
+                popup_333af2ab0341b23501c94247a4fed1a5.setContent(html_ad0d4a2f74e0bcad681145c82aed165e);
+            
+        
+
+        circle_marker_42a650f438cb7fbcea57298e6eedc1f4.bindPopup(popup_333af2ab0341b23501c94247a4fed1a5)
+        ;
+
+        
+    
+    
+            circle_marker_42a650f438cb7fbcea57298e6eedc1f4.bindTooltip(
+                `<div>
+                     Honolulu - Hawaii-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b0b98514b23dcc89471d879540187045 = L.polygon(
+                [[21.535570000000014, -157.842092], [21.535532, -157.842153], [21.535450000000008, -157.842251], [21.535373999999965, -157.842301], [21.535441000000027, -157.842682], [21.535476000000028, -157.842927], [21.535473999999965, -157.843027], [21.535454000000023, -157.843141], [21.53543599999998, -157.843203], [21.535387000000004, -157.843326], [21.535310999999986, -157.843433], [21.535148000000007, -157.843595], [21.53496599999999, -157.843807], [21.534832999999978, -157.844], [21.534768000000017, -157.844104], [21.534686000000015, -157.84427799999997], [21.534552000000005, -157.844632], [21.53441200000002, -157.84496999999996], [21.534362999999946, -157.845116], [21.534358999999988, -157.845146], [21.534364999999998, -157.845244], [21.534385000000018, -157.84534300000004], [21.534405999999997, -157.845521], [21.53440800000003, -157.845695], [21.534418999999993, -157.845855], [21.534414999999992, -157.846099], [21.534401999999996, -157.846138], [21.534361999999994, -157.846219], [21.534230000000022, -157.84639000000004], [21.53400800000001, -157.846657], [21.53388799999999, -157.846819], [21.533693999999997, -157.847083], [21.533525999999977, -157.84733899999998], [21.53339400000001, -157.847589], [21.53334199999999, -157.847705], [21.53329799999998, -157.847826], [21.533259000000026, -157.847969], [21.533252999999974, -157.848058], [21.533257000000056, -157.84823299999996], [21.533250999999993, -157.84831499999999], [21.533239000000002, -157.84836700000002], [21.53320500000003, -157.848435], [21.533143000000024, -157.84851699999996], [21.533238000000022, -157.84851900000004], [21.533265000000014, -157.848536], [21.533413999999972, -157.848542], [21.53343599999998, -157.848525], [21.53357400000002, -157.848483], [21.53364599999997, -157.848432], [21.533743999999995, -157.848366], [21.533853999999984, -157.848319], [21.53388699999998, -157.848283], [21.53404700000003, -157.848165], [21.534086000000016, -157.848124], [21.534262000000012, -157.847995], [21.534360999999983, -157.84793599999998], [21.534488000000017, -157.84781800000002], [21.534740999999986, -157.84763], [21.534927999999994, -157.847524], [21.53494999999994, -157.847503], [21.53531899999997, -157.84717699999996], [21.535362999999972, -157.84717099999997], [21.535373999999987, -157.847206], [21.535347000000005, -157.847612], [21.535402000000033, -157.84794199999996], [21.535439999999976, -157.848077], [21.535505999999977, -157.848189], [21.535583999999993, -157.848278], [21.535593999999964, -157.848289], [21.535682999999995, -157.848448], [21.535742999999997, -157.848631], [21.535753999999994, -157.848784], [21.535732000000017, -157.848984], [21.535694000000042, -157.849519], [21.535615999999973, -157.849825], [21.535660999999962, -157.85031999999998], [21.535644, -157.85047299999997], [21.535429000000015, -157.850885], [21.535347000000005, -157.851014], [21.535307999999993, -157.851108], [21.53531899999999, -157.851509], [21.535343999999963, -157.851641], [21.535357999999974, -157.85170899999997], [21.53541299999997, -157.851921], [21.535682000000012, -157.852521], [21.53574800000001, -157.85255600000002], [21.535891999999997, -157.852588], [21.53590799999998, -157.852592], [21.536046000000013, -157.85266799999997], [21.536090000000033, -157.852709], [21.536111999999978, -157.852709], [21.53616099999998, -157.852745], [21.536414999999987, -157.85288], [21.53650299999999, -157.85297399999996], [21.536584999999974, -157.85300999999998], [21.53661300000001, -157.853039], [21.53675300000001, -157.853119], [21.536828, -157.853163], [21.537014999999997, -157.853363], [21.537141999999978, -157.853457], [21.53726799999996, -157.85360400000002], [21.53754900000002, -157.853975], [21.537978, -157.854729], [21.538082999999993, -157.854982], [21.538159999999973, -157.85537599999998], [21.538193000000007, -157.85571700000003], [21.538197999999994, -157.855728], [21.538232, -157.855794], [21.53829200000001, -157.856188], [21.538501999999994, -157.8567], [21.541096000000028, -157.853081], [21.542619999999946, -157.850957], [21.54299100000001, -157.85166], [21.543806999999962, -157.852662], [21.544829999999983, -157.853505], [21.54553, -157.85439599999998], [21.546329999999976, -157.853792], [21.547441000000017, -157.852681], [21.54750909866371, -157.85259280217582], [21.53560458127226, -157.84198609504435], [21.535570000000014, -157.842092]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_39a3a842587648afa387817faa51d9c5);
+        
+    
+        var popup_eff8a61eb487d5d3e25e0c5664b7ebd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d952a06341376df1bd6665749bde8a1e = $(`<div id="html_d952a06341376df1bd6665749bde8a1e" style="width: 100.0%; height: 100.0%;"><b>Honolulu - Hawaii-CD02</b></div>`)[0];
+                popup_eff8a61eb487d5d3e25e0c5664b7ebd8.setContent(html_d952a06341376df1bd6665749bde8a1e);
+            
+        
+
+        polygon_b0b98514b23dcc89471d879540187045.bindPopup(popup_eff8a61eb487d5d3e25e0c5664b7ebd8)
+        ;
+
+        
+    
+    
+            var circle_marker_aa5d94015f562edf495d28de8bacf598 = L.circleMarker(
+                [21.53590341057798, -157.84887027187784],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_39a3a842587648afa387817faa51d9c5);
+        
+    
+        var popup_b8ffc1d61346c1f6c7609435289bdb58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3c3f7e763b886a8c05f6c677b3fecf55 = $(`<div id="html_3c3f7e763b886a8c05f6c677b3fecf55" style="width: 100.0%; height: 100.0%;"><b>Honolulu - Hawaii-CD02</b></div>`)[0];
+                popup_b8ffc1d61346c1f6c7609435289bdb58.setContent(html_3c3f7e763b886a8c05f6c677b3fecf55);
+            
+        
+
+        circle_marker_aa5d94015f562edf495d28de8bacf598.bindPopup(popup_b8ffc1d61346c1f6c7609435289bdb58)
+        ;
+
+        
+    
+    
+            circle_marker_aa5d94015f562edf495d28de8bacf598.bindTooltip(
+                `<div>
+                     Honolulu - Hawaii-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

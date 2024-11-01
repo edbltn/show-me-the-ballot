@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f1fe835da06617d2ac1ccad574888ac1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harper - Kansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harper - Kansas-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harper - Kansas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harper - Kansas-CD03</p>
+            </div>
+    
+            <div class="folium-map" id="map_f1fe835da06617d2ac1ccad574888ac1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f1fe835da06617d2ac1ccad574888ac1 = L.map(
+                "map_f1fe835da06617d2ac1ccad574888ac1",
+                {
+                    center: [37.01778690531744, -98.19850856263945],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6a569111ae62e4010a4bb8aaf243db6f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6a569111ae62e4010a4bb8aaf243db6f.addTo(map_f1fe835da06617d2ac1ccad574888ac1);
+        
+    
+            var polygon_64e68503f70a1954044330400a67064d = L.polygon(
+                [[36.99836200000001, -98.23739700000002], [37.000889, -98.237377], [37.00414300000002, -98.237386], [37.00685199999999, -98.237383], [37.013290999999995, -98.237389], [37.01570699999998, -98.237347], [37.02134899999994, -98.237331], [37.03212800000001, -98.237273], [37.033804, -98.237252], [37.03588999999996, -98.23726000000002], [37.05162399999998, -98.23748100000002], [37.05321999999995, -98.23748300000001], [37.06510900000001, -98.237666], [37.06510900000001, -98.220553], [37.06510900000001, -98.21758], [37.06510900000001, -98.20189], [37.06510900000001, -98.20003], [37.065110999999995, -98.198252], [37.06512900000003, -98.195089], [37.065131, -98.191877], [37.06513300000002, -98.188704], [37.065139999999964, -98.18748300000001], [37.065135, -98.18449400000002], [37.06513300000002, -98.18323900000001], [37.06513000000001, -98.181251], [37.06512499999999, -98.177809], [37.06512800000001, -98.171892], [37.065154, -98.166588], [37.06515199999999, -98.165435], [37.050742, -98.165275], [37.04457900000001, -98.16497], [37.04371500000004, -98.164907], [37.042755000000035, -98.164849], [37.04233800000002, -98.164835], [37.04174099999998, -98.164816], [37.03624200000001, -98.164513], [37.019374000000006, -98.164507], [37.016952000000025, -98.164485], [37.01544899999996, -98.164494], [37.01446999999998, -98.164464], [37.01244099999999, -98.16445], [37.00868299999996, -98.164479], [37.00755599999996, -98.164468], [37.00705599999997, -98.164435], [37.005659, -98.164436], [37.00557199999999, -98.164469], [37.00542500000001, -98.16462], [37.005401, -98.164901], [37.00540799999997, -98.16546], [37.005423999999934, -98.166703], [37.00537299999998, -98.177333], [37.00002400000001, -98.177451], [36.99821619119312, -98.1776946432614], [36.998156216703045, -98.23746314475197], [36.99836200000001, -98.23739700000002]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f1fe835da06617d2ac1ccad574888ac1);
+        
+    
+        var popup_694b36161b79e9b82f6a6b5a08acdb8a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b770746c3fb4ad016868c1cf8abacc06 = $(`<div id="html_b770746c3fb4ad016868c1cf8abacc06" style="width: 100.0%; height: 100.0%;"><b>Harper - Kansas-CD04</b></div>`)[0];
+                popup_694b36161b79e9b82f6a6b5a08acdb8a.setContent(html_b770746c3fb4ad016868c1cf8abacc06);
+            
+        
+
+        polygon_64e68503f70a1954044330400a67064d.bindPopup(popup_694b36161b79e9b82f6a6b5a08acdb8a)
+        ;
+
+        
+    
+    
+            var circle_marker_c4d9ecad8475545c6228dad9d61ba1e7 = L.circleMarker(
+                [37.03293669832538, -98.1924739234184],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f1fe835da06617d2ac1ccad574888ac1);
+        
+    
+        var popup_6ac8bc1fcad5cf2339e0d4887db630e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45ead1ac3b4abac66a4bd5a7dcb9093c = $(`<div id="html_45ead1ac3b4abac66a4bd5a7dcb9093c" style="width: 100.0%; height: 100.0%;"><b>Harper - Kansas-CD04</b></div>`)[0];
+                popup_6ac8bc1fcad5cf2339e0d4887db630e0.setContent(html_45ead1ac3b4abac66a4bd5a7dcb9093c);
+            
+        
+
+        circle_marker_c4d9ecad8475545c6228dad9d61ba1e7.bindPopup(popup_6ac8bc1fcad5cf2339e0d4887db630e0)
+        ;
+
+        
+    
+    
+            circle_marker_c4d9ecad8475545c6228dad9d61ba1e7.bindTooltip(
+                `<div>
+                     Harper - Kansas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_d4d3f9a39140337116d0a6a31940593a = L.polygon(
+                [[36.99791400000006, -98.180666], [36.99789400000002, -98.181394], [36.99789699999999, -98.182586], [36.99791699999998, -98.183173], [36.997932000000006, -98.183632], [36.99792699999998, -98.18413], [36.99792000000001, -98.184755], [36.99792799999997, -98.186207], [36.99792199999999, -98.187145], [36.99789899999999, -98.190399], [36.99789899999999, -98.190442], [36.99789900000001, -98.19047000000002], [36.997915000000035, -98.191838], [36.99788999999998, -98.195062], [36.997895, -98.196715], [36.99787799999999, -98.200888], [36.99788899999998, -98.201181], [36.997997, -98.208218], [36.997973000000016, -98.209735], [36.997971999999976, -98.209989], [36.99795899999996, -98.212301], [36.99792199999999, -98.218868], [36.99792199999999, -98.21899], [36.99792000000001, -98.219266], [36.99791899999998, -98.219484], [36.99795099999997, -98.221691], [36.99796399999999, -98.224953], [36.99799599999999, -98.227923], [36.997951, -98.229587], [36.99795799999999, -98.230459], [36.99798099999999, -98.23341500000001], [36.99797099999998, -98.236188], [36.99796300000001, -98.23667], [36.99796000000001, -98.236893], [36.99796499999998, -98.237211], [36.99796099999997, -98.237538], [36.99802600000002, -98.237505], [36.998156216703045, -98.23746314475197], [36.99821619119312, -98.1776946432614], [36.99793899999998, -98.17773200000002], [36.997939999999964, -98.178142], [36.99791400000006, -98.180666]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f1fe835da06617d2ac1ccad574888ac1);
+        
+    
+        var popup_72eedfa0822864220b58b918ff2a33c4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74099d707e0cf96a54450a9efe597f51 = $(`<div id="html_74099d707e0cf96a54450a9efe597f51" style="width: 100.0%; height: 100.0%;"><b>Harper - Kansas-CD03</b></div>`)[0];
+                popup_72eedfa0822864220b58b918ff2a33c4.setContent(html_74099d707e0cf96a54450a9efe597f51);
+            
+        
+
+        polygon_d4d3f9a39140337116d0a6a31940593a.bindPopup(popup_72eedfa0822864220b58b918ff2a33c4)
+        ;
+
+        
+    
+    
+            var circle_marker_24f5d8488c7229a5687b793168191259 = L.circleMarker(
+                [36.99794789066419, -98.20641106638128],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f1fe835da06617d2ac1ccad574888ac1);
+        
+    
+        var popup_d10b136104a73b7369d3234384638eb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c256f5cbda2ea580f473983ce4fbef74 = $(`<div id="html_c256f5cbda2ea580f473983ce4fbef74" style="width: 100.0%; height: 100.0%;"><b>Harper - Kansas-CD03</b></div>`)[0];
+                popup_d10b136104a73b7369d3234384638eb9.setContent(html_c256f5cbda2ea580f473983ce4fbef74);
+            
+        
+
+        circle_marker_24f5d8488c7229a5687b793168191259.bindPopup(popup_d10b136104a73b7369d3234384638eb9)
+        ;
+
+        
+    
+    
+            circle_marker_24f5d8488c7229a5687b793168191259.bindTooltip(
+                `<div>
+                     Harper - Kansas-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

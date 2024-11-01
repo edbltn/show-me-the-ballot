@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_69160ecfe4cd4edf43ece4faf02d6460 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD09</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD09</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD09</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD09</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD09</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD09</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD09</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD09</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD09</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD09</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD09</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Shelby - Tennessee-CD01</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD09</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Crittenden - Tennessee-CD01</p>
+            </div>
+    
+            <div class="folium-map" id="map_69160ecfe4cd4edf43ece4faf02d6460" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_69160ecfe4cd4edf43ece4faf02d6460 = L.map(
+                "map_69160ecfe4cd4edf43ece4faf02d6460",
+                {
+                    center: [35.11124521225593, -90.15118096763797],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_248ac0dac83c5102dd924bd68220f281 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_248ac0dac83c5102dd924bd68220f281.addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+            var polygon_bcb270ad6e2faa965f0717df6cb01218 = L.polygon(
+                [[35.12533500000001, -90.161218], [35.12589799999997, -90.15985100000002], [35.126710999999986, -90.157964], [35.127307999999985, -90.156729], [35.12762399999999, -90.155988], [35.12800358465182, -90.15460381900822], [35.12163936926443, -90.1126610575382], [35.120657, -90.11029300000001], [35.120137000000014, -90.108856], [35.119445, -90.106838], [35.11872900000003, -90.103756], [35.118263000000006, -90.101217], [35.11807100000002, -90.100169], [35.117856000000046, -90.098994], [35.11762699999999, -90.097167], [35.11753499999996, -90.095009], [35.11756899999996, -90.094054], [35.11759899999999, -90.093117], [35.118053, -90.08966700000002], [35.118892, -90.087416], [35.119286000000045, -90.086543], [35.11910099999999, -90.08648], [35.117068000000046, -90.085792], [35.116390999999986, -90.085563], [35.11537599999999, -90.085266], [35.11233100000002, -90.084376], [35.11131699999998, -90.08408000000001], [35.11128099999996, -90.084073], [35.111174999999946, -90.084052], [35.11114000000001, -90.084046], [35.110724, -90.083967], [35.10947600000002, -90.083731], [35.109061, -90.083653], [35.10887099999999, -90.083642], [35.10830299999999, -90.08360900000001], [35.10811400000001, -90.08359900000002], [35.103632999999995, -90.084071], [35.09602600000002, -90.084873], [35.09099500000002, -90.087894], [35.087133, -90.090215], [35.08671800000001, -90.090466], [35.08664400000001, -90.09051], [35.08630200000002, -90.090717], [35.08549699999995, -90.091204], [35.08517899999998, -90.091396], [35.08469100000002, -90.091692], [35.08452399999997, -90.09185], [35.084356, -90.09200900000002], [35.08274599999997, -90.093536], [35.08113599999998, -90.095063], [35.08070100000002, -90.095476], [35.07905699999997, -90.097415], [35.07697199999995, -90.099697], [35.07664599999999, -90.100054], [35.076321000000036, -90.10041], [35.07601399999996, -90.100756], [35.07337499999997, -90.10567], [35.07242800000001, -90.107436], [35.07365200000002, -90.117306], [35.074042, -90.120458], [35.07445600000004, -90.123795], [35.076731000000024, -90.132169], [35.077306, -90.134282], [35.079990000000016, -90.140516], [35.08289699999997, -90.146531], [35.08391399999999, -90.14957], [35.08466899999999, -90.15313600000002], [35.084915999999986, -90.154818], [35.08501500000003, -90.156504], [35.08483200000003, -90.157843], [35.084072000000056, -90.163422], [35.08392700000004, -90.164483], [35.08258899999999, -90.166767], [35.08075799999999, -90.169895], [35.078927000000014, -90.17302300000001], [35.078536999999976, -90.173688], [35.07814700000003, -90.174352], [35.07767399999999, -90.175247], [35.077600000000004, -90.17539], [35.077483999999984, -90.175611], [35.077718000000026, -90.17574], [35.078751999999966, -90.176853], [35.079811000000035, -90.178513], [35.08142699999994, -90.179698], [35.084993000000004, -90.180987], [35.087423999999984, -90.181362], [35.090028999999944, -90.181528], [35.09089499999997, -90.18149], [35.091164161657495, -90.1814788237404], [35.091400999999976, -90.181387], [35.12491080255465, -90.16229247843448], [35.12533500000001, -90.161218]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_bcfe2d1031b4a8d48dc8cd10e4afbe5b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79b9c0ba9925c070537c5d09fee04e1a = $(`<div id="html_79b9c0ba9925c070537c5d09fee04e1a" style="width: 100.0%; height: 100.0%;"><b>Shelby - Tennessee-CD09</b></div>`)[0];
+                popup_bcfe2d1031b4a8d48dc8cd10e4afbe5b.setContent(html_79b9c0ba9925c070537c5d09fee04e1a);
+            
+        
+
+        polygon_bcb270ad6e2faa965f0717df6cb01218.bindPopup(popup_bcfe2d1031b4a8d48dc8cd10e4afbe5b)
+        ;
+
+        
+    
+    
+            var circle_marker_bde2ef31874618d873118f08511155b2 = L.circleMarker(
+                [35.09701147737096, -90.12273699107305],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_34ff280bfdd72598af494ff481ba0f04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_853ceeaafeed63655bc474a4bf2dfae7 = $(`<div id="html_853ceeaafeed63655bc474a4bf2dfae7" style="width: 100.0%; height: 100.0%;"><b>Shelby - Tennessee-CD09</b></div>`)[0];
+                popup_34ff280bfdd72598af494ff481ba0f04.setContent(html_853ceeaafeed63655bc474a4bf2dfae7);
+            
+        
+
+        circle_marker_bde2ef31874618d873118f08511155b2.bindPopup(popup_34ff280bfdd72598af494ff481ba0f04)
+        ;
+
+        
+    
+    
+            circle_marker_bde2ef31874618d873118f08511155b2.bindTooltip(
+                `<div>
+                     Shelby - Tennessee-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_74d5b002da8c40b6c78a3316f8740d93 = L.polygon(
+                [[35.092802999999954, -90.181262], [35.094280999999995, -90.180758], [35.09520899999999, -90.1804], [35.096461, -90.179917], [35.097967999999995, -90.179321], [35.09876000000001, -90.178953], [35.09934299999998, -90.178868], [35.10109700000003, -90.178333], [35.10250799999995, -90.177822], [35.103584999999995, -90.177396], [35.10534799999999, -90.176694], [35.10737300000001, -90.175888], [35.108692000000005, -90.175424], [35.109685000000006, -90.174979], [35.11030000000002, -90.17475500000002], [35.11110399999998, -90.174536], [35.111658, -90.17441500000001], [35.11214899999998, -90.174341], [35.112647999999986, -90.174305], [35.11317999999998, -90.17428600000001], [35.113434000000055, -90.174259], [35.113837, -90.174216], [35.114284000000005, -90.174049], [35.11455099999996, -90.173917], [35.114924999999985, -90.173732], [35.115192, -90.173557], [35.11545800000002, -90.173381], [35.115977999999984, -90.173005], [35.11630900000005, -90.172767], [35.116628000000006, -90.172485], [35.11688300000002, -90.172261], [35.11748299999997, -90.171722], [35.117813999999996, -90.171425], [35.118338999999985, -90.170954], [35.11859199999997, -90.170713], [35.11883599999999, -90.170392], [35.119250999999984, -90.17001], [35.11971499999999, -90.16954], [35.120025000000034, -90.169145], [35.12037999999998, -90.168764], [35.12072899999998, -90.168383], [35.12113200000004, -90.1679], [35.12152900000001, -90.16739700000001], [35.12190400000002, -90.16682], [35.122361000000026, -90.166249], [35.12272099999997, -90.165808], [35.123026000000024, -90.165413], [35.12331900000001, -90.165026], [35.12368299999997, -90.164484], [35.12396500000001, -90.164016], [35.124177, -90.163657], [35.12480399999998, -90.162563], [35.12491080255465, -90.16229247843448], [35.091400999999976, -90.181387], [35.091164161657495, -90.1814788237404], [35.091184, -90.18147800000001], [35.091431000000014, -90.181474], [35.09216038878897, -90.18144575172272], [35.092162999999935, -90.181445], [35.092802999999954, -90.181262]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_2910374cb2f9e7e06abea3112ae09687 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88c95b1eecac4ae151de6e1f6970562f = $(`<div id="html_88c95b1eecac4ae151de6e1f6970562f" style="width: 100.0%; height: 100.0%;"><b>Shelby - Tennessee-CD01</b></div>`)[0];
+                popup_2910374cb2f9e7e06abea3112ae09687.setContent(html_88c95b1eecac4ae151de6e1f6970562f);
+            
+        
+
+        polygon_74d5b002da8c40b6c78a3316f8740d93.bindPopup(popup_2910374cb2f9e7e06abea3112ae09687)
+        ;
+
+        
+    
+    
+            var circle_marker_40bc5d54d9c6752c8164a3efb9753076 = L.circleMarker(
+                [35.11104388921668, -90.17338210089831],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_424aef6a03573bd7caf6aef7b141264c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f12318e68a3405c39c45a65da41c6044 = $(`<div id="html_f12318e68a3405c39c45a65da41c6044" style="width: 100.0%; height: 100.0%;"><b>Shelby - Tennessee-CD01</b></div>`)[0];
+                popup_424aef6a03573bd7caf6aef7b141264c.setContent(html_f12318e68a3405c39c45a65da41c6044);
+            
+        
+
+        circle_marker_40bc5d54d9c6752c8164a3efb9753076.bindPopup(popup_424aef6a03573bd7caf6aef7b141264c)
+        ;
+
+        
+    
+    
+            circle_marker_40bc5d54d9c6752c8164a3efb9753076.bindTooltip(
+                `<div>
+                     Shelby - Tennessee-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_12f56e47c25350187fab6ef15d4d4cc2 = L.polygon(
+                [[35.128357000000015, -90.153315], [35.129202999999976, -90.150294], [35.12992399999999, -90.147606], [35.13051800000002, -90.145244], [35.13083499999999, -90.143835], [35.13097399999997, -90.142852], [35.130989, -90.14230800000001], [35.13100799999999, -90.141114], [35.131042999999984, -90.140033], [35.131059999999955, -90.138897], [35.13151899999998, -90.138669], [35.13148199999999, -90.137911], [35.131392000000005, -90.13665], [35.13135812697989, -90.13630529218774], [35.13081400000001, -90.135047], [35.12994299999999, -90.132728], [35.12846600000001, -90.1291], [35.12725299999999, -90.126182], [35.126438000000014, -90.124221], [35.12486899999997, -90.120447], [35.12355400000004, -90.117278], [35.12224000000002, -90.114109], [35.12163936926443, -90.1126610575382], [35.12800358465182, -90.15460381900822], [35.128357000000015, -90.153315]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_773f5fce7f56825fd94de16b1b5250e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46ea660ac0399ecd79a6a40fb24aaaa5 = $(`<div id="html_46ea660ac0399ecd79a6a40fb24aaaa5" style="width: 100.0%; height: 100.0%;"><b>Shelby - Tennessee-CD01</b></div>`)[0];
+                popup_773f5fce7f56825fd94de16b1b5250e8.setContent(html_46ea660ac0399ecd79a6a40fb24aaaa5);
+            
+        
+
+        polygon_12f56e47c25350187fab6ef15d4d4cc2.bindPopup(popup_773f5fce7f56825fd94de16b1b5250e8)
+        ;
+
+        
+    
+    
+            var circle_marker_f33cd7c390ef947c2d2d00e1caf59244 = L.circleMarker(
+                [35.128849563235846, -90.13658900674936],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_18b8032487a4b856342b27d641326d09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ca8728323c667ee87886aa9ff250604 = $(`<div id="html_7ca8728323c667ee87886aa9ff250604" style="width: 100.0%; height: 100.0%;"><b>Shelby - Tennessee-CD01</b></div>`)[0];
+                popup_18b8032487a4b856342b27d641326d09.setContent(html_7ca8728323c667ee87886aa9ff250604);
+            
+        
+
+        circle_marker_f33cd7c390ef947c2d2d00e1caf59244.bindPopup(popup_18b8032487a4b856342b27d641326d09)
+        ;
+
+        
+    
+    
+            circle_marker_f33cd7c390ef947c2d2d00e1caf59244.bindTooltip(
+                `<div>
+                     Shelby - Tennessee-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_777baf183f48548e6b604f9480a8b5de = L.polygon(
+                [[35.12762399999999, -90.155988], [35.127307999999985, -90.156729], [35.126710999999986, -90.157964], [35.12589799999997, -90.15985100000002], [35.12533500000001, -90.161218], [35.12491080255465, -90.16229247843448], [35.12699750129647, -90.16110280730442], [35.12705299999999, -90.160993], [35.128592197605236, -90.15848836685909], [35.12800358465182, -90.15460381900822], [35.12762399999999, -90.155988]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_23104c93a19f03a8ea518cfcadbff310 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd408c1506ade9b81383ead50baff42e = $(`<div id="html_cd408c1506ade9b81383ead50baff42e" style="width: 100.0%; height: 100.0%;"><b>Crittenden - Tennessee-CD09</b></div>`)[0];
+                popup_23104c93a19f03a8ea518cfcadbff310.setContent(html_cd408c1506ade9b81383ead50baff42e);
+            
+        
+
+        polygon_777baf183f48548e6b604f9480a8b5de.bindPopup(popup_23104c93a19f03a8ea518cfcadbff310)
+        ;
+
+        
+    
+    
+            var circle_marker_ad6a244f9cbf49e25fd10a6fefe97646 = L.circleMarker(
+                [35.12691428055528, -90.15865622469147],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_1ba5ce96705ea2c99133061a6ad741c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f0083925e38eaae4a9b9ea8f906d66e = $(`<div id="html_8f0083925e38eaae4a9b9ea8f906d66e" style="width: 100.0%; height: 100.0%;"><b>Crittenden - Tennessee-CD09</b></div>`)[0];
+                popup_1ba5ce96705ea2c99133061a6ad741c9.setContent(html_8f0083925e38eaae4a9b9ea8f906d66e);
+            
+        
+
+        circle_marker_ad6a244f9cbf49e25fd10a6fefe97646.bindPopup(popup_1ba5ce96705ea2c99133061a6ad741c9)
+        ;
+
+        
+    
+    
+            circle_marker_ad6a244f9cbf49e25fd10a6fefe97646.bindTooltip(
+                `<div>
+                     Crittenden - Tennessee-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4f35aa01ed41c56f2206752c8ab86d41 = L.polygon(
+                [[35.13148199999999, -90.137911], [35.13151899999998, -90.138669], [35.131059999999955, -90.138897], [35.131042999999984, -90.140033], [35.13100799999999, -90.141114], [35.130989, -90.14230800000001], [35.13097399999997, -90.142852], [35.13083499999999, -90.143835], [35.13051800000002, -90.145244], [35.12992399999999, -90.147606], [35.129202999999976, -90.150294], [35.128357000000015, -90.153315], [35.12800358465182, -90.15460381900822], [35.128592197605236, -90.15848836685909], [35.128998000000024, -90.157828], [35.13092399999996, -90.154697], [35.132266999999956, -90.151223], [35.13247700000002, -90.15068], [35.13305400000004, -90.147147], [35.13315199999999, -90.144616], [35.13313400000002, -90.14243700000002], [35.133040999999984, -90.141805], [35.13290400000002, -90.140857], [35.132251, -90.138893], [35.131389999999996, -90.136379], [35.13135812697989, -90.13630529218774], [35.131392000000005, -90.13665], [35.13148199999999, -90.137911]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_a604c53d97b0d744906bdc5c798b70a3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f956d54257059bf8df627cb8823f0ec5 = $(`<div id="html_f956d54257059bf8df627cb8823f0ec5" style="width: 100.0%; height: 100.0%;"><b>Crittenden - Tennessee-CD01</b></div>`)[0];
+                popup_a604c53d97b0d744906bdc5c798b70a3.setContent(html_f956d54257059bf8df627cb8823f0ec5);
+            
+        
+
+        polygon_4f35aa01ed41c56f2206752c8ab86d41.bindPopup(popup_a604c53d97b0d744906bdc5c798b70a3)
+        ;
+
+        
+    
+    
+            var circle_marker_dcb8d094c94d33f1cb835e8d6d519bb3 = L.circleMarker(
+                [35.13111899675846, -90.14473565993055],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_9c0517c2140234141b0c5cf6c784552e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f6ebb3b37f6eb2a77d4c3ae3c53b9ea = $(`<div id="html_7f6ebb3b37f6eb2a77d4c3ae3c53b9ea" style="width: 100.0%; height: 100.0%;"><b>Crittenden - Tennessee-CD01</b></div>`)[0];
+                popup_9c0517c2140234141b0c5cf6c784552e.setContent(html_7f6ebb3b37f6eb2a77d4c3ae3c53b9ea);
+            
+        
+
+        circle_marker_dcb8d094c94d33f1cb835e8d6d519bb3.bindPopup(popup_9c0517c2140234141b0c5cf6c784552e)
+        ;
+
+        
+    
+    
+            circle_marker_dcb8d094c94d33f1cb835e8d6d519bb3.bindTooltip(
+                `<div>
+                     Crittenden - Tennessee-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_af7281daf90108f69d866e5f9333523f = L.polygon(
+                [[35.12480399999998, -90.162563], [35.124177, -90.163657], [35.12396500000001, -90.164016], [35.12368299999997, -90.164484], [35.12331900000001, -90.165026], [35.123026000000024, -90.165413], [35.12272099999997, -90.165808], [35.122361000000026, -90.166249], [35.12190400000002, -90.16682], [35.12152900000001, -90.16739700000001], [35.12113200000004, -90.1679], [35.12072899999998, -90.168383], [35.12037999999998, -90.168764], [35.120025000000034, -90.169145], [35.11971499999999, -90.16954], [35.119250999999984, -90.17001], [35.11883599999999, -90.170392], [35.11859199999997, -90.170713], [35.118338999999985, -90.170954], [35.117813999999996, -90.171425], [35.11748299999997, -90.171722], [35.11688300000002, -90.172261], [35.116628000000006, -90.172485], [35.11630900000005, -90.172767], [35.115977999999984, -90.173005], [35.11545800000002, -90.173381], [35.115192, -90.173557], [35.114924999999985, -90.173732], [35.11455099999996, -90.173917], [35.114284000000005, -90.174049], [35.113837, -90.174216], [35.113434000000055, -90.174259], [35.11317999999998, -90.17428600000001], [35.112647999999986, -90.174305], [35.11214899999998, -90.174341], [35.111658, -90.17441500000001], [35.11110399999998, -90.174536], [35.11030000000002, -90.17475500000002], [35.109685000000006, -90.174979], [35.108692000000005, -90.175424], [35.10737300000001, -90.175888], [35.10534799999999, -90.176694], [35.103584999999995, -90.177396], [35.10250799999995, -90.177822], [35.10109700000003, -90.178333], [35.09934299999998, -90.178868], [35.09876000000001, -90.178953], [35.097967999999995, -90.179321], [35.096461, -90.179917], [35.09520899999999, -90.1804], [35.094280999999995, -90.180758], [35.092802999999954, -90.181262], [35.092162999999935, -90.181445], [35.09216038878897, -90.18144575172272], [35.094012999999975, -90.181374], [35.09648199999999, -90.180777], [35.09785799999998, -90.180426], [35.09981399999996, -90.179927], [35.10202200000003, -90.179252], [35.102463999999976, -90.179117], [35.103755, -90.178779], [35.104579, -90.178563], [35.106147, -90.178152], [35.11101999999993, -90.176717], [35.114177, -90.175382], [35.11568399999999, -90.174638], [35.11723799999997, -90.17363100000001], [35.11810500000001, -90.172966], [35.11891399999995, -90.172332], [35.120291999999985, -90.171018], [35.12037900000001, -90.170917], [35.12132600000003, -90.169816], [35.12188299999999, -90.169232], [35.123106999999955, -90.167951], [35.123268000000024, -90.16775], [35.123585000000006, -90.16735800000001], [35.124778000000006, -90.165147], [35.126169000000004, -90.162742], [35.12699750129647, -90.16110280730442], [35.12491080255465, -90.16229247843448], [35.12480399999998, -90.162563]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_fc666f90d0208a9f9346bb7f2d77d0ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1c861a85d29c9c4fec1d68f0604c09c = $(`<div id="html_c1c861a85d29c9c4fec1d68f0604c09c" style="width: 100.0%; height: 100.0%;"><b>Crittenden - Tennessee-CD01</b></div>`)[0];
+                popup_fc666f90d0208a9f9346bb7f2d77d0ac.setContent(html_c1c861a85d29c9c4fec1d68f0604c09c);
+            
+        
+
+        polygon_af7281daf90108f69d866e5f9333523f.bindPopup(popup_fc666f90d0208a9f9346bb7f2d77d0ac)
+        ;
+
+        
+    
+    
+            var circle_marker_0544ddf805a2dcd921cbda69bc4e46b2 = L.circleMarker(
+                [35.11312976163752, -90.17275896342545],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_69160ecfe4cd4edf43ece4faf02d6460);
+        
+    
+        var popup_6afed3f41c2bdc878b7c547a06884562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f628e11bd27942c09105b71bb85034bb = $(`<div id="html_f628e11bd27942c09105b71bb85034bb" style="width: 100.0%; height: 100.0%;"><b>Crittenden - Tennessee-CD01</b></div>`)[0];
+                popup_6afed3f41c2bdc878b7c547a06884562.setContent(html_f628e11bd27942c09105b71bb85034bb);
+            
+        
+
+        circle_marker_0544ddf805a2dcd921cbda69bc4e46b2.bindPopup(popup_6afed3f41c2bdc878b7c547a06884562)
+        ;
+
+        
+    
+    
+            circle_marker_0544ddf805a2dcd921cbda69bc4e46b2.bindTooltip(
+                `<div>
+                     Crittenden - Tennessee-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_116c61019d8c78ae2504c6ffbaabad99 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Indiana-CD09</p>
+            </div>
+    
+            <div class="folium-map" id="map_116c61019d8c78ae2504c6ffbaabad99" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_116c61019d8c78ae2504c6ffbaabad99 = L.map(
+                "map_116c61019d8c78ae2504c6ffbaabad99",
+                {
+                    center: [39.49202863766284, -84.84614951984739],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f342ef21654b0f4118307670ebdac7a4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f342ef21654b0f4118307670ebdac7a4.addTo(map_116c61019d8c78ae2504c6ffbaabad99);
+        
+    
+            var polygon_f66d80f63b3e0a5851dc2dc43f752e80 = L.polygon(
+                [[39.52195000000001, -84.815353], [39.51295199999998, -84.815455], [39.51141999999999, -84.815536], [39.51113999999997, -84.81555], [39.510859000000025, -84.815555], [39.50841700000001, -84.815591], [39.50595399999999, -84.815558], [39.50524800000001, -84.815649], [39.499652000000026, -84.815655], [39.49391099999996, -84.815655], [39.47944999999999, -84.815749], [39.479450600021764, -84.81658282487469], [39.521968108992894, -84.81616019491081], [39.521968120938325, -84.81616019479227], [39.52195000000001, -84.815353]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_116c61019d8c78ae2504c6ffbaabad99);
+        
+    
+        var popup_f3c4395f61f72333003264373d05cdbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_798890075deac5aa8e288d0ed0ac8ef8 = $(`<div id="html_798890075deac5aa8e288d0ed0ac8ef8" style="width: 100.0%; height: 100.0%;"><b>Franklin - Indiana-CD08</b></div>`)[0];
+                popup_f3c4395f61f72333003264373d05cdbc.setContent(html_798890075deac5aa8e288d0ed0ac8ef8);
+            
+        
+
+        polygon_f66d80f63b3e0a5851dc2dc43f752e80.bindPopup(popup_f3c4395f61f72333003264373d05cdbc)
+        ;
+
+        
+    
+    
+            var circle_marker_e8e1e2e3834b8a4d3711eb885473b46e = L.circleMarker(
+                [39.50708598866353, -84.81570414763851],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_116c61019d8c78ae2504c6ffbaabad99);
+        
+    
+        var popup_578120f4e65e98c70590537c04ad62da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_add91b3f97851c3bceb983925f94b85c = $(`<div id="html_add91b3f97851c3bceb983925f94b85c" style="width: 100.0%; height: 100.0%;"><b>Franklin - Indiana-CD08</b></div>`)[0];
+                popup_578120f4e65e98c70590537c04ad62da.setContent(html_add91b3f97851c3bceb983925f94b85c);
+            
+        
+
+        circle_marker_e8e1e2e3834b8a4d3711eb885473b46e.bindPopup(popup_578120f4e65e98c70590537c04ad62da)
+        ;
+
+        
+    
+    
+            circle_marker_e8e1e2e3834b8a4d3711eb885473b46e.bindTooltip(
+                `<div>
+                     Franklin - Indiana-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_684a5c9e24c944d46fcaaacc127b3cc6 = L.polygon(
+                [[39.52320900000002, -84.849501], [39.52320599999997, -84.849316], [39.523203999999964, -84.849241], [39.523203000000024, -84.849189], [39.523198999999984, -84.848953], [39.523198999999984, -84.848811], [39.523198999999984, -84.848784], [39.52307400000003, -84.845499], [39.52307099999998, -84.845418], [39.52306399999999, -84.845229], [39.52303, -84.844339], [39.522986000000024, -84.84319300000001], [39.52297899999999, -84.843016], [39.52289600000002, -84.840841], [39.522762000000014, -84.83734200000002], [39.52264699999998, -84.834346], [39.522251000000004, -84.824055], [39.52215099999998, -84.823355], [39.52205099999996, -84.819855], [39.521968120938325, -84.81616019479227], [39.521968108992894, -84.81616019491081], [39.522408707812275, -84.85115029179046], [39.52261999999999, -84.850924], [39.52285900000002, -84.85069000000001], [39.523213999999996, -84.850483], [39.52321100000003, -84.849819], [39.52320900000002, -84.849501]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_116c61019d8c78ae2504c6ffbaabad99);
+        
+    
+        var popup_cb972117a173b07810063fb16059c2e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab3b4edbf7024bcc42faaae400b4470e = $(`<div id="html_ab3b4edbf7024bcc42faaae400b4470e" style="width: 100.0%; height: 100.0%;"><b>Franklin - Indiana-CD06</b></div>`)[0];
+                popup_cb972117a173b07810063fb16059c2e2.setContent(html_ab3b4edbf7024bcc42faaae400b4470e);
+            
+        
+
+        polygon_684a5c9e24c944d46fcaaacc127b3cc6.bindPopup(popup_cb972117a173b07810063fb16059c2e2)
+        ;
+
+        
+    
+    
+            var circle_marker_c2a6e8c44413100d399cbed2f97aa2c5 = L.circleMarker(
+                [39.522845886583085, -84.84167298820347],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_116c61019d8c78ae2504c6ffbaabad99);
+        
+    
+        var popup_f7b94a6effb32ebac6864bd3602784f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afac540d5a23c1591ca52bf7c00d8c1b = $(`<div id="html_afac540d5a23c1591ca52bf7c00d8c1b" style="width: 100.0%; height: 100.0%;"><b>Franklin - Indiana-CD06</b></div>`)[0];
+                popup_f7b94a6effb32ebac6864bd3602784f9.setContent(html_afac540d5a23c1591ca52bf7c00d8c1b);
+            
+        
+
+        circle_marker_c2a6e8c44413100d399cbed2f97aa2c5.bindPopup(popup_f7b94a6effb32ebac6864bd3602784f9)
+        ;
+
+        
+    
+    
+            circle_marker_c2a6e8c44413100d399cbed2f97aa2c5.bindTooltip(
+                `<div>
+                     Franklin - Indiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6dc885668f2def2fa265c2b1eef2b973 = L.polygon(
+                [[39.47945100000001, -84.817143], [39.48006999999996, -84.818004], [39.48072400000004, -84.818952], [39.480811, -84.819065], [39.480859, -84.819117], [39.480911999999975, -84.819161], [39.48097199999997, -84.819196], [39.48103499999998, -84.819221], [39.481118999999964, -84.819243], [39.481125000000034, -84.820533], [39.481162000000005, -84.823063], [39.481179000000004, -84.823781], [39.481197000000016, -84.823996], [39.48122600000003, -84.824279], [39.481243000000035, -84.824566], [39.48126900000003, -84.825342], [39.48128900000002, -84.82551700000002], [39.48129700000003, -84.825627], [39.481292000000025, -84.825782], [39.48129799999997, -84.828352], [39.48129300000001, -84.829158], [39.48129799999994, -84.831585], [39.48129599999997, -84.833479], [39.48130100000006, -84.833982], [39.48129400000004, -84.834128], [39.48128100000003, -84.834201], [39.48126100000004, -84.83427100000002], [39.48123300000003, -84.834338], [39.481200000000044, -84.83440200000001], [39.481117999999995, -84.834528], [39.479546, -84.83667], [39.47944299999999, -84.836795], [39.47933200000002, -84.836908], [39.477236999999995, -84.838849], [39.475543, -84.840461], [39.47457200000001, -84.841336], [39.47423899999999, -84.841645], [39.47413199999996, -84.841757], [39.474033000000034, -84.841879], [39.47389799999998, -84.84208], [39.47316599999998, -84.843319], [39.473065000000005, -84.843509], [39.47300800000003, -84.84364], [39.47296199999997, -84.843773], [39.47292500000003, -84.843908], [39.47281499999999, -84.844393], [39.47251900000002, -84.84441], [39.47228200000006, -84.844451], [39.471979999999974, -84.844483], [39.468708, -84.84451], [39.468292000000034, -84.844522], [39.468247999999996, -84.844525], [39.468087000000004, -84.844537], [39.467833000000006, -84.844537], [39.46723099999997, -84.844512], [39.46629600000002, -84.844515], [39.46484100000003, -84.844537], [39.464113, -84.844554], [39.46194500000005, -84.844577], [39.46121599999994, -84.844597], [39.45902900000005, -84.844631], [39.45805000000002, -84.844655], [39.458051999999995, -84.84505600000001], [39.45812699999998, -84.851901], [39.45814200000002, -84.852738], [39.458169999999996, -84.856702], [39.458189, -84.857911], [39.45819500000001, -84.858187], [39.45819299999998, -84.858538], [39.458198000000024, -84.860085], [39.458206999999994, -84.860951], [39.458210000000015, -84.861816], [39.458217999999995, -84.862676], [39.458220000000004, -84.863462], [39.458375999999966, -84.863456], [39.459082000000045, -84.863455], [39.461995999999985, -84.863404], [39.46709399999998, -84.863347], [39.467824, -84.863333], [39.46932099999997, -84.863316], [39.46956699999997, -84.863309], [39.469799, -84.863314], [39.47014000000001, -84.863311], [39.47121500000001, -84.863282], [39.47158000000002, -84.863267], [39.471795999999955, -84.863275], [39.47193600000001, -84.863306], [39.472003, -84.863328], [39.472130999999976, -84.863393], [39.472255000000004, -84.863471], [39.47248899999998, -84.863651], [39.472551000000024, -84.863692], [39.47267999999996, -84.863762], [39.47274999999998, -84.86379], [39.47281699999998, -84.86381], [39.47303199999998, -84.863842], [39.47419899999996, -84.86381700000001], [39.479155999999975, -84.863779], [39.479300999999985, -84.863774], [39.47944499999998, -84.863754], [39.479474, -84.863745], [39.47951599999999, -84.86373300000001], [39.47965300000001, -84.863667], [39.479779, -84.8636], [39.480221999999976, -84.863317], [39.48041499999999, -84.863212], [39.480554, -84.86316], [39.48069499999999, -84.863127], [39.48083999999999, -84.86311], [39.48128499999997, -84.863097], [39.48201000000001, -84.863093], [39.48418700000001, -84.8631], [39.48782599999996, -84.86308600000001], [39.488547999999994, -84.863087], [39.49036599999998, -84.86307600000002], [39.491869000000015, -84.86307800000002], [39.49220799999995, -84.863075], [39.492437000000024, -84.863073], [39.49437900000003, -84.863072], [39.49509400000003, -84.863084], [39.49684100000001, -84.863089], [39.49814800000001, -84.863083], [39.49880399999996, -84.863075], [39.50011499999996, -84.86309], [39.50273699999999, -84.86307600000002], [39.504050999999976, -84.863058], [39.50470300000007, -84.863021], [39.50667099999997, -84.86299400000001], [39.507329000000034, -84.863005], [39.50876799999997, -84.863008], [39.509109999999986, -84.862989], [39.50908899999997, -84.861879], [39.509078000000045, -84.860953], [39.509045000000036, -84.858299], [39.50898899999999, -84.854423], [39.50897400000002, -84.8537], [39.51184599999999, -84.853648], [39.51246400000001, -84.853645], [39.51288400000004, -84.853629], [39.51316099999999, -84.853618], [39.51381599999997, -84.853606], [39.51446999999998, -84.853602], [39.51707200000001, -84.853558], [39.51715099999996, -84.853558], [39.51773100000005, -84.853557], [39.518390000000025, -84.853542], [39.51905099999997, -84.853512], [39.519617999999994, -84.853495], [39.51970000000002, -84.853275], [39.51983300000005, -84.853022], [39.52015800000004, -84.852787], [39.52026400000002, -84.85263500000002], [39.52038499999998, -84.852525], [39.52052899999996, -84.852657], [39.520660999999976, -84.852659], [39.520750999999976, -84.85269], [39.520750999999976, -84.852912], [39.520908999999975, -84.852844], [39.52110100000004, -84.852622], [39.52128699999993, -84.852375], [39.52129700000001, -84.852196], [39.52155999999998, -84.851968], [39.521712999999984, -84.851758], [39.521778999999974, -84.851399], [39.52187999999997, -84.851282], [39.52229600000004, -84.851271], [39.522408707812275, -84.85115029179046], [39.521968108992894, -84.81616019491081], [39.479450600021764, -84.81658282487469], [39.47945100000001, -84.817143]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_116c61019d8c78ae2504c6ffbaabad99);
+        
+    
+        var popup_f8e8bea7066ec1d1740c3ca55950b117 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac0303043cf662aabf7c78be986a8c40 = $(`<div id="html_ac0303043cf662aabf7c78be986a8c40" style="width: 100.0%; height: 100.0%;"><b>Franklin - Indiana-CD09</b></div>`)[0];
+                popup_f8e8bea7066ec1d1740c3ca55950b117.setContent(html_ac0303043cf662aabf7c78be986a8c40);
+            
+        
+
+        polygon_6dc885668f2def2fa265c2b1eef2b973.bindPopup(popup_f8e8bea7066ec1d1740c3ca55950b117)
+        ;
+
+        
+    
+    
+            var circle_marker_23ba9198f6ed83fe28cda4130ca54ff8 = L.circleMarker(
+                [39.485805543628395, -84.84954685477398],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_116c61019d8c78ae2504c6ffbaabad99);
+        
+    
+        var popup_b0c6ab5d524f9876cb58d84c5f0a4cd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40045edf28dd494b60b1da4dbba1d8b = $(`<div id="html_a40045edf28dd494b60b1da4dbba1d8b" style="width: 100.0%; height: 100.0%;"><b>Franklin - Indiana-CD09</b></div>`)[0];
+                popup_b0c6ab5d524f9876cb58d84c5f0a4cd6.setContent(html_a40045edf28dd494b60b1da4dbba1d8b);
+            
+        
+
+        circle_marker_23ba9198f6ed83fe28cda4130ca54ff8.bindPopup(popup_b0c6ab5d524f9876cb58d84c5f0a4cd6)
+        ;
+
+        
+    
+    
+            circle_marker_23ba9198f6ed83fe28cda4130ca54ff8.bindTooltip(
+                `<div>
+                     Franklin - Indiana-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

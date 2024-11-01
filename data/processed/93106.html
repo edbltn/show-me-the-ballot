@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_86dd7de4649401004e1066d683594d3e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Santa Barbara - California-CD24</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Santa Barbara - California-CD24</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Santa Barbara - California-CD24</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Santa Barbara - California-CD24</p>
+            </div>
+    
+            <div class="folium-map" id="map_86dd7de4649401004e1066d683594d3e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_86dd7de4649401004e1066d683594d3e = L.map(
+                "map_86dd7de4649401004e1066d683594d3e",
+                {
+                    center: [34.41855859172571, -119.85611017973483],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fee1d68a744d00386254fd59ec8954ea = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fee1d68a744d00386254fd59ec8954ea.addTo(map_86dd7de4649401004e1066d683594d3e);
+        
+    
+            var polygon_3c61c9319444cb8f31270d539289af62 = L.polygon(
+                [[34.41833900000001, -119.86067700000001], [34.418565999999984, -119.860606], [34.418798000000024, -119.860522], [34.420038999999996, -119.85994], [34.420364999999975, -119.859847], [34.42065699999999, -119.85980999999998], [34.42169200000003, -119.859787], [34.42207199999995, -119.859778], [34.42418600000002, -119.85979199999998], [34.424307000000006, -119.85979100000002], [34.424278999999984, -119.85760800000001], [34.424277000000025, -119.85748200000002], [34.42425499999999, -119.85577499999998], [34.42421999999998, -119.852974], [34.42417299999998, -119.85124300000001], [34.423057000000014, -119.851634], [34.423099000000036, -119.85168], [34.423081000000025, -119.851951], [34.42265400000002, -119.85215000000001], [34.42211, -119.85240500000002], [34.422042000000005, -119.85244399999999], [34.422016000000006, -119.852416], [34.421951999999976, -119.852367], [34.42188399999994, -119.85230099999998], [34.421802999999976, -119.85219500000001], [34.421523000000015, -119.85178000000002], [34.42137600000004, -119.851537], [34.42047299999997, -119.85002400000002], [34.42039999999995, -119.849923], [34.42001200000003, -119.84955200000002], [34.419871999999934, -119.849344], [34.41949299999997, -119.84840600000001], [34.41934200000002, -119.84816300000001], [34.418867999999996, -119.84687700000002], [34.417736999999995, -119.84381200000001], [34.41741100000003, -119.842144], [34.416698999999994, -119.841995], [34.41669600000001, -119.84107100000001], [34.41627900000001, -119.839616], [34.41602500000001, -119.83919199999998], [34.41588899999997, -119.83861200000001], [34.41529199999998, -119.838608], [34.415276553387024, -119.83860788642177], [34.41256929365263, -119.85338646944716], [34.41296699999998, -119.85338100000001], [34.41310900000002, -119.85337799999999], [34.41344900000001, -119.853371], [34.41354100000001, -119.853365], [34.41370399999999, -119.85335499999998], [34.41379900000003, -119.853326], [34.413920000000005, -119.85327300000002], [34.41398999999997, -119.85321900000001], [34.414134999999995, -119.85306600000001], [34.41448400000001, -119.852581], [34.41510099999999, -119.853108], [34.415763999999996, -119.85367600000001], [34.41639800000003, -119.85366500000002], [34.41724200000001, -119.85364500000001], [34.41724800000004, -119.85367000000001], [34.41726600000004, -119.85374799999998], [34.417275000000004, -119.853887], [34.41728400000003, -119.854028], [34.417282999999955, -119.854503], [34.417276, -119.854713], [34.41728099999998, -119.85535700000001], [34.417282999999955, -119.857046], [34.41729600000001, -119.858697], [34.41730600000002, -119.86072800000001], [34.41796200000002, -119.86072400000002], [34.41814600000003, -119.860708], [34.41833900000001, -119.86067700000001]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_86dd7de4649401004e1066d683594d3e);
+        
+    
+        var popup_b0f625cb88268eb24804b653c0c735cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b7019443d661484fc182899cde11ddb = $(`<div id="html_2b7019443d661484fc182899cde11ddb" style="width: 100.0%; height: 100.0%;"><b>Santa Barbara - California-CD24</b></div>`)[0];
+                popup_b0f625cb88268eb24804b653c0c735cd.setContent(html_2b7019443d661484fc182899cde11ddb);
+            
+        
+
+        polygon_3c61c9319444cb8f31270d539289af62.bindPopup(popup_b0f625cb88268eb24804b653c0c735cd)
+        ;
+
+        
+    
+    
+            var circle_marker_8a7be27346b1e4c4cc7e0d47174fdfb2 = L.circleMarker(
+                [34.41864794150759, -119.8527425402235],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_86dd7de4649401004e1066d683594d3e);
+        
+    
+        var popup_5d64886d18b9e148271cf5836a9acae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c359784793f5b47180cdee7e09b14bf4 = $(`<div id="html_c359784793f5b47180cdee7e09b14bf4" style="width: 100.0%; height: 100.0%;"><b>Santa Barbara - California-CD24</b></div>`)[0];
+                popup_5d64886d18b9e148271cf5836a9acae3.setContent(html_c359784793f5b47180cdee7e09b14bf4);
+            
+        
+
+        circle_marker_8a7be27346b1e4c4cc7e0d47174fdfb2.bindPopup(popup_5d64886d18b9e148271cf5836a9acae3)
+        ;
+
+        
+    
+    
+            circle_marker_8a7be27346b1e4c4cc7e0d47174fdfb2.bindTooltip(
+                `<div>
+                     Santa Barbara - California-CD24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_dd53bc9afb349d7c571c8809983d4952 = L.polygon(
+                [[34.41916399999999, -119.868569], [34.41916599999997, -119.868514], [34.419169, -119.86801500000001], [34.41918300000003, -119.866332], [34.419192999999986, -119.86513299999999], [34.41875800000002, -119.86513299999999], [34.41743199999998, -119.86513299999999], [34.41745299999997, -119.86533], [34.417458999999994, -119.86654900000002], [34.417458999999994, -119.86741], [34.417476, -119.86946899999998], [34.41749299999998, -119.86961200000002], [34.41750500000002, -119.869625], [34.417520999999994, -119.869641], [34.41759400000002, -119.86967599999998], [34.417632000000005, -119.86968799999998], [34.41769699999998, -119.869692], [34.419154, -119.869692], [34.41915599999995, -119.869524], [34.41916399999999, -119.868569]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_86dd7de4649401004e1066d683594d3e);
+        
+    
+        var popup_68209009af5ab71a24582329dec4130f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86fedbdffddc79886d02f04f47697777 = $(`<div id="html_86fedbdffddc79886d02f04f47697777" style="width: 100.0%; height: 100.0%;"><b>Santa Barbara - California-CD24</b></div>`)[0];
+                popup_68209009af5ab71a24582329dec4130f.setContent(html_86fedbdffddc79886d02f04f47697777);
+            
+        
+
+        polygon_dd53bc9afb349d7c571c8809983d4952.bindPopup(popup_68209009af5ab71a24582329dec4130f)
+        ;
+
+        
+    
+    
+            var circle_marker_db4f7ba574d0365f78c52fee85b495e2 = L.circleMarker(
+                [34.41824139999999, -119.86806530000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_86dd7de4649401004e1066d683594d3e);
+        
+    
+        var popup_6e7784314b969371c12f3246f4ee17ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d6554e828591c35000ebed5161e4f30d = $(`<div id="html_d6554e828591c35000ebed5161e4f30d" style="width: 100.0%; height: 100.0%;"><b>Santa Barbara - California-CD24</b></div>`)[0];
+                popup_6e7784314b969371c12f3246f4ee17ff.setContent(html_d6554e828591c35000ebed5161e4f30d);
+            
+        
+
+        circle_marker_db4f7ba574d0365f78c52fee85b495e2.bindPopup(popup_6e7784314b969371c12f3246f4ee17ff)
+        ;
+
+        
+    
+    
+            circle_marker_db4f7ba574d0365f78c52fee85b495e2.bindTooltip(
+                `<div>
+                     Santa Barbara - California-CD24
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

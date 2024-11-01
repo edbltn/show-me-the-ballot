@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b5a671ad0e51da6fe92929f39e3bb807 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Eaton - Michigan-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Eaton - Michigan-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Eaton - Michigan-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Eaton - Michigan-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_b5a671ad0e51da6fe92929f39e3bb807" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b5a671ad0e51da6fe92929f39e3bb807 = L.map(
+                "map_b5a671ad0e51da6fe92929f39e3bb807",
+                {
+                    center: [42.73620599116776, -84.98831212206625],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cba11e0d0c39efe562a77c77e1944f65 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_cba11e0d0c39efe562a77c77e1944f65.addTo(map_b5a671ad0e51da6fe92929f39e3bb807);
+        
+    
+            var polygon_7047d0b01c28371da700578c142b61d6 = L.polygon(
+                [[42.77045999999997, -84.951271], [42.770465356922486, -84.9465851883798], [42.77046902247916, -84.93949340446851], [42.77045700000004, -84.935226], [42.77046599999997, -84.932127], [42.76752700000005, -84.932159], [42.76743300000001, -84.941094], [42.76292500000003, -84.941158], [42.76298300000002, -84.935818], [42.762753000000046, -84.935815], [42.76077899999999, -84.935857], [42.75564800000001, -84.93583], [42.752069999999996, -84.935803], [42.74842600000002, -84.935808], [42.741952000000026, -84.93582500000001], [42.74125600000001, -84.935811], [42.741152000000014, -84.935806], [42.73383599999998, -84.935817], [42.72706199999997, -84.935817], [42.72661800000001, -84.93582100000002], [42.72664100000002, -84.943245], [42.72665777153236, -84.95582214961803], [42.77045999999997, -84.95583], [42.77045999999997, -84.951271]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b5a671ad0e51da6fe92929f39e3bb807);
+        
+    
+        var popup_f3ebc648191038644f61587ecfaf6b47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41fa16ab8ca550bd55e30e61f9d3f5a5 = $(`<div id="html_41fa16ab8ca550bd55e30e61f9d3f5a5" style="width: 100.0%; height: 100.0%;"><b>Eaton - Michigan-CD07</b></div>`)[0];
+                popup_f3ebc648191038644f61587ecfaf6b47.setContent(html_41fa16ab8ca550bd55e30e61f9d3f5a5);
+            
+        
+
+        polygon_7047d0b01c28371da700578c142b61d6.bindPopup(popup_f3ebc648191038644f61587ecfaf6b47)
+        ;
+
+        
+    
+    
+            var circle_marker_fb7180f9a40d0c71e230d621efe3edc5 = L.circleMarker(
+                [42.75412317295559, -84.93979623926943],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b5a671ad0e51da6fe92929f39e3bb807);
+        
+    
+        var popup_2e1ea9b6f64216fbf39ae14870e23bc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4b2d146949eaca30654cf70ef43cd80 = $(`<div id="html_c4b2d146949eaca30654cf70ef43cd80" style="width: 100.0%; height: 100.0%;"><b>Eaton - Michigan-CD07</b></div>`)[0];
+                popup_2e1ea9b6f64216fbf39ae14870e23bc8.setContent(html_c4b2d146949eaca30654cf70ef43cd80);
+            
+        
+
+        circle_marker_fb7180f9a40d0c71e230d621efe3edc5.bindPopup(popup_2e1ea9b6f64216fbf39ae14870e23bc8)
+        ;
+
+        
+    
+    
+            circle_marker_fb7180f9a40d0c71e230d621efe3edc5.bindTooltip(
+                `<div>
+                     Eaton - Michigan-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_d0dc31fa4eb340a718253ce06a34474b = L.polygon(
+                [[42.77064099999996, -85.014874], [42.77064900000003, -85.014721], [42.77066900000001, -85.011339], [42.77063400000001, -84.995104], [42.77054700000002, -84.97546400000002], [42.77053099999998, -84.967604], [42.77045999999997, -84.95583], [42.72665777153236, -84.95582214961803], [42.72665799999995, -84.956], [42.726652999999935, -84.960955], [42.72652899999997, -84.961105], [42.725603, -84.962701], [42.72542299999996, -84.964059], [42.72546199999998, -84.967262], [42.72549999999998, -84.968185], [42.72505999999996, -84.968294], [42.72408100000001, -84.968231], [42.72296900000003, -84.968259], [42.72206899999998, -84.968656], [42.72170999999999, -84.96945], [42.720094999999986, -84.97206], [42.719397, -84.973019], [42.71940799999999, -84.975553], [42.72663600000005, -84.975585], [42.726678000000014, -84.981851], [42.72669100000002, -84.984862], [42.72669, -84.985401], [42.72670699999995, -84.989377], [42.726710000000004, -84.991147], [42.72672800000003, -84.995128], [42.72047600000001, -84.995138], [42.720221999999985, -84.99478000000002], [42.7201, -84.994585], [42.719585999999985, -84.993912], [42.719515999999985, -84.993808], [42.719254999999954, -84.993472], [42.71905300000002, -84.993245], [42.718786999999985, -84.992955], [42.718542000000014, -84.992696], [42.71838099999999, -84.992542], [42.717924999999994, -84.992128], [42.717377999999975, -84.991635], [42.716230000000024, -84.990609], [42.716002999999986, -84.991561], [42.715853, -84.992322], [42.715497000000006, -84.993801], [42.715256000000025, -84.993923], [42.714562, -84.993945], [42.71412099999998, -84.9939], [42.714121999999996, -84.99387700000001], [42.71412200000002, -84.993819], [42.71410800000004, -84.993605], [42.71410800000004, -84.993099], [42.71410800000004, -84.99018], [42.71309299999996, -84.99016], [42.71282100000003, -84.990141], [42.71264999999999, -84.990141], [42.712584999999976, -84.990121], [42.71251999999997, -84.990121], [42.712406, -84.990102], [42.71233499999996, -84.990121], [42.71226299999998, -84.990121], [42.712213, -84.99012], [42.71221999999996, -84.993456], [42.712233, -84.99513200000001], [42.713720000000016, -84.995138], [42.71412099999998, -84.995138], [42.713928000000024, -84.995688], [42.71397000000001, -85.000131], [42.716732000000015, -85.000134], [42.71955600000002, -85.000138], [42.71965, -85.006086], [42.726868000000024, -85.006144], [42.72697499999994, -85.014785], [42.72699099999999, -85.034252], [42.73943400000005, -85.03419], [42.739368999999975, -85.042531], [42.74145800000004, -85.042515], [42.74140700000001, -85.044449], [42.74677900000001, -85.044499], [42.75043700000001, -85.044529], [42.75043700000001, -85.045891], [42.750436000000015, -85.048824], [42.75224600000002, -85.05076600000001], [42.75589399999997, -85.053803], [42.75735299999999, -85.053807], [42.757685, -85.05379200000002], [42.763106, -85.053812], [42.763126, -85.048789], [42.763062999999995, -85.034191], [42.76320500000001, -85.03416], [42.76376700000002, -85.034005], [42.765758, -85.033981], [42.76935600000003, -85.033939], [42.77044500000004, -85.033971], [42.77067900000001, -85.033995], [42.770687, -85.022851], [42.77064099999996, -85.014874]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b5a671ad0e51da6fe92929f39e3bb807);
+        
+    
+        var popup_5a964a5892e201576f3e5bcbaf8f9bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef9d449570f2d7d1a1999d098afb37a4 = $(`<div id="html_ef9d449570f2d7d1a1999d098afb37a4" style="width: 100.0%; height: 100.0%;"><b>Eaton - Michigan-CD02</b></div>`)[0];
+                popup_5a964a5892e201576f3e5bcbaf8f9bf4.setContent(html_ef9d449570f2d7d1a1999d098afb37a4);
+            
+        
+
+        polygon_d0dc31fa4eb340a718253ce06a34474b.bindPopup(popup_5a964a5892e201576f3e5bcbaf8f9bf4)
+        ;
+
+        
+    
+    
+            var circle_marker_67fe6edd46c1397b56a3d27d881458b1 = L.circleMarker(
+                [42.7318181099136, -85.0001935627512],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_b5a671ad0e51da6fe92929f39e3bb807);
+        
+    
+        var popup_b9956ced384095d7d1a6639c1d8d8361 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98704a35ca77d8ad8356056e76959373 = $(`<div id="html_98704a35ca77d8ad8356056e76959373" style="width: 100.0%; height: 100.0%;"><b>Eaton - Michigan-CD02</b></div>`)[0];
+                popup_b9956ced384095d7d1a6639c1d8d8361.setContent(html_98704a35ca77d8ad8356056e76959373);
+            
+        
+
+        circle_marker_67fe6edd46c1397b56a3d27d881458b1.bindPopup(popup_b9956ced384095d7d1a6639c1d8d8361)
+        ;
+
+        
+    
+    
+            circle_marker_67fe6edd46c1397b56a3d27d881458b1.bindTooltip(
+                `<div>
+                     Eaton - Michigan-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

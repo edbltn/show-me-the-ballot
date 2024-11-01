@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bf8ea327ddad0364a329394719d1c310 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Kings - New York-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Kings - New York-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Kings - New York-CD08</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Kings - New York-CD09</p>
+            </div>
+    
+            <div class="folium-map" id="map_bf8ea327ddad0364a329394719d1c310" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bf8ea327ddad0364a329394719d1c310 = L.map(
+                "map_bf8ea327ddad0364a329394719d1c310",
+                {
+                    center: [40.6720577254922, -73.93564730088876],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aa53a18d73bbb32fe0723e704cb872a9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_aa53a18d73bbb32fe0723e704cb872a9.addTo(map_bf8ea327ddad0364a329394719d1c310);
+        
+    
+            var polygon_7f1b430ff3d7ee99a4639a415f582d95 = L.polygon(
+                [[40.673272000000026, -73.947396], [40.67416199999997, -73.947313], [40.67505299999995, -73.94723000000002], [40.67594400000001, -73.947146], [40.67655699999997, -73.947089], [40.676260000000006, -73.944923], [40.676235999999975, -73.944793], [40.675804000000014, -73.944574], [40.67579400000001, -73.944376], [40.67578300000002, -73.944175], [40.676085000000036, -73.94403], [40.67605399999999, -73.941889], [40.676429999999975, -73.941705], [40.67642099999997, -73.941535], [40.677199999999964, -73.941463], [40.67791900000001, -73.94138500000001], [40.678007999999984, -73.941376], [40.67809299999998, -73.941369], [40.67918399999995, -73.941277], [40.67955000000001, -73.941243], [40.679408999999985, -73.938672], [40.67979599999997, -73.938625], [40.679785999999986, -73.938436], [40.679729999999964, -73.937398], [40.68058900000002, -73.937568], [40.680814000000005, -73.935625], [40.68041600000001, -73.935565], [40.680040000000034, -73.93550300000001], [40.680156999999944, -73.934518], [40.680109999999985, -73.934527], [40.67999900000002, -73.934562], [40.67987599999999, -73.934623], [40.67975999999999, -73.93470400000001], [40.679659999999984, -73.934796], [40.67959299999999, -73.934872], [40.67956400000003, -73.934351], [40.679484999999964, -73.93289700000001], [40.679367000000006, -73.931327], [40.679276999999935, -73.92905800000001], [40.678550000000016, -73.929811], [40.678433999999996, -73.929926], [40.678303999999976, -73.930034], [40.67816499999998, -73.93012600000002], [40.67802600000002, -73.930199], [40.677868, -73.93026000000002], [40.67770600000001, -73.930301], [40.67754400000001, -73.930322], [40.67748499999997, -73.930322], [40.677392000000026, -73.930321], [40.67735099999999, -73.93031800000001], [40.67731700000002, -73.930321], [40.676597, -73.930383], [40.676580000000044, -73.930081], [40.676574000000045, -73.929987], [40.67579600000001, -73.930073], [40.67580399999999, -73.93021], [40.675818000000014, -73.930457], [40.675039000000005, -73.93053], [40.67494099999999, -73.928757], [40.674886999999984, -73.927761], [40.67486, -73.927257], [40.67480699999997, -73.926283], [40.674784000000066, -73.925857], [40.67475900000004, -73.925395], [40.67473599999998, -73.924996], [40.67384399999999, -73.925082], [40.67339899999999, -73.925122], [40.67295400000002, -73.925161], [40.672061999999976, -73.925245], [40.67116899999998, -73.925328], [40.67027899999997, -73.925413], [40.67025199999999, -73.924937], [40.66940899999998, -73.925013], [40.66943500000001, -73.925491], [40.668715, -73.925573], [40.66849599999994, -73.925598], [40.668492999999984, -73.925539], [40.66828499999999, -73.92537], [40.66798799999996, -73.92513], [40.667719999999974, -73.924915], [40.66748700000004, -73.924772], [40.66683600000004, -73.924562], [40.666385000000005, -73.924389], [40.66636100000003, -73.924449], [40.665915999999974, -73.925463], [40.66571500000001, -73.92592200000001], [40.665514999999964, -73.92638], [40.665075000000066, -73.927394], [40.66493500000002, -73.927712], [40.66471000000002, -73.928228], [40.66457399999998, -73.928544], [40.664350999999975, -73.929052], [40.66429899999999, -73.929168], [40.664199, -73.929403], [40.663989999999984, -73.92987400000001], [40.66361999999997, -73.930685], [40.663557000000004, -73.931607], [40.66352407960878, -73.93210230490871], [40.67243675386096, -73.94747465552734], [40.673272000000026, -73.947396]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bf8ea327ddad0364a329394719d1c310);
+        
+    
+        var popup_2ac915b922d542a3929d7eb510119101 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1d42ec2126a55d21ed7d87b0e8514b14 = $(`<div id="html_1d42ec2126a55d21ed7d87b0e8514b14" style="width: 100.0%; height: 100.0%;"><b>Kings - New York-CD08</b></div>`)[0];
+                popup_2ac915b922d542a3929d7eb510119101.setContent(html_1d42ec2126a55d21ed7d87b0e8514b14);
+            
+        
+
+        polygon_7f1b430ff3d7ee99a4639a415f582d95.bindPopup(popup_2ac915b922d542a3929d7eb510119101)
+        ;
+
+        
+    
+    
+            var circle_marker_2768c79255e0003f7edd51212e063cb8 = L.circleMarker(
+                [40.67406618833469, -73.93277695960437],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bf8ea327ddad0364a329394719d1c310);
+        
+    
+        var popup_23f1455a8d62dfab6b8578f668a7fd66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7bcbf2b195e0d003802bac7e835dfb4 = $(`<div id="html_b7bcbf2b195e0d003802bac7e835dfb4" style="width: 100.0%; height: 100.0%;"><b>Kings - New York-CD08</b></div>`)[0];
+                popup_23f1455a8d62dfab6b8578f668a7fd66.setContent(html_b7bcbf2b195e0d003802bac7e835dfb4);
+            
+        
+
+        circle_marker_2768c79255e0003f7edd51212e063cb8.bindPopup(popup_23f1455a8d62dfab6b8578f668a7fd66)
+        ;
+
+        
+    
+    
+            circle_marker_2768c79255e0003f7edd51212e063cb8.bindTooltip(
+                `<div>
+                     Kings - New York-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_98d1ec317ef2045d39f0583bbea11ce0 = L.polygon(
+                [[40.668784000000045, -73.947818], [40.669501000000004, -73.94775], [40.66970499999998, -73.947731], [40.669919999999976, -73.94771], [40.67059700000001, -73.947647], [40.67066399999999, -73.94764200000002], [40.67148800000001, -73.947564], [40.67237999999996, -73.94748], [40.67243675386096, -73.94747465552734], [40.66352407960878, -73.93210230490871], [40.66337300000001, -73.934375], [40.663362000000006, -73.934553], [40.66319199999999, -73.937264], [40.663469, -73.937211], [40.66346799999998, -73.939489], [40.663877000000014, -73.939442], [40.663904, -73.939926], [40.66345299999997, -73.93997800000001], [40.663502000000065, -73.942164], [40.663808999999986, -73.942258], [40.66405100000002, -73.942628], [40.66405500000004, -73.942696], [40.664947, -73.942613], [40.66583800000002, -73.942528], [40.66585299999997, -73.942805], [40.666286, -73.942767], [40.66644400000001, -73.945256], [40.66598799999999, -73.945301], [40.66600200000003, -73.94556400000002], [40.66600800000002, -73.94568400000001], [40.66648, -73.945655], [40.666558999999985, -73.947535], [40.66657500000003, -73.948025], [40.66703100000003, -73.947984], [40.66792199999998, -73.947899], [40.668784000000045, -73.947818]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bf8ea327ddad0364a329394719d1c310);
+        
+    
+        var popup_2c5134b3345d54333108bdb9d27093ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_115c36b60d31865c44b894042726ae87 = $(`<div id="html_115c36b60d31865c44b894042726ae87" style="width: 100.0%; height: 100.0%;"><b>Kings - New York-CD09</b></div>`)[0];
+                popup_2c5134b3345d54333108bdb9d27093ca.setContent(html_115c36b60d31865c44b894042726ae87);
+            
+        
+
+        polygon_98d1ec317ef2045d39f0583bbea11ce0.bindPopup(popup_2c5134b3345d54333108bdb9d27093ca)
+        ;
+
+        
+    
+    
+            var circle_marker_b84835b255abc7187eb8c63a502f9923 = L.circleMarker(
+                [40.666478662040824, -73.94362047112323],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bf8ea327ddad0364a329394719d1c310);
+        
+    
+        var popup_7bb380e5b6521ef24ae1f066599ff243 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ae2dbea7c5319adf2eb48f7e0fe497d = $(`<div id="html_3ae2dbea7c5319adf2eb48f7e0fe497d" style="width: 100.0%; height: 100.0%;"><b>Kings - New York-CD09</b></div>`)[0];
+                popup_7bb380e5b6521ef24ae1f066599ff243.setContent(html_3ae2dbea7c5319adf2eb48f7e0fe497d);
+            
+        
+
+        circle_marker_b84835b255abc7187eb8c63a502f9923.bindPopup(popup_7bb380e5b6521ef24ae1f066599ff243)
+        ;
+
+        
+    
+    
+            circle_marker_b84835b255abc7187eb8c63a502f9923.bindTooltip(
+                `<div>
+                     Kings - New York-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

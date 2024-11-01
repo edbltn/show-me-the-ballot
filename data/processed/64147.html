@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9bfb02fc0a37ad8e932f87a100b0ae72 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jackson - Missouri-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jackson - Missouri-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jackson - Missouri-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jackson - Missouri-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_9bfb02fc0a37ad8e932f87a100b0ae72" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9bfb02fc0a37ad8e932f87a100b0ae72 = L.map(
+                "map_9bfb02fc0a37ad8e932f87a100b0ae72",
+                {
+                    center: [38.85122967105631, -94.54842459177027],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_98f4d45a3443e1cec7c66e02e5e06ab4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_98f4d45a3443e1cec7c66e02e5e06ab4.addTo(map_9bfb02fc0a37ad8e932f87a100b0ae72);
+        
+    
+            var polygon_ec7b6f1ab7aede00b0a6c4bb217b1011 = L.polygon(
+                [[38.847232, -94.56475], [38.849974, -94.564574], [38.850080000000034, -94.564626], [38.85015900000002, -94.56473], [38.85017899999998, -94.56478], [38.85026700000005, -94.565486], [38.85029999999998, -94.565562], [38.850349000000044, -94.56562200000002], [38.85045500000005, -94.56567100000001], [38.852672000000005, -94.56553], [38.85675500000003, -94.565219], [38.858147000000024, -94.565119], [38.858857999999934, -94.565068], [38.85937399999999, -94.565031], [38.859589000000064, -94.56501600000001], [38.85972400000001, -94.565006], [38.863667, -94.564697], [38.864875999999995, -94.564602], [38.86688699999999, -94.564444], [38.86685900000001, -94.563849], [38.866831, -94.563259], [38.86671900000001, -94.560832], [38.86678399999999, -94.560722], [38.86684100000004, -94.5606], [38.86686900000004, -94.560478], [38.86685000000002, -94.559888], [38.866769, -94.557352], [38.86676200000006, -94.557294], [38.866764000000025, -94.557239], [38.86631100000005, -94.547827], [38.86621600000003, -94.545855], [38.865660999999996, -94.534335], [38.86551100000001, -94.531213], [38.86532800000003, -94.5274], [38.865305000000006, -94.526921], [38.86446700000001, -94.52697800000001], [38.86370999999998, -94.52703], [38.863063, -94.527102], [38.86267199999997, -94.527165], [38.86251299999997, -94.52719900000001], [38.861676999999986, -94.527345], [38.859888000000005, -94.527672], [38.85862199999997, -94.527935], [38.85796600000002, -94.528071], [38.85793099999996, -94.528074], [38.85771999999998, -94.528125], [38.855964000000014, -94.528506], [38.855834999999985, -94.528524], [38.85411700000001, -94.528767], [38.853011000000045, -94.528797], [38.846224999999976, -94.529353], [38.84437261982431, -94.52950490675188], [38.84564296591322, -94.5648851200391], [38.847232, -94.56475]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9bfb02fc0a37ad8e932f87a100b0ae72);
+        
+    
+        var popup_312547b2118bbcaa37444209f89d4780 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_737c3fe029cc5cc1cc1da2d7d715b3ee = $(`<div id="html_737c3fe029cc5cc1cc1da2d7d715b3ee" style="width: 100.0%; height: 100.0%;"><b>Jackson - Missouri-CD05</b></div>`)[0];
+                popup_312547b2118bbcaa37444209f89d4780.setContent(html_737c3fe029cc5cc1cc1da2d7d715b3ee);
+            
+        
+
+        polygon_ec7b6f1ab7aede00b0a6c4bb217b1011.bindPopup(popup_312547b2118bbcaa37444209f89d4780)
+        ;
+
+        
+    
+    
+            var circle_marker_c28fa1706032c71dbd44f77269b3b489 = L.circleMarker(
+                [38.85897319603219, -94.54919222271835],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9bfb02fc0a37ad8e932f87a100b0ae72);
+        
+    
+        var popup_ff4bd8e4ba0810681dd6837be0e86e9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_912a1afd6e455f2fe3e39ff887e753f5 = $(`<div id="html_912a1afd6e455f2fe3e39ff887e753f5" style="width: 100.0%; height: 100.0%;"><b>Jackson - Missouri-CD05</b></div>`)[0];
+                popup_ff4bd8e4ba0810681dd6837be0e86e9a.setContent(html_912a1afd6e455f2fe3e39ff887e753f5);
+            
+        
+
+        circle_marker_c28fa1706032c71dbd44f77269b3b489.bindPopup(popup_ff4bd8e4ba0810681dd6837be0e86e9a)
+        ;
+
+        
+    
+    
+            circle_marker_c28fa1706032c71dbd44f77269b3b489.bindTooltip(
+                `<div>
+                     Jackson - Missouri-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9385c4442f361e390bcda4b3cd813e2f = L.polygon(
+                [[38.84370199999999, -94.530568], [38.84374299999997, -94.53139600000002], [38.843783999999985, -94.532213], [38.84381099999995, -94.532769], [38.84383899999999, -94.533329], [38.84390699999999, -94.534949], [38.844030000000025, -94.537827], [38.844041999999995, -94.539062], [38.84403200000001, -94.539545], [38.84401900000001, -94.539838], [38.84396400000005, -94.541065], [38.84398599999997, -94.541715], [38.84399400000002, -94.541828], [38.84400699999998, -94.54201300000001], [38.844018, -94.542147], [38.844040999999976, -94.542652], [38.84406100000001, -94.543101], [38.84406499999998, -94.54318200000002], [38.84407900000001, -94.543483], [38.844082, -94.543536], [38.84409599999999, -94.54382900000002], [38.844129999999986, -94.544547], [38.84413399999999, -94.544631], [38.844161000000014, -94.5452], [38.84423799999997, -94.546182], [38.84427599999999, -94.546428], [38.84426499999999, -94.54701], [38.84430899999998, -94.547947], [38.84432800000001, -94.548313], [38.844347999999975, -94.548731], [38.844352999999984, -94.548841], [38.844432, -94.550536], [38.844432999999974, -94.550553], [38.844444999999986, -94.550834], [38.84447600000001, -94.551538], [38.84450799999998, -94.552262], [38.844508999999995, -94.55229], [38.844580999999984, -94.553485], [38.84462500000003, -94.554205], [38.844637999999954, -94.554421], [38.84464899999999, -94.554552], [38.844666000000025, -94.554772], [38.844702000000005, -94.555222], [38.84490699999996, -94.557732], [38.84490299999999, -94.558104], [38.84493500000003, -94.559752], [38.84495100000003, -94.560456], [38.84500200000001, -94.56208], [38.84500700000001, -94.562234], [38.84498299999996, -94.562616], [38.84499200000001, -94.56269], [38.845017999999996, -94.562928], [38.845053000000036, -94.563251], [38.84512499999997, -94.563895], [38.84520699999999, -94.564633], [38.84522099999998, -94.564921], [38.84564296591322, -94.5648851200391], [38.84437261982431, -94.52950490675188], [38.843652, -94.529564], [38.843678000000004, -94.530087], [38.84370199999999, -94.530568]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9bfb02fc0a37ad8e932f87a100b0ae72);
+        
+    
+        var popup_b2abb1fe5d996b0563302a0e3dafbafe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7f1cfb313424a47fbf15c8cae035957 = $(`<div id="html_a7f1cfb313424a47fbf15c8cae035957" style="width: 100.0%; height: 100.0%;"><b>Jackson - Missouri-CD04</b></div>`)[0];
+                popup_b2abb1fe5d996b0563302a0e3dafbafe.setContent(html_a7f1cfb313424a47fbf15c8cae035957);
+            
+        
+
+        polygon_9385c4442f361e390bcda4b3cd813e2f.bindPopup(popup_b2abb1fe5d996b0563302a0e3dafbafe)
+        ;
+
+        
+    
+    
+            var circle_marker_a396deaf6f9fb9ca887b5b54a9e0c38d = L.circleMarker(
+                [38.84437474730717, -94.54774504961954],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9bfb02fc0a37ad8e932f87a100b0ae72);
+        
+    
+        var popup_d8f1b4c7f269d30844177b9e156de979 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be62222e562c9139669cc3433d602ddc = $(`<div id="html_be62222e562c9139669cc3433d602ddc" style="width: 100.0%; height: 100.0%;"><b>Jackson - Missouri-CD04</b></div>`)[0];
+                popup_d8f1b4c7f269d30844177b9e156de979.setContent(html_be62222e562c9139669cc3433d602ddc);
+            
+        
+
+        circle_marker_a396deaf6f9fb9ca887b5b54a9e0c38d.bindPopup(popup_d8f1b4c7f269d30844177b9e156de979)
+        ;
+
+        
+    
+    
+            circle_marker_a396deaf6f9fb9ca887b5b54a9e0c38d.bindTooltip(
+                `<div>
+                     Jackson - Missouri-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

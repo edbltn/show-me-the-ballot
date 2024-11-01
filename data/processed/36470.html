@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_625562b3bcb47c41d63f4f2af85947dc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD01</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Monroe - Alabama-CD07</p>
+            </div>
+    
+            <div class="folium-map" id="map_625562b3bcb47c41d63f4f2af85947dc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_625562b3bcb47c41d63f4f2af85947dc = L.map(
+                "map_625562b3bcb47c41d63f4f2af85947dc",
+                {
+                    center: [31.521296187716615, -87.54105196251481],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_837a6c3e8a7d83e4739b55e324d0b9fa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_837a6c3e8a7d83e4739b55e324d0b9fa.addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+            var polygon_60023c96d519832791d0dafeb7fabf30 = L.polygon(
+                [[31.483184000000026, -87.567893], [31.484877000000036, -87.571121], [31.487965000000003, -87.577663], [31.489810999999992, -87.58234], [31.491649000000027, -87.585852], [31.493608000000016, -87.59022], [31.494204, -87.592328], [31.495106000000032, -87.59469], [31.495589000000002, -87.595942], [31.49999900000002, -87.604605], [31.500162, -87.605064], [31.503071000000023, -87.608924], [31.504091999999986, -87.610199], [31.50520900000002, -87.611455], [31.506479821148172, -87.6129338307396], [31.519048999999953, -87.619844], [31.522385279938582, -87.61458798377807], [31.52371399999999, -87.610366], [31.52411000000001, -87.60924], [31.52594399999997, -87.604033], [31.526467999999987, -87.602343], [31.526887000000006, -87.600409], [31.527083000000015, -87.599893], [31.527440999999982, -87.599256], [31.52985899999998, -87.59642], [31.532503000000002, -87.59353], [31.53983300000002, -87.585841], [31.540603999999995, -87.584914], [31.54363862372059, -87.58108508451976], [31.55357300000003, -87.565413], [31.554478660323394, -87.56542199266734], [31.555709, -87.562733], [31.556442000000004, -87.560644], [31.556878000000022, -87.559119], [31.556878000000022, -87.558129], [31.556647999999992, -87.554998], [31.556144000000035, -87.553151], [31.55614400000001, -87.553017], [31.55570800000001, -87.551679], [31.554790999999998, -87.547531], [31.55453899999998, -87.546943], [31.55410400000001, -87.546113], [31.553462000000028, -87.545096], [31.55243000000001, -87.54325], [31.551720000000024, -87.542233], [31.550986000000016, -87.541029], [31.550413000000002, -87.540387], [31.550160999999992, -87.539879], [31.548922999999938, -87.538407], [31.547959999999996, -87.537257], [31.547295999999978, -87.536454], [31.54647100000001, -87.535679], [31.545485000000014, -87.534876], [31.544935000000006, -87.534582], [31.54362799999999, -87.533405], [31.543284000000007, -87.53287], [31.542848999999983, -87.531746], [31.542275000000025, -87.529766], [31.542068999999998, -87.528536], [31.542023, -87.527974], [31.54218300000001, -87.52677], [31.542961000000002, -87.524388], [31.543626000000028, -87.522729], [31.544426999999963, -87.521443], [31.544977000000003, -87.5208], [31.545916, -87.51989000000002], [31.54612300000001, -87.519783], [31.547244999999954, -87.51876600000001], [31.548551000000018, -87.518016], [31.548815000000037, -87.517823], [31.547386000000017, -87.515797], [31.54688799999999, -87.51509], [31.546616999999998, -87.514723], [31.54656099999998, -87.514657], [31.546334000000048, -87.514386], [31.546022000000026, -87.51408], [31.54568, -87.513804], [31.545310999999987, -87.513567], [31.54492099999996, -87.513371], [31.544451999999975, -87.513192], [31.54417800000001, -87.513116], [31.54276399999998, -87.512872], [31.542350000000003, -87.512817], [31.54201100000001, -87.512783], [31.541701, -87.51274900000001], [31.541570999999955, -87.512722], [31.54082899999998, -87.512639], [31.539956000000032, -87.512541], [31.538633999999977, -87.512378], [31.538198000000005, -87.512295], [31.53777200000002, -87.512187], [31.537360000000028, -87.512062], [31.537157000000004, -87.511992], [31.536775000000024, -87.511824], [31.536131000000022, -87.511492], [31.535967000000017, -87.511369], [31.535767000000014, -87.511233], [31.53537899999998, -87.510937], [31.535003000000028, -87.510625], [31.53447100000001, -87.510131], [31.532511999999986, -87.508256], [31.530630999999985, -87.506455], [31.52979799999995, -87.505675], [31.52926300000001, -87.505226], [31.528890000000004, -87.504937], [31.52869100000002, -87.504793], [31.528503000000025, -87.504658], [31.520636999999994, -87.499315], [31.51851000000001, -87.497878], [31.517852000000005, -87.497434], [31.517482999999963, -87.497175], [31.516946000000036, -87.496769], [31.516531000000015, -87.496433], [31.51651199999999, -87.49665], [31.516543000000006, -87.496845], [31.516696000000024, -87.497428], [31.516792, -87.497923], [31.51679599999997, -87.498414], [31.516702000000016, -87.498928], [31.516248999999988, -87.500924], [31.516014999999992, -87.5018], [31.515818999999986, -87.502391], [31.515722999999984, -87.502625], [31.515148999999997, -87.502337], [31.51468099999997, -87.502146], [31.514545000000002, -87.502119], [31.51444499999998, -87.502119], [31.514350000000036, -87.502151], [31.514248999999975, -87.502262], [31.514196000000066, -87.502399], [31.514163000000035, -87.502564], [31.514012999999945, -87.503325], [31.513965999999975, -87.503533], [31.513887000000025, -87.503734], [31.513781000000037, -87.503924], [31.51365499999998, -87.504103], [31.51328900000004, -87.504455], [31.51290800000002, -87.504789], [31.512548000000006, -87.505143], [31.512415999999984, -87.505318], [31.512347, -87.505446], [31.512291000000012, -87.505579], [31.51222000000003, -87.505864], [31.512139999999974, -87.506371], [31.512029999999992, -87.507227], [31.512031, -87.507391], [31.510676000000018, -87.50795], [31.509738999999986, -87.508367], [31.508788999999993, -87.508852], [31.507855000000024, -87.50936700000001], [31.50693800000004, -87.509842], [31.506671000000036, -87.509945], [31.505992000000028, -87.510209], [31.505018999999947, -87.510516], [31.503013000000017, -87.511124], [31.502784000000002, -87.511193], [31.502262999999992, -87.511337], [31.50119800000003, -87.511563], [31.499558000000015, -87.511809], [31.49842500000002, -87.51197], [31.49312599999999, -87.512721], [31.492843999999998, -87.51275], [31.492708999999994, -87.512779], [31.492080999999985, -87.512869], [31.491597000000024, -87.512972], [31.491114999999983, -87.513129], [31.490651000000025, -87.513335], [31.490209999999998, -87.513593], [31.489794000000025, -87.513895], [31.489391000000005, -87.514254], [31.489018999999978, -87.514654], [31.487640999999968, -87.516394], [31.486911999999997, -87.51722], [31.48609599999999, -87.517887], [31.48434999999998, -87.519052], [31.483528999999972, -87.519698], [31.482777000000016, -87.52042], [31.48202599999996, -87.521215], [31.48120399999999, -87.52197200000002], [31.480320000000006, -87.522516], [31.479824999999977, -87.522773], [31.478811, -87.5233], [31.478677000000005, -87.526159], [31.479072000000027, -87.528564], [31.482032999999994, -87.546403], [31.48267300000001, -87.550259], [31.479653000000003, -87.56313000000002], [31.47943500000002, -87.564058], [31.481682999999997, -87.565708], [31.483184000000026, -87.567893]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_7c47f784a3af0b61eeaf6f53922c9ff6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9975b634c1140a410b2338f1cd06c939 = $(`<div id="html_9975b634c1140a410b2338f1cd06c939" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD01</b></div>`)[0];
+                popup_7c47f784a3af0b61eeaf6f53922c9ff6.setContent(html_9975b634c1140a410b2338f1cd06c939);
+            
+        
+
+        polygon_60023c96d519832791d0dafeb7fabf30.bindPopup(popup_7c47f784a3af0b61eeaf6f53922c9ff6)
+        ;
+
+        
+    
+    
+            var circle_marker_d57ccb586f3bc1a3296636bedbee12db = L.circleMarker(
+                [31.521171859921743, -87.53065260995633],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_9f7b538030510002c5ef65481fc078a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e3fcc73b97a5248019adb7f0235bb89 = $(`<div id="html_6e3fcc73b97a5248019adb7f0235bb89" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD01</b></div>`)[0];
+                popup_9f7b538030510002c5ef65481fc078a5.setContent(html_6e3fcc73b97a5248019adb7f0235bb89);
+            
+        
+
+        circle_marker_d57ccb586f3bc1a3296636bedbee12db.bindPopup(popup_9f7b538030510002c5ef65481fc078a5)
+        ;
+
+        
+    
+    
+            circle_marker_d57ccb586f3bc1a3296636bedbee12db.bindTooltip(
+                `<div>
+                     Monroe - Alabama-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0a7b5bdebcb58503e9249ceb501ff834 = L.polygon(
+                [[31.506888999999983, -87.61341], [31.509443999999984, -87.616611], [31.510334999999955, -87.617754], [31.511572000000008, -87.619481], [31.51222999999995, -87.620425], [31.512560000000025, -87.620718], [31.513018999999982, -87.621069], [31.513761000000024, -87.621289], [31.51463900000001, -87.621428], [31.51474600000003, -87.621445], [31.516854000000013, -87.621251], [31.517323000000005, -87.621075], [31.51811699999995, -87.6206], [31.519048999999953, -87.619844], [31.506479821148172, -87.6129338307396], [31.506888999999983, -87.61341]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_9beee2bd9eb40d984784967a7cd2b110 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a11c3aa179f12471ac106cb6b89bc844 = $(`<div id="html_a11c3aa179f12471ac106cb6b89bc844" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD07</b></div>`)[0];
+                popup_9beee2bd9eb40d984784967a7cd2b110.setContent(html_a11c3aa179f12471ac106cb6b89bc844);
+            
+        
+
+        polygon_0a7b5bdebcb58503e9249ceb501ff834.bindPopup(popup_9beee2bd9eb40d984784967a7cd2b110)
+        ;
+
+        
+    
+    
+            var circle_marker_7672902b5358de2f9b8df24038ba242c = L.circleMarker(
+                [31.51274417632175, -87.61892148942123],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_c125e8339835085333a6cc57ccffc1df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_07a740c7710187a5b6586b1d6947adc1 = $(`<div id="html_07a740c7710187a5b6586b1d6947adc1" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD07</b></div>`)[0];
+                popup_c125e8339835085333a6cc57ccffc1df.setContent(html_07a740c7710187a5b6586b1d6947adc1);
+            
+        
+
+        circle_marker_7672902b5358de2f9b8df24038ba242c.bindPopup(popup_c125e8339835085333a6cc57ccffc1df)
+        ;
+
+        
+    
+    
+            circle_marker_7672902b5358de2f9b8df24038ba242c.bindTooltip(
+                `<div>
+                     Monroe - Alabama-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_5b31dddb24cb4ff7b1bbd62fd031768d = L.polygon(
+                [[31.520549, -87.618198], [31.52144299999996, -87.616821], [31.521964000000054, -87.615734], [31.52237299999998, -87.614627], [31.522385279938582, -87.61458798377807], [31.519048999999953, -87.619844], [31.520549, -87.618198]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_6b81121eb25a4d0c91ec667cee0bfa1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74812dde76685a959908a6dc3dbf0109 = $(`<div id="html_74812dde76685a959908a6dc3dbf0109" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD07</b></div>`)[0];
+                popup_6b81121eb25a4d0c91ec667cee0bfa1a.setContent(html_74812dde76685a959908a6dc3dbf0109);
+            
+        
+
+        polygon_5b31dddb24cb4ff7b1bbd62fd031768d.bindPopup(popup_6b81121eb25a4d0c91ec667cee0bfa1a)
+        ;
+
+        
+    
+    
+            var circle_marker_4efff9a9f535658812f9938393d225a0 = L.circleMarker(
+                [31.52118746856265, -87.61685856911116],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_a4bed50c36b69ae1f1e462c5c919913f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a1bcbc8bb6b7e74707c6e253c3a2f38 = $(`<div id="html_1a1bcbc8bb6b7e74707c6e253c3a2f38" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD07</b></div>`)[0];
+                popup_a4bed50c36b69ae1f1e462c5c919913f.setContent(html_1a1bcbc8bb6b7e74707c6e253c3a2f38);
+            
+        
+
+        circle_marker_4efff9a9f535658812f9938393d225a0.bindPopup(popup_a4bed50c36b69ae1f1e462c5c919913f)
+        ;
+
+        
+    
+    
+            circle_marker_4efff9a9f535658812f9938393d225a0.bindTooltip(
+                `<div>
+                     Monroe - Alabama-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9dfa9f7a4e7c273665f1eaea9ea2d123 = L.polygon(
+                [[31.544619000000043, -87.579848], [31.550117000000014, -87.571715], [31.552426000000008, -87.567721], [31.55357300000003, -87.565413], [31.54363862372059, -87.58108508451976], [31.544619000000043, -87.579848]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_76bb5a5a8c6a71367180de3021f60075 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04dc1f69fb649cc4cd1de8034cc1a587 = $(`<div id="html_04dc1f69fb649cc4cd1de8034cc1a587" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD07</b></div>`)[0];
+                popup_76bb5a5a8c6a71367180de3021f60075.setContent(html_04dc1f69fb649cc4cd1de8034cc1a587);
+            
+        
+
+        polygon_9dfa9f7a4e7c273665f1eaea9ea2d123.bindPopup(popup_76bb5a5a8c6a71367180de3021f60075)
+        ;
+
+        
+    
+    
+            var circle_marker_9ced2a24d0885a85dcc38c11c5b51212 = L.circleMarker(
+                [31.548165437286787, -87.57427168075331],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_625562b3bcb47c41d63f4f2af85947dc);
+        
+    
+        var popup_4817808cb466d600a1bae14518f78425 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1875fd8df6e753736775b75e8f0366a1 = $(`<div id="html_1875fd8df6e753736775b75e8f0366a1" style="width: 100.0%; height: 100.0%;"><b>Monroe - Alabama-CD07</b></div>`)[0];
+                popup_4817808cb466d600a1bae14518f78425.setContent(html_1875fd8df6e753736775b75e8f0366a1);
+            
+        
+
+        circle_marker_9ced2a24d0885a85dcc38c11c5b51212.bindPopup(popup_4817808cb466d600a1bae14518f78425)
+        ;
+
+        
+    
+    
+            circle_marker_9ced2a24d0885a85dcc38c11c5b51212.bindTooltip(
+                `<div>
+                     Monroe - Alabama-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

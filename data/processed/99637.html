@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_512c359e6be644308d7fe99ae5ee8e99 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bethel - Alaska-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bethel - Alaska-CD00</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bethel - Alaska-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Bethel - Alaska-CD00</p>
+            </div>
+    
+            <div class="folium-map" id="map_512c359e6be644308d7fe99ae5ee8e99" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_512c359e6be644308d7fe99ae5ee8e99 = L.map(
+                "map_512c359e6be644308d7fe99ae5ee8e99",
+                {
+                    center: [60.508927288346925, -165.08164407088998],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_30d8eaa39071b5c137e3ca243dbd5cb9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_30d8eaa39071b5c137e3ca243dbd5cb9.addTo(map_512c359e6be644308d7fe99ae5ee8e99);
+        
+    
+            var polygon_aea671c2b56b10c7b41fdf1e3f20e4c6 = L.polygon(
+                [[60.56286099999998, -165.148066], [60.56521200000004, -165.119347], [60.56929800000006, -165.069666], [60.573901000000006, -165.013405], [60.55945800000003, -165.012655], [60.55945800000001, -165.013391], [60.54098799999998, -165.01337399999997], [60.53980919840635, -165.01337290599497], [60.53186199999997, -165.093939], [60.49800100000004, -165.19044899999997], [60.49886504258039, -165.26170889840495], [60.52619000000002, -165.26949399999998], [60.55223400000001, -165.27692699999997], [60.55653800000004, -165.224934], [60.56286099999998, -165.148066]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_512c359e6be644308d7fe99ae5ee8e99);
+        
+    
+        var popup_966e12950dbc7f5e764c3d1f2b0ee2db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1dc2e5215d824dd117b3473591d5779 = $(`<div id="html_b1dc2e5215d824dd117b3473591d5779" style="width: 100.0%; height: 100.0%;"><b>Bethel - Alaska-CD00</b></div>`)[0];
+                popup_966e12950dbc7f5e764c3d1f2b0ee2db.setContent(html_b1dc2e5215d824dd117b3473591d5779);
+            
+        
+
+        polygon_aea671c2b56b10c7b41fdf1e3f20e4c6.bindPopup(popup_966e12950dbc7f5e764c3d1f2b0ee2db)
+        ;
+
+        
+    
+    
+            var circle_marker_63dc7f53eea9e5da9fa7f785666de692 = L.circleMarker(
+                [60.54650241606579, -165.12458632029333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_512c359e6be644308d7fe99ae5ee8e99);
+        
+    
+        var popup_80790a6b2765d9d73722e97e68c8e1f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_298ff5d1054f29d6431e4ab5b6e442e1 = $(`<div id="html_298ff5d1054f29d6431e4ab5b6e442e1" style="width: 100.0%; height: 100.0%;"><b>Bethel - Alaska-CD00</b></div>`)[0];
+                popup_80790a6b2765d9d73722e97e68c8e1f9.setContent(html_298ff5d1054f29d6431e4ab5b6e442e1);
+            
+        
+
+        circle_marker_63dc7f53eea9e5da9fa7f785666de692.bindPopup(popup_80790a6b2765d9d73722e97e68c8e1f9)
+        ;
+
+        
+    
+    
+            circle_marker_63dc7f53eea9e5da9fa7f785666de692.bindTooltip(
+                `<div>
+                     Bethel - Alaska-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_3187a203ba7c2f8111823eef9b8943a2 = L.polygon(
+                [[60.473013999999985, -165.01331], [60.47279699999996, -165.01330999999996], [60.47279699999996, -165.008178], [60.468945000000005, -165.007975], [60.46557599999997, -165.00779699999998], [60.459996999999994, -165.037921], [60.45591099999997, -165.059951], [60.45545200000002, -165.06242499999996], [60.44941910258651, -165.09490400419065], [60.46089300000001, -165.069693], [60.471414000000024, -165.015155], [60.47319873014078, -165.0133101763285], [60.473013999999985, -165.01331]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_512c359e6be644308d7fe99ae5ee8e99);
+        
+    
+        var popup_1636c4959828603b874133cc9430afba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c07a1a8bf759a8fa78e2478fcb6485b1 = $(`<div id="html_c07a1a8bf759a8fa78e2478fcb6485b1" style="width: 100.0%; height: 100.0%;"><b>Bethel - Alaska-CD00</b></div>`)[0];
+                popup_1636c4959828603b874133cc9430afba.setContent(html_c07a1a8bf759a8fa78e2478fcb6485b1);
+            
+        
+
+        polygon_3187a203ba7c2f8111823eef9b8943a2.bindPopup(popup_1636c4959828603b874133cc9430afba)
+        ;
+
+        
+    
+    
+            var circle_marker_ae2986e03eb08c065e18aede6b995ee1 = L.circleMarker(
+                [60.46557137174825, -165.03209532157837],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_512c359e6be644308d7fe99ae5ee8e99);
+        
+    
+        var popup_554e55945404559d0a8c4b003837e5bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f5e82c009f8ff3392572ac9f95573b8 = $(`<div id="html_2f5e82c009f8ff3392572ac9f95573b8" style="width: 100.0%; height: 100.0%;"><b>Bethel - Alaska-CD00</b></div>`)[0];
+                popup_554e55945404559d0a8c4b003837e5bc.setContent(html_2f5e82c009f8ff3392572ac9f95573b8);
+            
+        
+
+        circle_marker_ae2986e03eb08c065e18aede6b995ee1.bindPopup(popup_554e55945404559d0a8c4b003837e5bc)
+        ;
+
+        
+    
+    
+            circle_marker_ae2986e03eb08c065e18aede6b995ee1.bindTooltip(
+                `<div>
+                     Bethel - Alaska-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

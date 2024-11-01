@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_abf583113432efb266f38d6d79e53c5b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD00</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Coos - New Hampshire-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_abf583113432efb266f38d6d79e53c5b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_abf583113432efb266f38d6d79e53c5b = L.map(
+                "map_abf583113432efb266f38d6d79e53c5b",
+                {
+                    center: [44.77373094278664, -71.53315720976673],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9d60b3e91c75da0ace0f9196396d77ca = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9d60b3e91c75da0ace0f9196396d77ca.addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+            var polygon_1c3c6238642e6773da04451cbbc18784 = L.polygon(
+                [[44.64989699999998, -71.571626], [44.649961, -71.573316], [44.65024, -71.575096], [44.650686000000015, -71.577081], [44.65127800000003, -71.57874], [44.651497999999954, -71.579431], [44.651684, -71.579869], [44.651866999999996, -71.580028], [44.65209899999998, -71.580071], [44.65224700000003, -71.579906], [44.65230899999999, -71.57941899999999], [44.65243200000003, -71.57830500000001], [44.65260599999999, -71.577259], [44.65276199999998, -71.57609800000002], [44.65310199999998, -71.575259], [44.65352800000003, -71.574742], [44.653873622001456, -71.57458224659358], [44.64994340865909, -71.5711616292966], [44.64989699999998, -71.571626]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_31c38ab210d22d4735b9740bbb5ce722 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8ff1d8b2df78ed4c254bd6cd711e707 = $(`<div id="html_c8ff1d8b2df78ed4c254bd6cd711e707" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_31c38ab210d22d4735b9740bbb5ce722.setContent(html_c8ff1d8b2df78ed4c254bd6cd711e707);
+            
+        
+
+        polygon_1c3c6238642e6773da04451cbbc18784.bindPopup(popup_31c38ab210d22d4735b9740bbb5ce722)
+        ;
+
+        
+    
+    
+            var circle_marker_3aa5ec906d7580ddf32aecce46ee85aa = L.circleMarker(
+                [44.651679475297925, -71.57650609873104],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_84b242e72ddbc96a2b21610fc3276c08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70f44f784f424ce2f359c996b45fa79c = $(`<div id="html_70f44f784f424ce2f359c996b45fa79c" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_84b242e72ddbc96a2b21610fc3276c08.setContent(html_70f44f784f424ce2f359c996b45fa79c);
+            
+        
+
+        circle_marker_3aa5ec906d7580ddf32aecce46ee85aa.bindPopup(popup_84b242e72ddbc96a2b21610fc3276c08)
+        ;
+
+        
+    
+    
+            circle_marker_3aa5ec906d7580ddf32aecce46ee85aa.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_64606b8fc03cd29f0084a9148cc34dc8 = L.polygon(
+                [[44.656189, -71.57660000000001], [44.65614599999999, -71.577412], [44.65585499999999, -71.578297], [44.655449000000004, -71.57918400000001], [44.65535599999998, -71.579926], [44.655375999999954, -71.580389], [44.65545, -71.581315], [44.65589099999999, -71.582722], [44.656345999999985, -71.583734], [44.65688199999998, -71.584606], [44.657415999999984, -71.585269], [44.6579, -71.585748], [44.658511999999995, -71.586243], [44.65918500000003, -71.58676500000001], [44.659715000000006, -71.58736499999999], [44.66017199999998, -71.587566], [44.66045400000002, -71.587747], [44.66070799999994, -71.58779000000001], [44.66083499999997, -71.587811], [44.66109899999999, -71.587668], [44.661475000000024, -71.58719799999999], [44.66170299999996, -71.586778], [44.66175000000001, -71.586701], [44.66217700000002, -71.58600600000001], [44.66276700000001, -71.585371], [44.663112000000034, -71.58511], [44.663507999999986, -71.584942], [44.66355699999995, -71.584941], [44.66405399999999, -71.58493300000002], [44.66466600000001, -71.58504], [44.66556100000001, -71.585188], [44.66605699999998, -71.585157], [44.66662100000003, -71.585426], [44.66710300000005, -71.585789], [44.66792000000005, -71.586518], [44.66876999999999, -71.58733900000001], [44.66928600000005, -71.587771], [44.669667000000025, -71.58790399999998], [44.66993200000001, -71.587877], [44.67000099999999, -71.587826], [44.67012900000003, -71.587735], [44.67030899999998, -71.587454], [44.670398822010135, -71.5871811875013], [44.665351, -71.584574], [44.65618854152532, -71.57659721903703], [44.656189, -71.57660000000001]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_89595c8d2254f2d48e7ff8db8d304445 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3118df28e94c253daad5e7f9002ed6f3 = $(`<div id="html_3118df28e94c253daad5e7f9002ed6f3" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_89595c8d2254f2d48e7ff8db8d304445.setContent(html_3118df28e94c253daad5e7f9002ed6f3);
+            
+        
+
+        polygon_64606b8fc03cd29f0084a9148cc34dc8.bindPopup(popup_89595c8d2254f2d48e7ff8db8d304445)
+        ;
+
+        
+    
+    
+            var circle_marker_f1002ca00b2fb82fe7162810e5126ce8 = L.circleMarker(
+                [44.66202583398991, -71.5847415957943],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_5f834c421648f40e611c0a8854c2e131 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6be5153601eefbe0c769a43837275a98 = $(`<div id="html_6be5153601eefbe0c769a43837275a98" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_5f834c421648f40e611c0a8854c2e131.setContent(html_6be5153601eefbe0c769a43837275a98);
+            
+        
+
+        circle_marker_f1002ca00b2fb82fe7162810e5126ce8.bindPopup(popup_5f834c421648f40e611c0a8854c2e131)
+        ;
+
+        
+    
+    
+            circle_marker_f1002ca00b2fb82fe7162810e5126ce8.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7e5330d07d50299d20fae9af1cd0d445 = L.polygon(
+                [[44.676619999999986, -71.590831], [44.67672600000004, -71.591641], [44.67672100000003, -71.592151], [44.67666700000003, -71.592581], [44.67665299999996, -71.59291700000001], [44.67667199999994, -71.59323], [44.67685099999998, -71.593864], [44.67711499999994, -71.594903], [44.67736800000002, -71.595467], [44.677637, -71.596089], [44.678087999999995, -71.596615], [44.67844499999998, -71.596771], [44.67879199999999, -71.596766], [44.679055999999996, -71.596623], [44.679335, -71.596375], [44.679638000000004, -71.59598800000002], [44.68007200000001, -71.59546000000002], [44.68048099999996, -71.59497800000001], [44.68079199999999, -71.594687], [44.681022999999996, -71.594471], [44.681138, -71.594398], [44.68129599999998, -71.59429900000002], [44.68144000000001, -71.594208], [44.68153299999993, -71.59415], [44.68215200000003, -71.59399], [44.683425, -71.59395900000001], [44.683571893551566, -71.59398686899384], [44.67637548746056, -71.59026862067951], [44.676619999999986, -71.590831]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_b92491651aefea1e496cbb6361dec9be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef0817bfa5000985fbd4709e461b1fa4 = $(`<div id="html_ef0817bfa5000985fbd4709e461b1fa4" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_b92491651aefea1e496cbb6361dec9be.setContent(html_ef0817bfa5000985fbd4709e461b1fa4);
+            
+        
+
+        polygon_7e5330d07d50299d20fae9af1cd0d445.bindPopup(popup_b92491651aefea1e496cbb6361dec9be)
+        ;
+
+        
+    
+    
+            var circle_marker_f4a18556abef5987897607f900e5627f = L.circleMarker(
+                [44.679044944172816, -71.59422408585081],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_c9e9fb0be564360f75ca21740aee67e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c015a912827b796b02926e2c7aef797f = $(`<div id="html_c015a912827b796b02926e2c7aef797f" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_c9e9fb0be564360f75ca21740aee67e2.setContent(html_c015a912827b796b02926e2c7aef797f);
+            
+        
+
+        circle_marker_f4a18556abef5987897607f900e5627f.bindPopup(popup_c9e9fb0be564360f75ca21740aee67e2)
+        ;
+
+        
+    
+    
+            circle_marker_f4a18556abef5987897607f900e5627f.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_af67a5f580c7a61fc126454243b9d298 = L.polygon(
+                [[44.684780999999994, -71.59487600000001], [44.68537100000001, -71.59533100000002], [44.68630200000001, -71.595965], [44.68732399999998, -71.596564], [44.68820200000002, -71.596701], [44.68898789641404, -71.5967857352092], [44.68436892623597, -71.59439872925824], [44.684780999999994, -71.59487600000001]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_368d667a7dac02ffb077b677ed86bce0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_547df556f97caecd7c7477e85310e59c = $(`<div id="html_547df556f97caecd7c7477e85310e59c" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_368d667a7dac02ffb077b677ed86bce0.setContent(html_547df556f97caecd7c7477e85310e59c);
+            
+        
+
+        polygon_af67a5f580c7a61fc126454243b9d298.bindPopup(popup_368d667a7dac02ffb077b677ed86bce0)
+        ;
+
+        
+    
+    
+            var circle_marker_c4ca099a2a1275719a232b40e9e688a9 = L.circleMarker(
+                [44.68626472783126, -71.59568718305843],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_530d3988242dc73454d60ea18713b182 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9513a634266be7918356d88b1f04b286 = $(`<div id="html_9513a634266be7918356d88b1f04b286" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_530d3988242dc73454d60ea18713b182.setContent(html_9513a634266be7918356d88b1f04b286);
+            
+        
+
+        circle_marker_c4ca099a2a1275719a232b40e9e688a9.bindPopup(popup_530d3988242dc73454d60ea18713b182)
+        ;
+
+        
+    
+    
+            circle_marker_c4ca099a2a1275719a232b40e9e688a9.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_27910073441f2b7017c769a1b612a5b8 = L.polygon(
+                [[44.71544799999999, -71.610594], [44.71550999999998, -71.610703], [44.71584599999995, -71.61129900000002], [44.71599899999997, -71.611583], [44.716413000000024, -71.612107], [44.716673, -71.61251200000001], [44.716859, -71.61260200000001], [44.71726099999999, -71.612456], [44.717408000000034, -71.612418], [44.71756000000001, -71.61246200000001], [44.71786499999998, -71.612658], [44.71798600000001, -71.612856], [44.718194999999966, -71.612993], [44.71830400000002, -71.612955], [44.71848300000003, -71.61276], [44.71865699999997, -71.612654], [44.71889000000003, -71.612607], [44.71918600000001, -71.612548], [44.71995599999997, -71.613766], [44.720476999999974, -71.614871], [44.720961999999965, -71.616076], [44.721015, -71.616207], [44.721118000000025, -71.616462], [44.72138, -71.61716], [44.72166100000002, -71.617747], [44.72194199999997, -71.618259], [44.722193000000004, -71.618644], [44.72227200000003, -71.618683], [44.722470999999985, -71.618732], [44.72276399999993, -71.618699], [44.723952, -71.618368], [44.72538, -71.618056], [44.72610700000001, -71.617871], [44.72688999999998, -71.617546], [44.727681000000004, -71.617209], [44.7281878638347, -71.61705667374319], [44.71519222847002, -71.61033383082562], [44.71544799999999, -71.610594]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_925e37702a475d2a19ae1793ec686343 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_531d21304fa80420c383473233572560 = $(`<div id="html_531d21304fa80420c383473233572560" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_925e37702a475d2a19ae1793ec686343.setContent(html_531d21304fa80420c383473233572560);
+            
+        
+
+        polygon_27910073441f2b7017c769a1b612a5b8.bindPopup(popup_925e37702a475d2a19ae1793ec686343)
+        ;
+
+        
+    
+    
+            var circle_marker_24a9d70df93aac2b2a882d3dae1c0f1e = L.circleMarker(
+                [44.71998926558696, -71.61455546064656],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_a4ee9b62b1618213d5593485a2fb21c8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c497bb9bc688fb8c7811717acdbab5b = $(`<div id="html_8c497bb9bc688fb8c7811717acdbab5b" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_a4ee9b62b1618213d5593485a2fb21c8.setContent(html_8c497bb9bc688fb8c7811717acdbab5b);
+            
+        
+
+        circle_marker_24a9d70df93aac2b2a882d3dae1c0f1e.bindPopup(popup_a4ee9b62b1618213d5593485a2fb21c8)
+        ;
+
+        
+    
+    
+            circle_marker_24a9d70df93aac2b2a882d3dae1c0f1e.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4cb1ed979307a2a91cc82a46afff52a4 = L.polygon(
+                [[44.72900900000002, -71.617827], [44.72907999999999, -71.618452], [44.72903499999999, -71.619079], [44.72884100000001, -71.619685], [44.72862799999996, -71.620142], [44.72845100000003, -71.620526], [44.727912, -71.621416], [44.72753799999996, -71.622234], [44.72736100000003, -71.622863], [44.72731599999999, -71.623583], [44.727455000000006, -71.624392], [44.72770799999992, -71.625038], [44.72804300000003, -71.625613], [44.72854300000004, -71.626093], [44.729040000000026, -71.62624800000002], [44.72970200000001, -71.626307], [44.73057799999997, -71.626271], [44.73197499999998, -71.626157], [44.73275199999999, -71.62611100000001], [44.73369400000003, -71.626004], [44.734280999999996, -71.625843], [44.73450200000001, -71.625783], [44.735002999999985, -71.625531], [44.73535900000002, -71.62535200000002], [44.73629900000003, -71.625013], [44.73681099999996, -71.624936], [44.73743999999993, -71.624996], [44.73813700000003, -71.625241], [44.738949999999996, -71.625692], [44.73986400000002, -71.626166], [44.740509999999965, -71.626411], [44.74099000000001, -71.626358], [44.741285999999945, -71.62621400000002], [44.741598, -71.625931], [44.74214100000001, -71.625528], [44.74265499999998, -71.625207], [44.742749999999944, -71.625148], [44.74291700000002, -71.625133], [44.74336100000001, -71.62509200000001], [44.74417399999999, -71.62535800000002], [44.745369000000004, -71.62599], [44.74636600000003, -71.626532], [44.74701400000006, -71.626986], [44.74733099999999, -71.62733], [44.74751599999998, -71.627768], [44.74765199999999, -71.62823], [44.74783900000001, -71.628923], [44.748035999999956, -71.629825], [44.748315, -71.630541], [44.74850899999998, -71.63106000000002], [44.748693, -71.631382], [44.74883499999997, -71.631496], [44.749034, -71.631632], [44.74958999999997, -71.631821], [44.750026999999974, -71.631964], [44.75006399999998, -71.631976], [44.75026899999999, -71.632043], [44.75098500000001, -71.63216], [44.75161799999999, -71.632114], [44.752059, -71.63202], [44.75236899999997, -71.63182300000001], [44.75256200000007, -71.631626], [44.75263199999996, -71.631555], [44.75302999999997, -71.631231], [44.753306, -71.630754], [44.75347499999997, -71.630257], [44.75357800000004, -71.629919], [44.75362499999999, -71.629629], [44.75364400000005, -71.629254], [44.75370999999999, -71.628635], [44.753757, -71.62811900000001], [44.75375699999998, -71.62764], [44.75373799999998, -71.627293], [44.753681999999955, -71.626956], [44.753659, -71.62661], [44.753676000000034, -71.626085], [44.753788000000014, -71.625482], [44.75384300000002, -71.625189], [44.75405400000002, -71.624629], [44.754479000000025, -71.624031], [44.75491999999993, -71.62337400000001], [44.755448999999984, -71.622171], [44.75577200000004, -71.621157], [44.75602099999999, -71.620259], [44.75604800000005, -71.619446], [44.755904, -71.619031], [44.75580055373579, -71.61856782137224], [44.747224000000045, -71.62690900000001], [44.728852494688745, -71.6174005666093], [44.72900900000002, -71.617827]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_ed1a773dbf6643de989d032a037bda72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2876adcedb0742e06fa83c2758697e9 = $(`<div id="html_a2876adcedb0742e06fa83c2758697e9" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_ed1a773dbf6643de989d032a037bda72.setContent(html_a2876adcedb0742e06fa83c2758697e9);
+            
+        
+
+        polygon_4cb1ed979307a2a91cc82a46afff52a4.bindPopup(popup_ed1a773dbf6643de989d032a037bda72)
+        ;
+
+        
+    
+    
+            var circle_marker_5d8ef0196d75a7350408c4e084cd039d = L.circleMarker(
+                [44.74346860053805, -71.62610695986646],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_89ce8fb88daabe62fb6584f11f83fde6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74f7b3d28475a6ad26b7ffd9dc4bbdf0 = $(`<div id="html_74f7b3d28475a6ad26b7ffd9dc4bbdf0" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_89ce8fb88daabe62fb6584f11f83fde6.setContent(html_74f7b3d28475a6ad26b7ffd9dc4bbdf0);
+            
+        
+
+        circle_marker_5d8ef0196d75a7350408c4e084cd039d.bindPopup(popup_89ce8fb88daabe62fb6584f11f83fde6)
+        ;
+
+        
+    
+    
+            circle_marker_5d8ef0196d75a7350408c4e084cd039d.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4e64cb4af69494763387f28310ed590e = L.polygon(
+                [[44.76230199999997, -71.612341], [44.762978000000025, -71.612122], [44.763581, -71.611973], [44.764064, -71.611879], [44.764365, -71.61176400000001], [44.76501599999999, -71.611545], [44.765328999999994, -71.611355], [44.76551700000001, -71.61107300000002], [44.76558899999998, -71.610701], [44.76558399999998, -71.61017900000002], [44.7657, -71.609051], [44.76574619732275, -71.60889203783861], [44.76209304197881, -71.6124464557884], [44.76230199999997, -71.612341]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_3328a83efe13ad80033e3f171840ada5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d93b702d0c1bb0992253000da30a70e5 = $(`<div id="html_d93b702d0c1bb0992253000da30a70e5" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_3328a83efe13ad80033e3f171840ada5.setContent(html_d93b702d0c1bb0992253000da30a70e5);
+            
+        
+
+        polygon_4e64cb4af69494763387f28310ed590e.bindPopup(popup_3328a83efe13ad80033e3f171840ada5)
+        ;
+
+        
+    
+    
+            var circle_marker_1bc76127ededc1b3d201f4c18c721439 = L.circleMarker(
+                [44.76429758852153, -71.61126160668765],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_4739f594f48ef3b046e3d0f8f80f946c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4270d36bf38fb3c413b67898c4a0c8da = $(`<div id="html_4270d36bf38fb3c413b67898c4a0c8da" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_4739f594f48ef3b046e3d0f8f80f946c.setContent(html_4270d36bf38fb3c413b67898c4a0c8da);
+            
+        
+
+        circle_marker_1bc76127ededc1b3d201f4c18c721439.bindPopup(popup_4739f594f48ef3b046e3d0f8f80f946c)
+        ;
+
+        
+    
+    
+            circle_marker_1bc76127ededc1b3d201f4c18c721439.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_bb67505274f83b2b2dcd2629376b21f4 = L.polygon(
+                [[44.80797500000001, -71.569245], [44.80847700000003, -71.570027], [44.808913000000004, -71.57069300000002], [44.80923100000001, -71.571153], [44.809563000000004, -71.57138000000002], [44.81031099999998, -71.571809], [44.810911999999995, -71.572496], [44.81124100000001, -71.57290300000001], [44.81133199999995, -71.57316100000001], [44.81161999999998, -71.57413499999998], [44.81194200000005, -71.57512800000002], [44.812429000000016, -71.57605], [44.81259599999994, -71.576253], [44.812730000000016, -71.576417], [44.81322899999996, -71.57678100000001], [44.81402399999998, -71.57695400000001], [44.814785000000015, -71.57696500000002], [44.81519700000004, -71.576865], [44.81575699999997, -71.576508], [44.81662699999999, -71.575751], [44.81705399999997, -71.575349], [44.81761400000001, -71.575084], [44.818108999999986, -71.57489], [44.818766000000025, -71.574438], [44.81944299999997, -71.574218], [44.819987, -71.574001], [44.820463999999994, -71.573668], [44.82064400000001, -71.573456], [44.82082300000002, -71.573151], [44.82101799999999, -71.572683], [44.82134199999998, -71.57188799999999], [44.82164200000005, -71.571104], [44.82220799999999, -71.56952700000001], [44.82270300000001, -71.568404], [44.82314099999998, -71.567397], [44.82345700000001, -71.566533], [44.823651000000005, -71.56608800000001], [44.823789999999946, -71.56583], [44.82400300000001, -71.565617], [44.82409999999999, -71.565314], [44.82408100000005, -71.565035], [44.82387999999998, -71.56476], [44.823547999999946, -71.56453299999998], [44.82321600000004, -71.564422], [44.82303199999998, -71.564169], [44.82294599999995, -71.56377600000002], [44.82300799999999, -71.563217], [44.823282, -71.562353], [44.82362499999999, -71.561836], [44.824264999999954, -71.56122100000002], [44.824665999999965, -71.561049], [44.82468900000001, -71.561039], [44.82491400000002, -71.560943], [44.82513499999995, -71.560848], [44.82516500000002, -71.560835], [44.82522100000002, -71.560811], [44.82616000000004, -71.560424], [44.82734800000004, -71.560126], [44.82833800000003, -71.559854], [44.829540999999935, -71.559253], [44.830580000000005, -71.558911], [44.830698, -71.55885099999999], [44.83151800000002, -71.55843100000001], [44.83295099999999, -71.557734], [44.833873000000004, -71.557254], [44.834201, -71.556923], [44.83442699999999, -71.556176], [44.83460300000001, -71.555452], [44.83479199999999, -71.55431], [44.83516399999994, -71.553328], [44.835654, -71.552553], [44.83625900000005, -71.551823], [44.836964999999964, -71.551114], [44.83772200000001, -71.550753], [44.83849900000002, -71.550647], [44.839293, -71.550704], [44.84041999999996, -71.551011], [44.841399000000024, -71.55139], [44.841795999999974, -71.551453], [44.842014, -71.551435], [44.84215999999999, -71.55142400000001], [44.84275700000005, -71.551577], [44.84327300000005, -71.551987], [44.843873000000066, -71.55253500000002], [44.84460399999994, -71.553034], [44.84551899999997, -71.553623], [44.84596899999999, -71.55408100000001], [44.846388000000005, -71.554772], [44.84675599999995, -71.555277], [44.84700599999999, -71.555482], [44.847421000000004, -71.555667], [44.84800899999997, -71.55576799999999], [44.84856700000001, -71.555794], [44.848967999999985, -71.55571699999999], [44.849043000000044, -71.555686], [44.84911799999998, -71.555656], [44.84953599999998, -71.555487], [44.85003799999997, -71.555142], [44.85067800000005, -71.554562], [44.85136700000001, -71.55383], [44.85185800000005, -71.553217], [44.85245400000001, -71.552336], [44.85284199999996, -71.55189200000001], [44.85287000000002, -71.55186], [44.852953999999976, -71.551765], [44.852971000000004, -71.551745], [44.853011, -71.551699], [44.85308700000001, -71.551596], [44.85310800000003, -71.55156800000002], [44.85299, -71.55142400000001], [44.85296699999998, -71.551384], [44.852863999999954, -71.551323], [44.85280799999998, -71.551326], [44.85264600000004, -71.551423], [44.852633, -71.551431], [44.85089599999997, -71.552671], [44.85075500000004, -71.552693], [44.85069600000003, -71.552662], [44.850647999999936, -71.552569], [44.85055999999999, -71.5524], [44.85072299999999, -71.552342], [44.85097700000003, -71.552209], [44.85162799999997, -71.551815], [44.852079000000025, -71.551509], [44.852352000000025, -71.551256], [44.85245099999995, -71.55114699999999], [44.85254300000002, -71.551047], [44.853083999999974, -71.550299], [44.85334999999996, -71.54985100000002], [44.85377600000001, -71.54906400000002], [44.85389500000003, -71.548744], [44.85416100000006, -71.548282], [44.85437499999998, -71.547795], [44.854579, -71.547502], [44.85491299999999, -71.54709], [44.85512600000004, -71.546865], [44.855549000000025, -71.54661200000001], [44.856008, -71.54636700000002], [44.85642600000004, -71.546164], [44.85660899999997, -71.546045], [44.85681300000004, -71.545912], [44.85718900000002, -71.545729], [44.857603000000005, -71.545528], [44.857598000000024, -71.54536800000001], [44.85765500000005, -71.545205], [44.85792499999999, -71.54484900000001], [44.858332, -71.544251], [44.85840600000001, -71.544117], [44.858463000000036, -71.543913], [44.85855300000005, -71.54369], [44.85868900000003, -71.543406], [44.85876499999996, -71.543273], [44.85894000000002, -71.543003], [44.85925200000003, -71.542542], [44.85957099999998, -71.542159], [44.859842, -71.541861], [44.86000300000004, -71.541728], [44.86040400000008, -71.541265], [44.86061400000001, -71.541028], [44.86098699999999, -71.54056800000001], [44.861530999999964, -71.53979500000001], [44.86191800000005, -71.539184], [44.86203499999996, -71.539018], [44.86219000000004, -71.538799], [44.862504999999985, -71.538264], [44.86277399999998, -71.537836], [44.86298700000004, -71.537541], [44.86319500000002, -71.537272], [44.86330500000003, -71.53711300000002], [44.863474999999994, -71.536868], [44.863874999999965, -71.536217], [44.863927999999966, -71.536147], [44.86403100000004, -71.536171], [44.864097000000044, -71.53624600000002], [44.86426900000002, -71.535805], [44.86454800000002, -71.535307], [44.86471000000004, -71.534989], [44.86487799999996, -71.534734], [44.86524000000002, -71.534119], [44.86567299999995, -71.533453], [44.865982999999986, -71.53301], [44.866247999999985, -71.532597], [44.866604999999986, -71.532023], [44.86702999999998, -71.531348], [44.867236068227506, -71.53102917036665], [44.80765534468258, -71.56889140316504], [44.80797500000001, -71.569245]],
+                {"bubblingMouseEvents": true, "color": "#f032e6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f032e6", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_14350262b4eb2b555921dd1172d8f9f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d6a0634ac870c40b01751a572961397 = $(`<div id="html_9d6a0634ac870c40b01751a572961397" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_14350262b4eb2b555921dd1172d8f9f2.setContent(html_9d6a0634ac870c40b01751a572961397);
+            
+        
+
+        polygon_bb67505274f83b2b2dcd2629376b21f4.bindPopup(popup_14350262b4eb2b555921dd1172d8f9f2)
+        ;
+
+        
+    
+    
+            var circle_marker_e2d85a0c985a494cfd7db7b5bfe2d9df = L.circleMarker(
+                [44.841382408625186, -71.55470897098147],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_35c5bc69f63414469ee90f81932bded4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13e614a68dc316aa9a490c49af80b9e5 = $(`<div id="html_13e614a68dc316aa9a490c49af80b9e5" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD00</b></div>`)[0];
+                popup_35c5bc69f63414469ee90f81932bded4.setContent(html_13e614a68dc316aa9a490c49af80b9e5);
+            
+        
+
+        circle_marker_e2d85a0c985a494cfd7db7b5bfe2d9df.bindPopup(popup_35c5bc69f63414469ee90f81932bded4)
+        ;
+
+        
+    
+    
+            circle_marker_e2d85a0c985a494cfd7db7b5bfe2d9df.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_5ffed22a5136948ffa6c033479bf96ad = L.polygon(
+                [[44.64211499999999, -71.557838], [44.643354000000016, -71.558225], [44.64421900000003, -71.55879], [44.64510200000003, -71.559541], [44.64592200000003, -71.560778], [44.646821999999986, -71.561667], [44.647189000000026, -71.561962], [44.647985000000034, -71.562297], [44.648630000000004, -71.56231], [44.649768999999964, -71.56203700000002], [44.650146, -71.56202], [44.650579, -71.562], [44.65159199999999, -71.562424], [44.65195100000002, -71.562603], [44.65197599999997, -71.562616], [44.65235599999997, -71.562806], [44.65287400000008, -71.56353900000002], [44.65339300000002, -71.56429500000002], [44.653795999999964, -71.565076], [44.653851999999986, -71.56579399999998], [44.65372499999997, -71.566421], [44.653349, -71.567053], [44.65273999999995, -71.56734100000001], [44.651535999999986, -71.567708], [44.650878000000006, -71.56818200000001], [44.650289999999956, -71.569025], [44.65004999999995, -71.570095], [44.64994340865909, -71.5711616292966], [44.653873622001456, -71.57458224659358], [44.65420299999998, -71.57443], [44.654832000000006, -71.57449], [44.65538000000003, -71.574736], [44.65582999999997, -71.575215], [44.65606700000004, -71.57586], [44.65618854152532, -71.57659721903703], [44.665351, -71.584574], [44.670398822010135, -71.5871811875013], [44.67046999999997, -71.586965], [44.670629000000034, -71.586174], [44.67078500000002, -71.58501300000002], [44.671106, -71.583756], [44.67132500000005, -71.583197], [44.67160900000001, -71.582566], [44.672018, -71.582027], [44.67237899999997, -71.581604], [44.67277399999998, -71.581447], [44.67320399999999, -71.581463], [44.67351200000003, -71.581621], [44.673794, -71.581813], [44.67406099999999, -71.582122], [44.67424599999999, -71.58250200000002], [44.67441599999998, -71.583044], [44.67447899999996, -71.583726], [44.67448500000004, -71.583855], [44.67450000000002, -71.58424700000002], [44.674459999999975, -71.585407], [44.67434999999997, -71.586162], [44.674347000000004, -71.58677600000001], [44.67447899999996, -71.587748], [44.67473999999997, -71.58843900000001], [44.67519100000001, -71.58901100000001], [44.675807999999996, -71.589593], [44.676349999999964, -71.59021], [44.67637548746056, -71.59026862067951], [44.683571893551566, -71.59398686899384], [44.683931, -71.59405500000001], [44.684288000000066, -71.59430500000002], [44.68436892623597, -71.59439872925824], [44.68898789641404, -71.5967857352092], [44.689046000000005, -71.596792], [44.68930499999999, -71.596841], [44.689404, -71.59686], [44.68960199999998, -71.596897], [44.68968200000004, -71.596912], [44.68970500000004, -71.596917], [44.68975499999997, -71.596926], [44.690007, -71.59697399999999], [44.690389000000025, -71.597212], [44.691195, -71.597698], [44.69176699999997, -71.597955], [44.692221999999994, -71.59793700000002], [44.692814999999996, -71.597673], [44.693530999999965, -71.597186], [44.69421399999994, -71.596851], [44.694608999999986, -71.596497], [44.69494299999998, -71.59597], [44.69504799999996, -71.59564400000001], [44.69509499999995, -71.595226], [44.695062, -71.59473500000001], [44.69509399999996, -71.59455199999998], [44.69526699999994, -71.594108], [44.695632000000025, -71.593802], [44.695926, -71.593764], [44.696414999999966, -71.593861], [44.696706, -71.594076], [44.69703300000002, -71.59457], [44.69730299999999, -71.595354], [44.697558, -71.596208], [44.697722000000006, -71.59704], [44.69797200000003, -71.598175], [44.69817, -71.599475], [44.69818, -71.59950300000001], [44.698448000000006, -71.600002], [44.69873700000001, -71.600496], [44.69901700000005, -71.60077000000001], [44.69944399999999, -71.601007], [44.69980799999998, -71.600961], [44.70010100000004, -71.60088700000001], [44.70057800000006, -71.600601], [44.70121999999999, -71.600174], [44.70163000000006, -71.599797], [44.70246699999999, -71.598926], [44.70324099999999, -71.598589], [44.70386999999999, -71.598626], [44.70458300000001, -71.598846], [44.705314999999985, -71.59939200000001], [44.70599899999999, -71.60010000000001], [44.70653200000002, -71.600695], [44.70686799999997, -71.601242], [44.70688399999999, -71.601269], [44.70689200000004, -71.601293], [44.707181, -71.602215], [44.70741199999999, -71.60315100000001], [44.707497999999994, -71.60362499999998], [44.707583000000035, -71.603948], [44.70777600000002, -71.604293], [44.70798499999997, -71.604545], [44.70841000000003, -71.605014], [44.709267999999994, -71.605812], [44.709942000000034, -71.606289], [44.71033200000003, -71.606526], [44.71086300000002, -71.606414], [44.71138699999999, -71.606746], [44.71231699999998, -71.607551], [44.713318999999984, -71.60814], [44.713956000000046, -71.60852], [44.71453199999998, -71.609544], [44.715098999999995, -71.610239], [44.71519222847002, -71.61033383082562], [44.7281878638347, -71.61705667374319], [44.728249999999974, -71.617038], [44.72858899999997, -71.61704400000002], [44.72871200000004, -71.617107], [44.728748000000024, -71.61716000000001], [44.72877399999997, -71.617199], [44.72883099999999, -71.617342], [44.728852494688745, -71.6174005666093], [44.747224000000045, -71.62690900000001], [44.75580055373579, -71.61856782137224], [44.75579299999995, -71.618534], [44.75578899999997, -71.618104], [44.75582799999997, -71.61772100000002], [44.75596500000002, -71.617266], [44.756299000000034, -71.616669], [44.756855999999985, -71.615999], [44.757446999999964, -71.61534], [44.75805300000004, -71.614635], [44.75841299999999, -71.61411800000002], [44.758704, -71.613255], [44.75899799999999, -71.612856], [44.759279000000014, -71.612712], [44.759641999999964, -71.61273], [44.76024000000001, -71.612976], [44.76081999999999, -71.613176], [44.76120000000001, -71.613101], [44.76152899999999, -71.612887], [44.76187399999996, -71.61255700000001], [44.76209304197881, -71.6124464557884], [44.76574619732275, -71.60889203783861], [44.76602199999997, -71.607943], [44.766427999999976, -71.607078], [44.766819, -71.606213], [44.76759500000006, -71.605098], [44.76816900000003, -71.604428], [44.76859300000004, -71.60367300000001], [44.76892000000004, -71.603232], [44.76926100000002, -71.602873], [44.76952700000001, -71.6027], [44.76992700000003, -71.602439], [44.77026199999999, -71.602272], [44.770396999999996, -71.60220500000001], [44.77087500000003, -71.602026], [44.77103999999999, -71.601998], [44.771434999999975, -71.601786], [44.771586999999975, -71.601705], [44.772327, -71.60116], [44.772934, -71.60054700000002], [44.773442000000024, -71.59984200000001], [44.773847000000046, -71.598838], [44.774234999999976, -71.59776400000001], [44.77462299999999, -71.59657400000002], [44.77502899999999, -71.595615], [44.77540500000001, -71.595099], [44.77593200000005, -71.594789], [44.77647699999999, -71.594664], [44.77685799999998, -71.594774], [44.777390000000004, -71.595207], [44.777725000000004, -71.595643], [44.77823899999994, -71.595844], [44.77871800000001, -71.595813], [44.77931199999998, -71.595641], [44.779430265043715, -71.5955738430726], [44.78267412075483, -71.59241579740288], [44.782699999999984, -71.592061], [44.78276000000001, -71.590947], [44.783235000000005, -71.589821], [44.78355799999996, -71.588864], [44.78365600000004, -71.58800300000001], [44.78382100000006, -71.586608], [44.78416100000005, -71.58565], [44.78479399999999, -71.584177], [44.78510299999996, -71.583522], [44.78518200000004, -71.58308], [44.78504600000002, -71.58257100000002], [44.784774000000034, -71.581693], [44.784632999999964, -71.580627], [44.78472500000002, -71.57972], [44.78493600000004, -71.57918200000002], [44.78544400000001, -71.57864], [44.78611800000006, -71.57814200000001], [44.786775999999946, -71.577737], [44.787548, -71.577074], [44.78805800000001, -71.576741], [44.78865000000002, -71.576267], [44.78925799999997, -71.575862], [44.78960199999999, -71.575439], [44.789959999999994, -71.574736], [44.790202, -71.57392], [44.79044599999998, -71.57338200000001], [44.790870999999974, -71.57281700000001], [44.79129900000005, -71.572532], [44.79181000000001, -71.572408], [44.79238899999999, -71.572375], [44.792768000000045, -71.57223000000002], [44.792948000000045, -71.572041], [44.79314399999994, -71.571666], [44.79333899999998, -71.571315], [44.793719, -71.571193], [44.79431399999994, -71.57116], [44.79504399999997, -71.57152], [44.79566100000005, -71.57204400000002], [44.79604399999994, -71.572363], [44.79677300000003, -71.57263], [44.79817999999995, -71.57277], [44.79889199999997, -71.572852], [44.79920600000001, -71.5728], [44.800489000000034, -71.57192000000002], [44.80141500000001, -71.571888], [44.80283499999999, -71.570484], [44.80320299999995, -71.570332], [44.803642, -71.570271], [44.804371999999994, -71.569535], [44.80514700000004, -71.569244], [44.805721999999996, -71.56877], [44.805848999999995, -71.56864300000001], [44.80606799999997, -71.568525], [44.80647900000002, -71.568392], [44.80649999999996, -71.568392], [44.80703999999996, -71.568384], [44.80745699999996, -71.568672], [44.80765534468258, -71.56889140316504], [44.867236068227506, -71.53102917036665], [44.867750000000036, -71.530234], [44.869388999999934, -71.52766600000001], [44.870460999999985, -71.525962], [44.87122999999998, -71.52476], [44.87151600000005, -71.524315], [44.87184299999997, -71.52380699999999], [44.872265, -71.523136], [44.87244000000005, -71.522856], [44.87273100000001, -71.52238900000002], [44.872951, -71.52194500000002], [44.873062000000004, -71.52167500000002], [44.87322700000002, -71.521215], [44.873370999999985, -71.52076900000002], [44.873529, -71.520067], [44.87363899999997, -71.51966200000001], [44.87383600000001, -71.51914000000001], [44.874016999999995, -71.518625], [44.874195999999955, -71.51818900000002], [44.874457000000014, -71.517504], [44.874419, -71.517487], [44.874284, -71.517345], [44.874000000000066, -71.516639], [44.87384600000002, -71.5162], [44.873761999999985, -71.51598900000002], [44.87362999999999, -71.51518900000002], [44.87352800000004, -71.51490799999999], [44.87307500000001, -71.51376000000002], [44.87277799999998, -71.512934], [44.872365999999985, -71.511632], [44.87221800000001, -71.511238], [44.87204699999997, -71.510829], [44.871769000000015, -71.510433], [44.871573999999995, -71.510013], [44.87152900000002, -71.50986100000001], [44.87141900000002, -71.509246], [44.87130199999994, -71.508924], [44.871182000000026, -71.508739], [44.870880999999976, -71.50840700000002], [44.87025599999997, -71.507767], [44.869976000000015, -71.507504], [44.869819999999955, -71.50739600000001], [44.869681000000014, -71.507363], [44.86950600000002, -71.507372], [44.86931699999999, -71.507361], [44.86916699999999, -71.507316], [44.86905599999999, -71.507251], [44.86897199999995, -71.507177], [44.86888499999999, -71.507075], [44.86885800000003, -71.507036], [44.86903199999999, -71.5069], [44.86896400000003, -71.506761], [44.86868099999997, -71.506098], [44.868503000000004, -71.505589], [44.86842499999999, -71.50527300000002], [44.868427000000025, -71.504942], [44.868398, -71.504656], [44.86829899999999, -71.50424], [44.868227000000026, -71.50401600000001], [44.868119, -71.503801], [44.86781899999996, -71.50333], [44.86747199999999, -71.502752], [44.86720100000004, -71.502174], [44.86702899999999, -71.501812], [44.866794000000006, -71.501434], [44.86672000000008, -71.50132500000001], [44.866015000000026, -71.500409], [44.86564599999993, -71.499799], [44.86550899999996, -71.499669], [44.86530099999996, -71.49953], [44.864918, -71.499126], [44.864526000000005, -71.49894800000001], [44.86427400000001, -71.498933], [44.864037999999965, -71.498816], [44.86385999999999, -71.498708], [44.86355200000001, -71.49842200000002], [44.86323200000001, -71.498214], [44.863041999999986, -71.49805900000001], [44.86284099999999, -71.497774], [44.86271799999998, -71.497627], [44.862366000000016, -71.497287], [44.861509999999996, -71.49629900000001], [44.86134099999997, -71.496191], [44.861073999999995, -71.496052], [44.86093699999997, -71.49593599999999], [44.85986700000003, -71.495234], [44.85955500000001, -71.495109], [44.859360000000066, -71.49497], [44.85897200000004, -71.494808], [44.857988999999975, -71.49469200000001], [44.857831, -71.494691], [44.85768199999997, -71.494722], [44.85667600000003, -71.494435], [44.856314, -71.49432], [44.85590999999994, -71.494234], [44.85511700000004, -71.49411], [44.85483500000001, -71.494025], [44.85438300000004, -71.4939], [44.853838999999944, -71.493676], [44.853624, -71.49363], [44.852228, -71.493621], [44.851807999999984, -71.493521], [44.85156099999999, -71.493281], [44.85130700000002, -71.493157], [44.85110100000002, -71.493119], [44.85077600000002, -71.493142], [44.85054699999998, -71.493125], [44.85018500000003, -71.492986], [44.84974600000001, -71.492909], [44.849644000000005, -71.492824], [44.849442000000025, -71.4924], [44.849303, -71.492161], [44.84865800000004, -71.491404], [44.84841299999998, -71.491296], [44.848094000000046, -71.491257], [44.84794699999998, -71.491196], [44.84783199999999, -71.491118], [44.84764700000004, -71.490902], [44.84749499999994, -71.490647], [44.84729300000001, -71.490216], [44.84723600000003, -71.489938], [44.84708599999999, -71.489591], [44.84698200000004, -71.488989], [44.84667799999996, -71.488087], [44.846593999999975, -71.487593], [44.84653899999999, -71.487008], [44.84653500000001, -71.486584], [44.846559, -71.486506], [44.84656199999994, -71.486368], [44.84638899999996, -71.486044], [44.84627900000001, -71.485959], [44.84614899999995, -71.485735], [44.84598099999998, -71.485349], [44.84593599999997, -71.485179], [44.845832999999985, -71.484933], [44.845667, -71.48430000000002], [44.845620999999994, -71.484138], [44.845472000000015, -71.483537], [44.84542899999998, -71.483429], [44.845281999999976, -71.482751], [44.845290999999996, -71.482527], [44.84525299999996, -71.48244200000002], [44.84483200000003, -71.481917], [44.84459599999998, -71.481771], [44.844354000000045, -71.48174700000001], [44.84420700000002, -71.481685], [44.84392799999997, -71.481484], [44.84384599999997, -71.481415], [44.843622999999994, -71.481223], [44.84336799999994, -71.480945], [44.84319799999998, -71.480675], [44.84310000000001, -71.480435], [44.843032999999984, -71.48018900000001], [44.842926000000055, -71.47951], [44.842966000000025, -71.479132], [44.84317199999997, -71.478778], [44.843420000000016, -71.478516], [44.84367800000001, -71.478262], [44.84373999999997, -71.4781], [44.843711000000056, -71.477984], [44.843239999999966, -71.477521], [44.84290200000002, -71.477328], [44.84280099999998, -71.47718199999998], [44.84273799999995, -71.476966], [44.84269400000001, -71.476935], [44.84240699999999, -71.477096], [44.84233200000004, -71.477027], [44.84239099999998, -71.476796], [44.84248499999998, -71.476596], [44.842510000000004, -71.47648], [44.84250699999995, -71.476225], [44.842474999999986, -71.476033], [44.84241500000005, -71.475916], [44.842299999999966, -71.475817], [44.842127, -71.475701], [44.84203900000003, -71.475577], [44.842014, -71.475493], [44.84206500000003, -71.475223], [44.84206899999999, -71.475046], [44.841922, -71.474367], [44.841879, -71.47427500000002], [44.84172899999995, -71.474305], [44.841560999999984, -71.474405], [44.841454999999996, -71.474513], [44.84114899999999, -71.474706], [44.84106299999998, -71.474728], [44.840901, -71.474721], [44.84053999999997, -71.474574], [44.840341000000045, -71.47439700000001], [44.84005099999996, -71.47409600000002], [44.839538000000005, -71.47384900000002], [44.839317, -71.47366400000001], [44.839279, -71.473579], [44.83928100000001, -71.47349400000002], [44.83938600000003, -71.473201], [44.839418, -71.472977], [44.83940899999999, -71.472739], [44.839359999999964, -71.472515], [44.839188999999976, -71.472129], [44.839106000000015, -71.47199800000001], [44.83906700000002, -71.471898], [44.83910999999995, -71.471814], [44.839415, -71.471413], [44.839477000000024, -71.47125800000002], [44.83954900000001, -71.470865], [44.83955500000002, -71.470611], [44.839524000000026, -71.470341], [44.83898699999999, -71.47021], [44.83892000000002, -71.470171], [44.83884700000001, -71.470017], [44.83883099999998, -71.469731], [44.83885299999995, -71.469547], [44.838913000000005, -71.469261], [44.83895199999998, -71.46893], [44.83894300000001, -71.468729], [44.838885999999995, -71.46842100000002], [44.83878400000002, -71.46815099999999], [44.83869599999998, -71.46805100000002], [44.838602999999964, -71.46800400000001], [44.83852699999998, -71.46798100000001], [44.83832399999997, -71.467981], [44.838145000000004, -71.467928], [44.83795, -71.467804], [44.83782699999998, -71.467634], [44.837676999999964, -71.46731800000002], [44.837509000000054, -71.46716400000001], [44.837366000000024, -71.46709400000002], [44.83711399999995, -71.467102], [44.83667100000001, -71.467178], [44.836497999999956, -71.466885], [44.83614899999997, -71.466593], [44.836121, -71.466423], [44.83615899999999, -71.46588300000002], [44.83615499999998, -71.46566], [44.83611100000003, -71.465429], [44.83601900000001, -71.465066], [44.83565999999999, -71.46400200000001], [44.835654999999996, -71.463817], [44.83571699999999, -71.462815], [44.835642999999976, -71.46246800000002], [44.83559099999997, -71.46241400000001], [44.83549799999999, -71.46233000000001], [44.835449999999994, -71.462259], [44.835368999999965, -71.462051], [44.835302, -71.46161199999999], [44.83533499999997, -71.461327], [44.83532000000004, -71.461003], [44.83503200000006, -71.459716], [44.83498100000004, -71.459569], [44.83490799999996, -71.459222], [44.83482599999997, -71.459029], [44.83469400000003, -71.458883], [44.83455199999997, -71.458806], [44.834431, -71.458798], [44.83413899999999, -71.45895200000001], [44.834063, -71.458937], [44.83399399999999, -71.458813], [44.83396299999997, -71.458589], [44.83394600000001, -71.458127], [44.83390800000003, -71.45798], [44.83383899999998, -71.457873], [44.83354699999998, -71.457603], [44.833236, -71.45741], [44.83313600000004, -71.457248], [44.83302500000002, -71.45718600000001], [44.83297200000001, -71.457163], [44.83261899999996, -71.457232], [44.83230500000001, -71.457178], [44.832220999999954, -71.45709300000001], [44.832094999999946, -71.456885], [44.83203700000002, -71.456654], [44.831919, -71.456515], [44.831842000000016, -71.45633], [44.831826999999976, -71.456183], [44.83177699999999, -71.45602100000002], [44.83179100000002, -71.455952], [44.83183999999994, -71.455806], [44.831851000000015, -71.45569000000002], [44.83180999999994, -71.45552], [44.83176199999998, -71.455436], [44.83165600000001, -71.455351], [44.831508999999976, -71.455282], [44.83128799999996, -71.455281], [44.83111999999996, -71.455374], [44.83097499999999, -71.455397], [44.83064400000003, -71.45528899999998], [44.83058600000001, -71.455289], [44.83039100000001, -71.455366], [44.83028199999999, -71.455381], [44.83011699999996, -71.455335], [44.82940999999999, -71.454911], [44.82929000000002, -71.454872], [44.829203999999976, -71.454888], [44.829040000000006, -71.454949], [44.82865799999999, -71.455142], [44.82843900000001, -71.45528800000001], [44.82771200000001, -71.456044], [44.82739000000004, -71.456328], [44.827154, -71.45643600000001], [44.826889, -71.45642100000002], [44.826674999999994, -71.456513], [44.82619100000003, -71.456644], [44.826141, -71.45643600000001], [44.82611299999999, -71.456386], [44.825985, -71.456158], [44.82584499999997, -71.455981], [44.825682000000064, -71.455588], [44.82561699999999, -71.45548], [44.825506999999995, -71.455379], [44.825328999999975, -71.455287], [44.825074, -71.45520200000001], [44.82482400000001, -71.45510900000001], [44.824631, -71.455079], [44.82438600000002, -71.455148], [44.82425999999999, -71.455164], [44.82383099999996, -71.455032], [44.82353599999999, -71.45491600000001], [44.823288, -71.454747], [44.822861000000024, -71.454693], [44.822572999999934, -71.45469999999999], [44.82222000000001, -71.454816], [44.82197299999997, -71.454785], [44.82136599999998, -71.45455300000002], [44.82092699999995, -71.454422], [44.820199000000024, -71.453967], [44.82000300000007, -71.45389000000002], [44.819726999999986, -71.453728], [44.819117000000006, -71.453427], [44.81883000000001, -71.45335800000001], [44.81864300000001, -71.453281], [44.81788400000003, -71.452787], [44.817603, -71.45266400000001], [44.817409000000005, -71.452656], [44.817058000000024, -71.45266400000001], [44.81684799999999, -71.452618], [44.81664500000004, -71.45260999999999], [44.816559000000005, -71.452641], [44.816427000000004, -71.452733], [44.816214999999985, -71.452934], [44.816146999999994, -71.452956], [44.81587199999994, -71.45297900000001], [44.81557600000001, -71.453125], [44.815160000000056, -71.45321], [44.81494599999999, -71.45315700000002], [44.81482800000002, -71.453172], [44.814615000000046, -71.453264], [44.81447699999997, -71.453372], [44.814357999999984, -71.453472], [44.813961, -71.453741], [44.813762999999966, -71.453726], [44.81376100000001, -71.453418], [44.81367800000003, -71.45331000000002], [44.81360499999999, -71.45331000000002], [44.81347299999999, -71.453387], [44.81323800000002, -71.45280900000002], [44.813123999999995, -71.452663], [44.812994, -71.452648], [44.812384000000016, -71.452786], [44.81213600000004, -71.45277000000002], [44.81167999999998, -71.452839], [44.81107599999996, -71.452885], [44.810629000000006, -71.45297], [44.810404999999975, -71.453109], [44.81016900000001, -71.453217], [44.80968000000002, -71.453332], [44.80941499999995, -71.453309], [44.80937100000002, -71.453323], [44.80938399999997, -71.452732], [44.80942100000001, -71.452131], [44.809476999999966, -71.451786], [44.809797, -71.45106900000002], [44.81014099999999, -71.45039], [44.810350000000014, -71.449742], [44.81072699999994, -71.448626], [44.810855, -71.447773], [44.811000000000014, -71.447268], [44.811208, -71.446674], [44.81130300000002, -71.446203], [44.81130300000002, -71.445655], [44.81125, -71.44527], [44.81092800000003, -71.444361], [44.810685999999976, -71.443746], [44.810433999999994, -71.442968], [44.810083999999996, -71.441694], [44.80996200000003, -71.441104], [44.80997100000001, -71.440703], [44.80991700000003, -71.440372], [44.80974000000003, -71.440091], [44.809498, -71.44000800000002], [44.808937999999976, -71.439966], [44.80766899999999, -71.439967], [44.80736500000002, -71.43993600000002], [44.806847999999995, -71.43960400000002], [44.806539000000065, -71.43924400000002], [44.80618000000002, -71.438918], [44.80568699999998, -71.43860500000001], [44.80496499999995, -71.438173], [44.804399000000025, -71.437876], [44.804070999999986, -71.437825], [44.80353499999993, -71.437784], [44.80309700000001, -71.437766], [44.80246799999996, -71.43755700000001], [44.801928000000004, -71.437509], [44.801877999999995, -71.43766400000001], [44.80178499999996, -71.437833], [44.801674999999996, -71.437964], [44.801598, -71.438002], [44.80116799999995, -71.438097], [44.800951000000005, -71.43822000000002], [44.800363999999995, -71.438654], [44.79964599999993, -71.439241], [44.79931500000002, -71.439664], [44.79896999999991, -71.440042], [44.79856900000002, -71.44033], [44.79809299999998, -71.44056000000002], [44.79768299999996, -71.440678], [44.797360000000026, -71.440745], [44.79675599999998, -71.44098800000002], [44.796496999999924, -71.441017], [44.79619200000001, -71.440975], [44.795961999999975, -71.44085899999999], [44.79570699999999, -71.44067500000001], [44.795159999999996, -71.44033300000001], [44.79493099999998, -71.440176], [44.79487599999999, -71.44016700000002], [44.79475200000005, -71.440217], [44.79450600000002, -71.440258], [44.794154000000006, -71.440184], [44.793886000000036, -71.44014], [44.79306200000001, -71.440057], [44.792676000000036, -71.439912], [44.79249600000001, -71.439872], [44.792338, -71.439924], [44.79193499999996, -71.440201], [44.79102600000003, -71.440772], [44.790192999999995, -71.44131200000001], [44.790127999999946, -71.44135400000002], [44.790035000000024, -71.44138700000002], [44.789857000000005, -71.441398], [44.78968499999998, -71.441391], [44.78957799999998, -71.44140400000002], [44.789460999999996, -71.441458], [44.789423, -71.441495], [44.789352, -71.441564], [44.789241000000025, -71.441618], [44.789165, -71.441618], [44.78907700000001, -71.441596], [44.78897399999998, -71.441507], [44.78889399999995, -71.44134600000001], [44.788775, -71.441158], [44.78859900000001, -71.440948], [44.788420000000066, -71.44078700000001], [44.78832299999999, -71.440683], [44.78822199999999, -71.440382], [44.78802299999995, -71.439882], [44.787927999999994, -71.439679], [44.787838, -71.439568], [44.78781400000001, -71.439539], [44.787708999999985, -71.43945], [44.787580999999996, -71.439408], [44.78746599999997, -71.439403], [44.787341999999995, -71.43947800000001], [44.78685600000003, -71.444421], [44.781536000000024, -71.443162], [44.77933299999994, -71.442651], [44.76118099999997, -71.438337], [44.75676599999998, -71.437295], [44.751593, -71.436087], [44.750031000000014, -71.435713], [44.749171000000004, -71.435212], [44.749131, -71.435218], [44.749140000000004, -71.43519400000001], [44.748679, -71.434921], [44.74807499999996, -71.43456300000001], [44.74753, -71.434443], [44.745169000000004, -71.43392300000001], [44.74442799999998, -71.433745], [44.74243099999998, -71.433265], [44.733464999999995, -71.431237], [44.730306999999996, -71.430535], [44.72673599999999, -71.42966500000001], [44.72644299999999, -71.42962600000001], [44.726116, -71.429543], [44.72463599999999, -71.429166], [44.714075000000044, -71.426721], [44.70895300000002, -71.425561], [44.70030900000001, -71.42363600000002], [44.69995499999997, -71.423538], [44.698179, -71.423133], [44.68205899999995, -71.419453], [44.675231999999994, -71.417903], [44.67515499999997, -71.417901], [44.67152299999996, -71.41716700000002], [44.669686999999975, -71.416809], [44.66651999999998, -71.416164], [44.660727999999985, -71.415001], [44.65997299999999, -71.414849], [44.65954499999999, -71.414788], [44.65939000000003, -71.414733], [44.655296000000014, -71.41391799999998], [44.65440399999999, -71.413727], [44.65176799999999, -71.41319200000001], [44.65151999999999, -71.413146], [44.651378000000015, -71.413118], [44.65125999999998, -71.413094], [44.65122899999997, -71.41338400000001], [44.651145999999976, -71.414239], [44.65104599999999, -71.415078], [44.65099299999995, -71.415566], [44.650894000000015, -71.416391], [44.650816999999996, -71.417214], [44.65070300000005, -71.41837400000001], [44.65065000000003, -71.418694], [44.650597, -71.41922000000001], [44.65051799999999, -71.419983], [44.650047999999984, -71.424496], [44.64988300000003, -71.426007], [44.64983099999996, -71.426523], [44.649459999999976, -71.430009], [44.649374, -71.43075300000001], [44.64858000000001, -71.438337], [44.64654600000001, -71.45719800000002], [44.64652100000003, -71.45744], [44.646136000000006, -71.460913], [44.64602899999998, -71.461911], [44.64590900000001, -71.463022], [44.645724, -71.464675], [44.64570100000005, -71.464863], [44.645691999999954, -71.46498900000002], [44.64564500000004, -71.465422], [44.64540599999999, -71.467636], [44.64527199999997, -71.468841], [44.64447100000004, -71.476063], [44.644149, -71.47918500000002], [44.64336299999999, -71.486195], [44.64329700000004, -71.486766], [44.64324899999999, -71.487193], [44.64330599999999, -71.487354], [44.643399999999986, -71.487617], [44.64351899999998, -71.48789900000001], [44.646765000000045, -71.496468], [44.646944, -71.496954], [44.64746100000001, -71.498286], [44.647476, -71.498363], [44.647552000000005, -71.498531], [44.64783400000001, -71.499263], [44.647963999999995, -71.49953700000002], [44.64797000000002, -71.499553], [44.64830699999995, -71.50042300000001], [44.64858700000002, -71.501073], [44.64868399999998, -71.501295], [44.648757999999944, -71.501445], [44.648336999999984, -71.50494400000001], [44.64833099999998, -71.504998], [44.64823899999998, -71.50579400000001], [44.647128999999964, -71.515024], [44.64711799999995, -71.515125], [44.64701799999999, -71.51594100000001], [44.64696999999999, -71.51634000000001], [44.64696000000004, -71.516424], [44.64679100000001, -71.51783800000001], [44.646675000000016, -71.518836], [44.64643, -71.52074400000001], [44.646397999999955, -71.520998], [44.646386000000014, -71.521097], [44.645077999999984, -71.53190700000002], [44.64469099999999, -71.535061], [44.644507999999995, -71.536541], [44.64431700000008, -71.53802100000001], [44.64414199999997, -71.539517], [44.64395899999998, -71.540997], [44.643790999999986, -71.542477], [44.643732000000014, -71.542928], [44.643361000000006, -71.545955], [44.642700000000026, -71.55148], [44.64244600000004, -71.55371800000002], [44.64239600000002, -71.554067], [44.64200000000001, -71.557502], [44.641960000000026, -71.55779000000001], [44.64210200000002, -71.557834], [44.64211499999999, -71.557838]],
+                {"bubblingMouseEvents": true, "color": "#bfef45", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bfef45", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_8f8f7c7a3347bb6a4576522896fac2e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13aa24f251fc5bec2bde328403a6c9b1 = $(`<div id="html_13aa24f251fc5bec2bde328403a6c9b1" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD02</b></div>`)[0];
+                popup_8f8f7c7a3347bb6a4576522896fac2e8.setContent(html_13aa24f251fc5bec2bde328403a6c9b1);
+            
+        
+
+        polygon_5ffed22a5136948ffa6c033479bf96ad.bindPopup(popup_8f8f7c7a3347bb6a4576522896fac2e8)
+        ;
+
+        
+    
+    
+            var circle_marker_3aff632821447c4d68c2efa049444730 = L.circleMarker(
+                [44.777472123250114, -71.50696963044744],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_abf583113432efb266f38d6d79e53c5b);
+        
+    
+        var popup_f3a58f006515e088c48607dadbac818b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd5d1754d13b78a854911b338212025c = $(`<div id="html_cd5d1754d13b78a854911b338212025c" style="width: 100.0%; height: 100.0%;"><b>Coos - New Hampshire-CD02</b></div>`)[0];
+                popup_f3a58f006515e088c48607dadbac818b.setContent(html_cd5d1754d13b78a854911b338212025c);
+            
+        
+
+        circle_marker_3aff632821447c4d68c2efa049444730.bindPopup(popup_f3a58f006515e088c48607dadbac818b)
+        ;
+
+        
+    
+    
+            circle_marker_3aff632821447c4d68c2efa049444730.bindTooltip(
+                `<div>
+                     Coos - New Hampshire-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

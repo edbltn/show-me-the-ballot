@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bb7e4d1b042d286035578f76c01d4264 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   St. Helena - Louisiana-CD06</p>
+            </div>
+    
+            <div class="folium-map" id="map_bb7e4d1b042d286035578f76c01d4264" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bb7e4d1b042d286035578f76c01d4264 = L.map(
+                "map_bb7e4d1b042d286035578f76c01d4264",
+                {
+                    center: [30.687381012576456, -90.85698917655895],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_195208199a9121ab06f63475b562acec = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_195208199a9121ab06f63475b562acec.addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+            var polygon_feac50666664c2d9d8183ad5e8a66004 = L.polygon(
+                [[30.649590999999987, -90.85281], [30.64956555556873, -90.85297486268485], [30.64938500000002, -90.910701], [30.655292018217082, -90.90371816172338], [30.65495299999999, -90.903419], [30.654906999999977, -90.90281], [30.65472199999999, -90.902346], [30.655313000000024, -90.901455], [30.655871000000005, -90.901237], [30.656641999999998, -90.900967], [30.65699400000001, -90.900468], [30.657149, -90.900188], [30.657669000000002, -90.899894], [30.658083999999995, -90.899867], [30.6583621778367, -90.90008820830963], [30.6951372949391, -90.8565737556442], [30.69513600000001, -90.85656], [30.695257999999995, -90.855722], [30.695405999999988, -90.855145], [30.695281999999963, -90.854765], [30.695150000000027, -90.854366], [30.69512899999997, -90.853771], [30.695288999999953, -90.853296], [30.695681000000025, -90.852985], [30.69608400000003, -90.853009], [30.69667999999996, -90.853068], [30.697251000000005, -90.853035], [30.697338999999975, -90.853007], [30.69753700000003, -90.852947], [30.697798000000006, -90.852864], [30.698153999999985, -90.852772], [30.69834100000001, -90.852723], [30.69840198100593, -90.85270775475493], [30.700267, -90.850499], [30.705868513700633, -90.84999384311317], [30.705858000000013, -90.849922], [30.705612000000038, -90.849725], [30.70503799999999, -90.849506], [30.70483899999996, -90.84940100000001], [30.704799999999963, -90.849369], [30.704658000000013, -90.84925], [30.70447000000003, -90.848658], [30.704756999999987, -90.84814400000002], [30.705126999999997, -90.847815], [30.705184000000028, -90.8478], [30.705398999999986, -90.847744], [30.705496000000018, -90.847719], [30.70628800000003, -90.84667000000002], [30.70671799999999, -90.845821], [30.70680100000001, -90.845652], [30.706965999999962, -90.845317], [30.707077000000023, -90.845092], [30.707329000000033, -90.844837], [30.70738900000003, -90.844708], [30.707413000000003, -90.844681], [30.707489999999957, -90.844598], [30.707719000000026, -90.844386], [30.707820999999978, -90.844322], [30.70804700000003, -90.844181], [30.708499000000018, -90.844372], [30.708783000000032, -90.844797], [30.708845000000004, -90.845037], [30.708870999999995, -90.845133], [30.708971999999974, -90.84552], [30.709689999999974, -90.845888], [30.71036599999997, -90.845852], [30.710860000000032, -90.84567], [30.711400999999977, -90.845345], [30.711787999999995, -90.845095], [30.712459999999986, -90.845068], [30.712610999999985, -90.845707], [30.712629000000007, -90.845787], [30.712634999999967, -90.845917], [30.712648999999995, -90.846285], [30.712658999999952, -90.84656], [30.71266900000003, -90.846811], [30.71292200000002, -90.847421], [30.713527999999965, -90.847796], [30.71388299999998, -90.847859], [30.714215000000017, -90.847722], [30.71434199999999, -90.847669], [30.714486, -90.847611], [30.714888999999985, -90.847388], [30.714983999999998, -90.847334], [30.71523299999999, -90.84719600000001], [30.715611999999968, -90.847212], [30.71569699999996, -90.847216], [30.715900999999967, -90.847225], [30.715944000000007, -90.847255], [30.716140999999986, -90.847394], [30.71628999999998, -90.8475], [30.716624999999965, -90.848398], [30.717086999999967, -90.848961], [30.717115726886952, -90.84897931699295], [30.719458000000003, -90.848768], [30.71952700000001, -90.848639], [30.719878000000023, -90.848152], [30.72002399999999, -90.847998], [30.720119000000015, -90.847899], [30.720109000000015, -90.84763000000001], [30.720046000000007, -90.84745600000001], [30.719945999999975, -90.847176], [30.719604000000004, -90.846501], [30.719454000000027, -90.845648], [30.719192000000028, -90.844935], [30.71913099999995, -90.84395], [30.719617999999993, -90.843267], [30.719996999999953, -90.843198], [30.720455999999974, -90.843184], [30.720687999999996, -90.842968], [30.720863999999985, -90.842669], [30.72090899999996, -90.842065], [30.720890999999952, -90.841836], [30.720874, -90.84161], [30.72066300000003, -90.841305], [30.72021100000003, -90.841068], [30.719694000000008, -90.840897], [30.719530999999993, -90.840687], [30.719451000000035, -90.840583], [30.719327999999994, -90.84026800000001], [30.719414000000015, -90.839794], [30.719646000000004, -90.839522], [30.719952999999972, -90.839458], [30.72042800000003, -90.839477], [30.720762999999998, -90.839557], [30.720984000000016, -90.83961100000002], [30.721486000000027, -90.840107], [30.721939000000045, -90.840437], [30.722235000000005, -90.84058], [30.722392000000017, -90.840656], [30.72272900000001, -90.840457], [30.723056, -90.839934], [30.723184000000003, -90.839591], [30.72329499999998, -90.839299], [30.72378500000001, -90.839025], [30.724292, -90.839057], [30.724544999999985, -90.839207], [30.72460299999999, -90.839167], [30.72492400000001, -90.839167], [30.725176000000005, -90.839088], [30.725404999999988, -90.838292], [30.725404999999988, -90.837815], [30.72526800000002, -90.837629], [30.72496999999995, -90.837523], [30.72483299999996, -90.837364], [30.72478699999997, -90.837072], [30.724925000000006, -90.836913], [30.725290999999952, -90.836834], [30.725360000000016, -90.836569], [30.725290999999938, -90.836463], [30.72510799999999, -90.836383], [30.72496999999995, -90.83625], [30.724763999999986, -90.836197], [30.724603999999978, -90.836091], [30.724282999999975, -90.836012], [30.723962999999994, -90.835693], [30.723940000000017, -90.835402], [30.724192000000002, -90.835163], [30.72425999999996, -90.83484500000002], [30.7241, -90.834474], [30.723734000000018, -90.834553], [30.723413, -90.833837], [30.723297999999993, -90.833758], [30.72268000000001, -90.833068], [30.722382000000046, -90.832909], [30.722335999999945, -90.832829], [30.72219900000003, -90.832697], [30.722176000000026, -90.832352], [30.722291000000038, -90.831848], [30.722153, -90.831529], [30.721947000000043, -90.83137], [30.72174099999999, -90.831344], [30.72158100000006, -90.831184], [30.721534999999967, -90.83060100000002], [30.72116800000001, -90.830177], [30.721144999999964, -90.829859], [30.72144300000003, -90.8297], [30.72153499999996, -90.829567], [30.721717999999964, -90.828931], [30.721809999999998, -90.828109], [30.721901000000035, -90.828029], [30.722108000000024, -90.827976], [30.722153999999996, -90.827472], [30.72201599999997, -90.826809], [30.721717999999964, -90.826438], [30.721673000000017, -90.8262], [30.721787000000017, -90.826041], [30.72219900000001, -90.82612], [30.722291000000038, -90.826041], [30.72238300000005, -90.825643], [30.72219900000003, -90.825086], [30.72222199999999, -90.8249], [30.722153999999996, -90.824423], [30.722038999999995, -90.824185], [30.722062000000033, -90.823654], [30.7222, -90.823522], [30.722748999999975, -90.823522], [30.722887, -90.82331], [30.722864000000037, -90.823071], [30.72263500000001, -90.822859], [30.72247399999997, -90.822567], [30.722566000000036, -90.822408], [30.722956000000018, -90.822435], [30.723000999999968, -90.822488], [30.72318500000003, -90.822488], [30.723229999999976, -90.822355], [30.72325300000001, -90.822196], [30.723069999999975, -90.822063], [30.72263500000001, -90.821957], [30.72254300000004, -90.821798], [30.722566000000036, -90.8214], [30.72269299999997, -90.821001], [30.721191999999952, -90.820928], [30.720970000000023, -90.820915], [30.720847000000038, -90.82091], [30.72064300000004, -90.820903], [30.720530000000007, -90.820892], [30.71934499999999, -90.820839], [30.717432000000002, -90.820741], [30.717183999999975, -90.82073], [30.71707399999996, -90.820727], [30.716036000000003, -90.820669], [30.71370200000002, -90.820534], [30.713608999999988, -90.820531], [30.713559, -90.82053], [30.71311700000004, -90.82051000000001], [30.711862000000014, -90.820452], [30.710745999999975, -90.820406], [30.70778599999999, -90.820271], [30.707418999999994, -90.820247], [30.707053000000005, -90.820235], [30.7067, -90.820218], [30.705824000000018, -90.820168], [30.705756000000044, -90.820168], [30.70570000000001, -90.820165], [30.70479700000001, -90.820118], [30.702579999999983, -90.820013], [30.69962499999996, -90.819868], [30.69889000000003, -90.819827], [30.69815100000002, -90.819794], [30.69481399999999, -90.819634], [30.693696000000003, -90.819584], [30.693330000000007, -90.819562], [30.693139000000027, -90.81954], [30.693020999999998, -90.81990400000001], [30.69289300000005, -90.820323], [30.692793000000005, -90.820622], [30.69275999999999, -90.820713], [30.692687999999997, -90.820958], [30.692626000000025, -90.821135], [30.69249999999998, -90.821539], [30.692329000000004, -90.822055], [30.69205699999997, -90.822898], [30.69192000000001, -90.82332300000002], [30.691810999999966, -90.82366], [30.691763000000005, -90.823806], [30.691678000000007, -90.824068], [30.69153900000001, -90.824478], [30.69143499999999, -90.82477], [30.691422999999975, -90.824823], [30.691372999999945, -90.82496700000002], [30.691201999999944, -90.824924], [30.69113000000001, -90.824915], [30.690552999999984, -90.824956], [30.689532999999958, -90.825022], [30.68902699999999, -90.82506], [30.68800499999998, -90.825127], [30.68751100000002, -90.825174], [30.68703000000001, -90.825237], [30.686081999999963, -90.825379], [30.684210999999983, -90.825675], [30.683765000000015, -90.825771], [30.683378000000012, -90.82592300000002], [30.683025999999998, -90.826107], [30.682688000000006, -90.826311], [30.68235600000001, -90.82652], [30.681699000000037, -90.826946], [30.68103699999996, -90.827368], [30.68070599999997, -90.827582], [30.680171999999967, -90.827916], [30.680031999999994, -90.828008], [30.67969800000001, -90.82821400000002], [30.67934699999999, -90.828406], [30.67897200000003, -90.828569], [30.67857900000001, -90.828723], [30.677789000000054, -90.829023], [30.676615999999964, -90.82947700000001], [30.675836999999976, -90.829783], [30.67543499999999, -90.829934], [30.675020000000004, -90.830066], [30.67458699999997, -90.830184], [30.674141999999968, -90.830281], [30.673667, -90.830352], [30.673146999999997, -90.830377], [30.672609000000005, -90.830373], [30.672149999999966, -90.830384], [30.672040000000013, -90.830367], [30.671982999999987, -90.830352], [30.67193300000005, -90.830323], [30.67145999999997, -90.830187], [30.670598000000012, -90.829983], [30.670143999999986, -90.829887], [30.669689999999957, -90.829801], [30.669572999999946, -90.829767], [30.66946299999999, -90.829726], [30.66936300000004, -90.829676], [30.669273000000008, -90.829613], [30.669189999999997, -90.829545], [30.669116000000017, -90.829467], [30.668893, -90.829153], [30.668659999999996, -90.828836], [30.668189000000027, -90.828223], [30.667955999999997, -90.827912], [30.66756399999998, -90.827364], [30.667501000000016, -90.827275], [30.66723500000001, -90.826986], [30.66693600000005, -90.826735], [30.666586000000013, -90.826528], [30.666191000000023, -90.826369], [30.665949000000012, -90.826256], [30.66583299999999, -90.826202], [30.66544700000004, -90.826043], [30.665319000000036, -90.826013], [30.665247000000004, -90.826006], [30.665171000000047, -90.826006], [30.66503599999998, -90.826023], [30.664917000000028, -90.82605600000001], [30.664741, -90.826113], [30.66427500000001, -90.826196], [30.66380499999999, -90.826254], [30.663352, -90.826334], [30.662841999999973, -90.826377], [30.662336, -90.826407], [30.66188800000003, -90.826494], [30.661489000000017, -90.826629], [30.661133999999937, -90.826808], [30.66079899999998, -90.827008], [30.660446999999976, -90.827193], [30.660100999999948, -90.827384], [30.65972300000003, -90.827544], [30.658452000000008, -90.827889], [30.658064000000007, -90.828039], [30.65773200000001, -90.828243], [30.657088999999978, -90.828679], [30.656877000000005, -90.828831], [30.656774000000013, -90.828905], [30.656471999999976, -90.829142], [30.656187000000013, -90.829395], [30.65592500000002, -90.829677], [30.655711000000032, -90.829919], [30.655419999999978, -90.83024], [30.65515200000003, -90.830505], [30.654843999999976, -90.830733], [30.654513000000016, -90.83094], [30.654198999999963, -90.831156], [30.653944000000017, -90.83144], [30.653747999999986, -90.831786], [30.653541999999998, -90.83211400000002], [30.653279000000015, -90.832388], [30.652715999999984, -90.83289800000001], [30.652160999999992, -90.833411], [30.651860000000017, -90.833646], [30.65153199999998, -90.83386], [30.65122500000003, -90.834083], [30.650647000000017, -90.834565], [30.65034699999996, -90.834801], [30.65003999999997, -90.835026], [30.64989400000002, -90.835156], [30.649755999999986, -90.83527900000001], [30.64962499999999, -90.835444], [30.649614383061092, -90.83545595523317], [30.649566414036165, -90.85267523244596], [30.649590999999987, -90.85281]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_08e33495e4cda6dc9cf2a79a00fa1f0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1f62525aa4e9f0ef158bb4635ec1b4c = $(`<div id="html_d1f62525aa4e9f0ef158bb4635ec1b4c" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD05</b></div>`)[0];
+                popup_08e33495e4cda6dc9cf2a79a00fa1f0b.setContent(html_d1f62525aa4e9f0ef158bb4635ec1b4c);
+            
+        
+
+        polygon_feac50666664c2d9d8183ad5e8a66004.bindPopup(popup_08e33495e4cda6dc9cf2a79a00fa1f0b)
+        ;
+
+        
+    
+    
+            var circle_marker_c17686a737e93a6c2e3cad8679e2ad53 = L.circleMarker(
+                [30.697282890255366, -90.83657252571287],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_55039e95fd4081dc2505235e9eeecbcb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e95f6d51fbe26ed6634bb1fd2b19f371 = $(`<div id="html_e95f6d51fbe26ed6634bb1fd2b19f371" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD05</b></div>`)[0];
+                popup_55039e95fd4081dc2505235e9eeecbcb.setContent(html_e95f6d51fbe26ed6634bb1fd2b19f371);
+            
+        
+
+        circle_marker_c17686a737e93a6c2e3cad8679e2ad53.bindPopup(popup_55039e95fd4081dc2505235e9eeecbcb)
+        ;
+
+        
+    
+    
+            circle_marker_c17686a737e93a6c2e3cad8679e2ad53.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_aa71b477894e16de32dd7d8cd7322f63 = L.polygon(
+                [[30.649486000000024, -90.83907], [30.64947099999999, -90.844348], [30.649457999999964, -90.849611], [30.649456000000026, -90.850014], [30.649469999999997, -90.85028], [30.64947499999999, -90.850455], [30.649486000000024, -90.850897], [30.649521000000018, -90.852224], [30.64953000000002, -90.85253], [30.64955200000001, -90.852643], [30.649564000000034, -90.852662], [30.649566414036165, -90.85267523244596], [30.649614383061092, -90.83545595523317], [30.64950600000001, -90.835578], [30.649494999999984, -90.835592], [30.649486000000024, -90.839057], [30.649486000000024, -90.83907]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_a178b310d2c55dcde98be12345847426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe91f0691f01367f33c8571698b9c468 = $(`<div id="html_fe91f0691f01367f33c8571698b9c468" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_a178b310d2c55dcde98be12345847426.setContent(html_fe91f0691f01367f33c8571698b9c468);
+            
+        
+
+        polygon_aa71b477894e16de32dd7d8cd7322f63.bindPopup(popup_a178b310d2c55dcde98be12345847426)
+        ;
+
+        
+    
+    
+            var circle_marker_bc5c96903b19675713420f6ef820df08 = L.circleMarker(
+                [30.649507223358675, -90.84600954045172],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_33c7b88abffdca4cd4c6494443556f57 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1553227ed6d17bd07fd147d3460a2c79 = $(`<div id="html_1553227ed6d17bd07fd147d3460a2c79" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_33c7b88abffdca4cd4c6494443556f57.setContent(html_1553227ed6d17bd07fd147d3460a2c79);
+            
+        
+
+        circle_marker_bc5c96903b19675713420f6ef820df08.bindPopup(popup_33c7b88abffdca4cd4c6494443556f57)
+        ;
+
+        
+    
+    
+            circle_marker_bc5c96903b19675713420f6ef820df08.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_210961cbd5eb2be089845fbc2c56b26b = L.polygon(
+                [[30.649447, -90.85374300000001], [30.64941800000003, -90.863858], [30.649403, -90.869543], [30.64938699999995, -90.875066], [30.64938699999995, -90.87517], [30.64938099999997, -90.877213], [30.64936899999999, -90.881699], [30.649360999999974, -90.88470800000002], [30.649334999999994, -90.894013], [30.649334999999994, -90.894316], [30.649304999999984, -90.90514], [30.649303999999955, -90.905717], [30.649369000000018, -90.906444], [30.64938500000002, -90.910701], [30.64956555556873, -90.85297486268485], [30.649447, -90.85374300000001]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_5c0e634a4dc12c7614f17ad1c61a226d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b3fefa8b1bb21b8f3f5176ae6aeb864 = $(`<div id="html_6b3fefa8b1bb21b8f3f5176ae6aeb864" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_5c0e634a4dc12c7614f17ad1c61a226d.setContent(html_6b3fefa8b1bb21b8f3f5176ae6aeb864);
+            
+        
+
+        polygon_210961cbd5eb2be089845fbc2c56b26b.bindPopup(popup_5c0e634a4dc12c7614f17ad1c61a226d)
+        ;
+
+        
+    
+    
+            var circle_marker_6acacc6e9276464c84ca20406279aeb3 = L.circleMarker(
+                [30.649387409723033, -90.88150305391781],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_f3314cdacdd08a0c31d68d325e00e28d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6249b64fb20cc8cc3650e2fbb6577839 = $(`<div id="html_6249b64fb20cc8cc3650e2fbb6577839" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_f3314cdacdd08a0c31d68d325e00e28d.setContent(html_6249b64fb20cc8cc3650e2fbb6577839);
+            
+        
+
+        circle_marker_6acacc6e9276464c84ca20406279aeb3.bindPopup(popup_f3314cdacdd08a0c31d68d325e00e28d)
+        ;
+
+        
+    
+    
+            circle_marker_6acacc6e9276464c84ca20406279aeb3.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_233bff0f7d57422428dcebffb16d64aa = L.polygon(
+                [[30.649487999999995, -90.910776], [30.649884000000014, -90.911301], [30.65015400000004, -90.911554], [30.65029899999999, -90.91174800000002], [30.650781000000045, -90.912114], [30.65087, -90.91224], [30.651194999999994, -90.912192], [30.651621, -90.912081], [30.652147999999997, -90.911962], [30.652446999999988, -90.911697], [30.65275800000003, -90.911303], [30.653084000000014, -90.9107], [30.653201999999986, -90.910693], [30.653386000000005, -90.910683], [30.653717999999994, -90.910607], [30.654125999999994, -90.91027200000002], [30.654519999999998, -90.909781], [30.654585000000008, -90.909701], [30.654998000000024, -90.909204], [30.65508499999995, -90.90910100000002], [30.655319999999964, -90.908792], [30.65565999999995, -90.908625], [30.656030999999995, -90.908502], [30.656420000000026, -90.908427], [30.656986000000003, -90.908403], [30.657186000000006, -90.908201], [30.657184999999977, -90.907901], [30.657078999999985, -90.907742], [30.656985000000002, -90.907601], [30.656686999999987, -90.907556], [30.656378000000032, -90.907511], [30.656152999999982, -90.907434], [30.655591999999995, -90.907358], [30.65538199999997, -90.906794], [30.65508099999996, -90.906122], [30.654855999999977, -90.905481], [30.654685000000008, -90.904701], [30.654692000000036, -90.904459], [30.654959000000044, -90.904367], [30.655423999999954, -90.9042], [30.655655000000014, -90.90416900000001], [30.655624999999972, -90.904012], [30.655292018217082, -90.90371816172338], [30.64938500000002, -90.910701], [30.649487999999995, -90.910776]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_499aff17eb3774445532cd2b6aeac3ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c5ac8a28624a9a30664b37ed4cea675 = $(`<div id="html_9c5ac8a28624a9a30664b37ed4cea675" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_499aff17eb3774445532cd2b6aeac3ca.setContent(html_9c5ac8a28624a9a30664b37ed4cea675);
+            
+        
+
+        polygon_233bff0f7d57422428dcebffb16d64aa.bindPopup(popup_499aff17eb3774445532cd2b6aeac3ca)
+        ;
+
+        
+    
+    
+            var circle_marker_51675116c74d40f51fe52fdfb31cd848 = L.circleMarker(
+                [30.654056333738154, -90.90873918137163],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_7ce6a64c99d182098bde4ab0a13926e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_08fe8f8a26f8c322993cd2d84d2c3917 = $(`<div id="html_08fe8f8a26f8c322993cd2d84d2c3917" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_7ce6a64c99d182098bde4ab0a13926e8.setContent(html_08fe8f8a26f8c322993cd2d84d2c3917);
+            
+        
+
+        circle_marker_51675116c74d40f51fe52fdfb31cd848.bindPopup(popup_7ce6a64c99d182098bde4ab0a13926e8)
+        ;
+
+        
+    
+    
+            circle_marker_51675116c74d40f51fe52fdfb31cd848.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_92e3a201d0d445a17d0d713d026c8573 = L.polygon(
+                [[30.658542999999998, -90.900232], [30.658834999999982, -90.900677], [30.658599999999954, -90.90098], [30.658107000000015, -90.902009], [30.65818700000004, -90.902999], [30.65825500000001, -90.903068], [30.658483999999987, -90.90330100000001], [30.65860199999998, -90.90332], [30.65877299999999, -90.90334600000001], [30.659189, -90.90325400000002], [30.65971599999997, -90.903225], [30.66024699999995, -90.902659], [30.66028099999993, -90.902092], [30.66028600000004, -90.90200100000001], [30.660366, -90.90143800000001], [30.660384, -90.90130100000002], [30.66058800000003, -90.900614], [30.660774999999955, -90.900125], [30.661149000000023, -90.89979000000001], [30.661790000000018, -90.899637], [30.662373000000002, -90.899698], [30.663184000000022, -90.9006], [30.663621999999986, -90.901033], [30.66406800000001, -90.90142], [30.664427000000014, -90.90139], [30.664927000000016, -90.901298], [30.665248999999985, -90.901008], [30.665352000000013, -90.900459], [30.664982999999992, -90.899513], [30.664084000000017, -90.897899], [30.664064000000003, -90.89786], [30.663722000000018, -90.897172], [30.66368499999998, -90.8971], [30.663636999999973, -90.896691], [30.663613999999985, -90.895913], [30.664109999999994, -90.894875], [30.664792999999953, -90.894235], [30.665620999999962, -90.893868], [30.666485, -90.893901], [30.666566999999993, -90.894024], [30.666884000000014, -90.8945], [30.666894000000028, -90.894536], [30.667225999999985, -90.895807], [30.667534999999972, -90.89628], [30.668153, -90.896569], [30.668659999999996, -90.896249], [30.66909499999997, -90.895348], [30.670126000000003, -90.893929], [30.670602999999975, -90.893517], [30.671041000000038, -90.89255700000001], [30.671049000000046, -90.892443], [30.67108499999995, -90.891899], [30.67079200000002, -90.891117], [30.670785000000006, -90.891099], [30.67058500000001, -90.890398], [30.670373999999985, -90.889899], [30.670388000000028, -90.88938], [30.670584000000026, -90.888798], [30.67070100000001, -90.888694], [30.670796, -90.888602], [30.670904000000018, -90.888527], [30.671026000000037, -90.88848100000001], [30.671147999999977, -90.888466], [30.671274000000007, -90.88848100000001], [30.67139199999999, -90.888527], [30.67150699999998, -90.888588], [30.671601999999947, -90.888679], [30.67168499999999, -90.888798], [30.671728000000012, -90.888956], [30.671984999999957, -90.889898], [30.672040000000013, -90.89003900000002], [30.67208599999998, -90.890159], [30.67215400000002, -90.890281], [30.672234000000003, -90.890388], [30.67231800000001, -90.890495], [30.672413999999954, -90.89060200000002], [30.672512999999963, -90.890678], [30.67261999999999, -90.890755], [30.672734, -90.890816], [30.672852000000056, -90.890877], [30.672971000000004, -90.89090700000001], [30.67309300000003, -90.890938], [30.67318499999998, -90.891], [30.673700999999998, -90.890486], [30.673873999999977, -90.890315], [30.673834999999976, -90.890279], [30.673784000000026, -90.89017600000001], [30.673769, -90.890054], [30.673685000000017, -90.8897], [30.673683999999962, -90.889105], [30.673683000000015, -90.888999], [30.673611999999995, -90.888564], [30.67358399999999, -90.8884], [30.67374999999998, -90.887746], [30.673785, -90.887601], [30.67416499999998, -90.886514], [30.674940000000035, -90.885735], [30.675479999999965, -90.8858], [30.676084000000017, -90.8858], [30.676284000000013, -90.8858], [30.676587000000005, -90.885812], [30.676884, -90.8856], [30.676983999999994, -90.8854], [30.677083999999997, -90.8851], [30.677135999999994, -90.88485], [30.67736899999999, -90.883904], [30.677550000000032, -90.882816], [30.677585000000025, -90.8826], [30.677661, -90.882073], [30.677685000000025, -90.8819], [30.677585000000025, -90.881], [30.678156000000023, -90.880263], [30.678886000000016, -90.879783], [30.679042999999975, -90.879134], [30.67903899999997, -90.87885900000002], [30.679072000000012, -90.87818], [30.67958499999999, -90.877589], [30.680332000000007, -90.877092], [30.680922000000045, -90.877099], [30.68120000000001, -90.878198], [30.681767000000008, -90.878809], [30.68196599999998, -90.878889], [30.682184999999976, -90.878999], [30.682584000000013, -90.879099], [30.682896000000007, -90.878849], [30.68308400000002, -90.8787], [30.683835000000006, -90.877602], [30.684365000000046, -90.877024], [30.68508400000002, -90.877101], [30.685205999999987, -90.877117], [30.685884000000033, -90.8772], [30.685992999999975, -90.877144], [30.68637800000006, -90.876945], [30.686588000000008, -90.876457], [30.68641699999999, -90.875435], [30.686461999999985, -90.875099], [30.686451000000005, -90.874186], [30.68663099999998, -90.873488], [30.687039999999993, -90.872294], [30.687389999999983, -90.871715], [30.68803100000003, -90.870832], [30.688089999999953, -90.87075], [30.688131000000013, -90.870695], [30.688577000000002, -90.870022], [30.68864099999996, -90.869949], [30.689223999999996, -90.869282], [30.68979500000001, -90.869174], [30.690184000000013, -90.869523], [30.69046199999999, -90.870158], [30.690471000000024, -90.87018], [30.690592999999964, -90.870345], [30.690950999999988, -90.870826], [30.69168600000002, -90.87108], [30.69203200000002, -90.87106700000001], [30.692123999999982, -90.871062], [30.692636000000004, -90.871034], [30.693025000000002, -90.870968], [30.693329000000002, -90.870916], [30.693801999999994, -90.870614], [30.69384600000001, -90.870332], [30.69383500000001, -90.870272], [30.693778999999985, -90.869982], [30.69368799999999, -90.869883], [30.693654999999975, -90.869847], [30.693503000000007, -90.86967900000002], [30.693434999999994, -90.869624], [30.69336999999999, -90.869572], [30.693202000000007, -90.86944], [30.69306099999998, -90.86939], [30.692801999999997, -90.869298], [30.69271699999999, -90.869268], [30.692353000000022, -90.869114], [30.692227000000035, -90.868491], [30.692269000000003, -90.868131], [30.692332999999987, -90.867918], [30.692367000000047, -90.867802], [30.69251799999999, -90.86747000000001], [30.692533999999988, -90.867433], [30.692582000000005, -90.867327], [30.693069999999988, -90.866867], [30.693119, -90.866622], [30.69316199999999, -90.866513], [30.69329000000001, -90.866187], [30.693349000000016, -90.865774], [30.693304999999963, -90.865534], [30.693258000000014, -90.865285], [30.69312499999999, -90.86478400000001], [30.692880000000045, -90.864387], [30.69254699999997, -90.86401000000001], [30.692397999999997, -90.863688], [30.69234199999997, -90.86356600000002], [30.69230600000004, -90.863487], [30.69214599999998, -90.86314], [30.691927999999983, -90.862696], [30.691889, -90.862425], [30.691847000000024, -90.86213900000001], [30.691884999999992, -90.861693], [30.69204599999998, -90.86078], [30.69231600000001, -90.860275], [30.69276400000004, -90.859909], [30.693190999999988, -90.859951], [30.69357999999999, -90.860254], [30.69390399999996, -90.860539], [30.694323999999998, -90.860665], [30.694839999999985, -90.860688], [30.695265000000035, -90.86067100000001], [30.695423000000044, -90.860666], [30.695499999999967, -90.860664], [30.69590300000002, -90.860358], [30.69595699999996, -90.86031900000002], [30.696055999999988, -90.860244], [30.696323999999954, -90.859607], [30.696310999999973, -90.859058], [30.696016000000014, -90.858664], [30.695950999999976, -90.858578], [30.695907000000016, -90.858522], [30.695477000000047, -90.857988], [30.695340999999974, -90.85761], [30.69519699999999, -90.857208], [30.6951372949391, -90.8565737556442], [30.6583621778367, -90.90008820830963], [30.658542999999998, -90.900232]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_60ae88f91898d3f447423031ad3a78ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_841a63a1a5733f1bb1826f32c8ab9800 = $(`<div id="html_841a63a1a5733f1bb1826f32c8ab9800" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_60ae88f91898d3f447423031ad3a78ba.setContent(html_841a63a1a5733f1bb1826f32c8ab9800);
+            
+        
+
+        polygon_92e3a201d0d445a17d0d713d026c8573.bindPopup(popup_60ae88f91898d3f447423031ad3a78ba)
+        ;
+
+        
+    
+    
+            var circle_marker_d876642abf7d6d7d874fac198d44216f = L.circleMarker(
+                [30.679306921048543, -90.88117621154933],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_9ff50a97c1e6b7b7e604f75066b5db45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe2bdc4f5a627627e848bf5f5b889df8 = $(`<div id="html_fe2bdc4f5a627627e848bf5f5b889df8" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_9ff50a97c1e6b7b7e604f75066b5db45.setContent(html_fe2bdc4f5a627627e848bf5f5b889df8);
+            
+        
+
+        circle_marker_d876642abf7d6d7d874fac198d44216f.bindPopup(popup_9ff50a97c1e6b7b7e604f75066b5db45)
+        ;
+
+        
+    
+    
+            circle_marker_d876642abf7d6d7d874fac198d44216f.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8db9cae4f17804c6c8eaedf677214287 = L.polygon(
+                [[30.69843300000005, -90.8527], [30.698941000000037, -90.852677], [30.699303000000015, -90.8527], [30.69984000000001, -90.852509], [30.70016700000002, -90.852106], [30.70010899999999, -90.851799], [30.700092000000012, -90.85169], [30.70006, -90.85147], [30.700039999999966, -90.851336], [30.700092000000012, -90.850788], [30.700197000000003, -90.850613], [30.700208000000007, -90.850595], [30.700267, -90.850499], [30.69840198100593, -90.85270775475493], [30.69843300000005, -90.8527]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_8d2eb44d45ba9a9af7171a6b20550c03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_971d08c1aba957f8ff6eafd689da450b = $(`<div id="html_971d08c1aba957f8ff6eafd689da450b" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_8d2eb44d45ba9a9af7171a6b20550c03.setContent(html_971d08c1aba957f8ff6eafd689da450b);
+            
+        
+
+        polygon_8db9cae4f17804c6c8eaedf677214287.bindPopup(popup_8d2eb44d45ba9a9af7171a6b20550c03)
+        ;
+
+        
+    
+    
+            var circle_marker_2a19377319d4f838f496478fa2eff517 = L.circleMarker(
+                [30.699638932067078, -90.85179265031698],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_81b7424796d42f236678bd6326087e0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45320a34e65bd0bfa70633358553147c = $(`<div id="html_45320a34e65bd0bfa70633358553147c" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_81b7424796d42f236678bd6326087e0a.setContent(html_45320a34e65bd0bfa70633358553147c);
+            
+        
+
+        circle_marker_2a19377319d4f838f496478fa2eff517.bindPopup(popup_81b7424796d42f236678bd6326087e0a)
+        ;
+
+        
+    
+    
+            circle_marker_2a19377319d4f838f496478fa2eff517.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_cf1a2fc4c64c3f868d949d4910312a48 = L.polygon(
+                [[30.700509, -90.850495], [30.70070100000001, -90.850592], [30.701125000000033, -90.851102], [30.701260999999974, -90.851274], [30.701410000000035, -90.85147], [30.70137599999999, -90.85176], [30.701256999999995, -90.851983], [30.70086499999999, -90.852264], [30.70060300000007, -90.852545], [30.700460999999983, -90.852963], [30.700423999999984, -90.853408], [30.70057100000001, -90.853741], [30.700822, -90.854054], [30.701216000000024, -90.85418], [30.70160100000005, -90.85413000000001], [30.702047999999998, -90.8537], [30.702228999999996, -90.853253], [30.702483000000022, -90.852769], [30.70276000000004, -90.85226700000001], [30.702997999999965, -90.851857], [30.70346900000002, -90.85139900000001], [30.70386100000001, -90.851256], [30.704276999999966, -90.851159], [30.704589999999975, -90.851212], [30.704904999999986, -90.851386], [30.70530599999997, -90.85131700000001], [30.70557000000002, -90.851101], [30.705805999999967, -90.850543], [30.705899999999964, -90.850209], [30.705868513700633, -90.84999384311317], [30.700267, -90.850499], [30.700509, -90.850495]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_fb45f87798644e22dd7c0173c60a094e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_226fca261af23f6852b87b4d5ef8343a = $(`<div id="html_226fca261af23f6852b87b4d5ef8343a" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_fb45f87798644e22dd7c0173c60a094e.setContent(html_226fca261af23f6852b87b4d5ef8343a);
+            
+        
+
+        polygon_cf1a2fc4c64c3f868d949d4910312a48.bindPopup(popup_fb45f87798644e22dd7c0173c60a094e)
+        ;
+
+        
+    
+    
+            var circle_marker_4778018721c9dc19152b04b4ffa65e13 = L.circleMarker(
+                [30.70240776605315, -90.85188677634729],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_8446385a1de5d8b45431ec606d6095ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69d07a8712280e2bfaf507e36dcaa603 = $(`<div id="html_69d07a8712280e2bfaf507e36dcaa603" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_8446385a1de5d8b45431ec606d6095ae.setContent(html_69d07a8712280e2bfaf507e36dcaa603);
+            
+        
+
+        circle_marker_4778018721c9dc19152b04b4ffa65e13.bindPopup(popup_8446385a1de5d8b45431ec606d6095ae)
+        ;
+
+        
+    
+    
+            circle_marker_4778018721c9dc19152b04b4ffa65e13.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_03b725379b743a9f253a09a883579df6 = L.polygon(
+                [[30.717661000000003, -90.849327], [30.718764999999987, -90.849288], [30.71931100000001, -90.849041], [30.719458000000003, -90.848768], [30.717115726886952, -90.84897931699295], [30.717661000000003, -90.849327]],
+                {"bubblingMouseEvents": true, "color": "#f032e6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f032e6", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_3c9405ec61354891f4069a6c866bd37e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd9d186de7d9af6deae298a73939913f = $(`<div id="html_fd9d186de7d9af6deae298a73939913f" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_3c9405ec61354891f4069a6c866bd37e.setContent(html_fd9d186de7d9af6deae298a73939913f);
+            
+        
+
+        polygon_03b725379b743a9f253a09a883579df6.bindPopup(popup_3c9405ec61354891f4069a6c866bd37e)
+        ;
+
+        
+    
+    
+            var circle_marker_4ca942c92cce48eb70b280e8ae6948c3 = L.circleMarker(
+                [30.718328621147823, -90.84912171949883],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bb7e4d1b042d286035578f76c01d4264);
+        
+    
+        var popup_c1fd431ec5d1ea07d2a08310b1539133 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afa83587c2af72794ac8d4c009cf6ffe = $(`<div id="html_afa83587c2af72794ac8d4c009cf6ffe" style="width: 100.0%; height: 100.0%;"><b>St. Helena - Louisiana-CD06</b></div>`)[0];
+                popup_c1fd431ec5d1ea07d2a08310b1539133.setContent(html_afa83587c2af72794ac8d4c009cf6ffe);
+            
+        
+
+        circle_marker_4ca942c92cce48eb70b280e8ae6948c3.bindPopup(popup_c1fd431ec5d1ea07d2a08310b1539133)
+        ;
+
+        
+    
+    
+            circle_marker_4ca942c92cce48eb70b280e8ae6948c3.bindTooltip(
+                `<div>
+                     St. Helena - Louisiana-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

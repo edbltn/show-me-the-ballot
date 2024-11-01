@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f00e3874c5b8a8be9afc295fe5a37d0f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Knox - Maine-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Knox - Maine-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Knox - Maine-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Knox - Maine-CD01</p>
+            </div>
+    
+            <div class="folium-map" id="map_f00e3874c5b8a8be9afc295fe5a37d0f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f00e3874c5b8a8be9afc295fe5a37d0f = L.map(
+                "map_f00e3874c5b8a8be9afc295fe5a37d0f",
+                {
+                    center: [44.09860108948572, -68.65902674619056],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7b4909973fe8af5693c881c20001336d = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_7b4909973fe8af5693c881c20001336d.addTo(map_f00e3874c5b8a8be9afc295fe5a37d0f);
+        
+    
+            var polygon_e1c6a0df6db19943969dfa473c851ae3 = L.polygon(
+                [[44.115857000000005, -68.71474700000002], [44.116223000000005, -68.713452], [44.11663400000006, -68.712226], [44.11731799999998, -68.710397], [44.117724999999986, -68.709156], [44.11866600000001, -68.706071], [44.119202000000044, -68.70424200000001], [44.11962100000002, -68.702551], [44.11988700000004, -68.70106500000001], [44.12001099999997, -68.700243], [44.12008300000002, -68.698406], [44.11992899999998, -68.69318], [44.119523999999984, -68.689858], [44.11887799999996, -68.685836], [44.11837088549496, -68.68399442695018], [44.11573219063476, -68.71532068563486], [44.115857000000005, -68.71474700000002]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f00e3874c5b8a8be9afc295fe5a37d0f);
+        
+    
+        var popup_be14dda62b65f304c358fae80ee5bf2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99c988350d65ac882b39d1a49705c91b = $(`<div id="html_99c988350d65ac882b39d1a49705c91b" style="width: 100.0%; height: 100.0%;"><b>Knox - Maine-CD02</b></div>`)[0];
+                popup_be14dda62b65f304c358fae80ee5bf2c.setContent(html_99c988350d65ac882b39d1a49705c91b);
+            
+        
+
+        polygon_e1c6a0df6db19943969dfa473c851ae3.bindPopup(popup_be14dda62b65f304c358fae80ee5bf2c)
+        ;
+
+        
+    
+    
+            var circle_marker_3736330e8e10e7b6f5c7f0b8063749c6 = L.circleMarker(
+                [44.11820694565469, -68.70326424191677],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f00e3874c5b8a8be9afc295fe5a37d0f);
+        
+    
+        var popup_31bc5f41a51aa0d89e06f0099428f62d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_547b990ea30996cc5bc936dd1abdf335 = $(`<div id="html_547b990ea30996cc5bc936dd1abdf335" style="width: 100.0%; height: 100.0%;"><b>Knox - Maine-CD02</b></div>`)[0];
+                popup_31bc5f41a51aa0d89e06f0099428f62d.setContent(html_547b990ea30996cc5bc936dd1abdf335);
+            
+        
+
+        circle_marker_3736330e8e10e7b6f5c7f0b8063749c6.bindPopup(popup_31bc5f41a51aa0d89e06f0099428f62d)
+        ;
+
+        
+    
+    
+            circle_marker_3736330e8e10e7b6f5c7f0b8063749c6.bindTooltip(
+                `<div>
+                     Knox - Maine-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_06697710f33b3a86d11f326a71ac1459 = L.polygon(
+                [[44.11557700000006, -68.716034], [44.11573219063476, -68.71532068563486], [44.11837088549496, -68.68399442695018], [44.11789599999998, -68.68227], [44.11769199999994, -68.68161500000001], [44.11755899999993, -68.68096], [44.117474999999956, -68.679931], [44.11742600000003, -68.67849900000002], [44.11743199999998, -68.677356], [44.11752800000003, -68.676198], [44.11868900000001, -68.666674], [44.119104000000036, -68.664046], [44.11962299999999, -68.661181], [44.11994000000002, -68.659086], [44.12021199999999, -68.656465], [44.12025400000002, -68.655467], [44.12025299999997, -68.653806], [44.12020899999997, -68.652481], [44.120136999999986, -68.651208], [44.11976900000002, -68.648389], [44.11945300000002, -68.64669100000002], [44.11922999999998, -68.645914], [44.115051000000015, -68.634017], [44.11478199999996, -68.633088], [44.114334999999976, -68.631382], [44.11415200000001, -68.630232], [44.11378499999997, -68.628328], [44.11314199999998, -68.624469], [44.112919000000005, -68.622293], [44.11279199999997, -68.620152], [44.109663000000026, -68.620221], [44.10967299999997, -68.620426], [44.101912000000006, -68.593085], [44.108460000000036, -68.57350800000002], [44.11888899999999, -68.576884], [44.12398100000002, -68.572496], [44.10797500000001, -68.55663200000001], [44.09633499999999, -68.557644], [44.08481315521537, -68.54596018879855], [44.07517422763249, -68.57376505598103], [44.07523600000004, -68.57789600000001], [44.07388272312659, -68.57748875171158], [44.07158899999999, -68.584101], [44.010096999999966, -68.617085], [44.0088721619262, -68.62488999674318], [44.011210999999996, -68.630552], [44.00684599999997, -68.637978], [44.006802365554954, -68.63807205249391], [44.00382299999998, -68.657031], [44.02962686554718, -68.6614222465275], [44.03231000000001, -68.660255], [44.03710206118808, -68.66269494465381], [44.05086735200884, -68.6650392585207], [44.063109999999995, -68.664643], [44.06425205116038, -68.66731961098415], [44.076358999999975, -68.669383], [44.075276848609576, -68.67581307937472], [44.081540999999994, -68.676119], [44.08323899999996, -68.65958000000002], [44.08542100000003, -68.64607800000002], [44.088089000000046, -68.63629], [44.093181999999956, -68.63696500000002], [44.101670000000006, -68.65755500000002], [44.101670000000006, -68.670718], [44.09779000000004, -68.685907], [44.10360999999999, -68.701772], [44.10579300000002, -68.713585], [44.109907, -68.723698], [44.112959999999994, -68.720077], [44.115374999999986, -68.717213], [44.11549699999999, -68.716465], [44.11557700000006, -68.716034]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f00e3874c5b8a8be9afc295fe5a37d0f);
+        
+    
+        var popup_75f36bda5537b636250b808d3e991d8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1cbdc77ec9aaa1837ea888e26cf8b60 = $(`<div id="html_b1cbdc77ec9aaa1837ea888e26cf8b60" style="width: 100.0%; height: 100.0%;"><b>Knox - Maine-CD01</b></div>`)[0];
+                popup_75f36bda5537b636250b808d3e991d8d.setContent(html_b1cbdc77ec9aaa1837ea888e26cf8b60);
+            
+        
+
+        polygon_06697710f33b3a86d11f326a71ac1459.bindPopup(popup_75f36bda5537b636250b808d3e991d8d)
+        ;
+
+        
+    
+    
+            var circle_marker_2cf83286aa09f5c8e88ba58e6c8593de = L.circleMarker(
+                [44.09397192900138, -68.64858178192186],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f00e3874c5b8a8be9afc295fe5a37d0f);
+        
+    
+        var popup_a072da212016f3f4b3ebe8df73bf87d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3e7696b29ca32012911b2066aeb854e = $(`<div id="html_a3e7696b29ca32012911b2066aeb854e" style="width: 100.0%; height: 100.0%;"><b>Knox - Maine-CD01</b></div>`)[0];
+                popup_a072da212016f3f4b3ebe8df73bf87d1.setContent(html_a3e7696b29ca32012911b2066aeb854e);
+            
+        
+
+        circle_marker_2cf83286aa09f5c8e88ba58e6c8593de.bindPopup(popup_a072da212016f3f4b3ebe8df73bf87d1)
+        ;
+
+        
+    
+    
+            circle_marker_2cf83286aa09f5c8e88ba58e6c8593de.bindTooltip(
+                `<div>
+                     Knox - Maine-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_246be3b8aa504f6df8d8040c5723260c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD03</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Stewart - Georgia-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_246be3b8aa504f6df8d8040c5723260c" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_246be3b8aa504f6df8d8040c5723260c = L.map(
+                "map_246be3b8aa504f6df8d8040c5723260c",
+                {
+                    center: [32.13257463858402, -84.95316109062867],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ca5716964e44d156f3dcdc99aacf6a06 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_ca5716964e44d156f3dcdc99aacf6a06.addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+            var polygon_9f27586ba7bcc3202e31ff7098cf05e9 = L.polygon(
+                [[32.133412, -85.061601], [32.134065, -85.061144], [32.13467600000003, -85.06055400000001], [32.13512599999998, -85.060003], [32.13556800000003, -85.059395], [32.13601799999995, -85.058749], [32.09343775336582, -85.04851572906725], [32.095362, -85.04955000000001], [32.097927999999996, -85.050294], [32.101519000000025, -85.051687], [32.10484400000001, -85.053402], [32.10768400000002, -85.053777], [32.11366999999998, -85.05504500000002], [32.11956000000001, -85.057194], [32.125152, -85.05918], [32.125254999999996, -85.05916000000002], [32.12588600000004, -85.059423], [32.12640399999995, -85.059705], [32.126969999999986, -85.06007300000002], [32.12740800000002, -85.060374], [32.127861, -85.060695], [32.12828200000002, -85.06094900000001], [32.12916399999999, -85.061334], [32.12967200000001, -85.06154], [32.130086, -85.061671], [32.130901999999985, -85.061914], [32.13156499999999, -85.062035], [32.13208100000004, -85.062061], [32.13248599999996, -85.06206], [32.132862999999986, -85.061907], [32.133412, -85.061601]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_d28dd9cdd5374f0e838e01643ec7f703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e04ceb97be665b6bf0ca7c4785a95601 = $(`<div id="html_e04ceb97be665b6bf0ca7c4785a95601" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_d28dd9cdd5374f0e838e01643ec7f703.setContent(html_e04ceb97be665b6bf0ca7c4785a95601);
+            
+        
+
+        polygon_9f27586ba7bcc3202e31ff7098cf05e9.bindPopup(popup_d28dd9cdd5374f0e838e01643ec7f703)
+        ;
+
+        
+    
+    
+            var circle_marker_f0448edaf4f3f8c9d366bf4a83b88b44 = L.circleMarker(
+                [32.123816733979545, -85.05859976545378],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_40946aae521874192163f124b201cdb2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0de7acd1a055e936d2edaf9d0dac4a78 = $(`<div id="html_0de7acd1a055e936d2edaf9d0dac4a78" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_40946aae521874192163f124b201cdb2.setContent(html_0de7acd1a055e936d2edaf9d0dac4a78);
+            
+        
+
+        circle_marker_f0448edaf4f3f8c9d366bf4a83b88b44.bindPopup(popup_40946aae521874192163f124b201cdb2)
+        ;
+
+        
+    
+    
+            circle_marker_f0448edaf4f3f8c9d366bf4a83b88b44.bindTooltip(
+                `<div>
+                     Stewart - Georgia-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_484e94bf9d137a5df60bcc459fe2ecfd = L.polygon(
+                [[32.15226500000002, -85.038744], [32.152811000000014, -85.038211], [32.153278000000036, -85.037669], [32.15412100000002, -85.036585], [32.15524599999998, -85.035188], [32.155327000000014, -85.035092], [32.15579999999996, -85.034484], [32.15634800000003, -85.03398900000002], [32.156926999999975, -85.033484], [32.15778900000002, -85.03291200000001], [32.15869000000001, -85.032339], [32.15987500000001, -85.031595], [32.16092900000003, -85.03087], [32.16172700000002, -85.030336], [32.16248299999997, -85.029717], [32.16341700000002, -85.028992], [32.164318, -85.028173], [32.16525900000002, -85.027345], [32.166103, -85.026583], [32.166731, -85.025869], [32.16754099999997, -85.024937], [32.16834600000003, -85.024023], [32.16900500000002, -85.023187], [32.169606999999985, -85.022426], [32.169928, -85.021941], [32.17089899999998, -85.020572], [32.17209499999997, -85.018907], [32.17266600000003, -85.018184], [32.17308299999997, -85.017623], [32.17340500000001, -85.01722], [32.17351600000003, -85.01708], [32.174072000000024, -85.016557], [32.17448099999999, -85.016223], [32.17510199999999, -85.015775], [32.17560899999999, -85.015431], [32.176189000000036, -85.015078], [32.176881999999985, -85.014648], [32.17765499999999, -85.014124], [32.17829899999998, -85.01376000000002], [32.178694000000014, -85.013446], [32.17911200000003, -85.013065], [32.17949800000005, -85.012599], [32.179802999999964, -85.012209], [32.18023600000004, -85.011638], [32.180493000000006, -85.011267], [32.180531999999985, -85.011204], [32.18072599999998, -85.010896], [32.18097400000001, -85.010459], [32.181198999999985, -85.010079], [32.181454999999964, -85.009613], [32.18164599999999, -85.009224], [32.18190300000002, -85.008531], [32.182100999999996, -85.0078], [32.18242599999994, -85.006272], [32.18253599999999, -85.005523], [32.182596999999994, -85.004755], [32.18271299999998, -85.003939], [32.18279800000002, -85.002687], [32.18293799999998, -85.001407], [32.183056054145844, -85.00071531716935], [32.15219191920574, -85.0388066417851], [32.15226500000002, -85.038744]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_627c387b3db387f89050d0158c4a01c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26dc72f4c717bfbc2f2c246278560af1 = $(`<div id="html_26dc72f4c717bfbc2f2c246278560af1" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_627c387b3db387f89050d0158c4a01c5.setContent(html_26dc72f4c717bfbc2f2c246278560af1);
+            
+        
+
+        polygon_484e94bf9d137a5df60bcc459fe2ecfd.bindPopup(popup_627c387b3db387f89050d0158c4a01c5)
+        ;
+
+        
+    
+    
+            var circle_marker_dd6b0b34dbb9c65d42901e212e57e956 = L.circleMarker(
+                [32.170640596344384, -85.02017341869283],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_5737c9d28279f7becfda7124b10a21db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8f27356cad8fd731d27a065e677fae1 = $(`<div id="html_e8f27356cad8fd731d27a065e677fae1" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_5737c9d28279f7becfda7124b10a21db.setContent(html_e8f27356cad8fd731d27a065e677fae1);
+            
+        
+
+        circle_marker_dd6b0b34dbb9c65d42901e212e57e956.bindPopup(popup_5737c9d28279f7becfda7124b10a21db)
+        ;
+
+        
+    
+    
+            circle_marker_dd6b0b34dbb9c65d42901e212e57e956.bindTooltip(
+                `<div>
+                     Stewart - Georgia-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_71ec8df5ac9fb0d550f7efe2ba73f998 = L.polygon(
+                [[32.203051000000016, -84.96402800000001], [32.203550000000035, -84.96462800000002], [32.20395100000001, -84.965228], [32.204151000000024, -84.966028], [32.204451000000034, -84.966928], [32.204451000000034, -84.967828], [32.204451000000034, -84.968828], [32.204451000000034, -84.969428], [32.204350999999996, -84.970028], [32.204150999999996, -84.970628], [32.203749999999985, -84.971628], [32.203550000000035, -84.972328], [32.203403000000016, -84.972771], [32.20334999999999, -84.972928], [32.20334999999999, -84.972977], [32.20334999999999, -84.973128], [32.20334999999998, -84.973428], [32.20345100000005, -84.974028], [32.203550000000035, -84.974428], [32.20365100000001, -84.974628], [32.203749999999985, -84.974928], [32.20405100000001, -84.975228], [32.204350999999996, -84.975528], [32.20465099999999, -84.976028], [32.205050000000035, -84.976428], [32.205550999999964, -84.976928], [32.20575099999997, -84.977128], [32.20625099999998, -84.977628], [32.206450999999966, -84.978029], [32.206749999999985, -84.978429], [32.20715099999999, -84.979029], [32.20725100000006, -84.979329], [32.20745100000003, -84.979829], [32.20765100000004, -84.980129], [32.20775099999998, -84.980229], [32.208050000000036, -84.980329], [32.208449999999985, -84.980429], [32.20885100000004, -84.980429], [32.20945099999997, -84.980429], [32.210051000000014, -84.980229], [32.210551000000024, -84.980029], [32.21105, -84.979829], [32.21145, -84.979529], [32.21255000000001, -84.978729], [32.21295000000002, -84.978329], [32.21395100000004, -84.977529], [32.21455100000004, -84.977029], [32.21535099999999, -84.976129], [32.21625100000001, -84.975228], [32.21695099999998, -84.974228], [32.217649999999985, -84.973328], [32.21825100000001, -84.972128], [32.21885100000001, -84.970828], [32.219050999999965, -84.969928], [32.21925100000002, -84.969028], [32.21935099999997, -84.968128], [32.21935099999997, -84.967528], [32.21935099999997, -84.967428], [32.21895000000002, -84.965228], [32.21865099999997, -84.963728], [32.21835099999997, -84.962528], [32.21825100000001, -84.96202800000002], [32.218051000000024, -84.96142800000001], [32.217951, -84.960428], [32.217856999999974, -84.959401], [32.21785300000001, -84.95817300000002], [32.21785099999998, -84.957728], [32.217851, -84.956328], [32.217951, -84.955228], [32.217951, -84.954428], [32.218051000000024, -84.953628], [32.21825099999999, -84.952828], [32.21835099999997, -84.951628], [32.218450999999995, -84.950228], [32.218511, -84.949451], [32.21854999999997, -84.948928], [32.21845099999998, -84.947828], [32.21845099999998, -84.946828], [32.21825100000001, -84.945528], [32.21815100000003, -84.944728], [32.21805499999997, -84.943685], [32.218050999999996, -84.943628], [32.217951000000006, -84.942728], [32.217951, -84.942128], [32.217951, -84.942072], [32.217951, -84.941328], [32.217951, -84.940328], [32.217951, -84.939857], [32.217950999999985, -84.93932800000002], [32.218050999999996, -84.938027], [32.21815100000003, -84.937027], [32.21835099999999, -84.935527], [32.21865099999997, -84.933727], [32.21885099999999, -84.932127], [32.21895000000002, -84.930727], [32.219050999999965, -84.930327], [32.219050999999965, -84.930127], [32.20249299460492, -84.96347068883296], [32.203051000000016, -84.96402800000001]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_73afac82276ec646db5ed0a096063ffa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_224f8289fe98c294c292df869415809b = $(`<div id="html_224f8289fe98c294c292df869415809b" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_73afac82276ec646db5ed0a096063ffa.setContent(html_224f8289fe98c294c292df869415809b);
+            
+        
+
+        polygon_71ec8df5ac9fb0d550f7efe2ba73f998.bindPopup(popup_73afac82276ec646db5ed0a096063ffa)
+        ;
+
+        
+    
+    
+            var circle_marker_f991fa4c4c092ec6d9dbcd66525cf220 = L.circleMarker(
+                [32.21226862620813, -84.96349383524075],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_9729f5cb78733e7e7d4d868f40454f17 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0f53f15f5041a702f6ee4ba4f4b3f13 = $(`<div id="html_f0f53f15f5041a702f6ee4ba4f4b3f13" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_9729f5cb78733e7e7d4d868f40454f17.setContent(html_f0f53f15f5041a702f6ee4ba4f4b3f13);
+            
+        
+
+        circle_marker_f991fa4c4c092ec6d9dbcd66525cf220.bindPopup(popup_9729f5cb78733e7e7d4d868f40454f17)
+        ;
+
+        
+    
+    
+            circle_marker_f991fa4c4c092ec6d9dbcd66525cf220.bindTooltip(
+                `<div>
+                     Stewart - Georgia-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e2ab87d435ecf54d3d6b16ee6fcc26b1 = L.polygon(
+                [[32.062755, -85.05613], [32.06305500000002, -85.05593], [32.06305500000002, -85.056029], [32.06798500000001, -85.05417900000002], [32.07020999999998, -85.054084], [32.070911999999986, -85.054222], [32.07098500000002, -85.054291], [32.07163799999999, -85.054862], [32.072656999999985, -85.055491], [32.07443900000003, -85.055813], [32.077902999999964, -85.054057], [32.08060400000001, -85.053232], [32.082527, -85.051161], [32.08306299999998, -85.048983], [32.08348397319496, -85.04773878383588], [32.06225608362195, -85.0514111279128], [32.06223897518563, -85.05625884564772], [32.062755, -85.05613]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_0acdf73dffdf12c1f584acbd26574a14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f6c5c4fa22854c2ac0384a6c0d775d72 = $(`<div id="html_f6c5c4fa22854c2ac0384a6c0d775d72" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_0acdf73dffdf12c1f584acbd26574a14.setContent(html_f6c5c4fa22854c2ac0384a6c0d775d72);
+            
+        
+
+        polygon_e2ab87d435ecf54d3d6b16ee6fcc26b1.bindPopup(popup_0acdf73dffdf12c1f584acbd26574a14)
+        ;
+
+        
+    
+    
+            var circle_marker_94dd74a10eb6d0d7bbaa4beabb1bea11 = L.circleMarker(
+                [32.07125122400014, -85.05388904207757],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_102ce2d779bc44a7b157b1e6b5c1a236 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9083dd3e1997a0177739014363ca8ba = $(`<div id="html_d9083dd3e1997a0177739014363ca8ba" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD03</b></div>`)[0];
+                popup_102ce2d779bc44a7b157b1e6b5c1a236.setContent(html_d9083dd3e1997a0177739014363ca8ba);
+            
+        
+
+        circle_marker_94dd74a10eb6d0d7bbaa4beabb1bea11.bindPopup(popup_102ce2d779bc44a7b157b1e6b5c1a236)
+        ;
+
+        
+    
+    
+            circle_marker_94dd74a10eb6d0d7bbaa4beabb1bea11.bindTooltip(
+                `<div>
+                     Stewart - Georgia-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_eda26b7fa279e3b0a6069a7e9d1541d2 = L.polygon(
+                [[32.136200999999964, -85.058407], [32.136803, -85.057466], [32.137141000000014, -85.056895], [32.13750099999996, -85.056307], [32.13779700000001, -85.055547], [32.13800500000002, -85.054931], [32.13818800000001, -85.054248], [32.138516999999986, -85.05353600000001], [32.13886899999999, -85.052833], [32.139053999999994, -85.052472], [32.139398000000014, -85.052045], [32.13941899999998, -85.052015], [32.139476, -85.051934], [32.139736000000006, -85.05156], [32.14013799999997, -85.051037], [32.14053799999994, -85.050363], [32.14084399999995, -85.049812], [32.140906000000015, -85.049685], [32.141067000000014, -85.049356], [32.14124400000003, -85.049045], [32.14139599999999, -85.048777], [32.14186299999998, -85.048131], [32.14203200000005, -85.047865], [32.14226299999998, -85.047504], [32.142713, -85.046886], [32.143276000000036, -85.046145], [32.143413, -85.045988], [32.143757999999984, -85.045593], [32.14398399999999, -85.045402], [32.14436999999995, -85.045079], [32.144941, -85.044631], [32.145414999999964, -85.044298], [32.14571800000001, -85.04407], [32.14592399999999, -85.043916], [32.14649499999999, -85.043516], [32.14705899999999, -85.04303], [32.147581, -85.042526], [32.148144000000045, -85.041955], [32.14885300000001, -85.041421], [32.14932, -85.041097], [32.149632999999994, -85.040764], [32.15043899999998, -85.040183], [32.15113100000002, -85.039716], [32.15219191920574, -85.0388066417851], [32.183056054145844, -85.00071531716935], [32.183087000000015, -85.000534], [32.18330099999997, -84.999929], [32.18375200000002, -84.999229], [32.184151000000014, -84.998129], [32.184551000000035, -84.996929], [32.184852, -84.995929], [32.185152, -84.994829], [32.18545099999999, -84.994029], [32.185650999999986, -84.993529], [32.185951999999986, -84.992629], [32.185952, -84.992529], [32.185951999999986, -84.992429], [32.186752, -84.990429], [32.186852000000044, -84.990129], [32.18695100000003, -84.989429], [32.187151, -84.988529], [32.18735099999997, -84.987929], [32.18745199999999, -84.987429], [32.18765199999999, -84.986929], [32.18805199999998, -84.985929], [32.18845100000004, -84.98442900000002], [32.18885099999997, -84.98312900000002], [32.189145000000025, -84.982249], [32.189351999999985, -84.981628], [32.18975200000001, -84.980328], [32.190052, -84.979228], [32.190252000000015, -84.978428], [32.19035099999996, -84.978028], [32.190452000000015, -84.977828], [32.190550999999964, -84.977028], [32.19075200000002, -84.976228], [32.19085199999999, -84.975728], [32.19105200000005, -84.975028], [32.19125199999998, -84.974428], [32.19155199999998, -84.973728], [32.19165100000002, -84.973528], [32.191952000000015, -84.973028], [32.19225200000002, -84.972428], [32.192551999999985, -84.971828], [32.19275199999999, -84.971428], [32.192852, -84.971028], [32.19315100000001, -84.970428], [32.19345200000002, -84.96982800000002], [32.193751999999996, -84.969228], [32.19385199999997, -84.969128], [32.194051999999985, -84.968228], [32.19405199999998, -84.967828], [32.194051999999985, -84.967628], [32.193952000000046, -84.967428], [32.19385199999997, -84.967128], [32.193952000000046, -84.966828], [32.19425199999998, -84.966228], [32.19455200000001, -84.965728], [32.19475199999994, -84.965228], [32.194850999999964, -84.965128], [32.194850999999964, -84.965028], [32.19495200000002, -84.964828], [32.195051, -84.964828], [32.19515200000001, -84.96462800000002], [32.19525200000003, -84.96462800000002], [32.19575199999997, -84.963928], [32.19585200000002, -84.963728], [32.19605200000002, -84.963628], [32.196151000000036, -84.963528], [32.19635100000002, -84.963428], [32.196551, -84.963428], [32.196951999999996, -84.963128], [32.19705199999999, -84.963028], [32.197252000000006, -84.96272800000001], [32.19755199999999, -84.962528], [32.197850999999986, -84.962228], [32.198150999999996, -84.96202800000002], [32.198480999999944, -84.961781], [32.198551, -84.961728], [32.19865, -84.961728], [32.19875100000001, -84.961728], [32.199571999999996, -84.961892], [32.199751000000035, -84.961928], [32.200050999999995, -84.962228], [32.20054999999997, -84.962328], [32.20085099999997, -84.962428], [32.201051, -84.962528], [32.20155099999997, -84.96272800000001], [32.20187299999999, -84.962958], [32.20212799999998, -84.96314], [32.202250000000014, -84.963228], [32.20249299460492, -84.96347068883296], [32.219050999999965, -84.930127], [32.21925100000002, -84.929527], [32.219551, -84.928927], [32.219851, -84.928227], [32.22025000000005, -84.927727], [32.22075099999996, -84.926727], [32.221350999999984, -84.925727], [32.22155000000002, -84.92542700000001], [32.222150000000056, -84.925027], [32.22231200000001, -84.924893], [32.22199999999998, -84.924445], [32.22190199999998, -84.924305], [32.22178699999996, -84.923673], [32.22131100000001, -84.923442], [32.220602000000014, -84.92285], [32.22014300000002, -84.922069], [32.21954800000004, -84.920829], [32.21890699999999, -84.920102], [32.21812800000003, -84.919644], [32.21808100000003, -84.919593], [32.21778400000004, -84.91926700000002], [32.217528999999956, -84.919241], [32.21680500000001, -84.918327], [32.21626800000003, -84.917818], [32.21480600000003, -84.917634], [32.21357500000001, -84.917044], [32.212527999999985, -84.916294], [32.21213100000002, -84.915864], [32.21121799999999, -84.914414], [32.20953900000002, -84.912831], [32.20681499999997, -84.91052300000001], [32.20465200000001, -84.90883400000001], [32.20453500000001, -84.908673], [32.203814999999985, -84.908271], [32.20348700000002, -84.908258], [32.203474000000035, -84.908209], [32.203435, -84.907991], [32.20341100000002, -84.907772], [32.203403999999956, -84.907365], [32.20344900000006, -84.907035], [32.20365299999999, -84.906477], [32.20391500000005, -84.90571000000001], [32.20390799999998, -84.905607], [32.20383700000002, -84.905475], [32.203619, -84.90532100000001], [32.20331500000001, -84.905115], [32.20313600000004, -84.904931], [32.202916999999985, -84.904589], [32.202638000000036, -84.904188], [32.20244399999999, -84.903736], [32.20220899999999, -84.903321], [32.20210100000001, -84.903007], [32.20202400000004, -84.902696], [32.201939, -84.90229], [32.20179299999998, -84.902062], [32.20159100000005, -84.901801], [32.201390999999994, -84.901607], [32.201147999999975, -84.901447], [32.20072200000002, -84.90120800000001], [32.20038099999999, -84.90105], [32.199841000000006, -84.90088], [32.19934799999998, -84.900809], [32.19902399999997, -84.900816], [32.19867299999997, -84.900891], [32.19835099999999, -84.900997], [32.198267999999985, -84.901039], [32.19772200000003, -84.90131], [32.19647799999999, -84.901985], [32.195161999999996, -84.902479], [32.194951, -84.902501], [32.194387000000006, -84.90253], [32.193429999999985, -84.902601], [32.193284000000006, -84.902445], [32.193202, -84.901761], [32.19316100000002, -84.901614], [32.19289500000001, -84.901219], [32.19261300000004, -84.900881], [32.19236599999999, -84.900505], [32.19217800000001, -84.900145], [32.191946, -84.899719], [32.19177099999999, -84.899359], [32.191583000000016, -84.899081], [32.191381000000014, -84.898854], [32.19105200000005, -84.898563], [32.19092399999998, -84.898417], [32.19008399999997, -84.897061], [32.189768, -84.89672], [32.188966000000015, -84.895976], [32.18882000000005, -84.895731], [32.18867600000001, -84.895436], [32.188615999999996, -84.895255], [32.18817700000002, -84.89506], [32.18793900000004, -84.89457500000002], [32.18783099999999, -84.89406100000001], [32.18766300000001, -84.893457], [32.18732900000002, -84.893037], [32.18672300000001, -84.892995], [32.186557, -84.893066], [32.18634099999999, -84.893187], [32.186116000000005, -84.893208], [32.18597399999997, -84.893129], [32.18550500000003, -84.892957], [32.185306999999995, -84.892846], [32.18507899999999, -84.892702], [32.18493500000002, -84.892523], [32.18460399999998, -84.892133], [32.18446099999999, -84.891971], [32.184288999999985, -84.891875], [32.18413300000001, -84.891779], [32.18401900000001, -84.891649], [32.18380100000001, -84.89129], [32.18365799999995, -84.891127], [32.18337200000003, -84.890885], [32.18311499999996, -84.890726], [32.18293200000002, -84.890697], [32.182622999999964, -84.890754], [32.18164300000001, -84.891174], [32.18129200000002, -84.891265], [32.18115099999998, -84.89128500000001], [32.18098200000001, -84.891222], [32.180711000000045, -84.891046], [32.18049799999999, -84.890935], [32.180327999999946, -84.890889], [32.18014499999997, -84.89091], [32.179949000000015, -84.890981], [32.179809000000006, -84.891017], [32.179668, -84.891021], [32.17949800000005, -84.890991], [32.179356000000006, -84.890912], [32.179158000000044, -84.890883], [32.17897499999997, -84.890904], [32.17878000000006, -84.891041], [32.17846200000002, -84.891363], [32.17823799999999, -84.891534], [32.17804299999998, -84.891638], [32.17777699999999, -84.891727], [32.177481000000036, -84.8918], [32.17724400000004, -84.891888], [32.176673, -84.892141], [32.176558000000014, -84.89188900000002], [32.17643700000002, -84.891647], [32.176301999999986, -84.891465], [32.17613200000001, -84.891296], [32.175904999999965, -84.891128], [32.175769999999964, -84.890934], [32.17562600000001, -84.890817], [32.175400999999994, -84.890721], [32.175135999999995, -84.890661], [32.174947000000046, -84.890606], [32.17467300000001, -84.89032], [32.17451500000002, -84.889971], [32.174323000000015, -84.88973], [32.17402499999999, -84.889301], [32.17377999999999, -84.888895], [32.17369600000003, -84.888783], [32.173578, -84.88872], [32.17330200000003, -84.888595], [32.17310800000004, -84.888528], [32.172903999999996, -84.888449], [32.172675999999974, -84.88829], [32.172632000000014, -84.888215], [32.17262000000001, -84.88821200000001], [32.17252200000001, -84.888198], [32.172431, -84.88826], [32.17223000000001, -84.888432], [32.172014999999995, -84.888586], [32.171813000000036, -84.888662], [32.17165000000002, -84.888702], [32.17149399999997, -84.88887], [32.17131999999998, -84.889101], [32.17120100000004, -84.889277], [32.17107600000003, -84.889423], [32.170930999999996, -84.889516], [32.170591999999985, -84.889607], [32.17031299999999, -84.88972700000001], [32.17014399999999, -84.889857], [32.169973000000034, -84.890004], [32.16981800000001, -84.890115], [32.169694000000014, -84.89015700000002], [32.16961700000003, -84.890105], [32.16941400000001, -84.890115], [32.16920700000001, -84.890174], [32.169043999999985, -84.890255], [32.168873999999946, -84.890355], [32.16874799999998, -84.890382], [32.16856799999997, -84.890332], [32.16843200000001, -84.890311], [32.168259, -84.890375], [32.167575, -84.89059100000001], [32.16730499999998, -84.890567], [32.167116000000014, -84.8905], [32.16688000000005, -84.89041], [32.16664799999996, -84.890433], [32.16639900000003, -84.890421], [32.166268000000024, -84.89049], [32.166003999999965, -84.89069], [32.16572899999999, -84.890759], [32.16558799999999, -84.890911], [32.165428999999996, -84.891052], [32.16523599999999, -84.89115200000002], [32.164715, -84.891188], [32.163902, -84.891261], [32.162953999999985, -84.891354], [32.16228700000003, -84.891403], [32.16208399999998, -84.891371], [32.161866999999994, -84.891502], [32.161737999999986, -84.891714], [32.16160599999998, -84.89195], [32.16145099999997, -84.892156], [32.16125100000002, -84.892352], [32.16115200000002, -84.892462], [32.16113300000001, -84.892558], [32.16115000000001, -84.892689], [32.161199000000025, -84.892867], [32.16130399999998, -84.893032], [32.161374999999964, -84.893114], [32.161429, -84.89325], [32.161526000000016, -84.893295], [32.161654000000034, -84.89332200000001], [32.161746999999984, -84.893428], [32.161773999999994, -84.893553], [32.16175699999999, -84.893738], [32.161836000000044, -84.893863], [32.16172099999999, -84.893952], [32.16155400000004, -84.894105], [32.16137200000002, -84.894192], [32.16105000000002, -84.894249], [32.16089400000004, -84.894286], [32.16068399999998, -84.894324], [32.16047199999996, -84.894246], [32.16024500000005, -84.894169], [32.15998999999994, -84.89414100000002], [32.159822000000034, -84.894162], [32.159569999999945, -84.89425], [32.15894099999997, -84.894563], [32.15874500000003, -84.894617], [32.15840600000001, -84.894625], [32.158265000000036, -84.894595], [32.15812199999999, -84.894482], [32.15799499999997, -84.894452], [32.157894000000006, -84.894478], [32.157451999999985, -84.894895], [32.15741100000002, -84.894936], [32.157123, -84.894905], [32.157013000000006, -84.895088], [32.15666999999996, -84.895209], [32.154038000000014, -84.890089], [32.153713000000025, -84.889388], [32.15366800000002, -84.88929], [32.152621000000025, -84.888231], [32.15092, -84.886028], [32.149039000000045, -84.883558], [32.145739000000006, -84.879171], [32.14653999999996, -84.878794], [32.14704400000002, -84.878443], [32.147637999999986, -84.877689], [32.14809700000002, -84.876935], [32.148508, -84.875723], [32.14846299999993, -84.874925], [32.14835199999998, -84.874154], [32.14789400000001, -84.873158], [32.146955999999996, -84.871919], [32.14656599999998, -84.87078800000002], [32.146749000000014, -84.870223], [32.14686500000004, -84.869173], [32.14661399999997, -84.868069], [32.146591, -84.867316], [32.146889000000016, -84.86645400000002], [32.147256000000006, -84.866105], [32.14773699999998, -84.865863], [32.14792000000002, -84.865567], [32.14792000000002, -84.864624], [32.148058999999954, -84.863763], [32.147784, -84.86344], [32.147120000000015, -84.863251], [32.146844999999985, -84.862982], [32.14656900000002, -84.862201], [32.14599800000001, -84.86125800000002], [32.14609000000005, -84.860693], [32.146340999999985, -84.860424], [32.14767100000001, -84.859617], [32.14773999999998, -84.858783], [32.14760200000001, -84.858298], [32.14780900000003, -84.857275], [32.147785999999996, -84.856898], [32.14757899999999, -84.856548], [32.147374000000006, -84.855014], [32.14714599999999, -84.85434], [32.14618300000002, -84.853317], [32.145908999999975, -84.852671], [32.146001000000005, -84.851836], [32.14586399999998, -84.851433], [32.14524600000004, -84.85094800000002], [32.14508600000002, -84.85049], [32.14529099999998, -84.84944], [32.145268999999985, -84.848633], [32.14515500000003, -84.848337], [32.14499499999999, -84.847475], [32.14529300000001, -84.84656], [32.146666999999994, -84.84497200000001], [32.14723900000001, -84.844542], [32.147378, -84.844192], [32.147217999999995, -84.843411], [32.147262999999974, -84.843061], [32.148203, -84.842361], [32.14827099999995, -84.842227], [32.14811099999999, -84.841311], [32.148203, -84.840718], [32.148775, -84.839372], [32.14902799999999, -84.83835], [32.14932600000006, -84.837784], [32.15109399999998, -84.835239], [32.151082999999964, -84.835161], [32.15095300000001, -84.83474], [32.15076000000002, -84.83418100000002], [32.15047, -84.83370800000002], [32.150150999999994, -84.833169], [32.14969200000003, -84.832699], [32.14917699999997, -84.832297], [32.14866599999999, -84.832044], [32.14821200000006, -84.831856], [32.14775900000003, -84.831768], [32.14660799999999, -84.83159], [32.14659600000003, -84.83162], [32.145951999999994, -84.833108], [32.14542000000003, -84.83418], [32.144888999999985, -84.835302], [32.14422199999997, -84.83661], [32.14393499999996, -84.83721300000002], [32.14300800000004, -84.838958], [32.141996999999996, -84.84082], [32.14101099999997, -84.842626], [32.14047900000001, -84.843522], [32.14005400000004, -84.844403], [32.139740000000046, -84.845058], [32.13949400000003, -84.845511], [32.13936599999998, -84.845839], [32.139277000000014, -84.846063], [32.139187000000014, -84.846327], [32.13894200000001, -84.84704800000002], [32.13887700000004, -84.847361], [32.13879900000001, -84.84773], [32.138620999999986, -84.848828], [32.13854699999999, -84.849492], [32.138526, -84.84990600000002], [32.13853000000001, -84.850098], [32.13854199999998, -84.85085], [32.13857599999999, -84.85123], [32.13865699999998, -84.851791], [32.13884400000002, -84.852847], [32.13915300000002, -84.854512], [32.13976999999997, -84.857612], [32.14051299999996, -84.86152000000001], [32.14077300000001, -84.86274], [32.14089500000003, -84.863316], [32.140971000000036, -84.863745], [32.14117600000002, -84.864916], [32.14138200000002, -84.866236], [32.14151200000001, -84.86726], [32.141672000000035, -84.868432], [32.14177600000001, -84.869589], [32.141925000000015, -84.870794], [32.14193299999996, -84.871147], [32.14106600000001, -84.871252], [32.14084200000003, -84.87125], [32.14064199999996, -84.871226], [32.140297999999994, -84.871139], [32.14000299999995, -84.871021], [32.13960100000002, -84.870771], [32.13833600000001, -84.870104], [32.13792099999998, -84.869879], [32.136785999999994, -84.869263], [32.136374999999994, -84.869123], [32.136189999999985, -84.869078], [32.135726000000005, -84.869072], [32.13495199999998, -84.869173], [32.13413700000003, -84.869308], [32.13358900000002, -84.86942], [32.13328000000004, -84.86951], [32.133014999999986, -84.869599], [32.132832000000036, -84.86962], [32.13262000000004, -84.869608], [32.131638999999986, -84.869134], [32.13122799999999, -84.868928], [32.13093, -84.868869], [32.13076100000001, -84.868823], [32.13056399999999, -84.868894], [32.13034200000003, -84.869065], [32.12971600000002, -84.869581], [32.12946399999996, -84.869745], [32.12948899999997, -84.86975], [32.129862000000024, -84.869951], [32.13006199999999, -84.870095], [32.130490999999985, -84.870516], [32.13068099999997, -84.870909], [32.13080000000004, -84.871254], [32.13084800000003, -84.871601], [32.13093599999999, -84.871797], [32.13108099999999, -84.872026], [32.13113799999999, -84.872124], [32.13115500000001, -84.872256], [32.13113000000005, -84.872422], [32.13107500000001, -84.872539], [32.13052400000001, -84.873297], [32.130383999999985, -84.873317], [32.13018700000008, -84.873355], [32.12999199999999, -84.873508], [32.12988199999998, -84.873676], [32.12981599999996, -84.873893], [32.129751999999996, -84.874325], [32.129728000000014, -84.875469], [32.12973400000003, -84.8758], [32.129797999999994, -84.876212], [32.129950000000036, -84.876855], [32.13010099999998, -84.877447], [32.130234999999985, -84.877891], [32.13044000000003, -84.87833400000001], [32.13079199999998, -84.879236], [32.13102499999999, -84.879628], [32.13108399999999, -84.879776], [32.13110000000002, -84.879908], [32.13110199999997, -84.880008], [32.131019999999985, -84.880192], [32.13097200000001, -84.880257], [32.130994, -84.880308], [32.130967, -84.880358], [32.130983000000015, -84.880457], [32.130905, -84.88089], [32.13092199999998, -84.881072], [32.13106800000002, -84.88135], [32.131369, -84.881724], [32.131572000000034, -84.881984], [32.13164500000002, -84.882164], [32.131592999999995, -84.882381], [32.131237000000006, -84.883052], [32.13122799999998, -84.883416], [32.13110000000002, -84.884131], [32.13105400000002, -84.884499], [32.13103699999999, -84.88463], [32.13106999999996, -84.884861], [32.13123100000001, -84.885271], [32.13149000000002, -84.885901], [32.131541000000034, -84.886026], [32.131708000000025, -84.886393], [32.13189199999998, -84.886796], [32.13227399999997, -84.887714], [32.13272499999998, -84.888665], [32.133032000000014, -84.88927], [32.13320600000002, -84.889531], [32.13336300000002, -84.889677], [32.133519, -84.889789], [32.13377500000001, -84.889883], [32.134642, -84.89031], [32.13499799999996, -84.8905], [32.135202, -84.89062800000002], [32.135056000000034, -84.890766], [32.135028, -84.890908], [32.135004, -84.891262], [32.13500799999998, -84.891557], [32.13499499999999, -84.891899], [32.13500800000001, -84.892087], [32.135053, -84.89244], [32.135026000000025, -84.892593], [32.13494799999999, -84.892737], [32.134831, -84.892916], [32.134613999999985, -84.893169], [32.134124, -84.893793], [32.13401599999995, -84.893949], [32.133720999999966, -84.894332], [32.13355300000003, -84.894466], [32.13318599999999, -84.894722], [32.13311799999999, -84.894806], [32.13303999999996, -84.894985], [32.13298399999998, -84.895186], [32.13289699999995, -84.895448], [32.132808999999995, -84.895556], [32.13260100000001, -84.895714], [32.13243199999999, -84.8958], [32.13223300000001, -84.895946], [32.13210599999996, -84.896126], [32.131842999999954, -84.896568], [32.13170599999997, -84.896771], [32.13158700000003, -84.896845], [32.131282000000006, -84.89717], [32.131252999999994, -84.897265], [32.131225, -84.897431], [32.13120799999999, -84.898173], [32.13121299999999, -84.898456], [32.13115499999999, -84.89867], [32.131059000000015, -84.89886], [32.130919, -84.899053], [32.130558, -84.89952], [32.130377999999986, -84.899619], [32.130179000000005, -84.899623], [32.129827999999996, -84.899596], [32.12945500000002, -84.899593], [32.129306, -84.899584], [32.129067000000006, -84.899696], [32.12882799999998, -84.899772], [32.12852800000001, -84.899826], [32.128165999999986, -84.899822], [32.12799700000003, -84.899885], [32.12781899999999, -84.900031], [32.127677999999996, -84.900304], [32.12760899999999, -84.900521], [32.12742899999999, -84.900794], [32.12727100000002, -84.900868], [32.127102000000015, -84.900919], [32.126551000000035, -84.900956], [32.125979999999984, -84.901039], [32.125739999999986, -84.901104], [32.12529300000001, -84.901397], [32.12518300000002, -84.901411], [32.124837, -84.901631], [32.12469100000002, -84.9017], [32.12442899999998, -84.901817], [32.124217999999956, -84.901822], [32.123996999999996, -84.90178], [32.123724999999986, -84.901704], [32.123554, -84.901696], [32.12341300000002, -84.901711], [32.123064000000014, -84.901837], [32.12257700000001, -84.902107], [32.12239900000002, -84.902182], [32.121932, -84.902428], [32.121751999999994, -84.902468], [32.120707999999965, -84.902421], [32.120576, -84.90237700000002], [32.12032300000002, -84.902265], [32.119958999999966, -84.901979], [32.119561999999966, -84.901658], [32.11941900000002, -84.901578], [32.119178999999995, -84.901537], [32.11895800000001, -84.901506], [32.118675999999994, -84.90143], [32.118384000000006, -84.901378], [32.117883, -84.901413], [32.117683000000014, -84.9015], [32.11765100000005, -84.901541], [32.11750700000002, -84.901693], [32.11744799999996, -84.901753], [32.11731899999998, -84.901839], [32.11715099999998, -84.902066], [32.116959, -84.902554], [32.11683300000003, -84.902851], [32.116725999999964, -84.903019], [32.11613199999997, -84.903504], [32.11595499999996, -84.903708], [32.11580900000003, -84.903924], [32.11567400000002, -84.90428], [32.11559700000001, -84.90447], [32.11560800000001, -84.904598], [32.11567400000002, -84.904893], [32.115758000000014, -84.90515], [32.11580200000002, -84.905302], [32.11575500000001, -84.905504], [32.115646999999996, -84.905683], [32.11544, -84.905888], [32.115153000000014, -84.906118], [32.114477999999984, -84.906558], [32.11425199999997, -84.906787], [32.11371800000001, -84.907486], [32.113667, -84.907619], [32.113563000000084, -84.907849], [32.113403000000005, -84.908227], [32.11332499999997, -84.908376], [32.113244999999985, -84.908448], [32.11305600000002, -84.908488], [32.11277499999998, -84.90852900000002], [32.11254599999997, -84.908582], [32.11234699999998, -84.908716], [32.11217000000002, -84.908861], [32.11194399999999, -84.909138], [32.11172800000002, -84.909461], [32.111482, -84.90973700000002], [32.111292, -84.909943], [32.111226, -84.910002], [32.111223000000024, -84.910023], [32.11109100000002, -84.91034700000002], [32.111102999999986, -84.9105], [32.111326000000005, -84.911226], [32.111392, -84.911554], [32.11138600000002, -84.91177800000001], [32.11133800000002, -84.911932], [32.111120000000035, -84.912079], [32.11038799999998, -84.912732], [32.11020200000001, -84.912971], [32.109903999999986, -84.913744], [32.10931799999997, -84.914724], [32.10903700000005, -84.915319], [32.10872199999997, -84.915703], [32.10850699999995, -84.916003], [32.10842, -84.91624100000001], [32.108253999999974, -84.91648], [32.10799600000001, -84.91671], [32.107816000000014, -84.916773], [32.107556, -84.916755], [32.10729500000002, -84.91676100000001], [32.10698500000003, -84.916803], [32.106876, -84.916865], [32.10676900000003, -84.917032], [32.106733000000055, -84.917304], [32.10668799999999, -84.91749], [32.10665700000004, -84.917518], [32.106403000000014, -84.917711], [32.106273999999985, -84.917984], [32.106270000000016, -84.918341], [32.106237000000014, -84.918987], [32.106378000000014, -84.919779], [32.106454000000014, -84.920417], [32.106419000000024, -84.920912], [32.10620900000003, -84.921769], [32.106144000000015, -84.922378], [32.10616700000003, -84.922773], [32.106275999999994, -84.922908], [32.106448000000015, -84.923079], [32.10683900000002, -84.923747], [32.10694899999998, -84.923964], [32.10706499999998, -84.924525], [32.107107, -84.92485], [32.10705900000002, -84.925196], [32.10698799999995, -84.92533500000002], [32.106841999999986, -84.92557], [32.10653700000002, -84.92585300000002], [32.10641700000004, -84.926031], [32.10613900000002, -84.926563], [32.105786999999985, -84.927254], [32.10550399999998, -84.927683], [32.10553899999997, -84.927719], [32.10561799999998, -84.927816], [32.10567400000003, -84.927918], [32.105719000000036, -84.928033], [32.105769999999985, -84.928239], [32.10578400000006, -84.928333], [32.105780999999936, -84.928436], [32.10577, -84.92850000000001], [32.10576900000004, -84.928561], [32.10574899999998, -84.928664], [32.10572199999996, -84.92880300000002], [32.10567999999997, -84.928955], [32.10564599999995, -84.929097], [32.105600999999986, -84.929236], [32.10553, -84.929392], [32.10545499999999, -84.92957], [32.10535600000005, -84.929762], [32.105248999999986, -84.929945], [32.10518200000004, -84.930045], [32.105067000000005, -84.930177], [32.10494000000002, -84.930309], [32.10450100000002, -84.930714], [32.10426699999997, -84.930939], [32.10415199999998, -84.931101], [32.10406699999997, -84.93124], [32.10394300000003, -84.93153600000001], [32.103608999999985, -84.932377], [32.103426000000006, -84.932812], [32.10316400000002, -84.933629], [32.10313600000004, -84.933701], [32.10310900000003, -84.933774], [32.10304599999998, -84.93388], [32.103015000000035, -84.933926], [32.102739, -84.934418], [32.102564999999984, -84.934749], [32.102511, -84.934875], [32.10249900000001, -84.93497], [32.10251399999998, -84.935232], [32.102535000000046, -84.935395], [32.10254499999999, -84.935451], [32.102596999999946, -84.935655], [32.10263499999997, -84.935922], [32.10275200000003, -84.936362], [32.102809, -84.936541], [32.102989999999984, -84.937038], [32.103070000000024, -84.93729], [32.10321399999999, -84.937918], [32.10324799999995, -84.93828600000002], [32.103223000000014, -84.938545], [32.103184999999975, -84.938731], [32.10306000000005, -84.939348], [32.102994999999964, -84.939599], [32.102966999999985, -84.939746], [32.10294500000002, -84.939918], [32.102829, -84.940493], [32.102816999999995, -84.940584], [32.10281200000002, -84.940717], [32.102810999999974, -84.940902], [32.10281800000002, -84.941177], [32.102795000000015, -84.941797], [32.102779000000005, -84.941914], [32.102772999999985, -84.941956], [32.102760999999994, -84.942073], [32.10270299999999, -84.942341], [32.102541999999985, -84.943028], [32.10204099999996, -84.945108], [32.10180900000003, -84.946378], [32.10158799999999, -84.947686], [32.101368, -84.948955], [32.10112399999997, -84.950388], [32.100875000000016, -84.951778], [32.100729000000015, -84.952613], [32.10072400000001, -84.952638], [32.10060799999997, -84.953358], [32.10047599999999, -84.954097], [32.10032999999999, -84.954986], [32.100186999999984, -84.956001], [32.100135999999985, -84.956291], [32.100135999999985, -84.956323], [32.100133, -84.956344], [32.100123999999994, -84.956498], [32.100118999999985, -84.956599], [32.10012300000003, -84.956844], [32.10016699999999, -84.95714], [32.100183, -84.95721], [32.10018499999998, -84.957252], [32.100241999999966, -84.957491], [32.100287, -84.957677], [32.100506999999965, -84.958504], [32.10052000000005, -84.958577], [32.100520999999965, -84.958675], [32.10052000000005, -84.958762], [32.10050400000002, -84.958867], [32.100505, -84.958889], [32.10046100000002, -84.959193], [32.10020600000001, -84.960235], [32.100037, -84.960837], [32.09998800000001, -84.960971], [32.09991000000003, -84.961149], [32.09934800000002, -84.96237], [32.09899200000001, -84.963251], [32.09869500000002, -84.96392], [32.09838500000002, -84.96449900000002], [32.09833200000002, -84.964616], [32.098236, -84.964936], [32.09821900000001, -84.965066], [32.09819599999996, -84.965204], [32.09817999999998, -84.965372], [32.098141999999974, -84.96605700000002], [32.09811500000003, -84.966254], [32.098117000000016, -84.966447], [32.098017999999975, -84.967552], [32.09799000000004, -84.967832], [32.09797699999996, -84.96824], [32.09798500000004, -84.968941], [32.09802200000001, -84.96972], [32.09802500000006, -84.969792], [32.09801700000003, -84.970221], [32.09798200000002, -84.970452], [32.097920999999985, -84.970676], [32.097743000000015, -84.971394], [32.09754100000001, -84.972077], [32.09748199999996, -84.972259], [32.09743299999995, -84.972368], [32.09737500000002, -84.972468], [32.097125999999975, -84.972869], [32.096837, -84.97337], [32.096589, -84.973849], [32.096513999999964, -84.973967], [32.09642400000003, -84.97408], [32.09623699999998, -84.974291], [32.095834, -84.9747], [32.09576799999999, -84.974787], [32.095537, -84.975141], [32.095160000000014, -84.975815], [32.095089999999985, -84.97592], [32.09480200000002, -84.976352], [32.09459499999995, -84.976693], [32.094464000000016, -84.976927], [32.09423300000003, -84.977367], [32.09390500000003, -84.977933], [32.09361200000001, -84.978461], [32.09328899999998, -84.979043], [32.09250599999998, -84.980419], [32.092107, -84.981318], [32.091933999999995, -84.98173], [32.09186700000004, -84.98192100000001], [32.09181399999998, -84.982094], [32.09178800000001, -84.982215], [32.091675999999964, -84.98278100000002], [32.09154299999997, -84.983399], [32.091486999999965, -84.983753], [32.091464, -84.983938], [32.09143899999999, -84.984197], [32.091395999999975, -84.9848], [32.091368999999986, -84.985258], [32.09136100000005, -84.98585], [32.091364000000034, -84.986628], [32.09136099999999, -84.987417], [32.090826000000014, -84.987203], [32.09053299999998, -84.987041], [32.09034899999999, -84.987012], [32.090138000000046, -84.987], [32.08988300000003, -84.987006], [32.08951800000002, -84.987047], [32.088643999999974, -84.987016], [32.08845799999998, -84.987012], [32.087719, -84.98824900000001], [32.087559000000006, -84.988787], [32.08753599999998, -84.990239], [32.087259999999986, -84.990643], [32.08712299999997, -84.991073], [32.08728200000004, -84.994302], [32.087006999999986, -84.995082], [32.08661600000002, -84.995673], [32.08650299999998, -84.996238], [32.086478, -84.997126], [32.08673099999999, -84.998445], [32.08675300000002, -84.998956], [32.08656999999999, -84.999928], [32.08608399999999, -85.000327], [32.085535, -85.001113], [32.085535, -85.001705], [32.085650999999984, -85.002162], [32.08622400000005, -85.002808], [32.086430000000036, -85.00353400000002], [32.086522, -85.003561], [32.086889000000035, -85.004637], [32.087210000000006, -85.004959], [32.08764599999999, -85.005201], [32.088332999999984, -85.005227], [32.088537999999986, -85.005443], [32.088538000000014, -85.005819], [32.08794400000001, -85.0066], [32.088219000000024, -85.006949], [32.088929000000014, -85.007164], [32.08906699999998, -85.007272], [32.08902099999999, -85.007568], [32.088768999999985, -85.007864], [32.088929, -85.008214], [32.088952, -85.008564], [32.08874599999999, -85.00878], [32.088633000000016, -85.009533], [32.08838099999999, -85.009533], [32.088175000000014, -85.009829], [32.087625, -85.009883], [32.08760099999999, -85.010126], [32.088037000000014, -85.01077100000002], [32.08799200000001, -85.011013], [32.08751099999999, -85.011013], [32.087396, -85.011121], [32.08732800000001, -85.011417], [32.08751099999999, -85.011713], [32.08753299999999, -85.012063], [32.087373, -85.012574], [32.08755800000005, -85.012977], [32.087466, -85.013166], [32.087098999999995, -85.013166], [32.08703100000003, -85.013381], [32.08714499999999, -85.013704], [32.08716900000001, -85.014027], [32.086961999999964, -85.014215], [32.086253, -85.014485], [32.086001, -85.015023], [32.08597699999999, -85.015507], [32.085887000000035, -85.015965], [32.085451000000006, -85.016234], [32.08540600000001, -85.017068], [32.08552099999998, -85.017337], [32.085773000000025, -85.017606], [32.08597899999997, -85.01766], [32.08614000000002, -85.018386], [32.08607000000003, -85.018897], [32.08636800000001, -85.019354], [32.08648399999996, -85.019758], [32.086506000000035, -85.020188], [32.085957000000015, -85.020942], [32.085957000000015, -85.021641], [32.08604900000003, -85.021964], [32.086003999999996, -85.022906], [32.08611799999996, -85.023309], [32.08637000000002, -85.023605], [32.086416, -85.02382], [32.086260999999936, -85.024036], [32.08534600000001, -85.024357], [32.08487799999997, -85.024679], [32.08441099999998, -85.025136], [32.08419699999998, -85.025753], [32.08384099999997, -85.025994], [32.083571000000006, -85.02602100000001], [32.08344000000003, -85.026128], [32.083059000000006, -85.026128], [32.08266199999999, -85.025481], [32.082381999999974, -85.02550300000001], [32.08232600000006, -85.025507], [32.08144899999998, -85.026123], [32.08071199999998, -85.02615000000002], [32.080481999999996, -85.026418], [32.08029499999997, -85.027115], [32.08010500000002, -85.028324], [32.07977999999999, -85.028914], [32.07931900000003, -85.029422], [32.078833999999986, -85.029879], [32.07853600000003, -85.03001300000001], [32.07832799999997, -85.030282], [32.078276, -85.031596], [32.07781300000006, -85.032348], [32.07723499999998, -85.032911], [32.07686699999999, -85.033018], [32.07614999999999, -85.033798], [32.07571200000001, -85.034199], [32.07566299999997, -85.034656], [32.07586800000003, -85.034897], [32.07616399999996, -85.03503], [32.077666, -85.03486500000001], [32.07782400000002, -85.034999], [32.07773399999997, -85.035187], [32.076973000000045, -85.035347], [32.07662499999999, -85.035587], [32.07621200000003, -85.035586], [32.075934999999966, -85.035397], [32.07551899999998, -85.035396], [32.07514899999999, -85.036094], [32.074641000000014, -85.036362], [32.07452700000001, -85.036577], [32.07452299999997, -85.037032], [32.07447799999999, -85.03714], [32.073948, -85.03714], [32.07346199999999, -85.037004], [32.073372000000035, -85.037057], [32.07332700000001, -85.037382], [32.07296300000003, -85.037264], [32.07258100000001, -85.037141], [32.070811000000006, -85.036571], [32.069889999999965, -85.036309], [32.06959200000002, -85.03624], [32.06919199999999, -85.036173], [32.06876700000002, -85.036142], [32.06813099999997, -85.036155], [32.06618000000002, -85.036179], [32.062475000000006, -85.036219], [32.059566999999966, -85.036215], [32.059402999999996, -85.036215], [32.058253, -85.036263], [32.05818299999998, -85.036263], [32.05217199999996, -85.036292], [32.05143100000003, -85.03633300000001], [32.05085700000001, -85.036397], [32.05009499999997, -85.03646200000001], [32.04997299999998, -85.036466], [32.049456000000006, -85.036485], [32.048474, -85.036569], [32.04838100000001, -85.036573], [32.047942000000006, -85.03663400000002], [32.047330999999986, -85.036694], [32.04661500000004, -85.03672000000002], [32.04635199999999, -85.036722], [32.04611300000005, -85.036703], [32.04596500000002, -85.03667], [32.04580699999998, -85.036628], [32.04564500000001, -85.03655200000001], [32.04520399999997, -85.036354], [32.04493499999998, -85.036168], [32.044523999999996, -85.035794], [32.04425799999995, -85.035524], [32.04379599999999, -85.034951], [32.04324100000006, -85.034249], [32.042195, -85.032868], [32.041704999999965, -85.032235], [32.041354, -85.031779], [32.041106, -85.032003], [32.040023999999995, -85.03204], [32.03976299999999, -85.032183], [32.03964200000003, -85.032488], [32.03957900000002, -85.033291], [32.03947400000002, -85.033762], [32.03925699999998, -85.034179], [32.03890799999997, -85.034415], [32.03859400000002, -85.03434100000001], [32.03849099999997, -85.034325], [32.03833899999998, -85.034313], [32.03813100000001, -85.034315], [32.038050999999996, -85.03432], [32.037982000000014, -85.034333], [32.03749400000001, -85.034544], [32.03704700000002, -85.034745], [32.036901000000015, -85.034825], [32.03685599999999, -85.034863], [32.036755, -85.03498600000002], [32.03670700000002, -85.03506], [32.036657000000005, -85.03517000000001], [32.03658899999998, -85.035378], [32.036488999999996, -85.035726], [32.036445, -85.035923], [32.03638600000001, -85.036116], [32.036343000000016, -85.036195], [32.03627499999998, -85.036291], [32.03618500000002, -85.036381], [32.03606999999998, -85.036456], [32.035972000000015, -85.036486], [32.035881999999994, -85.036506], [32.035677000000035, -85.036539], [32.03550000000001, -85.036547], [32.034562999999984, -85.036569], [32.034204, -85.036587], [32.033875999999985, -85.03659], [32.032661999999966, -85.036637], [32.03061100000001, -85.036691], [32.02994099999999, -85.036725], [32.02970100000002, -85.036732], [32.02858500000003, -85.036763], [32.02787599999997, -85.036789], [32.027172000000036, -85.036808], [32.026338999999986, -85.036846], [32.025112, -85.036881], [32.02471199999997, -85.039251], [32.02475200000001, -85.04049], [32.02440599999996, -85.041181], [32.02355, -85.042457], [32.02350200000003, -85.042925], [32.023775000000015, -85.043368], [32.02280800000002, -85.04335], [32.02272000000003, -85.043637], [32.02258399999995, -85.043772], [32.02201100000001, -85.043799], [32.021849999999986, -85.043933], [32.021645, -85.044362], [32.02221500000003, -85.048841], [32.02300700000001, -85.048866], [32.02419600000002, -85.050212], [32.02573300000001, -85.052634], [32.02665400000002, -85.054242], [32.02721300000002, -85.055217], [32.028336, -85.056253], [32.02975928631153, -85.05703612032042], [32.03463928532261, -85.05619173761592], [32.03510000000001, -85.054993], [32.03595199999998, -85.05353200000002], [32.03782299999999, -85.053468], [32.039324000000015, -85.054151], [32.04065154009224, -85.0551512886761], [32.06225608362195, -85.0514111279128], [32.08348397319496, -85.04773878383588], [32.08378400000001, -85.046852], [32.085835999999965, -85.044761], [32.08806299999997, -85.045063], [32.08914500000001, -85.045937], [32.09190700000001, -85.047693], [32.09343775336582, -85.04851572906725], [32.13601799999995, -85.058749], [32.136200999999964, -85.058407]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_2dd8c04df465aa3552226a2040fd01c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c823559cb0f30ef32812f69cfded6f96 = $(`<div id="html_c823559cb0f30ef32812f69cfded6f96" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD02</b></div>`)[0];
+                popup_2dd8c04df465aa3552226a2040fd01c3.setContent(html_c823559cb0f30ef32812f69cfded6f96);
+            
+        
+
+        polygon_eda26b7fa279e3b0a6069a7e9d1541d2.bindPopup(popup_2dd8c04df465aa3552226a2040fd01c3)
+        ;
+
+        
+    
+    
+            var circle_marker_5fe87c9ce4c54ace9dd0f5f77af25998 = L.circleMarker(
+                [32.128639780435414, -84.93996024802324],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_84cee85d6d95ef5938a6404e177f81eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c676c8463bbefa6ee5162a82bb4bbb1b = $(`<div id="html_c676c8463bbefa6ee5162a82bb4bbb1b" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD02</b></div>`)[0];
+                popup_84cee85d6d95ef5938a6404e177f81eb.setContent(html_c676c8463bbefa6ee5162a82bb4bbb1b);
+            
+        
+
+        circle_marker_5fe87c9ce4c54ace9dd0f5f77af25998.bindPopup(popup_84cee85d6d95ef5938a6404e177f81eb)
+        ;
+
+        
+    
+    
+            circle_marker_5fe87c9ce4c54ace9dd0f5f77af25998.bindTooltip(
+                `<div>
+                     Stewart - Georgia-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_32c2604c9d16aa2ed2b2e166bfeb6f27 = L.polygon(
+                [[32.02991899999999, -85.057124], [32.03181499999999, -85.057768], [32.03360599999999, -85.05803400000002], [32.03435399999998, -85.056934], [32.03463928532261, -85.05619173761592], [32.02975928631153, -85.05703612032042], [32.02991899999999, -85.057124]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_c09832bccf167a6965d9dfb85f6674f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e13435f44bb1676000a1d5d78c1315bd = $(`<div id="html_e13435f44bb1676000a1d5d78c1315bd" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD02</b></div>`)[0];
+                popup_c09832bccf167a6965d9dfb85f6674f9.setContent(html_e13435f44bb1676000a1d5d78c1315bd);
+            
+        
+
+        polygon_32c2604c9d16aa2ed2b2e166bfeb6f27.bindPopup(popup_c09832bccf167a6965d9dfb85f6674f9)
+        ;
+
+        
+    
+    
+            var circle_marker_331da781407dea5951b5782c18519a59 = L.circleMarker(
+                [32.03200165309058, -85.05717312256233],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_d478b5744ceb2f6ac03b18b1dce09ede = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7b4d6498540ef7ced9a93e3cf7d149c = $(`<div id="html_e7b4d6498540ef7ced9a93e3cf7d149c" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD02</b></div>`)[0];
+                popup_d478b5744ceb2f6ac03b18b1dce09ede.setContent(html_e7b4d6498540ef7ced9a93e3cf7d149c);
+            
+        
+
+        circle_marker_331da781407dea5951b5782c18519a59.bindPopup(popup_d478b5744ceb2f6ac03b18b1dce09ede)
+        ;
+
+        
+    
+    
+            circle_marker_331da781407dea5951b5782c18519a59.bindTooltip(
+                `<div>
+                     Stewart - Georgia-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7a85ce7930272e5b4ddec8813c799d7c = L.polygon(
+                [[32.04075599999998, -85.05523], [32.04115599999998, -85.05563], [32.04165599999995, -85.05613], [32.042255999999966, -85.05673], [32.042555000000014, -85.05703], [32.043055999999986, -85.05753], [32.043456000000035, -85.05783], [32.04375599999997, -85.05803], [32.044055000000036, -85.05803], [32.044255, -85.05803], [32.04455599999999, -85.05803], [32.04465600000001, -85.05813], [32.04495600000001, -85.05813], [32.04515599999997, -85.05833], [32.04545600000001, -85.05843], [32.04575499999997, -85.05853], [32.046355999999975, -85.05873], [32.04665599999997, -85.05883], [32.04695600000001, -85.05883], [32.04745500000003, -85.05873], [32.04805599999999, -85.05863], [32.048755000000014, -85.05833], [32.04955600000002, -85.05803], [32.05015600000004, -85.05773], [32.05125400000001, -85.05743], [32.052155, -85.05723], [32.052654999999966, -85.05703], [32.053055, -85.05683], [32.05415499999997, -85.05663], [32.05505500000001, -85.05663], [32.05595400000001, -85.05653], [32.057154999999995, -85.05643], [32.058055000000024, -85.05643], [32.058754, -85.05663], [32.05925500000004, -85.05673], [32.059755, -85.05683], [32.06035500000003, -85.05673], [32.061054999999996, -85.05653], [32.061953999999986, -85.05633], [32.06223897518563, -85.05625884564772], [32.06225608362195, -85.0514111279128], [32.04065154009224, -85.0551512886761], [32.04075599999998, -85.05523]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_e0889d93f53f13ff304cfe94fa102f13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c7170c236dfaebd9ac01e5ba837d46e = $(`<div id="html_1c7170c236dfaebd9ac01e5ba837d46e" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD02</b></div>`)[0];
+                popup_e0889d93f53f13ff304cfe94fa102f13.setContent(html_1c7170c236dfaebd9ac01e5ba837d46e);
+            
+        
+
+        polygon_7a85ce7930272e5b4ddec8813c799d7c.bindPopup(popup_e0889d93f53f13ff304cfe94fa102f13)
+        ;
+
+        
+    
+    
+            var circle_marker_824f867a314b32e6f64e4b0dd2e388e4 = L.circleMarker(
+                [32.04972003718372, -85.05713072702875],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_246be3b8aa504f6df8d8040c5723260c);
+        
+    
+        var popup_52ebc8824583d82f36442fa832fe4953 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b19cae8d44dfb32c46b819621b2c727 = $(`<div id="html_2b19cae8d44dfb32c46b819621b2c727" style="width: 100.0%; height: 100.0%;"><b>Stewart - Georgia-CD02</b></div>`)[0];
+                popup_52ebc8824583d82f36442fa832fe4953.setContent(html_2b19cae8d44dfb32c46b819621b2c727);
+            
+        
+
+        circle_marker_824f867a314b32e6f64e4b0dd2e388e4.bindPopup(popup_52ebc8824583d82f36442fa832fe4953)
+        ;
+
+        
+    
+    
+            circle_marker_824f867a314b32e6f64e4b0dd2e388e4.bindTooltip(
+                `<div>
+                     Stewart - Georgia-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

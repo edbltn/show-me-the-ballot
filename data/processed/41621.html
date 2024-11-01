@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7cf4c6d2821a4aa4b25234c13bac5127 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Floyd - Kentucky-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Floyd - Kentucky-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Floyd - Kentucky-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Floyd - Kentucky-CD05</p>
+            </div>
+    
+            <div class="folium-map" id="map_7cf4c6d2821a4aa4b25234c13bac5127" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7cf4c6d2821a4aa4b25234c13bac5127 = L.map(
+                "map_7cf4c6d2821a4aa4b25234c13bac5127",
+                {
+                    center: [37.62587945217392, -82.72548910434783],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c56b93d1abf397b4df73073883b2070 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6c56b93d1abf397b4df73073883b2070.addTo(map_7cf4c6d2821a4aa4b25234c13bac5127);
+        
+    
+            var polygon_ccf367efc08bb32030433eeff52992c0 = L.polygon(
+                [[37.64035700000001, -82.720713], [37.63980800000002, -82.719111], [37.639601000000035, -82.71823], [37.63919799999996, -82.717492], [37.63790400000001, -82.718009], [37.63699899999998, -82.718103], [37.63590199999997, -82.717877], [37.634812000000004, -82.719777], [37.63428599999999, -82.720224], [37.63378700000001, -82.72047], [37.633636, -82.720433], [37.63320100000002, -82.721286], [37.632601999999984, -82.721964], [37.632406999999986, -82.722185], [37.632071, -82.722578], [37.63200299999999, -82.722619], [37.63207799999999, -82.722639], [37.632471999999964, -82.722742], [37.63298900000002, -82.722868], [37.638685999999964, -82.724246], [37.64050200000003, -82.72098], [37.64035700000001, -82.720713]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7cf4c6d2821a4aa4b25234c13bac5127);
+        
+    
+        var popup_a07c9a4233d0b8364f433bb587e80987 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6c0986daac15abc1d24a83458712aad = $(`<div id="html_a6c0986daac15abc1d24a83458712aad" style="width: 100.0%; height: 100.0%;"><b>Floyd - Kentucky-CD05</b></div>`)[0];
+                popup_a07c9a4233d0b8364f433bb587e80987.setContent(html_a6c0986daac15abc1d24a83458712aad);
+            
+        
+
+        polygon_ccf367efc08bb32030433eeff52992c0.bindPopup(popup_a07c9a4233d0b8364f433bb587e80987)
+        ;
+
+        
+    
+    
+            var circle_marker_e0a9bb3e7d49d57e9fc9decc4dcb8f8d = L.circleMarker(
+                [37.635711727272735, -82.7206935909091],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7cf4c6d2821a4aa4b25234c13bac5127);
+        
+    
+        var popup_f6407df476e10277cf2b365372be0a01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e39d97d4529aa72bb7e26527dd928927 = $(`<div id="html_e39d97d4529aa72bb7e26527dd928927" style="width: 100.0%; height: 100.0%;"><b>Floyd - Kentucky-CD05</b></div>`)[0];
+                popup_f6407df476e10277cf2b365372be0a01.setContent(html_e39d97d4529aa72bb7e26527dd928927);
+            
+        
+
+        circle_marker_e0a9bb3e7d49d57e9fc9decc4dcb8f8d.bindPopup(popup_f6407df476e10277cf2b365372be0a01)
+        ;
+
+        
+    
+    
+            circle_marker_e0a9bb3e7d49d57e9fc9decc4dcb8f8d.bindTooltip(
+                `<div>
+                     Floyd - Kentucky-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f31db8d4a9b9ea8d619ee410d7d33d74 = L.polygon(
+                [[37.63152900000001, -82.73086], [37.63169400000002, -82.729949], [37.631797999999996, -82.729541], [37.63195200000002, -82.729037], [37.63209, -82.728139], [37.632255, -82.727642], [37.63253000000002, -82.726952], [37.632662, -82.726123], [37.632690999999994, -82.726015], [37.63292000000005, -82.725197], [37.63317300000004, -82.7245], [37.63313099999997, -82.724238], [37.63305800000002, -82.723638], [37.63298700000001, -82.723319], [37.63282200000003, -82.723091], [37.63251399999997, -82.722932], [37.63236099999998, -82.722952], [37.63228399999996, -82.72309], [37.632228999999974, -82.723208], [37.63218499999999, -82.723083], [37.632069999999985, -82.722724], [37.63203699999996, -82.722672], [37.63200299999999, -82.722619], [37.63189399999998, -82.722448], [37.631794999999975, -82.722377], [37.63147299999999, -82.721679], [37.631185999999985, -82.720969], [37.631097000000004, -82.720801], [37.62992999999997, -82.720838], [37.62856, -82.72108500000002], [37.62500000000004, -82.721508], [37.62418100000001, -82.72151], [37.624006000000016, -82.721531], [37.623202000000006, -82.721628], [37.622930000000025, -82.721608], [37.622521000000006, -82.721578], [37.622079, -82.721657], [37.621441999999966, -82.721599], [37.61993999999997, -82.72187], [37.619863999999964, -82.721999], [37.61960500000001, -82.722103], [37.619352, -82.722467], [37.61921899999995, -82.722612], [37.619130999999975, -82.722709], [37.61908999999999, -82.722785], [37.618919000000005, -82.723105], [37.618845000000015, -82.723244], [37.61872099999997, -82.723155], [37.61860600000001, -82.723391], [37.61852700000004, -82.723566], [37.61843399999997, -82.723772], [37.618418999999996, -82.723806], [37.61832499999998, -82.72402700000002], [37.61778700000003, -82.725297], [37.617577999999995, -82.725766], [37.617435000000036, -82.726125], [37.617292000000056, -82.726429], [37.61724299999999, -82.726567], [37.61706700000004, -82.726968], [37.61689600000003, -82.72745800000001], [37.61647800000002, -82.728728], [37.616340999999984, -82.729053], [37.616291, -82.729149], [37.616164999999995, -82.729529], [37.616076999999976, -82.729695], [37.61598899999999, -82.729805], [37.61584099999998, -82.730019], [37.615577, -82.730185], [37.61553300000002, -82.730198], [37.61546700000002, -82.730198], [37.615423000000035, -82.730219], [37.615308000000006, -82.73022600000002], [37.61521999999997, -82.730219], [37.615285999999934, -82.730429], [37.61545800000003, -82.730772], [37.61565500000003, -82.731185], [37.616261000000016, -82.732364], [37.61673099999999, -82.732165], [37.617617999999986, -82.732078], [37.618153999999976, -82.732126], [37.61950999999999, -82.732249], [37.61979699999994, -82.732275], [37.621905000000034, -82.733006], [37.622032999999995, -82.73305], [37.622083, -82.733067], [37.622245000000014, -82.733121], [37.62250199999998, -82.733207], [37.62324300000005, -82.733456], [37.62509699999999, -82.734037], [37.62763499999998, -82.73492], [37.629356, -82.736371], [37.63010499999999, -82.734469], [37.63152900000001, -82.73086]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7cf4c6d2821a4aa4b25234c13bac5127);
+        
+    
+        var popup_05d5ae4248dfb9b78db73e654d0db771 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_769f57f4239e5ebd6d38b99f72cd3fad = $(`<div id="html_769f57f4239e5ebd6d38b99f72cd3fad" style="width: 100.0%; height: 100.0%;"><b>Floyd - Kentucky-CD05</b></div>`)[0];
+                popup_05d5ae4248dfb9b78db73e654d0db771.setContent(html_769f57f4239e5ebd6d38b99f72cd3fad);
+            
+        
+
+        polygon_f31db8d4a9b9ea8d619ee410d7d33d74.bindPopup(popup_05d5ae4248dfb9b78db73e654d0db771)
+        ;
+
+        
+    
+    
+            var circle_marker_1265157fb10444c50aaba4d3d09b2c9c = L.circleMarker(
+                [37.62355353763441, -82.72662352688171],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7cf4c6d2821a4aa4b25234c13bac5127);
+        
+    
+        var popup_5e3976874e9336ebd70219163667c6cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1fe7bcd2bcccc67e9b194f821d137328 = $(`<div id="html_1fe7bcd2bcccc67e9b194f821d137328" style="width: 100.0%; height: 100.0%;"><b>Floyd - Kentucky-CD05</b></div>`)[0];
+                popup_5e3976874e9336ebd70219163667c6cb.setContent(html_1fe7bcd2bcccc67e9b194f821d137328);
+            
+        
+
+        circle_marker_1265157fb10444c50aaba4d3d09b2c9c.bindPopup(popup_5e3976874e9336ebd70219163667c6cb)
+        ;
+
+        
+    
+    
+            circle_marker_1265157fb10444c50aaba4d3d09b2c9c.bindTooltip(
+                `<div>
+                     Floyd - Kentucky-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

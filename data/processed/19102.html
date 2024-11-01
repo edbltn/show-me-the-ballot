@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a0aa07db7d62b93ce75adbe96957375 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Philadelphia - Pennsylvania-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Philadelphia - Pennsylvania-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Philadelphia - Pennsylvania-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Philadelphia - Pennsylvania-CD03</p>
+            </div>
+    
+            <div class="folium-map" id="map_9a0aa07db7d62b93ce75adbe96957375" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9a0aa07db7d62b93ce75adbe96957375 = L.map(
+                "map_9a0aa07db7d62b93ce75adbe96957375",
+                {
+                    center: [39.95180425288328, -75.16579467036118],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1e60eafbc36cff60d96d86e050e0f2d1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1e60eafbc36cff60d96d86e050e0f2d1.addTo(map_9a0aa07db7d62b93ce75adbe96957375);
+        
+    
+            var polygon_4ab22b6a196a67104802567370f41976 = L.polygon(
+                [[39.959607000000034, -75.16209000000002], [39.95958900000002, -75.162025], [39.95957100000003, -75.161959], [39.959101000000025, -75.162058], [39.958821000000015, -75.162118], [39.95854700000001, -75.162175], [39.958057999999966, -75.162293], [39.957929999999934, -75.162319], [39.957824999999985, -75.162339], [39.95771899999998, -75.16236], [39.957644999999985, -75.162374], [39.956226999999984, -75.162688], [39.95532899999999, -75.162886], [39.95439999999999, -75.163093], [39.95391399999995, -75.163192], [39.953354999999995, -75.163323], [39.95336599999999, -75.16340000000001], [39.953373713800886, -75.16345708130366], [39.95960789288607, -75.16209695813387], [39.959607000000034, -75.16209000000002]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9a0aa07db7d62b93ce75adbe96957375);
+        
+    
+        var popup_b8fe4d91d7a714d5c8c183a5c4ef05fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4e4e3dececfffb0a45bcbaf0b8d81f9b = $(`<div id="html_4e4e3dececfffb0a45bcbaf0b8d81f9b" style="width: 100.0%; height: 100.0%;"><b>Philadelphia - Pennsylvania-CD02</b></div>`)[0];
+                popup_b8fe4d91d7a714d5c8c183a5c4ef05fc.setContent(html_4e4e3dececfffb0a45bcbaf0b8d81f9b);
+            
+        
+
+        polygon_4ab22b6a196a67104802567370f41976.bindPopup(popup_b8fe4d91d7a714d5c8c183a5c4ef05fc)
+        ;
+
+        
+    
+    
+            var circle_marker_016bfe4f317c557250a50be22b12d964 = L.circleMarker(
+                [39.957179630334345, -75.16251680197186],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9a0aa07db7d62b93ce75adbe96957375);
+        
+    
+        var popup_8b609232796042e0fe7a533c3c918e8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f973c818aac88552ffddef2a58ad8a67 = $(`<div id="html_f973c818aac88552ffddef2a58ad8a67" style="width: 100.0%; height: 100.0%;"><b>Philadelphia - Pennsylvania-CD02</b></div>`)[0];
+                popup_8b609232796042e0fe7a533c3c918e8d.setContent(html_f973c818aac88552ffddef2a58ad8a67);
+            
+        
+
+        circle_marker_016bfe4f317c557250a50be22b12d964.bindPopup(popup_8b609232796042e0fe7a533c3c918e8d)
+        ;
+
+        
+    
+    
+            circle_marker_016bfe4f317c557250a50be22b12d964.bindTooltip(
+                `<div>
+                     Philadelphia - Pennsylvania-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f4f46cdbb9187d469494cd0c55b23ec7 = L.polygon(
+                [[39.94974399999997, -75.167517], [39.95015600000002, -75.167429], [39.95050899999995, -75.167354], [39.950769000000015, -75.167297], [39.95126300000001, -75.167195], [39.95183600000001, -75.167068], [39.95218100000001, -75.166991], [39.95277900000001, -75.166857], [39.95379800000004, -75.166616], [39.95427200000002, -75.166492], [39.95481599999997, -75.16636500000001], [39.955934999999954, -75.167803], [39.95684099999997, -75.16759700000001], [39.957753000000025, -75.167393], [39.958166000000034, -75.167301], [39.958259, -75.167281], [39.95843100000004, -75.167233], [39.958407999999984, -75.16711800000002], [39.95823000000003, -75.16565800000001], [39.95831099999997, -75.165638], [39.95843, -75.16561], [39.95852299999999, -75.165587], [39.958838999999976, -75.16552100000001], [39.959235, -75.16544], [39.95935700000004, -75.165418], [39.95960000000002, -75.165374], [39.96001200000002, -75.165295], [39.95981500000001, -75.163711], [39.95960789288607, -75.16209695813387], [39.953373713800886, -75.16345708130366], [39.95343600000001, -75.16391800000001], [39.953607999999946, -75.165063], [39.95257600000006, -75.165226], [39.952284, -75.165299], [39.95199999999998, -75.165244], [39.95188400000002, -75.16518], [39.95181000000001, -75.165055], [39.951759000000045, -75.164896], [39.951723000000015, -75.164716], [39.951694000000046, -75.164534], [39.951669, -75.164361], [39.95164299999998, -75.164194], [39.95162499999994, -75.163996], [39.951564000000005, -75.163917], [39.951520000000045, -75.163877], [39.95149500000006, -75.16387100000001], [39.95120099999999, -75.163937], [39.95087599999998, -75.164011], [39.95011299999999, -75.16417400000002], [39.949770999999984, -75.164252], [39.94973699999998, -75.16426], [39.94934600000002, -75.16433800000001], [39.94896457342723, -75.16441889007133], [39.94692623294642, -75.16486349335894], [39.946636999999996, -75.164937], [39.94631099999998, -75.165003], [39.94623999999998, -75.165017], [39.946199999999976, -75.165025], [39.94617600000004, -75.16503], [39.94602796039338, -75.16505941678574], [39.94555811296965, -75.16516189388912], [39.945673000000035, -75.16608], [39.94523100000001, -75.166174], [39.945320999999986, -75.166872], [39.94536500000002, -75.167218], [39.945377, -75.16731], [39.94541200000003, -75.167659], [39.94546800000003, -75.168102], [39.94552399999998, -75.168443], [39.945591000000015, -75.168421], [39.94595999999996, -75.168339], [39.94613400000003, -75.168301], [39.94615499999998, -75.168415], [39.94618299999998, -75.168647], [39.94626400000003, -75.168632], [39.94654499999996, -75.168574], [39.94654000000002, -75.16853400000001], [39.94662999999999, -75.168514], [39.94663400000004, -75.168542], [39.947075999999974, -75.16846500000001], [39.94716299999999, -75.168455], [39.94711999999998, -75.168087], [39.94738599999994, -75.16803], [39.94745800000002, -75.168596], [39.94754399999998, -75.16859], [39.94797999999999, -75.168494], [39.947984, -75.168531], [39.94807900000001, -75.168512], [39.94805899999997, -75.168351], [39.948087999999956, -75.168344], [39.948079000000014, -75.16827], [39.948193999999994, -75.168244], [39.94814899999998, -75.167868], [39.948605000000015, -75.16777], [39.948973999999986, -75.16768900000001], [39.949173999999964, -75.169251], [39.94939100000002, -75.169207], [39.94923500000002, -75.167634], [39.94974399999997, -75.167517]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9a0aa07db7d62b93ce75adbe96957375);
+        
+    
+        var popup_853f6d7ab48dbc21fce07acc9870a56d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41fb117b8b6fb64cc0ca3e19e4074912 = $(`<div id="html_41fb117b8b6fb64cc0ca3e19e4074912" style="width: 100.0%; height: 100.0%;"><b>Philadelphia - Pennsylvania-CD03</b></div>`)[0];
+                popup_853f6d7ab48dbc21fce07acc9870a56d.setContent(html_41fb117b8b6fb64cc0ca3e19e4074912);
+            
+        
+
+        polygon_f4f46cdbb9187d469494cd0c55b23ec7.bindPopup(popup_853f6d7ab48dbc21fce07acc9870a56d)
+        ;
+
+        
+    
+    
+            var circle_marker_eb2740d021425f024ce8cfbda9c81e7f = L.circleMarker(
+                [39.950718318044686, -75.16645686599539],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_9a0aa07db7d62b93ce75adbe96957375);
+        
+    
+        var popup_672972e818fea498fa2c00f6f5d19db9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b58639bb96bceeeb88e8442a7d4d9628 = $(`<div id="html_b58639bb96bceeeb88e8442a7d4d9628" style="width: 100.0%; height: 100.0%;"><b>Philadelphia - Pennsylvania-CD03</b></div>`)[0];
+                popup_672972e818fea498fa2c00f6f5d19db9.setContent(html_b58639bb96bceeeb88e8442a7d4d9628);
+            
+        
+
+        circle_marker_eb2740d021425f024ce8cfbda9c81e7f.bindPopup(popup_672972e818fea498fa2c00f6f5d19db9)
+        ;
+
+        
+    
+    
+            circle_marker_eb2740d021425f024ce8cfbda9c81e7f.bindTooltip(
+                `<div>
+                     Philadelphia - Pennsylvania-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

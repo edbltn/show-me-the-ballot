@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8a4d0432a571034c8c0b83239f14596b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Alachua - Florida-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Alachua - Florida-CD03</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Alachua - Florida-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Alachua - Florida-CD03</p>
+            </div>
+    
+            <div class="folium-map" id="map_8a4d0432a571034c8c0b83239f14596b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8a4d0432a571034c8c0b83239f14596b = L.map(
+                "map_8a4d0432a571034c8c0b83239f14596b",
+                {
+                    center: [29.78303034736843, -82.49717668421052],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_90d539e2b4b1eec5f8d951a5ef022a90 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_90d539e2b4b1eec5f8d951a5ef022a90.addTo(map_8a4d0432a571034c8c0b83239f14596b);
+        
+    
+            var polygon_a94e56573dc473b90ad3eb12508f2047 = L.polygon(
+                [[29.787383000000013, -82.492737], [29.78728600000003, -82.491859], [29.78720799999999, -82.491301], [29.78711000000001, -82.491286], [29.786772999999943, -82.491234], [29.78666899999999, -82.491236], [29.78551800000003, -82.491227], [29.785369000000046, -82.491226], [29.785360999999995, -82.491874], [29.785375000000037, -82.491949], [29.785382999999985, -82.491969], [29.785389999999982, -82.492002], [29.78538600000003, -82.492391], [29.785382999999985, -82.492713], [29.78538200000002, -82.492854], [29.785378999999995, -82.493165], [29.785343, -82.494169], [29.786003999999988, -82.494175], [29.78665600000002, -82.494189], [29.787327000000026, -82.494206], [29.78745600000004, -82.494209], [29.787437999999995, -82.49349], [29.787383000000013, -82.492737]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8a4d0432a571034c8c0b83239f14596b);
+        
+    
+        var popup_8a4bc15e66b191c89d9ef0bfba052ff8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e648b6baf3e3e8a1372ffed42bd6caa5 = $(`<div id="html_e648b6baf3e3e8a1372ffed42bd6caa5" style="width: 100.0%; height: 100.0%;"><b>Alachua - Florida-CD03</b></div>`)[0];
+                popup_8a4bc15e66b191c89d9ef0bfba052ff8.setContent(html_e648b6baf3e3e8a1372ffed42bd6caa5);
+            
+        
+
+        polygon_a94e56573dc473b90ad3eb12508f2047.bindPopup(popup_8a4bc15e66b191c89d9ef0bfba052ff8)
+        ;
+
+        
+    
+    
+            var circle_marker_6286602ff01de323139f5ad4c1798f96 = L.circleMarker(
+                [29.7862592173913, -82.4925303478261],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8a4d0432a571034c8c0b83239f14596b);
+        
+    
+        var popup_3aeb2801fddb3ea0bdcab10bcc560d86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dcf02a16713c741a81c40402efd57afa = $(`<div id="html_dcf02a16713c741a81c40402efd57afa" style="width: 100.0%; height: 100.0%;"><b>Alachua - Florida-CD03</b></div>`)[0];
+                popup_3aeb2801fddb3ea0bdcab10bcc560d86.setContent(html_dcf02a16713c741a81c40402efd57afa);
+            
+        
+
+        circle_marker_6286602ff01de323139f5ad4c1798f96.bindPopup(popup_3aeb2801fddb3ea0bdcab10bcc560d86)
+        ;
+
+        
+    
+    
+            circle_marker_6286602ff01de323139f5ad4c1798f96.bindTooltip(
+                `<div>
+                     Alachua - Florida-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0262195583593e42b7e5d9772e519a23 = L.polygon(
+                [[29.78230899999998, -82.502104], [29.782850000000003, -82.501546], [29.784508000000013, -82.499834], [29.784669999999974, -82.499677], [29.785197999999998, -82.499134], [29.78595299999995, -82.498289], [29.78602099999997, -82.498214], [29.78646700000003, -82.497601], [29.786771000000055, -82.497012], [29.78664600000002, -82.49700900000002], [29.786005000000028, -82.49699], [29.785327999999964, -82.496986], [29.78532599999999, -82.496745], [29.785334000000034, -82.49626], [29.785331999999983, -82.495894], [29.785331000000017, -82.495742], [29.78533100000001, -82.495626], [29.785332999999987, -82.495337], [29.785334000000034, -82.495206], [29.785335000000032, -82.494977], [29.785334999999975, -82.49493500000001], [29.785337999999967, -82.494657], [29.785337999999967, -82.494633], [29.78534000000002, -82.494428], [29.785343, -82.494169], [29.78503400000004, -82.49417], [29.784784000000034, -82.494183], [29.78455000000004, -82.494209], [29.78422500000003, -82.494262], [29.783917, -82.494334], [29.783686999999958, -82.494402], [29.783477999999985, -82.494477], [29.783315999999992, -82.49454], [29.78320800000003, -82.494584], [29.783075999999987, -82.494646], [29.782948000000008, -82.494705], [29.782862999999963, -82.494751], [29.782661999999995, -82.494878], [29.782446000000014, -82.495001], [29.782237000000027, -82.495137], [29.78203499999998, -82.495286], [29.781838999999994, -82.495447], [29.781652000000022, -82.495621], [29.781472999999995, -82.495805], [29.781303000000023, -82.496], [29.781196999999985, -82.496136], [29.781143000000032, -82.496206], [29.780992, -82.496421], [29.780851999999996, -82.496645], [29.780723000000012, -82.496878], [29.780641000000013, -82.497043], [29.780604, -82.497118], [29.780211000000044, -82.49801400000001], [29.779968, -82.498567], [29.779554000000047, -82.49956], [29.778650000000003, -82.501727], [29.778067999999962, -82.503157], [29.777665999999993, -82.504103], [29.777478000000027, -82.504544], [29.776696000000026, -82.506447], [29.77654499999995, -82.506788], [29.776386999999986, -82.507124], [29.77621899999999, -82.507452], [29.776118, -82.507636], [29.775940000000006, -82.507938], [29.775675000000028, -82.508346], [29.775508, -82.508577], [29.77533099999998, -82.508798], [29.775073000000003, -82.509098], [29.77540999999998, -82.509253], [29.776154000000034, -82.508464], [29.78230899999998, -82.502104]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8a4d0432a571034c8c0b83239f14596b);
+        
+    
+        var popup_030e4b7576f0fad501c75959831ebe9d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aaf53c384feec7e405e98792683f8dbe = $(`<div id="html_aaf53c384feec7e405e98792683f8dbe" style="width: 100.0%; height: 100.0%;"><b>Alachua - Florida-CD03</b></div>`)[0];
+                popup_030e4b7576f0fad501c75959831ebe9d.setContent(html_aaf53c384feec7e405e98792683f8dbe);
+            
+        
+
+        polygon_0262195583593e42b7e5d9772e519a23.bindPopup(popup_030e4b7576f0fad501c75959831ebe9d)
+        ;
+
+        
+    
+    
+            var circle_marker_e617dd20d962bb7a5542e0fc176f6a36 = L.circleMarker(
+                [29.78199890277778, -82.49866093055556],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_8a4d0432a571034c8c0b83239f14596b);
+        
+    
+        var popup_4ca9ac492aeab1104d6e73fb9846f947 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47fdae17c89db8cf15b9cf3d182f6131 = $(`<div id="html_47fdae17c89db8cf15b9cf3d182f6131" style="width: 100.0%; height: 100.0%;"><b>Alachua - Florida-CD03</b></div>`)[0];
+                popup_4ca9ac492aeab1104d6e73fb9846f947.setContent(html_47fdae17c89db8cf15b9cf3d182f6131);
+            
+        
+
+        circle_marker_e617dd20d962bb7a5542e0fc176f6a36.bindPopup(popup_4ca9ac492aeab1104d6e73fb9846f947)
+        ;
+
+        
+    
+    
+            circle_marker_e617dd20d962bb7a5542e0fc176f6a36.bindTooltip(
+                `<div>
+                     Alachua - Florida-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1463e0fcad64800a01453fcc60616dae {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD00</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cheshire - New Hampshire-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_1463e0fcad64800a01453fcc60616dae" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1463e0fcad64800a01453fcc60616dae = L.map(
+                "map_1463e0fcad64800a01453fcc60616dae",
+                {
+                    center: [42.7939630150141, -72.5087313837158],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0c37e1a1137eff2924edd003375cf787 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0c37e1a1137eff2924edd003375cf787.addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+            var polygon_5efc3e30453aeb310123fa1d1c470dfe = L.polygon(
+                [[42.73743900000004, -72.464485], [42.73788099999993, -72.46511], [42.73886600000001, -72.466209], [42.73959799999997, -72.466835], [42.73997200000001, -72.467018], [42.74059499999996, -72.4673], [42.741199999999985, -72.46747600000002], [42.74153600000001, -72.467689], [42.742176999999984, -72.468391], [42.74259599999996, -72.46891000000001], [42.743275, -72.469734], [42.74385999999995, -72.470483], [42.743915999999984, -72.470558], [42.743901000000015, -72.470711], [42.74386500000003, -72.470998], [42.74386299999993, -72.471016], [42.74388599999999, -72.471184], [42.74402300000003, -72.471428], [42.744443000000004, -72.47179400000002], [42.74496900000003, -72.472267], [42.745679, -72.47306], [42.746235, -72.473366], [42.74678500000004, -72.47361], [42.74741799999998, -72.473793], [42.747966, -72.473941], [42.74808799999997, -72.473971], [42.748433000000006, -72.474068], [42.748532, -72.474083], [42.74950800000002, -72.474251], [42.749672000000025, -72.474291], [42.75007600000002, -72.474393], [42.75030199999997, -72.47446400000001], [42.750873999999996, -72.474632], [42.75120200000005, -72.474678], [42.75125599999997, -72.474663], [42.75144600000001, -72.474678], [42.751842999999994, -72.474785], [42.752057000000036, -72.474815], [42.752162999999996, -72.474831], [42.75291900000002, -72.474907], [42.75303299999999, -72.474907], [42.75436099999996, -72.47504400000001], [42.755145999999996, -72.475121], [42.755604000000005, -72.475181], [42.75601599999996, -72.475288], [42.75658800000002, -72.47538], [42.75706900000002, -72.475517], [42.757443, -72.47567], [42.758197999999986, -72.475945], [42.75831927984223, -72.47598974529889], [42.73737653229135, -72.46436006433757], [42.73743900000004, -72.464485]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_4dd91b5f9edad51074cb4102214db0e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3332e4bb97cac057ad6854dbc5787883 = $(`<div id="html_3332e4bb97cac057ad6854dbc5787883" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_4dd91b5f9edad51074cb4102214db0e1.setContent(html_3332e4bb97cac057ad6854dbc5787883);
+            
+        
+
+        polygon_5efc3e30453aeb310123fa1d1c470dfe.bindPopup(popup_4dd91b5f9edad51074cb4102214db0e1)
+        ;
+
+        
+    
+    
+            var circle_marker_3f1cf6c89abf7ac5ca340f6d73a0d51e = L.circleMarker(
+                [42.747517457925646, -72.47207238095456],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_a8c06b5b0650ecd98e23108d17fcf396 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed8c4c330d2a39f719d65f7b109b72eb = $(`<div id="html_ed8c4c330d2a39f719d65f7b109b72eb" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_a8c06b5b0650ecd98e23108d17fcf396.setContent(html_ed8c4c330d2a39f719d65f7b109b72eb);
+            
+        
+
+        circle_marker_3f1cf6c89abf7ac5ca340f6d73a0d51e.bindPopup(popup_a8c06b5b0650ecd98e23108d17fcf396)
+        ;
+
+        
+    
+    
+            circle_marker_3f1cf6c89abf7ac5ca340f6d73a0d51e.bindTooltip(
+                `<div>
+                     Cheshire - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_330110fcddb1d3d8134c0cd801a6ca54 = L.polygon(
+                [[42.764362999999996, -72.48227700000001], [42.764751999999966, -72.483132], [42.76499599999998, -72.483635], [42.76534699999999, -72.484169], [42.76572799999999, -72.484673], [42.766278000000014, -72.48531400000002], [42.76685000000003, -72.485802], [42.76721411048424, -72.48609680887958], [42.76414150644072, -72.48173052010567], [42.764362999999996, -72.48227700000001]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_cdb4dcff4150867a2f99b28e4d2b5a62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ebd912d78d1cbf4b9b6f75c5027f957 = $(`<div id="html_1ebd912d78d1cbf4b9b6f75c5027f957" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_cdb4dcff4150867a2f99b28e4d2b5a62.setContent(html_1ebd912d78d1cbf4b9b6f75c5027f957);
+            
+        
+
+        polygon_330110fcddb1d3d8134c0cd801a6ca54.bindPopup(popup_cdb4dcff4150867a2f99b28e4d2b5a62)
+        ;
+
+        
+    
+    
+            var circle_marker_eb43917d44ae052e205180e69e3f49dc = L.circleMarker(
+                [42.7654032616925, -72.48391063289853],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_1339010e9acfe1fbb0532f3973a14377 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c32d822fdbe2ad31c6cb7bc4263033fe = $(`<div id="html_c32d822fdbe2ad31c6cb7bc4263033fe" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_1339010e9acfe1fbb0532f3973a14377.setContent(html_c32d822fdbe2ad31c6cb7bc4263033fe);
+            
+        
+
+        circle_marker_eb43917d44ae052e205180e69e3f49dc.bindPopup(popup_1339010e9acfe1fbb0532f3973a14377)
+        ;
+
+        
+    
+    
+            circle_marker_eb43917d44ae052e205180e69e3f49dc.bindTooltip(
+                `<div>
+                     Cheshire - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_faba0b0c8be1eaff0d346de26cee81cb = L.polygon(
+                [[42.77367000000001, -72.495324], [42.77370099999999, -72.495873], [42.77370099999999, -72.4963], [42.77363199999999, -72.496636], [42.77352499999997, -72.49704800000002], [42.773480000000006, -72.497369], [42.773364999999984, -72.497704], [42.77315199999994, -72.498055], [42.77299899999998, -72.498269], [42.77289999999994, -72.498406], [42.77271699999994, -72.498574], [42.77254899999995, -72.498665], [42.77241200000003, -72.49872600000002], [42.77230500000001, -72.498803], [42.772220999999995, -72.498894], [42.772099000000026, -72.498971], [42.77183199999998, -72.499032], [42.77152699999998, -72.499017], [42.77122900000003, -72.499016], [42.770976999999995, -72.499062], [42.77040500000002, -72.499169], [42.77000799999999, -72.49924500000002], [42.769848000000025, -72.499321], [42.76972600000003, -72.499413], [42.76946700000001, -72.499459], [42.76921499999997, -72.499474], [42.76902000000002, -72.499463], [42.768925000000046, -72.499474], [42.76881100000002, -72.499581], [42.768819, -72.499764], [42.76881800000001, -72.499825], [42.76881800000001, -72.49990200000002], [42.768733999999995, -72.500115], [42.768612000000005, -72.50022200000001], [42.76838300000002, -72.500298], [42.767993999999995, -72.50063400000002], [42.767750000000056, -72.50095400000001], [42.76752100000004, -72.501214], [42.767239000000025, -72.501534], [42.76710900000003, -72.501839], [42.76685000000002, -72.502587], [42.76671999999997, -72.502984], [42.76662899999999, -72.503319], [42.76646799999999, -72.503579], [42.76619399999998, -72.503823], [42.766125, -72.50406700000002], [42.76610199999999, -72.50425], [42.766048999999995, -72.504739], [42.766033999999976, -72.505197], [42.76597999999998, -72.505639], [42.765888999999994, -72.505975], [42.76580499999998, -72.50628], [42.76572099999997, -72.506509], [42.76562899999998, -72.506669], [42.765492, -72.506875], [42.76515599999999, -72.50713400000001], [42.76496500000004, -72.507333], [42.764706, -72.507653], [42.764537999999995, -72.507943], [42.764400999999985, -72.50837], [42.764385999999995, -72.508569], [42.76456100000002, -72.509118], [42.76454599999998, -72.50936200000001], [42.76451499999998, -72.509515], [42.76427099999996, -72.509774], [42.764278999999995, -72.509912], [42.764233000000026, -72.510033], [42.764088000000044, -72.51040000000002], [42.76397400000002, -72.510675], [42.76388200000005, -72.511178], [42.76395799999996, -72.511483], [42.76395099999997, -72.511789], [42.764042000000046, -72.512338], [42.76404999999999, -72.51265800000002], [42.764073, -72.51307], [42.764148999999996, -72.513314], [42.76419500000001, -72.51342100000001], [42.764423999999956, -72.513848], [42.76456100000002, -72.51407700000001], [42.764798000000035, -72.514489], [42.764987999999995, -72.514764], [42.765079999999955, -72.514917], [42.76562899999998, -72.515466], [42.76597999999997, -72.51564900000001], [42.766178000000004, -72.51571], [42.76652900000003, -72.515939], [42.766757999999996, -72.516], [42.76710900000003, -72.516152], [42.767956, -72.516442], [42.76830700000003, -72.516488], [42.76865000000003, -72.51658], [42.76881800000001, -72.516549], [42.76912300000001, -72.51647300000002], [42.76939800000002, -72.516274], [42.76970300000002, -72.516152], [42.76985599999997, -72.516107], [42.77035199999999, -72.515786], [42.770588, -72.51552700000002], [42.77071000000002, -72.515359], [42.77087000000002, -72.515169], [42.770920000000004, -72.515107], [42.770976999999995, -72.515039], [42.771215999999946, -72.51469100000001], [42.771366000000036, -72.514474], [42.77149599999999, -72.514276], [42.771522000000004, -72.514237], [42.77173299999998, -72.51397], [42.77182400000003, -72.513757], [42.77188000000001, -72.513664], [42.772602000000035, -72.51246], [42.77281599999997, -72.512063], [42.77299100000004, -72.511758], [42.77318200000003, -72.511437], [42.77340300000003, -72.511132], [42.77360899999994, -72.510781], [42.773831000000015, -72.510491], [42.77415900000001, -72.510125], [42.774562999999986, -72.509683], [42.77473099999998, -72.50953000000001], [42.774844999999985, -72.509423], [42.775013, -72.509286], [42.77530300000001, -72.509164], [42.77556999999996, -72.509027], [42.77591300000001, -72.508905], [42.77643200000006, -72.50866], [42.777119000000035, -72.50849300000002], [42.77750000000002, -72.508431], [42.77769099999996, -72.508386], [42.77785200000004, -72.50838600000002], [42.77804199999998, -72.50838500000002], [42.778340000000014, -72.508401], [42.778682999999994, -72.508462], [42.779522000000036, -72.508737], [42.78002600000003, -72.508996], [42.78053700000004, -72.509286], [42.78166599999997, -72.51001900000001], [42.78242100000001, -72.510598], [42.782696, -72.510842], [42.784020999999974, -72.511969], [42.78432900000004, -72.512231], [42.78472499999999, -72.512612], [42.785129999999995, -72.513055], [42.78592300000002, -72.51394], [42.786137000000004, -72.514154], [42.78699899999998, -72.51514600000002], [42.787868999999965, -72.516137], [42.78797200000006, -72.516258], [42.78831899999998, -72.516686], [42.78859299999999, -72.51703800000001], [42.78949400000001, -72.518228], [42.79039399999998, -72.519418], [42.79066100000002, -72.519754], [42.791767, -72.521219], [42.791897000000006, -72.52143200000002], [42.79236199999996, -72.52201200000002], [42.79343799999996, -72.523446], [42.79392599999998, -72.524087], [42.793980985903325, -72.52415794288824], [42.773657460055965, -72.49525492708665], [42.77367000000001, -72.495324]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_1b9529ad4b54dbcf169006d84fb18338 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53fa1a682d474f6ae235df25341ebb5f = $(`<div id="html_53fa1a682d474f6ae235df25341ebb5f" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_1b9529ad4b54dbcf169006d84fb18338.setContent(html_53fa1a682d474f6ae235df25341ebb5f);
+            
+        
+
+        polygon_faba0b0c8be1eaff0d346de26cee81cb.bindPopup(popup_1b9529ad4b54dbcf169006d84fb18338)
+        ;
+
+        
+    
+    
+            var circle_marker_2c510ad864af6e7260697cb614cb01fe = L.circleMarker(
+                [42.772384015287244, -72.50857634918734],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_3b4a83a423dbf1f75794a728fecb204c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4fecfd634db5333b0c8639e815611efb = $(`<div id="html_4fecfd634db5333b0c8639e815611efb" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_3b4a83a423dbf1f75794a728fecb204c.setContent(html_4fecfd634db5333b0c8639e815611efb);
+            
+        
+
+        circle_marker_2c510ad864af6e7260697cb614cb01fe.bindPopup(popup_3b4a83a423dbf1f75794a728fecb204c)
+        ;
+
+        
+    
+    
+            circle_marker_2c510ad864af6e7260697cb614cb01fe.bindTooltip(
+                `<div>
+                     Cheshire - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_603489b6a6ab18768c8f514ac8a24685 = L.polygon(
+                [[42.80588099999997, -72.539911], [42.80608, -72.540171], [42.806231999999966, -72.540384], [42.80649899999998, -72.54073500000001], [42.80674300000002, -72.54104], [42.80709399999998, -72.541513], [42.807894999999995, -72.541697], [42.80847499999999, -72.541834], [42.80900199999999, -72.541971], [42.809299, -72.542048], [42.809993000000006, -72.54220000000001], [42.81109200000002, -72.542337], [42.812847999999974, -72.54251300000001], [42.81308300000003, -72.542536], [42.81323599999999, -72.542505], [42.81390699999994, -72.542536], [42.81459399999999, -72.542551], [42.81519699999999, -72.542444], [42.815306661203266, -72.54241397374271], [42.80585321423839, -72.53987430860862], [42.80588099999997, -72.539911]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_deefe8b95552508ec68151880479a657 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf1b5b7960c4480e716107dc2aac84e0 = $(`<div id="html_bf1b5b7960c4480e716107dc2aac84e0" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_deefe8b95552508ec68151880479a657.setContent(html_bf1b5b7960c4480e716107dc2aac84e0);
+            
+        
+
+        polygon_603489b6a6ab18768c8f514ac8a24685.bindPopup(popup_deefe8b95552508ec68151880479a657)
+        ;
+
+        
+    
+    
+            var circle_marker_1175cfe43d7e7a6ba856adcb1fa9c3ae = L.circleMarker(
+                [42.80972337502102, -72.54157739439768],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_bb5954f9c3854216f1c086c601adb245 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc214fd88ac2da14b4cf017edaa77d64 = $(`<div id="html_bc214fd88ac2da14b4cf017edaa77d64" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_bb5954f9c3854216f1c086c601adb245.setContent(html_bc214fd88ac2da14b4cf017edaa77d64);
+            
+        
+
+        circle_marker_1175cfe43d7e7a6ba856adcb1fa9c3ae.bindPopup(popup_bb5954f9c3854216f1c086c601adb245)
+        ;
+
+        
+    
+    
+            circle_marker_1175cfe43d7e7a6ba856adcb1fa9c3ae.bindTooltip(
+                `<div>
+                     Cheshire - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_623b30931868859ba4023390aff00942 = L.polygon(
+                [[42.81666200000001, -72.542841], [42.817248999999975, -72.54317700000001], [42.81740799999998, -72.543294], [42.81746300000001, -72.543362], [42.81772999999997, -72.54355300000002], [42.81778999999999, -72.543561], [42.81856900000001, -72.544077], [42.81894300000001, -72.54426], [42.81920999999994, -72.544398], [42.81983500000003, -72.544642], [42.820178999999996, -72.54474800000001], [42.82021400000005, -72.544764], [42.820294999999966, -72.54479200000002], [42.82043000000003, -72.54484], [42.820467999999934, -72.544864], [42.82086499999999, -72.545115], [42.82136099999999, -72.545221], [42.82149099999999, -72.545298], [42.821749999999994, -72.54542], [42.822010000000006, -72.545572], [42.82225400000002, -72.545694], [42.82261200000003, -72.54577100000002], [42.82289500000003, -72.54584700000001], [42.823131, -72.545908], [42.82338300000003, -72.54600000000002], [42.82374900000002, -72.546091], [42.82387400000002, -72.546124], [42.82391699999997, -72.546137], [42.82415099999996, -72.54627], [42.82429100000001, -72.54635000000002], [42.82458800000002, -72.546442], [42.82483299999998, -72.546488], [42.825161, -72.546564], [42.82519900000005, -72.54658], [42.82541199999999, -72.54661000000002], [42.825756000000055, -72.546656], [42.827083000000016, -72.54664], [42.82770699999999, -72.546625], [42.82834199999996, -72.54661000000002], [42.82877700000005, -72.546625], [42.830004999999986, -72.546671], [42.83063099999997, -72.546717], [42.83115, -72.546717], [42.831437685519205, -72.54674912017289], [42.816333723287435, -72.54268993409038], [42.81666200000001, -72.542841]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_f452f124ea30fdf26829bcf777a2fb03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a21d6fad87e67051c7a1043962efe5dd = $(`<div id="html_a21d6fad87e67051c7a1043962efe5dd" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_f452f124ea30fdf26829bcf777a2fb03.setContent(html_a21d6fad87e67051c7a1043962efe5dd);
+            
+        
+
+        polygon_623b30931868859ba4023390aff00942.bindPopup(popup_f452f124ea30fdf26829bcf777a2fb03)
+        ;
+
+        
+    
+    
+            var circle_marker_c21dbf21710c9625ba0c98b1a3f523eb = L.circleMarker(
+                [42.82267948714797, -72.54535252291878],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_75259fad6baf006837016a51c8c461c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d9c1116a6018964ba7b7650058d0fea = $(`<div id="html_2d9c1116a6018964ba7b7650058d0fea" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_75259fad6baf006837016a51c8c461c2.setContent(html_2d9c1116a6018964ba7b7650058d0fea);
+            
+        
+
+        circle_marker_c21dbf21710c9625ba0c98b1a3f523eb.bindPopup(popup_75259fad6baf006837016a51c8c461c2)
+        ;
+
+        
+    
+    
+            circle_marker_c21dbf21710c9625ba0c98b1a3f523eb.bindTooltip(
+                `<div>
+                     Cheshire - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8761ad96e4dd0e8cf1bf71820f6c0e8d = L.polygon(
+                [[42.843897999999996, -72.550287], [42.844050999999965, -72.550486], [42.844508000000054, -72.551035], [42.84483700000006, -72.551447], [42.84506500000007, -72.551752], [42.84530200000001, -72.552042], [42.84572200000002, -72.55243900000002], [42.84630099999998, -72.552759], [42.846935, -72.553126], [42.84737699999999, -72.5534], [42.84821699999997, -72.553808], [42.84841500000003, -72.553904], [42.84897900000001, -72.554255], [42.84951299999999, -72.554606], [42.84987999999994, -72.55488100000001], [42.850428999999984, -72.555247], [42.850902000000026, -72.555582], [42.851237999999995, -72.555842], [42.85140500000001, -72.555979], [42.851545000000044, -72.55609900000002], [42.85176400000004, -72.556299], [42.851875000000035, -72.556471], [42.851931999999984, -72.556559], [42.85209500000002, -72.55670900000001], [42.852214000000025, -72.556818], [42.852374000000005, -72.55694], [42.85261799999998, -72.557017], [42.85286299999995, -72.557078], [42.853236000000024, -72.557124], [42.85347299999994, -72.557093], [42.85388499999999, -72.557017], [42.854121000000006, -72.557001], [42.85431599999998, -72.556956], [42.85456600000005, -72.55688200000002], [42.85471699999999, -72.556803], [42.85503700000002, -72.55662], [42.85537099999999, -72.556453], [42.85580799999998, -72.556269], [42.85614300000003, -72.55610100000001], [42.856516999999975, -72.55594900000001], [42.856776000000025, -72.555872], [42.85714300000001, -72.555643], [42.85740199999998, -72.555506], [42.85772200000002, -72.555308], [42.858119, -72.555079], [42.85807800000001, -72.554547], [42.858035, -72.553919], [42.85803126217783, -72.5539003108825], [42.84372149270064, -72.5500516563521], [42.843897999999996, -72.550287]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_52c61911af2e15e6ac7f906d5ddfceb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f01eb7fadaa6dd66454c6ded92cd3480 = $(`<div id="html_f01eb7fadaa6dd66454c6ded92cd3480" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_52c61911af2e15e6ac7f906d5ddfceb8.setContent(html_f01eb7fadaa6dd66454c6ded92cd3480);
+            
+        
+
+        polygon_8761ad96e4dd0e8cf1bf71820f6c0e8d.bindPopup(popup_52c61911af2e15e6ac7f906d5ddfceb8)
+        ;
+
+        
+    
+    
+            var circle_marker_68a63cdbe38f3d0f92ce7d05a15390f3 = L.circleMarker(
+                [42.851567395097575, -72.5548649593447],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_3f73d37cef7092b96f493691f701d65f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7748e3711df317720f9c5a9748891da9 = $(`<div id="html_7748e3711df317720f9c5a9748891da9" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD00</b></div>`)[0];
+                popup_3f73d37cef7092b96f493691f701d65f.setContent(html_7748e3711df317720f9c5a9748891da9);
+            
+        
+
+        circle_marker_68a63cdbe38f3d0f92ce7d05a15390f3.bindPopup(popup_3f73d37cef7092b96f493691f701d65f)
+        ;
+
+        
+    
+    
+            circle_marker_68a63cdbe38f3d0f92ce7d05a15390f3.bindTooltip(
+                `<div>
+                     Cheshire - New Hampshire-CD00
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_870483b4e469f31bc7185722a2e1464d = L.polygon(
+                [[42.72684299999998, -72.455776], [42.726849000000016, -72.45600100000001], [42.72689699999999, -72.457225], [42.726902999999965, -72.457389], [42.72693300000004, -72.458412], [42.726959999999984, -72.458412], [42.72775, -72.458442], [42.72899299999995, -72.45873200000001], [42.73017599999997, -72.459327], [42.73078600000003, -72.459632], [42.731594999999956, -72.46010599999998], [42.73211400000001, -72.460441], [42.732853999999996, -72.461189], [42.73312800000002, -72.461341], [42.73350200000001, -72.461509], [42.73382299999997, -72.461646], [42.734753, -72.462547], [42.735463000000024, -72.462982], [42.735758000000004, -72.463161], [42.735809, -72.463192], [42.73621500000002, -72.463441], [42.736371999999996, -72.463537], [42.73659999999999, -72.463676], [42.73730899999998, -72.464225], [42.73737653229135, -72.46436006433757], [42.75831927984223, -72.47598974529889], [42.759395999999974, -72.476387], [42.760196999999934, -72.476692], [42.76060100000003, -72.476845], [42.76076900000006, -72.476952], [42.761021000000014, -72.477135], [42.76108999999997, -72.47721100000001], [42.76167700000004, -72.477638], [42.76219599999996, -72.478127], [42.762493999999954, -72.478432], [42.762974, -72.478874], [42.76333299999998, -72.47936300000002], [42.76348500000001, -72.479713], [42.763698999999995, -72.48037000000001], [42.76374499999996, -72.480583], [42.76383600000004, -72.480827], [42.76413400000001, -72.48171200000002], [42.76414150644072, -72.48173052010567], [42.76721411048424, -72.48609680887958], [42.76749099999998, -72.486321], [42.76767399999998, -72.486382], [42.76799399999995, -72.486626], [42.768048000000014, -72.48665700000001], [42.76813899999997, -72.486687], [42.768497999999994, -72.48684], [42.76885600000003, -72.486977], [42.76916199999995, -72.487206], [42.76956599999999, -72.487542], [42.77006500000001, -72.487987], [42.770550000000014, -72.48842700000002], [42.77172499999996, -72.489525], [42.77231199999998, -72.49009], [42.77274699999995, -72.490547], [42.77293000000002, -72.490883], [42.77302999999993, -72.491188], [42.77310599999999, -72.491402], [42.77315899999998, -72.491631], [42.773144000000016, -72.492409], [42.77315899999998, -72.492501], [42.77327400000001, -72.492821], [42.77333499999999, -72.49302], [42.77335000000001, -72.493477], [42.773342000000014, -72.493798], [42.77341900000001, -72.494225], [42.77360899999992, -72.49498800000002], [42.773657460055965, -72.49525492708665], [42.793980985903325, -72.52415794288824], [42.794529000000026, -72.52486500000002], [42.79546500000002, -72.526105], [42.79561199999999, -72.52630000000002], [42.79566599999998, -72.526361], [42.79587900000001, -72.526681], [42.796122999999994, -72.526971], [42.796391000000035, -72.527368], [42.796856000000034, -72.52793300000002], [42.796885999999986, -72.528009], [42.79767199999996, -72.529031], [42.798107, -72.529626], [42.79854200000002, -72.530161], [42.799107, -72.530939], [42.79939400000002, -72.531332], [42.799686000000015, -72.53173200000002], [42.79996099999998, -72.532098], [42.800120999999976, -72.53229700000001], [42.80055600000003, -72.532831], [42.800823000000015, -72.533197], [42.80169299999997, -72.534403], [42.80212000000003, -72.534922], [42.80250900000002, -72.53544000000001], [42.80279899999999, -72.535806], [42.80361500000003, -72.536905], [42.80389799999999, -72.537271], [42.804103999999995, -72.537546], [42.80435500000002, -72.537897], [42.80453100000004, -72.538141], [42.80471400000003, -72.53837000000001], [42.80585321423839, -72.53987430860862], [42.815306661203266, -72.54241397374271], [42.81536500000003, -72.542398], [42.815647000000034, -72.542429], [42.816096999999985, -72.542581], [42.816333723287435, -72.54268993409038], [42.831437685519205, -72.54674912017289], [42.83156199999998, -72.546763], [42.83271399999994, -72.546793], [42.83367699999996, -72.54685600000002], [42.834583, -72.546915], [42.83548999999998, -72.546956], [42.83633499999996, -72.546993], [42.83732199999998, -72.547037], [42.838377, -72.547075], [42.83854200000002, -72.547083], [42.83890899999998, -72.547144], [42.839205999999976, -72.547266], [42.83954899999999, -72.547358], [42.839794000000026, -72.54748000000001], [42.840084000000054, -72.547632], [42.84113599999999, -72.548212], [42.84170899999999, -72.548517], [42.841998, -72.548594], [42.84226499999999, -72.548685], [42.84258599999996, -72.548808], [42.84279199999996, -72.548975], [42.84288300000003, -72.549021], [42.84312800000002, -72.549265], [42.843219, -72.54940200000001], [42.84360100000004, -72.549891], [42.84372149270064, -72.5500516563521], [42.85803126217783, -72.5539003108825], [42.858028, -72.553884], [42.85801999999996, -72.553843], [42.85792099999996, -72.55239300000001], [42.857822000000034, -72.550928], [42.85772999999997, -72.549479], [42.85772199999999, -72.549402], [42.857631000000005, -72.548029], [42.85752700000001, -72.54658], [42.857426999999994, -72.54512500000001], [42.857318000000014, -72.543665], [42.85721099999999, -72.54217], [42.85712000000004, -72.540659], [42.85707400000001, -72.540156], [42.857018000000075, -72.539346], [42.85689800000004, -72.53765300000002], [42.85680699999994, -72.536341], [42.85673099999997, -72.53504300000002], [42.85663900000001, -72.533731], [42.85654700000002, -72.532434], [42.85645600000003, -72.531122], [42.856372000000036, -72.529825], [42.85633400000004, -72.529474], [42.85628000000002, -72.528482], [42.85618900000003, -72.52714], [42.85615000000002, -72.526561], [42.85613599999999, -72.526366], [42.85582300000001, -72.521829], [42.85564700000001, -72.51925], [42.85547200000004, -72.516671], [42.855388, -72.51539], [42.855288999999985, -72.514047], [42.855197, -72.51270400000001], [42.85510600000003, -72.51136100000001], [42.85501400000002, -72.510018], [42.85492299999996, -72.508676], [42.85483099999997, -72.507333], [42.85473199999993, -72.50592900000001], [42.85464899999994, -72.504858], [42.854624999999984, -72.504525], [42.85453299999999, -72.503106], [42.854418999999986, -72.501702], [42.85432699999994, -72.500298], [42.85427500000002, -72.49958100000002], [42.85427400000001, -72.499566], [42.85423600000004, -72.49807], [42.85421100000003, -72.497587], [42.85420799999998, -72.497498], [42.854032999999966, -72.494558], [42.85325500000001, -72.48081000000002], [42.85320500000001, -72.479919], [42.85307000000002, -72.477275], [42.85305300000001, -72.477272], [42.85300300000005, -72.477262], [42.85042100000002, -72.476738], [42.84894899999999, -72.476433], [42.84718599999998, -72.476067], [42.847058, -72.47604100000001], [42.83934899999996, -72.47447000000001], [42.83877800000002, -72.474353], [42.83872500000003, -72.47434200000001], [42.838042000000044, -72.474202], [42.833956999999984, -72.473366], [42.832093000000015, -72.472977], [42.831733000000035, -72.472902], [42.82919700000004, -72.47237400000002], [42.82519900000003, -72.47155], [42.82403899999997, -72.471321], [42.82020800000004, -72.47054], [42.81925200000007, -72.470345], [42.817233000000044, -72.469923], [42.81459399999999, -72.469368], [42.81030600000004, -72.468483], [42.808769000000034, -72.468162], [42.80857899999996, -72.468122], [42.80430999999999, -72.467231], [42.80238300000002, -72.46682500000001], [42.799968999999955, -72.466331], [42.798107, -72.46595], [42.79734999999998, -72.465794], [42.79650199999995, -72.465619], [42.793736, -72.465049], [42.79334999999998, -72.46497000000001], [42.793047, -72.46490800000001], [42.792761, -72.464849], [42.79135700000002, -72.464561], [42.78934500000002, -72.464148], [42.78850400000006, -72.463976], [42.78257400000004, -72.462776], [42.779329999999966, -72.462117], [42.77912299999999, -72.462075], [42.777569000000035, -72.461769], [42.77473900000002, -72.461189], [42.771771, -72.460594], [42.76788299999998, -72.459783], [42.76716300000004, -72.459632], [42.762561999999996, -72.458686], [42.761414000000016, -72.45845100000001], [42.75866400000002, -72.45789300000001], [42.755551, -72.457252], [42.750696, -72.45624100000002], [42.750080999999966, -72.456113], [42.75005900000001, -72.456108], [42.74810499999995, -72.45571100000001], [42.743714999999995, -72.45477], [42.74283299999997, -72.454582], [42.74070400000002, -72.45412600000002], [42.74005600000002, -72.45398800000001], [42.73812599999998, -72.453575], [42.73360900000003, -72.452628], [42.72957800000006, -72.451808], [42.729413000000044, -72.451774], [42.72782300000002, -72.451436], [42.72668900000005, -72.451194], [42.726712000000006, -72.45182000000001], [42.72684299999998, -72.455776]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_ccf58daec096d226bae668af54ba7c89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93c824bb023b0716feb0c2173d099cd8 = $(`<div id="html_93c824bb023b0716feb0c2173d099cd8" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD02</b></div>`)[0];
+                popup_ccf58daec096d226bae668af54ba7c89.setContent(html_93c824bb023b0716feb0c2173d099cd8);
+            
+        
+
+        polygon_870483b4e469f31bc7185722a2e1464d.bindPopup(popup_ccf58daec096d226bae668af54ba7c89)
+        ;
+
+        
+    
+    
+            var circle_marker_4a8a044026e4f2faa8999babab270a21 = L.circleMarker(
+                [42.800474108088935, -72.49868425025079],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1463e0fcad64800a01453fcc60616dae);
+        
+    
+        var popup_ce42c3be8ebb93869e40258f5b02fcb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_028e9a53244badd4811b3c3b2c16fc7b = $(`<div id="html_028e9a53244badd4811b3c3b2c16fc7b" style="width: 100.0%; height: 100.0%;"><b>Cheshire - New Hampshire-CD02</b></div>`)[0];
+                popup_ce42c3be8ebb93869e40258f5b02fcb3.setContent(html_028e9a53244badd4811b3c3b2c16fc7b);
+            
+        
+
+        circle_marker_4a8a044026e4f2faa8999babab270a21.bindPopup(popup_ce42c3be8ebb93869e40258f5b02fcb3)
+        ;
+
+        
+    
+    
+            circle_marker_4a8a044026e4f2faa8999babab270a21.bindTooltip(
+                `<div>
+                     Cheshire - New Hampshire-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

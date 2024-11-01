@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1c5a45576f8a20b2b1cdb8667c6068aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Ramsey - Minnesota-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Ramsey - Minnesota-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Ramsey - Minnesota-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Ramsey - Minnesota-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_1c5a45576f8a20b2b1cdb8667c6068aa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1c5a45576f8a20b2b1cdb8667c6068aa = L.map(
+                "map_1c5a45576f8a20b2b1cdb8667c6068aa",
+                {
+                    center: [44.95367865384614, -93.0952495],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e898c35cc59ae85ef3837de03fbef733 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e898c35cc59ae85ef3837de03fbef733.addTo(map_1c5a45576f8a20b2b1cdb8667c6068aa);
+        
+    
+            var polygon_8ee4e70eb7067d530f06c04b0e342422 = L.polygon(
+                [[44.95798100000002, -93.084813], [44.958074999999944, -93.084725], [44.957981000000004, -93.084666], [44.95798199999995, -93.083053], [44.95798299999998, -93.082238], [44.957756999999994, -93.081942], [44.95771100000003, -93.081716], [44.957304000000015, -93.08145], [44.95720400000005, -93.081404], [44.95694000000002, -93.081089], [44.956532999999965, -93.080605], [44.955767999999985, -93.079695], [44.955434999999966, -93.079317], [44.955346, -93.079497], [44.95530899999997, -93.079571], [44.95472899999998, -93.080735], [44.95441300000002, -93.081393], [44.95434299999997, -93.081537], [44.954316999999996, -93.081591], [44.954147999999996, -93.081942], [44.953898999999986, -93.082459], [44.95456300000002, -93.083076], [44.95415600000004, -93.083925], [44.954335000000015, -93.08412], [44.95469300000002, -93.084461], [44.95481399999998, -93.084565], [44.95496199999998, -93.084648], [44.955193, -93.084703], [44.955407999999984, -93.08473], [44.95574499999999, -93.084725], [44.95574499999999, -93.084794], [44.95574500000003, -93.084886], [44.956436999999944, -93.084896], [44.95714599999999, -93.084907], [44.95748199999994, -93.084923], [44.95763799999997, -93.08492900000002], [44.95782300000004, -93.084874], [44.95798100000002, -93.084813]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1c5a45576f8a20b2b1cdb8667c6068aa);
+        
+    
+        var popup_375fa6e9dbf4e03bc20821d2a8abdb80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3666a13a3f7835ba0be38e97aad4b0d5 = $(`<div id="html_3666a13a3f7835ba0be38e97aad4b0d5" style="width: 100.0%; height: 100.0%;"><b>Ramsey - Minnesota-CD04</b></div>`)[0];
+                popup_375fa6e9dbf4e03bc20821d2a8abdb80.setContent(html_3666a13a3f7835ba0be38e97aad4b0d5);
+            
+        
+
+        polygon_8ee4e70eb7067d530f06c04b0e342422.bindPopup(popup_375fa6e9dbf4e03bc20821d2a8abdb80)
+        ;
+
+        
+    
+    
+            var circle_marker_bb06ad3a76c5b88454fe3fab5633f300 = L.circleMarker(
+                [44.95607957894736, -93.08298455263157],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1c5a45576f8a20b2b1cdb8667c6068aa);
+        
+    
+        var popup_f8ef06eb23db127c2798218f2c3aac83 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3877bfcde3728b38bba40452e7c66022 = $(`<div id="html_3877bfcde3728b38bba40452e7c66022" style="width: 100.0%; height: 100.0%;"><b>Ramsey - Minnesota-CD04</b></div>`)[0];
+                popup_f8ef06eb23db127c2798218f2c3aac83.setContent(html_3877bfcde3728b38bba40452e7c66022);
+            
+        
+
+        circle_marker_bb06ad3a76c5b88454fe3fab5633f300.bindPopup(popup_f8ef06eb23db127c2798218f2c3aac83)
+        ;
+
+        
+    
+    
+            circle_marker_bb06ad3a76c5b88454fe3fab5633f300.bindTooltip(
+                `<div>
+                     Ramsey - Minnesota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_ec4a340c8e9fc7e3e04547b05977117a = L.polygon(
+                [[44.95669500000006, -93.105947], [44.956841999999995, -93.10595], [44.95683700000001, -93.103757], [44.95684, -93.102219], [44.956842999999985, -93.100874], [44.95791700000003, -93.100871], [44.957926000000036, -93.099576], [44.957357000000016, -93.09885], [44.95585999999997, -93.098876], [44.955572999999994, -93.09888300000001], [44.955376, -93.098888], [44.95529399999998, -93.09884], [44.95489500000003, -93.098415], [44.95450799999998, -93.09792], [44.953965999999994, -93.097315], [44.95366099999998, -93.09697500000001], [44.952955999999965, -93.09622], [44.95239799999993, -93.097442], [44.95207999999997, -93.098091], [44.951829000000004, -93.09879100000002], [44.95141100000003, -93.099956], [44.95135899999999, -93.09991], [44.951340000000016, -93.099894], [44.951042999999984, -93.099607], [44.95095200000004, -93.099917], [44.950906999999994, -93.100093], [44.95078799999995, -93.100436], [44.95072999999999, -93.100593], [44.95060600000001, -93.100892], [44.950476999999964, -93.101113], [44.95036800000005, -93.101294], [44.950227000000005, -93.101509], [44.950121, -93.101646], [44.94987599999995, -93.10191700000001], [44.949868999999985, -93.102155], [44.94986799999995, -93.102197], [44.94986799999995, -93.102216], [44.94986700000001, -93.10224], [44.94986999999996, -93.10251], [44.94989000000001, -93.10278], [44.94992499999997, -93.103046], [44.949976000000056, -93.103307], [44.950031, -93.103525], [44.950109000000005, -93.10377200000002], [44.950188000000026, -93.103975], [44.950322, -93.104329], [44.95041300000005, -93.104609], [44.950469999999996, -93.104806], [44.95050700000003, -93.10493], [44.950582000000004, -93.105221], [44.95064699999998, -93.10551600000001], [44.95069000000002, -93.105756], [44.950708000000006, -93.105853], [44.95073299999997, -93.106021], [44.95089199999994, -93.105891], [44.95093799999999, -93.105848], [44.95100500000003, -93.105793], [44.951443000000026, -93.105476], [44.95153199999998, -93.105625], [44.95173499999999, -93.105846], [44.951813000000065, -93.105887], [44.952037999999945, -93.105976], [44.95237400000003, -93.106044], [44.95489999999999, -93.105998], [44.955799999999996, -93.105963], [44.95669500000006, -93.105947]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1c5a45576f8a20b2b1cdb8667c6068aa);
+        
+    
+        var popup_106fbc0c34c86921b155ae8812ee271e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4bcfb9f1e9d3b62745614d91b4b5773a = $(`<div id="html_4bcfb9f1e9d3b62745614d91b4b5773a" style="width: 100.0%; height: 100.0%;"><b>Ramsey - Minnesota-CD04</b></div>`)[0];
+                popup_106fbc0c34c86921b155ae8812ee271e.setContent(html_4bcfb9f1e9d3b62745614d91b4b5773a);
+            
+        
+
+        polygon_ec4a340c8e9fc7e3e04547b05977117a.bindPopup(popup_106fbc0c34c86921b155ae8812ee271e)
+        ;
+
+        
+    
+    
+            var circle_marker_8f4e9223b413c1f8ad7ec55c16ad7ce6 = L.circleMarker(
+                [44.9522963030303, -93.10231113636364],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1c5a45576f8a20b2b1cdb8667c6068aa);
+        
+    
+        var popup_d49a990a5c92a6f738a4c4313f8343a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7abbe06e801a09f33538abe15c815ff = $(`<div id="html_a7abbe06e801a09f33538abe15c815ff" style="width: 100.0%; height: 100.0%;"><b>Ramsey - Minnesota-CD04</b></div>`)[0];
+                popup_d49a990a5c92a6f738a4c4313f8343a8.setContent(html_a7abbe06e801a09f33538abe15c815ff);
+            
+        
+
+        circle_marker_8f4e9223b413c1f8ad7ec55c16ad7ce6.bindPopup(popup_d49a990a5c92a6f738a4c4313f8343a8)
+        ;
+
+        
+    
+    
+            circle_marker_8f4e9223b413c1f8ad7ec55c16ad7ce6.bindTooltip(
+                `<div>
+                     Ramsey - Minnesota-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_556598b71967c8841ba4a5132b124cb2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Jefferson - Colorado-CD07</p>
+            </div>
+    
+            <div class="folium-map" id="map_556598b71967c8841ba4a5132b124cb2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_556598b71967c8841ba4a5132b124cb2 = L.map(
+                "map_556598b71967c8841ba4a5132b124cb2",
+                {
+                    center: [39.73813181177758, -105.07425861101864],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d02510201913450875ea52c9a453fdbe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d02510201913450875ea52c9a453fdbe.addTo(map_556598b71967c8841ba4a5132b124cb2);
+        
+    
+            var polygon_20b8df03853c77a099d58a592fbb59c5 = L.polygon(
+                [[39.73491299999994, -105.055572], [39.73474, -105.055586], [39.73470699999999, -105.055585], [39.734508, -105.055591], [39.73310500000001, -105.055588], [39.733098000000005, -105.055539], [39.733098000000005, -105.055424], [39.73309900000001, -105.055082], [39.73310000000003, -105.055011], [39.733169999999944, -105.055011], [39.73372400000001, -105.055013], [39.73372000000001, -105.054675], [39.733707999999964, -105.054668], [39.73364099999999, -105.054669], [39.73363999999999, -105.054427], [39.73355200000002, -105.054427], [39.733171999999975, -105.054425], [39.73310100000001, -105.054424], [39.73310199999996, -105.054398], [39.73310199999996, -105.05434], [39.73310199999996, -105.05417], [39.73310300000001, -105.05411300000002], [39.73310399999999, -105.053935], [39.73310799999999, -105.053404], [39.73310973215888, -105.05325070522564], [39.7284602023711, -105.05325108239762], [39.727772, -105.053252], [39.72734900000001, -105.053254], [39.72723299999998, -105.053254], [39.72661799999998, -105.053252], [39.72618399999998, -105.053252], [39.72611200000001, -105.053252], [39.725950999999974, -105.05325300000001], [39.725899, -105.05325300000001], [39.725828000000014, -105.05325300000001], [39.72579999999997, -105.05325300000001], [39.725784000000004, -105.054139], [39.72578700000004, -105.057575], [39.725752999999976, -105.058166], [39.72572700000002, -105.058809], [39.72570999999998, -105.061252], [39.725708999999995, -105.06266], [39.72570900000003, -105.062681], [39.72557899999999, -105.062679], [39.72545699999997, -105.062688], [39.725451000000014, -105.063885], [39.72544100000002, -105.065026], [39.72543900000001, -105.06537], [39.725018000000006, -105.065373], [39.725012000000014, -105.067418], [39.72488899999996, -105.067418], [39.724885, -105.068892], [39.72527400000002, -105.068893], [39.72542700000002, -105.068889], [39.72542399999999, -105.069752], [39.724901, -105.06975600000001], [39.724901, -105.069825], [39.72497900000005, -105.070932], [39.72456099999995, -105.074113], [39.72459999999998, -105.074183], [39.724599000000026, -105.074508], [39.72453599999996, -105.074508], [39.72454799999998, -105.074855], [39.72497, -105.074858], [39.72524300000001, -105.07486], [39.72540199999997, -105.074862], [39.725401, -105.075163], [39.725399999999986, -105.075506], [39.72553699999995, -105.07551900000001], [39.725536000000055, -105.07608400000001], [39.725530999999975, -105.077041], [39.725519000000006, -105.079277], [39.725493000000014, -105.080989], [39.725492, -105.081525], [39.725614000000014, -105.081526], [39.725618000000026, -105.081693], [39.72561699999997, -105.08432], [39.72561699999997, -105.084885], [39.725596, -105.087409], [39.72559200000006, -105.087984], [39.72557900000002, -105.089624], [39.72556899999998, -105.090879], [39.725714999999994, -105.09089], [39.726175999999974, -105.090881], [39.726177000000035, -105.091101], [39.72617799999999, -105.091401], [39.72686100000001, -105.091413], [39.728108000000034, -105.091335], [39.72838399999999, -105.091319], [39.72851499999995, -105.091326], [39.72851599999997, -105.091469], [39.72878599999996, -105.091466], [39.728763000000015, -105.09158600000002], [39.728772000000006, -105.091885], [39.72877700000004, -105.092051], [39.729023999999995, -105.092049], [39.72926500000002, -105.092048], [39.72929799999999, -105.092048], [39.72936799999996, -105.092043], [39.729477999999986, -105.092042], [39.732390000000024, -105.09201], [39.732393, -105.09147], [39.73239399999996, -105.091304], [39.73258900000001, -105.091299], [39.732856000000034, -105.091292], [39.73293400000001, -105.091289], [39.73293099999997, -105.091617], [39.732931000000015, -105.09205900000002], [39.732931000000015, -105.092376], [39.73293099999997, -105.092577], [39.736332000000026, -105.092567], [39.73652200000001, -105.092566], [39.73653800000001, -105.090773], [39.73665200000004, -105.090772], [39.737208, -105.090768], [39.73842, -105.09075900000002], [39.740197, -105.090758], [39.740261000000025, -105.090758], [39.74030900000003, -105.090758], [39.740305, -105.091867], [39.742068999999994, -105.091873], [39.74206799999999, -105.092193], [39.74276699999997, -105.092199], [39.742766000000024, -105.092105], [39.74314800000001, -105.09209], [39.743296000000036, -105.092098], [39.74335799999998, -105.09210600000002], [39.74340800000002, -105.09208], [39.74345099999999, -105.09204], [39.74360099999997, -105.09204], [39.74360399999999, -105.091931], [39.743605999999986, -105.091861], [39.74360399999999, -105.091366], [39.74388199999998, -105.091364], [39.74472400000002, -105.091363], [39.7448, -105.09137700000001], [39.74706600000003, -105.091349], [39.74707300000003, -105.09078], [39.74728300000001, -105.090783], [39.74752599999998, -105.090786], [39.74761400000001, -105.090785], [39.747605000000014, -105.091365], [39.75115099999998, -105.091379], [39.75115000000002, -105.090792], [39.75205000000004, -105.090808], [39.752176, -105.09081400000001], [39.752975000000006, -105.090776], [39.75345800000003, -105.090783], [39.75479500000001, -105.090798], [39.754798, -105.089331], [39.754799000000006, -105.088381], [39.754802000000055, -105.086111], [39.754811999999966, -105.08484], [39.75480500000005, -105.083425], [39.75480500000001, -105.083108], [39.75480299999998, -105.081406], [39.75481400000004, -105.07958], [39.75482000000002, -105.078496], [39.75482599999998, -105.078004], [39.754819000000005, -105.07751], [39.754821000000035, -105.076706], [39.754827000000034, -105.075691], [39.754839000000004, -105.075263], [39.75484299999998, -105.073135], [39.75479599999999, -105.07201], [39.754864999999995, -105.07201], [39.754960999999994, -105.072011], [39.754965, -105.07257100000001], [39.758083000000006, -105.072598], [39.758065999999985, -105.072021], [39.75812100000001, -105.072021], [39.758454, -105.07202], [39.75868199999999, -105.072021], [39.760003, -105.072031], [39.76094499999997, -105.072028], [39.76136299999995, -105.072034], [39.76148899999998, -105.072036], [39.76208199999998, -105.072044], [39.76207900000004, -105.070866], [39.76208600000005, -105.070262], [39.76208800000002, -105.070127], [39.76209200000002, -105.069223], [39.76208600000001, -105.06883], [39.76209899999998, -105.06806], [39.76208600000005, -105.067305], [39.762093000000014, -105.067121], [39.76209699999994, -105.06616100000001], [39.76209699999994, -105.066093], [39.76209799999998, -105.06503300000001], [39.76209799999998, -105.064977], [39.76208999999998, -105.06394], [39.76208900000001, -105.063777], [39.76209300000003, -105.062645], [39.76208699999996, -105.062553], [39.76208999999995, -105.061477], [39.76209099999999, -105.060274], [39.76209100000001, -105.06018100000001], [39.76209500000003, -105.059004], [39.762083999999994, -105.057948], [39.76208299999998, -105.057881], [39.76209200000002, -105.056792], [39.762093000000014, -105.056694], [39.76209300000001, -105.055657], [39.76208999999995, -105.055581], [39.76208699999996, -105.05514700000002], [39.76209100000001, -105.054485], [39.76209100000001, -105.054392], [39.76208999999995, -105.053943], [39.762084037383204, -105.05324835373492], [39.73492191359461, -105.05325055820765], [39.73491299999994, -105.055572]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_556598b71967c8841ba4a5132b124cb2);
+        
+    
+        var popup_8689d4254cf3a2a85a7af7ee5939027f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a8afe99982536afc5c1cd0ea5bc3258a = $(`<div id="html_a8afe99982536afc5c1cd0ea5bc3258a" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Colorado-CD07</b></div>`)[0];
+                popup_8689d4254cf3a2a85a7af7ee5939027f.setContent(html_a8afe99982536afc5c1cd0ea5bc3258a);
+            
+        
+
+        polygon_20b8df03853c77a099d58a592fbb59c5.bindPopup(popup_8689d4254cf3a2a85a7af7ee5939027f)
+        ;
+
+        
+    
+    
+            var circle_marker_541ebcf69bd0bd3c444c415edf16cbb8 = L.circleMarker(
+                [39.74024722220619, -105.07422452464249],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_556598b71967c8841ba4a5132b124cb2);
+        
+    
+        var popup_d8bcc2af60453cd0bc42273815cac03b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d8ff628398c6be41433afbd000a4e16 = $(`<div id="html_2d8ff628398c6be41433afbd000a4e16" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Colorado-CD07</b></div>`)[0];
+                popup_d8bcc2af60453cd0bc42273815cac03b.setContent(html_2d8ff628398c6be41433afbd000a4e16);
+            
+        
+
+        circle_marker_541ebcf69bd0bd3c444c415edf16cbb8.bindPopup(popup_d8bcc2af60453cd0bc42273815cac03b)
+        ;
+
+        
+    
+    
+            circle_marker_541ebcf69bd0bd3c444c415edf16cbb8.bindTooltip(
+                `<div>
+                     Jefferson - Colorado-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_5f6d5bc09c99ba040335fdfdb1530ad2 = L.polygon(
+                [[39.72534699999996, -105.056515], [39.72533399999998, -105.056206], [39.725309, -105.055953], [39.725262, -105.055828], [39.725188, -105.055752], [39.72510399999997, -105.055715], [39.725030000000004, -105.055715], [39.724722, -105.055714], [39.724480999999955, -105.055714], [39.72448000000004, -105.055835], [39.72447899999998, -105.056786], [39.72521600000001, -105.056802], [39.72535599999998, -105.056748], [39.72534699999996, -105.056515]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_556598b71967c8841ba4a5132b124cb2);
+        
+    
+        var popup_1883f09faab59bc363432288cdcc6c0d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_62f77d4b44d2da0ad25bcd68c2b9e2c9 = $(`<div id="html_62f77d4b44d2da0ad25bcd68c2b9e2c9" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Colorado-CD07</b></div>`)[0];
+                popup_1883f09faab59bc363432288cdcc6c0d.setContent(html_62f77d4b44d2da0ad25bcd68c2b9e2c9);
+            
+        
+
+        polygon_5f6d5bc09c99ba040335fdfdb1530ad2.bindPopup(popup_1883f09faab59bc363432288cdcc6c0d)
+        ;
+
+        
+    
+    
+            var circle_marker_cc530b108746fd622df420384eeb4e79 = L.circleMarker(
+                [39.72504678571427, -105.05612842857144],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_556598b71967c8841ba4a5132b124cb2);
+        
+    
+        var popup_bbf105ced69cd1ddc6bc413eadc455c7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d4afdcba672ecba71bc45ef9779eff1 = $(`<div id="html_2d4afdcba672ecba71bc45ef9779eff1" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Colorado-CD07</b></div>`)[0];
+                popup_bbf105ced69cd1ddc6bc413eadc455c7.setContent(html_2d4afdcba672ecba71bc45ef9779eff1);
+            
+        
+
+        circle_marker_cc530b108746fd622df420384eeb4e79.bindPopup(popup_bbf105ced69cd1ddc6bc413eadc455c7)
+        ;
+
+        
+    
+    
+            circle_marker_cc530b108746fd622df420384eeb4e79.bindTooltip(
+                `<div>
+                     Jefferson - Colorado-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4b531add9351d6d2105a1f483a7931d5 = L.polygon(
+                [[39.725339, -105.084627], [39.72532599999999, -105.084642], [39.72496300000001, -105.085275], [39.724809000000015, -105.085616], [39.724754000000026, -105.085794], [39.724666000000035, -105.086278], [39.724666000000035, -105.086584], [39.724819999999994, -105.086918], [39.72485300000001, -105.08706], [39.72483099999999, -105.087409], [39.72473699999997, -105.087807], [39.72474799999998, -105.087928], [39.72502300000002, -105.088889], [39.72501099999997, -105.089386], [39.72495099999996, -105.089948], [39.724962000000005, -105.090396], [39.725003999999984, -105.090884], [39.72531399999998, -105.090872], [39.725358999999976, -105.085247], [39.725339, -105.084627]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_556598b71967c8841ba4a5132b124cb2);
+        
+    
+        var popup_57e1bcf2068e01ad3dcf1af0177f4ba4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90e7ef17a7cfdf2eeac11ec1ca38871b = $(`<div id="html_90e7ef17a7cfdf2eeac11ec1ca38871b" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Colorado-CD07</b></div>`)[0];
+                popup_57e1bcf2068e01ad3dcf1af0177f4ba4.setContent(html_90e7ef17a7cfdf2eeac11ec1ca38871b);
+            
+        
+
+        polygon_4b531add9351d6d2105a1f483a7931d5.bindPopup(popup_57e1bcf2068e01ad3dcf1af0177f4ba4)
+        ;
+
+        
+    
+    
+            var circle_marker_dd9cec7811784243d1f46c1b332305b1 = L.circleMarker(
+                [39.724973750000004, -105.08730935000001],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_556598b71967c8841ba4a5132b124cb2);
+        
+    
+        var popup_0b4ee493b7fab7de6102561c1ed58473 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9368929f674ecc68f841b6f457dd085b = $(`<div id="html_9368929f674ecc68f841b6f457dd085b" style="width: 100.0%; height: 100.0%;"><b>Jefferson - Colorado-CD07</b></div>`)[0];
+                popup_0b4ee493b7fab7de6102561c1ed58473.setContent(html_9368929f674ecc68f841b6f457dd085b);
+            
+        
+
+        circle_marker_dd9cec7811784243d1f46c1b332305b1.bindPopup(popup_0b4ee493b7fab7de6102561c1ed58473)
+        ;
+
+        
+    
+    
+            circle_marker_dd9cec7811784243d1f46c1b332305b1.bindTooltip(
+                `<div>
+                     Jefferson - Colorado-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_35f141decda1f3047f177e03d60160f8 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   El Paso - Colorado-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   El Paso - Colorado-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   El Paso - Colorado-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   El Paso - Colorado-CD05</p>
+            </div>
+    
+            <div class="folium-map" id="map_35f141decda1f3047f177e03d60160f8" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_35f141decda1f3047f177e03d60160f8 = L.map(
+                "map_35f141decda1f3047f177e03d60160f8",
+                {
+                    center: [38.88043232653062, -104.67886540816328],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f8912f8ed78ace8dc82743bfc5dcca2 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_4f8912f8ed78ace8dc82743bfc5dcca2.addTo(map_35f141decda1f3047f177e03d60160f8);
+        
+    
+            var polygon_a816629396ad0df51a279a288797d58e = L.polygon(
+                [[38.876726, -104.677665], [38.876726, -104.677525], [38.876735, -104.676251], [38.876739000000015, -104.675819], [38.87673199999999, -104.675648], [38.876744000000016, -104.675574], [38.87675200000001, -104.673488], [38.86887800000002, -104.673458], [38.86851699999996, -104.673459], [38.86822599999999, -104.673425], [38.868116000000015, -104.673403], [38.868113999999956, -104.673847], [38.86811199999996, -104.674481], [38.86811199999999, -104.674543], [38.86812299999996, -104.675393], [38.86812699999999, -104.675754], [38.86813300000002, -104.676209], [38.86813099999999, -104.676541], [38.868127, -104.677815], [38.86812599999998, -104.677898], [38.86918400000002, -104.677997], [38.86989999999997, -104.678404], [38.87075599999997, -104.679147], [38.87123900000001, -104.679773], [38.87156299999999, -104.679782], [38.871562, -104.680057], [38.873151999999976, -104.680028], [38.87506399999999, -104.680043], [38.876725000000015, -104.680061], [38.87672699999999, -104.67936300000001], [38.876726, -104.677665]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_35f141decda1f3047f177e03d60160f8);
+        
+    
+        var popup_2fab9169f86010df83b812b7e0f13dae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_299022e50ed1253bec5d18782ea76efa = $(`<div id="html_299022e50ed1253bec5d18782ea76efa" style="width: 100.0%; height: 100.0%;"><b>El Paso - Colorado-CD05</b></div>`)[0];
+                popup_2fab9169f86010df83b812b7e0f13dae.setContent(html_299022e50ed1253bec5d18782ea76efa);
+            
+        
+
+        polygon_a816629396ad0df51a279a288797d58e.bindPopup(popup_2fab9169f86010df83b812b7e0f13dae)
+        ;
+
+        
+    
+    
+            var circle_marker_142b8bf305239979a14f7c0c142fa9a7 = L.circleMarker(
+                [38.87182561290323, -104.67679083870968],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_35f141decda1f3047f177e03d60160f8);
+        
+    
+        var popup_fcbe0f9af2dffe03bc1744fc653a9dc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_113ad33920a772989fe50e3a24256037 = $(`<div id="html_113ad33920a772989fe50e3a24256037" style="width: 100.0%; height: 100.0%;"><b>El Paso - Colorado-CD05</b></div>`)[0];
+                popup_fcbe0f9af2dffe03bc1744fc653a9dc1.setContent(html_113ad33920a772989fe50e3a24256037);
+            
+        
+
+        circle_marker_142b8bf305239979a14f7c0c142fa9a7.bindPopup(popup_fcbe0f9af2dffe03bc1744fc653a9dc1)
+        ;
+
+        
+    
+    
+            circle_marker_142b8bf305239979a14f7c0c142fa9a7.bindTooltip(
+                `<div>
+                     El Paso - Colorado-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_ab6052af499938bd42860eb7780f790e = L.polygon(
+                [[38.88527799999997, -104.682572], [38.885147999999965, -104.68257100000001], [38.88504500000003, -104.68257], [38.884811999999954, -104.682605], [38.884722999999994, -104.682602], [38.88455100000003, -104.682597], [38.883958999999976, -104.682577], [38.88403900000005, -104.68252400000002], [38.88434300000003, -104.682315], [38.884530000000005, -104.682168], [38.884636000000015, -104.682078], [38.88474199999998, -104.681983], [38.88486699999997, -104.681864], [38.88504999999998, -104.681675], [38.88517999999998, -104.68152900000001], [38.885307000000026, -104.681377], [38.88542900000004, -104.681219], [38.885546, -104.681056], [38.88565899999999, -104.680887], [38.88576800000002, -104.680714], [38.88583799999995, -104.680595], [38.88592200000001, -104.680446], [38.88601800000001, -104.680261], [38.88610899999999, -104.680072], [38.88619500000003, -104.67987900000001], [38.886275999999995, -104.679683], [38.886351000000005, -104.679483], [38.886420999999984, -104.67928], [38.88648499999998, -104.679073], [38.88654300000001, -104.678864], [38.886596000000004, -104.678653], [38.886643, -104.678439], [38.88668400000004, -104.678224], [38.886719000000014, -104.678006], [38.88674899999999, -104.677787], [38.88677200000004, -104.677568], [38.88678899999999, -104.677347], [38.8868, -104.677125], [38.88680500000003, -104.676903], [38.88680400000001, -104.676681], [38.88679299999999, -104.676382], [38.88673499999998, -104.675391], [38.88662699999997, -104.67351200000002], [38.88279299999996, -104.673507], [38.882764999999964, -104.677709], [38.88271600000001, -104.677748], [38.882431, -104.677752], [38.882362999999984, -104.677753], [38.88186699999998, -104.677747], [38.881575999999946, -104.67775], [38.88129200000006, -104.677753], [38.88081099999999, -104.677752], [38.880551, -104.677744], [38.880173000000006, -104.67774], [38.87996700000006, -104.677734], [38.87988899999997, -104.67771300000001], [38.87975599999999, -104.677712], [38.87976400000002, -104.680451], [38.879772, -104.682716], [38.88035499999997, -104.68272], [38.88127199999997, -104.682732], [38.88304599999998, -104.682751], [38.88391900000003, -104.682785], [38.88458999999998, -104.6828], [38.88527000000002, -104.682808], [38.88527199999998, -104.682708], [38.88527799999997, -104.682572]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_35f141decda1f3047f177e03d60160f8);
+        
+    
+        var popup_44d903b6882c867859ffc049e8a290de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b2c9367c9aa088f8a2dc24e3f554910b = $(`<div id="html_b2c9367c9aa088f8a2dc24e3f554910b" style="width: 100.0%; height: 100.0%;"><b>El Paso - Colorado-CD05</b></div>`)[0];
+                popup_44d903b6882c867859ffc049e8a290de.setContent(html_b2c9367c9aa088f8a2dc24e3f554910b);
+            
+        
+
+        polygon_ab6052af499938bd42860eb7780f790e.bindPopup(popup_44d903b6882c867859ffc049e8a290de)
+        ;
+
+        
+    
+    
+            var circle_marker_f6dd92135ea7dbce3303130ba39b2c04 = L.circleMarker(
+                [38.88441453731343, -104.67982528358208],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_35f141decda1f3047f177e03d60160f8);
+        
+    
+        var popup_bf33a2321f0a4ec915ebe692a530064b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a18eded45cb286e647e1f8fe1303643a = $(`<div id="html_a18eded45cb286e647e1f8fe1303643a" style="width: 100.0%; height: 100.0%;"><b>El Paso - Colorado-CD05</b></div>`)[0];
+                popup_bf33a2321f0a4ec915ebe692a530064b.setContent(html_a18eded45cb286e647e1f8fe1303643a);
+            
+        
+
+        circle_marker_f6dd92135ea7dbce3303130ba39b2c04.bindPopup(popup_bf33a2321f0a4ec915ebe692a530064b)
+        ;
+
+        
+    
+    
+            circle_marker_f6dd92135ea7dbce3303130ba39b2c04.bindTooltip(
+                `<div>
+                     El Paso - Colorado-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

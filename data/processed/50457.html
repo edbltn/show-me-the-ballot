@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_58a41512b617d1f67a8e33f754c02550 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hancock - Iowa-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hancock - Iowa-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Iowa-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hancock - Iowa-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hancock - Iowa-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Iowa-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hancock - Iowa-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Hancock - Iowa-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Franklin - Iowa-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_58a41512b617d1f67a8e33f754c02550" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_58a41512b617d1f67a8e33f754c02550 = L.map(
+                "map_58a41512b617d1f67a8e33f754c02550",
+                {
+                    center: [42.91626254210337, -93.50227318695809],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_db6bda3c291a9f54c4a0b979420284f1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_db6bda3c291a9f54c4a0b979420284f1.addTo(map_58a41512b617d1f67a8e33f754c02550);
+        
+    
+            var polygon_5f005108b373acd10fb6a37e93c15d7a = L.polygon(
+                [[42.978428999999984, -93.498046], [42.97799599999993, -93.498056], [42.97792000000001, -93.498055], [42.97708500000001, -93.498046], [42.97542700000001, -93.49807], [42.97372600000003, -93.498109], [42.97179999999997, -93.498134], [42.970106000000044, -93.498129], [42.96922700000001, -93.498134], [42.968416000000055, -93.498139], [42.96662199999998, -93.498124], [42.966329999999964, -93.498129], [42.964570999999985, -93.498158], [42.96343600000003, -93.498152], [42.962808999999964, -93.498149], [42.962791, -93.498154], [42.960994000000014, -93.498168], [42.95717400000002, -93.498183], [42.95475399999999, -93.49820400000002], [42.95383300000002, -93.498212], [42.95185999999999, -93.498205], [42.95161000000002, -93.498203], [42.94896700000001, -93.498214], [42.948400999999976, -93.498217], [42.944623999999955, -93.498232], [42.94029000000003, -93.498268], [42.93879599999998, -93.498281], [42.93739800000001, -93.498276], [42.93684100000001, -93.498276], [42.93500100000002, -93.498325], [42.931156000000065, -93.498378], [42.929440000000014, -93.498412], [42.925949, -93.498461], [42.923691, -93.498485], [42.92318700000002, -93.498476], [42.92296399999995, -93.498486], [42.90851200000002, -93.498617], [42.98081759450852, -93.49841312192756], [42.98081700000001, -93.498356], [42.980818, -93.497989], [42.97891499999998, -93.498027], [42.978428999999984, -93.498046]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_58a41512b617d1f67a8e33f754c02550);
+        
+    
+        var popup_8b3e8a8da3c1ae39c72459eaf7910bd6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa3f8c5ae2ad1e2524187ab0b758841b = $(`<div id="html_fa3f8c5ae2ad1e2524187ab0b758841b" style="width: 100.0%; height: 100.0%;"><b>Hancock - Iowa-CD02</b></div>`)[0];
+                popup_8b3e8a8da3c1ae39c72459eaf7910bd6.setContent(html_fa3f8c5ae2ad1e2524187ab0b758841b);
+            
+        
+
+        polygon_5f005108b373acd10fb6a37e93c15d7a.bindPopup(popup_8b3e8a8da3c1ae39c72459eaf7910bd6)
+        ;
+
+        
+    
+    
+            var circle_marker_138319b8bb5b7646acd7605f4be46e44 = L.circleMarker(
+                [42.95599832367878, -93.49821890766495],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_58a41512b617d1f67a8e33f754c02550);
+        
+    
+        var popup_6133211f5167ea6b9f5565bb3b6f5781 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb3689e84d33fffad639a6d543b9266a = $(`<div id="html_eb3689e84d33fffad639a6d543b9266a" style="width: 100.0%; height: 100.0%;"><b>Hancock - Iowa-CD02</b></div>`)[0];
+                popup_6133211f5167ea6b9f5565bb3b6f5781.setContent(html_eb3689e84d33fffad639a6d543b9266a);
+            
+        
+
+        circle_marker_138319b8bb5b7646acd7605f4be46e44.bindPopup(popup_6133211f5167ea6b9f5565bb3b6f5781)
+        ;
+
+        
+    
+    
+            circle_marker_138319b8bb5b7646acd7605f4be46e44.bindTooltip(
+                `<div>
+                     Hancock - Iowa-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9174d058701995ca0cb3681681594726 = L.polygon(
+                [[42.90851600000001, -93.498836], [42.90851200000002, -93.500027], [42.908514, -93.502575], [42.90851600000001, -93.50413500000002], [42.908542, -93.508505], [42.90854900000005, -93.511972], [42.90854000000004, -93.51445], [42.908529999999985, -93.51729], [42.908536999999974, -93.518409], [42.90854600000005, -93.519971], [42.90855100000005, -93.520605], [42.90858600000002, -93.524659], [42.908590000000004, -93.525029], [42.908598000000005, -93.526222], [42.90859899999996, -93.526447], [42.908602999999964, -93.527124], [42.908605000000016, -93.52735], [42.908609, -93.52803], [42.90861099999996, -93.528323], [42.90861699999996, -93.529186], [42.90861699999996, -93.530071], [42.90861699999996, -93.53074], [42.908619000000016, -93.532227], [42.90861999999995, -93.53252], [42.90860799999997, -93.536655], [42.908607999999944, -93.537007], [42.908612000000026, -93.538131], [42.90862100000001, -93.541369], [42.90862999999997, -93.544596], [42.908658999999965, -93.551086], [42.908674000000005, -93.554325], [42.90867700000003, -93.555043], [42.90868599999997, -93.557197], [42.908690000000036, -93.557916], [42.90993200000003, -93.557912], [42.91024300000001, -93.557918], [42.91158900000002, -93.557927], [42.912026, -93.55793], [42.91948700000001, -93.557878], [42.920286000000026, -93.55787], [42.92132399999998, -93.55786100000002], [42.923186000000015, -93.557835], [42.924529000000014, -93.557817], [42.924750999999986, -93.557815], [42.92644500000001, -93.55777300000001], [42.928557000000005, -93.557744], [42.929901, -93.55772600000002], [42.930108, -93.557723], [42.93042699999998, -93.557716], [42.93144999999999, -93.557694], [42.93402799999997, -93.557639], [42.93598299999998, -93.557607], [42.93609699999998, -93.557607], [42.93665099999998, -93.557607], [42.93764699999994, -93.557585], [42.93766200000001, -93.55660000000002], [42.93765400000003, -93.555588], [42.937642, -93.553955], [42.93762500000001, -93.55107], [42.937612000000065, -93.549596], [42.93759799999998, -93.547987], [42.937595999999964, -93.547863], [42.94475499999998, -93.547747], [42.94470299999998, -93.537866], [42.94465500000004, -93.527973], [42.951895999999984, -93.527847], [42.95910000000001, -93.52773], [42.95910099999994, -93.517876], [42.95930700000002, -93.51787000000002], [42.959514, -93.517875], [42.959609, -93.517874], [42.960959999999986, -93.517861], [42.96389599999997, -93.51783300000001], [42.965015999999984, -93.517828], [42.966367999999996, -93.51782300000002], [42.96926400000002, -93.517802], [42.970946, -93.517791], [42.972736, -93.517762], [42.97795099999997, -93.517722], [42.97954699999995, -93.517711], [42.980847999999995, -93.51770400000001], [42.98084600000005, -93.516747], [42.980849000000006, -93.51376], [42.98085, -93.513511], [42.980839999999965, -93.510878], [42.980850999999994, -93.507481], [42.980839999999965, -93.501931], [42.98084, -93.501747], [42.98082599999997, -93.499221], [42.98081759450852, -93.49841312192756], [42.90851200000002, -93.498617], [42.90851600000001, -93.498836]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_58a41512b617d1f67a8e33f754c02550);
+        
+    
+        var popup_dc9d9b573f073e61b98b225beebb667f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_83ccc84570da68e75e64f92e9000b10c = $(`<div id="html_83ccc84570da68e75e64f92e9000b10c" style="width: 100.0%; height: 100.0%;"><b>Hancock - Iowa-CD04</b></div>`)[0];
+                popup_dc9d9b573f073e61b98b225beebb667f.setContent(html_83ccc84570da68e75e64f92e9000b10c);
+            
+        
+
+        polygon_9174d058701995ca0cb3681681594726.bindPopup(popup_dc9d9b573f073e61b98b225beebb667f)
+        ;
+
+        
+    
+    
+            var circle_marker_5c6cd2b7e3aa18f337119f97577bb427 = L.circleMarker(
+                [42.932880484722915, -93.53275552306444],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_58a41512b617d1f67a8e33f754c02550);
+        
+    
+        var popup_56beb134c10a6aead22e21234b344f22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88b6e4465ab9ecbabda243073a9d6f8f = $(`<div id="html_88b6e4465ab9ecbabda243073a9d6f8f" style="width: 100.0%; height: 100.0%;"><b>Hancock - Iowa-CD04</b></div>`)[0];
+                popup_56beb134c10a6aead22e21234b344f22.setContent(html_88b6e4465ab9ecbabda243073a9d6f8f);
+            
+        
+
+        circle_marker_5c6cd2b7e3aa18f337119f97577bb427.bindPopup(popup_56beb134c10a6aead22e21234b344f22)
+        ;
+
+        
+    
+    
+            circle_marker_5c6cd2b7e3aa18f337119f97577bb427.bindTooltip(
+                `<div>
+                     Hancock - Iowa-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_267ba5a43817eeb70b2cd4623bcb12ec = L.polygon(
+                [[42.855774, -93.498621], [42.855944999999984, -93.498621], [42.85611900000003, -93.498622], [42.857254999999995, -93.498616], [42.86317799999998, -93.49863800000001], [42.86384500000001, -93.49862], [42.86855099999996, -93.498611], [42.86871000000001, -93.498611], [42.87092799999998, -93.498667], [42.871126, -93.498662], [42.87207999999996, -93.49863800000001], [42.87386999999999, -93.498625], [42.87427299999997, -93.498632], [42.87499900000002, -93.498613], [42.87607899999994, -93.498603], [42.87613200000002, -93.498602], [42.87744100000002, -93.498632], [42.87768300000004, -93.498632], [42.88280200000005, -93.498632], [42.89198200000002, -93.498633], [42.89217200000001, -93.498629], [42.893433999999985, -93.498608], [42.89491799999998, -93.498596], [42.89932400000003, -93.498594], [42.89961500000002, -93.498597], [42.900968000000034, -93.498612], [42.901058999999975, -93.498611], [42.90213, -93.498604], [42.90317500000001, -93.498612], [42.90340700000004, -93.498614], [42.90497500000002, -93.498613], [42.90632399999994, -93.498622], [42.90820400000006, -93.498608], [42.908496000000014, -93.498617], [42.90851200000002, -93.498617], [42.908492000000024, -93.496489], [42.90847300000001, -93.494294], [42.90846500000001, -93.492419], [42.908459999999955, -93.49145], [42.90845700000002, -93.490571], [42.908454, -93.489496], [42.90844899999999, -93.48853900000002], [42.90844700000002, -93.488266], [42.90844600000001, -93.488031], [42.90844000000002, -93.487011], [42.908423000000006, -93.48407600000002], [42.90843099999998, -93.482112], [42.90840699999995, -93.479843], [42.908398000000005, -93.478992], [42.908408000000016, -93.478213], [42.90840500000001, -93.477522], [42.90840199999997, -93.476838], [42.90840099999999, -93.476818], [42.90839500000001, -93.475435], [42.90840199999997, -93.473949], [42.90840500000002, -93.473183], [42.908396999999965, -93.472328], [42.908379999999994, -93.47029600000002], [42.90839499999998, -93.465365], [42.90838399999998, -93.463677], [42.90837299999996, -93.461753], [42.90837200000001, -93.458538], [42.90836499999998, -93.458197], [42.90835000000002, -93.455439], [42.908348000000004, -93.454104], [42.90834599999995, -93.452651], [42.90833900000001, -93.4508], [42.90833099999998, -93.447025], [42.90832700000004, -93.446456], [42.90829599999998, -93.442569], [42.90830800000003, -93.439159], [42.908304000000044, -93.438913], [42.90684900000001, -93.438942], [42.904870000000024, -93.438989], [42.894369000000005, -93.43919600000001], [42.89220899999996, -93.439232], [42.89221400000005, -93.441621], [42.892169999999965, -93.44902500000002], [42.89226899999997, -93.458599], [42.892268999999985, -93.458961], [42.8849, -93.458969], [42.878920000000015, -93.459024], [42.877722999999975, -93.459005], [42.876198000000045, -93.458974], [42.875001, -93.458958], [42.87385699999995, -93.45890500000002], [42.872162, -93.45888], [42.86400700000003, -93.458733], [42.86319099999999, -93.458736], [42.86174700000001, -93.458738], [42.86061399999996, -93.458755], [42.85801999999996, -93.45871], [42.85591399999998, -93.458705], [42.85263199999997, -93.458683], [42.84964599999998, -93.45864], [42.84864400000006, -93.458644], [42.848641000000036, -93.4594], [42.84872599999999, -93.46818100000002], [42.848727999999994, -93.470137], [42.848704, -93.47242], [42.84869399999995, -93.478159], [42.848696000000004, -93.478484], [42.84867699999998, -93.495914], [42.848667, -93.497008], [42.84867699999998, -93.497719], [42.848687999999996, -93.498619], [42.849374, -93.498621], [42.855774, -93.498621]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_58a41512b617d1f67a8e33f754c02550);
+        
+    
+        var popup_205d28822a039236da1f1e3cd5553dd8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34248098b2ba3dd08147d067530d9aa5 = $(`<div id="html_34248098b2ba3dd08147d067530d9aa5" style="width: 100.0%; height: 100.0%;"><b>Franklin - Iowa-CD04</b></div>`)[0];
+                popup_205d28822a039236da1f1e3cd5553dd8.setContent(html_34248098b2ba3dd08147d067530d9aa5);
+            
+        
+
+        polygon_267ba5a43817eeb70b2cd4623bcb12ec.bindPopup(popup_205d28822a039236da1f1e3cd5553dd8)
+        ;
+
+        
+    
+    
+            var circle_marker_eafdfe8ec2b6606c4d98c0c871ea4e9b = L.circleMarker(
+                [42.88665371296297, -93.47788341666667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_58a41512b617d1f67a8e33f754c02550);
+        
+    
+        var popup_68ebb76242f1ce4d2988afd6e06ee4c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92b8d3131ea3d97e7860823a9a6ee8ec = $(`<div id="html_92b8d3131ea3d97e7860823a9a6ee8ec" style="width: 100.0%; height: 100.0%;"><b>Franklin - Iowa-CD04</b></div>`)[0];
+                popup_68ebb76242f1ce4d2988afd6e06ee4c0.setContent(html_92b8d3131ea3d97e7860823a9a6ee8ec);
+            
+        
+
+        circle_marker_eafdfe8ec2b6606c4d98c0c871ea4e9b.bindPopup(popup_68ebb76242f1ce4d2988afd6e06ee4c0)
+        ;
+
+        
+    
+    
+            circle_marker_eafdfe8ec2b6606c4d98c0c871ea4e9b.bindTooltip(
+                `<div>
+                     Franklin - Iowa-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

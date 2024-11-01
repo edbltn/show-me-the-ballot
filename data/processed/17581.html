@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_aab4f90d597db7aa02c3025657eb638b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lancaster - Pennsylvania-CD11</p>
+            </div>
+    
+            <div class="folium-map" id="map_aab4f90d597db7aa02c3025657eb638b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_aab4f90d597db7aa02c3025657eb638b = L.map(
+                "map_aab4f90d597db7aa02c3025657eb638b",
+                {
+                    center: [40.15624681465518, -76.0520356336207],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b9ab27257e3d089860b06c9fb106c34e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_b9ab27257e3d089860b06c9fb106c34e.addTo(map_aab4f90d597db7aa02c3025657eb638b);
+        
+    
+            var polygon_28f20e3e312c9686a4725e5df16221a2 = L.polygon(
+                [[40.15608100000001, -76.040412], [40.156087000000014, -76.04016200000001], [40.15608199999998, -76.039919], [40.156072, -76.039736], [40.15606100000003, -76.039608], [40.15594799999998, -76.038791], [40.15585200000001, -76.038064], [40.155798999999966, -76.03772500000001], [40.155759000000025, -76.037536], [40.15572999999999, -76.037426], [40.15565500000003, -76.037203], [40.15560200000003, -76.037075], [40.15549500000003, -76.036881], [40.155384000000026, -76.03669100000002], [40.15531, -76.036546], [40.15509100000004, -76.036047], [40.154886999999995, -76.03554400000002], [40.154771, -76.035271], [40.15470499999997, -76.035141], [40.15463299999998, -76.035017], [40.15457499999997, -76.034944], [40.154477999999926, -76.034846], [40.15431600000003, -76.034714], [40.15416499999995, -76.0346], [40.15404899999995, -76.034481], [40.153954000000006, -76.034362], [40.153883000000015, -76.034242], [40.15385100000001, -76.034171], [40.15377900000001, -76.033983], [40.15361500000002, -76.033504], [40.15344900000003, -76.03300100000001], [40.15335800000002, -76.03278100000001], [40.15319599999996, -76.032456], [40.153137000000015, -76.032318], [40.15302799999999, -76.031991], [40.152921999999954, -76.031643], [40.152832, -76.031413], [40.15262399999997, -76.030953], [40.152527000000006, -76.030766], [40.152409999999975, -76.030579], [40.15218399999999, -76.03026000000001], [40.151613999999974, -76.02953], [40.15126800000002, -76.029097], [40.15104200000001, -76.028814], [40.150859000000004, -76.028576], [40.15072600000001, -76.028418], [40.15046799999992, -76.02812400000002], [40.15043399999997, -76.02807800000001], [40.14986600000001, -76.028719], [40.14964100000003, -76.02896500000001], [40.149759999999965, -76.029165], [40.149614999999976, -76.029491], [40.149555999999976, -76.029623], [40.14989600000002, -76.030051], [40.148187000000014, -76.031472], [40.14829199999999, -76.032013], [40.14876099999999, -76.033947], [40.151913999999984, -76.032592], [40.152665999999996, -76.032067], [40.15328499999998, -76.034458], [40.15348499999998, -76.034629], [40.15362599999997, -76.03573700000001], [40.153877, -76.037758], [40.154203999999964, -76.037539], [40.15448500000002, -76.039775], [40.154909999999965, -76.039644], [40.15535299999997, -76.039492], [40.15531600000006, -76.041346], [40.15534600000004, -76.041498], [40.156017000000006, -76.041432], [40.15605999999999, -76.040817], [40.15608100000001, -76.040412]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_aab4f90d597db7aa02c3025657eb638b);
+        
+    
+        var popup_5f58d28b4647cd0ba6407e656e958c56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a2d65e0086153c9ae6397c0531768d8 = $(`<div id="html_2a2d65e0086153c9ae6397c0531768d8" style="width: 100.0%; height: 100.0%;"><b>Lancaster - Pennsylvania-CD11</b></div>`)[0];
+                popup_5f58d28b4647cd0ba6407e656e958c56.setContent(html_2a2d65e0086153c9ae6397c0531768d8);
+            
+        
+
+        polygon_28f20e3e312c9686a4725e5df16221a2.bindPopup(popup_5f58d28b4647cd0ba6407e656e958c56)
+        ;
+
+        
+    
+    
+            var circle_marker_ec1c4275b1c512fb78d54d7a9f10152f = L.circleMarker(
+                [40.153471472222215, -76.03452891666666],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_aab4f90d597db7aa02c3025657eb638b);
+        
+    
+        var popup_69b285c45866c005c9d2f41bbb4d43b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b557ec7eb67e202981a72285cf2f31f9 = $(`<div id="html_b557ec7eb67e202981a72285cf2f31f9" style="width: 100.0%; height: 100.0%;"><b>Lancaster - Pennsylvania-CD11</b></div>`)[0];
+                popup_69b285c45866c005c9d2f41bbb4d43b2.setContent(html_b557ec7eb67e202981a72285cf2f31f9);
+            
+        
+
+        circle_marker_ec1c4275b1c512fb78d54d7a9f10152f.bindPopup(popup_69b285c45866c005c9d2f41bbb4d43b2)
+        ;
+
+        
+    
+    
+            circle_marker_ec1c4275b1c512fb78d54d7a9f10152f.bindTooltip(
+                `<div>
+                     Lancaster - Pennsylvania-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b16ad0dc8ad2ddf8dcea8cc6be67c3a1 = L.polygon(
+                [[40.15530600000003, -76.05662], [40.155329999999985, -76.05656600000002], [40.15539700000003, -76.05646], [40.15543000000003, -76.056427], [40.15545399999995, -76.056412], [40.15574200000001, -76.056176], [40.156013000000016, -76.055944], [40.15635999999996, -76.055584], [40.156550999999986, -76.055394], [40.156650999999975, -76.055285], [40.156813, -76.05510800000002], [40.15688800000001, -76.055031], [40.156927999999986, -76.054991], [40.157213999999996, -76.054678], [40.157369999999965, -76.054508], [40.15750300000003, -76.054375], [40.15761000000002, -76.054261], [40.15772, -76.054155], [40.157916999999976, -76.054064], [40.157804000000034, -76.053362], [40.15758900000002, -76.052154], [40.15752699999997, -76.051787], [40.15742000000004, -76.051142], [40.15729899999999, -76.050519], [40.157234999999964, -76.050133], [40.15718499999995, -76.049835], [40.157156000000015, -76.049721], [40.157095999999996, -76.049554], [40.156470000000056, -76.04812100000001], [40.15635999999996, -76.048185], [40.15618300000001, -76.048304], [40.156032, -76.048382], [40.155725, -76.048512], [40.15564399999996, -76.048542], [40.15558999999998, -76.048576], [40.15557, -76.04860000000001], [40.155559000000025, -76.04862], [40.15551500000002, -76.048599], [40.155446000000005, -76.048594], [40.15532699999995, -76.048626], [40.15509699999997, -76.048738], [40.155200999999984, -76.049763], [40.15547599999999, -76.052092], [40.15546900000005, -76.052116], [40.155355000000036, -76.052892], [40.155309999999986, -76.053496], [40.15526799999997, -76.054068], [40.15526699999996, -76.054088], [40.15526399999999, -76.05416000000001], [40.15523700000001, -76.055062], [40.155235000000054, -76.055215], [40.15520899999998, -76.055586], [40.15512900000003, -76.056719], [40.155277000000005, -76.05674400000001], [40.15528200000003, -76.05670300000001], [40.15530600000003, -76.05662]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_aab4f90d597db7aa02c3025657eb638b);
+        
+    
+        var popup_d8c630b30dfd808aac464e425261f747 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47ce107c07d57aa14745ddc8deebe330 = $(`<div id="html_47ce107c07d57aa14745ddc8deebe330" style="width: 100.0%; height: 100.0%;"><b>Lancaster - Pennsylvania-CD11</b></div>`)[0];
+                popup_d8c630b30dfd808aac464e425261f747.setContent(html_47ce107c07d57aa14745ddc8deebe330);
+            
+        
+
+        polygon_b16ad0dc8ad2ddf8dcea8cc6be67c3a1.bindPopup(popup_d8c630b30dfd808aac464e425261f747)
+        ;
+
+        
+    
+    
+            var circle_marker_6f49b52e5c6121ea9e033eebc6e35b17 = L.circleMarker(
+                [40.15614841071429, -76.0527851607143],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_aab4f90d597db7aa02c3025657eb638b);
+        
+    
+        var popup_3f3953d9d55097c668c7d382b934441f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7d4bc3875aeba76970bc2147f4137774 = $(`<div id="html_7d4bc3875aeba76970bc2147f4137774" style="width: 100.0%; height: 100.0%;"><b>Lancaster - Pennsylvania-CD11</b></div>`)[0];
+                popup_3f3953d9d55097c668c7d382b934441f.setContent(html_7d4bc3875aeba76970bc2147f4137774);
+            
+        
+
+        circle_marker_6f49b52e5c6121ea9e033eebc6e35b17.bindPopup(popup_3f3953d9d55097c668c7d382b934441f)
+        ;
+
+        
+    
+    
+            circle_marker_6f49b52e5c6121ea9e033eebc6e35b17.bindTooltip(
+                `<div>
+                     Lancaster - Pennsylvania-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_a02849e10a7743636ffb51054e708504 = L.polygon(
+                [[40.16149599999998, -76.069684], [40.161509, -76.069537], [40.16151299999995, -76.06945100000002], [40.161505999999996, -76.069308], [40.161461000000045, -76.068973], [40.16143699999995, -76.068823], [40.16142500000001, -76.068655], [40.16142500000001, -76.068545], [40.16144600000002, -76.06819300000001], [40.16149099999999, -76.067791], [40.16152699999994, -76.067604], [40.16156699999995, -76.067482], [40.16162, -76.067355], [40.16170200000004, -76.067199], [40.161834000000006, -76.066992], [40.161752000000035, -76.066829], [40.16114099999999, -76.065549], [40.16108900000001, -76.065461], [40.16101899999999, -76.065384], [40.16096700000004, -76.06535], [40.160840000000015, -76.06529500000002], [40.16066599999999, -76.065232], [40.16061800000001, -76.06520800000001], [40.16056799999998, -76.065166], [40.160541000000016, -76.065131], [40.16050400000002, -76.065071], [40.16044700000006, -76.064955], [40.160251, -76.064455], [40.16017599999999, -76.064238], [40.16002899999999, -76.063863], [40.15995, -76.063629], [40.15977300000002, -76.06313900000002], [40.15968399999998, -76.062837], [40.159663000000045, -76.062716], [40.159651000000025, -76.062534], [40.15964300000002, -76.062108], [40.15966399999999, -76.061174], [40.15965500000001, -76.061063], [40.15964000000004, -76.060988], [40.15961400000001, -76.060899], [40.15957800000002, -76.060832], [40.15948399999996, -76.060702], [40.15937100000005, -76.060576], [40.1591, -76.06029], [40.15899600000002, -76.06017], [40.158879000000006, -76.060012], [40.15872899999996, -76.059762], [40.158712, -76.059727], [40.158653000000015, -76.059567], [40.15861800000001, -76.059425], [40.158568, -76.059104], [40.15851899999994, -76.058536], [40.15849399999994, -76.058142], [40.158360999999935, -76.058096], [40.15790800000001, -76.057898], [40.15782699999998, -76.057859], [40.157571000000004, -76.05775000000001], [40.15708600000006, -76.057537], [40.156906, -76.05745900000001], [40.15675500000001, -76.057393], [40.15624799999996, -76.057171], [40.155277000000005, -76.05674400000001], [40.15525100000005, -76.057026], [40.15524400000002, -76.057104], [40.155151999999966, -76.05789800000001], [40.155060999999996, -76.058573], [40.154934999999966, -76.059402], [40.154902000000014, -76.059586], [40.154821, -76.059931], [40.154758999999984, -76.06014], [40.154739000000006, -76.060191], [40.15460899999998, -76.06053], [40.15454399999998, -76.06075], [40.15450400000004, -76.060916], [40.15447099999997, -76.061092], [40.154460000000014, -76.061175], [40.154447, -76.061268], [40.154424999999996, -76.061573], [40.15440100000001, -76.06212100000002], [40.15438400000001, -76.062998], [40.154379000000034, -76.063917], [40.154393000000006, -76.064726], [40.15439399999998, -76.065363], [40.154388000000004, -76.065824], [40.15436699999996, -76.06677], [40.15436900000002, -76.067417], [40.154450000000026, -76.067537], [40.15448899999998, -76.067575], [40.15456700000002, -76.067613], [40.154656, -76.067639], [40.154991, -76.067767], [40.155358999999955, -76.067919], [40.15562099999993, -76.06800500000001], [40.15576299999999, -76.068045], [40.155979999999964, -76.068132], [40.15635899999999, -76.068302], [40.15704699999998, -76.06856700000002], [40.159231999999996, -76.06935], [40.15952800000005, -76.069461], [40.16019600000002, -76.069724], [40.16083800000002, -76.069948], [40.16142099999997, -76.070193], [40.16146800000001, -76.069846], [40.16149599999998, -76.069684]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_aab4f90d597db7aa02c3025657eb638b);
+        
+    
+        var popup_800659da560716640dd6e17c06444633 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_915343210619cf06eb3cfce5072632fb = $(`<div id="html_915343210619cf06eb3cfce5072632fb" style="width: 100.0%; height: 100.0%;"><b>Lancaster - Pennsylvania-CD11</b></div>`)[0];
+                popup_800659da560716640dd6e17c06444633.setContent(html_915343210619cf06eb3cfce5072632fb);
+            
+        
+
+        polygon_a02849e10a7743636ffb51054e708504.bindPopup(popup_800659da560716640dd6e17c06444633)
+        ;
+
+        
+    
+    
+            var circle_marker_ba06804aa12ab3f7fbd91205f78060ca = L.circleMarker(
+                [40.15822119230769, -76.06375207692307],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_aab4f90d597db7aa02c3025657eb638b);
+        
+    
+        var popup_20ca64d632e3d090ce3c412ff501617b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb646ca7aa57064d7eaad83bc93d5474 = $(`<div id="html_fb646ca7aa57064d7eaad83bc93d5474" style="width: 100.0%; height: 100.0%;"><b>Lancaster - Pennsylvania-CD11</b></div>`)[0];
+                popup_20ca64d632e3d090ce3c412ff501617b.setContent(html_fb646ca7aa57064d7eaad83bc93d5474);
+            
+        
+
+        circle_marker_ba06804aa12ab3f7fbd91205f78060ca.bindPopup(popup_20ca64d632e3d090ce3c412ff501617b)
+        ;
+
+        
+    
+    
+            circle_marker_ba06804aa12ab3f7fbd91205f78060ca.bindTooltip(
+                `<div>
+                     Lancaster - Pennsylvania-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

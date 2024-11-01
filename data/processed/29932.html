@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_708384471366398ba249dbaf9f426fe0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD12</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Allendale - South Carolina-CD06</p>
+            </div>
+    
+            <div class="folium-map" id="map_708384471366398ba249dbaf9f426fe0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_708384471366398ba249dbaf9f426fe0 = L.map(
+                "map_708384471366398ba249dbaf9f426fe0",
+                {
+                    center: [32.84425577219025, -81.37105106387018],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0a49eec1e4836354f25ecc3f8c5565b6 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_0a49eec1e4836354f25ecc3f8c5565b6.addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+            var polygon_2bcc8b013dfd347490adf252cb929cd8 = L.polygon(
+                [[32.74864899999999, -81.413876], [32.74831699999997, -81.415059], [32.74794799999999, -81.416575], [32.747826000000025, -81.417871], [32.74799099999998, -81.418603], [32.748591999999995, -81.41935], [32.749167000000035, -81.419698], [32.749796999999994, -81.419837], [32.750165999999986, -81.41974], [32.75148800000001, -81.419097], [32.75218900000001, -81.418485], [32.75264500000003, -81.41762], [32.75327599999996, -81.416733], [32.753191, -81.415754], [32.75285823166324, -81.4138577707266], [32.74872191852367, -81.41350123649266], [32.74864899999999, -81.413876]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_c4fac3ac719c0882da031b099e8db645 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d9db93eb3e3053dbc60ad7b532ae9ea = $(`<div id="html_0d9db93eb3e3053dbc60ad7b532ae9ea" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_c4fac3ac719c0882da031b099e8db645.setContent(html_0d9db93eb3e3053dbc60ad7b532ae9ea);
+            
+        
+
+        polygon_2bcc8b013dfd347490adf252cb929cd8.bindPopup(popup_c4fac3ac719c0882da031b099e8db645)
+        ;
+
+        
+    
+    
+            var circle_marker_35c3865fd9f65b770ec3c0dc4f658a00 = L.circleMarker(
+                [32.750086538246286, -81.41703135336584],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_1d564cc7c12f21d2533bcd2974abf01a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_139052147e9756337785ecb4270cef85 = $(`<div id="html_139052147e9756337785ecb4270cef85" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_1d564cc7c12f21d2533bcd2974abf01a.setContent(html_139052147e9756337785ecb4270cef85);
+            
+        
+
+        circle_marker_35c3865fd9f65b770ec3c0dc4f658a00.bindPopup(popup_1d564cc7c12f21d2533bcd2974abf01a)
+        ;
+
+        
+    
+    
+            circle_marker_35c3865fd9f65b770ec3c0dc4f658a00.bindTooltip(
+                `<div>
+                     Allendale - South Carolina-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_22fd36d0f171a3208cf33ac9c651a540 = L.polygon(
+                [[32.76273499999995, -81.415302], [32.76109600000002, -81.416284], [32.760537, -81.416627], [32.76035900000004, -81.417164], [32.760222000000034, -81.41776600000001], [32.76045400000001, -81.418266], [32.76061899999996, -81.41851], [32.76113200000001, -81.418901], [32.761781, -81.418641], [32.76253, -81.418009], [32.76333400000003, -81.417356], [32.76412800000001, -81.41698], [32.764656999999985, -81.416837], [32.765318000000036, -81.416834], [32.766087999999996, -81.417096], [32.766954999999996, -81.417994], [32.76762900000001, -81.418943], [32.76823900000001, -81.421168], [32.76849699999998, -81.422886], [32.768458999999964, -81.423772], [32.768058000000025, -81.425017], [32.767904999999985, -81.429113], [32.76848699999997, -81.431111], [32.76880499999999, -81.431732], [32.768910999999996, -81.43194], [32.77054899999999, -81.432082], [32.771483999999994, -81.431513], [32.77212900000003, -81.429854], [32.77237400000002, -81.426432], [32.772647, -81.424714], [32.77299799999997, -81.422585], [32.772889, -81.42113], [32.77279900000003, -81.419819], [32.772734, -81.418601], [32.77333599999998, -81.417353], [32.774529000000015, -81.416712], [32.77551500000001, -81.416323], [32.77612515930477, -81.41586402821737], [32.763810010896634, -81.41480196310758], [32.76273499999995, -81.415302]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_5ace72d27928302a7f40e04f3d0c910a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e2c32a9efd51f3e6cd5ec85f1aa33a13 = $(`<div id="html_e2c32a9efd51f3e6cd5ec85f1aa33a13" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_5ace72d27928302a7f40e04f3d0c910a.setContent(html_e2c32a9efd51f3e6cd5ec85f1aa33a13);
+            
+        
+
+        polygon_22fd36d0f171a3208cf33ac9c651a540.bindPopup(popup_5ace72d27928302a7f40e04f3d0c910a)
+        ;
+
+        
+    
+    
+            var circle_marker_64f3c6fdc5401ebc216e1eca4582fd24 = L.circleMarker(
+                [32.767339704255036, -81.42093337478312],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_00f993f6a3f4672cbbb3e024f2f2f703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5202b9411ba9036d31d2bf73bb3e549f = $(`<div id="html_5202b9411ba9036d31d2bf73bb3e549f" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_00f993f6a3f4672cbbb3e024f2f2f703.setContent(html_5202b9411ba9036d31d2bf73bb3e549f);
+            
+        
+
+        circle_marker_64f3c6fdc5401ebc216e1eca4582fd24.bindPopup(popup_00f993f6a3f4672cbbb3e024f2f2f703)
+        ;
+
+        
+    
+    
+            circle_marker_64f3c6fdc5401ebc216e1eca4582fd24.bindTooltip(
+                `<div>
+                     Allendale - South Carolina-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_814414738fffeec25932958bfbc4303f = L.polygon(
+                [[32.77966, -81.417703], [32.778919000000016, -81.420011], [32.77851200000005, -81.423331], [32.77870299999998, -81.42483100000001], [32.779456, -81.426855], [32.78023100000003, -81.428154], [32.78177099999999, -81.430078], [32.782893000000044, -81.430772], [32.78335399999998, -81.430946], [32.78375999999996, -81.431099], [32.784141000000005, -81.431235], [32.78481599999997, -81.431118], [32.785111, -81.430903], [32.78523500000002, -81.429977], [32.784429000000024, -81.428706], [32.783232, -81.427242], [32.782672999999996, -81.426425], [32.78260399999998, -81.425636], [32.78272700000003, -81.423929], [32.783413, -81.422793], [32.783986000000006, -81.42224], [32.784571000000014, -81.42203], [32.78556300000003, -81.422068], [32.78591600000005, -81.422633], [32.78611799999998, -81.423772], [32.78618499999999, -81.425132], [32.78651300000003, -81.426687], [32.78694399999999, -81.427584], [32.787612999999965, -81.427667], [32.78832, -81.42742500000001], [32.78894900000002, -81.42689], [32.789513000000014, -81.425747], [32.790334000000016, -81.42499900000001], [32.79098700000002, -81.423863], [32.79144000000002, -81.42336], [32.791867000000025, -81.4222], [32.792299, -81.420812], [32.79288500000002, -81.420011], [32.79322699999998, -81.4197], [32.79378199999999, -81.419689], [32.79485700000005, -81.419879], [32.794475000000006, -81.420781], [32.79419299999997, -81.421919], [32.793998, -81.42298], [32.794133999999985, -81.42411], [32.794189999999986, -81.425234], [32.794612999999934, -81.42525], [32.795342999999995, -81.425279], [32.79646700000001, -81.425582], [32.79746500000004, -81.426012], [32.798878999999985, -81.426347], [32.79940400000002, -81.427014], [32.79995399999997, -81.427813], [32.80050800000001, -81.428174], [32.80083199999996, -81.428292], [32.80152299999999, -81.428146], [32.80194899999996, -81.427529], [32.802238999999986, -81.426895], [32.802197, -81.426144], [32.80188200000004, -81.424874], [32.80175700000001, -81.423448], [32.801989999999975, -81.422739], [32.802477000000046, -81.42244400000001], [32.80312699999998, -81.422242], [32.80429400000001, -81.42279200000002], [32.80499699999999, -81.423493], [32.805542999999986, -81.423987], [32.80663200000001, -81.424672], [32.808487000000014, -81.425276], [32.80896700000006, -81.425563], [32.80941299999999, -81.425831], [32.80992799999998, -81.426326], [32.810485000000014, -81.426392], [32.81071000000005, -81.426445], [32.81095000000002, -81.426193], [32.81107600000002, -81.425981], [32.81113199999999, -81.425418], [32.81096899999998, -81.424678], [32.81051300000007, -81.423772], [32.812107999999974, -81.421343], [32.81373000000006, -81.419752], [32.81460417597244, -81.4191847439925], [32.77979094789579, -81.41618023567007], [32.77966, -81.417703]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_73f0fbccace32c6e54922b9b943048a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b147ce3c0ef762ea7f47fb5aaa8d754 = $(`<div id="html_4b147ce3c0ef762ea7f47fb5aaa8d754" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_73f0fbccace32c6e54922b9b943048a4.setContent(html_4b147ce3c0ef762ea7f47fb5aaa8d754);
+            
+        
+
+        polygon_814414738fffeec25932958bfbc4303f.bindPopup(popup_73f0fbccace32c6e54922b9b943048a4)
+        ;
+
+        
+    
+    
+            var circle_marker_d68b0f20ae6dfeaf5340ac8c9be99c8b = L.circleMarker(
+                [32.79434635861748, -81.42483764261503],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_0191d0746c82390a559fe3d0c08cf670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49f291ab2cdade84f88336e7cfb249af = $(`<div id="html_49f291ab2cdade84f88336e7cfb249af" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_0191d0746c82390a559fe3d0c08cf670.setContent(html_49f291ab2cdade84f88336e7cfb249af);
+            
+        
+
+        circle_marker_d68b0f20ae6dfeaf5340ac8c9be99c8b.bindPopup(popup_0191d0746c82390a559fe3d0c08cf670)
+        ;
+
+        
+    
+    
+            circle_marker_d68b0f20ae6dfeaf5340ac8c9be99c8b.bindTooltip(
+                `<div>
+                     Allendale - South Carolina-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f2aaf294f8c62071dda78c3c70fab346 = L.polygon(
+                [[32.818753000000015, -81.419812], [32.818650999999996, -81.420585], [32.81759700000003, -81.422023], [32.81617900000004, -81.42435400000001], [32.816221000000034, -81.42502], [32.816466000000034, -81.426425], [32.81687, -81.427094], [32.81804099999998, -81.427891], [32.818584, -81.428235], [32.81938000000005, -81.427953], [32.81953800000001, -81.427458], [32.819705000000006, -81.426937], [32.81967100000003, -81.425138], [32.81974699999999, -81.423041], [32.820245, -81.422356], [32.82146600000001, -81.421952], [32.82289200000001, -81.422488], [32.82356600000001, -81.423476], [32.82436699999999, -81.424842], [32.825729000000024, -81.426684], [32.826383000000014, -81.428043], [32.827146000000006, -81.429525], [32.827767000000016, -81.430161], [32.828245999999986, -81.42994300000001], [32.828640000000014, -81.429154], [32.828719000000014, -81.427258], [32.828306999999995, -81.423674], [32.82926499999997, -81.421828], [32.830125999999986, -81.421241], [32.83122299999999, -81.42062], [32.818736705657734, -81.4195415829252], [32.818753000000015, -81.419812]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_ca86592cf2ea74cf6c267de19c63c681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fde1795edb1045e58c12c4be7506217 = $(`<div id="html_0fde1795edb1045e58c12c4be7506217" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_ca86592cf2ea74cf6c267de19c63c681.setContent(html_0fde1795edb1045e58c12c4be7506217);
+            
+        
+
+        polygon_f2aaf294f8c62071dda78c3c70fab346.bindPopup(popup_ca86592cf2ea74cf6c267de19c63c681)
+        ;
+
+        
+    
+    
+            var circle_marker_83c656c55f65f627aaef15ac9c18e98d = L.circleMarker(
+                [32.82240561580181, -81.42483014321641],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_135f698105ed51ff5c323ab6a2adafb8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89451dc61e724ac2adbbb7b2612f35f2 = $(`<div id="html_89451dc61e724ac2adbbb7b2612f35f2" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_135f698105ed51ff5c323ab6a2adafb8.setContent(html_89451dc61e724ac2adbbb7b2612f35f2);
+            
+        
+
+        circle_marker_83c656c55f65f627aaef15ac9c18e98d.bindPopup(popup_135f698105ed51ff5c323ab6a2adafb8)
+        ;
+
+        
+    
+    
+            circle_marker_83c656c55f65f627aaef15ac9c18e98d.bindTooltip(
+                `<div>
+                     Allendale - South Carolina-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e973a097adfdfbef4d5f9cafaeb7092b = L.polygon(
+                [[32.84155199999999, -81.428051], [32.84189499999998, -81.430122], [32.842878, -81.431914], [32.84347900000001, -81.432855], [32.84367399999998, -81.43359500000001], [32.843538000000024, -81.434807], [32.84271299999998, -81.435737], [32.84170299999998, -81.436146], [32.84053199999998, -81.437177], [32.84007599999999, -81.438652], [32.84113000000005, -81.440357], [32.84296799999996, -81.44160000000001], [32.84584700000002, -81.442882], [32.84702, -81.442699], [32.84858700000002, -81.442279], [32.85010700000001, -81.442671], [32.85062800000003, -81.443595], [32.85096600000004, -81.444866], [32.850024999999995, -81.446731], [32.84912600000001, -81.44939600000001], [32.84792399999998, -81.451199], [32.846325, -81.451533], [32.844764999999995, -81.451742], [32.84415000000003, -81.452744], [32.84419999999997, -81.454029], [32.84447899999997, -81.455062], [32.84482799999999, -81.45638], [32.845405, -81.458561], [32.84577100000002, -81.460126], [32.84603800000001, -81.460722], [32.84691499999998, -81.460563], [32.847402, -81.460211], [32.847144, -81.459025], [32.846562000000006, -81.457692], [32.84650800000001, -81.455559], [32.847291, -81.455545], [32.84873400000002, -81.456167], [32.85038900000002, -81.457061], [32.852603999999985, -81.456917], [32.855153999999985, -81.455947], [32.85864100000004, -81.453902], [32.85963599999998, -81.453017], [32.860955999999995, -81.452908], [32.86185999999997, -81.453044], [32.863846999999964, -81.453361], [32.86493900000001, -81.452961], [32.86599599999998, -81.45196], [32.86716499999999, -81.451367], [32.868582999999965, -81.451351], [32.86923800000003, -81.451563], [32.87142299999998, -81.452272], [32.871674000000034, -81.45237], [32.87176100000003, -81.452405], [32.871951000000024, -81.451801], [32.871951000000024, -81.451692], [32.872247999999985, -81.450986], [32.873667335152625, -81.44830368031585], [32.84104338512611, -81.42702200919406], [32.84155199999999, -81.428051]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_e5534060aeb9c4dc8ca884125e710b04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_93302bcf52cda26367e4a0c7e1e07884 = $(`<div id="html_93302bcf52cda26367e4a0c7e1e07884" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_e5534060aeb9c4dc8ca884125e710b04.setContent(html_93302bcf52cda26367e4a0c7e1e07884);
+            
+        
+
+        polygon_e973a097adfdfbef4d5f9cafaeb7092b.bindPopup(popup_e5534060aeb9c4dc8ca884125e710b04)
+        ;
+
+        
+    
+    
+            var circle_marker_3881ade15dfac9b5f58f5cec65fe5604 = L.circleMarker(
+                [32.85201972407252, -81.44819074050015],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_d257d2465f3ec84e0082d76c51ac29a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5974171095af06f5dfdb03f2ba2d3a73 = $(`<div id="html_5974171095af06f5dfdb03f2ba2d3a73" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD12</b></div>`)[0];
+                popup_d257d2465f3ec84e0082d76c51ac29a4.setContent(html_5974171095af06f5dfdb03f2ba2d3a73);
+            
+        
+
+        circle_marker_3881ade15dfac9b5f58f5cec65fe5604.bindPopup(popup_d257d2465f3ec84e0082d76c51ac29a4)
+        ;
+
+        
+    
+    
+            circle_marker_3881ade15dfac9b5f58f5cec65fe5604.bindTooltip(
+                `<div>
+                     Allendale - South Carolina-CD12
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_4a5b3e4b4b58509559d3bfb539fc361a = L.polygon(
+                [[32.892086000000035, -81.276729], [32.88562099999999, -81.274894], [32.88018399999999, -81.273418], [32.875205999999984, -81.27212], [32.86700400000003, -81.269745], [32.86070599999999, -81.26793], [32.846802999999994, -81.263888], [32.84435099999998, -81.263297], [32.844159999999974, -81.26312], [32.839139, -81.261662], [32.838976999999986, -81.261883], [32.831555999999985, -81.272145], [32.82987500000003, -81.274474], [32.82271299999995, -81.284291], [32.822622000000024, -81.28441], [32.82128600000001, -81.286152], [32.81565199999999, -81.293765], [32.81035299999997, -81.300889], [32.80259900000004, -81.311327], [32.79562600000006, -81.32058700000002], [32.79455600000001, -81.322028], [32.79454200000001, -81.322048], [32.792173000000005, -81.32515], [32.79120300000001, -81.326431], [32.79091399999997, -81.326814], [32.789669999999994, -81.328337], [32.78950899999996, -81.328477], [32.788800000000016, -81.329101], [32.786684, -81.330278], [32.78563199999995, -81.330864], [32.780913, -81.333071], [32.77888299999999, -81.33405], [32.77561899999999, -81.335606], [32.773837, -81.336457], [32.77110900000002, -81.337843], [32.77068499999999, -81.337983], [32.77007199999999, -81.338186], [32.76845599999999, -81.338543], [32.768413000000024, -81.338751], [32.76840300000002, -81.338786], [32.768395999999946, -81.338813], [32.766716999999964, -81.345044], [32.76461499999997, -81.353002], [32.76386300000001, -81.355853], [32.761830000000025, -81.363568], [32.76062300000004, -81.367892], [32.76060100000001, -81.367973], [32.75650299999999, -81.374955], [32.750148999999965, -81.385427], [32.745918000000025, -81.392294], [32.744866999999985, -81.39399], [32.74488400000002, -81.39615], [32.744905000000024, -81.39872], [32.74494900000001, -81.404094], [32.74495699999999, -81.405054], [32.74555900000002, -81.404932], [32.747026000000005, -81.404949], [32.74828400000001, -81.405016], [32.74876900000003, -81.405259], [32.749144000000015, -81.405866], [32.74929399999997, -81.406712], [32.74940900000001, -81.408501], [32.74931599999995, -81.410662], [32.74905700000002, -81.411779], [32.74872191852367, -81.41350123649266], [32.75285823166324, -81.4138577707266], [32.752832999999995, -81.413714], [32.75311699999998, -81.411568], [32.75372599999997, -81.410215], [32.75503799999999, -81.408849], [32.75580299999999, -81.408159], [32.756283999999994, -81.407988], [32.756616999999984, -81.408163], [32.75662999999998, -81.408562], [32.755739999999975, -81.409492], [32.75485200000003, -81.411117], [32.754691, -81.412262], [32.754997000000024, -81.413456], [32.755422999999986, -81.41403800000002], [32.75601399999996, -81.414113], [32.75742000000004, -81.41382], [32.759900999999985, -81.412594], [32.76214699999999, -81.411839], [32.763122000000024, -81.411821], [32.76386599999999, -81.41209300000001], [32.764146999999994, -81.412544], [32.76460899999999, -81.41325], [32.764521999999964, -81.414013], [32.76418399999995, -81.414628], [32.763810010896634, -81.41480196310758], [32.77612515930477, -81.41586402821737], [32.77652800000001, -81.415561], [32.77766200000003, -81.41476900000002], [32.77814899999997, -81.414456], [32.77893000000002, -81.414394], [32.779586000000016, -81.415181], [32.77979200000001, -81.416168], [32.77979094789579, -81.41618023567007], [32.81460417597244, -81.4191847439925], [32.81566399999997, -81.418497], [32.81819599999999, -81.417984], [32.81867899999999, -81.418584], [32.818736705657734, -81.4195415829252], [32.83122299999999, -81.42062], [32.83341299999997, -81.421037], [32.835177999999964, -81.421614], [32.83575199999997, -81.422356], [32.836601999999964, -81.42331200000001], [32.839295000000014, -81.425073], [32.84077300000002, -81.42647500000001], [32.84104338512611, -81.42702200919406], [32.873667335152625, -81.44830368031585], [32.87417299999998, -81.447348], [32.874149999999986, -81.446642], [32.87396700000001, -81.446153], [32.87399000000001, -81.445664], [32.87410500000001, -81.44544700000002], [32.875161, -81.444944], [32.876272000000014, -81.444143], [32.87943399999999, -81.44026], [32.88080799999998, -81.439418], [32.88177100000001, -81.438387], [32.882182000000014, -81.437789], [32.883053999999994, -81.437328], [32.883213999999995, -81.437083], [32.883328999999954, -81.436051], [32.88300699999999, -81.43512800000002], [32.882664000000034, -81.434639], [32.88211399999999, -81.43431400000001], [32.88181600000003, -81.433961], [32.88161000000001, -81.433472], [32.88165600000002, -81.432902], [32.881748000000016, -81.432657], [32.882022000000035, -81.432359], [32.88298400000002, -81.432196], [32.88392400000002, -81.432168], [32.884771, -81.432467], [32.886054999999985, -81.43339], [32.886353000000014, -81.433472], [32.88683399999998, -81.433363], [32.88729299999998, -81.433092], [32.88843800000002, -81.431815], [32.88969800000002, -81.431245], [32.89010999999999, -81.430729], [32.89017900000004, -81.430539], [32.890213000000024, -81.430468], [32.88995200000001, -81.430255], [32.88964900000003, -81.429974], [32.88948700000003, -81.429836], [32.889183999999986, -81.429569], [32.888823000000016, -81.429263], [32.888724, -81.429187], [32.88856000000001, -81.42907300000002], [32.888224000000015, -81.428874], [32.888047, -81.428783], [32.887693999999975, -81.428615], [32.887323999999985, -81.428478], [32.887133, -81.428424], [32.886946, -81.428378], [32.88656100000001, -81.428317], [32.88636999999999, -81.428294], [32.886175000000016, -81.428287], [32.88598400000002, -81.428272], [32.88578999999999, -81.428272], [32.88559600000003, -81.42825600000002], [32.88407000000001, -81.428195], [32.883882000000035, -81.428195], [32.883314000000006, -81.428172], [32.88312400000002, -81.428172], [32.882933000000016, -81.428165], [32.88255100000001, -81.428165], [32.881971, -81.428188], [32.881925000000024, -81.428192], [32.88119700000004, -81.428249], [32.88100299999998, -81.428272], [32.88080799999998, -81.428279], [32.880613999999966, -81.428302], [32.87888899999999, -81.428439], [32.87869100000003, -81.428462], [32.87778300000003, -81.428532], [32.877504999999964, -81.428554], [32.87730200000005, -81.428577], [32.87710400000001, -81.428592], [32.876901999999994, -81.4286], [32.876707, -81.428615], [32.87631399999999, -81.428615], [32.87624000000001, -81.428609], [32.875770999999986, -81.426516], [32.87576799999999, -81.425199], [32.87590500000001, -81.42454], [32.87719999999996, -81.421518], [32.87779100000002, -81.41943], [32.87865600000004, -81.417807], [32.879200999999995, -81.415831], [32.87929100000001, -81.415256], [32.879221000000015, -81.41498], [32.879331, -81.413224], [32.87880000000001, -81.41218], [32.877694, -81.410939], [32.87679599999999, -81.409345], [32.876081000000006, -81.407696], [32.87587300000003, -81.407008], [32.87558, -81.405611], [32.87513200000001, -81.403463], [32.87469800000003, -81.401153], [32.87432899999996, -81.399343], [32.87416999999997, -81.398262], [32.87399000000001, -81.394534], [32.87413099999995, -81.392588], [32.87369699999996, -81.390696], [32.87369699999996, -81.390237], [32.87399700000002, -81.388995], [32.873998000000014, -81.387536], [32.87441200000004, -81.38583300000002], [32.874481999999986, -81.384779], [32.87425399999998, -81.38205], [32.874095999999966, -81.382052], [32.87393899999999, -81.381892], [32.87362600000002, -81.381061], [32.872995, -81.38034], [32.871231000000044, -81.37920200000002], [32.87034800000003, -81.378377], [32.86969999999999, -81.377391], [32.86955299999999, -81.377159], [32.86848499999998, -81.375925], [32.867767, -81.374828], [32.86680499999999, -81.372815], [32.866554, -81.371947], [32.86666900000002, -81.37098], [32.86259399999999, -81.371193], [32.86192499999999, -81.370896], [32.86091200000001, -81.370138], [32.859253999999986, -81.369951], [32.856261999999994, -81.369875], [32.85329199999996, -81.369609], [32.85328099999998, -81.369533], [32.85325700000002, -81.369319], [32.85322299999999, -81.368899], [32.853219999999986, -81.368678], [32.85323199999999, -81.368259], [32.853257, -81.367839], [32.85334999999999, -81.366801], [32.85336400000001, -81.366588], [32.853371999999986, -81.366405], [32.85340299999998, -81.366168], [32.85345999999998, -81.36552], [32.85348199999995, -81.365306], [32.85354099999996, -81.364665], [32.85360900000004, -81.363818], [32.853647000000024, -81.363399], [32.853688999999996, -81.362987], [32.853742999999994, -81.362376], [32.85378900000001, -81.361781], [32.853796000000045, -81.361583], [32.853799999999964, -81.361186], [32.85379200000004, -81.360988], [32.85377200000005, -81.360805], [32.85376600000001, -81.360606], [32.853696000000014, -81.360026], [32.85363999999998, -81.35963], [32.85361700000003, -81.359439], [32.85358600000004, -81.359248], [32.853517999999944, -81.358653], [32.853481999999964, -81.358462], [32.853406000000035, -81.35786], [32.853376999999966, -81.357705], [32.853371999999986, -81.35767700000001], [32.85335400000004, -81.357471], [32.853227999999994, -81.356532], [32.853185999999994, -81.356166], [32.853115999999986, -81.355624], [32.85309, -81.355449], [32.85306800000002, -81.355266], [32.85294499999999, -81.354388], [32.85281199999995, -81.353328], [32.852796999999995, -81.353129], [32.85276600000001, -81.352962], [32.85267399999999, -81.352107], [32.852648000000016, -81.351947], [32.852625, -81.351779], [32.852598, -81.351619], [32.85255900000002, -81.351291], [32.852449000000014, -81.350474], [32.852392000000016, -81.350169], [32.852258000000006, -81.349589], [32.85214799999999, -81.349177], [32.851931000000015, -81.348415], [32.85178500000001, -81.347934], [32.851625999999996, -81.347385], [32.851576, -81.347179], [32.85154899999997, -81.347087], [32.851528999999985, -81.346988], [32.85141900000002, -81.346576], [32.85128099999997, -81.34621], [32.85118700000004, -81.345973], [32.851267000000014, -81.345904], [32.85152900000001, -81.345553], [32.851809, -81.345141], [32.851915999999996, -81.345004], [32.85211700000003, -81.344714], [32.852224000000014, -81.344569], [32.85233099999997, -81.344417], [32.852643, -81.343936], [32.85287699999997, -81.343623], [32.852986999999985, -81.343455], [32.85310200000002, -81.34329500000001], [32.85321599999998, -81.343127], [32.853329999999964, -81.342967], [32.85356299999999, -81.342631], [32.85368599999995, -81.342479], [32.853807999999965, -81.342319], [32.853921000000035, -81.342158], [32.85402100000001, -81.341983], [32.85413900000003, -81.341823], [32.854162000000024, -81.341785], [32.85425300000004, -81.341655], [32.854584999999986, -81.341151], [32.85468900000003, -81.340976], [32.85489100000002, -81.34061], [32.85517299999998, -81.34006], [32.85544800000002, -81.339503], [32.85563500000004, -81.33913700000001], [32.855826000000015, -81.338779], [32.856031999999956, -81.338443], [32.85623699999999, -81.33813000000002], [32.856710000000014, -81.337459], [32.856924000000014, -81.337115], [32.857022000000015, -81.33694], [32.857117999999986, -81.336757], [32.85791200000002, -81.335078], [32.858164, -81.334521], [32.85848000000003, -81.333774], [32.85869399999997, -81.333209], [32.858824, -81.332828], [32.85894600000004, -81.332446], [32.85900299999998, -81.332248], [32.85910499999998, -81.33185900000001], [32.85917799999998, -81.33146200000002], [32.859204999999974, -81.331264], [32.859211999999964, -81.331164], [32.85923499999999, -81.330908], [32.859253999999986, -81.330661], [32.85927000000002, -81.330249], [32.859292999999994, -81.329021], [32.85930799999996, -81.328412], [32.85932399999996, -81.327991], [32.85933899999995, -81.326716], [32.859353999999996, -81.326297], [32.85938099999996, -81.325877], [32.85940300000002, -81.325671], [32.85943399999996, -81.325458], [32.859507000000036, -81.325053], [32.85954899999998, -81.324855], [32.859598, -81.324664], [32.85965599999998, -81.324473], [32.85978, -81.324092], [32.859882000000034, -81.323854], [32.860007, -81.323558], [32.860089999999985, -81.32339], [32.86027299999998, -81.323054], [32.860654999999994, -81.322391], [32.861261999999996, -81.321393], [32.861342, -81.321261], [32.861528, -81.320941], [32.86162400000001, -81.320788], [32.86171399999997, -81.320621], [32.86175900000003, -81.320548], [32.86239100000001, -81.319499], [32.86248499999999, -81.319331], [32.86258900000001, -81.319171], [32.86268100000003, -81.319011], [32.86276800000001, -81.318843], [32.862868, -81.318698], [32.86314600000002, -81.318225], [32.86332099999998, -81.317904], [32.863416999999984, -81.317752], [32.86350499999999, -81.317592], [32.86366100000003, -81.317271], [32.863721999999996, -81.317096], [32.863802000000035, -81.316936], [32.86389399999998, -81.316775], [32.86393900000001, -81.316592], [32.86405399999998, -81.316249], [32.86410599999997, -81.316073], [32.86414499999999, -81.315898], [32.86422899999996, -81.315547], [32.86427499999998, -81.315387], [32.86429400000001, -81.315204], [32.86433600000001, -81.315036], [32.86436700000001, -81.314868], [32.86439300000006, -81.3147], [32.86443499999998, -81.314349], [32.86445399999999, -81.313991], [32.86446899999995, -81.313823], [32.86451100000001, -81.310802], [32.864682999999985, -81.310802], [32.86484599999997, -81.310786], [32.865008000000046, -81.310779], [32.86517500000002, -81.31075600000001], [32.86550200000001, -81.310695], [32.866002999999985, -81.310557], [32.868024999999975, -81.309917], [32.86819999999997, -81.309855], [32.86837500000002, -81.309802], [32.86873499999999, -81.30968], [32.869452, -81.309466], [32.869631000000005, -81.309405], [32.87015700000002, -81.309245], [32.87033300000002, -81.309184], [32.870691000000015, -81.309077], [32.87087099999998, -81.309016], [32.87104899999994, -81.308963], [32.871229000000035, -81.308902], [32.87141200000002, -81.30884800000001], [32.871595000000006, -81.308787], [32.87177799999999, -81.308734], [32.87214100000004, -81.308612], [32.87232400000004, -81.308558], [32.87250700000001, -81.308497], [32.87268999999998, -81.308444], [32.873433999999996, -81.3082], [32.873624000000035, -81.308146], [32.874960000000016, -81.307719], [32.875150999999995, -81.307651], [32.87610499999996, -81.307345], [32.876294999999985, -81.307277], [32.876481999999996, -81.307223], [32.87667200000002, -81.307162], [32.87686000000005, -81.307094], [32.87705099999999, -81.30704], [32.87723799999995, -81.306972], [32.87761499999999, -81.306849], [32.877801999999974, -81.306796], [32.878721000000006, -81.306491], [32.878904999999975, -81.306437], [32.879088, -81.306376], [32.879267, -81.306323], [32.879449999999984, -81.306262], [32.879636999999995, -81.30620900000001], [32.88000299999998, -81.306087], [32.88018600000001, -81.30603300000001], [32.880369000000016, -81.305972], [32.88055599999996, -81.305919], [32.880708999999996, -81.305868], [32.88091899999999, -81.305797], [32.88110200000005, -81.305743], [32.881276000000035, -81.305682], [32.88145600000006, -81.305629], [32.881628, -81.305568], [32.88181099999997, -81.305514], [32.88216999999999, -81.305392], [32.88235300000001, -81.30533900000002], [32.88253999999999, -81.305278], [32.88272700000003, -81.305224], [32.88364999999997, -81.304919], [32.883833, -81.304866], [32.884022999999964, -81.304805], [32.884210999999965, -81.304736], [32.88477400000002, -81.304553], [32.884957, -81.3045], [32.88550800000005, -81.304317], [32.88586599999998, -81.30421], [32.88604199999999, -81.304149], [32.886393000000005, -81.304042], [32.88656400000001, -81.303981], [32.88721699999998, -81.303775], [32.88760200000001, -81.303653], [32.88796799999999, -81.303531], [32.88815400000001, -81.303477], [32.889086, -81.30318], [32.89006499999998, -81.302867], [32.890242, -81.302798], [32.89044400000003, -81.302745], [32.89119900000002, -81.302501], [32.89139000000003, -81.302447], [32.89158099999994, -81.302386], [32.891771999999996, -81.302318], [32.893113, -81.30189], [32.89330899999997, -81.301837], [32.894040999999994, -81.301593], [32.89418999999995, -81.301524], [32.89440800000002, -81.301478], [32.894765000000056, -81.301356], [32.89494800000004, -81.301303], [32.89531900000005, -81.30118100000001], [32.89607500000002, -81.300944], [32.89626500000002, -81.300891], [32.896456000000015, -81.30083], [32.89664700000003, -81.300761], [32.896834000000005, -81.300715], [32.897958999999986, -81.300349], [32.89814200000001, -81.300296], [32.89850799999995, -81.300174], [32.89869399999997, -81.30012000000002], [32.89906499999997, -81.299998], [32.89924800000002, -81.299945], [32.899434, -81.299884], [32.899617, -81.29983], [32.899980000000006, -81.299708], [32.900163, -81.299655], [32.900533999999986, -81.299533], [32.900716999999965, -81.299479], [32.90107899999999, -81.299357], [32.901254999999985, -81.299289], [32.901427000000005, -81.299212], [32.90144300000001, -81.299203], [32.901766000000016, -81.299029], [32.90193800000002, -81.298923], [32.90227600000001, -81.298701], [32.902773000000046, -81.298358], [32.90294100000004, -81.298236], [32.90310900000002, -81.298129], [32.903276999999996, -81.298007], [32.905114999999945, -81.296748], [32.90545899999997, -81.296519], [32.905627000000074, -81.296397], [32.906148999999985, -81.296039], [32.906327999999995, -81.295924], [32.907052000000014, -81.295436], [32.90723499999999, -81.295306], [32.907606000000015, -81.295062], [32.90798, -81.294803], [32.90816699999997, -81.294681], [32.90835400000004, -81.294551], [32.908529999999985, -81.29442100000001], [32.90869799999995, -81.294313], [32.90872, -81.294299], [32.90925299999998, -81.293933], [32.90978500000001, -81.293574], [32.909964, -81.29346], [32.91013900000003, -81.293338], [32.910313999999985, -81.293223], [32.91049000000001, -81.293101], [32.91066599999999, -81.292987], [32.91101200000001, -81.292743], [32.91136000000001, -81.292514], [32.91153499999997, -81.292392], [32.91170999999999, -81.292277], [32.91240799999995, -81.291797], [32.912768, -81.291568], [32.91328999999999, -81.291202], [32.91383600000005, -81.290843], [32.91450400000003, -81.290393], [32.91411599999998, -81.289907], [32.913684000000025, -81.289125], [32.91211200000002, -81.287615], [32.911838999999986, -81.287644], [32.90965000000001, -81.289316], [32.909238999999985, -81.289563], [32.90889700000004, -81.289593], [32.908645000000014, -81.28991900000001], [32.908645000000014, -81.29035300000001], [32.90848399999997, -81.290788], [32.908346999999935, -81.290924], [32.90795799999996, -81.29095100000002], [32.90761399999997, -81.290815], [32.906467, -81.289892], [32.903717000000015, -81.287367], [32.902717000000045, -81.28812], [32.90223600000003, -81.289415], [32.90192199999999, -81.289928], [32.90147999999998, -81.29017], [32.900603999999994, -81.290463], [32.90002800000002, -81.290838], [32.89961699999999, -81.290836], [32.89745500000002, -81.290361], [32.89724299999999, -81.290169], [32.896634, -81.288284], [32.89633800000001, -81.287983], [32.89415699999998, -81.287969], [32.893898000000014, -81.287859], [32.89352300000002, -81.287475], [32.89333399999999, -81.286984], [32.89321900000003, -81.286301], [32.893254999999996, -81.285754], [32.89355400000004, -81.285262], [32.89377200000003, -81.285097], [32.89439099999998, -81.284793], [32.894499, -81.284546], [32.894443999999986, -81.284], [32.89342499999999, -81.28266], [32.89315499999999, -81.281813], [32.89300599999999, -81.28055500000002], [32.892977999999985, -81.278479], [32.89261399999998, -81.277932], [32.892462, -81.277331], [32.89233400000001, -81.27561], [32.89222699999999, -81.275584], [32.892121999999986, -81.276426], [32.892086000000035, -81.276729]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_2ad6f53c490266807eb41a82a08e7641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3baab94fb7337fe272822f5915907bc1 = $(`<div id="html_3baab94fb7337fe272822f5915907bc1" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD06</b></div>`)[0];
+                popup_2ad6f53c490266807eb41a82a08e7641.setContent(html_3baab94fb7337fe272822f5915907bc1);
+            
+        
+
+        polygon_4a5b3e4b4b58509559d3bfb539fc361a.bindPopup(popup_2ad6f53c490266807eb41a82a08e7641)
+        ;
+
+        
+    
+    
+            var circle_marker_db7e639cfd82dce584c952cc0063c6ae = L.circleMarker(
+                [32.859698216729136, -81.34805580720449],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_708384471366398ba249dbaf9f426fe0);
+        
+    
+        var popup_839d1237318fa23d6c9c1469af7733de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1f288218236e8ebf0bc469e56879c939 = $(`<div id="html_1f288218236e8ebf0bc469e56879c939" style="width: 100.0%; height: 100.0%;"><b>Allendale - South Carolina-CD06</b></div>`)[0];
+                popup_839d1237318fa23d6c9c1469af7733de.setContent(html_1f288218236e8ebf0bc469e56879c939);
+            
+        
+
+        circle_marker_db7e639cfd82dce584c952cc0063c6ae.bindPopup(popup_839d1237318fa23d6c9c1469af7733de)
+        ;
+
+        
+    
+    
+            circle_marker_db7e639cfd82dce584c952cc0063c6ae.bindTooltip(
+                `<div>
+                     Allendale - South Carolina-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

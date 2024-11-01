@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_575dddfac5f7076621e5afec1e7777f5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lafayette - Wisconsin-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lafayette - Wisconsin-CD16</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lafayette - Wisconsin-CD02</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lafayette - Wisconsin-CD16</p>
+            </div>
+    
+            <div class="folium-map" id="map_575dddfac5f7076621e5afec1e7777f5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_575dddfac5f7076621e5afec1e7777f5 = L.map(
+                "map_575dddfac5f7076621e5afec1e7777f5",
+                {
+                    center: [42.52938459487983, -90.39588217223537],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5d9c114a8ba1f1077b8630b5a5303c4f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5d9c114a8ba1f1077b8630b5a5303c4f.addTo(map_575dddfac5f7076621e5afec1e7777f5);
+        
+    
+            var polygon_348c9d23926371756fecab9fe16c3183 = L.polygon(
+                [[42.50898200000004, -90.426362], [42.51440900000001, -90.426318], [42.516218999999985, -90.426304], [42.51803400000004, -90.426289], [42.52348099999995, -90.426246], [42.525297000000045, -90.426233], [42.52537900000004, -90.426232], [42.52555000000002, -90.42623], [42.526309, -90.426224], [42.526562999999996, -90.426223], [42.52722099999999, -90.42621700000001], [42.52919599999995, -90.426201], [42.52985500000001, -90.426197], [42.530010000000004, -90.426195], [42.53009700000001, -90.426194], [42.53047400000003, -90.426192], [42.53063000000004, -90.426191], [42.530703999999986, -90.42619], [42.53092700000002, -90.426188], [42.53100199999996, -90.426188], [42.53120799999999, -90.426186], [42.53182500000001, -90.426181], [42.532032000000065, -90.42618], [42.53216700000001, -90.426179], [42.532309999999995, -90.426177], [42.53262799999999, -90.426174], [42.53314599999999, -90.42617000000001], [42.533424999999966, -90.426169], [42.534669999999984, -90.426159], [42.538406999999964, -90.42613], [42.53965300000002, -90.426121], [42.539711000000004, -90.42612], [42.53988700000001, -90.426118], [42.53994600000003, -90.426118], [42.540723999999976, -90.426111], [42.54305699999997, -90.426093], [42.54383599999998, -90.42608800000001], [42.544284, -90.426083], [42.545629999999974, -90.426069], [42.54607899999999, -90.426065], [42.54634399999998, -90.426062], [42.54713900000002, -90.426055], [42.54740499999999, -90.426054], [42.54808899999996, -90.426048], [42.550142, -90.42603], [42.55082699999999, -90.426025], [42.55152500000003, -90.42602], [42.55362199999997, -90.426005], [42.55432099999999, -90.426001], [42.55508, -90.425995], [42.557359999999996, -90.425977], [42.558119999999946, -90.425972], [42.55950499999998, -90.425961], [42.563662000000015, -90.42593], [42.56504799999999, -90.425921], [42.56508400000002, -90.420035], [42.55806599999996, -90.419991], [42.558061999999985, -90.419387], [42.55801500000004, -90.415674], [42.557987999999966, -90.413574], [42.557954, -90.411792], [42.55794100000001, -90.409034], [42.55793099999997, -90.406811], [42.55792, -90.406595], [42.55087300000004, -90.40653], [42.550667999999995, -90.40654300000001], [42.550661000000005, -90.406368], [42.55069200000001, -90.401505], [42.55069200000001, -90.396252], [42.55069200000001, -90.395277], [42.550692999999995, -90.391894], [42.550692999999995, -90.388903], [42.550684000000004, -90.38708800000002], [42.55063100000001, -90.380145], [42.550636, -90.377744], [42.546464000000014, -90.377718], [42.54501100000002, -90.377742], [42.54338099999999, -90.377725], [42.54263599999999, -90.377717], [42.54255099999999, -90.377245], [42.54234700000001, -90.376995], [42.54220100000002, -90.377023], [42.541952000000016, -90.376865], [42.541615999999955, -90.376209], [42.54130500000002, -90.375988], [42.54097099999997, -90.375921], [42.54091000000004, -90.375858], [42.540721999999974, -90.375825], [42.54036799999999, -90.375635], [42.540248999999996, -90.375507], [42.539799000000016, -90.375085], [42.539143999999986, -90.374594], [42.538593000000006, -90.374416], [42.53818000000003, -90.37435400000001], [42.53790400000002, -90.374479], [42.537466999999964, -90.374719], [42.53738500000001, -90.375092], [42.53725500000005, -90.375541], [42.53700199999995, -90.375707], [42.53606099999996, -90.375926], [42.535716, -90.376175], [42.535326000000005, -90.37633], [42.53479700000005, -90.376487], [42.534244999999984, -90.376767], [42.533902000000026, -90.376831], [42.53334999999997, -90.3768], [42.532569999999964, -90.376773], [42.53231599999997, -90.376804], [42.531696000000025, -90.377208], [42.53123699999999, -90.37721000000002], [42.530983999999975, -90.37718], [42.53070900000001, -90.376964], [42.530295000000024, -90.376966], [42.529928, -90.377184], [42.52967399999997, -90.3774], [42.529511999999976, -90.378268], [42.529234999999986, -90.378485], [42.52774300000004, -90.378521], [42.52762700000002, -90.378645], [42.527328, -90.379172], [42.526410000000006, -90.379545], [42.525352999999996, -90.380044], [42.52487099999999, -90.3802], [42.524571000000066, -90.380386], [42.52330899999999, -90.380452], [42.52282499999998, -90.380794], [42.52239000000001, -90.380702], [42.522343000000006, -90.380641], [42.52174600000001, -90.380611], [42.52020599999998, -90.381977], [42.51944800000002, -90.38201], [42.518896, -90.381611], [42.51841399999999, -90.381365], [42.518136999999996, -90.381118], [42.51733399999996, -90.380874], [42.516965000000035, -90.380813], [42.51579499999998, -90.380786], [42.51533599999995, -90.380942], [42.51375099999998, -90.381566], [42.513552999999995, -90.381695], [42.513669, -90.378565], [42.51371000000001, -90.377962], [42.51371800000001, -90.377915], [42.51396199999999, -90.376401], [42.51400099999998, -90.376081], [42.51398999999999, -90.375845], [42.51397500000005, -90.375767], [42.513894000000015, -90.375535], [42.513763999999995, -90.375309], [42.513429999999985, -90.374886], [42.51319699999998, -90.374641], [42.512084, -90.373846], [42.51166099999996, -90.373534], [42.51144200000001, -90.373334], [42.51125499999997, -90.373098], [42.51109699999999, -90.372845], [42.51097200000004, -90.372568], [42.51090199999997, -90.372348], [42.51081700000002, -90.371962], [42.51078200000001, -90.371534], [42.51079399999999, -90.368498], [42.51077599999995, -90.368368], [42.51071600000002, -90.368195], [42.51065300000002, -90.368104], [42.51053100000003, -90.368006], [42.51043399999999, -90.367969], [42.510160999999954, -90.367936], [42.50852399999999, -90.367958], [42.507609000000016, -90.368004], [42.50744800000002, -90.368], [42.50737903028664, -90.36797637147403], [42.507177735223685, -90.42637696073612], [42.507177735321505, -90.42637696073628], [42.50898200000004, -90.426362]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_575dddfac5f7076621e5afec1e7777f5);
+        
+    
+        var popup_195a0e2e378f31101c7ce167818e26fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_314762a64a4aacef531f6774075bdfac = $(`<div id="html_314762a64a4aacef531f6774075bdfac" style="width: 100.0%; height: 100.0%;"><b>Lafayette - Wisconsin-CD02</b></div>`)[0];
+                popup_195a0e2e378f31101c7ce167818e26fb.setContent(html_314762a64a4aacef531f6774075bdfac);
+            
+        
+
+        polygon_348c9d23926371756fecab9fe16c3183.bindPopup(popup_195a0e2e378f31101c7ce167818e26fb)
+        ;
+
+        
+    
+    
+            var circle_marker_395d8a675d3209986ea3b436f6a0a051 = L.circleMarker(
+                [42.53207891092432, -90.39588963961465],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_575dddfac5f7076621e5afec1e7777f5);
+        
+    
+        var popup_e883ef065d928b9cb55fbe8a5c7f0ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bdc744f87e122e91ffbbae6e966009c = $(`<div id="html_6bdc744f87e122e91ffbbae6e966009c" style="width: 100.0%; height: 100.0%;"><b>Lafayette - Wisconsin-CD02</b></div>`)[0];
+                popup_e883ef065d928b9cb55fbe8a5c7f0ff1.setContent(html_6bdc744f87e122e91ffbbae6e966009c);
+            
+        
+
+        circle_marker_395d8a675d3209986ea3b436f6a0a051.bindPopup(popup_e883ef065d928b9cb55fbe8a5c7f0ff1)
+        ;
+
+        
+    
+    
+            circle_marker_395d8a675d3209986ea3b436f6a0a051.bindTooltip(
+                `<div>
+                     Lafayette - Wisconsin-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b69016f38f64730e09c7b76a88883f31 = L.polygon(
+                [[42.507111000000016, -90.37067300000001], [42.507063, -90.375127], [42.50705300000003, -90.37627], [42.50700500000001, -90.381884], [42.506931000000016, -90.390571], [42.50692200000003, -90.393953], [42.50691499999998, -90.395704], [42.50688900000001, -90.39913], [42.50688900000004, -90.401686], [42.50688900000001, -90.401703], [42.50689099999999, -90.405927], [42.50702299999999, -90.41865], [42.50703099999999, -90.41943], [42.50707599999998, -90.426378], [42.50717299999998, -90.426377], [42.507177735223685, -90.42637696073709], [42.507177735223685, -90.42637696073612], [42.50737903028664, -90.36797637147403], [42.50733999999997, -90.367963], [42.50721900000002, -90.369397], [42.507111000000016, -90.37067300000001]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_575dddfac5f7076621e5afec1e7777f5);
+        
+    
+        var popup_269b2967f0b1c7a4ba65d457d4c1adf0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20e360948bfd67db120ae464dd1b8fa8 = $(`<div id="html_20e360948bfd67db120ae464dd1b8fa8" style="width: 100.0%; height: 100.0%;"><b>Lafayette - Wisconsin-CD16</b></div>`)[0];
+                popup_269b2967f0b1c7a4ba65d457d4c1adf0.setContent(html_20e360948bfd67db120ae464dd1b8fa8);
+            
+        
+
+        polygon_b69016f38f64730e09c7b76a88883f31.bindPopup(popup_269b2967f0b1c7a4ba65d457d4c1adf0)
+        ;
+
+        
+    
+    
+            var circle_marker_04caa1e2f63309e378bb7e1c8a8c8adc = L.circleMarker(
+                [42.50706026193971, -90.39582029966417],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_575dddfac5f7076621e5afec1e7777f5);
+        
+    
+        var popup_f617a294e81fa5368fbe22ebf0bd3ab4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3e3d7d87532ba1a1f069bca0d42671da = $(`<div id="html_3e3d7d87532ba1a1f069bca0d42671da" style="width: 100.0%; height: 100.0%;"><b>Lafayette - Wisconsin-CD16</b></div>`)[0];
+                popup_f617a294e81fa5368fbe22ebf0bd3ab4.setContent(html_3e3d7d87532ba1a1f069bca0d42671da);
+            
+        
+
+        circle_marker_04caa1e2f63309e378bb7e1c8a8c8adc.bindPopup(popup_f617a294e81fa5368fbe22ebf0bd3ab4)
+        ;
+
+        
+    
+    
+            circle_marker_04caa1e2f63309e378bb7e1c8a8c8adc.bindTooltip(
+                `<div>
+                     Lafayette - Wisconsin-CD16
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

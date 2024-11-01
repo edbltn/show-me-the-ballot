@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_77b3e33959719fee812418fe03e22492 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - New Jersey-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - New Jersey-CD08</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - New Jersey-CD10</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - New Jersey-CD08</p>
+            </div>
+    
+            <div class="folium-map" id="map_77b3e33959719fee812418fe03e22492" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_77b3e33959719fee812418fe03e22492 = L.map(
+                "map_77b3e33959719fee812418fe03e22492",
+                {
+                    center: [40.753845035279106, -74.18986808177273],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_59b9da750a6b56a43f48e290baa1ee1c = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_59b9da750a6b56a43f48e290baa1ee1c.addTo(map_77b3e33959719fee812418fe03e22492);
+        
+    
+            var polygon_56d7312a4dc49ec553bf897d5837c470 = L.polygon(
+                [[40.751014, -74.201939], [40.750890000000076, -74.201509], [40.750761, -74.201058], [40.75235199999999, -74.200286], [40.752432000000056, -74.200221], [40.75250699999995, -74.200151], [40.75417600000005, -74.199326], [40.75406000000001, -74.198918], [40.75393999999999, -74.198498], [40.754287999999995, -74.198324], [40.75471000000001, -74.198116], [40.75491300000004, -74.198015], [40.755801999999996, -74.19758], [40.75617199999997, -74.197361], [40.75666399999999, -74.197058], [40.75718499999999, -74.196735], [40.75705499999995, -74.19629], [40.75904199999994, -74.195257], [40.75936200000001, -74.195097], [40.759231000000035, -74.194663], [40.761178000000065, -74.193648], [40.76171099999993, -74.193373], [40.763824999999976, -74.193874], [40.76373000000003, -74.193595], [40.763401999999964, -74.192489], [40.76522300000006, -74.191537], [40.767312000000025, -74.19044900000002], [40.76796600000002, -74.190109], [40.76863399999998, -74.189759], [40.75557499999997, -74.19252], [40.75418585799879, -74.1843083057362], [40.753859, -74.18419], [40.75329399999997, -74.184061], [40.75289399999999, -74.18398300000001], [40.75256000000004, -74.183907], [40.752138000000045, -74.183852], [40.751942000000014, -74.18384], [40.75171499999998, -74.183885], [40.751462000000025, -74.18403], [40.75120699999996, -74.184231], [40.751125, -74.18431800000002], [40.751027000000015, -74.18442500000002], [40.75086900000003, -74.184599], [40.75080199999997, -74.184687], [40.750394, -74.18521800000002], [40.75024800000003, -74.18539600000001], [40.75009300000005, -74.18556], [40.74992900000003, -74.185708], [40.74973299999998, -74.185859], [40.74955300000002, -74.185973], [40.74936799999999, -74.186069], [40.74920599999995, -74.186138], [40.74897300000001, -74.186212], [40.74876100000004, -74.186256], [40.74856199999997, -74.186277], [40.748363000000026, -74.186279], [40.74813599999998, -74.186259], [40.747911000000016, -74.186214], [40.74778500000006, -74.186194], [40.74761399999999, -74.186159], [40.74742200000002, -74.18609900000001], [40.74730700000004, -74.18605100000002], [40.74737299999998, -74.18625400000002], [40.74757900000002, -74.186854], [40.74805399999995, -74.188233], [40.747112, -74.188884], [40.74632000000004, -74.189478], [40.746209, -74.189586], [40.74607799999998, -74.189653], [40.74591499999997, -74.18970500000002], [40.745790999999954, -74.189733], [40.745576, -74.189758], [40.74542300000001, -74.189743], [40.743760999999964, -74.190636], [40.742613999999975, -74.19122800000001], [40.742890999999965, -74.192132], [40.74316599999997, -74.193028], [40.74344099999999, -74.193923], [40.743266000000034, -74.19402], [40.743140000000004, -74.19409], [40.74321699999996, -74.194255], [40.743315999999986, -74.19459], [40.74325799999997, -74.194621], [40.743403999999984, -74.19512100000001], [40.74343399999996, -74.195225], [40.74364099999999, -74.195948], [40.743706000000024, -74.196029], [40.743773999999966, -74.196113], [40.743820999999976, -74.19628300000001], [40.74374499999996, -74.196321], [40.74388600000001, -74.19683000000002], [40.74390999999998, -74.196918], [40.743942000000054, -74.197034], [40.744038999999965, -74.197372], [40.74413500000001, -74.197709], [40.74416500000001, -74.197811], [40.74419500000001, -74.19791100000002], [40.74439200000003, -74.198587], [40.74446199999999, -74.198552], [40.744481, -74.198645], [40.744605, -74.198584], [40.74475899999994, -74.198509], [40.74501000000003, -74.19938700000002], [40.74526599999998, -74.20028], [40.747345, -74.199245], [40.749506, -74.198143], [40.74976300000001, -74.199034], [40.750015000000026, -74.199905], [40.75026799999999, -74.200784], [40.75036500000003, -74.201135], [40.750521, -74.201695], [40.75065300000002, -74.202174], [40.75075699999997, -74.202066], [40.75078700000003, -74.202051], [40.751014, -74.201939]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_77b3e33959719fee812418fe03e22492);
+        
+    
+        var popup_11bcfc75181375ad14e14da40c5968e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_27864abd5161d093528343b101a8a94f = $(`<div id="html_27864abd5161d093528343b101a8a94f" style="width: 100.0%; height: 100.0%;"><b>Essex - New Jersey-CD10</b></div>`)[0];
+                popup_11bcfc75181375ad14e14da40c5968e8.setContent(html_27864abd5161d093528343b101a8a94f);
+            
+        
+
+        polygon_56d7312a4dc49ec553bf897d5837c470.bindPopup(popup_11bcfc75181375ad14e14da40c5968e8)
+        ;
+
+        
+    
+    
+            var circle_marker_a196d1f4dcaa39c6f1288f2c47e43b2b = L.circleMarker(
+                [40.75012883354782, -74.19284988091945],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_77b3e33959719fee812418fe03e22492);
+        
+    
+        var popup_6a51d2e52e5888508e89dc88f061e8de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5716be8a0f8f65fe47a11bcce18c6fea = $(`<div id="html_5716be8a0f8f65fe47a11bcce18c6fea" style="width: 100.0%; height: 100.0%;"><b>Essex - New Jersey-CD10</b></div>`)[0];
+                popup_6a51d2e52e5888508e89dc88f061e8de.setContent(html_5716be8a0f8f65fe47a11bcce18c6fea);
+            
+        
+
+        circle_marker_a196d1f4dcaa39c6f1288f2c47e43b2b.bindPopup(popup_6a51d2e52e5888508e89dc88f061e8de)
+        ;
+
+        
+    
+    
+            circle_marker_a196d1f4dcaa39c6f1288f2c47e43b2b.bindTooltip(
+                `<div>
+                     Essex - New Jersey-CD10
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_c4713f7398a30124c62edf5235ea0fa5 = L.polygon(
+                [[40.76856999999998, -74.189701], [40.76827700000002, -74.189454], [40.76855400000003, -74.189308], [40.768751999999985, -74.189242], [40.76877756962215, -74.189230886879], [40.77337539431529, -74.17231266705703], [40.77310900000004, -74.172452], [40.77104500000001, -74.17353100000001], [40.77047399999993, -74.17382900000001], [40.76961799999998, -74.174276], [40.768096, -74.17507], [40.76439600000002, -74.177], [40.76405400000001, -74.177182], [40.76273999999997, -74.177883], [40.762633000000015, -74.177938], [40.76407199999998, -74.178917], [40.76431199999998, -74.179081], [40.76436300000005, -74.179116], [40.765381, -74.179814], [40.765079000000014, -74.180016], [40.76502899999996, -74.180048], [40.76442200000007, -74.180455], [40.763685, -74.18097600000002], [40.76314600000001, -74.181399], [40.762762000000016, -74.181777], [40.76241499999997, -74.18212], [40.76162799999998, -74.183023], [40.761232000000064, -74.183399], [40.760863999999984, -74.183695], [40.76046799999997, -74.183948], [40.75981800000001, -74.18430700000002], [40.759192000000006, -74.184582], [40.758648999999984, -74.184763], [40.758498999999965, -74.184818], [40.757874999999956, -74.185037], [40.75727200000003, -74.185165], [40.75685900000001, -74.185209], [40.756215999999995, -74.18517], [40.755994000000015, -74.185122], [40.755850999999986, -74.18509100000001], [40.755426000000014, -74.184933], [40.75428999999998, -74.184346], [40.75418585799879, -74.1843083057362], [40.75557499999997, -74.19252], [40.76863399999998, -74.189759], [40.76856999999998, -74.189701]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_77b3e33959719fee812418fe03e22492);
+        
+    
+        var popup_50f7c71a6b2417c42d7632dfed30043d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_807314ee7021560133c54a3cb597db5c = $(`<div id="html_807314ee7021560133c54a3cb597db5c" style="width: 100.0%; height: 100.0%;"><b>Essex - New Jersey-CD08</b></div>`)[0];
+                popup_50f7c71a6b2417c42d7632dfed30043d.setContent(html_807314ee7021560133c54a3cb597db5c);
+            
+        
+
+        polygon_c4713f7398a30124c62edf5235ea0fa5.bindPopup(popup_50f7c71a6b2417c42d7632dfed30043d)
+        ;
+
+        
+    
+    
+            var circle_marker_10b50b72cbf0a6e1bd992e52df4e747a = L.circleMarker(
+                [40.76313553960731, -74.18241358390591],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_77b3e33959719fee812418fe03e22492);
+        
+    
+        var popup_f0821f0321eb03d6ac5ba1c1c945873a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd23cbf51076f08a598ebf38f7955838 = $(`<div id="html_bd23cbf51076f08a598ebf38f7955838" style="width: 100.0%; height: 100.0%;"><b>Essex - New Jersey-CD08</b></div>`)[0];
+                popup_f0821f0321eb03d6ac5ba1c1c945873a.setContent(html_bd23cbf51076f08a598ebf38f7955838);
+            
+        
+
+        circle_marker_10b50b72cbf0a6e1bd992e52df4e747a.bindPopup(popup_f0821f0321eb03d6ac5ba1c1c945873a)
+        ;
+
+        
+    
+    
+            circle_marker_10b50b72cbf0a6e1bd992e52df4e747a.bindTooltip(
+                `<div>
+                     Essex - New Jersey-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

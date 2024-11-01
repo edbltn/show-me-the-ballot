@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_826e2ec99577de59b76f5dd2b554e922 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dallas - Texas-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dallas - Texas-CD05</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dallas - Texas-CD05</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Dallas - Texas-CD05</p>
+            </div>
+    
+            <div class="folium-map" id="map_826e2ec99577de59b76f5dd2b554e922" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_826e2ec99577de59b76f5dd2b554e922 = L.map(
+                "map_826e2ec99577de59b76f5dd2b554e922",
+                {
+                    center: [32.967631884175546, -96.62587294575971],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_d948e479202011bf764573fb3de7af7f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_d948e479202011bf764573fb3de7af7f.addTo(map_826e2ec99577de59b76f5dd2b554e922);
+        
+    
+            var polygon_b851c8c2130d5cf879bbb2e162a906a4 = L.polygon(
+                [[32.98469400000002, -96.640695], [32.984670000000015, -96.638886], [32.984604000000004, -96.634129], [32.984603995803575, -96.63412850221303], [32.98458013485181, -96.63243925729749], [32.984567999999975, -96.631931], [32.98454700000003, -96.630226], [32.984533999999954, -96.62938], [32.984531000000025, -96.629198], [32.984522999999996, -96.628658], [32.984515999999985, -96.62816500000001], [32.984460999999996, -96.624219], [32.98445, -96.623501], [32.98421300000003, -96.623566], [32.984211, -96.62348], [32.984260000000006, -96.623477], [32.98432399999998, -96.623468], [32.98437499999999, -96.623461], [32.98437199999997, -96.623438], [32.98436900000002, -96.62342], [32.98436399999998, -96.623382], [32.98435600000001, -96.623319], [32.98435200000002, -96.62328], [32.98435000000004, -96.623234], [32.98434899999998, -96.623191], [32.98434899999998, -96.623149], [32.984351000000004, -96.623103], [32.984353, -96.623063], [32.98435699999999, -96.623021], [32.98436200000001, -96.622979], [32.984368999999994, -96.622937], [32.98437600000002, -96.622895], [32.98438499999999, -96.622854], [32.98439500000001, -96.622813], [32.98440100000001, -96.622793], [32.98440599999999, -96.622772], [32.98441700000003, -96.622736], [32.98441100000001, -96.622717], [32.98419400000002, -96.622586], [32.98398899999997, -96.622467], [32.98393199999995, -96.622434], [32.98404600000003, -96.622128], [32.98419400000001, -96.621819], [32.98431499999998, -96.621597], [32.984306999999994, -96.621456], [32.98436799999997, -96.621357], [32.98440100000001, -96.621165], [32.98441200000003, -96.621047], [32.98439600000001, -96.61953], [32.98439480234932, -96.61937833694505], [32.98438167247333, -96.61845701443741], [32.984372999999984, -96.618048], [32.98430899999999, -96.613367], [32.98420600000001, -96.613371], [32.984021, -96.613377], [32.98377499999998, -96.61338600000002], [32.98352500000002, -96.613392], [32.98341300000001, -96.613392], [32.982265999999996, -96.613404], [32.98074699999999, -96.613429], [32.97996499999999, -96.613442], [32.97912599999998, -96.613455], [32.97829000000003, -96.61347000000002], [32.977880000000006, -96.613478], [32.97743500000001, -96.613487], [32.97700499999997, -96.613495], [32.97616300000003, -96.613514], [32.97556899999995, -96.61353], [32.97526500000002, -96.613508], [32.974933000000014, -96.613461], [32.97465899999999, -96.613387], [32.97441300000003, -96.613288], [32.97409900000001, -96.613154], [32.97386800000002, -96.613004], [32.97368899999997, -96.612863], [32.973479999999995, -96.612662], [32.97330600000006, -96.612476], [32.97270199999998, -96.611778], [32.97264499999996, -96.611714], [32.97199499999998, -96.61095400000002], [32.97189899999998, -96.61084], [32.971747000000015, -96.610669], [32.97168199999998, -96.61074900000001], [32.97141800000002, -96.611066], [32.969304999999984, -96.608637], [32.96957099999995, -96.608319], [32.96965800000003, -96.608213], [32.96949900000003, -96.608008], [32.96934399999999, -96.607828], [32.96905400000003, -96.607505], [32.96881499999999, -96.607231], [32.968664999999945, -96.607432], [32.96861999999999, -96.607493], [32.96785499999999, -96.608512], [32.966749, -96.60966200000001], [32.96614100000002, -96.61024], [32.96609200000002, -96.610288], [32.965519999999984, -96.610768], [32.96389700000002, -96.611924], [32.96335600000001, -96.612288], [32.96158300000002, -96.613507], [32.959982, -96.614612], [32.96001299999998, -96.614809], [32.96003300000001, -96.614986], [32.957614, -96.616758], [32.95476299999998, -96.61843], [32.95297000000002, -96.619066], [32.95157400000005, -96.619501], [32.95142300000001, -96.619554], [32.95132499999998, -96.619588], [32.95110699999999, -96.619664], [32.95149300000002, -96.6203], [32.95242300000001, -96.621823], [32.952592999999965, -96.622104], [32.95395399999999, -96.62435], [32.95443800000001, -96.625151], [32.95460700000001, -96.625428], [32.955427000000014, -96.626846], [32.95642599999997, -96.628407], [32.95726, -96.629816], [32.957136999999996, -96.629966], [32.95706200000002, -96.63006700000001], [32.957168999999965, -96.630258], [32.957536, -96.630909], [32.958239000000006, -96.632021], [32.9591, -96.633345], [32.959907000000015, -96.63456700000002], [32.960631, -96.635565], [32.96155299999999, -96.636739], [32.96289500000003, -96.638287], [32.96464200000001, -96.640429], [32.96548200000002, -96.641527], [32.96564200000001, -96.641742], [32.96583399999998, -96.641986], [32.965967999999975, -96.642159], [32.96577699999998, -96.642271], [32.965524000000016, -96.642454], [32.96533400000003, -96.642573], [32.965002000000055, -96.642892], [32.964396, -96.6436], [32.963424599571134, -96.64473611197653], [32.98469900000003, -96.640872], [32.98469400000002, -96.640695]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_826e2ec99577de59b76f5dd2b554e922);
+        
+    
+        var popup_d319432e4ad1de80f9465398e55a38fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24f0ff2dfbedc795aa2348b6560b43a1 = $(`<div id="html_24f0ff2dfbedc795aa2348b6560b43a1" style="width: 100.0%; height: 100.0%;"><b>Dallas - Texas-CD05</b></div>`)[0];
+                popup_d319432e4ad1de80f9465398e55a38fe.setContent(html_24f0ff2dfbedc795aa2348b6560b43a1);
+            
+        
+
+        polygon_b851c8c2130d5cf879bbb2e162a906a4.bindPopup(popup_d319432e4ad1de80f9465398e55a38fe)
+        ;
+
+        
+    
+    
+            var circle_marker_9ea403aabcf57410a21980e216d553b6 = L.circleMarker(
+                [32.973483246189154, -96.62186603652356],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_826e2ec99577de59b76f5dd2b554e922);
+        
+    
+        var popup_e3447546067c28e8e35f87a0bb3d6dbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a181d27263bc49cea1b0873b642f0127 = $(`<div id="html_a181d27263bc49cea1b0873b642f0127" style="width: 100.0%; height: 100.0%;"><b>Dallas - Texas-CD05</b></div>`)[0];
+                popup_e3447546067c28e8e35f87a0bb3d6dbe.setContent(html_a181d27263bc49cea1b0873b642f0127);
+            
+        
+
+        circle_marker_9ea403aabcf57410a21980e216d553b6.bindPopup(popup_e3447546067c28e8e35f87a0bb3d6dbe)
+        ;
+
+        
+    
+    
+            circle_marker_9ea403aabcf57410a21980e216d553b6.bindTooltip(
+                `<div>
+                     Dallas - Texas-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_501454bfa63d63e98ba4444989f58cdf = L.polygon(
+                [[32.94046700000001, -96.648302], [32.94003600000002, -96.648316], [32.939140999999935, -96.648344], [32.93823999999996, -96.64835], [32.93734100000003, -96.648356], [32.93642800000004, -96.648363], [32.93551400000002, -96.648369], [32.93504500000001, -96.648361], [32.93457899999999, -96.648363], [32.933636, -96.648357], [32.93272999999999, -96.648348], [32.93117100000002, -96.648319], [32.93102400000002, -96.648319], [32.931012999999965, -96.648577], [32.93098499999998, -96.64874200000001], [32.93093700000001, -96.648914], [32.930884, -96.649057], [32.930822000000035, -96.649177], [32.930720999999956, -96.649326], [32.93063899999997, -96.649566], [32.93059300000003, -96.650025], [32.93059700000002, -96.650057], [32.93059235775269, -96.65069512758636], [32.940449978689074, -96.64890653717559], [32.94046700000001, -96.648302]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_826e2ec99577de59b76f5dd2b554e922);
+        
+    
+        var popup_f468cfcba35983e60ab853d4743b30e4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b84897dc7cbbb37c2628c29c8d5f680 = $(`<div id="html_9b84897dc7cbbb37c2628c29c8d5f680" style="width: 100.0%; height: 100.0%;"><b>Dallas - Texas-CD05</b></div>`)[0];
+                popup_f468cfcba35983e60ab853d4743b30e4.setContent(html_9b84897dc7cbbb37c2628c29c8d5f680);
+            
+        
+
+        polygon_501454bfa63d63e98ba4444989f58cdf.bindPopup(popup_f468cfcba35983e60ab853d4743b30e4)
+        ;
+
+        
+    
+    
+            var circle_marker_f72f5ef64e2b7cf4a4f93aa7ea3c52e6 = L.circleMarker(
+                [32.93416209345767, -96.64879246659048],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_826e2ec99577de59b76f5dd2b554e922);
+        
+    
+        var popup_847073b1b002a4446d444becafc8f1c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78aa9bacdb08e6fe6f8553c24c2f0aae = $(`<div id="html_78aa9bacdb08e6fe6f8553c24c2f0aae" style="width: 100.0%; height: 100.0%;"><b>Dallas - Texas-CD05</b></div>`)[0];
+                popup_847073b1b002a4446d444becafc8f1c9.setContent(html_78aa9bacdb08e6fe6f8553c24c2f0aae);
+            
+        
+
+        circle_marker_f72f5ef64e2b7cf4a4f93aa7ea3c52e6.bindPopup(popup_847073b1b002a4446d444becafc8f1c9)
+        ;
+
+        
+    
+    
+            circle_marker_f72f5ef64e2b7cf4a4f93aa7ea3c52e6.bindTooltip(
+                `<div>
+                     Dallas - Texas-CD05
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_635043c6250759175b21c1d4856653e1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lebanon - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lebanon - Pennsylvania-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lebanon - Pennsylvania-CD11</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Lebanon - Pennsylvania-CD09</p>
+            </div>
+    
+            <div class="folium-map" id="map_635043c6250759175b21c1d4856653e1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_635043c6250759175b21c1d4856653e1 = L.map(
+                "map_635043c6250759175b21c1d4856653e1",
+                {
+                    center: [40.320073602326865, -76.18547580091457],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_74bf4418a06e61872fb1f0582ec9fb91 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_74bf4418a06e61872fb1f0582ec9fb91.addTo(map_635043c6250759175b21c1d4856653e1);
+        
+    
+            var polygon_01fb0bab8a8e857ca771c51aac24319c = L.polygon(
+                [[40.31569500000001, -76.151475], [40.315382999999926, -76.152296], [40.31504699999996, -76.15318], [40.31310300000001, -76.158298], [40.31245599999998, -76.160004], [40.31245100000001, -76.160018], [40.31216700000002, -76.160762], [40.311260999999966, -76.16315], [40.308240265207615, -76.1711043649334], [40.31597099999997, -76.151215], [40.31569500000001, -76.151475]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_635043c6250759175b21c1d4856653e1);
+        
+    
+        var popup_0b1e877779faaebabdcabd7c11257ac6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99f2d813bc2a2a1175ecf0b17de4c731 = $(`<div id="html_99f2d813bc2a2a1175ecf0b17de4c731" style="width: 100.0%; height: 100.0%;"><b>Lebanon - Pennsylvania-CD11</b></div>`)[0];
+                popup_0b1e877779faaebabdcabd7c11257ac6.setContent(html_99f2d813bc2a2a1175ecf0b17de4c731);
+            
+        
+
+        polygon_01fb0bab8a8e857ca771c51aac24319c.bindPopup(popup_0b1e877779faaebabdcabd7c11257ac6)
+        ;
+
+        
+    
+    
+            var circle_marker_6b1c5743c6c711b6bb03000020235ebc = L.circleMarker(
+                [40.313406296837044, -76.15754339681213],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_635043c6250759175b21c1d4856653e1);
+        
+    
+        var popup_121ad0881bb42bac6bc4cb5ef5eb7331 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9286f5b1a43452abd9d606bb8017223b = $(`<div id="html_9286f5b1a43452abd9d606bb8017223b" style="width: 100.0%; height: 100.0%;"><b>Lebanon - Pennsylvania-CD11</b></div>`)[0];
+                popup_121ad0881bb42bac6bc4cb5ef5eb7331.setContent(html_9286f5b1a43452abd9d606bb8017223b);
+            
+        
+
+        circle_marker_6b1c5743c6c711b6bb03000020235ebc.bindPopup(popup_121ad0881bb42bac6bc4cb5ef5eb7331)
+        ;
+
+        
+    
+    
+            circle_marker_6b1c5743c6c711b6bb03000020235ebc.bindTooltip(
+                `<div>
+                     Lebanon - Pennsylvania-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_819828897c80a2ff63fe767571f12c84 = L.polygon(
+                [[40.334082999999964, -76.1736], [40.333826000000016, -76.173291], [40.327636999999996, -76.165854], [40.327624999999976, -76.165841], [40.32473699999996, -76.16238], [40.32435799999998, -76.161987], [40.324317000000015, -76.16194], [40.32430399999999, -76.16193000000001], [40.324137000000036, -76.161729], [40.320949, -76.157883], [40.31654000000005, -76.15199400000002], [40.316368000000004, -76.151752], [40.31597099999997, -76.151215], [40.308240265207615, -76.1711043649334], [40.307676000000015, -76.17259000000001], [40.306480999999984, -76.175737], [40.30563199999996, -76.177929], [40.303088999999936, -76.18450700000001], [40.30224199999999, -76.1867], [40.301388, -76.188913], [40.29882600000003, -76.195552], [40.29797200000003, -76.197765], [40.29766399999998, -76.198559], [40.29674400000001, -76.200941], [40.296437000000005, -76.201736], [40.296466, -76.201782], [40.29651900000003, -76.201843], [40.29657799999997, -76.201894], [40.296683999999985, -76.201964], [40.29677299999994, -76.202006], [40.29684699999995, -76.202028], [40.296965, -76.202044], [40.29704000000003, -76.202046], [40.29710600000001, -76.202039], [40.29718699999999, -76.202031], [40.29728200000004, -76.20201], [40.297538, -76.20193200000001], [40.29760599999998, -76.201926], [40.29772700000003, -76.201929], [40.29783999999997, -76.201942], [40.29831399999998, -76.202047], [40.298498999999985, -76.202103], [40.29869099999997, -76.20218300000002], [40.299232, -76.202468], [40.29930900000003, -76.202499], [40.299578000000054, -76.20261100000002], [40.299647000000014, -76.202626], [40.29974699999998, -76.202639], [40.29987300000004, -76.20264], [40.29998299999998, -76.202634], [40.30006000000004, -76.20262], [40.30000099999999, -76.202909], [40.30004700000006, -76.20306900000001], [40.302206999999996, -76.210657], [40.30659199999999, -76.20874], [40.30985099999998, -76.20863600000001], [40.310562000000026, -76.208349], [40.31115900000002, -76.208351], [40.311706000000015, -76.208353], [40.31217300000001, -76.208354], [40.32098100000002, -76.200799], [40.320222000000015, -76.198857], [40.32218100000005, -76.197086], [40.32203400000001, -76.19682], [40.32443900000004, -76.194709], [40.324499999999965, -76.194827], [40.328257999999984, -76.191419], [40.32765799999997, -76.190038], [40.329818999999965, -76.188042], [40.329480000000004, -76.187323], [40.330524000000025, -76.186599], [40.330379000000015, -76.186091], [40.33151600000002, -76.185183], [40.331856000000016, -76.185343], [40.332022999999936, -76.185432], [40.33218000000002, -76.185533], [40.33230499999997, -76.18564], [40.33233199999996, -76.18566800000002], [40.33242200000005, -76.18576000000002], [40.332530999999996, -76.185899], [40.33262200000001, -76.186042], [40.33271500000001, -76.186215], [40.33281999999998, -76.18644], [40.332900999999964, -76.186647], [40.33302199999995, -76.187066], [40.33308300000002, -76.187244], [40.33316800000001, -76.18744], [40.333271000000046, -76.187636], [40.33356099999997, -76.18815], [40.333597999999995, -76.188216], [40.33406299999997, -76.18905200000002], [40.334103999999996, -76.188597], [40.334176999999976, -76.187961], [40.33423000000005, -76.187587], [40.334279999999985, -76.187344], [40.334326000000026, -76.187175], [40.334341999999985, -76.187119], [40.334679999999985, -76.18613500000001], [40.334882000000015, -76.1856], [40.334982000000025, -76.18535], [40.335087000000044, -76.185027], [40.33529500000003, -76.184282], [40.33538099999996, -76.183938], [40.33544199999999, -76.18367000000002], [40.33554700000003, -76.183292], [40.33560200000003, -76.183148], [40.335656000000014, -76.182992], [40.335680000000025, -76.18288], [40.33569100000002, -76.182735], [40.33567900000002, -76.182476], [40.33563900000001, -76.181699], [40.335624999999986, -76.181417], [40.33558900000001, -76.180888], [40.33558399999997, -76.180626], [40.33559599999997, -76.18046200000002], [40.33561799999998, -76.180334], [40.335635999999965, -76.18026400000001], [40.335695, -76.180063], [40.335772999999996, -76.17983], [40.33598699999997, -76.179192], [40.33613399999992, -76.178755], [40.33621199999998, -76.178467], [40.33631799999997, -76.178037], [40.33639600000005, -76.177628], [40.336429000000024, -76.17740300000001], [40.33644900000001, -76.177232], [40.33646699999999, -76.177085], [40.33653500000001, -76.176661], [40.33654900000003, -76.176567], [40.33650899999997, -76.176519], [40.334082999999964, -76.1736]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_635043c6250759175b21c1d4856653e1);
+        
+    
+        var popup_45e011444463cd51f101c52484ecdd2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af0d655540b95aeec0ee6658544afef5 = $(`<div id="html_af0d655540b95aeec0ee6658544afef5" style="width: 100.0%; height: 100.0%;"><b>Lebanon - Pennsylvania-CD09</b></div>`)[0];
+                popup_45e011444463cd51f101c52484ecdd2d.setContent(html_af0d655540b95aeec0ee6658544afef5);
+            
+        
+
+        polygon_819828897c80a2ff63fe767571f12c84.bindPopup(popup_45e011444463cd51f101c52484ecdd2d)
+        ;
+
+        
+    
+    
+            var circle_marker_ec15062df5f3d31b43fb0f26e602c8ae = L.circleMarker(
+                [40.32063345240616, -76.18782126996133],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_635043c6250759175b21c1d4856653e1);
+        
+    
+        var popup_e5e9922f768ac1f58cd5a06155386e38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_124cdd37a0959c98909ce159759af030 = $(`<div id="html_124cdd37a0959c98909ce159759af030" style="width: 100.0%; height: 100.0%;"><b>Lebanon - Pennsylvania-CD09</b></div>`)[0];
+                popup_e5e9922f768ac1f58cd5a06155386e38.setContent(html_124cdd37a0959c98909ce159759af030);
+            
+        
+
+        circle_marker_ec15062df5f3d31b43fb0f26e602c8ae.bindPopup(popup_e5e9922f768ac1f58cd5a06155386e38)
+        ;
+
+        
+    
+    
+            circle_marker_ec15062df5f3d31b43fb0f26e602c8ae.bindTooltip(
+                `<div>
+                     Lebanon - Pennsylvania-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

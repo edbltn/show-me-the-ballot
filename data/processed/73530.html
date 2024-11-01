@@ -1,0 +1,1162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_bc9960080df714855e3248b958312cc4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f58231;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #911eb4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #42d4f4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #f032e6;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #bfef45;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            
+                <p><i style="background: #fabed4;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Tillman - Oklahoma-CD13</p>
+            </div>
+    
+            <div class="folium-map" id="map_bc9960080df714855e3248b958312cc4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_bc9960080df714855e3248b958312cc4 = L.map(
+                "map_bc9960080df714855e3248b958312cc4",
+                {
+                    center: [34.244471308409906, -99.04779644692397],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_082f198f9e81439823ca21a94653cb27 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_082f198f9e81439823ca21a94653cb27.addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+            var polygon_c4d8cc1d1bf3b0f29ae9d8c47ebbf774 = L.polygon(
+                [[34.160904000000016, -98.872092], [34.161338999999984, -98.871816], [34.163011999999995, -98.871211], [34.16349300000002, -98.871157], [34.165027000000016, -98.871543], [34.16507300000003, -98.871626], [34.16525599999999, -98.871654], [34.16589700000002, -98.87209500000002], [34.166584, -98.872922], [34.167293000000036, -98.874246], [34.16752200000002, -98.874849], [34.16760199999998, -98.875346], [34.167705000000005, -98.87606], [34.16761399999998, -98.8773], [34.167271999999954, -98.879367], [34.167271999999954, -98.88041500000001], [34.16752230537379, -98.8833461524187], [34.20368599999997, -98.94022], [34.20437300000001, -98.941213], [34.20506000000001, -98.94245300000001], [34.20622799999999, -98.943804], [34.20728200000002, -98.945404], [34.20886199999999, -98.947141], [34.209090999999965, -98.947802], [34.20922900000004, -98.948685], [34.20999500000002, -98.949673], [34.21019200000003, -98.949834], [34.211269999999985, -98.950161], [34.21157799999999, -98.95035], [34.211862999999994, -98.95067], [34.212189000000016, -98.951284], [34.212496999999985, -98.952395], [34.21255399999998, -98.952593], [34.212900999999995, -98.95380700000001], [34.213704000000035, -98.958357], [34.213635999999994, -98.95904600000001], [34.21327200000001, -98.959984], [34.212886000000005, -98.960673], [34.21183800000003, -98.961941], [34.211176999999985, -98.962189], [34.209694000000006, -98.962216], [34.209168999999974, -98.96205], [34.20627199999996, -98.961967], [34.20547007450744, -98.96214779257988], [34.20664978535656, -98.97664886682132], [34.20733800000003, -98.97655400000001], [34.207884999999955, -98.97661], [34.208204999999985, -98.976748], [34.20868400000001, -98.977217], [34.20916399999997, -98.97788], [34.20968900000003, -98.978349], [34.210123, -98.978569], [34.211650999999975, -98.979066], [34.212357999999995, -98.979453], [34.213043000000035, -98.979729], [34.213225999999985, -98.979729], [34.21343100000002, -98.979895], [34.21447999999999, -98.980171], [34.21573500000001, -98.980695], [34.21662599999999, -98.980696], [34.21705900000001, -98.980917], [34.21744699999999, -98.981248], [34.218430000000026, -98.982737], [34.21934299999995, -98.983869], [34.220417000000026, -98.985662], [34.22108099999999, -98.987179], [34.22131000000005, -98.988172], [34.221494, -98.990738], [34.221427000000006, -98.991703], [34.22086099999998, -98.992983], [34.220243000000025, -98.994377], [34.21965200000001, -98.995838], [34.21915100000004, -98.996334], [34.21865000000001, -98.997327], [34.218172, -98.998595], [34.218036000000005, -98.999532], [34.21760299999999, -99.000237], [34.217671999999986, -99.000592], [34.217535999999996, -99.000646], [34.21671500000003, -99.000632], [34.21559899999996, -99.00154900000001], [34.215394000000025, -99.00188], [34.21530500000002, -99.002873], [34.214895, -99.003867], [34.214417999999974, -99.004584], [34.21414500000002, -99.004695], [34.213552, -99.00464], [34.213255000000004, -99.004502], [34.212343, -99.004392], [34.211954000000006, -99.004198], [34.211223, -99.003316], [34.21051300000003, -99.001828], [34.210352999999984, -99.001745], [34.209964999999976, -99.001745], [34.20937399999999, -99.002242], [34.20877004186048, -99.0030049623031], [34.205329804773, -99.02857632639673], [34.20542899999999, -99.029426], [34.20685399999999, -99.035379], [34.20690099999999, -99.03615], [34.20683199999996, -99.036509], [34.20644599999996, -99.037336], [34.205968, -99.037777], [34.20546699999997, -99.038135], [34.20466900000001, -99.03888], [34.20400799999999, -99.039045], [34.20390903658412, -99.03912405031706], [34.20127416889491, -99.05866534120445], [34.201295999999985, -99.05868800000002], [34.20296599999998, -99.059034], [34.203925999999996, -99.059497], [34.20479399999999, -99.060212], [34.206851000000015, -99.063105], [34.207995000000004, -99.065613], [34.20843000000002, -99.066329], [34.208704999999945, -99.068258], [34.209074000000015, -99.070159], [34.209852000000005, -99.071675], [34.210217999999976, -99.072888], [34.21040200000002, -99.07399], [34.211064999999955, -99.075257], [34.211249000000045, -99.075837], [34.21154999999999, -99.079392], [34.211482999999994, -99.080577], [34.211278000000036, -99.081073], [34.21085300000002, -99.081776], [34.21059799999995, -99.082196], [34.21043800000002, -99.082461], [34.210276999999984, -99.082726], [34.20973000000001, -99.083804], [34.208702000000024, -99.0866], [34.20849700000005, -99.087873], [34.20847500000003, -99.088923], [34.20856700000002, -99.08975100000002], [34.20886499999996, -99.090963], [34.209368, -99.092064], [34.21012399999999, -99.093299], [34.210215999999996, -99.093298], [34.210352999999984, -99.093324], [34.21049099999998, -99.093212], [34.21049099999997, -99.092881], [34.21074200000001, -99.092851], [34.211223, -99.093399], [34.21165799999999, -99.094168], [34.21184200000003, -99.095271], [34.21170500000002, -99.096211], [34.21140800000001, -99.097153], [34.21101899999995, -99.097876], [34.209852000000005, -99.099354], [34.208867000000005, -99.100249], [34.20722199999999, -99.101229], [34.20635400000004, -99.101562], [34.206039930889276, -99.10173835279495], [34.20935199999999, -99.131553], [34.20935457449993, -99.13158299385142], [34.20941700000002, -99.131559], [34.21001899999997, -99.131214], [34.21026999999998, -99.131073], [34.212263, -99.13001200000001], [34.212764999999976, -99.12954], [34.21333599999999, -99.128181], [34.21383800000002, -99.127429], [34.214708000000016, -99.126726], [34.21507500000003, -99.126693], [34.215396, -99.126495], [34.21617500000002, -99.126482], [34.21711500000002, -99.126799], [34.218055, -99.127394], [34.21883499999998, -99.128351], [34.219203000000036, -99.129203], [34.219478, -99.130443], [34.219665, -99.133397], [34.21946, -99.135252], [34.21934800000001, -99.13754800000001], [34.21923299999999, -99.138076], [34.21865999999999, -99.13897], [34.21852299999999, -99.139056], [34.21788099999999, -99.139066], [34.217605000000006, -99.13918], [34.217353000000024, -99.139489], [34.21707900000003, -99.140599], [34.21669, -99.141545], [34.21540800000003, -99.142471], [34.21483800000001, -99.14391], [34.214472999999984, -99.144188], [34.213414999999976, -99.144458], [34.21332900000002, -99.144481], [34.21238499999998, -99.145075], [34.210789999999974, -99.146391], [34.210637309191796, -99.14653881215149], [34.21431200000001, -99.189511], [34.223449477804415, -99.19153379622993], [34.22376900000001, -99.191401], [34.2248, -99.190894], [34.22727700000003, -99.18992], [34.22876900000001, -99.189866], [34.229755999999966, -99.189986], [34.231042000000016, -99.19035], [34.23134099999996, -99.190539], [34.232442000000006, -99.190936], [34.23422900000003, -99.192088], [34.23496299999998, -99.192563], [34.23633599999999, -99.193106], [34.23805099999999, -99.194207], [34.23914886577346, -99.1950104073247], [34.24688512104092, -99.19672414145356], [34.24753399999997, -99.196611], [34.248218999999985, -99.19641900000002], [34.249385, -99.196199], [34.250153000000005, -99.195869], [34.253374, -99.193943], [34.25524599999998, -99.192401], [34.25563200000002, -99.192018], [34.256444000000016, -99.191805], [34.25697699999998, -99.191617], [34.25745100000002, -99.191485], [34.25783000000002, -99.191422], [34.258478999999994, -99.191573], [34.259001, -99.191849], [34.25940000000001, -99.192327], [34.25981599999999, -99.192767], [34.260086000000015, -99.193283], [34.26030699999998, -99.193838], [34.260529000000005, -99.194585], [34.26073400000002, -99.195129], [34.26089000000001, -99.195973], [34.26097299999998, -99.1967], [34.260750999999956, -99.197619], [34.26061099999998, -99.198217], [34.260598000000016, -99.198369], [34.260567, -99.198749], [34.26054000000001, -99.199053], [34.26079099999999, -99.199254], [34.26113899999997, -99.19903], [34.262722999999994, -99.198017], [34.264159000000014, -99.197393], [34.26619800000007, -99.196682], [34.26780600000002, -99.196461], [34.26852400000002, -99.196569], [34.269251999999966, -99.19667900000002], [34.269891999999956, -99.196017], [34.27084600000003, -99.195175], [34.27188099999997, -99.194459], [34.27244499999998, -99.194359], [34.27299200000001, -99.194354], [34.27358699999998, -99.194467], [34.27455200000003, -99.194651], [34.275242, -99.194842], [34.276052000000014, -99.195257], [34.27647100000002, -99.195359], [34.27701699999997, -99.195412], [34.27758, -99.195447], [34.27828600000003, -99.195744], [34.278795999999964, -99.195546], [34.27943199999997, -99.195476], [34.27981799999998, -99.195432], [34.28031699999999, -99.195368], [34.280848999999975, -99.195403], [34.28128200000002, -99.19555300000002], [34.28147199999999, -99.196058], [34.281452000000044, -99.196678], [34.281256000000056, -99.197141], [34.28125300000001, -99.197692], [34.28127299999997, -99.198381], [34.28116700000001, -99.20001600000002], [34.281558999999945, -99.201598], [34.281944000000045, -99.203473], [34.28240199999999, -99.204345], [34.2825280865845, -99.20462445460123], [34.31379915490184, -99.21156208093726], [34.31396699999995, -99.211432], [34.314380000000035, -99.210992], [34.315807999999976, -99.208523], [34.316126000000004, -99.20798800000001], [34.31696000000003, -99.206584], [34.317796, -99.20625], [34.319201000000014, -99.205628], [34.32058199999999, -99.205936], [34.32312699999999, -99.208054], [34.32336500000001, -99.208255], [34.323929, -99.208732], [34.32492500000004, -99.209574], [34.32741799999997, -99.210112], [34.32920599999999, -99.21066], [34.33179699999997, -99.210833], [34.33210099999998, -99.210992], [34.33252700000002, -99.210928], [34.333264000000014, -99.21082], [34.33418100000002, -99.210685], [34.33629199999997, -99.210582], [34.33682600000002, -99.21082], [34.33724600000004, -99.210766], [34.33733699999999, -99.210725], [34.33752399999994, -99.210395], [34.337705000000035, -99.210078], [34.33798400000003, -99.20946], [34.338204999999974, -99.207804], [34.338277, -99.206905], [34.33828099999998, -99.206855], [34.338282, -99.206841], [34.33828399999995, -99.206824], [34.338285, -99.206806], [34.338287000000015, -99.206783], [34.338289, -99.206759], [34.33830000000003, -99.206622], [34.33830599999999, -99.206548], [34.33831200000001, -99.206476], [34.33832000000005, -99.206389], [34.338326000000016, -99.206308], [34.33833299999999, -99.206228], [34.338335, -99.206199], [34.33844499999999, -99.204809], [34.33859299999997, -99.20343300000002], [34.33889699999998, -99.20263], [34.33908, -99.201876], [34.33927099999997, -99.2011], [34.339344, -99.19988900000001], [34.339621999999984, -99.198281], [34.33993299999999, -99.197567], [34.340757000000025, -99.196254], [34.34122099999998, -99.195657], [34.341476, -99.195406], [34.341602999999964, -99.195282], [34.342111999999965, -99.195045], [34.34269400000001, -99.194759], [34.34378799999996, -99.194012], [34.34509100000001, -99.193296], [34.345989, -99.19282], [34.34671800000002, -99.192322], [34.34775999999998, -99.192139], [34.34870900000004, -99.192109], [34.35041699999997, -99.192056], [34.35172299999999, -99.192111], [34.354861, -99.192747], [34.356418999999974, -99.193493], [34.35690000000004, -99.193631], [34.357563999999996, -99.193991], [34.358091000000016, -99.194433], [34.358505000000065, -99.19495500000001], [34.35859500000004, -99.195068], [34.35884699999996, -99.195842], [34.35891400000001, -99.196156], [34.359053000000046, -99.19680800000002], [34.35951100000005, -99.197941], [34.36012899999999, -99.199129], [34.36095399999998, -99.200151], [34.36264899999998, -99.20167000000001], [34.36514599999999, -99.20272], [34.36638299999999, -99.202776], [34.367528, -99.202638], [34.369109000000016, -99.202666], [34.369567, -99.202804], [34.369888000000024, -99.202776], [34.37004799999998, -99.202666], [34.370621000000014, -99.202666], [34.371583000000015, -99.202998], [34.373093999999995, -99.203965], [34.37380400000001, -99.20449], [34.37446800000002, -99.20449], [34.375080000000004, -99.20373], [34.37643300000001, -99.201783], [34.37842600000003, -99.199821], [34.379480000000015, -99.19938], [34.380396999999974, -99.19938], [34.38117500000001, -99.199711], [34.38211499999995, -99.199905], [34.38293899999998, -99.200375], [34.38337399999998, -99.20054], [34.38445100000001, -99.200623], [34.385482, -99.201093], [34.385962999999975, -99.201508], [34.38639800000003, -99.201618], [34.386790000000026, -99.201476], [34.386856000000044, -99.201453], [34.38697100000002, -99.201259], [34.38706200000003, -99.200624], [34.38724600000003, -99.200348], [34.387313999999954, -99.199933], [34.38784100000001, -99.199546], [34.38866599999998, -99.199491], [34.38953700000001, -99.199298], [34.38958100000001, -99.199186], [34.39100899999996, -99.198969], [34.39209700000002, -99.198611], [34.392165, -99.198632], [34.39227399999998, -99.1875], [34.39227399999998, -99.185405], [34.39227399999998, -99.184834], [34.39207799999996, -99.184834], [34.38497300000001, -99.184827], [34.37933399999993, -99.184822], [34.37781299999998, -99.184849], [34.37546100000002, -99.18484800000002], [34.37504899999996, -99.18484800000002], [34.373423999999986, -99.184861], [34.37058700000001, -99.184865], [34.368343000000046, -99.184869], [34.36606599999999, -99.184861], [34.36330999999999, -99.184886], [34.360752999999974, -99.184868], [34.35800799999998, -99.184891], [34.352317, -99.184882], [34.34879500000002, -99.184872], [34.34800899999997, -99.184871], [34.34685600000002, -99.18487], [34.34411100000002, -99.18484800000002], [34.341605, -99.184912], [34.33887500000005, -99.1849], [34.33623800000003, -99.184907], [34.334283000000006, -99.184897], [34.334295000000026, -99.182414], [34.334302, -99.177902], [34.33429000000005, -99.172351], [34.334288, -99.167457], [34.33132899999996, -99.167461], [34.328357999999966, -99.167452], [34.32551000000003, -99.16743], [34.322483000000034, -99.16743], [34.32027699999998, -99.167407], [34.31992000000002, -99.167403], [34.319919999999996, -99.16696100000001], [34.31994100000003, -99.164242], [34.319928999999966, -99.160558], [34.31991099999995, -99.158655], [34.31626499999994, -99.158671], [34.31626599999995, -99.149956], [34.31588100000002, -99.149958], [34.31377700000001, -99.149975], [34.31267800000001, -99.149968], [34.31252099999998, -99.132573], [34.310933999999975, -99.132574], [34.307936999999974, -99.13256100000001], [34.30530300000003, -99.132566], [34.30530799999999, -99.131516], [34.30533599999997, -99.125007], [34.305348, -99.123971], [34.30537799999996, -99.121368], [34.305369000000034, -99.120142], [34.305384999999966, -99.117746], [34.30537799999997, -99.116707], [34.305386000000006, -99.115873], [34.305396999999964, -99.11527400000001], [34.305384999999966, -99.114239], [34.305386000000006, -99.112962], [34.30540199999996, -99.11206600000001], [34.30540599999995, -99.111877], [34.30540299999999, -99.111613], [34.305394, -99.110719], [34.30539199999997, -99.109782], [34.30537999999996, -99.108743], [34.305386000000006, -99.10784], [34.30534600000002, -99.10314400000001], [34.30536200000001, -99.099722], [34.30535199999998, -99.09863400000002], [34.305353000000004, -99.097839], [34.305340999999984, -99.09598], [34.30534400000001, -99.095347], [34.30532000000001, -99.09243700000002], [34.30531299999999, -99.092016], [34.30532000000001, -99.091423], [34.305317, -99.090651], [34.30529600000002, -99.089613], [34.305292000000016, -99.088951], [34.30530000000004, -99.08833000000001], [34.30527699999998, -99.087351], [34.30527299999995, -99.086373], [34.30525499999994, -99.085695], [34.30525599999999, -99.08446900000001], [34.305217999999996, -99.08206], [34.30522699999999, -99.08039], [34.305225000000014, -99.079786], [34.30522800000002, -99.078901], [34.30520800000001, -99.077628], [34.30520800000004, -99.077391], [34.30520899999996, -99.076706], [34.305198999999995, -99.075614], [34.30520499999997, -99.074626], [34.30519300000001, -99.072587], [34.305188999999984, -99.06735], [34.30518599999997, -99.0668], [34.305197000000014, -99.06569], [34.305181999999995, -99.064454], [34.305182999999964, -99.063739], [34.30517899999997, -99.06292], [34.30517499999996, -99.059852], [34.30517299999999, -99.059684], [34.30515399999999, -99.057703], [34.305130000000005, -99.056193], [34.305146999999984, -99.055677], [34.30514799999998, -99.053769], [34.30514900000003, -99.053252], [34.30515200000002, -99.051136], [34.30514199999996, -99.048716], [34.30513999999999, -99.046894], [34.30514299999998, -99.046374], [34.30514500000002, -99.04607900000002], [34.29291800000001, -99.049788], [34.29124400000002, -99.050259], [34.290662000000005, -99.050439], [34.290639999999975, -99.049973], [34.29063300000001, -99.04768400000002], [34.290647000000035, -99.045623], [34.29066400000003, -99.04547], [34.279152000000025, -99.045484], [34.27758299999999, -99.04547], [34.276142999999955, -99.04548100000001], [34.276108000000015, -99.028051], [34.276106000000006, -99.02741800000001], [34.276120000000006, -99.023561], [34.276142000000014, -99.017293], [34.276140999999996, -99.010662], [34.27894399999996, -99.010652], [34.27906000000001, -99.010652], [34.28052099999999, -99.010664], [34.290625999999975, -99.010646], [34.30513199999997, -99.010581], [34.31097800000001, -99.010567], [34.312260000000016, -99.010582], [34.31216000000003, -99.02502], [34.31213700000001, -99.028027], [34.312504000000025, -99.028023], [34.315603000000024, -99.028021], [34.317005, -99.027992], [34.318593999999976, -99.027985], [34.319485000000014, -99.02799], [34.32333899999997, -99.027994], [34.33395200000003, -99.02793], [34.33394800000001, -99.02387], [34.33394800000001, -99.023443], [34.33399, -99.010538], [34.33400599999999, -99.007455], [34.33400799999997, -99.0057], [34.33399999999999, -99.002809], [34.33400400000002, -99.00172], [34.33400899999999, -99.000027], [34.33400099999998, -98.998333], [34.33400400000002, -98.997768], [34.334018999999984, -98.995356], [34.33400899999999, -98.993093], [34.33122799999998, -98.99310200000001], [34.328631999999985, -98.99311], [34.326299000000034, -98.993117], [34.325085999999985, -98.993121], [34.31963300000002, -98.993138], [34.319638, -98.989491], [34.319640000000014, -98.981272], [34.319646000000006, -98.976969], [34.31963499999999, -98.975608], [34.31733000000003, -98.975609], [34.312488000000016, -98.975646], [34.310291, -98.975649], [34.308650999999976, -98.975681], [34.307343, -98.975669], [34.306072, -98.975671], [34.30517999999998, -98.975672], [34.30458300000001, -98.975674], [34.303327, -98.975655], [34.30211899999999, -98.975665], [34.30188600000001, -98.975671], [34.301021000000006, -98.97567], [34.29722199999995, -98.975664], [34.29578699999999, -98.975689], [34.29562100000003, -98.975692], [34.294350999999985, -98.97568], [34.294145999999984, -98.975678], [34.294065999999994, -98.975677], [34.29255899999998, -98.975693], [34.29067, -98.97569], [34.29065300000001, -98.973381], [34.29066800000001, -98.970599], [34.29063000000004, -98.968342], [34.290644999999984, -98.966043], [34.29063399999999, -98.963976], [34.290607999999985, -98.95901], [34.290610000000015, -98.958297], [34.290619, -98.955437], [34.290613999999984, -98.95285], [34.290590999999985, -98.940819], [34.290590999999985, -98.940107], [34.290580000000006, -98.937504], [34.29057, -98.933189], [34.29056900000004, -98.932905], [34.29054799999998, -98.923611], [34.29054699999998, -98.923366], [34.29028400000006, -98.923469], [34.283318000000016, -98.923529], [34.27592599999996, -98.923583], [34.269420999999966, -98.923472], [34.269264, -98.923453], [34.26863700000003, -98.90618], [34.26779100000005, -98.906178], [34.266769000000025, -98.906163], [34.261517000000005, -98.906155], [34.26017400000005, -98.906145], [34.258305, -98.90614900000001], [34.25444199999999, -98.906137], [34.25420300000001, -98.90613], [34.25384499999993, -98.90612], [34.252741999999984, -98.906122], [34.250629, -98.906109], [34.25007699999998, -98.906114], [34.25000600000001, -98.906115], [34.24856699999998, -98.906108], [34.247072999999965, -98.906109], [34.244489999999985, -98.906095], [34.23959200000002, -98.906068], [34.238407, -98.906041], [34.23713500000001, -98.906037], [34.23566099999998, -98.906001], [34.23281400000001, -98.905997], [34.23237300000001, -98.905988], [34.231333, -98.905965], [34.21785099999999, -98.905917], [34.21069899999996, -98.905856], [34.20331999999997, -98.905852], [34.20329800000001, -98.903864], [34.203260999999976, -98.893938], [34.203275999999974, -98.892959], [34.203281999999966, -98.892536], [34.20326000000003, -98.889692], [34.20326099999997, -98.888403], [34.202850000000005, -98.888399], [34.20156899999999, -98.888407], [34.19670499999998, -98.888367], [34.196378999999986, -98.888356], [34.19625099999997, -98.888316], [34.196175, -98.888247], [34.19610100000003, -98.888159], [34.196039, -98.887993], [34.196021999999964, -98.887838], [34.19600499999996, -98.887265], [34.196016, -98.88635400000001], [34.196027, -98.882985], [34.19604, -98.882375], [34.196048999999995, -98.881638], [34.19607199999997, -98.880644], [34.196067, -98.880014], [34.19601200000002, -98.879879], [34.19587800000001, -98.879799], [34.19575199999998, -98.879765], [34.19508099999998, -98.879763], [34.19369999999996, -98.879782], [34.192424000000045, -98.879764], [34.19202, -98.879796], [34.19171, -98.879811], [34.191545999999995, -98.879808], [34.19104800000002, -98.879757], [34.190158, -98.879724], [34.18888700000001, -98.879695], [34.18888599999999, -98.87871800000002], [34.188877000000026, -98.877404], [34.18889000000004, -98.873516], [34.188892, -98.871054], [34.188891999999996, -98.8686], [34.188874000000006, -98.868413], [34.18736000000003, -98.867916], [34.186878000000014, -98.867888], [34.18634900000001, -98.868357], [34.186006000000035, -98.868384], [34.18540800000003, -98.868246], [34.18485700000001, -98.867859], [34.18460500000002, -98.86780400000002], [34.18368600000004, -98.867115], [34.183502999999995, -98.867059], [34.18315799999998, -98.86728], [34.182906000000024, -98.867279], [34.18263100000002, -98.866812], [34.18194099999998, -98.866921], [34.18166699999998, -98.866673], [34.181437000000024, -98.866673], [34.18097699999997, -98.867307], [34.18067799999998, -98.86741700000002], [34.180493999999996, -98.867747], [34.18028800000001, -98.867885], [34.179988999999985, -98.867885], [34.179643999999996, -98.867637], [34.17902500000007, -98.867581], [34.178588999999995, -98.867278], [34.17842800000001, -98.866533], [34.178197999999995, -98.866395], [34.177119000000005, -98.866505], [34.17654500000003, -98.866505], [34.17643, -98.866367], [34.176452, -98.865568], [34.17672600000003, -98.865457], [34.17681800000002, -98.865265], [34.176588000000024, -98.864989], [34.17583099999999, -98.86452], [34.175806999999985, -98.864382], [34.17603599999999, -98.864079], [34.17610399999998, -98.86361], [34.17564500000005, -98.863252], [34.17562099999997, -98.863031], [34.175918, -98.862425], [34.17522999999999, -98.861626], [34.17493199999998, -98.861543], [34.174632999999986, -98.861212], [34.174333999999995, -98.861213], [34.174243000000004, -98.861406], [34.173989000000006, -98.861598], [34.17380599999997, -98.861598], [34.17366800000003, -98.86148800000001], [34.173323999999965, -98.86148800000001], [34.17300199999999, -98.861818], [34.17265600000001, -98.862617], [34.17260999999999, -98.862865], [34.172723999999974, -98.86330600000001], [34.172471, -98.863527], [34.17194300000003, -98.863581], [34.17159799999999, -98.863995], [34.17040500000002, -98.86438], [34.170311999999974, -98.864049], [34.170609000000006, -98.863608], [34.17063100000002, -98.862754], [34.17010399999997, -98.862506], [34.16982799999999, -98.86256], [34.16939099999999, -98.863111], [34.16867900000001, -98.863166], [34.168265999999996, -98.863414], [34.16789900000003, -98.863469], [34.167508999999974, -98.863744], [34.167416000000024, -98.86435], [34.16725400000001, -98.864461], [34.16704700000002, -98.864791], [34.166862000000016, -98.865728], [34.16647200000002, -98.866279], [34.16646999999999, -98.866775], [34.16621699999999, -98.867078], [34.16612399999998, -98.867382], [34.166398000000015, -98.86785100000002], [34.16639800000004, -98.868126], [34.166283000000014, -98.868236], [34.165892999999954, -98.868264], [34.16566300000007, -98.868429], [34.16527400000002, -98.868484], [34.16518200000002, -98.868594], [34.16515700000003, -98.869228], [34.164951, -98.869365], [34.16403200000003, -98.868593], [34.16389400000003, -98.868014], [34.163733999999955, -98.867849], [34.16341200000003, -98.867849], [34.163112999999996, -98.868207], [34.16247100000001, -98.868261], [34.16228600000001, -98.868675], [34.16246800000004, -98.86906100000002], [34.16246800000004, -98.869253], [34.162193, -98.869419], [34.16182599999993, -98.869418], [34.16116, -98.869115], [34.16093000000001, -98.869197], [34.16056300000002, -98.869555], [34.16028699999999, -98.869555], [34.16025887807975, -98.86952496678313], [34.16044600000001, -98.872229], [34.160904000000016, -98.872092]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_4e6b9cd8a84434f2ed6899a3b9f936f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9eb45b13d6d40c2b73f5f4371f3a026 = $(`<div id="html_b9eb45b13d6d40c2b73f5f4371f3a026" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD04</b></div>`)[0];
+                popup_4e6b9cd8a84434f2ed6899a3b9f936f9.setContent(html_b9eb45b13d6d40c2b73f5f4371f3a026);
+            
+        
+
+        polygon_c4d8cc1d1bf3b0f29ae9d8c47ebbf774.bindPopup(popup_4e6b9cd8a84434f2ed6899a3b9f936f9)
+        ;
+
+        
+    
+    
+            var circle_marker_0bd778ab652446907a7a1fa19226cd95 = L.circleMarker(
+                [34.25985911060332, -99.0483334345214],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_3cfb0c2b9dd9e29f19f91af7e9161323 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6e4fecb3589fec38f75da05d16fc988f = $(`<div id="html_6e4fecb3589fec38f75da05d16fc988f" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD04</b></div>`)[0];
+                popup_3cfb0c2b9dd9e29f19f91af7e9161323.setContent(html_6e4fecb3589fec38f75da05d16fc988f);
+            
+        
+
+        circle_marker_0bd778ab652446907a7a1fa19226cd95.bindPopup(popup_3cfb0c2b9dd9e29f19f91af7e9161323)
+        ;
+
+        
+    
+    
+            circle_marker_0bd778ab652446907a7a1fa19226cd95.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_e4a0ced2088c8dac68d85c4539900b93 = L.polygon(
+                [[34.157038999999976, -98.858173], [34.155388999999985, -98.85842], [34.152732, -98.858419], [34.15220500000003, -98.858611], [34.15115100000001, -98.85941], [34.150210999999985, -98.85987700000001], [34.149913000000005, -98.860125], [34.14959199999999, -98.860787], [34.14911100000003, -98.86255], [34.149132000000016, -98.865747], [34.14924599999997, -98.866738], [34.149634999999996, -98.868116], [34.150207, -98.869246], [34.153596, -98.873271], [34.15565699999995, -98.874872], [34.156274999999994, -98.874983], [34.15703100000004, -98.87495500000001], [34.15822300000001, -98.874129], [34.158979000000016, -98.87330300000002], [34.160033, -98.872504], [34.160171, -98.872477], [34.16044600000001, -98.872229], [34.16025887807975, -98.86952496678313], [34.160081000000005, -98.869335], [34.159805, -98.86875600000002], [34.15957499999999, -98.8687], [34.159000999999996, -98.869141], [34.15865700000001, -98.869223], [34.158518000000015, -98.86867200000002], [34.15863200000005, -98.868204], [34.158424999999966, -98.867735], [34.15833300000002, -98.867735], [34.158103999999994, -98.867487], [34.15794199999999, -98.866827], [34.157825000000024, -98.864291], [34.157846999999975, -98.86363], [34.15841699999998, -98.861288], [34.15889599999994, -98.86071], [34.15926100000004, -98.859828], [34.15937600000003, -98.85936], [34.159351999999984, -98.859002], [34.15935300000005, -98.85796700000002], [34.158504999999984, -98.858175], [34.157038999999976, -98.858173]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_100562746766b14783f67c820566a582 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc835863342ed4fb21980321d6936b54 = $(`<div id="html_fc835863342ed4fb21980321d6936b54" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_100562746766b14783f67c820566a582.setContent(html_fc835863342ed4fb21980321d6936b54);
+            
+        
+
+        polygon_e4a0ced2088c8dac68d85c4539900b93.bindPopup(popup_100562746766b14783f67c820566a582)
+        ;
+
+        
+    
+    
+            var circle_marker_6736dcc1b42064d3816c16573906c993 = L.circleMarker(
+                [34.156344929047265, -98.8657433174269],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_344cbc9923cf3155aac7d7c1ca52b1bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0557e3741e1109e094ae662119f5a70e = $(`<div id="html_0557e3741e1109e094ae662119f5a70e" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_344cbc9923cf3155aac7d7c1ca52b1bd.setContent(html_0557e3741e1109e094ae662119f5a70e);
+            
+        
+
+        circle_marker_6736dcc1b42064d3816c16573906c993.bindPopup(popup_344cbc9923cf3155aac7d7c1ca52b1bd)
+        ;
+
+        
+    
+    
+            circle_marker_6736dcc1b42064d3816c16573906c993.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_00543c8c0028e516e1b874e1cd214065 = L.polygon(
+                [[34.167618000000026, -98.884467], [34.16791599999996, -98.886037], [34.168259999999975, -98.887112], [34.16887900000001, -98.887911], [34.16940599999999, -98.888958], [34.170392000000064, -98.890473], [34.171355, -98.891657], [34.17204200000001, -98.892015], [34.17229400000001, -98.892263], [34.172684, -98.892952], [34.173210999999995, -98.894522], [34.17350900000001, -98.895129], [34.17449500000003, -98.896616], [34.17511399999997, -98.89838], [34.17548100000004, -98.900226], [34.176123000000054, -98.902266], [34.176375, -98.903478], [34.177177999999955, -98.905876], [34.177499000000005, -98.90934900000002], [34.17766000000002, -98.909763], [34.17869099999996, -98.91114], [34.179951, -98.913786], [34.180959999999985, -98.915357], [34.18112000000003, -98.915881], [34.18118899999999, -98.916735], [34.181464000000005, -98.917672], [34.18183100000003, -98.918333], [34.18251799999998, -98.919215], [34.182908, -98.920042], [34.18343500000002, -98.920704], [34.18510699999999, -98.922192], [34.185978, -98.92312900000002], [34.18632699999998, -98.923431], [34.186643, -98.923705], [34.18753600000001, -98.924479], [34.18863500000001, -98.92503], [34.191154999999995, -98.927456], [34.192688999999966, -98.928145], [34.19438499999996, -98.930213], [34.19488899999998, -98.930654], [34.19644699999998, -98.932363], [34.19660699999998, -98.93244600000001], [34.19731699999998, -98.9333], [34.19743199999998, -98.933879], [34.197431999999964, -98.93432], [34.197523, -98.934679], [34.19789000000002, -98.935202], [34.198118999999984, -98.93534], [34.19818800000002, -98.93547800000002], [34.1986, -98.935644], [34.19910400000001, -98.935919], [34.19977499999999, -98.936465], [34.20001999999995, -98.936664], [34.201646999999994, -98.9384], [34.202448999999966, -98.938979], [34.20368599999997, -98.94022], [34.16752230537379, -98.8833461524187], [34.167618000000026, -98.884467]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_57a4ec17ad41b9c5403ce9d0d876feac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_347c524b55432c4bbf5da09733ba9fc1 = $(`<div id="html_347c524b55432c4bbf5da09733ba9fc1" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_57a4ec17ad41b9c5403ce9d0d876feac.setContent(html_347c524b55432c4bbf5da09733ba9fc1);
+            
+        
+
+        polygon_00543c8c0028e516e1b874e1cd214065.bindPopup(popup_57a4ec17ad41b9c5403ce9d0d876feac)
+        ;
+
+        
+    
+    
+            var circle_marker_b876214f13be65fe0ffcb25d26f799ac = L.circleMarker(
+                [34.184177212161615, -98.91506655435205],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_9a021912e14b0483433328cbbd9d987b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b8e3def407e0793152c93626fc45f30c = $(`<div id="html_b8e3def407e0793152c93626fc45f30c" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_9a021912e14b0483433328cbbd9d987b.setContent(html_b8e3def407e0793152c93626fc45f30c);
+            
+        
+
+        circle_marker_b876214f13be65fe0ffcb25d26f799ac.bindPopup(popup_9a021912e14b0483433328cbbd9d987b)
+        ;
+
+        
+    
+    
+            circle_marker_b876214f13be65fe0ffcb25d26f799ac.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0d106bde9bf66567a5341133f4aa7a9f = L.polygon(
+                [[34.20492799999999, -98.96227], [34.204562000000024, -98.962352], [34.20383300000001, -98.962931], [34.202899999999964, -98.964171], [34.20146499999998, -98.965743], [34.20123799999998, -98.966185], [34.20110100000006, -98.966626], [34.201102999999996, -98.967811], [34.201218000000054, -98.968886], [34.20163, -98.970265], [34.20259099999999, -98.972609], [34.203482000000015, -98.974015], [34.204576999999965, -98.975174], [34.20619800000001, -98.97647], [34.20653999999999, -98.976664], [34.20664978535656, -98.97664886682132], [34.20547007450744, -98.96214779257988], [34.20492799999999, -98.96227]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_03c2f2774fb12d40365d1c16a9938298 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be83cf93d49a2437901022cc2b7c15a6 = $(`<div id="html_be83cf93d49a2437901022cc2b7c15a6" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_03c2f2774fb12d40365d1c16a9938298.setContent(html_be83cf93d49a2437901022cc2b7c15a6);
+            
+        
+
+        polygon_0d106bde9bf66567a5341133f4aa7a9f.bindPopup(popup_03c2f2774fb12d40365d1c16a9938298)
+        ;
+
+        
+    
+    
+            var circle_marker_189ba6fd2d68ba031b0a77055d203b54 = L.circleMarker(
+                [34.20357854777022, -98.96851325885561],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_281a01bba622daa371e451f7284efb04 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63c223006e439a24c8d3f7c613c64e26 = $(`<div id="html_63c223006e439a24c8d3f7c613c64e26" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_281a01bba622daa371e451f7284efb04.setContent(html_63c223006e439a24c8d3f7c613c64e26);
+            
+        
+
+        circle_marker_189ba6fd2d68ba031b0a77055d203b54.bindPopup(popup_281a01bba622daa371e451f7284efb04)
+        ;
+
+        
+    
+    
+            circle_marker_189ba6fd2d68ba031b0a77055d203b54.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_6243d228058ec4a0272b44cb6c365471 = L.polygon(
+                [[34.20668800000003, -99.005635], [34.20659400000001, -99.005674], [34.20537100000001, -99.008447], [34.20516699999999, -99.008944], [34.20516699999999, -99.009358], [34.20528899999997, -99.009823], [34.20510999999999, -99.009967], [34.204338000000035, -99.010949], [34.20381400000003, -99.011889], [34.203194, -99.012957], [34.20319000000002, -99.013673], [34.20355599999995, -99.014492], [34.20389600000002, -99.015041], [34.20442799999998, -99.015646], [34.20523499999997, -99.016404], [34.20631400000003, -99.017271], [34.205911, -99.018207], [34.205229999999986, -99.019447], [34.20468400000002, -99.020661], [34.20452700000004, -99.022398], [34.20398400000004, -99.024465], [34.20412100000002, -99.02463], [34.204257999999996, -99.02463], [34.204418000000004, -99.024768], [34.204807000000045, -99.02576000000002], [34.20519799999997, -99.027441], [34.205260999999986, -99.027987], [34.205329804773, -99.02857632639673], [34.20877004186048, -99.0030049623031], [34.20668800000003, -99.005635]],
+                {"bubblingMouseEvents": true, "color": "#f58231", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f58231", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_280888c7ba980e3efff55d945a5d33bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9883d28d37e32928c18abca0ef9b0cbc = $(`<div id="html_9883d28d37e32928c18abca0ef9b0cbc" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_280888c7ba980e3efff55d945a5d33bc.setContent(html_9883d28d37e32928c18abca0ef9b0cbc);
+            
+        
+
+        polygon_6243d228058ec4a0272b44cb6c365471.bindPopup(popup_280888c7ba980e3efff55d945a5d33bc)
+        ;
+
+        
+    
+    
+            var circle_marker_b08908428a0e8743f035c0472ed1097d = L.circleMarker(
+                [34.20501792822112, -99.01612600962335],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_82b1cbc14660fc550b2e3fa8d502b5ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ae55f30beae214dbdbf586aafc8d650 = $(`<div id="html_9ae55f30beae214dbdbf586aafc8d650" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_82b1cbc14660fc550b2e3fa8d502b5ea.setContent(html_9ae55f30beae214dbdbf586aafc8d650);
+            
+        
+
+        circle_marker_b08908428a0e8743f035c0472ed1097d.bindPopup(popup_82b1cbc14660fc550b2e3fa8d502b5ea)
+        ;
+
+        
+    
+    
+            circle_marker_b08908428a0e8743f035c0472ed1097d.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_491416c98d7e3019ceb9d64b4c8ae47b = L.polygon(
+                [[34.202869999999976, -99.039954], [34.20086399999998, -99.040837], [34.19935900000003, -99.04197200000002], [34.19881300000001, -99.042609], [34.198401999999994, -99.043302], [34.19824199999994, -99.04335800000001], [34.19810599999998, -99.044463], [34.198017999999976, -99.047031], [34.19824800000003, -99.048685], [34.199555000000004, -99.053952], [34.200014000000024, -99.05635], [34.20061, -99.057976], [34.20127416889491, -99.05866534120445], [34.20390903658412, -99.03912405031706], [34.202869999999976, -99.039954]],
+                {"bubblingMouseEvents": true, "color": "#911eb4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#911eb4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_e97ca2bb29efafd5c3883a103e4c8426 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31f66040f74f17870c32dac9ed4b6dfe = $(`<div id="html_31f66040f74f17870c32dac9ed4b6dfe" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_e97ca2bb29efafd5c3883a103e4c8426.setContent(html_31f66040f74f17870c32dac9ed4b6dfe);
+            
+        
+
+        polygon_491416c98d7e3019ceb9d64b4c8ae47b.bindPopup(popup_e97ca2bb29efafd5c3883a103e4c8426)
+        ;
+
+        
+    
+    
+            var circle_marker_cb7e4a548ba665b1b663b57f06cc82c9 = L.circleMarker(
+                [34.200076947031924, -99.04654882610143],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_166058d0ccfa1c7f384fcfa279ce904c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_34e7cefb1c1e8effabfaef152abe2abf = $(`<div id="html_34e7cefb1c1e8effabfaef152abe2abf" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_166058d0ccfa1c7f384fcfa279ce904c.setContent(html_34e7cefb1c1e8effabfaef152abe2abf);
+            
+        
+
+        circle_marker_cb7e4a548ba665b1b663b57f06cc82c9.bindPopup(popup_166058d0ccfa1c7f384fcfa279ce904c)
+        ;
+
+        
+    
+    
+            circle_marker_cb7e4a548ba665b1b663b57f06cc82c9.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_9fbff04b9e039eb1551410fd39c19e27 = L.polygon(
+                [[34.20584999999997, -99.101845], [34.205483, -99.10218600000002], [34.20504600000002, -99.103395], [34.204697999999986, -99.106301], [34.204398000000005, -99.106925], [34.20384599999997, -99.107528], [34.20354700000002, -99.108201], [34.203455999999974, -99.108811], [34.203524, -99.108894], [34.20375300000004, -99.10889], [34.203866999999995, -99.108665], [34.20414299999997, -99.108546], [34.204234999999976, -99.108766], [34.20425699999998, -99.11045900000002], [34.204416000000016, -99.110898], [34.204599999999964, -99.111003], [34.20478399999999, -99.110914], [34.20496800000001, -99.110628], [34.20508399999998, -99.109622], [34.20478800000002, -99.10838300000002], [34.205017999999974, -99.108262], [34.205271, -99.108417], [34.20545299999999, -99.1093], [34.205844, -99.11042200000001], [34.205979999999975, -99.111807], [34.20581799999997, -99.112844], [34.204895, -99.115104], [34.20430000000001, -99.116164], [34.203728999999996, -99.116965], [34.20274499999997, -99.117454], [34.202446999999964, -99.11778], [34.20194499999998, -99.119094], [34.201809, -99.119254], [34.20182499999998, -99.119979], [34.20185, -99.121004], [34.20194499999999, -99.121022], [34.20205799999998, -99.121412], [34.20221799999996, -99.1226], [34.20281199999999, -99.124266], [34.20297200000003, -99.124969], [34.20294899999997, -99.125426], [34.20306399999999, -99.12664], [34.20352199999999, -99.127834], [34.204459999999976, -99.129889], [34.205032, -99.130585], [34.20574199999999, -99.131168], [34.206977000000066, -99.131803], [34.207136999999996, -99.1318], [34.20718299999999, -99.131882], [34.207436, -99.131986], [34.208241000000015, -99.132011], [34.20935457449993, -99.13158299385142], [34.20935199999999, -99.131553], [34.206039930889276, -99.10173835279495], [34.20584999999997, -99.101845]],
+                {"bubblingMouseEvents": true, "color": "#42d4f4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#42d4f4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_91485d910d9825abf2fb980249ff80c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39a9e31996035ce510a849a89107884b = $(`<div id="html_39a9e31996035ce510a849a89107884b" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_91485d910d9825abf2fb980249ff80c3.setContent(html_39a9e31996035ce510a849a89107884b);
+            
+        
+
+        polygon_9fbff04b9e039eb1551410fd39c19e27.bindPopup(popup_91485d910d9825abf2fb980249ff80c3)
+        ;
+
+        
+    
+    
+            var circle_marker_60efb88c369d99f797fc0fc5c871a6bd = L.circleMarker(
+                [34.2045821182798, -99.1163040426663],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_928c9ac61547d39cafab06933406cd15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c630f6847519c125b75ed54f658b8cd = $(`<div id="html_2c630f6847519c125b75ed54f658b8cd" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_928c9ac61547d39cafab06933406cd15.setContent(html_2c630f6847519c125b75ed54f658b8cd);
+            
+        
+
+        circle_marker_60efb88c369d99f797fc0fc5c871a6bd.bindPopup(popup_928c9ac61547d39cafab06933406cd15)
+        ;
+
+        
+    
+    
+            circle_marker_60efb88c369d99f797fc0fc5c871a6bd.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_a16d516e07ecee7f854f571db96d5217 = L.polygon(
+                [[34.20991399999999, -99.147239], [34.208770000000065, -99.148721], [34.20863300000003, -99.149053], [34.208334999999984, -99.14941200000001], [34.20803700000002, -99.149991], [34.20760299999997, -99.15134], [34.20732799999999, -99.153653], [34.20716800000001, -99.156574], [34.20721399999998, -99.15682300000002], [34.20746599999997, -99.157269], [34.20769499999997, -99.157495], [34.20796899999998, -99.157665], [34.20858799999997, -99.158473], [34.208930999999986, -99.159194], [34.20920700000001, -99.160881], [34.20915999999998, -99.162261], [34.20895400000002, -99.163555], [34.20897599999997, -99.164135], [34.21032899999997, -99.168456], [34.21039199999999, -99.168741], [34.21041499999998, -99.168844], [34.21043800000002, -99.168948], [34.21050500000001, -99.16925000000002], [34.211130000000004, -99.17208], [34.211793999999976, -99.173824], [34.21197299999998, -99.174866], [34.21266400000002, -99.178883], [34.21273300000001, -99.180238], [34.21332699999997, -99.18499], [34.213344, -99.185127], [34.213555, -99.186817], [34.21389900000001, -99.188311], [34.214357, -99.189776], [34.21470000000003, -99.190384], [34.21529600000002, -99.191156], [34.21674000000001, -99.192355], [34.21787, -99.192769], [34.218887999999986, -99.192811], [34.219455, -99.192723], [34.22025399999999, -99.19260500000001], [34.22087800000002, -99.192487], [34.22228199999997, -99.192019], [34.223449477804415, -99.19153379622993], [34.21431200000001, -99.189511], [34.210637309191796, -99.14653881215149], [34.20991399999999, -99.147239]],
+                {"bubblingMouseEvents": true, "color": "#f032e6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f032e6", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_b0de6602a497cf3ab5943abbe392e230 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8213455e3ab34711be0d35ca36a1805a = $(`<div id="html_8213455e3ab34711be0d35ca36a1805a" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_b0de6602a497cf3ab5943abbe392e230.setContent(html_8213455e3ab34711be0d35ca36a1805a);
+            
+        
+
+        polygon_a16d516e07ecee7f854f571db96d5217.bindPopup(popup_b0de6602a497cf3ab5943abbe392e230)
+        ;
+
+        
+    
+    
+            var circle_marker_4bc604713e4b5090d8afcc1ba15d7dea = L.circleMarker(
+                [34.21207562580427, -99.1710221001822],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_d84af4e709ca92a30f4b7eb1e8a4a920 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_443724603fe13eabd27f53305a3528f0 = $(`<div id="html_443724603fe13eabd27f53305a3528f0" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_d84af4e709ca92a30f4b7eb1e8a4a920.setContent(html_443724603fe13eabd27f53305a3528f0);
+            
+        
+
+        circle_marker_4bc604713e4b5090d8afcc1ba15d7dea.bindPopup(popup_d84af4e709ca92a30f4b7eb1e8a4a920)
+        ;
+
+        
+    
+    
+            circle_marker_4bc604713e4b5090d8afcc1ba15d7dea.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b481834df1464abf82edc88013894562 = L.polygon(
+                [[34.239217999999994, -99.195061], [34.24015400000005, -99.195311], [34.24022299999996, -99.195393], [34.24047399999996, -99.195421], [34.242073000000005, -99.196], [34.24323900000004, -99.196607], [34.243584999999996, -99.196699], [34.243825000000015, -99.196764], [34.244382000000016, -99.196912], [34.24627799999997, -99.19683], [34.24688512104092, -99.19672414145356], [34.23914886577346, -99.1950104073247], [34.239217999999994, -99.195061]],
+                {"bubblingMouseEvents": true, "color": "#bfef45", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#bfef45", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_4db5b7f22ae89e836e64958736e011f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_188d902a8bb6b1afab203887f7395b0a = $(`<div id="html_188d902a8bb6b1afab203887f7395b0a" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_4db5b7f22ae89e836e64958736e011f1.setContent(html_188d902a8bb6b1afab203887f7395b0a);
+            
+        
+
+        polygon_b481834df1464abf82edc88013894562.bindPopup(popup_4db5b7f22ae89e836e64958736e011f1)
+        ;
+
+        
+    
+    
+            var circle_marker_9ef2a273b3e1826c131a490a62a95c91 = L.circleMarker(
+                [34.24220792206265, -99.19598411913678],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_f0701c152fd8bc85f2a4e45a35e2a6f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a1887cdaccb545854e60e37f71f87e25 = $(`<div id="html_a1887cdaccb545854e60e37f71f87e25" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_f0701c152fd8bc85f2a4e45a35e2a6f2.setContent(html_a1887cdaccb545854e60e37f71f87e25);
+            
+        
+
+        circle_marker_9ef2a273b3e1826c131a490a62a95c91.bindPopup(popup_f0701c152fd8bc85f2a4e45a35e2a6f2)
+        ;
+
+        
+    
+    
+            circle_marker_9ef2a273b3e1826c131a490a62a95c91.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_f33ca3156e349a9ee68fe8b97387d354 = L.polygon(
+                [[34.282975000000036, -99.205615], [34.283160000000045, -99.206469], [34.28327099999997, -99.206736], [34.28352499999996, -99.207352], [34.28382299999999, -99.207766], [34.28522000000002, -99.208927], [34.286364000000006, -99.209535], [34.28746300000003, -99.209923], [34.28780600000006, -99.210145], [34.288539000000014, -99.21050400000001], [34.288698000000004, -99.210563], [34.28966100000007, -99.21092], [34.292247000000025, -99.21144800000002], [34.292750000000005, -99.211449], [34.292888000000005, -99.211118], [34.295587000000026, -99.210075], [34.29693600000003, -99.209746], [34.297806000000044, -99.209637], [34.298903999999986, -99.209695], [34.30022800000001, -99.210012], [34.30087300000003, -99.210166], [34.300941999999985, -99.21025], [34.30233799999995, -99.21061], [34.30339199999998, -99.210999], [34.30343800000001, -99.211109], [34.303690000000046, -99.211137], [34.305401000000025, -99.211946], [34.30556000000002, -99.21202100000001], [34.30620800000003, -99.212328], [34.306277999999985, -99.212521], [34.30675799999999, -99.21255], [34.30847600000002, -99.213161], [34.30927700000001, -99.2133], [34.31067300000001, -99.213302], [34.31115400000006, -99.213193], [34.313326999999994, -99.211928], [34.31379915490184, -99.21156208093726], [34.2825280865845, -99.20462445460123], [34.282975000000036, -99.205615]],
+                {"bubblingMouseEvents": true, "color": "#fabed4", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fabed4", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_8d8447bc5d8de8a90148d8661e27f1ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a27b358260f2e9c23bd2f0ce128060a = $(`<div id="html_4a27b358260f2e9c23bd2f0ce128060a" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_8d8447bc5d8de8a90148d8661e27f1ad.setContent(html_4a27b358260f2e9c23bd2f0ce128060a);
+            
+        
+
+        polygon_f33ca3156e349a9ee68fe8b97387d354.bindPopup(popup_8d8447bc5d8de8a90148d8661e27f1ad)
+        ;
+
+        
+    
+    
+            var circle_marker_85d782dd977d7bbc51e3207861a0e081 = L.circleMarker(
+                [34.29679328824326, -99.21025532142406],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_bc9960080df714855e3248b958312cc4);
+        
+    
+        var popup_80f4d4a86d58704ccb607a534ecb8810 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04ae7a0d82f83a974ea9f10f0cb5f9c3 = $(`<div id="html_04ae7a0d82f83a974ea9f10f0cb5f9c3" style="width: 100.0%; height: 100.0%;"><b>Tillman - Oklahoma-CD13</b></div>`)[0];
+                popup_80f4d4a86d58704ccb607a534ecb8810.setContent(html_04ae7a0d82f83a974ea9f10f0cb5f9c3);
+            
+        
+
+        circle_marker_85d782dd977d7bbc51e3207861a0e081.bindPopup(popup_80f4d4a86d58704ccb607a534ecb8810)
+        ;
+
+        
+    
+    
+            circle_marker_85d782dd977d7bbc51e3207861a0e081.bindTooltip(
+                `<div>
+                     Tillman - Oklahoma-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

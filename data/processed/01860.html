@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3eec09345a530b80229a8d8bb5176b03 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD01</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD01</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Essex - Massachusetts-CD01</p>
+            </div>
+    
+            <div class="folium-map" id="map_3eec09345a530b80229a8d8bb5176b03" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3eec09345a530b80229a8d8bb5176b03 = L.map(
+                "map_3eec09345a530b80229a8d8bb5176b03",
+                {
+                    center: [42.83399355891145, -71.00432489602208],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1619a586a5456287f54ab42f096a7486 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_1619a586a5456287f54ab42f096a7486.addTo(map_3eec09345a530b80229a8d8bb5176b03);
+        
+    
+            var polygon_677cd840451f99223d013b90e6349b42 = L.polygon(
+                [[42.85908699999996, -71.031201], [42.859113334378684, -71.03104224152717], [42.86315679310787, -71.00464357960789], [42.862543, -71.003786], [42.86149100000003, -71.00232700000001], [42.85939599999996, -70.999444], [42.858751999999974, -70.998572], [42.85654600000002, -70.99558400000001], [42.85417800000005, -70.992383], [42.85274500000003, -70.990454], [42.851857, -70.989272], [42.851062000000006, -70.988189], [42.85093000000002, -70.98802], [42.850358000000014, -70.98724000000001], [42.849827, -70.986488], [42.84959799999999, -70.986211], [42.849259999999965, -70.985752], [42.84891299999998, -70.985282], [42.84836500000002, -70.98454], [42.848018000000025, -70.98407], [42.84765999999997, -70.983584], [42.84763099999994, -70.98353500000002], [42.84741799999996, -70.98324300000002], [42.84558100000001, -70.980764], [42.84496499999996, -70.979952], [42.84486199999995, -70.97979300000002], [42.84468399999998, -70.979708], [42.84442700000003, -70.979581], [42.84402199999995, -70.979393], [42.84372700000001, -70.979251], [42.84330899999997, -70.979051], [42.842777, -70.978797], [42.84215, -70.978486], [42.841826, -70.978346], [42.84176999999999, -70.97831600000002], [42.84175900000003, -70.978311], [42.84167100000002, -70.978269], [42.841001, -70.977949], [42.84098400000004, -70.977941], [42.840465, -70.977693], [42.83994999999997, -70.977447], [42.839836, -70.977393], [42.83937399999999, -70.97717300000001], [42.83922399999998, -70.977101], [42.83837400000006, -70.97669500000002], [42.834325000000014, -70.97476200000001], [42.833926, -70.974572], [42.83375600000004, -70.974489], [42.83288899999997, -70.97407700000001], [42.832629999999995, -70.973953], [42.832584, -70.973931], [42.832410000000024, -70.973847], [42.830942, -70.973148], [42.82741299999994, -70.971462], [42.82497699999998, -70.970299], [42.82477599999997, -70.97020600000002], [42.82454599999999, -70.970104], [42.82249600000001, -70.96917999999998], [42.82255799999998, -70.969346], [42.82274100000003, -70.969681], [42.823021999999995, -70.970203], [42.82334000000001, -70.970809], [42.823569999999975, -70.97133], [42.82378200000002, -70.971917], [42.82394299999999, -70.97242300000002], [42.82403499999992, -70.972945], [42.82418499999999, -70.974183], [42.824231000000026, -70.974562], [42.82438, -70.976164], [42.824474000000016, -70.977141], [42.824589, -70.97872], [42.824580999999974, -70.979235], [42.82456200000002, -70.979931], [42.824543999999996, -70.980364], [42.82440399999996, -70.981726], [42.82436700000001, -70.98191], [42.824221999999985, -70.982617], [42.824194000000006, -70.98275400000001], [42.824097999999964, -70.983336], [42.824053, -70.98358900000001], [42.824002000000036, -70.984062], [42.823882, -70.985132], [42.823862999999996, -70.98524600000002], [42.82373, -70.98611200000002], [42.82368699999998, -70.986286], [42.82356900000001, -70.98674700000001], [42.823461000000016, -70.987178], [42.82318099999999, -70.988087], [42.822881999999964, -70.988898], [42.82282099999995, -70.98906500000001], [42.82276799999998, -70.989208], [42.822654, -70.989526], [42.82228999999999, -70.990537], [42.822167999999984, -70.99101000000002], [42.82213099999997, -70.99122300000002], [42.82196400000001, -70.99219100000002], [42.82190700000002, -70.99271], [42.821869999999976, -70.993585], [42.82192400000004, -70.994061], [42.82190799999998, -70.994521], [42.82186000000003, -70.99506], [42.82168499999999, -70.99581700000002], [42.82155599999999, -70.996178], [42.821420999999965, -70.996536], [42.821246, -70.99694000000001], [42.821086999999984, -70.99723], [42.82088699999997, -70.997571], [42.82043300000002, -70.998229], [42.82014799999998, -70.998574], [42.81983400000002, -70.998954], [42.81955600000003, -70.999299], [42.81917000000003, -70.99976600000001], [42.818864999999995, -71.000096], [42.818648999999965, -71.000323], [42.81843100000004, -71.000532], [42.81819000000001, -71.000741], [42.818106000000014, -71.0008], [42.817972000000005, -71.000872], [42.817771999999984, -71.000964], [42.817607, -71.001034], [42.81751499999998, -71.001057], [42.81726300000002, -71.001158], [42.81701199999997, -71.00122], [42.816720000000004, -71.00126], [42.81623300000005, -71.001292], [42.815786999999986, -71.001347], [42.81531200000003, -71.001362], [42.81512200000005, -71.00135700000001], [42.81496699999996, -71.00135400000002], [42.81409900000007, -71.001259], [42.81368499999997, -71.001194], [42.813408000000024, -71.001125], [42.81303000000001, -71.001015], [42.812779000000035, -71.00096000000002], [42.812509000000006, -71.00084], [42.81192400000002, -71.00052000000001], [42.81146600000003, -71.000235], [42.81069099999994, -70.999714], [42.81054499999998, -70.999611], [42.81063600000005, -70.999846], [42.81067000000006, -70.999932], [42.81071600000003, -71.000048], [42.811457000000026, -71.001926], [42.811529000000014, -71.002139], [42.81171100000001, -71.00258500000001], [42.81207300000001, -71.003428], [42.81299899999996, -71.005637], [42.813592999999976, -71.007057], [42.81363500000001, -71.007155], [42.81368800000002, -71.007276], [42.81391699999999, -71.00783100000001], [42.814270000000064, -71.008678], [42.815864000000005, -71.012469], [42.81603100000001, -71.012851], [42.818815000000036, -71.019511], [42.819026999999984, -71.020016], [42.820409000000005, -71.023316], [42.824729000000005, -71.0336], [42.82509000000001, -71.034472], [42.82543799999998, -71.035302], [42.825819000000024, -71.036206], [42.826532999999976, -71.037896], [42.826759000000024, -71.038447], [42.826969999999974, -71.038955], [42.82704700000001, -71.039134], [42.82721599999997, -71.039554], [42.827367, -71.039909], [42.82796300000004, -71.041321], [42.828368999999995, -71.042297], [42.82904800000001, -71.04390700000002], [42.829971999999955, -71.046112], [42.830895000000034, -71.04831300000001], [42.83106433980199, -71.04871641262415], [42.85908530752846, -71.03120330877898], [42.85908699999996, -71.031201]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3eec09345a530b80229a8d8bb5176b03);
+        
+    
+        var popup_c0a25493161398e7d003f033f69c5b7d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1255ddc3807d6e4b5d481d9887e40b94 = $(`<div id="html_1255ddc3807d6e4b5d481d9887e40b94" style="width: 100.0%; height: 100.0%;"><b>Essex - Massachusetts-CD06</b></div>`)[0];
+                popup_c0a25493161398e7d003f033f69c5b7d.setContent(html_1255ddc3807d6e4b5d481d9887e40b94);
+            
+        
+
+        polygon_677cd840451f99223d013b90e6349b42.bindPopup(popup_c0a25493161398e7d003f033f69c5b7d)
+        ;
+
+        
+    
+    
+            var circle_marker_f36dde3114131026964e27e7a0b9a3c6 = L.circleMarker(
+                [42.828576478713245, -70.99513266595737],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3eec09345a530b80229a8d8bb5176b03);
+        
+    
+        var popup_2990a266c080ecef9f9f44166138a0a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d813e4e0b8b889e14ed673e811a9fbd2 = $(`<div id="html_d813e4e0b8b889e14ed673e811a9fbd2" style="width: 100.0%; height: 100.0%;"><b>Essex - Massachusetts-CD06</b></div>`)[0];
+                popup_2990a266c080ecef9f9f44166138a0a2.setContent(html_d813e4e0b8b889e14ed673e811a9fbd2);
+            
+        
+
+        circle_marker_f36dde3114131026964e27e7a0b9a3c6.bindPopup(popup_2990a266c080ecef9f9f44166138a0a2)
+        ;
+
+        
+    
+    
+            circle_marker_f36dde3114131026964e27e7a0b9a3c6.bindTooltip(
+                `<div>
+                     Essex - Massachusetts-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_d7fe685c5cd7e638555b5014961ef68e = L.polygon(
+                [[42.84028199999998, -71.049863], [42.84060400000003, -71.049674], [42.84095299999998, -71.04946700000002], [42.84421300000002, -71.047545], [42.84431300000002, -71.047486], [42.848667, -71.04492], [42.85173799999996, -71.040934], [42.852618999999954, -71.03979], [42.852887000000045, -71.039441], [42.852929999999986, -71.039385], [42.85314399999999, -71.039108], [42.853628999999984, -71.038478], [42.853995000000026, -71.038004], [42.854059999999976, -71.03794], [42.85406599999997, -71.037924], [42.856353999999975, -71.034929], [42.85908530752846, -71.03120330877898], [42.83106433980199, -71.04871641262415], [42.83142599999998, -71.049578], [42.83232699999999, -71.051727], [42.832479000000006, -71.052091], [42.832515000000015, -71.052194], [42.83293500000001, -71.053274], [42.83308900000004, -71.053601], [42.83314099999996, -71.053667], [42.83326799999997, -71.053974], [42.83327599999997, -71.053992], [42.833281999999976, -71.054005], [42.83336899999999, -71.053954], [42.84028199999998, -71.049863]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3eec09345a530b80229a8d8bb5176b03);
+        
+    
+        var popup_c9b4b641011c90327a96ac0cf05d299d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98f64a17d2f4ba028a7a8fa8a0a6ea15 = $(`<div id="html_98f64a17d2f4ba028a7a8fa8a0a6ea15" style="width: 100.0%; height: 100.0%;"><b>Essex - Massachusetts-CD01</b></div>`)[0];
+                popup_c9b4b641011c90327a96ac0cf05d299d.setContent(html_98f64a17d2f4ba028a7a8fa8a0a6ea15);
+            
+        
+
+        polygon_d7fe685c5cd7e638555b5014961ef68e.bindPopup(popup_c9b4b641011c90327a96ac0cf05d299d)
+        ;
+
+        
+    
+    
+            var circle_marker_e51f466e12139ccd39079cd2ad3c9f48 = L.circleMarker(
+                [42.842866421577675, -71.0462242573801],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3eec09345a530b80229a8d8bb5176b03);
+        
+    
+        var popup_5fe81f6ca907356fc71d495fb28cd155 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3044a75e6c431b618e47f05d74aa0707 = $(`<div id="html_3044a75e6c431b618e47f05d74aa0707" style="width: 100.0%; height: 100.0%;"><b>Essex - Massachusetts-CD01</b></div>`)[0];
+                popup_5fe81f6ca907356fc71d495fb28cd155.setContent(html_3044a75e6c431b618e47f05d74aa0707);
+            
+        
+
+        circle_marker_e51f466e12139ccd39079cd2ad3c9f48.bindPopup(popup_5fe81f6ca907356fc71d495fb28cd155)
+        ;
+
+        
+    
+    
+            circle_marker_e51f466e12139ccd39079cd2ad3c9f48.bindTooltip(
+                `<div>
+                     Essex - Massachusetts-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_3626ca486229941edae2e19ff0d45af2 = L.polygon(
+                [[42.85912199999997, -71.03099], [42.85954799999998, -71.02845], [42.86013199999999, -71.025519], [42.86043100000003, -71.02402], [42.86053099999996, -71.023519], [42.86057799999998, -71.02322100000002], [42.860608000000006, -71.02303500000001], [42.860634000000076, -71.022872], [42.86065300000002, -71.022757], [42.860674, -71.022625], [42.86150300000004, -71.01746500000002], [42.86155299999998, -71.017151], [42.861681999999966, -71.016339], [42.86188899999997, -71.01494], [42.86192800000004, -71.01467300000002], [42.862046, -71.013859], [42.86234800000001, -71.011781], [42.862529, -71.010536], [42.86262000000006, -71.009908], [42.86264100000008, -71.009766], [42.863347, -71.004902], [42.86325299999997, -71.004778], [42.86315679310787, -71.00464357960789], [42.859113334378684, -71.03104224152717], [42.85912199999997, -71.03099]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3eec09345a530b80229a8d8bb5176b03);
+        
+    
+        var popup_c3ad03be9e27791510a28a1cddc9cb88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a36d382f1bb3d0ba7d6f39925c35266 = $(`<div id="html_2a36d382f1bb3d0ba7d6f39925c35266" style="width: 100.0%; height: 100.0%;"><b>Essex - Massachusetts-CD01</b></div>`)[0];
+                popup_c3ad03be9e27791510a28a1cddc9cb88.setContent(html_2a36d382f1bb3d0ba7d6f39925c35266);
+            
+        
+
+        polygon_3626ca486229941edae2e19ff0d45af2.bindPopup(popup_c3ad03be9e27791510a28a1cddc9cb88)
+        ;
+
+        
+    
+    
+            var circle_marker_0a7af8c73e468bd7a6cef5673bbecd0f = L.circleMarker(
+                [42.86126568509947, -71.0183912728454],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3eec09345a530b80229a8d8bb5176b03);
+        
+    
+        var popup_42801d5f340fde988924378a771cde38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4101dad413e9b20a313ebb8ea6333b4d = $(`<div id="html_4101dad413e9b20a313ebb8ea6333b4d" style="width: 100.0%; height: 100.0%;"><b>Essex - Massachusetts-CD01</b></div>`)[0];
+                popup_42801d5f340fde988924378a771cde38.setContent(html_4101dad413e9b20a313ebb8ea6333b4d);
+            
+        
+
+        circle_marker_0a7af8c73e468bd7a6cef5673bbecd0f.bindPopup(popup_42801d5f340fde988924378a771cde38)
+        ;
+
+        
+    
+    
+            circle_marker_0a7af8c73e468bd7a6cef5673bbecd0f.bindTooltip(
+                `<div>
+                     Essex - Massachusetts-CD01
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

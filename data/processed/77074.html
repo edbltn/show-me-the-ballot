@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7b8d3b19834ec49b31ee9182f2448f97 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harris - Texas-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harris - Texas-CD07</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harris - Texas-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Harris - Texas-CD07</p>
+            </div>
+    
+            <div class="folium-map" id="map_7b8d3b19834ec49b31ee9182f2448f97" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7b8d3b19834ec49b31ee9182f2448f97 = L.map(
+                "map_7b8d3b19834ec49b31ee9182f2448f97",
+                {
+                    center: [29.71289011522821, -95.50360039181739],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3ce9d67c853e4eccdea6647a7ad79d29 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_3ce9d67c853e4eccdea6647a7ad79d29.addTo(map_7b8d3b19834ec49b31ee9182f2448f97);
+        
+    
+            var polygon_3763fc6c68092437ee69e7707259be8c = L.polygon(
+                [[29.702812999999995, -95.52053300000001], [29.70305799999999, -95.520695], [29.703401000000003, -95.520889], [29.70352399999998, -95.520948], [29.703695999999987, -95.521018], [29.704003000000025, -95.521123], [29.704497, -95.521242], [29.70513899999998, -95.521303], [29.705168999999973, -95.520562], [29.705168999999966, -95.520058], [29.705176999999967, -95.519314], [29.705181000000014, -95.519227], [29.705182000000004, -95.51892], [29.70519199999997, -95.51862500000001], [29.705195000000025, -95.51849400000002], [29.705196000000033, -95.518319], [29.705190000000023, -95.518122], [29.70518400000004, -95.517756], [29.705190000000016, -95.517193], [29.705185000000036, -95.516737], [29.70514600000004, -95.516202], [29.705000000000016, -95.515304], [29.704943999999955, -95.515093], [29.704895999999973, -95.514882], [29.704742999999954, -95.514264], [29.704544974214745, -95.5136187643056], [29.70267019571715, -95.520423676032], [29.702812999999995, -95.52053300000001]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b8d3b19834ec49b31ee9182f2448f97);
+        
+    
+        var popup_7e5a1eea3bc69581eda2205673e4b9a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bce1c30f81016ff1bf852bad4b2c235e = $(`<div id="html_bce1c30f81016ff1bf852bad4b2c235e" style="width: 100.0%; height: 100.0%;"><b>Harris - Texas-CD07</b></div>`)[0];
+                popup_7e5a1eea3bc69581eda2205673e4b9a1.setContent(html_bce1c30f81016ff1bf852bad4b2c235e);
+            
+        
+
+        polygon_3763fc6c68092437ee69e7707259be8c.bindPopup(popup_7e5a1eea3bc69581eda2205673e4b9a1)
+        ;
+
+        
+    
+    
+            var circle_marker_7a385b42c190d28afed1921c867ce6d8 = L.circleMarker(
+                [29.70453922035471, -95.5186213728692],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b8d3b19834ec49b31ee9182f2448f97);
+        
+    
+        var popup_526643654cc63704166747b030b1a66c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ccc251c6d21fc632ca06f993d3bdea7 = $(`<div id="html_1ccc251c6d21fc632ca06f993d3bdea7" style="width: 100.0%; height: 100.0%;"><b>Harris - Texas-CD07</b></div>`)[0];
+                popup_526643654cc63704166747b030b1a66c.setContent(html_1ccc251c6d21fc632ca06f993d3bdea7);
+            
+        
+
+        circle_marker_7a385b42c190d28afed1921c867ce6d8.bindPopup(popup_526643654cc63704166747b030b1a66c)
+        ;
+
+        
+    
+    
+            circle_marker_7a385b42c190d28afed1921c867ce6d8.bindTooltip(
+                `<div>
+                     Harris - Texas-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7dc0a230ae043ff55f33e47f2db89fe1 = L.polygon(
+                [[29.706776999999995, -95.510643], [29.707125999999963, -95.510254], [29.70786899999999, -95.509415], [29.70934399999998, -95.50775000000002], [29.710483999999976, -95.506463], [29.71489, -95.501487], [29.71677800000003, -95.499359], [29.716840999999967, -95.499288], [29.71695199999995, -95.4994], [29.717228000000052, -95.499096], [29.717688999999968, -95.49859], [29.718831000000016, -95.497332], [29.719089000000015, -95.497624], [29.71927999999998, -95.497924], [29.719360999999974, -95.49805], [29.71943900000003, -95.498228], [29.72015299999997, -95.497893], [29.721230999999964, -95.49791900000001], [29.721250999999963, -95.497329], [29.722393999999973, -95.497338], [29.72267599999996, -95.497335], [29.72301699999998, -95.497342], [29.723129000000014, -95.497344], [29.723190000000034, -95.496398], [29.723241000000005, -95.495618], [29.72356299999997, -95.492024], [29.723597000000016, -95.491645], [29.723606999999973, -95.491413], [29.723629999999986, -95.491146], [29.72363099999999, -95.49084], [29.723630999999976, -95.490683], [29.723575000000018, -95.490745], [29.723193999999985, -95.491166], [29.72287300000003, -95.491558], [29.72245199999999, -95.492044], [29.72154300000003, -95.493175], [29.720325999999993, -95.494544], [29.72011499999998, -95.494781], [29.71979500000002, -95.495144], [29.718223000000048, -95.496918], [29.716769000000014, -95.498548], [29.716458000000003, -95.498898], [29.716036999999968, -95.498385], [29.715692999999963, -95.497993], [29.715489999999992, -95.497764], [29.715349000000014, -95.497602], [29.714940000000006, -95.497128], [29.714299999999984, -95.497843], [29.713717, -95.498496], [29.713582000000006, -95.498357], [29.712663999999975, -95.497295], [29.711971000000005, -95.49649600000001], [29.711711000000008, -95.49629], [29.711452999999967, -95.496953], [29.711143000000007, -95.49688100000002], [29.71063900000003, -95.496827], [29.710644999999996, -95.49626], [29.710650000000005, -95.495969], [29.710665000000013, -95.494809], [29.710665000000013, -95.494467], [29.71067600000003, -95.494148], [29.71073800000002, -95.49371200000002], [29.710831999999964, -95.49328], [29.710182999999994, -95.493143], [29.710163999999995, -95.494951], [29.70968912548761, -95.49493729746455], [29.704737766489448, -95.51291887666679], [29.706776999999995, -95.510643]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7b8d3b19834ec49b31ee9182f2448f97);
+        
+    
+        var popup_beaef0c2afd470f45dea8ccefbddeb5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be0ae9bc3420e4008f72ee6b71eb9e75 = $(`<div id="html_be0ae9bc3420e4008f72ee6b71eb9e75" style="width: 100.0%; height: 100.0%;"><b>Harris - Texas-CD07</b></div>`)[0];
+                popup_beaef0c2afd470f45dea8ccefbddeb5f.setContent(html_be0ae9bc3420e4008f72ee6b71eb9e75);
+            
+        
+
+        polygon_7dc0a230ae043ff55f33e47f2db89fe1.bindPopup(popup_beaef0c2afd470f45dea8ccefbddeb5f)
+        ;
+
+        
+    
+    
+            var circle_marker_9b7e82ddbee28c30397c1d1697dbd58e = L.circleMarker(
+                [29.716328718999662, -95.49741528197252],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7b8d3b19834ec49b31ee9182f2448f97);
+        
+    
+        var popup_d8a137d346306a7b22c6afa7d3a01a07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_66c7aa85332054f68eaa23446744e44a = $(`<div id="html_66c7aa85332054f68eaa23446744e44a" style="width: 100.0%; height: 100.0%;"><b>Harris - Texas-CD07</b></div>`)[0];
+                popup_d8a137d346306a7b22c6afa7d3a01a07.setContent(html_66c7aa85332054f68eaa23446744e44a);
+            
+        
+
+        circle_marker_9b7e82ddbee28c30397c1d1697dbd58e.bindPopup(popup_d8a137d346306a7b22c6afa7d3a01a07)
+        ;
+
+        
+    
+    
+            circle_marker_9b7e82ddbee28c30397c1d1697dbd58e.bindTooltip(
+                `<div>
+                     Harris - Texas-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_f473613488b7ee9e4ff3f426217bbff6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carroll - Ohio-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carroll - Ohio-CD06</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carroll - Ohio-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carroll - Ohio-CD06</p>
+            </div>
+    
+            <div class="folium-map" id="map_f473613488b7ee9e4ff3f426217bbff6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_f473613488b7ee9e4ff3f426217bbff6 = L.map(
+                "map_f473613488b7ee9e4ff3f426217bbff6",
+                {
+                    center: [40.45156463963965, -81.21121448648651],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6c30dc0931e8221cb28a34f2c0b0bc43 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_6c30dc0931e8221cb28a34f2c0b0bc43.addTo(map_f473613488b7ee9e4ff3f426217bbff6);
+        
+    
+            var polygon_371b887ea950a4b5417abc0bfbc5259c = L.polygon(
+                [[40.44980700000001, -81.21449000000001], [40.44988900000004, -81.214408], [40.44989800000003, -81.21432600000001], [40.44989200000004, -81.213422], [40.44975100000004, -81.213422], [40.449332000000055, -81.21344800000001], [40.449193, -81.213458], [40.449036000000014, -81.213468], [40.44878100000005, -81.213485], [40.44876199999998, -81.213899], [40.44878900000001, -81.214244], [40.44881600000003, -81.214481], [40.448915999999954, -81.214554], [40.44902599999999, -81.214544], [40.44924100000001, -81.214566], [40.44929800000002, -81.21457200000002], [40.449553000000016, -81.214544], [40.44980700000001, -81.21449000000001]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f473613488b7ee9e4ff3f426217bbff6);
+        
+    
+        var popup_5fe447b14348cbb33f396cdf50b27641 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a63a9c7e7e41ca2feaa7881a3ea110f8 = $(`<div id="html_a63a9c7e7e41ca2feaa7881a3ea110f8" style="width: 100.0%; height: 100.0%;"><b>Carroll - Ohio-CD06</b></div>`)[0];
+                popup_5fe447b14348cbb33f396cdf50b27641.setContent(html_a63a9c7e7e41ca2feaa7881a3ea110f8);
+            
+        
+
+        polygon_371b887ea950a4b5417abc0bfbc5259c.bindPopup(popup_5fe447b14348cbb33f396cdf50b27641)
+        ;
+
+        
+    
+    
+            var circle_marker_7d2e344aa85a88cd2b34b664cf570325 = L.circleMarker(
+                [40.44932150000002, -81.21410116666667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f473613488b7ee9e4ff3f426217bbff6);
+        
+    
+        var popup_a16c1b6ca56e664578d8571aec514b52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b974523b2c1882e9d8788dac7931b98b = $(`<div id="html_b974523b2c1882e9d8788dac7931b98b" style="width: 100.0%; height: 100.0%;"><b>Carroll - Ohio-CD06</b></div>`)[0];
+                popup_a16c1b6ca56e664578d8571aec514b52.setContent(html_b974523b2c1882e9d8788dac7931b98b);
+            
+        
+
+        circle_marker_7d2e344aa85a88cd2b34b664cf570325.bindPopup(popup_a16c1b6ca56e664578d8571aec514b52)
+        ;
+
+        
+    
+    
+            circle_marker_7d2e344aa85a88cd2b34b664cf570325.bindTooltip(
+                `<div>
+                     Carroll - Ohio-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_3443635a39def2107fcad8fff4012ec5 = L.polygon(
+                [[40.452825, -81.214239], [40.45313999999997, -81.214197], [40.453675000000025, -81.214127], [40.45391399999995, -81.214097], [40.453880999999996, -81.213178], [40.45387000000002, -81.212855], [40.453837000000036, -81.211889], [40.45382599999996, -81.211567], [40.453901, -81.211563], [40.45404, -81.211556], [40.454129, -81.211554], [40.45420599999997, -81.211554], [40.45447199999998, -81.21155], [40.454528999999965, -81.211552], [40.454585, -81.211555], [40.45481000000004, -81.21158], [40.45503299999999, -81.211624], [40.455232999999986, -81.211681], [40.45541, -81.211747], [40.455466999999985, -81.211773], [40.455584000000016, -81.211828], [40.45573799999995, -81.211913], [40.45575399999997, -81.211922], [40.45587499999997, -81.21180600000001], [40.45601900000002, -81.21168], [40.45672999999995, -81.211066], [40.456835999999996, -81.210981], [40.45694699999997, -81.21089300000001], [40.457122, -81.21076400000001], [40.45716800000002, -81.21073], [40.457212999999996, -81.210699], [40.45745799999998, -81.210533], [40.457487, -81.210508], [40.45754900000001, -81.210456], [40.457571000000016, -81.210434], [40.45628399999993, -81.209135], [40.45617200000002, -81.20902000000001], [40.45474799999995, -81.20756200000001], [40.453261, -81.206047], [40.45199199999999, -81.204762], [40.451445000000014, -81.2042], [40.450599000000004, -81.203344], [40.45005900000003, -81.203592], [40.44971199999998, -81.20361500000001], [40.448096000000014, -81.203727], [40.448117000000025, -81.204933], [40.44813500000001, -81.205875], [40.44811799999996, -81.205975], [40.44808900000001, -81.206163], [40.44819899999997, -81.206132], [40.44829800000001, -81.206105], [40.44833299999998, -81.206156], [40.44843900000004, -81.206309], [40.44847500000003, -81.20636], [40.44875099999999, -81.206754], [40.44901700000002, -81.20713500000001], [40.44958500000003, -81.207935], [40.44986400000003, -81.208329], [40.44988900000005, -81.208365], [40.44996599999996, -81.208473], [40.449992, -81.208509], [40.44957899999998, -81.208536], [40.44950800000004, -81.208541], [40.44950899999999, -81.208972], [40.448770999999994, -81.209001], [40.44835799999998, -81.209018], [40.448243999999995, -81.209023], [40.44824500000005, -81.209103], [40.44825699999994, -81.20968500000001], [40.44826200000002, -81.20988], [40.448268999999975, -81.210267], [40.448293000000014, -81.21143100000002], [40.44830100000002, -81.211819], [40.448307999999955, -81.212448], [40.44831699999998, -81.213233], [40.44942100000001, -81.213242], [40.44987599999997, -81.213247], [40.44989200000004, -81.213422], [40.44992400000001, -81.213728], [40.449998000000015, -81.214429], [40.450217000000045, -81.214425], [40.45052500000002, -81.214421], [40.451084999999985, -81.214468], [40.45118599999999, -81.214477], [40.450858999999994, -81.216031], [40.450743999999986, -81.216582], [40.450872999999966, -81.216626], [40.45126100000001, -81.216761], [40.45139099999996, -81.216807], [40.451850000000036, -81.217033], [40.45208900000004, -81.21715], [40.45218199999997, -81.216779], [40.452825, -81.214239]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f473613488b7ee9e4ff3f426217bbff6);
+        
+    
+        var popup_73572a500bbf416d35807828f268ffb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dd437d3ea1520f8684e3f4040847683 = $(`<div id="html_0dd437d3ea1520f8684e3f4040847683" style="width: 100.0%; height: 100.0%;"><b>Carroll - Ohio-CD06</b></div>`)[0];
+                popup_73572a500bbf416d35807828f268ffb3.setContent(html_0dd437d3ea1520f8684e3f4040847683);
+            
+        
+
+        polygon_3443635a39def2107fcad8fff4012ec5.bindPopup(popup_73572a500bbf416d35807828f268ffb3)
+        ;
+
+        
+    
+    
+            var circle_marker_8d071dc1f856e3254ca4937bf86487e1 = L.circleMarker(
+                [40.45199879569892, -81.21065577419357],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_f473613488b7ee9e4ff3f426217bbff6);
+        
+    
+        var popup_5ccafd66ce315f74748154b2809fe0d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2be59c2eac9137d446cb22df8dfa5da = $(`<div id="html_a2be59c2eac9137d446cb22df8dfa5da" style="width: 100.0%; height: 100.0%;"><b>Carroll - Ohio-CD06</b></div>`)[0];
+                popup_5ccafd66ce315f74748154b2809fe0d6.setContent(html_a2be59c2eac9137d446cb22df8dfa5da);
+            
+        
+
+        circle_marker_8d071dc1f856e3254ca4937bf86487e1.bindPopup(popup_5ccafd66ce315f74748154b2809fe0d6)
+        ;
+
+        
+    
+    
+            circle_marker_8d071dc1f856e3254ca4937bf86487e1.bindTooltip(
+                `<div>
+                     Carroll - Ohio-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

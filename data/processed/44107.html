@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_da237edf26a2c5909b72940ac25e7a74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD11</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD07</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Cuyahoga - Ohio-CD11</p>
+            </div>
+    
+            <div class="folium-map" id="map_da237edf26a2c5909b72940ac25e7a74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_da237edf26a2c5909b72940ac25e7a74 = L.map(
+                "map_da237edf26a2c5909b72940ac25e7a74",
+                {
+                    center: [41.4745289126466, -81.80391347858495],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_bd0c0adb7a450041329bd94e3536f4a4 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_bd0c0adb7a450041329bd94e3536f4a4.addTo(map_da237edf26a2c5909b72940ac25e7a74);
+        
+    
+            var polygon_b2e603a53fbf617014930d9b68376e75 = L.polygon(
+                [[41.46809600000003, -81.817735], [41.46814500000001, -81.818063], [41.46814500000004, -81.818536], [41.46811000000003, -81.819029], [41.46811000000002, -81.81956700000002], [41.468119, -81.82046700000001], [41.468135, -81.821213], [41.46813900000001, -81.821427], [41.468148, -81.821587], [41.468169, -81.82171], [41.46821499999999, -81.821808], [41.468148, -81.824558], [41.47074800000001, -81.824058], [41.47143799999997, -81.82403], [41.47180399999999, -81.82414400000002], [41.47184799999997, -81.824158], [41.47201000000007, -81.824125], [41.47414194293793, -81.82369996728862], [41.46808823374704, -81.81770515647315], [41.46809600000003, -81.817735]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_da237edf26a2c5909b72940ac25e7a74);
+        
+    
+        var popup_96948facc074f3858732d14444f7f7ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90d63886d90f7a6b40790f8958e72a9e = $(`<div id="html_90d63886d90f7a6b40790f8958e72a9e" style="width: 100.0%; height: 100.0%;"><b>Cuyahoga - Ohio-CD07</b></div>`)[0];
+                popup_96948facc074f3858732d14444f7f7ff.setContent(html_90d63886d90f7a6b40790f8958e72a9e);
+            
+        
+
+        polygon_b2e603a53fbf617014930d9b68376e75.bindPopup(popup_96948facc074f3858732d14444f7f7ff)
+        ;
+
+        
+    
+    
+            var circle_marker_e4e298216c0f0dadaec7efb4da3d4934 = L.circleMarker(
+                [41.46929265883426, -81.8212677561881],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_da237edf26a2c5909b72940ac25e7a74);
+        
+    
+        var popup_fb9349c94119bb6064d0f044e02538c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be78134afa65aaaaff87872a7ff39a46 = $(`<div id="html_be78134afa65aaaaff87872a7ff39a46" style="width: 100.0%; height: 100.0%;"><b>Cuyahoga - Ohio-CD07</b></div>`)[0];
+                popup_fb9349c94119bb6064d0f044e02538c5.setContent(html_be78134afa65aaaaff87872a7ff39a46);
+            
+        
+
+        circle_marker_e4e298216c0f0dadaec7efb4da3d4934.bindPopup(popup_fb9349c94119bb6064d0f044e02538c5)
+        ;
+
+        
+    
+    
+            circle_marker_e4e298216c0f0dadaec7efb4da3d4934.bindTooltip(
+                `<div>
+                     Cuyahoga - Ohio-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_7533caf3c33deb6e754732db1c78adc2 = L.polygon(
+                [[41.47770799999996, -81.827639], [41.47716699999999, -81.829414], [41.476886000000015, -81.830219], [41.477049999999956, -81.833234], [41.478713000000056, -81.833953], [41.48045200000002, -81.833064], [41.48237299999997, -81.831885], [41.4823976568981, -81.83187741092085], [41.47766295894441, -81.82718731181406], [41.47770799999996, -81.827639]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_da237edf26a2c5909b72940ac25e7a74);
+        
+    
+        var popup_ea5a4535f1812de2a25419ed9ecdb70f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ad1ce334912407bbb0af2042f4872026 = $(`<div id="html_ad1ce334912407bbb0af2042f4872026" style="width: 100.0%; height: 100.0%;"><b>Cuyahoga - Ohio-CD07</b></div>`)[0];
+                popup_ea5a4535f1812de2a25419ed9ecdb70f.setContent(html_ad1ce334912407bbb0af2042f4872026);
+            
+        
+
+        polygon_7533caf3c33deb6e754732db1c78adc2.bindPopup(popup_ea5a4535f1812de2a25419ed9ecdb70f)
+        ;
+
+        
+    
+    
+            var circle_marker_1d8d8f1a65ef45bd332b653a0602bce7 = L.circleMarker(
+                [41.47881176158424, -81.83061117227349],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_da237edf26a2c5909b72940ac25e7a74);
+        
+    
+        var popup_a70de0a3ec49ae39322fde92c3cde8af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e993e0eda9c5814b15a015d64077c824 = $(`<div id="html_e993e0eda9c5814b15a015d64077c824" style="width: 100.0%; height: 100.0%;"><b>Cuyahoga - Ohio-CD07</b></div>`)[0];
+                popup_a70de0a3ec49ae39322fde92c3cde8af.setContent(html_e993e0eda9c5814b15a015d64077c824);
+            
+        
+
+        circle_marker_1d8d8f1a65ef45bd332b653a0602bce7.bindPopup(popup_a70de0a3ec49ae39322fde92c3cde8af)
+        ;
+
+        
+    
+    
+            circle_marker_1d8d8f1a65ef45bd332b653a0602bce7.bindTooltip(
+                `<div>
+                     Cuyahoga - Ohio-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_67c29848da8812840ab03d53443cd6e6 = L.polygon(
+                [[41.49095399999998, -81.768572], [41.48997099999997, -81.768676], [41.48963299999999, -81.768676], [41.489234, -81.768696], [41.48885000000001, -81.768696], [41.48752299999995, -81.76874], [41.48621000000002, -81.76874], [41.48517199999998, -81.76874], [41.48361699999999, -81.768751], [41.48358399999998, -81.768628], [41.48347300000003, -81.768203], [41.48343799999999, -81.76807], [41.479835999999985, -81.768078], [41.479834999999966, -81.768222], [41.47952099999998, -81.768233], [41.47939600000001, -81.768226], [41.47938499999997, -81.768075], [41.47786399999999, -81.768093], [41.477861, -81.768792], [41.476904999999995, -81.768804], [41.475553000000005, -81.768814], [41.47434299999998, -81.771927], [41.472277999999996, -81.777398], [41.47200299999997, -81.77797], [41.47154899999996, -81.77877], [41.47108700000003, -81.779509], [41.47054600000001, -81.780299], [41.47026300000006, -81.780673], [41.469684000000015, -81.781411], [41.470485999999994, -81.783059], [41.47048599999998, -81.783408], [41.47048000000002, -81.784524], [41.47000799999998, -81.78454], [41.469998000000004, -81.785601], [41.46999499999999, -81.786591], [41.469995000000004, -81.787554], [41.46998300000001, -81.788559], [41.47045099999997, -81.788561], [41.47045099999997, -81.789031], [41.47031599999998, -81.789717], [41.469951, -81.789726], [41.469660000000005, -81.789736], [41.46926499999997, -81.789743], [41.46942100000002, -81.790722], [41.46949600000001, -81.791671], [41.46952999999999, -81.792162], [41.46955799999999, -81.792934], [41.46958600000003, -81.793864], [41.46961400000001, -81.795031], [41.469599999999964, -81.797272], [41.469634999999975, -81.797277], [41.46992900000003, -81.797325], [41.46992199999995, -81.799999], [41.47000799999998, -81.80053], [41.470041999999985, -81.803435], [41.47014799999995, -81.804739], [41.470083, -81.806064], [41.46995799999998, -81.808777], [41.46994099999999, -81.810357], [41.469773000000025, -81.810735], [41.46956900000003, -81.810765], [41.46951200000002, -81.810614], [41.469094000000005, -81.810449], [41.46800300000002, -81.810396], [41.46800599999996, -81.810584], [41.468005999999995, -81.810746], [41.468011000000004, -81.811829], [41.468014000000025, -81.812267], [41.468015, -81.812431], [41.46751800000006, -81.812429], [41.46746199999997, -81.812429], [41.46747399999996, -81.813867], [41.46739199999999, -81.813873], [41.46739299999999, -81.814056], [41.46746799999996, -81.81405500000001], [41.467478, -81.814346], [41.46739599999995, -81.814348], [41.46763200000002, -81.81493200000001], [41.467690000000026, -81.815074], [41.467795999999986, -81.815458], [41.46762999999994, -81.815592], [41.46752899999999, -81.815674], [41.46774199999997, -81.816301], [41.467850000000006, -81.816777], [41.46800700000001, -81.817393], [41.46808823374704, -81.81770515647315], [41.47414194293793, -81.82369996728862], [41.474849, -81.823559], [41.47713600000005, -81.821904], [41.47766295894441, -81.82718731181406], [41.4823976568981, -81.83187741092085], [41.48315599999992, -81.831644], [41.484868, -81.831575], [41.486325, -81.832263], [41.48639600000001, -81.832297], [41.486416, -81.832306], [41.48784700000001, -81.833858], [41.48884699999996, -81.835058], [41.489347000000016, -81.83605900000002], [41.48993699999997, -81.836965], [41.49234599999996, -81.840659], [41.49455090521094, -81.8439197446184], [41.495647999999996, -81.810758], [41.49149471702511, -81.7685751713547], [41.49095399999998, -81.768572]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_da237edf26a2c5909b72940ac25e7a74);
+        
+    
+        var popup_ef0d39bd1b8a664147e645a652459d22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9d07b6b5ae5ef617858d951af2b4a0dd = $(`<div id="html_9d07b6b5ae5ef617858d951af2b4a0dd" style="width: 100.0%; height: 100.0%;"><b>Cuyahoga - Ohio-CD11</b></div>`)[0];
+                popup_ef0d39bd1b8a664147e645a652459d22.setContent(html_9d07b6b5ae5ef617858d951af2b4a0dd);
+            
+        
+
+        polygon_67c29848da8812840ab03d53443cd6e6.bindPopup(popup_ef0d39bd1b8a664147e645a652459d22)
+        ;
+
+        
+    
+    
+            var circle_marker_bde02dd8cc22e351c4fcbf05b8d44340 = L.circleMarker(
+                [41.47511840395012, -81.79806526440449],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_da237edf26a2c5909b72940ac25e7a74);
+        
+    
+        var popup_f543746eedde5cd13756302a3701590e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_606f1bf80b50f88d96a70e12481dbe14 = $(`<div id="html_606f1bf80b50f88d96a70e12481dbe14" style="width: 100.0%; height: 100.0%;"><b>Cuyahoga - Ohio-CD11</b></div>`)[0];
+                popup_f543746eedde5cd13756302a3701590e.setContent(html_606f1bf80b50f88d96a70e12481dbe14);
+            
+        
+
+        circle_marker_bde02dd8cc22e351c4fcbf05b8d44340.bindPopup(popup_f543746eedde5cd13756302a3701590e)
+        ;
+
+        
+    
+    
+            circle_marker_bde02dd8cc22e351c4fcbf05b8d44340.bindTooltip(
+                `<div>
+                     Cuyahoga - Ohio-CD11
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

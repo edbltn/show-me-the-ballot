@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_23d12eade236e8bbc31d131f3e549e93 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD08</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD08</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD08</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #ffe119;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD04</p>
+            
+                <p><i style="background: #4363d8;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Chelan - Washington-CD08</p>
+            </div>
+    
+            <div class="folium-map" id="map_23d12eade236e8bbc31d131f3e549e93" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_23d12eade236e8bbc31d131f3e549e93 = L.map(
+                "map_23d12eade236e8bbc31d131f3e549e93",
+                {
+                    center: [47.79338982431039, -119.99567162066184],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_142101b65a1c7fb722de98abcf5076e5 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_142101b65a1c7fb722de98abcf5076e5.addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+            var polygon_41ddef6ab8dfff489cd0820e56d88867 = L.polygon(
+                [[47.79752499999997, -119.980813], [47.79407299999999, -119.98402600000001], [47.79385599999997, -119.984242], [47.79368799999999, -119.98457599999999], [47.793232999999994, -119.98559100000001], [47.79314766025371, -119.98581264738162], [47.802195688615186, -119.97959669073421], [47.801984999999945, -119.979431], [47.80183199999998, -119.97931000000001], [47.800702, -119.97842199999998], [47.80034400000003, -119.97864000000001], [47.79752499999997, -119.980813]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_a4497251e44d73f057ef41de1b063cda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99e4841f0ea0efb712da86c2d878c9c8 = $(`<div id="html_99e4841f0ea0efb712da86c2d878c9c8" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD04</b></div>`)[0];
+                popup_a4497251e44d73f057ef41de1b063cda.setContent(html_99e4841f0ea0efb712da86c2d878c9c8);
+            
+        
+
+        polygon_41ddef6ab8dfff489cd0820e56d88867.bindPopup(popup_a4497251e44d73f057ef41de1b063cda)
+        ;
+
+        
+    
+    
+            var circle_marker_79838437cae41516401fe3bfff12c4b0 = L.circleMarker(
+                [47.79750886240572, -119.9817727781763],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_d86caaafbbc65134582aeb7df3c849ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78f473146489ab0e713c6ec1ef932331 = $(`<div id="html_78f473146489ab0e713c6ec1ef932331" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD04</b></div>`)[0];
+                popup_d86caaafbbc65134582aeb7df3c849ce.setContent(html_78f473146489ab0e713c6ec1ef932331);
+            
+        
+
+        circle_marker_79838437cae41516401fe3bfff12c4b0.bindPopup(popup_d86caaafbbc65134582aeb7df3c849ce)
+        ;
+
+        
+    
+    
+            circle_marker_79838437cae41516401fe3bfff12c4b0.bindTooltip(
+                `<div>
+                     Chelan - Washington-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_0e96be936967786e6c5ff0af4a274622 = L.polygon(
+                [[47.781353, -119.99495200000001], [47.78035300000002, -119.99696900000002], [47.779698, -119.998926], [47.779259000000046, -120.001179], [47.779156000000036, -120.00213], [47.77910999999997, -120.003368], [47.779234, -120.005105], [47.77946099999998, -120.006568], [47.779487, -120.00742400000001], [47.77957699999997, -120.00834000000002], [47.779842999999964, -120.00897000000002], [47.780262999999955, -120.009848], [47.78024800000005, -120.01061000000001], [47.78018931395693, -120.01121008833545], [47.78314999999998, -119.992679], [47.781353, -119.99495200000001]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_5145efce47ace7433dd9056c9dfefc38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9bfccc57fe9ae01ede2a3ca347ad8dd = $(`<div id="html_d9bfccc57fe9ae01ede2a3ca347ad8dd" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD04</b></div>`)[0];
+                popup_5145efce47ace7433dd9056c9dfefc38.setContent(html_d9bfccc57fe9ae01ede2a3ca347ad8dd);
+            
+        
+
+        polygon_0e96be936967786e6c5ff0af4a274622.bindPopup(popup_5145efce47ace7433dd9056c9dfefc38)
+        ;
+
+        
+    
+    
+            var circle_marker_5e5f4c6a1b22971889cd8791ac8ab72f = L.circleMarker(
+                [47.78010839462231, -120.00332688052097],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_41454f03e31b90dac8c16701c6ed487d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7c3450ca99cf90911408d0e372ec619f = $(`<div id="html_7c3450ca99cf90911408d0e372ec619f" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD04</b></div>`)[0];
+                popup_41454f03e31b90dac8c16701c6ed487d.setContent(html_7c3450ca99cf90911408d0e372ec619f);
+            
+        
+
+        circle_marker_5e5f4c6a1b22971889cd8791ac8ab72f.bindPopup(popup_41454f03e31b90dac8c16701c6ed487d)
+        ;
+
+        
+    
+    
+            circle_marker_5e5f4c6a1b22971889cd8791ac8ab72f.bindTooltip(
+                `<div>
+                     Chelan - Washington-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_b571809887f14ff2c8c0c698329cad5f = L.polygon(
+                [[47.77992099999996, -120.01212300000002], [47.77943299999998, -120.01336300000001], [47.77900799999998, -120.014436], [47.778777999999946, -120.01603300000001], [47.77893199999999, -120.01718600000001], [47.77914051157591, -120.01777053165193], [47.7801616401754, -120.01138322000142], [47.77992099999996, -120.01212300000002]],
+                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_98caabfad4509e4ccada3b54b56bcf09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8be5a1d5d562f691f20fc3eb198868e7 = $(`<div id="html_8be5a1d5d562f691f20fc3eb198868e7" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD04</b></div>`)[0];
+                popup_98caabfad4509e4ccada3b54b56bcf09.setContent(html_8be5a1d5d562f691f20fc3eb198868e7);
+            
+        
+
+        polygon_b571809887f14ff2c8c0c698329cad5f.bindPopup(popup_98caabfad4509e4ccada3b54b56bcf09)
+        ;
+
+        
+    
+    
+            var circle_marker_ce131b6a496eb821f5955217352f5ed8 = L.circleMarker(
+                [47.77941189396889, -120.01430221895667],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_39455a1d1bbb7e60e16cc82ab36648eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_82a4fc5c3ebf9ced815cf3443fead0af = $(`<div id="html_82a4fc5c3ebf9ced815cf3443fead0af" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD04</b></div>`)[0];
+                popup_39455a1d1bbb7e60e16cc82ab36648eb.setContent(html_82a4fc5c3ebf9ced815cf3443fead0af);
+            
+        
+
+        circle_marker_ce131b6a496eb821f5955217352f5ed8.bindPopup(popup_39455a1d1bbb7e60e16cc82ab36648eb)
+        ;
+
+        
+    
+    
+            circle_marker_ce131b6a496eb821f5955217352f5ed8.bindTooltip(
+                `<div>
+                     Chelan - Washington-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_1fa44932784c25eac06c8bb017cb3958 = L.polygon(
+                [[47.79301700000003, -119.98615200000002], [47.792792999999996, -119.986534], [47.792544000000014, -119.98684500000002], [47.792038000000005, -119.98714599999998], [47.791379000000006, -119.987543], [47.790013000000044, -119.988445], [47.787280000000024, -119.989951], [47.785965652748125, -119.9907454331372], [47.78314999999998, -119.992679], [47.78018931395693, -120.01121008833545], [47.78017700000003, -120.011336], [47.7801616401754, -120.01138322000142], [47.77914051157591, -120.01777053165193], [47.77928799999996, -120.018184], [47.77938599999998, -120.01920699999998], [47.779327000000045, -120.02045500000001], [47.77954999999999, -120.02037100000001], [47.78022200000006, -120.02011900000001], [47.780445999999955, -120.020036], [47.78054399999994, -120.019995], [47.780837999999974, -120.01987299999999], [47.78093700000003, -120.01983300000002], [47.781584000000045, -120.019571], [47.78162400000003, -120.01955500000001], [47.78192300000004, -120.017525], [47.78202600000003, -120.016835], [47.78209199999999, -120.016412], [47.78229199999998, -120.015143], [47.78235900000004, -120.01472100000001], [47.78262699999998, -120.01270299999999], [47.78277800000001, -120.011573], [47.78585899999998, -120.00767600000002], [47.787121999999954, -120.00608000000001], [47.788605999999994, -120.00426600000002], [47.788944, -120.00390500000002], [47.791466, -120.00122800000001], [47.794881, -119.997803], [47.795640999999996, -119.997041], [47.796993000000036, -119.995911], [47.79815399999996, -119.994933], [47.80078899999999, -119.99271500000002], [47.80163700000004, -119.992002], [47.802799000000014, -119.991025], [47.80338899999995, -119.990528], [47.80359299999997, -119.990355], [47.80437400000003, -119.9897], [47.805826999999994, -119.988477], [47.805980000000034, -119.988349], [47.806775999999964, -119.98768100000001], [47.806304, -119.98777999999999], [47.806205, -119.987801], [47.805896000000004, -119.98783699999998], [47.80519899999996, -119.98790299999999], [47.80486600000001, -119.98788700000001], [47.80458400000004, -119.987874], [47.80438500000002, -119.98786900000002], [47.804178000000036, -119.98788800000001], [47.80408799999998, -119.98787599999999], [47.80400299999997, -119.987844], [47.803918, -119.987789], [47.80383499999998, -119.987706], [47.80379100000001, -119.98764499999999], [47.803773999999976, -119.987621], [47.803721999999986, -119.987523], [47.80367799999998, -119.987406], [47.80331400000005, -119.986337], [47.80327500000007, -119.986253], [47.80310299999998, -119.98591299999998], [47.80304899999998, -119.985838], [47.80298200000006, -119.985776], [47.80290900000002, -119.985736], [47.802809000000025, -119.98571300000002], [47.802712, -119.98568], [47.80261600000001, -119.98562399999999], [47.802525000000024, -119.98554500000002], [47.80245499999997, -119.98540200000001], [47.802737, -119.98527599999998], [47.80358400000001, -119.984898], [47.8037349999999, -119.98483199999998], [47.803864000000004, -119.984767], [47.803898999999966, -119.984706], [47.80390100000003, -119.984689], [47.80391500000002, -119.98461200000001], [47.803890999999986, -119.98443200000001], [47.80388700000001, -119.984397], [47.803872999999975, -119.98434800000001], [47.80396300000002, -119.98430300000001], [47.80398699999996, -119.98429000000002], [47.80405299999996, -119.98425800000001], [47.80424799999999, -119.98416], [47.804328999999974, -119.984118], [47.804443000000056, -119.984061], [47.80417200000001, -119.98264800000001], [47.803964, -119.981563], [47.803720999999975, -119.98079600000001], [47.803267999999946, -119.98044], [47.802195688615186, -119.97959669073421], [47.79314766025371, -119.98581264738162], [47.79301700000003, -119.98615200000002]],
+                {"bubblingMouseEvents": true, "color": "#4363d8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4363d8", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_37fd3cb76d431ad2f217188cf2c1053d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a646a22ccfe28b9afc92dee2bfd7c25 = $(`<div id="html_6a646a22ccfe28b9afc92dee2bfd7c25" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD08</b></div>`)[0];
+                popup_37fd3cb76d431ad2f217188cf2c1053d.setContent(html_6a646a22ccfe28b9afc92dee2bfd7c25);
+            
+        
+
+        polygon_1fa44932784c25eac06c8bb017cb3958.bindPopup(popup_37fd3cb76d431ad2f217188cf2c1053d)
+        ;
+
+        
+    
+    
+            var circle_marker_8d3f9f910e62cc5e8635e3fffa592501 = L.circleMarker(
+                [47.79616657037702, -119.99461361223476],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_23d12eade236e8bbc31d131f3e549e93);
+        
+    
+        var popup_2fa334eb9993e2348e911cdb1dd6b2c0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_20c46a1eebb705eff1f3a115915ce90c = $(`<div id="html_20c46a1eebb705eff1f3a115915ce90c" style="width: 100.0%; height: 100.0%;"><b>Chelan - Washington-CD08</b></div>`)[0];
+                popup_2fa334eb9993e2348e911cdb1dd6b2c0.setContent(html_20c46a1eebb705eff1f3a115915ce90c);
+            
+        
+
+        circle_marker_8d3f9f910e62cc5e8635e3fffa592501.bindPopup(popup_2fa334eb9993e2348e911cdb1dd6b2c0)
+        ;
+
+        
+    
+    
+            circle_marker_8d3f9f910e62cc5e8635e3fffa592501.bindTooltip(
+                `<div>
+                     Chelan - Washington-CD08
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

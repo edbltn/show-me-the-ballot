@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d247eaafe919be402d84b517410efcd7 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carbon - Pennsylvania-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carbon - Pennsylvania-CD09</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carbon - Pennsylvania-CD07</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Carbon - Pennsylvania-CD09</p>
+            </div>
+    
+            <div class="folium-map" id="map_d247eaafe919be402d84b517410efcd7" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d247eaafe919be402d84b517410efcd7 = L.map(
+                "map_d247eaafe919be402d84b517410efcd7",
+                {
+                    center: [40.83411447863584, -75.88198095028338],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_adfeb0f7c12bc0817a196ce96208c2ea = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_adfeb0f7c12bc0817a196ce96208c2ea.addTo(map_d247eaafe919be402d84b517410efcd7);
+        
+    
+            var polygon_02d5592526e906dc196f8bc980aecb88 = L.polygon(
+                [[40.83540399999995, -75.899553], [40.837372999999964, -75.893546], [40.838629999999995, -75.889713], [40.838748, -75.889355], [40.83929800000004, -75.887678], [40.84018700000002, -75.884943], [40.840633, -75.883538], [40.842107000000006, -75.879074], [40.842569000000026, -75.877567], [40.842616000000014, -75.877418], [40.84290599999994, -75.876563], [40.843485, -75.87466], [40.84439699999998, -75.871661], [40.84472000000004, -75.870515], [40.847081999999986, -75.86162], [40.84754, -75.860062], [40.84736299999997, -75.859977], [40.84648999999997, -75.859559], [40.84619900000006, -75.85942], [40.845448, -75.859054], [40.843196000000034, -75.857959], [40.84244599999998, -75.857594], [40.841985000000044, -75.857375], [40.84060199999999, -75.856721], [40.84014200000004, -75.856503], [40.83854800000001, -75.855726], [40.83633799999994, -75.854649], [40.83309399999999, -75.866407], [40.83303299999998, -75.866653], [40.832873000000056, -75.867313], [40.832284, -75.869714], [40.831797000000044, -75.871276], [40.83145800000005, -75.872318], [40.831283999999954, -75.872809], [40.83056999999996, -75.874992], [40.83022200000001, -75.875542], [40.829947, -75.87597], [40.82845600000001, -75.878313], [40.827338000000026, -75.878873], [40.827160000000006, -75.879434], [40.826184999999974, -75.882523], [40.82548699999999, -75.884748], [40.82508500000002, -75.886035], [40.82388799999996, -75.88998], [40.822928000000026, -75.893262], [40.82283050404909, -75.89357606524483], [40.83339503025157, -75.90571476924832], [40.83540399999995, -75.899553]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d247eaafe919be402d84b517410efcd7);
+        
+    
+        var popup_12c37800744d64990de3a5b8bb7c1314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6269cbdf63f94ba6b274a99e8ca0aceb = $(`<div id="html_6269cbdf63f94ba6b274a99e8ca0aceb" style="width: 100.0%; height: 100.0%;"><b>Carbon - Pennsylvania-CD07</b></div>`)[0];
+                popup_12c37800744d64990de3a5b8bb7c1314.setContent(html_6269cbdf63f94ba6b274a99e8ca0aceb);
+            
+        
+
+        polygon_02d5592526e906dc196f8bc980aecb88.bindPopup(popup_12c37800744d64990de3a5b8bb7c1314)
+        ;
+
+        
+    
+    
+            var circle_marker_eabc7969be864383da676ef5bdb954af = L.circleMarker(
+                [40.8364827194646, -75.87493768405194],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d247eaafe919be402d84b517410efcd7);
+        
+    
+        var popup_0b07b54096bc69bcc0304cb60585957b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0bc82bd38c457edb817f2c6692994121 = $(`<div id="html_0bc82bd38c457edb817f2c6692994121" style="width: 100.0%; height: 100.0%;"><b>Carbon - Pennsylvania-CD07</b></div>`)[0];
+                popup_0b07b54096bc69bcc0304cb60585957b.setContent(html_0bc82bd38c457edb817f2c6692994121);
+            
+        
+
+        circle_marker_eabc7969be864383da676ef5bdb954af.bindPopup(popup_0b07b54096bc69bcc0304cb60585957b)
+        ;
+
+        
+    
+    
+            circle_marker_eabc7969be864383da676ef5bdb954af.bindTooltip(
+                `<div>
+                     Carbon - Pennsylvania-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_85d577777b19baadcef4c5171c38a04f = L.polygon(
+                [[40.826091000000034, -75.89743300000002], [40.82649700000002, -75.897901], [40.827465999999966, -75.899019], [40.828202999999974, -75.89987], [40.828272000000005, -75.89995], [40.828479999999985, -75.90019], [40.82855000000001, -75.900271], [40.828564999999976, -75.900288], [40.82866499999998, -75.900403], [40.828932000000044, -75.90071000000002], [40.83003299999996, -75.901978], [40.83039999999998, -75.902401], [40.83137100000003, -75.903518], [40.83336299999999, -75.905813], [40.83339503025157, -75.90571476924832], [40.82283050404909, -75.89357606524483], [40.82280600000001, -75.893655], [40.82448899999997, -75.895591], [40.826091000000034, -75.89743300000002]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d247eaafe919be402d84b517410efcd7);
+        
+    
+        var popup_0e723ac85985ff84ff47b85766b2290c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0db81c2952ac0aa3fa75aa2241f4dcb6 = $(`<div id="html_0db81c2952ac0aa3fa75aa2241f4dcb6" style="width: 100.0%; height: 100.0%;"><b>Carbon - Pennsylvania-CD09</b></div>`)[0];
+                popup_0e723ac85985ff84ff47b85766b2290c.setContent(html_0db81c2952ac0aa3fa75aa2241f4dcb6);
+            
+        
+
+        polygon_85d577777b19baadcef4c5171c38a04f.bindPopup(popup_0e723ac85985ff84ff47b85766b2290c)
+        ;
+
+        
+    
+    
+            var circle_marker_dc588bbb2da2707f6a01ef81dcef59b0 = L.circleMarker(
+                [40.82813155443688, -75.89977446497333],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d247eaafe919be402d84b517410efcd7);
+        
+    
+        var popup_0c3d94c4a9c30af6889a1990f6ea739e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fda7af679b6e8c7581a83cb2de30330d = $(`<div id="html_fda7af679b6e8c7581a83cb2de30330d" style="width: 100.0%; height: 100.0%;"><b>Carbon - Pennsylvania-CD09</b></div>`)[0];
+                popup_0c3d94c4a9c30af6889a1990f6ea739e.setContent(html_fda7af679b6e8c7581a83cb2de30330d);
+            
+        
+
+        circle_marker_dc588bbb2da2707f6a01ef81dcef59b0.bindPopup(popup_0c3d94c4a9c30af6889a1990f6ea739e)
+        ;
+
+        
+    
+    
+            circle_marker_dc588bbb2da2707f6a01ef81dcef59b0.bindTooltip(
+                `<div>
+                     Carbon - Pennsylvania-CD09
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

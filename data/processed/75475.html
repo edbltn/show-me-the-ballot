@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_83fba0c15af9227a5ba5a74041d09181 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fannin - Texas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fannin - Texas-CD04</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fannin - Texas-CD04</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Fannin - Texas-CD04</p>
+            </div>
+    
+            <div class="folium-map" id="map_83fba0c15af9227a5ba5a74041d09181" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_83fba0c15af9227a5ba5a74041d09181 = L.map(
+                "map_83fba0c15af9227a5ba5a74041d09181",
+                {
+                    center: [33.4870994654088, -96.25595956603775],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_121353e0c773f4faa2e9228f3cc06bbc = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_121353e0c773f4faa2e9228f3cc06bbc.addTo(map_83fba0c15af9227a5ba5a74041d09181);
+        
+    
+            var polygon_28cf073761ecc103a55190e85cb99216 = L.polygon(
+                [[33.485978, -96.258598], [33.48690899999994, -96.258353], [33.48785700000001, -96.258067], [33.488503999999985, -96.2578], [33.489385999999996, -96.257319], [33.48941199999998, -96.257304], [33.49019899999997, -96.256777], [33.49091899999998, -96.256139], [33.491433000000015, -96.255594], [33.492017, -96.254808], [33.49203200000003, -96.254783], [33.492347999999964, -96.25429], [33.49284599999998, -96.253343], [33.49304100000003, -96.252922], [33.49332300000001, -96.252316], [33.49390500000001, -96.250967], [33.49546299999995, -96.247392], [33.49573100000002, -96.246778], [33.49597100000001, -96.246266], [33.496511000000005, -96.24515], [33.49662100000003, -96.244933], [33.49652700000001, -96.244868], [33.496362999999995, -96.244752], [33.496286999999974, -96.244736], [33.496230999999995, -96.244747], [33.496183, -96.244757], [33.49613200000001, -96.244794], [33.495687999999966, -96.245233], [33.495282, -96.245667], [33.49357199999998, -96.2475], [33.49280700000002, -96.248355], [33.49227800000001, -96.24894800000001], [33.49199599999999, -96.249264], [33.491887999999996, -96.24939], [33.49171399999999, -96.24959500000001], [33.49156299999998, -96.24976900000001], [33.491454999999995, -96.249895], [33.49128100000001, -96.250095], [33.49080499999997, -96.250647], [33.49075999999998, -96.250695], [33.49058000000002, -96.25089], [33.490577999999985, -96.250796], [33.490572, -96.250514], [33.490572, -96.250421], [33.49057099999999, -96.250388], [33.49056900000002, -96.25028900000001], [33.49056900000002, -96.250256], [33.49057500000001, -96.250147], [33.49059799999998, -96.249821], [33.490605999999985, -96.249713], [33.49060799999998, -96.249624], [33.49061700000004, -96.249359], [33.490620000000014, -96.249271], [33.490461, -96.249281], [33.490189999999984, -96.249299], [33.490018000000006, -96.249323], [33.48998399999995, -96.249323], [33.48988299999997, -96.249324], [33.48982699999997, -96.249316], [33.489718, -96.24933700000001], [33.48958600000004, -96.249339], [33.489569999999986, -96.24934], [33.489490000000025, -96.24935], [33.48943200000001, -96.249388], [33.489393, -96.249445], [33.489370000000015, -96.249588], [33.48936299999999, -96.249777], [33.48935300000004, -96.25], [33.489342000000015, -96.250259], [33.489339000000015, -96.250304], [33.48933700000002, -96.250372], [33.48933399999998, -96.250439], [33.48933200000001, -96.250485], [33.489276000000025, -96.251739], [33.489253, -96.251972], [33.48902100000001, -96.25205], [33.48893799999998, -96.252065], [33.48872600000001, -96.25208], [33.487239000000045, -96.252074], [33.48598500000001, -96.252097], [33.485368999999984, -96.25216], [33.48517299999995, -96.25218700000002], [33.484679999999976, -96.252309], [33.484191, -96.252405], [33.484231000000015, -96.252643], [33.48435399999999, -96.25336000000001], [33.484368999999965, -96.25344800000002], [33.48439799999999, -96.253599], [33.48435300000004, -96.253614], [33.48416599999999, -96.253654], [33.48406200000001, -96.253686], [33.48420500000002, -96.254369], [33.48447199999996, -96.255932], [33.484483000000004, -96.255974], [33.484601999999974, -96.256546], [33.484778000000006, -96.2575], [33.48483500000002, -96.257847], [33.484859000000014, -96.257991], [33.484886999999986, -96.258162], [33.48490999999998, -96.258288], [33.484980000000036, -96.25867], [33.485003999999975, -96.258797], [33.48519899999998, -96.258756], [33.485783, -96.258637], [33.485978, -96.258598]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_83fba0c15af9227a5ba5a74041d09181);
+        
+    
+        var popup_af6b3d7253cb566d6cdfd7ec3b298468 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00a116755e9802c124be66e157619c40 = $(`<div id="html_00a116755e9802c124be66e157619c40" style="width: 100.0%; height: 100.0%;"><b>Fannin - Texas-CD04</b></div>`)[0];
+                popup_af6b3d7253cb566d6cdfd7ec3b298468.setContent(html_00a116755e9802c124be66e157619c40);
+            
+        
+
+        polygon_28cf073761ecc103a55190e85cb99216.bindPopup(popup_af6b3d7253cb566d6cdfd7ec3b298468)
+        ;
+
+        
+    
+    
+            var circle_marker_8ff143fd21d2ad5ee51f457e70ca73bd = L.circleMarker(
+                [33.48967556190476, -96.25163421904763],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_83fba0c15af9227a5ba5a74041d09181);
+        
+    
+        var popup_dc5bc05531b49849beace0bf6c29050a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b3fbadbdb155db471bdd2a961b51f20 = $(`<div id="html_3b3fbadbdb155db471bdd2a961b51f20" style="width: 100.0%; height: 100.0%;"><b>Fannin - Texas-CD04</b></div>`)[0];
+                popup_dc5bc05531b49849beace0bf6c29050a.setContent(html_3b3fbadbdb155db471bdd2a961b51f20);
+            
+        
+
+        circle_marker_8ff143fd21d2ad5ee51f457e70ca73bd.bindPopup(popup_dc5bc05531b49849beace0bf6c29050a)
+        ;
+
+        
+    
+    
+            circle_marker_8ff143fd21d2ad5ee51f457e70ca73bd.bindTooltip(
+                `<div>
+                     Fannin - Texas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_bc4d9f3100625fcd8b649be795911fd5 = L.polygon(
+                [[33.48616000000002, -96.266736], [33.48631799999999, -96.266732], [33.48639599999997, -96.266727], [33.48642399999997, -96.266722], [33.486450999999974, -96.266718], [33.48586400000003, -96.263514], [33.48563400000003, -96.26226], [33.48516899999999, -96.259699], [33.48509400000004, -96.259284], [33.485003999999975, -96.258797], [33.48393000000001, -96.259079], [33.481533, -96.259655], [33.48109799999996, -96.259759], [33.48074100000001, -96.259911], [33.47988300000001, -96.260279], [33.479189, -96.260708], [33.47858200000004, -96.261151], [33.478355999999934, -96.261359], [33.47820899999999, -96.261494], [33.47775200000001, -96.261948], [33.477299, -96.262505], [33.47697299999999, -96.262952], [33.476461000000015, -96.263789], [33.47535200000001, -96.265693], [33.47545799999998, -96.265795], [33.47558899999997, -96.265898], [33.475673999999984, -96.265917], [33.47586400000003, -96.265911], [33.47659499999998, -96.26583800000002], [33.47738499999998, -96.265772], [33.47921499999999, -96.265601], [33.47980700000001, -96.265537], [33.480534000000006, -96.265457], [33.48102599999995, -96.265408], [33.48112, -96.265401], [33.481267000000024, -96.265389], [33.481953000000004, -96.26549400000002], [33.482172999999996, -96.265531], [33.483326999999974, -96.265512], [33.48513599999998, -96.265423], [33.48520400000002, -96.265441], [33.48524499999997, -96.26549400000002], [33.48526699999997, -96.265597], [33.485278999999984, -96.26579], [33.48528800000001, -96.266219], [33.48530700000002, -96.266489], [33.48534199999996, -96.266604], [33.48536699999999, -96.266633], [33.48543100000001, -96.266687], [33.48551100000006, -96.266719], [33.485594999999975, -96.26674], [33.48579999999998, -96.266745], [33.486090000000004, -96.266729], [33.48616000000002, -96.266736]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_83fba0c15af9227a5ba5a74041d09181);
+        
+    
+        var popup_b6a28465f79eabba12d2bdb3d773a91f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b96c2fbb61fbdf936cfc4dabd3cf0ab = $(`<div id="html_3b96c2fbb61fbdf936cfc4dabd3cf0ab" style="width: 100.0%; height: 100.0%;"><b>Fannin - Texas-CD04</b></div>`)[0];
+                popup_b6a28465f79eabba12d2bdb3d773a91f.setContent(html_3b96c2fbb61fbdf936cfc4dabd3cf0ab);
+            
+        
+
+        polygon_bc4d9f3100625fcd8b649be795911fd5.bindPopup(popup_b6a28465f79eabba12d2bdb3d773a91f)
+        ;
+
+        
+    
+    
+            var circle_marker_0a6851a95f0ca80f7830c2ef6e1c715b = L.circleMarker(
+                [33.482090388888885, -96.26436996296296],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_83fba0c15af9227a5ba5a74041d09181);
+        
+    
+        var popup_26abb1ff8eae3940aa8702096d025e30 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ca1b743a473ced25b88e25d1a1ad5f8 = $(`<div id="html_5ca1b743a473ced25b88e25d1a1ad5f8" style="width: 100.0%; height: 100.0%;"><b>Fannin - Texas-CD04</b></div>`)[0];
+                popup_26abb1ff8eae3940aa8702096d025e30.setContent(html_5ca1b743a473ced25b88e25d1a1ad5f8);
+            
+        
+
+        circle_marker_0a6851a95f0ca80f7830c2ef6e1c715b.bindPopup(popup_26abb1ff8eae3940aa8702096d025e30)
+        ;
+
+        
+    
+    
+            circle_marker_0a6851a95f0ca80f7830c2ef6e1c715b.bindTooltip(
+                `<div>
+                     Fannin - Texas-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

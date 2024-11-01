@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3bb42d498fb161f017869c12d02835dd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinellas - Florida-CD13</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinellas - Florida-CD13</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinellas - Florida-CD13</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Pinellas - Florida-CD13</p>
+            </div>
+    
+            <div class="folium-map" id="map_3bb42d498fb161f017869c12d02835dd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3bb42d498fb161f017869c12d02835dd = L.map(
+                "map_3bb42d498fb161f017869c12d02835dd",
+                {
+                    center: [27.876927027443582, -82.8413533526822],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_54078951e2924dcff00e90de6062afe7 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_54078951e2924dcff00e90de6062afe7.addTo(map_3bb42d498fb161f017869c12d02835dd);
+        
+    
+            var polygon_ac00cb23fc08873ba1b0a840e1af160e = L.polygon(
+                [[27.909693999999995, -82.833534], [27.902305999999978, -82.83588], [27.90080899999999, -82.836307], [27.899213999999997, -82.836763], [27.89880800000001, -82.836901], [27.898859000000016, -82.836705], [27.894157, -82.83805], [27.893898999999983, -82.838125], [27.890586999999996, -82.84040900000001], [27.889184999999987, -82.841475], [27.887778000000015, -82.842202], [27.885930999999985, -82.843209], [27.88542899999999, -82.843487], [27.88523999999997, -82.843669], [27.88438535454427, -82.84447825188333], [27.909770959360415, -82.84274907422692], [27.909693999999995, -82.833534]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3bb42d498fb161f017869c12d02835dd);
+        
+    
+        var popup_c1bf44cea4e110303eb7afcd713524e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d456ed80a5ef989a480e9b41b07b4367 = $(`<div id="html_d456ed80a5ef989a480e9b41b07b4367" style="width: 100.0%; height: 100.0%;"><b>Pinellas - Florida-CD13</b></div>`)[0];
+                popup_c1bf44cea4e110303eb7afcd713524e7.setContent(html_d456ed80a5ef989a480e9b41b07b4367);
+            
+        
+
+        polygon_ac00cb23fc08873ba1b0a840e1af160e.bindPopup(popup_c1bf44cea4e110303eb7afcd713524e7)
+        ;
+
+        
+    
+    
+            var circle_marker_0211af6e46743e14143881f4e0155d63 = L.circleMarker(
+                [27.895632136112035, -82.83926337212414],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3bb42d498fb161f017869c12d02835dd);
+        
+    
+        var popup_71fc2392ba2a932811b01507dddcf42a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d0a5c9ce42c7b8a8ddb469c58edcae96 = $(`<div id="html_d0a5c9ce42c7b8a8ddb469c58edcae96" style="width: 100.0%; height: 100.0%;"><b>Pinellas - Florida-CD13</b></div>`)[0];
+                popup_71fc2392ba2a932811b01507dddcf42a.setContent(html_d0a5c9ce42c7b8a8ddb469c58edcae96);
+            
+        
+
+        circle_marker_0211af6e46743e14143881f4e0155d63.bindPopup(popup_71fc2392ba2a932811b01507dddcf42a)
+        ;
+
+        
+    
+    
+            circle_marker_0211af6e46743e14143881f4e0155d63.bindTooltip(
+                `<div>
+                     Pinellas - Florida-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_219ff464bf27f04d697f3c8944d154a0 = L.polygon(
+                [[27.863036999999995, -82.84542500000002], [27.861916000000033, -82.844667], [27.861486999999993, -82.844376], [27.861128000000015, -82.844281], [27.860301000000014, -82.844052], [27.858589999999992, -82.84359], [27.857193999999986, -82.843212], [27.855382999999986, -82.842719], [27.85407500000001, -82.842364], [27.85186100000001, -82.841762], [27.85127400000003, -82.841602], [27.84778499999999, -82.840652], [27.84775828407019, -82.84064514524334], [27.85430100000002, -82.846526], [27.863718307663426, -82.84588516715958], [27.863036999999995, -82.84542500000002]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_3bb42d498fb161f017869c12d02835dd);
+        
+    
+        var popup_ae9f0fdedee4adac19c710d21ffba209 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ada798ffe400b9eeef00bd60eba81fd5 = $(`<div id="html_ada798ffe400b9eeef00bd60eba81fd5" style="width: 100.0%; height: 100.0%;"><b>Pinellas - Florida-CD13</b></div>`)[0];
+                popup_ae9f0fdedee4adac19c710d21ffba209.setContent(html_ada798ffe400b9eeef00bd60eba81fd5);
+            
+        
+
+        polygon_219ff464bf27f04d697f3c8944d154a0.bindPopup(popup_ae9f0fdedee4adac19c710d21ffba209)
+        ;
+
+        
+    
+    
+            var circle_marker_8a01e634463c6b3f63cd9f9f1c71ab3b = L.circleMarker(
+                [27.857052849483352, -82.84357395702519],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3bb42d498fb161f017869c12d02835dd);
+        
+    
+        var popup_fd8caddba0a191e61859ba8f1ca9c8d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ceee491947b8572a4bd760964e4b2da3 = $(`<div id="html_ceee491947b8572a4bd760964e4b2da3" style="width: 100.0%; height: 100.0%;"><b>Pinellas - Florida-CD13</b></div>`)[0];
+                popup_fd8caddba0a191e61859ba8f1ca9c8d7.setContent(html_ceee491947b8572a4bd760964e4b2da3);
+            
+        
+
+        circle_marker_8a01e634463c6b3f63cd9f9f1c71ab3b.bindPopup(popup_fd8caddba0a191e61859ba8f1ca9c8d7)
+        ;
+
+        
+    
+    
+            circle_marker_8a01e634463c6b3f63cd9f9f1c71ab3b.bindTooltip(
+                `<div>
+                     Pinellas - Florida-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

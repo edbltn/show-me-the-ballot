@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_118ccf93df818cb6ec0bb462e816bc31 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Washoe - Nevada-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Washoe - Nevada-CD02</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Washoe - Nevada-CD03</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Washoe - Nevada-CD02</p>
+            </div>
+    
+            <div class="folium-map" id="map_118ccf93df818cb6ec0bb462e816bc31" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_118ccf93df818cb6ec0bb462e816bc31 = L.map(
+                "map_118ccf93df818cb6ec0bb462e816bc31",
+                {
+                    center: [39.23262400524623, -120.0020871192945],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_370efe6b7a63102b5492df033eaf57b3 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_370efe6b7a63102b5492df033eaf57b3.addTo(map_118ccf93df818cb6ec0bb462e816bc31);
+        
+    
+            var polygon_09af5354bfae90917f9006f92c8c284a = L.polygon(
+                [[39.225828000000014, -120.005727], [39.226040000000054, -120.00572599999998], [39.22644600000002, -120.005724], [39.22697299999995, -120.00572199999999], [39.22742600000002, -120.005577], [39.22798699999996, -120.00559800000002], [39.22833500000001, -120.00561100000002], [39.228415999999996, -120.005448], [39.22856000000002, -120.005162], [39.22860900000003, -120.005093], [39.22891400000004, -120.00479400000002], [39.22906899999999, -120.00468999999998], [39.229334999999956, -120.004591], [39.22935300000002, -120.004584], [39.22945699999999, -120.004586], [39.22944999999999, -120.005084], [39.23094400000001, -120.005063], [39.23126200000001, -120.00503100000002], [39.231599000000024, -120.00497499999999], [39.23229000000001, -120.00481299999998], [39.23294000000003, -120.004533], [39.23342767429552, -120.00432280898762], [39.221814101131706, -120.00415845397356], [39.22218299999997, -120.005208], [39.222609999999996, -120.005634], [39.22522599999998, -120.00571], [39.225828000000014, -120.005727]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_118ccf93df818cb6ec0bb462e816bc31);
+        
+    
+        var popup_ec19e089b73099502d4cccf725d1d1d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e17c42304d5004107aa6c8901e3720d1 = $(`<div id="html_e17c42304d5004107aa6c8901e3720d1" style="width: 100.0%; height: 100.0%;"><b>Washoe - Nevada-CD03</b></div>`)[0];
+                popup_ec19e089b73099502d4cccf725d1d1d1.setContent(html_e17c42304d5004107aa6c8901e3720d1);
+            
+        
+
+        polygon_09af5354bfae90917f9006f92c8c284a.bindPopup(popup_ec19e089b73099502d4cccf725d1d1d1)
+        ;
+
+        
+    
+    
+            var circle_marker_46e58da0c0bdeb7727f8458ccbec3ee6 = L.circleMarker(
+                [39.228160065756576, -120.00514415788746],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_118ccf93df818cb6ec0bb462e816bc31);
+        
+    
+        var popup_4c875a1d0cc6bdcca435d3357f59e80f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00684569c7e0c6fd08ed07a365e6841f = $(`<div id="html_00684569c7e0c6fd08ed07a365e6841f" style="width: 100.0%; height: 100.0%;"><b>Washoe - Nevada-CD03</b></div>`)[0];
+                popup_4c875a1d0cc6bdcca435d3357f59e80f.setContent(html_00684569c7e0c6fd08ed07a365e6841f);
+            
+        
+
+        circle_marker_46e58da0c0bdeb7727f8458ccbec3ee6.bindPopup(popup_4c875a1d0cc6bdcca435d3357f59e80f)
+        ;
+
+        
+    
+    
+            circle_marker_46e58da0c0bdeb7727f8458ccbec3ee6.bindTooltip(
+                `<div>
+                     Washoe - Nevada-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_763f726c4fa6c3f06bb898e0d8b98a78 = L.polygon(
+                [[39.234694000000054, -120.00377699999999], [39.23484000000001, -120.00361100000002], [39.23556300000003, -120.00298099999998], [39.23567, -120.002887], [39.23589699999997, -120.002409], [39.236387000000015, -120.002088], [39.23635599999999, -120.00193000000002], [39.23743399999997, -120.00158], [39.23759200000001, -120.00154900000001], [39.237760000000016, -120.001538], [39.238389000000005, -120.001578], [39.23851100000001, -120.001568], [39.23863099999999, -120.001541], [39.23875400000002, -120.001495], [39.23887400000002, -120.00142899999999], [39.23947400000004, -120.000973], [39.23957799999998, -120.000903], [39.23970700000008, -120.000839], [39.23983899999997, -120.000797], [39.24007899999997, -120.00075900000002], [39.24017399999999, -120.00074499999998], [39.241752000000005, -120.000512], [39.24197099999999, -120.00044900000002], [39.242190000000036, -120.00034500000001], [39.24237999999998, -120.00021299999999], [39.24254899999998, -120.00005700000001], [39.24322100000002, -119.999283], [39.243577999999985, -119.99887100000001], [39.24420600000005, -119.998613], [39.24410100000003, -119.997564], [39.24211000000005, -119.998413], [39.241881000000014, -119.99867800000001], [39.241399999999985, -119.99903], [39.24082899999997, -119.99908699999999], [39.240142999999975, -119.99873299999997], [39.23957100000001, -119.99867300000001], [39.23893200000002, -119.999082], [39.238518999999954, -119.999347], [39.23767200000002, -119.99937500000001], [39.23728299999996, -119.99961], [39.236597, -119.999638], [39.234766000000015, -120.00054600000001], [39.23460800000001, -120.00053400000002], [39.234229999999954, -120.00050399999999], [39.233211000000054, -120.00042500000002], [39.23293700000001, -120.00124000000001], [39.232663, -120.001593], [39.23227399999994, -120.00159400000001], [39.23192999999998, -120.001007], [39.23172499999998, -120.000686], [39.23135899999998, -120.00074499999998], [39.230946999999965, -120.000773], [39.23035300000002, -120.000419], [39.230275, -120.000403], [39.23005600000003, -120.00036000000001], [39.229888, -120.00036000000001], [39.22971299999999, -120.00035900000002], [39.22951699999996, -120.00058500000002], [39.22925500000004, -120.000887], [39.22916500000002, -120.00109900000001], [39.22900299999994, -120.00148300000001], [39.22846299999995, -120.001539], [39.22786000000001, -120.00160299999999], [39.226349999999975, -120.001488], [39.22605300000004, -120.00160600000001], [39.22545899999998, -120.001607], [39.224955999999985, -120.001785], [39.22468099999999, -120.00155], [39.22192600000004, -120.001533], [39.22111299999995, -120.00152800000001], [39.22077099999996, -120.002234], [39.22070299999999, -120.002616], [39.22093199999995, -120.00326300000002], [39.221275999999975, -120.003497], [39.22175700000001, -120.00399599999999], [39.221814101131706, -120.00415845397356], [39.23342767429552, -120.00432280898762], [39.234694000000054, -120.00377699999999]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_118ccf93df818cb6ec0bb462e816bc31);
+        
+    
+        var popup_048d68ed53c62fc309861810972a55cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_86f3bd4d196c380be2d17a75484f47c2 = $(`<div id="html_86f3bd4d196c380be2d17a75484f47c2" style="width: 100.0%; height: 100.0%;"><b>Washoe - Nevada-CD02</b></div>`)[0];
+                popup_048d68ed53c62fc309861810972a55cf.setContent(html_86f3bd4d196c380be2d17a75484f47c2);
+            
+        
+
+        polygon_763f726c4fa6c3f06bb898e0d8b98a78.bindPopup(popup_048d68ed53c62fc309861810972a55cf)
+        ;
+
+        
+    
+    
+            var circle_marker_983cce64548c590d0c82bfe8ba4e873e = L.circleMarker(
+                [39.23416921506958, -120.00102891362768],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_118ccf93df818cb6ec0bb462e816bc31);
+        
+    
+        var popup_4231893aefe151c131064a1ed9096615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d9774c35fd8f21a1fba367cdcfa3484 = $(`<div id="html_6d9774c35fd8f21a1fba367cdcfa3484" style="width: 100.0%; height: 100.0%;"><b>Washoe - Nevada-CD02</b></div>`)[0];
+                popup_4231893aefe151c131064a1ed9096615.setContent(html_6d9774c35fd8f21a1fba367cdcfa3484);
+            
+        
+
+        circle_marker_983cce64548c590d0c82bfe8ba4e873e.bindPopup(popup_4231893aefe151c131064a1ed9096615)
+        ;
+
+        
+    
+    
+            circle_marker_983cce64548c590d0c82bfe8ba4e873e.bindTooltip(
+                `<div>
+                     Washoe - Nevada-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

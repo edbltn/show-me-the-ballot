@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1235c1450972c89f1512d94bfcf022d3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Queens - New York-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Queens - New York-CD14</p>
+            </div>
+    
+            <div style="position: fixed; 
+                        bottom: 50px; left: 50px; width: 200px; height: auto;
+                        border:2px solid grey; z-index:9999; background-color:white;
+                        padding:10px;
+                        font-size:14px;
+                        ">
+            <p><b>Areas:</b></p>
+            
+                <p><i style="background: #e6194B;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Queens - New York-CD06</p>
+            
+                <p><i style="background: #3cb44b;
+                            padding: 5px;
+                            opacity: 0.7;"></i>
+                   Queens - New York-CD14</p>
+            </div>
+    
+            <div class="folium-map" id="map_1235c1450972c89f1512d94bfcf022d3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1235c1450972c89f1512d94bfcf022d3 = L.map(
+                "map_1235c1450972c89f1512d94bfcf022d3",
+                {
+                    center: [40.75156125727254, -73.88278817539421],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_24c9643b3bd591a31e6ff4058ffa04fa = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_24c9643b3bd591a31e6ff4058ffa04fa.addTo(map_1235c1450972c89f1512d94bfcf022d3);
+        
+    
+            var polygon_f3fa3624ab1cb5b583315a653f71912a = L.polygon(
+                [[40.75049100000001, -73.89702200000002], [40.75052199999994, -73.896735], [40.75054199999997, -73.89654000000002], [40.750609000000004, -73.8959], [40.75062, -73.895799], [40.75251641699238, -73.89618317083894], [40.74752586390314, -73.88494463293773], [40.74743999999996, -73.885787], [40.74734100000001, -73.886717], [40.747245000000014, -73.887647], [40.74722899999999, -73.887783], [40.74713400000001, -73.888678], [40.74703900000004, -73.889571], [40.74694200000001, -73.890501], [40.746231, -73.890366], [40.746647999999986, -73.891393], [40.74659300000002, -73.891382], [40.74655199999999, -73.891829], [40.74649200000002, -73.892271], [40.746753000000005, -73.892321], [40.74662000000001, -73.89358800000001], [40.74653499999995, -73.894447], [40.748472999999976, -73.89565900000001], [40.74854700000006, -73.89584], [40.74866900000002, -73.89611], [40.748679999999986, -73.896145], [40.74877, -73.896359], [40.749063000000014, -73.896528], [40.749606000000064, -73.896865], [40.749945000000004, -73.897075], [40.75007100000001, -73.897143], [40.75019799999999, -73.897205], [40.75032800000001, -73.897261], [40.75045899999999, -73.897309], [40.750479999999975, -73.897122], [40.75049100000001, -73.89702200000002]],
+                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1235c1450972c89f1512d94bfcf022d3);
+        
+    
+        var popup_c8739ef2e088cd7a357fd0bca42298e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_606b7661cf5f0df93765327e5cd5eb14 = $(`<div id="html_606b7661cf5f0df93765327e5cd5eb14" style="width: 100.0%; height: 100.0%;"><b>Queens - New York-CD06</b></div>`)[0];
+                popup_c8739ef2e088cd7a357fd0bca42298e9.setContent(html_606b7661cf5f0df93765327e5cd5eb14);
+            
+        
+
+        polygon_f3fa3624ab1cb5b583315a653f71912a.bindPopup(popup_c8739ef2e088cd7a357fd0bca42298e9)
+        ;
+
+        
+    
+    
+            var circle_marker_866922089093a00f61661ae06245adc3 = L.circleMarker(
+                [40.7485944522471, -73.89364021677157],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1235c1450972c89f1512d94bfcf022d3);
+        
+    
+        var popup_f369924a1f1d545642886dee66706ebd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2ee7c8a8513345db749c5103de0a14e = $(`<div id="html_f2ee7c8a8513345db749c5103de0a14e" style="width: 100.0%; height: 100.0%;"><b>Queens - New York-CD06</b></div>`)[0];
+                popup_f369924a1f1d545642886dee66706ebd.setContent(html_f2ee7c8a8513345db749c5103de0a14e);
+            
+        
+
+        circle_marker_866922089093a00f61661ae06245adc3.bindPopup(popup_f369924a1f1d545642886dee66706ebd)
+        ;
+
+        
+    
+    
+            circle_marker_866922089093a00f61661ae06245adc3.bindTooltip(
+                `<div>
+                     Queens - New York-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_588ecf5940c0adff92f28d58268b79c4 = L.polygon(
+                [[40.75256000000004, -73.896192], [40.75295300000001, -73.89626300000002], [40.752908999999995, -73.896733], [40.75393099999996, -73.89692700000002], [40.75397800000002, -73.896447], [40.75438899999999, -73.896522], [40.75448500000001, -73.89559], [40.754583, -73.894661], [40.754681000000005, -73.893734], [40.754778000000016, -73.892803], [40.75487300000003, -73.891881], [40.75497400000003, -73.890948], [40.75507100000001, -73.890013], [40.75516999999999, -73.889088], [40.75526600000002, -73.88815700000002], [40.75536300000001, -73.887228], [40.755460000000014, -73.886298], [40.755556999999996, -73.885367], [40.75565699999998, -73.884439], [40.755669999999995, -73.88431], [40.75575500000001, -73.883507], [40.75576499999999, -73.883411], [40.755854, -73.88257900000002], [40.75625999999997, -73.882652], [40.75630799999991, -73.882188], [40.75633899999997, -73.881898], [40.75593199999997, -73.88183000000001], [40.755951999999986, -73.88164800000001], [40.75635799999994, -73.881722], [40.75645400000006, -73.880792], [40.756049000000026, -73.880719], [40.756146999999984, -73.879789], [40.756240999999996, -73.878861], [40.75836799999999, -73.87924500000001], [40.758464, -73.878315], [40.75633899999994, -73.87793], [40.75643899999996, -73.876998], [40.756536000000004, -73.876068], [40.75663400000003, -73.875139], [40.75673200000001, -73.874208], [40.756804000000024, -73.873657], [40.756851000000005, -73.873111], [40.75735700000001, -73.873203], [40.757411000000005, -73.872765], [40.757300000000015, -73.872746], [40.75734900000002, -73.872292], [40.756942999999936, -73.872219], [40.75643300000002, -73.872126], [40.75637700000002, -73.872716], [40.756270999999956, -73.872697], [40.75627699999998, -73.872643], [40.755729000000024, -73.872531], [40.75573700000002, -73.872456], [40.755466000000034, -73.87240700000001], [40.75550899999999, -73.87195700000001], [40.75537199999994, -73.871933], [40.755114000000006, -73.871886], [40.753960999999975, -73.87168500000001], [40.75386199999999, -73.87207], [40.75332600000005, -73.871792], [40.751545000000014, -73.870842], [40.751386999999994, -73.871297], [40.751036000000006, -73.871105], [40.75104799999999, -73.871068], [40.74955300000002, -73.870184], [40.749587000000005, -73.870051], [40.749126, -73.869739], [40.74906399999998, -73.870379], [40.748925000000014, -73.87029300000002], [40.74878499999999, -73.870703], [40.748848000000024, -73.870739], [40.74878099999999, -73.870937], [40.74884400000002, -73.870967], [40.748746000000004, -73.87125], [40.74871099999999, -73.871721], [40.74857200000001, -73.87169], [40.74855400000001, -73.871829], [40.74870000000002, -73.87186100000001], [40.748636, -73.872325], [40.74885200000006, -73.872373], [40.74881300000003, -73.872774], [40.74875800000003, -73.873303], [40.748717000000006, -73.873701], [40.74868599999997, -73.873983], [40.748614000000046, -73.87462900000001], [40.74852800000003, -73.875423], [40.748514, -73.875552], [40.748438999999976, -73.876252], [40.748415999999956, -73.87648], [40.74836900000002, -73.876925], [40.748318999999974, -73.877416], [40.748216, -73.87840600000001], [40.74794600000004, -73.878633], [40.74763899999997, -73.878892], [40.74806200000002, -73.879839], [40.748025, -73.880206], [40.74792700000003, -73.881137], [40.747909, -73.881304], [40.74783000000006, -73.88207099999998], [40.74777799999995, -73.882569], [40.74773399999996, -73.882999], [40.74746900000005, -73.88294700000002], [40.74739600000001, -73.883627], [40.747361999999995, -73.883621], [40.74732700000004, -73.883881], [40.747629999999944, -73.883936], [40.74753499999997, -73.88485500000002], [40.74752586390314, -73.88494463293773], [40.75251641699238, -73.89618317083894], [40.75256000000004, -73.896192]],
+                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1235c1450972c89f1512d94bfcf022d3);
+        
+    
+        var popup_9f0567242d254534d64169decb7dc2ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_298de56eac784f686c20cbf1c2e14cc0 = $(`<div id="html_298de56eac784f686c20cbf1c2e14cc0" style="width: 100.0%; height: 100.0%;"><b>Queens - New York-CD14</b></div>`)[0];
+                popup_9f0567242d254534d64169decb7dc2ed.setContent(html_298de56eac784f686c20cbf1c2e14cc0);
+            
+        
+
+        polygon_588ecf5940c0adff92f28d58268b79c4.bindPopup(popup_9f0567242d254534d64169decb7dc2ed)
+        ;
+
+        
+    
+    
+            var circle_marker_c05cc729c3416ca70f47c7a6361c09c6 = L.circleMarker(
+                [40.7525322116445, -73.87923659821615],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_1235c1450972c89f1512d94bfcf022d3);
+        
+    
+        var popup_d00bf2a48914cc34889cd07d84e8f508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17bb90b01e25361e02354a61643c7461 = $(`<div id="html_17bb90b01e25361e02354a61643c7461" style="width: 100.0%; height: 100.0%;"><b>Queens - New York-CD14</b></div>`)[0];
+                popup_d00bf2a48914cc34889cd07d84e8f508.setContent(html_17bb90b01e25361e02354a61643c7461);
+            
+        
+
+        circle_marker_c05cc729c3416ca70f47c7a6361c09c6.bindPopup(popup_d00bf2a48914cc34889cd07d84e8f508)
+        ;
+
+        
+    
+    
+            circle_marker_c05cc729c3416ca70f47c7a6361c09c6.bindTooltip(
+                `<div>
+                     Queens - New York-CD14
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
