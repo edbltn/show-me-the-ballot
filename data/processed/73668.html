@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_915d9694d3cb9b7683da149a621767d2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+        <div style="
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
+    
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Beckham - OK-CD13</span>
+            </div>
+        
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Beckham - OK-CD03</span>
+            </div>
+        </div>
+    
+            <div class="folium-map" id="map_915d9694d3cb9b7683da149a621767d2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_915d9694d3cb9b7683da149a621767d2 = L.map(
+                "map_915d9694d3cb9b7683da149a621767d2",
+                {
+                    center: [35.224209275817735, -99.98629258514333],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_915d9694d3cb9b7683da149a621767d2);
+
+            
+
+        
+    
+            var tile_layer_af7cf1bca78630a6a1ae934b9ff6753a = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_af7cf1bca78630a6a1ae934b9ff6753a.addTo(map_915d9694d3cb9b7683da149a621767d2);
+        
+    
+            var polygon_ae6de95ef1d97f95c3bf05488d2d0db9 = L.polygon(
+                [[35.20483899999998, -100.000419], [35.20633210872972, -100.0003853779172], [35.20477252660799, -100.0003853529673], [35.20483899999998, -100.000419]],
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_915d9694d3cb9b7683da149a621767d2);
+        
+    
+        var popup_c09db47b4ec37fa0e4a416d6a1bc6db4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3c87c05f99dcb3bca9fd7197dc9a71ec = $(`<div id="html_3c87c05f99dcb3bca9fd7197dc9a71ec" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Beckham - OK-CD13</h4>                              </div>         </div>`)[0];
+                popup_c09db47b4ec37fa0e4a416d6a1bc6db4.setContent(html_3c87c05f99dcb3bca9fd7197dc9a71ec);
+            
+        
+
+        polygon_ae6de95ef1d97f95c3bf05488d2d0db9.bindPopup(popup_c09db47b4ec37fa0e4a416d6a1bc6db4)
+        ;
+
+        
+    
+    
+            polygon_ae6de95ef1d97f95c3bf05488d2d0db9.bindTooltip(
+                `<div>
+                      Beckham - OK-CD13
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_abafe47b3f142a3630915b664f6baf67 = L.polygon(
+                [[35.208118, -100.000364], [35.21002200000001, -100.00029600000002], [35.210433000000016, -100.000299], [35.21154399999998, -100.000307], [35.21774599999997, -100.000279], [35.21898299999999, -100.00026], [35.21922299999999, -100.000256], [35.21936000000002, -100.000254], [35.22016799999997, -100.000241], [35.222725, -100.000204], [35.22279000000002, -100.000203], [35.222899, -100.000203], [35.223041, -100.000202], [35.22320600000001, -100.000225], [35.224330000000016, -100.000385], [35.225033, -100.000385], [35.226763999999996, -100.000263], [35.226803, -100.00026], [35.227095999999996, -100.00024], [35.22736399999996, -100.000221], [35.22738000000002, -100.000221], [35.22814900000001, -100.00024], [35.22951799999997, -100.000217], [35.23100099999997, -100.000224], [35.23207999999998, -100.000185], [35.233051, -100.000209], [35.23322800000002, -100.000206], [35.233332000000004, -100.000205], [35.233439, -100.000226], [35.23349100000004, -100.00027], [35.233656000000046, -100.000364], [35.23369, -100.000364], [35.233769999999964, -100.000365], [35.23388199999997, -100.000356], [35.235198, -100.000246], [35.23558599999997, -100.000213], [35.235808, -100.000195], [35.23701800000003, -100.000174], [35.238798000000045, -100.000121], [35.241604999999964, -100.000207], [35.24740499999996, -100.00038600000002], [35.248414000000004, -100.000384], [35.24841099999996, -100.000239], [35.248432, -100.00006], [35.24843800000006, -100.000041], [35.24844900000004, -100.00000100000001], [35.24840499999999, -99.994793], [35.24832799999997, -99.991318], [35.248262999999994, -99.987138], [35.248162000000015, -99.983794], [35.24813100000001, -99.982549], [35.248143000000034, -99.982446], [35.242423000000024, -99.982496], [35.238265, -99.98254200000001], [35.23569799999998, -99.982545], [35.233686000000006, -99.982537], [35.233686000000006, -99.985244], [35.23369, -99.988488], [35.233723000000026, -99.991446], [35.231893, -99.991463], [35.23060099999997, -99.991461], [35.22974999999999, -99.991459], [35.228997000000035, -99.99146200000001], [35.228413, -99.99146200000001], [35.22782999999994, -99.99146200000001], [35.228152, -99.988882], [35.228412000000006, -99.986972], [35.23163300000006, -99.963399], [35.231927000000034, -99.960299], [35.23202299999997, -99.958964], [35.23211, -99.95671600000001], [35.232077999999966, -99.953577], [35.23198699999996, -99.95108800000001], [35.23192700000005, -99.949985], [35.231756, -99.948361], [35.231630999999986, -99.947181], [35.23128999999998, -99.947183], [35.22836700000002, -99.947205], [35.224453000000025, -99.94725], [35.219214000000015, -99.947285], [35.21903500000002, -99.947287], [35.21902600000001, -99.951697], [35.21902800000007, -99.95416300000001], [35.21902800000007, -99.954799], [35.219035000000034, -99.960508], [35.219027, -99.964994], [35.21346700000004, -99.964968], [35.211706000000035, -99.964974], [35.21096099999999, -99.964976], [35.20801699999998, -99.964967], [35.206511, -99.964987], [35.204989, -99.965008], [35.20486899999995, -99.964949], [35.20472799999999, -99.96481300000002], [35.204636000000015, -99.964633], [35.204638, -99.970667], [35.204638999999965, -99.974994], [35.20465000000002, -99.976985], [35.20466599999999, -99.97971], [35.20466899999999, -99.982672], [35.204663000000004, -99.985738], [35.20467299999999, -99.990179], [35.20467299999999, -99.991545], [35.20467299999999, -99.994145], [35.20467400000001, -99.995941], [35.20467499999999, -100.000123], [35.20470799999997, -100.000275], [35.204719, -100.000326], [35.204757999999956, -100.000378], [35.20477252660799, -100.0003853529673], [35.20633210872972, -100.0003853779172], [35.20701499999999, -100.00037], [35.208118, -100.000364]],
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_915d9694d3cb9b7683da149a621767d2);
+        
+    
+        var popup_ff2fb84db7bf6d5d232b98122fcd5617 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2048f5904f5317414bed87ab422370c5 = $(`<div id="html_2048f5904f5317414bed87ab422370c5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Beckham - OK-CD03</h4>                              </div>         </div>`)[0];
+                popup_ff2fb84db7bf6d5d232b98122fcd5617.setContent(html_2048f5904f5317414bed87ab422370c5);
+            
+        
+
+        polygon_abafe47b3f142a3630915b664f6baf67.bindPopup(popup_ff2fb84db7bf6d5d232b98122fcd5617)
+        ;
+
+        
+    
+    
+            polygon_abafe47b3f142a3630915b664f6baf67.bindTooltip(
+                `<div>
+                      Beckham - OK-CD03
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_915d9694d3cb9b7683da149a621767d2.fitBounds(
+                [[35.204636000000015, -100.000419], [35.24844900000004, -99.947181]],
+                {"padding": [30, 30]}
+            );
+        
+</script>
+</html>

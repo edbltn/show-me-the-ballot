@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7726e2cc895c3ba0344d521873ef6203 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+        <div style="
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
+    
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hardin - IA-CD02</span>
+            </div>
+        
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hardin - IA-CD04</span>
+            </div>
+        </div>
+    
+            <div class="folium-map" id="map_7726e2cc895c3ba0344d521873ef6203" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7726e2cc895c3ba0344d521873ef6203 = L.map(
+                "map_7726e2cc895c3ba0344d521873ef6203",
+                {
+                    center: [42.21497901554224, -93.394569011075],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_7726e2cc895c3ba0344d521873ef6203);
+
+            
+
+        
+    
+            var tile_layer_8be9cf7a6fb532f2d7636a0c89116d43 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_8be9cf7a6fb532f2d7636a0c89116d43.addTo(map_7726e2cc895c3ba0344d521873ef6203);
+        
+    
+            var polygon_00c09b4bdf83dd84ec36aead0536b5dd = L.polygon(
+                [[42.209284000000025, -93.36242], [42.209306999999974, -93.366103], [42.209188548156924, -93.37261995418793], [42.209200985199466, -93.38052608801794], [42.20927400000006, -93.385557], [42.209267000000054, -93.389948], [42.20928400000004, -93.392613], [42.209285999999956, -93.393986], [42.209285999999956, -93.39541], [42.209274999999984, -93.397617], [42.20926400000004, -93.401945], [42.209257000000015, -93.402668], [42.209255, -93.40347], [42.20925500000001, -93.403595], [42.20925299999994, -93.405035], [42.209255, -93.40778], [42.20927400000006, -93.409784], [42.20927200000002, -93.411271], [42.20928500000005, -93.412541], [42.20928500000005, -93.412812], [42.209285999999956, -93.412966], [42.209287, -93.413581], [42.209287999999994, -93.413608], [42.209289999999946, -93.414579], [42.20927799999997, -93.416686], [42.20928500000004, -93.417992], [42.209289999999946, -93.4191], [42.209287, -93.419654], [42.209285999999956, -93.419865], [42.20927699999999, -93.421657], [42.209289, -93.422874], [42.20928300000002, -93.424496], [42.20926511964058, -93.4276592842634], [42.20927269405514, -93.43422577711782], [42.20964499999998, -93.434224], [42.210299000000035, -93.434247], [42.216519, -93.434247], [42.216519, -93.43355], [42.216519, -93.42477], [42.216519, -93.42455], [42.21650400000001, -93.415152], [42.216519, -93.413465], [42.216530999999996, -93.410102], [42.216469000000025, -93.410078], [42.216414999999984, -93.410049], [42.216373999999995, -93.410038], [42.21634000000005, -93.41001], [42.21630100000003, -93.409956], [42.21284100000003, -93.40993], [42.21286900000001, -93.406115], [42.21287599999997, -93.405061], [42.21407299999997, -93.405066], [42.215961, -93.405087], [42.216540000000066, -93.405084], [42.21693499999995, -93.405083], [42.217847999999975, -93.405079], [42.218306999999996, -93.40508], [42.21975999999999, -93.405086], [42.221539999999976, -93.405083], [42.222423000000056, -93.405089], [42.22379500000002, -93.405099], [42.22380500000001, -93.404563], [42.223795999999986, -93.40315600000001], [42.22376699999999, -93.398023], [42.223766000000026, -93.397327], [42.223766000000026, -93.395384], [42.223766000000026, -93.393429], [42.22376600000001, -93.393219], [42.223793999999934, -93.389146], [42.22380100000005, -93.387565], [42.223811000000005, -93.385611], [42.223818999999956, -93.385005], [42.223819999999996, -93.384141], [42.223826000000024, -93.38099], [42.223829000000045, -93.379732], [42.22383400000002, -93.378263], [42.22383899999998, -93.376411], [42.22383899999995, -93.375806], [42.223842000000026, -93.373112], [42.223791, -93.366126], [42.22380699999997, -93.360941], [42.22375500000001, -93.354074], [42.22374800000002, -93.352025], [42.223745000000044, -93.351491], [42.22374499999999, -93.351227], [42.223660000000024, -93.346556], [42.22279300000005, -93.346569], [42.22124999999996, -93.346578], [42.21962400000003, -93.346577], [42.21828700000002, -93.346585], [42.216722999999945, -93.34660900000002], [42.21510700000001, -93.34660700000002], [42.21352199999999, -93.346626], [42.21211199999999, -93.34662], [42.211035, -93.346631], [42.20922899999996, -93.346614], [42.20928400000004, -93.362264], [42.209284000000025, -93.36242]],
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7726e2cc895c3ba0344d521873ef6203);
+        
+    
+        var popup_ded1cd21ae76eee862f2475b773209db = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_91c93b8e907ab3b78877e45bb1eebb06 = $(`<div id="html_91c93b8e907ab3b78877e45bb1eebb06" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hardin - IA-CD02</h4>                              </div>         </div>`)[0];
+                popup_ded1cd21ae76eee862f2475b773209db.setContent(html_91c93b8e907ab3b78877e45bb1eebb06);
+            
+        
+
+        polygon_00c09b4bdf83dd84ec36aead0536b5dd.bindPopup(popup_ded1cd21ae76eee862f2475b773209db)
+        ;
+
+        
+    
+    
+            polygon_00c09b4bdf83dd84ec36aead0536b5dd.bindTooltip(
+                `<div>
+                      Hardin - IA-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_80b37dd7ce24d44fb367011a643eabd0 = L.polygon(
+                [[42.20914199999998, -93.375176], [42.20914700000004, -93.375861], [42.209166999999994, -93.378189], [42.209200985199466, -93.38052608801794], [42.209188548156924, -93.37261995418793], [42.20914199999998, -93.375176]],
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7726e2cc895c3ba0344d521873ef6203);
+        
+    
+        var popup_e44400e4ee1ffd6b4fc9afb2a8209c0e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9a33364d51d26d6d3103e1e4379f1215 = $(`<div id="html_9a33364d51d26d6d3103e1e4379f1215" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hardin - IA-CD04</h4>                              </div>         </div>`)[0];
+                popup_e44400e4ee1ffd6b4fc9afb2a8209c0e.setContent(html_9a33364d51d26d6d3103e1e4379f1215);
+            
+        
+
+        polygon_80b37dd7ce24d44fb367011a643eabd0.bindPopup(popup_e44400e4ee1ffd6b4fc9afb2a8209c0e)
+        ;
+
+        
+    
+    
+            polygon_80b37dd7ce24d44fb367011a643eabd0.bindTooltip(
+                `<div>
+                      Hardin - IA-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_baa932b938532e4e474087c7d212bd5a = L.polygon(
+                [[42.209231, -93.433658], [42.209226, -93.434226], [42.20927269405514, -93.43422577711782], [42.20926511964058, -93.4276592842634], [42.209231, -93.433658]],
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7726e2cc895c3ba0344d521873ef6203);
+        
+    
+        var popup_a9b999dd872c6912f1fe758ef0f0e45e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_ba3e03a4598102434cdddbad42663a8e = $(`<div id="html_ba3e03a4598102434cdddbad42663a8e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hardin - IA-CD04</h4>                              </div>         </div>`)[0];
+                popup_a9b999dd872c6912f1fe758ef0f0e45e.setContent(html_ba3e03a4598102434cdddbad42663a8e);
+            
+        
+
+        polygon_baa932b938532e4e474087c7d212bd5a.bindPopup(popup_a9b999dd872c6912f1fe758ef0f0e45e)
+        ;
+
+        
+    
+    
+            polygon_baa932b938532e4e474087c7d212bd5a.bindTooltip(
+                `<div>
+                      Hardin - IA-CD04
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_7726e2cc895c3ba0344d521873ef6203.fitBounds(
+                [[42.20914199999998, -93.434247], [42.223842000000026, -93.346556]],
+                {"padding": [30, 30]}
+            );
+        
+</script>
+</html>

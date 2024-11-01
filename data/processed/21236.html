@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_39a82e0fb203ee58efba8b3c67f72ecc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+        <div style="
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
+    
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Baltimore - MD-CD02</span>
+            </div>
+        
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Baltimore - MD-CD07</span>
+            </div>
+        </div>
+    
+            <div class="folium-map" id="map_39a82e0fb203ee58efba8b3c67f72ecc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_39a82e0fb203ee58efba8b3c67f72ecc = L.map(
+                "map_39a82e0fb203ee58efba8b3c67f72ecc",
+                {
+                    center: [39.36794604169542, -76.53250776803375],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_39a82e0fb203ee58efba8b3c67f72ecc);
+
+            
+
+        
+    
+            var tile_layer_60f4f40129ab37cc655f745c7f962fc5 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_60f4f40129ab37cc655f745c7f962fc5.addTo(map_39a82e0fb203ee58efba8b3c67f72ecc);
+        
+    
+            var polygon_42fd369db1dfefb570bd22be72c31419 = L.polygon(
+                [[39.36924200000001, -76.529786], [39.36881300000002, -76.529786], [39.368715000000016, -76.52978599999999], [39.367877999999976, -76.529786], [39.36778200000003, -76.529786], [39.36711399999998, -76.529786], [39.36620599999999, -76.529786], [39.36616479040989, -76.52977775802965], [39.36413313133659, -76.52977250399437], [39.36381499999998, -76.52979], [39.36391, -76.530049], [39.363929, -76.53010200000001], [39.36403800000004, -76.53038300000001], [39.364337999999975, -76.531283], [39.364851999999985, -76.532828], [39.364951, -76.533075], [39.36503099999999, -76.533228], [39.36510699999996, -76.533348], [39.36518300000004, -76.533454], [39.36528400000002, -76.533586], [39.365356999999975, -76.533672], [39.365431, -76.533754], [39.365562000000004, -76.53386600000002], [39.365680000000005, -76.533956], [39.36571100000003, -76.533972], [39.366092000000044, -76.534174], [39.36648899999999, -76.534468], [39.36679299999998, -76.534828], [39.36718900000002, -76.535463], [39.36749800000002, -76.535898], [39.367565, -76.535977], [39.36766999999999, -76.536087], [39.367830999999995, -76.536245], [39.36939899999999, -76.537759], [39.36964700000004, -76.537999], [39.37033200000002, -76.537198], [39.37056899999998, -76.536912], [39.370841999999996, -76.536584], [39.37112400000001, -76.536252], [39.371471999999976, -76.535839], [39.37189500000002, -76.535472], [39.37206945676545, -76.53531904037045], [39.37205799999999, -76.529793], [39.369443872350466, -76.5297862386177], [39.36924200000001, -76.529786]],
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_39a82e0fb203ee58efba8b3c67f72ecc);
+        
+    
+        var popup_fc0e11150a4478420432774805bc4b08 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f8ebf206f13e8e631396e7de1a80b928 = $(`<div id="html_f8ebf206f13e8e631396e7de1a80b928" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Baltimore - MD-CD07</h4>                              </div>         </div>`)[0];
+                popup_fc0e11150a4478420432774805bc4b08.setContent(html_f8ebf206f13e8e631396e7de1a80b928);
+            
+        
+
+        polygon_42fd369db1dfefb570bd22be72c31419.bindPopup(popup_fc0e11150a4478420432774805bc4b08)
+        ;
+
+        
+    
+    
+            polygon_42fd369db1dfefb570bd22be72c31419.bindTooltip(
+                `<div>
+                      Baltimore - MD-CD07
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_139dfef53463affc7db48a75a96b146c = L.polygon(
+                [[39.37205799999999, -76.529793], [39.37206945676545, -76.53531904037045], [39.37210600000002, -76.535287], [39.37220599999999, -76.532387], [39.37205799999999, -76.529793]],
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_39a82e0fb203ee58efba8b3c67f72ecc);
+        
+    
+        var popup_6d1da72c3e7ace33685ff9b35818b781 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7635808ad82d0c42f6f06e2764ed7488 = $(`<div id="html_7635808ad82d0c42f6f06e2764ed7488" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Baltimore - MD-CD02</h4>                              </div>         </div>`)[0];
+                popup_6d1da72c3e7ace33685ff9b35818b781.setContent(html_7635808ad82d0c42f6f06e2764ed7488);
+            
+        
+
+        polygon_139dfef53463affc7db48a75a96b146c.bindPopup(popup_6d1da72c3e7ace33685ff9b35818b781)
+        ;
+
+        
+    
+    
+            polygon_139dfef53463affc7db48a75a96b146c.bindTooltip(
+                `<div>
+                      Baltimore - MD-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_8ba5e2ffb2bf76f6bad863002807992a = L.polygon(
+                [[39.371606000000014, -76.529787], [39.37030600000003, -76.529787], [39.37008800000003, -76.529787], [39.369443872350466, -76.5297862386177], [39.37205799999999, -76.529793], [39.371606000000014, -76.529787]],
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_39a82e0fb203ee58efba8b3c67f72ecc);
+        
+    
+        var popup_7a3265e2e23a3d0b95b0ab3dc1aa2080 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3c0fff4d7cb23266b2f23425d8b952ce = $(`<div id="html_3c0fff4d7cb23266b2f23425d8b952ce" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Baltimore - MD-CD02</h4>                              </div>         </div>`)[0];
+                popup_7a3265e2e23a3d0b95b0ab3dc1aa2080.setContent(html_3c0fff4d7cb23266b2f23425d8b952ce);
+            
+        
+
+        polygon_8ba5e2ffb2bf76f6bad863002807992a.bindPopup(popup_7a3265e2e23a3d0b95b0ab3dc1aa2080)
+        ;
+
+        
+    
+    
+            polygon_8ba5e2ffb2bf76f6bad863002807992a.bindTooltip(
+                `<div>
+                      Baltimore - MD-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_2c9608561c86b2dfb5f152308d6fc4c6 = L.polygon(
+                [[39.36570599999994, -76.529686], [39.36413313133659, -76.52977250399437], [39.36616479040989, -76.52977775802965], [39.36570599999994, -76.529686]],
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_39a82e0fb203ee58efba8b3c67f72ecc);
+        
+    
+        var popup_c1f9c729a367961de06701399042d92d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_52b21556691b74f6a665394d94d91fcf = $(`<div id="html_52b21556691b74f6a665394d94d91fcf" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Baltimore - MD-CD02</h4>                              </div>         </div>`)[0];
+                popup_c1f9c729a367961de06701399042d92d.setContent(html_52b21556691b74f6a665394d94d91fcf);
+            
+        
+
+        polygon_2c9608561c86b2dfb5f152308d6fc4c6.bindPopup(popup_c1f9c729a367961de06701399042d92d)
+        ;
+
+        
+    
+    
+            polygon_2c9608561c86b2dfb5f152308d6fc4c6.bindTooltip(
+                `<div>
+                      Baltimore - MD-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            map_39a82e0fb203ee58efba8b3c67f72ecc.fitBounds(
+                [[39.36381499999998, -76.537999], [39.37220599999999, -76.529686]],
+                {"padding": [30, 30]}
+            );
+        
+</script>
+</html>
