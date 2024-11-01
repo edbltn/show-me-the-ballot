@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8be0f48a92297b66f6de9cd8676922c2 {
+                #map_2bd2374a65dd5eb8897d55a1448c1266 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -50,12 +50,12 @@
                 <p><i style="background: #e6194B;
                             padding: 5px;
                             opacity: 0.7;"></i>
-                   Hudson - New Jersey-CD10</p>
+                   Hudson - NJ-CD10</p>
             
                 <p><i style="background: #3cb44b;
                             padding: 5px;
                             opacity: 0.7;"></i>
-                   Hudson - New Jersey-CD08</p>
+                   Hudson - NJ-CD08</p>
             </div>
     
             <div style="position: fixed; 
@@ -69,26 +69,26 @@
                 <p><i style="background: #e6194B;
                             padding: 5px;
                             opacity: 0.7;"></i>
-                   Hudson - New Jersey-CD10</p>
+                   Hudson - NJ-CD10</p>
             
                 <p><i style="background: #3cb44b;
                             padding: 5px;
                             opacity: 0.7;"></i>
-                   Hudson - New Jersey-CD08</p>
+                   Hudson - NJ-CD08</p>
             </div>
     
-            <div class="folium-map" id="map_8be0f48a92297b66f6de9cd8676922c2" ></div>
+            <div class="folium-map" id="map_2bd2374a65dd5eb8897d55a1448c1266" ></div>
         
 </body>
 <script>
     
     
-            var map_8be0f48a92297b66f6de9cd8676922c2 = L.map(
-                "map_8be0f48a92297b66f6de9cd8676922c2",
+            var map_2bd2374a65dd5eb8897d55a1448c1266 = L.map(
+                "map_2bd2374a65dd5eb8897d55a1448c1266",
                 {
                     center: [40.7191761460025, -74.0326959221583],
                     crs: L.CRS.EPSG3857,
-                    zoom: 13,
+                    zoom: 14,
                     zoomControl: true,
                     preferCanvas: false,
                 }
@@ -98,110 +98,110 @@
 
         
     
-            var tile_layer_4b0db01ad6d25d1a9a15d09044a8bff6 = L.tileLayer(
+            var tile_layer_71c9e780b008398c0ef6c3f68159ac5d = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_4b0db01ad6d25d1a9a15d09044a8bff6.addTo(map_8be0f48a92297b66f6de9cd8676922c2);
+            tile_layer_71c9e780b008398c0ef6c3f68159ac5d.addTo(map_2bd2374a65dd5eb8897d55a1448c1266);
         
     
-            var polygon_761bc17e922a0931316446a37c4a4fea = L.polygon(
+            var polygon_e77ceeb2b5b3b6f00e5854b8647a3205 = L.polygon(
                 [[40.71806899999998, -74.023637], [40.71583900000002, -74.023981], [40.716739999999994, -74.032194], [40.716892000000044, -74.032857], [40.71699100000004, -74.03354], [40.717016000000015, -74.03371500000002], [40.71703456993854, -74.03384498939712], [40.72125620410923, -74.03170403161049], [40.721246999999984, -74.031601], [40.720610999999984, -74.023019], [40.72041399999999, -74.02306600000001], [40.71806899999998, -74.023637]],
                 {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_8be0f48a92297b66f6de9cd8676922c2);
+            ).addTo(map_2bd2374a65dd5eb8897d55a1448c1266);
         
     
-        var popup_f06c91cdd0c50c8a59f227c4700a2e5e = L.popup({"maxWidth": "100%"});
+        var popup_5623074fb2826cd46c8d581cb27a9eb2 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_c9251a4c76b7210779e494c4ec06becc = $(`<div id="html_c9251a4c76b7210779e494c4ec06becc" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD10</b></div>`)[0];
-                popup_f06c91cdd0c50c8a59f227c4700a2e5e.setContent(html_c9251a4c76b7210779e494c4ec06becc);
+                var html_72764655c8aff254bc2cc496620915ad = $(`<div id="html_72764655c8aff254bc2cc496620915ad" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD10</b></div>`)[0];
+                popup_5623074fb2826cd46c8d581cb27a9eb2.setContent(html_72764655c8aff254bc2cc496620915ad);
             
         
 
-        polygon_761bc17e922a0931316446a37c4a4fea.bindPopup(popup_f06c91cdd0c50c8a59f227c4700a2e5e)
+        polygon_e77ceeb2b5b3b6f00e5854b8647a3205.bindPopup(popup_5623074fb2826cd46c8d581cb27a9eb2)
         ;
 
         
     
     
-            var circle_marker_295ce102312e900543afd4ce6565d1e0 = L.circleMarker(
+            var circle_marker_fc597939d9d61e7600806555d1cfd22a = L.circleMarker(
                 [40.71834823117065, -74.0288996684173],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_8be0f48a92297b66f6de9cd8676922c2);
+            ).addTo(map_2bd2374a65dd5eb8897d55a1448c1266);
         
     
-        var popup_b5af04dc6a22946a09d985cec1fec5fb = L.popup({"maxWidth": "100%"});
+        var popup_7348ac3f530023f03f496e2c6aa333c7 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_238ad8c3fa052432f61a0e7f41beb70e = $(`<div id="html_238ad8c3fa052432f61a0e7f41beb70e" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD10</b></div>`)[0];
-                popup_b5af04dc6a22946a09d985cec1fec5fb.setContent(html_238ad8c3fa052432f61a0e7f41beb70e);
+                var html_2297e29e98f6c9246550cb7669b136e9 = $(`<div id="html_2297e29e98f6c9246550cb7669b136e9" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD10</b></div>`)[0];
+                popup_7348ac3f530023f03f496e2c6aa333c7.setContent(html_2297e29e98f6c9246550cb7669b136e9);
             
         
 
-        circle_marker_295ce102312e900543afd4ce6565d1e0.bindPopup(popup_b5af04dc6a22946a09d985cec1fec5fb)
+        circle_marker_fc597939d9d61e7600806555d1cfd22a.bindPopup(popup_7348ac3f530023f03f496e2c6aa333c7)
         ;
 
         
     
     
-            circle_marker_295ce102312e900543afd4ce6565d1e0.bindTooltip(
+            circle_marker_fc597939d9d61e7600806555d1cfd22a.bindTooltip(
                 `<div>
-                     Hudson - New Jersey-CD10
+                     Hudson - NJ-CD10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_909270317bb0e55b23927be8270624cc = L.polygon(
+            var polygon_2c15b1b321bd954142b5cb2fbda56cf5 = L.polygon(
                 [[40.717040999999995, -74.03389], [40.71704599999996, -74.033925], [40.717060000000004, -74.034024], [40.71714699999995, -74.034298], [40.71718000000002, -74.03459900000001], [40.71733700000002, -74.035572], [40.71807699999998, -74.035464], [40.72011199999994, -74.035087], [40.72026100000002, -74.036692], [40.72109499999999, -74.036512], [40.72113500000001, -74.036504], [40.720982999999954, -74.03578], [40.72093799999992, -74.035501], [40.720821, -74.035408], [40.72051799999997, -74.034282], [40.72045299999997, -74.034117], [40.720346999999975, -74.033976], [40.720292000000036, -74.033938], [40.72050699999994, -74.033835], [40.720707999999995, -74.033736], [40.721427999999975, -74.033598], [40.721377999999966, -74.033065], [40.72131899999997, -74.032407], [40.72125620410923, -74.03170403161049], [40.71703456993854, -74.03384498939712], [40.717040999999995, -74.03389]],
                 {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_8be0f48a92297b66f6de9cd8676922c2);
+            ).addTo(map_2bd2374a65dd5eb8897d55a1448c1266);
         
     
-        var popup_5073a1aa73ead98ddfc724c118098ef4 = L.popup({"maxWidth": "100%"});
+        var popup_7bcd59d6b951813ace7e8e793eff9b57 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_95ba5c228fc5f8481f4bea0120e75ef8 = $(`<div id="html_95ba5c228fc5f8481f4bea0120e75ef8" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD08</b></div>`)[0];
-                popup_5073a1aa73ead98ddfc724c118098ef4.setContent(html_95ba5c228fc5f8481f4bea0120e75ef8);
+                var html_0f549ce8c37e6fac033e02b641fb37b1 = $(`<div id="html_0f549ce8c37e6fac033e02b641fb37b1" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD08</b></div>`)[0];
+                popup_7bcd59d6b951813ace7e8e793eff9b57.setContent(html_0f549ce8c37e6fac033e02b641fb37b1);
             
         
 
-        polygon_909270317bb0e55b23927be8270624cc.bindPopup(popup_5073a1aa73ead98ddfc724c118098ef4)
+        polygon_2c15b1b321bd954142b5cb2fbda56cf5.bindPopup(popup_7bcd59d6b951813ace7e8e793eff9b57)
         ;
 
         
     
     
-            var circle_marker_ec78c020a7d6e66501921993edc48b46 = L.circleMarker(
+            var circle_marker_edecd6fea89823603eb3f2d2a47e37b5 = L.circleMarker(
                 [40.719558260540275, -74.03444803926952],
                 {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_8be0f48a92297b66f6de9cd8676922c2);
+            ).addTo(map_2bd2374a65dd5eb8897d55a1448c1266);
         
     
-        var popup_93e0c444428aa846d1b8bf69170e747f = L.popup({"maxWidth": "100%"});
+        var popup_4a8b0e5381253812f6af74becf520fe8 = L.popup({"maxWidth": "100%"});
 
         
             
-                var html_dc34f500bcc75b34bbd8c02cc8cd3ea3 = $(`<div id="html_dc34f500bcc75b34bbd8c02cc8cd3ea3" style="width: 100.0%; height: 100.0%;"><b>Hudson - New Jersey-CD08</b></div>`)[0];
-                popup_93e0c444428aa846d1b8bf69170e747f.setContent(html_dc34f500bcc75b34bbd8c02cc8cd3ea3);
+                var html_2f63dd394ffb21d3342b9dd9d987bda6 = $(`<div id="html_2f63dd394ffb21d3342b9dd9d987bda6" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD08</b></div>`)[0];
+                popup_4a8b0e5381253812f6af74becf520fe8.setContent(html_2f63dd394ffb21d3342b9dd9d987bda6);
             
         
 
-        circle_marker_ec78c020a7d6e66501921993edc48b46.bindPopup(popup_93e0c444428aa846d1b8bf69170e747f)
+        circle_marker_edecd6fea89823603eb3f2d2a47e37b5.bindPopup(popup_4a8b0e5381253812f6af74becf520fe8)
         ;
 
         
     
     
-            circle_marker_ec78c020a7d6e66501921993edc48b46.bindTooltip(
+            circle_marker_edecd6fea89823603eb3f2d2a47e37b5.bindTooltip(
                 `<div>
-                     Hudson - New Jersey-CD08
+                     Hudson - NJ-CD08
                  </div>`,
                 {"sticky": true}
             );
