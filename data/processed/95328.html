@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_7133157a55d2b36160d0f8612d83d108 {
+                #map_10e93ee92c5931516975b05b0e3688a5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Stanislaus - CA-CD13</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_7133157a55d2b36160d0f8612d83d108" ></div>
+            <div class="folium-map" id="map_10e93ee92c5931516975b05b0e3688a5" ></div>
         
 </body>
 <script>
     
     
-            var map_7133157a55d2b36160d0f8612d83d108 = L.map(
-                "map_7133157a55d2b36160d0f8612d83d108",
+            var map_10e93ee92c5931516975b05b0e3688a5 = L.map(
+                "map_10e93ee92c5931516975b05b0e3688a5",
                 {
                     center: [37.557851297086145, -120.9134150986423],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_7133157a55d2b36160d0f8612d83d108);
+            L.control.scale().addTo(map_10e93ee92c5931516975b05b0e3688a5);
 
             
 
         
     
-            var tile_layer_f774f47b7d2481f6fe8f4923ad67cd6c = L.tileLayer(
+            var tile_layer_2a363096db064bdc5f0bca619969c7cf = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_f774f47b7d2481f6fe8f4923ad67cd6c.addTo(map_7133157a55d2b36160d0f8612d83d108);
+            tile_layer_2a363096db064bdc5f0bca619969c7cf.addTo(map_10e93ee92c5931516975b05b0e3688a5);
         
     
-            var polygon_840dc265bf28abf7bee977684f601994 = L.polygon(
+            var polygon_1c9398c339bbd427c156f5a7a898923e = L.polygon(
                 [[37.54763799999996, -120.90683], [37.547541000000066, -120.90733600000002], [37.551260999999975, -120.91147300000002], [37.55135700000001, -120.91158], [37.55882700000006, -120.920323], [37.558938000000005, -120.920494], [37.559187, -120.92077], [37.55964899999999, -120.92077], [37.55981099999998, -120.92077299999998], [37.55995099999999, -120.92077299999998], [37.56018299999998, -120.92077499999999], [37.56043986886745, -120.92077704675704], [37.547714974776504, -120.90643355368618], [37.54763799999996, -120.90683]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7133157a55d2b36160d0f8612d83d108);
+            ).addTo(map_10e93ee92c5931516975b05b0e3688a5);
         
     
-        var popup_04859673e8e0b65fc377892127fd203c = L.popup({"maxWidth": 300});
+        var popup_40c2dacc6d7d8efa943d816823628d53 = L.popup({"maxWidth": 300});
 
         
             
-                var html_81fd24c9e350f07afc28c749d996fe25 = $(`<div id="html_81fd24c9e350f07afc28c749d996fe25" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Stanislaus - CA-CD13</h4>                              </div>         </div>`)[0];
-                popup_04859673e8e0b65fc377892127fd203c.setContent(html_81fd24c9e350f07afc28c749d996fe25);
+                var html_4d4d20b3468fd6a22cad4a9fb4a7e74d = $(`<div id="html_4d4d20b3468fd6a22cad4a9fb4a7e74d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Stanislaus - CA-CD13</h4>                              </div>         </div>`)[0];
+                popup_40c2dacc6d7d8efa943d816823628d53.setContent(html_4d4d20b3468fd6a22cad4a9fb4a7e74d);
             
         
 
-        polygon_840dc265bf28abf7bee977684f601994.bindPopup(popup_04859673e8e0b65fc377892127fd203c)
+        polygon_1c9398c339bbd427c156f5a7a898923e.bindPopup(popup_40c2dacc6d7d8efa943d816823628d53)
         ;
 
         
     
     
-            polygon_840dc265bf28abf7bee977684f601994.bindTooltip(
+            polygon_1c9398c339bbd427c156f5a7a898923e.bindTooltip(
                 `<div>
                       Stanislaus - CA-CD13
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_a2e942781ea555f77facd03a2645c1ca = L.polygon(
+            var polygon_0f7dde268333f0b87d6d76807ec4ca91 = L.polygon(
                 [[37.563911, -120.92050200000001], [37.563902000000006, -120.92048700000001], [37.56386300000001, -120.92042099999999], [37.56384599999995, -120.920411], [37.56255999999998, -120.92040300000001], [37.561566000000035, -120.92040000000001], [37.561138000000014, -120.920407], [37.56083900000001, -120.92046300000001], [37.56067000000001, -120.92056599999998], [37.56058599999999, -120.920659], [37.56064500000004, -120.920306], [37.560646, -120.919883], [37.560947, -120.919882], [37.56094800000001, -120.91947], [37.561162, -120.919465], [37.56115399999995, -120.91988000000002], [37.561564, -120.919876], [37.562163, -120.919869], [37.56215099999998, -120.91555], [37.562899, -120.915544], [37.56578300000004, -120.91557499999999], [37.565815000000015, -120.915152], [37.56581500000001, -120.914861], [37.56575800000001, -120.90503], [37.56575800000001, -120.90392500000002], [37.56574499999997, -120.902887], [37.56563999999998, -120.90184800000002], [37.559341, -120.901907], [37.558282999999946, -120.90191700000001], [37.55551900000001, -120.901916], [37.554828000000015, -120.901915], [37.55312699999999, -120.901915], [37.551249, -120.901915], [37.551235999999996, -120.905582], [37.55104999999998, -120.905305], [37.55083700000002, -120.905061], [37.55063500000004, -120.904803], [37.55044400000005, -120.90453100000002], [37.55016, -120.90409300000002], [37.54913500000006, -120.902354], [37.54881000000001, -120.90182100000001], [37.54838099999999, -120.902981], [37.54817799999999, -120.90403400000001], [37.547923000000004, -120.90535400000002], [37.54788500000005, -120.90555399999998], [37.54784699999996, -120.90574700000002], [37.547770999999976, -120.90614500000001], [37.547714974776504, -120.90643355368618], [37.56043986886745, -120.92077704675704], [37.56068500000002, -120.92077899999998], [37.561318000000014, -120.920786], [37.56163599999996, -120.92077800000001], [37.561738000000034, -120.92078100000002], [37.56212000000006, -120.92079300000002], [37.56255899999999, -120.92079700000001], [37.56326499999999, -120.920809], [37.56355299999999, -120.920808], [37.56395600000003, -120.920749], [37.563911, -120.92050200000001]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7133157a55d2b36160d0f8612d83d108);
+            ).addTo(map_10e93ee92c5931516975b05b0e3688a5);
         
     
-        var popup_33ba7ce389fd4ba25a92cf8e27992a59 = L.popup({"maxWidth": 300});
+        var popup_2dc60b83bd2d6ef2168e4aaa7256ff33 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d1d4f9bc33b10e92c3798c23044fa556 = $(`<div id="html_d1d4f9bc33b10e92c3798c23044fa556" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Stanislaus - CA-CD05</h4>                              </div>         </div>`)[0];
-                popup_33ba7ce389fd4ba25a92cf8e27992a59.setContent(html_d1d4f9bc33b10e92c3798c23044fa556);
+                var html_f25e0ff9deb916f2716820117767091d = $(`<div id="html_f25e0ff9deb916f2716820117767091d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Stanislaus - CA-CD05</h4>                              </div>         </div>`)[0];
+                popup_2dc60b83bd2d6ef2168e4aaa7256ff33.setContent(html_f25e0ff9deb916f2716820117767091d);
             
         
 
-        polygon_a2e942781ea555f77facd03a2645c1ca.bindPopup(popup_33ba7ce389fd4ba25a92cf8e27992a59)
+        polygon_0f7dde268333f0b87d6d76807ec4ca91.bindPopup(popup_2dc60b83bd2d6ef2168e4aaa7256ff33)
         ;
 
         
     
     
-            polygon_a2e942781ea555f77facd03a2645c1ca.bindTooltip(
+            polygon_0f7dde268333f0b87d6d76807ec4ca91.bindTooltip(
                 `<div>
                       Stanislaus - CA-CD05
                  </div>`,

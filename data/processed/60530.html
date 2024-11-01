@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3dcdb7bdd40ff010a2cff5fd3af66e61 {
+                #map_8cec032beafd89eb752f92d454d1deb6 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> DeKalb - IL-CD14</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_3dcdb7bdd40ff010a2cff5fd3af66e61" ></div>
+            <div class="folium-map" id="map_8cec032beafd89eb752f92d454d1deb6" ></div>
         
 </body>
 <script>
     
     
-            var map_3dcdb7bdd40ff010a2cff5fd3af66e61 = L.map(
-                "map_3dcdb7bdd40ff010a2cff5fd3af66e61",
+            var map_8cec032beafd89eb752f92d454d1deb6 = L.map(
+                "map_8cec032beafd89eb752f92d454d1deb6",
                 {
                     center: [41.81224093258393, -88.9323242707539],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_3dcdb7bdd40ff010a2cff5fd3af66e61);
+            L.control.scale().addTo(map_8cec032beafd89eb752f92d454d1deb6);
 
             
 
         
     
-            var tile_layer_9d5a6be3aca4cf129dc6380ba42e799b = L.tileLayer(
+            var tile_layer_b3431929d4dcb52d9fbb7effb791a50b = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_9d5a6be3aca4cf129dc6380ba42e799b.addTo(map_3dcdb7bdd40ff010a2cff5fd3af66e61);
+            tile_layer_b3431929d4dcb52d9fbb7effb791a50b.addTo(map_8cec032beafd89eb752f92d454d1deb6);
         
     
-            var polygon_b82d41dbc567e8e65b40300cc6e585ca = L.polygon(
+            var polygon_c89520608b539880ca9f8ae8f1a8f9a7 = L.polygon(
                 [[41.86292800000003, -88.939612], [41.86293100000005, -88.935165], [41.86295700000003, -88.93156600000002], [41.86295200000001, -88.930855], [41.86295200000001, -88.929484], [41.862971000000066, -88.92511700000001], [41.85288299999997, -88.92501], [41.84981100000001, -88.924994], [41.84906100000003, -88.924977], [41.84860499999997, -88.924994], [41.84843800000001, -88.92501], [41.848455000000065, -88.923521], [41.848472999999984, -88.922313], [41.848518999999996, -88.916971], [41.84859899999998, -88.910839], [41.848603000000004, -88.910351], [41.84862100000001, -88.908161], [41.848656999999996, -88.905576], [41.845912999999996, -88.905594], [41.84434099999994, -88.905595], [41.84269999999999, -88.905623], [41.840760000000024, -88.905638], [41.837993, -88.905667], [41.83535300000002, -88.905716], [41.83402499999999, -88.905714], [41.83033099999998, -88.905733], [41.82667900000002, -88.905767], [41.821081000000035, -88.905782], [41.81934599999999, -88.905798], [41.809156999999985, -88.905816], [41.80833999999999, -88.905821], [41.80465500000003, -88.905817], [41.80463599999999, -88.90939200000001], [41.80462500000001, -88.91254], [41.80459599999997, -88.916651], [41.804589000000014, -88.918673], [41.80455899999994, -88.923468], [41.80454099999999, -88.925256], [41.80453099999999, -88.925828], [41.801438, -88.92584800000002], [41.800038000000036, -88.925844], [41.798455000000004, -88.92588], [41.79763600000005, -88.92589], [41.79076800000003, -88.925887], [41.78978999999999, -88.925871], [41.789349, -88.92586], [41.78858299999998, -88.925864], [41.785261999999975, -88.925838], [41.77796399999998, -88.925805], [41.77603900000001, -88.925792], [41.77568599999997, -88.925785], [41.77561500000003, -88.925783], [41.77524499999997, -88.925788], [41.772060999999994, -88.925774], [41.76524899999995, -88.925773], [41.76441099999998, -88.925769], [41.76074799999998, -88.925753], [41.76075300000004, -88.929175], [41.760752000000004, -88.930219], [41.76076100000005, -88.937153], [41.760773, -88.939145], [41.76077335999797, -88.93998394790317], [41.862922286045226, -88.940993546377], [41.86292800000003, -88.939612]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_3dcdb7bdd40ff010a2cff5fd3af66e61);
+            ).addTo(map_8cec032beafd89eb752f92d454d1deb6);
         
     
-        var popup_c541e94d88be00b2a8d6492df956c6bb = L.popup({"maxWidth": 300});
+        var popup_9d3460113322b730baed1ebb13043406 = L.popup({"maxWidth": 300});
 
         
             
-                var html_764a640c55057111b9ff5cf3b964638c = $(`<div id="html_764a640c55057111b9ff5cf3b964638c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> DeKalb - IL-CD14</h4>                              </div>         </div>`)[0];
-                popup_c541e94d88be00b2a8d6492df956c6bb.setContent(html_764a640c55057111b9ff5cf3b964638c);
+                var html_0e8b99d0c7b8e80c09e98f7e1c61eed1 = $(`<div id="html_0e8b99d0c7b8e80c09e98f7e1c61eed1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> DeKalb - IL-CD14</h4>                              </div>         </div>`)[0];
+                popup_9d3460113322b730baed1ebb13043406.setContent(html_0e8b99d0c7b8e80c09e98f7e1c61eed1);
             
         
 
-        polygon_b82d41dbc567e8e65b40300cc6e585ca.bindPopup(popup_c541e94d88be00b2a8d6492df956c6bb)
+        polygon_c89520608b539880ca9f8ae8f1a8f9a7.bindPopup(popup_9d3460113322b730baed1ebb13043406)
         ;
 
         
     
     
-            polygon_b82d41dbc567e8e65b40300cc6e585ca.bindTooltip(
+            polygon_c89520608b539880ca9f8ae8f1a8f9a7.bindTooltip(
                 `<div>
                       DeKalb - IL-CD14
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_018260afc8435b10ac05e3939910d959 = L.polygon(
+            var polygon_23131743f44a37084fa385f6095a9867 = L.polygon(
                 [[41.77538200000001, -88.941443], [41.77949499999997, -88.941443], [41.779520999999974, -88.941443], [41.786125999999996, -88.94142], [41.786598000000005, -88.94142], [41.787254000000004, -88.941421], [41.78759299999998, -88.94140900000001], [41.78833500000002, -88.941383], [41.788997000000016, -88.941358], [41.78970299999999, -88.94136200000001], [41.78989599999998, -88.941364], [41.789931999999986, -88.941364], [41.79000100000001, -88.941365], [41.79025099999997, -88.941365], [41.79037200000001, -88.941363], [41.79112199999998, -88.941353], [41.791653999999994, -88.941345], [41.79190399999999, -88.941346], [41.792018999999996, -88.941346], [41.79204900000002, -88.941346], [41.79234399999999, -88.941342], [41.792404000000005, -88.941341], [41.79296200000002, -88.941335], [41.79401900000001, -88.941346], [41.79511499999999, -88.941351], [41.79580399999999, -88.941342], [41.796096999999996, -88.941345], [41.796139999999994, -88.941345], [41.79676100000004, -88.941343], [41.79695199999997, -88.941343], [41.79697899999996, -88.941342], [41.79702500000002, -88.94134], [41.797108, -88.941337], [41.79712800000003, -88.941337], [41.79716199999999, -88.941336], [41.797335000000004, -88.941339], [41.79758699999999, -88.941334], [41.79774399999995, -88.94134], [41.798362000000004, -88.941361], [41.79905399999998, -88.941383], [41.799149000000035, -88.941387], [41.80105100000004, -88.941386], [41.801964, -88.941374], [41.80228900000003, -88.941371], [41.80445699999996, -88.94136200000001], [41.80494600000001, -88.94136200000001], [41.81174900000002, -88.941356], [41.81282800000002, -88.941356], [41.81904500000003, -88.941353], [41.81918999999996, -88.941353], [41.82378799999998, -88.941358], [41.823836000000036, -88.941358], [41.823996999999956, -88.941358], [41.82636100000003, -88.94136000000002], [41.830130000000025, -88.94135], [41.83128400000002, -88.94136200000001], [41.83358600000004, -88.941355], [41.83359600000004, -88.941356], [41.83361, -88.941358], [41.83396199999993, -88.941357], [41.834120000000034, -88.941357], [41.837859000000016, -88.941351], [41.84467800000001, -88.94135], [41.84469799999997, -88.94135], [41.84808500000005, -88.941341], [41.84966900000002, -88.941343], [41.85031600000004, -88.941342], [41.85209900000002, -88.941337], [41.85293599999999, -88.941334], [41.855532, -88.941326], [41.857511999999986, -88.941331], [41.86072499999999, -88.941324], [41.86121199999997, -88.941308], [41.86268300000002, -88.941305], [41.86292099999994, -88.941304], [41.862922286045226, -88.940993546377], [41.76077335999797, -88.93998394790317], [41.76077399999996, -88.941508], [41.76152700000002, -88.9415], [41.77538200000001, -88.941443]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_3dcdb7bdd40ff010a2cff5fd3af66e61);
+            ).addTo(map_8cec032beafd89eb752f92d454d1deb6);
         
     
-        var popup_6c4167642ab983751d4073f6b883f77c = L.popup({"maxWidth": 300});
+        var popup_304e9981f7fe5393d5e7425093d6829d = L.popup({"maxWidth": 300});
 
         
             
-                var html_1820e9952f3cdb2316e587bf365ce420 = $(`<div id="html_1820e9952f3cdb2316e587bf365ce420" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> DeKalb - IL-CD16</h4>                              </div>         </div>`)[0];
-                popup_6c4167642ab983751d4073f6b883f77c.setContent(html_1820e9952f3cdb2316e587bf365ce420);
+                var html_f7a413204b3641a83b616af64c02bae0 = $(`<div id="html_f7a413204b3641a83b616af64c02bae0" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> DeKalb - IL-CD16</h4>                              </div>         </div>`)[0];
+                popup_304e9981f7fe5393d5e7425093d6829d.setContent(html_f7a413204b3641a83b616af64c02bae0);
             
         
 
-        polygon_018260afc8435b10ac05e3939910d959.bindPopup(popup_6c4167642ab983751d4073f6b883f77c)
+        polygon_23131743f44a37084fa385f6095a9867.bindPopup(popup_304e9981f7fe5393d5e7425093d6829d)
         ;
 
         
     
     
-            polygon_018260afc8435b10ac05e3939910d959.bindTooltip(
+            polygon_23131743f44a37084fa385f6095a9867.bindTooltip(
                 `<div>
                       DeKalb - IL-CD16
                  </div>`,

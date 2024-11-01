@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_4f454628ed4559e991a71c16ce384648 {
+                #map_b1bc803bb4fa5aa1d5fecd742c8b0af5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Jefferson - TX-CD14</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_4f454628ed4559e991a71c16ce384648" ></div>
+            <div class="folium-map" id="map_b1bc803bb4fa5aa1d5fecd742c8b0af5" ></div>
         
 </body>
 <script>
     
     
-            var map_4f454628ed4559e991a71c16ce384648 = L.map(
-                "map_4f454628ed4559e991a71c16ce384648",
+            var map_b1bc803bb4fa5aa1d5fecd742c8b0af5 = L.map(
+                "map_b1bc803bb4fa5aa1d5fecd742c8b0af5",
                 {
                     center: [30.08661886198345, -94.12807066730181],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_4f454628ed4559e991a71c16ce384648);
+            L.control.scale().addTo(map_b1bc803bb4fa5aa1d5fecd742c8b0af5);
 
             
 
         
     
-            var tile_layer_1e9fc1531e2992d32872bb03d30ee15d = L.tileLayer(
+            var tile_layer_3330c53b9abeb3676f2a8a23db9feb91 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_1e9fc1531e2992d32872bb03d30ee15d.addTo(map_4f454628ed4559e991a71c16ce384648);
+            tile_layer_3330c53b9abeb3676f2a8a23db9feb91.addTo(map_b1bc803bb4fa5aa1d5fecd742c8b0af5);
         
     
-            var polygon_eaa896c6fcf02ca1cb7b7088c3016903 = L.polygon(
+            var polygon_feeca01534da27a9082c62086c7d83a4 = L.polygon(
                 [[30.08679600000003, -94.120289], [30.085796000000006, -94.120262], [30.08479300000002, -94.120238], [30.083804000000008, -94.120215], [30.082911999999975, -94.120192], [30.08291400000002, -94.120029], [30.081911999999978, -94.120014], [30.08188700000002, -94.120014], [30.08094000000001, -94.119999], [30.08085200000001, -94.11999800000001], [30.079880000000045, -94.119981], [30.07888799999997, -94.119965], [30.07816100000003, -94.119958], [30.07812000000005, -94.119993], [30.07809200000002, -94.120017], [30.078070000000025, -94.121081], [30.07805700000002, -94.122232], [30.07803699999994, -94.123816], [30.078004000000032, -94.125394], [30.077979000000003, -94.127529], [30.07798000000003, -94.128507], [30.077580000000022, -94.128211], [30.07731600000002, -94.127944], [30.07714799999998, -94.127751], [30.076923000000015, -94.127383], [30.076695000000036, -94.126868], [30.076572999999986, -94.126458], [30.076519999999984, -94.126036], [30.076506000000013, -94.125698], [30.07654699999999, -94.125219], [30.076648999999975, -94.12445300000002], [30.07682200000006, -94.123289], [30.076592999999974, -94.124587], [30.076366000000007, -94.126184], [30.07591499999999, -94.12961200000001], [30.075871000000003, -94.129934], [30.07577399999998, -94.130663], [30.07560599999999, -94.131845], [30.075458000000005, -94.132891], [30.075285000000008, -94.134137], [30.075178000000022, -94.134946], [30.075153999999973, -94.135134], [30.07513400000001, -94.135282], [30.075571999999976, -94.13536], [30.077292999999994, -94.135659], [30.07792299999998, -94.135736], [30.078596000000015, -94.13580900000001], [30.079164000000034, -94.13583], [30.080035999999996, -94.135863], [30.08092499999998, -94.135895], [30.081832999999982, -94.135916], [30.08361700000004, -94.135972], [30.083702000000024, -94.13597500000002], [30.083715999999967, -94.13597500000002], [30.08482499999998, -94.136005], [30.085311000000008, -94.136015], [30.08550599999997, -94.136017], [30.085686000000052, -94.13602000000002], [30.086581999999982, -94.136046], [30.08749799999998, -94.136081], [30.088233999999968, -94.136103], [30.088448893045584, -94.13610935150251], [30.087631842903388, -94.12031002216177], [30.08679600000003, -94.120289]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_4f454628ed4559e991a71c16ce384648);
+            ).addTo(map_b1bc803bb4fa5aa1d5fecd742c8b0af5);
         
     
-        var popup_3df645daec937807da66cebab19b8a3f = L.popup({"maxWidth": 300});
+        var popup_5e78fd9e49e24d808da35c64b1d0b684 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b07e622b3236b2a951ccb9c2f3954940 = $(`<div id="html_b07e622b3236b2a951ccb9c2f3954940" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jefferson - TX-CD14</h4>                              </div>         </div>`)[0];
-                popup_3df645daec937807da66cebab19b8a3f.setContent(html_b07e622b3236b2a951ccb9c2f3954940);
+                var html_7f93aad3c16b480fc658ce8810be98d4 = $(`<div id="html_7f93aad3c16b480fc658ce8810be98d4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jefferson - TX-CD14</h4>                              </div>         </div>`)[0];
+                popup_5e78fd9e49e24d808da35c64b1d0b684.setContent(html_7f93aad3c16b480fc658ce8810be98d4);
             
         
 
-        polygon_eaa896c6fcf02ca1cb7b7088c3016903.bindPopup(popup_3df645daec937807da66cebab19b8a3f)
+        polygon_feeca01534da27a9082c62086c7d83a4.bindPopup(popup_5e78fd9e49e24d808da35c64b1d0b684)
         ;
 
         
     
     
-            polygon_eaa896c6fcf02ca1cb7b7088c3016903.bindTooltip(
+            polygon_feeca01534da27a9082c62086c7d83a4.bindTooltip(
                 `<div>
                       Jefferson - TX-CD14
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_1d13c0f8dddbee383a72b0d415a8e714 = L.polygon(
+            var polygon_a4f9d98c74bc6867c5a572fd05872140 = L.polygon(
                 [[30.093626999999984, -94.13586], [30.093734000000012, -94.13579], [30.094260999999946, -94.135447], [30.094625000000004, -94.13511], [30.094837999999992, -94.134833], [30.095026999999977, -94.134481], [30.09527199999998, -94.134137], [30.095435000000013, -94.133858], [30.095564000000014, -94.133579], [30.095681000000024, -94.133327], [30.095813000000025, -94.132998], [30.095925999999984, -94.132615], [30.096029000000023, -94.132085], [30.096117000000014, -94.131397], [30.096142999999987, -94.13023], [30.096146000000044, -94.130097], [30.096148000000007, -94.129993], [30.096151000000038, -94.129869], [30.096159, -94.129402], [30.09616200000004, -94.128373], [30.096149999999973, -94.127969], [30.09613399999996, -94.127422], [30.096072000000007, -94.126349], [30.096039000000005, -94.125675], [30.09600299999999, -94.124867], [30.095976000000007, -94.123667], [30.095975000000017, -94.123363], [30.095975000000017, -94.122908], [30.095976000000007, -94.122541], [30.096035000000025, -94.12051400000001], [30.09586899999998, -94.120509], [30.095745000000004, -94.120503], [30.094718000000015, -94.12048], [30.093734000000012, -94.120455], [30.092735000000012, -94.12043200000001], [30.092744000000042, -94.119925], [30.092239000000028, -94.11992], [30.091941999999968, -94.119894], [30.091929999999984, -94.120059], [30.091756999999955, -94.120057], [30.091751000000045, -94.120406], [30.090760000000053, -94.12038500000001], [30.089771000000027, -94.12036], [30.08977400000004, -94.120126], [30.08924899999998, -94.12012], [30.089246000000013, -94.120068], [30.08878299999999, -94.120056], [30.08878200000001, -94.120143], [30.08877900000003, -94.120337], [30.087790000000002, -94.120314], [30.087631842903388, -94.12031002216177], [30.088448893045584, -94.13610935150251], [30.08863999999999, -94.136115], [30.08929100000004, -94.13615100000001], [30.08947999999999, -94.136162], [30.089662000000004, -94.136172], [30.091310000000014, -94.136268], [30.09211600000001, -94.136315], [30.092562999999963, -94.136313], [30.093038, -94.13631], [30.093551999999974, -94.136326], [30.093561999999988, -94.136025], [30.093626999999984, -94.13586]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_4f454628ed4559e991a71c16ce384648);
+            ).addTo(map_b1bc803bb4fa5aa1d5fecd742c8b0af5);
         
     
-        var popup_a7c39fb709184eb1a335f235fafe13c1 = L.popup({"maxWidth": 300});
+        var popup_d7dfdfe5b838a8dd6021c850977c61d7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_caf6bdffba65727ffbdce7ca2cb0b28a = $(`<div id="html_caf6bdffba65727ffbdce7ca2cb0b28a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jefferson - TX-CD36</h4>                              </div>         </div>`)[0];
-                popup_a7c39fb709184eb1a335f235fafe13c1.setContent(html_caf6bdffba65727ffbdce7ca2cb0b28a);
+                var html_236ac3d62c8997ca1cd63fea0814dd0e = $(`<div id="html_236ac3d62c8997ca1cd63fea0814dd0e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jefferson - TX-CD36</h4>                              </div>         </div>`)[0];
+                popup_d7dfdfe5b838a8dd6021c850977c61d7.setContent(html_236ac3d62c8997ca1cd63fea0814dd0e);
             
         
 
-        polygon_1d13c0f8dddbee383a72b0d415a8e714.bindPopup(popup_a7c39fb709184eb1a335f235fafe13c1)
+        polygon_a4f9d98c74bc6867c5a572fd05872140.bindPopup(popup_d7dfdfe5b838a8dd6021c850977c61d7)
         ;
 
         
     
     
-            polygon_1d13c0f8dddbee383a72b0d415a8e714.bindTooltip(
+            polygon_a4f9d98c74bc6867c5a572fd05872140.bindTooltip(
                 `<div>
                       Jefferson - TX-CD36
                  </div>`,

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_095b942391dae782617a5082f195d83a {
+                #map_f5a198ca20cfb557ba4e090eb2077ead {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Lake - IL-CD01</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_095b942391dae782617a5082f195d83a" ></div>
+            <div class="folium-map" id="map_f5a198ca20cfb557ba4e090eb2077ead" ></div>
         
 </body>
 <script>
     
     
-            var map_095b942391dae782617a5082f195d83a = L.map(
-                "map_095b942391dae782617a5082f195d83a",
+            var map_f5a198ca20cfb557ba4e090eb2077ead = L.map(
+                "map_f5a198ca20cfb557ba4e090eb2077ead",
                 {
                     center: [42.49271571392193, -87.90917759902078],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_095b942391dae782617a5082f195d83a);
+            L.control.scale().addTo(map_f5a198ca20cfb557ba4e090eb2077ead);
 
             
 
         
     
-            var tile_layer_a9125195ef57f7a9100529fd16477d12 = L.tileLayer(
+            var tile_layer_7176797fd98a6fbab72c4cef8acf20da = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_a9125195ef57f7a9100529fd16477d12.addTo(map_095b942391dae782617a5082f195d83a);
+            tile_layer_7176797fd98a6fbab72c4cef8acf20da.addTo(map_f5a198ca20cfb557ba4e090eb2077ead);
         
     
-            var polygon_66fe268de2e516e5782dfd808b167b34 = L.polygon(
+            var polygon_f9e122d735c88b46ba5e74726db593d7 = L.polygon(
                 [[42.49414499999999, -87.917287], [42.49414299999999, -87.91711], [42.494141999999954, -87.916989], [42.49408599999998, -87.91198200000001], [42.494043000000005, -87.908202], [42.49398199999997, -87.90281], [42.49397500000004, -87.902379], [42.493927000000006, -87.899683], [42.49391600000002, -87.900103], [42.49390500000001, -87.900533], [42.49387700000001, -87.90084900000001], [42.49385800000004, -87.901059], [42.49383499999994, -87.901315], [42.493790999999995, -87.901796], [42.49370899999999, -87.902166], [42.49360000000001, -87.902625], [42.49353599999998, -87.902867], [42.493236000000024, -87.903739], [42.49303474056303, -87.90419272392192], [42.49317589356338, -87.91790165257666], [42.49324099999997, -87.917868], [42.493814000000036, -87.917599], [42.49414699999996, -87.917457], [42.49414599999999, -87.917379], [42.49414499999999, -87.917287]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_095b942391dae782617a5082f195d83a);
+            ).addTo(map_f5a198ca20cfb557ba4e090eb2077ead);
         
     
-        var popup_1719a3ddc511d3b2487a5a3b4e1d896c = L.popup({"maxWidth": 300});
+        var popup_1db9d7d485e6c46fc37bce9c6bfdf594 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d08f53e45a75c3a433bd672065ef751c = $(`<div id="html_d08f53e45a75c3a433bd672065ef751c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lake - IL-CD01</h4>                              </div>         </div>`)[0];
-                popup_1719a3ddc511d3b2487a5a3b4e1d896c.setContent(html_d08f53e45a75c3a433bd672065ef751c);
+                var html_c108dfc96ea90c22c20d4e088fee6ab8 = $(`<div id="html_c108dfc96ea90c22c20d4e088fee6ab8" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lake - IL-CD01</h4>                              </div>         </div>`)[0];
+                popup_1db9d7d485e6c46fc37bce9c6bfdf594.setContent(html_c108dfc96ea90c22c20d4e088fee6ab8);
             
         
 
-        polygon_66fe268de2e516e5782dfd808b167b34.bindPopup(popup_1719a3ddc511d3b2487a5a3b4e1d896c)
+        polygon_f9e122d735c88b46ba5e74726db593d7.bindPopup(popup_1db9d7d485e6c46fc37bce9c6bfdf594)
         ;
 
         
     
     
-            polygon_66fe268de2e516e5782dfd808b167b34.bindTooltip(
+            polygon_f9e122d735c88b46ba5e74726db593d7.bindTooltip(
                 `<div>
                       Lake - IL-CD01
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_828b3c4e0c69b044efa11ebd19a352f1 = L.polygon(
+            var polygon_f09fae5cff618ccc4a18eebb93580da5 = L.polygon(
                 [[42.49295299999999, -87.904377], [42.492730999999985, -87.904791], [42.49250800000001, -87.905207], [42.491633000000014, -87.906758], [42.491355000000006, -87.907318], [42.49118299999995, -87.907733], [42.49104899999997, -87.908096], [42.49101199999994, -87.908198], [42.49086600000001, -87.908699], [42.49075300000005, -87.909137], [42.490653000000016, -87.909641], [42.490566000000044, -87.910121], [42.49051799999997, -87.910578], [42.490488, -87.91098], [42.49047199999999, -87.911414], [42.49046500000002, -87.912629], [42.49047900000001, -87.919473], [42.490479999999984, -87.919536], [42.49276100000001, -87.918122], [42.49285600000005, -87.918067], [42.49317589356338, -87.91790165257666], [42.49303474056303, -87.90419272392192], [42.49295299999999, -87.904377]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_095b942391dae782617a5082f195d83a);
+            ).addTo(map_f5a198ca20cfb557ba4e090eb2077ead);
         
     
-        var popup_9207ca8bf137b3e44380dace82238964 = L.popup({"maxWidth": 300});
+        var popup_c0c8ef32a95055edf806e0a8e4c4e490 = L.popup({"maxWidth": 300});
 
         
             
-                var html_94c3a1e3f0f811e9e2ca07441e32a24c = $(`<div id="html_94c3a1e3f0f811e9e2ca07441e32a24c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lake - IL-CD10</h4>                              </div>         </div>`)[0];
-                popup_9207ca8bf137b3e44380dace82238964.setContent(html_94c3a1e3f0f811e9e2ca07441e32a24c);
+                var html_cc7832e12b0283cda9056b47abb76010 = $(`<div id="html_cc7832e12b0283cda9056b47abb76010" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lake - IL-CD10</h4>                              </div>         </div>`)[0];
+                popup_c0c8ef32a95055edf806e0a8e4c4e490.setContent(html_cc7832e12b0283cda9056b47abb76010);
             
         
 
-        polygon_828b3c4e0c69b044efa11ebd19a352f1.bindPopup(popup_9207ca8bf137b3e44380dace82238964)
+        polygon_f09fae5cff618ccc4a18eebb93580da5.bindPopup(popup_c0c8ef32a95055edf806e0a8e4c4e490)
         ;
 
         
     
     
-            polygon_828b3c4e0c69b044efa11ebd19a352f1.bindTooltip(
+            polygon_f09fae5cff618ccc4a18eebb93580da5.bindTooltip(
                 `<div>
                       Lake - IL-CD10
                  </div>`,

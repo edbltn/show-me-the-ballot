@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b08f46d371b7087c1283e5caec2eb953 {
+                #map_1f3eba95501c4f254ccf9d8424703c39 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Somerset - NJ-CD07</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_b08f46d371b7087c1283e5caec2eb953" ></div>
+            <div class="folium-map" id="map_1f3eba95501c4f254ccf9d8424703c39" ></div>
         
 </body>
 <script>
     
     
-            var map_b08f46d371b7087c1283e5caec2eb953 = L.map(
-                "map_b08f46d371b7087c1283e5caec2eb953",
+            var map_1f3eba95501c4f254ccf9d8424703c39 = L.map(
+                "map_1f3eba95501c4f254ccf9d8424703c39",
                 {
                     center: [40.520075413425516, -74.68748032711784],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_b08f46d371b7087c1283e5caec2eb953);
+            L.control.scale().addTo(map_1f3eba95501c4f254ccf9d8424703c39);
 
             
 
         
     
-            var tile_layer_7bfe0c558bb534017ac207da40a409b6 = L.tileLayer(
+            var tile_layer_f7605a5c459b7958744766fa28922b03 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_7bfe0c558bb534017ac207da40a409b6.addTo(map_b08f46d371b7087c1283e5caec2eb953);
+            tile_layer_f7605a5c459b7958744766fa28922b03.addTo(map_1f3eba95501c4f254ccf9d8424703c39);
         
     
-            var polygon_2a63987c62e7ab2867a459e33ef7759a = L.polygon(
+            var polygon_2b97c2565558d532e2105ed82914cdb9 = L.polygon(
                 [[40.521353999999974, -74.692782], [40.52341899999998, -74.692044], [40.523169, -74.691081], [40.524747000000005, -74.690274], [40.52569300000002, -74.688685], [40.52531400000001, -74.688359], [40.52587399999996, -74.687596], [40.525983999999994, -74.687501], [40.52557300000001, -74.687132], [40.52520399999998, -74.686789], [40.52508199999997, -74.686687], [40.524665999999996, -74.686337], [40.52417080624407, -74.68594040641577], [40.517327596521504, -74.68551590711962], [40.51732399999998, -74.68553800000001], [40.51728099999998, -74.685679], [40.51689500000002, -74.686624], [40.516771000000006, -74.686903], [40.51652099999998, -74.687501], [40.516503, -74.687687], [40.51652099999998, -74.687876], [40.51653399999998, -74.68797900000001], [40.516737, -74.688735], [40.51697100000003, -74.689576], [40.517175999999964, -74.690293], [40.517199999999995, -74.690377], [40.51743300000004, -74.691234], [40.517662000000044, -74.692129], [40.517715000000024, -74.692337], [40.517729999999965, -74.692397], [40.517869999999995, -74.69294700000002], [40.51844800000005, -74.69316500000001], [40.518578000000005, -74.693639], [40.51928800000001, -74.693309], [40.51939099999999, -74.693689], [40.521105999999975, -74.692897], [40.521353999999974, -74.692782]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b08f46d371b7087c1283e5caec2eb953);
+            ).addTo(map_1f3eba95501c4f254ccf9d8424703c39);
         
     
-        var popup_a4b3828494ada06d39640fa45eddfdd6 = L.popup({"maxWidth": 300});
+        var popup_93796441b2139bdfe45a136549b056cd = L.popup({"maxWidth": 300});
 
         
             
-                var html_1286a0eb125729d75d59cd48e403f999 = $(`<div id="html_1286a0eb125729d75d59cd48e403f999" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Somerset - NJ-CD07</h4>                              </div>         </div>`)[0];
-                popup_a4b3828494ada06d39640fa45eddfdd6.setContent(html_1286a0eb125729d75d59cd48e403f999);
+                var html_37e705f703f43c115a330be03b40decb = $(`<div id="html_37e705f703f43c115a330be03b40decb" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Somerset - NJ-CD07</h4>                              </div>         </div>`)[0];
+                popup_93796441b2139bdfe45a136549b056cd.setContent(html_37e705f703f43c115a330be03b40decb);
             
         
 
-        polygon_2a63987c62e7ab2867a459e33ef7759a.bindPopup(popup_a4b3828494ada06d39640fa45eddfdd6)
+        polygon_2b97c2565558d532e2105ed82914cdb9.bindPopup(popup_93796441b2139bdfe45a136549b056cd)
         ;
 
         
     
     
-            polygon_2a63987c62e7ab2867a459e33ef7759a.bindTooltip(
+            polygon_2b97c2565558d532e2105ed82914cdb9.bindTooltip(
                 `<div>
                       Somerset - NJ-CD07
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_1d9cabf6e18fb7969da321021f563d89 = L.polygon(
+            var polygon_e1f139ff2952c7b764f6d0388277fed6 = L.polygon(
                 [[40.522823, -74.684861], [40.52255700000005, -74.684621], [40.52242899999999, -74.684502], [40.52158400000002, -74.683645], [40.52107800000006, -74.683144], [40.520951, -74.683026], [40.52086800000003, -74.682985], [40.52077500000002, -74.68297700000001], [40.520604, -74.68302], [40.52019099999999, -74.683206], [40.519696000000046, -74.68344800000001], [40.51854699999997, -74.68397200000001], [40.51827399999996, -74.684084], [40.51815700000001, -74.68414], [40.518053999999985, -74.684189], [40.517842999999985, -74.68427700000001], [40.51718600000001, -74.68457200000002], [40.51732600000004, -74.685139], [40.51733600000003, -74.685226], [40.51733799999995, -74.685452], [40.517327596521504, -74.68551590711962], [40.52417080624407, -74.68594040641577], [40.522823, -74.684861]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b08f46d371b7087c1283e5caec2eb953);
+            ).addTo(map_1f3eba95501c4f254ccf9d8424703c39);
         
     
-        var popup_e70a24ac6980291b39f6be89b5498077 = L.popup({"maxWidth": 300});
+        var popup_d91c90a5268570873d4ca3f364d683ae = L.popup({"maxWidth": 300});
 
         
             
-                var html_1e5ef56bb31d410950a700e1324183e9 = $(`<div id="html_1e5ef56bb31d410950a700e1324183e9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Somerset - NJ-CD12</h4>                              </div>         </div>`)[0];
-                popup_e70a24ac6980291b39f6be89b5498077.setContent(html_1e5ef56bb31d410950a700e1324183e9);
+                var html_f016054fe02480bf18d600393852c805 = $(`<div id="html_f016054fe02480bf18d600393852c805" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Somerset - NJ-CD12</h4>                              </div>         </div>`)[0];
+                popup_d91c90a5268570873d4ca3f364d683ae.setContent(html_f016054fe02480bf18d600393852c805);
             
         
 
-        polygon_1d9cabf6e18fb7969da321021f563d89.bindPopup(popup_e70a24ac6980291b39f6be89b5498077)
+        polygon_e1f139ff2952c7b764f6d0388277fed6.bindPopup(popup_d91c90a5268570873d4ca3f364d683ae)
         ;
 
         
     
     
-            polygon_1d9cabf6e18fb7969da321021f563d89.bindTooltip(
+            polygon_e1f139ff2952c7b764f6d0388277fed6.bindTooltip(
                 `<div>
                       Somerset - NJ-CD12
                  </div>`,

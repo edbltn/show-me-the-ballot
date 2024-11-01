@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_7d27729790a604c08a684dfcfbe5ff74 {
+                #map_9c7d9a1a9f7b381e1ca71ddd096b1913 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Jackson - MO-CD05</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_7d27729790a604c08a684dfcfbe5ff74" ></div>
+            <div class="folium-map" id="map_9c7d9a1a9f7b381e1ca71ddd096b1913" ></div>
         
 </body>
 <script>
     
     
-            var map_7d27729790a604c08a684dfcfbe5ff74 = L.map(
-                "map_7d27729790a604c08a684dfcfbe5ff74",
+            var map_9c7d9a1a9f7b381e1ca71ddd096b1913 = L.map(
+                "map_9c7d9a1a9f7b381e1ca71ddd096b1913",
                 {
                     center: [38.85122967105631, -94.54842459177027],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_7d27729790a604c08a684dfcfbe5ff74);
+            L.control.scale().addTo(map_9c7d9a1a9f7b381e1ca71ddd096b1913);
 
             
 
         
     
-            var tile_layer_61986366e95b679b794eabcded6ee8be = L.tileLayer(
+            var tile_layer_5e56f129f9f9b3166830bc9e212571f0 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_61986366e95b679b794eabcded6ee8be.addTo(map_7d27729790a604c08a684dfcfbe5ff74);
+            tile_layer_5e56f129f9f9b3166830bc9e212571f0.addTo(map_9c7d9a1a9f7b381e1ca71ddd096b1913);
         
     
-            var polygon_d783a2644ad25e4bba1b36642be237ab = L.polygon(
+            var polygon_6cb878d13ff2435cc43b2bac819b2e2f = L.polygon(
                 [[38.847232, -94.56475], [38.849974, -94.564574], [38.850080000000034, -94.564626], [38.85015900000002, -94.56473], [38.85017899999998, -94.56478], [38.85026700000005, -94.565486], [38.85029999999998, -94.565562], [38.850349000000044, -94.56562200000002], [38.85045500000005, -94.56567100000001], [38.852672000000005, -94.56553], [38.85675500000003, -94.565219], [38.858147000000024, -94.565119], [38.858857999999934, -94.565068], [38.85937399999999, -94.565031], [38.859589000000064, -94.56501600000001], [38.85972400000001, -94.565006], [38.863667, -94.564697], [38.864875999999995, -94.564602], [38.86688699999999, -94.564444], [38.86685900000001, -94.563849], [38.866831, -94.563259], [38.86671900000001, -94.560832], [38.86678399999999, -94.560722], [38.86684100000004, -94.5606], [38.86686900000004, -94.560478], [38.86685000000002, -94.559888], [38.866769, -94.557352], [38.86676200000006, -94.557294], [38.866764000000025, -94.557239], [38.86631100000005, -94.547827], [38.86621600000003, -94.545855], [38.865660999999996, -94.534335], [38.86551100000001, -94.531213], [38.86532800000003, -94.5274], [38.865305000000006, -94.526921], [38.86446700000001, -94.52697800000001], [38.86370999999998, -94.52703], [38.863063, -94.527102], [38.86267199999997, -94.527165], [38.86251299999997, -94.52719900000001], [38.861676999999986, -94.527345], [38.859888000000005, -94.527672], [38.85862199999997, -94.527935], [38.85796600000002, -94.528071], [38.85793099999996, -94.528074], [38.85771999999998, -94.528125], [38.855964000000014, -94.528506], [38.855834999999985, -94.528524], [38.85411700000001, -94.528767], [38.853011000000045, -94.528797], [38.846224999999976, -94.529353], [38.84437261982431, -94.52950490675188], [38.84564296591322, -94.5648851200391], [38.847232, -94.56475]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7d27729790a604c08a684dfcfbe5ff74);
+            ).addTo(map_9c7d9a1a9f7b381e1ca71ddd096b1913);
         
     
-        var popup_7a0f3c7a413d3025cdf2e0c05071bd96 = L.popup({"maxWidth": 300});
+        var popup_ef8423f38e42e9829e865c3f28c3301a = L.popup({"maxWidth": 300});
 
         
             
-                var html_381862761ee741e8016e95ee81117bf9 = $(`<div id="html_381862761ee741e8016e95ee81117bf9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jackson - MO-CD05</h4>                              </div>         </div>`)[0];
-                popup_7a0f3c7a413d3025cdf2e0c05071bd96.setContent(html_381862761ee741e8016e95ee81117bf9);
+                var html_c410db4276c2421a1c14f6533b2abc84 = $(`<div id="html_c410db4276c2421a1c14f6533b2abc84" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jackson - MO-CD05</h4>                              </div>         </div>`)[0];
+                popup_ef8423f38e42e9829e865c3f28c3301a.setContent(html_c410db4276c2421a1c14f6533b2abc84);
             
         
 
-        polygon_d783a2644ad25e4bba1b36642be237ab.bindPopup(popup_7a0f3c7a413d3025cdf2e0c05071bd96)
+        polygon_6cb878d13ff2435cc43b2bac819b2e2f.bindPopup(popup_ef8423f38e42e9829e865c3f28c3301a)
         ;
 
         
     
     
-            polygon_d783a2644ad25e4bba1b36642be237ab.bindTooltip(
+            polygon_6cb878d13ff2435cc43b2bac819b2e2f.bindTooltip(
                 `<div>
                       Jackson - MO-CD05
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_8899d41cb4003786a54b921710642f0f = L.polygon(
+            var polygon_eb9139085bcc57b4a7842636c344fe50 = L.polygon(
                 [[38.84370199999999, -94.530568], [38.84374299999997, -94.53139600000002], [38.843783999999985, -94.532213], [38.84381099999995, -94.532769], [38.84383899999999, -94.533329], [38.84390699999999, -94.534949], [38.844030000000025, -94.537827], [38.844041999999995, -94.539062], [38.84403200000001, -94.539545], [38.84401900000001, -94.539838], [38.84396400000005, -94.541065], [38.84398599999997, -94.541715], [38.84399400000002, -94.541828], [38.84400699999998, -94.54201300000001], [38.844018, -94.542147], [38.844040999999976, -94.542652], [38.84406100000001, -94.543101], [38.84406499999998, -94.54318200000002], [38.84407900000001, -94.543483], [38.844082, -94.543536], [38.84409599999999, -94.54382900000002], [38.844129999999986, -94.544547], [38.84413399999999, -94.544631], [38.844161000000014, -94.5452], [38.84423799999997, -94.546182], [38.84427599999999, -94.546428], [38.84426499999999, -94.54701], [38.84430899999998, -94.547947], [38.84432800000001, -94.548313], [38.844347999999975, -94.548731], [38.844352999999984, -94.548841], [38.844432, -94.550536], [38.844432999999974, -94.550553], [38.844444999999986, -94.550834], [38.84447600000001, -94.551538], [38.84450799999998, -94.552262], [38.844508999999995, -94.55229], [38.844580999999984, -94.553485], [38.84462500000003, -94.554205], [38.844637999999954, -94.554421], [38.84464899999999, -94.554552], [38.844666000000025, -94.554772], [38.844702000000005, -94.555222], [38.84490699999996, -94.557732], [38.84490299999999, -94.558104], [38.84493500000003, -94.559752], [38.84495100000003, -94.560456], [38.84500200000001, -94.56208], [38.84500700000001, -94.562234], [38.84498299999996, -94.562616], [38.84499200000001, -94.56269], [38.845017999999996, -94.562928], [38.845053000000036, -94.563251], [38.84512499999997, -94.563895], [38.84520699999999, -94.564633], [38.84522099999998, -94.564921], [38.84564296591322, -94.5648851200391], [38.84437261982431, -94.52950490675188], [38.843652, -94.529564], [38.843678000000004, -94.530087], [38.84370199999999, -94.530568]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7d27729790a604c08a684dfcfbe5ff74);
+            ).addTo(map_9c7d9a1a9f7b381e1ca71ddd096b1913);
         
     
-        var popup_075f9053d9482b1473284da738ffee44 = L.popup({"maxWidth": 300});
+        var popup_370b62a4753eeac1985b912e73ed4ee3 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2f6f7d4ffd164beba62da04179d107a0 = $(`<div id="html_2f6f7d4ffd164beba62da04179d107a0" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jackson - MO-CD04</h4>                              </div>         </div>`)[0];
-                popup_075f9053d9482b1473284da738ffee44.setContent(html_2f6f7d4ffd164beba62da04179d107a0);
+                var html_40cc40c156ebc94313300809a928a144 = $(`<div id="html_40cc40c156ebc94313300809a928a144" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jackson - MO-CD04</h4>                              </div>         </div>`)[0];
+                popup_370b62a4753eeac1985b912e73ed4ee3.setContent(html_40cc40c156ebc94313300809a928a144);
             
         
 
-        polygon_8899d41cb4003786a54b921710642f0f.bindPopup(popup_075f9053d9482b1473284da738ffee44)
+        polygon_eb9139085bcc57b4a7842636c344fe50.bindPopup(popup_370b62a4753eeac1985b912e73ed4ee3)
         ;
 
         
     
     
-            polygon_8899d41cb4003786a54b921710642f0f.bindTooltip(
+            polygon_eb9139085bcc57b4a7842636c344fe50.bindTooltip(
                 `<div>
                       Jackson - MO-CD04
                  </div>`,

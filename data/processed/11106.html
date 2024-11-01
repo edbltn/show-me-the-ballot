@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_813947912a2c4afda6fb128e8d892c4b {
+                #map_be6aa1792b2f272c9969ecb6aa407c3c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Queens - NY-CD12</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -81,7 +95,14 @@
                 <span> Queens - NY-CD07</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -95,14 +116,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_813947912a2c4afda6fb128e8d892c4b" ></div>
+            <div class="folium-map" id="map_be6aa1792b2f272c9969ecb6aa407c3c" ></div>
         
 </body>
 <script>
     
     
-            var map_813947912a2c4afda6fb128e8d892c4b = L.map(
-                "map_813947912a2c4afda6fb128e8d892c4b",
+            var map_be6aa1792b2f272c9969ecb6aa407c3c = L.map(
+                "map_be6aa1792b2f272c9969ecb6aa407c3c",
                 {
                     center: [40.76344040465337, -73.93021285438809],
                     crs: L.CRS.EPSG3857,
@@ -111,43 +132,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_813947912a2c4afda6fb128e8d892c4b);
+            L.control.scale().addTo(map_be6aa1792b2f272c9969ecb6aa407c3c);
 
             
 
         
     
-            var tile_layer_597e8b49e080110b6ed11b6ea77c5ef8 = L.tileLayer(
+            var tile_layer_53573b1111c827e06332dff85ef7a3bc = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_597e8b49e080110b6ed11b6ea77c5ef8.addTo(map_813947912a2c4afda6fb128e8d892c4b);
+            tile_layer_53573b1111c827e06332dff85ef7a3bc.addTo(map_be6aa1792b2f272c9969ecb6aa407c3c);
         
     
-            var polygon_935c7c1e6cb420b78260d32cba712613 = L.polygon(
+            var polygon_b387a9f2ef11eda173f25ac45e570dd0 = L.polygon(
                 [[40.766615999999985, -73.941585], [40.76691799999999, -73.941312], [40.76752999999998, -73.940463], [40.762574937902244, -73.94401448108437], [40.76271899999999, -73.94439700000001], [40.762879, -73.944715], [40.76449900000003, -73.943503], [40.766615999999985, -73.941585]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_813947912a2c4afda6fb128e8d892c4b);
+            ).addTo(map_be6aa1792b2f272c9969ecb6aa407c3c);
         
     
-        var popup_398efaa4769cc5b2679f2e0c29e11370 = L.popup({"maxWidth": 300});
+        var popup_e03fbcd13f5ee8eab3640a9139e324ce = L.popup({"maxWidth": 300});
 
         
             
-                var html_89fc0760b75ed6afd4056aea9ec2866c = $(`<div id="html_89fc0760b75ed6afd4056aea9ec2866c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD12</h4>                              </div>         </div>`)[0];
-                popup_398efaa4769cc5b2679f2e0c29e11370.setContent(html_89fc0760b75ed6afd4056aea9ec2866c);
+                var html_987796a4e66740a330845c8185ca07cf = $(`<div id="html_987796a4e66740a330845c8185ca07cf" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD12</h4>                              </div>         </div>`)[0];
+                popup_e03fbcd13f5ee8eab3640a9139e324ce.setContent(html_987796a4e66740a330845c8185ca07cf);
             
         
 
-        polygon_935c7c1e6cb420b78260d32cba712613.bindPopup(popup_398efaa4769cc5b2679f2e0c29e11370)
+        polygon_b387a9f2ef11eda173f25ac45e570dd0.bindPopup(popup_e03fbcd13f5ee8eab3640a9139e324ce)
         ;
 
         
     
     
-            polygon_935c7c1e6cb420b78260d32cba712613.bindTooltip(
+            polygon_b387a9f2ef11eda173f25ac45e570dd0.bindTooltip(
                 `<div>
                       Queens - NY-CD12
                  </div>`,
@@ -155,28 +176,28 @@
             );
         
     
-            var polygon_a45db0eeb70fd5c0cae5b9ec5d3a9e02 = L.polygon(
+            var polygon_b4248b1765087f3f24ddb161a382eba2 = L.polygon(
                 [[40.761093, -73.92003600000001], [40.76023799999998, -73.920728], [40.76005700000001, -73.920326], [40.75972499999998, -73.920597], [40.759900999999985, -73.920975], [40.75927999999996, -73.92149000000002], [40.759162000000046, -73.921245], [40.75843100000002, -73.921795], [40.75853600000004, -73.922014], [40.75760200000005, -73.922832], [40.75742700000003, -73.92246], [40.75588000000002, -73.923704], [40.754336999999964, -73.924954], [40.75392400000002, -73.925291], [40.754103000000015, -73.925693], [40.75304699999998, -73.92655], [40.753246000000004, -73.926941], [40.75284700000002, -73.92726600000002], [40.75327199999997, -73.928025], [40.753570999999994, -73.927781], [40.75374200000002, -73.928158], [40.753786999999974, -73.928115], [40.753861000000015, -73.92827300000002], [40.75356600000004, -73.92855], [40.75369599999996, -73.928782], [40.75412200000002, -73.929541], [40.75454800000004, -73.930299], [40.754974000000026, -73.931057], [40.75539900000001, -73.93181800000002], [40.75555700000002, -73.932101], [40.75582200000003, -73.93258], [40.75623900000004, -73.933345], [40.75657100000002, -73.933958], [40.75693999999997, -73.934632], [40.757393000000036, -73.935465], [40.757808000000004, -73.936225], [40.75823599999999, -73.93700900000002], [40.758707000000044, -73.937917], [40.758864999999965, -73.938319], [40.76020199999997, -73.937489], [40.760517000000014, -73.938342], [40.759175000000006, -73.939178], [40.75946899999998, -73.939994], [40.75976200000003, -73.94081], [40.76005600000004, -73.941627], [40.76035099999996, -73.942444], [40.76065799999997, -73.943304], [40.76199400000002, -73.942472], [40.762574937902244, -73.94401448108437], [40.76752999999998, -73.940463], [40.76122149481368, -73.91993210766418], [40.761093, -73.92003600000001]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_813947912a2c4afda6fb128e8d892c4b);
+            ).addTo(map_be6aa1792b2f272c9969ecb6aa407c3c);
         
     
-        var popup_fe1f56cebaa2f6c035514f0f98a91bfb = L.popup({"maxWidth": 300});
+        var popup_7d41f5a19a7c95e9bae2018eff80bea6 = L.popup({"maxWidth": 300});
 
         
             
-                var html_e4b67be0d81a647ff0c2bf3c821dcb1a = $(`<div id="html_e4b67be0d81a647ff0c2bf3c821dcb1a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD07</h4>                              </div>         </div>`)[0];
-                popup_fe1f56cebaa2f6c035514f0f98a91bfb.setContent(html_e4b67be0d81a647ff0c2bf3c821dcb1a);
+                var html_d9eeed5123770e8bb39aa98fd85c6c9b = $(`<div id="html_d9eeed5123770e8bb39aa98fd85c6c9b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD07</h4>                              </div>         </div>`)[0];
+                popup_7d41f5a19a7c95e9bae2018eff80bea6.setContent(html_d9eeed5123770e8bb39aa98fd85c6c9b);
             
         
 
-        polygon_a45db0eeb70fd5c0cae5b9ec5d3a9e02.bindPopup(popup_fe1f56cebaa2f6c035514f0f98a91bfb)
+        polygon_b4248b1765087f3f24ddb161a382eba2.bindPopup(popup_7d41f5a19a7c95e9bae2018eff80bea6)
         ;
 
         
     
     
-            polygon_a45db0eeb70fd5c0cae5b9ec5d3a9e02.bindTooltip(
+            polygon_b4248b1765087f3f24ddb161a382eba2.bindTooltip(
                 `<div>
                       Queens - NY-CD07
                  </div>`,
@@ -184,28 +205,28 @@
             );
         
     
-            var polygon_683d49afc480e33f65cbb3dafa9d9456 = L.polygon(
+            var polygon_6c27dcf8493907bd93018045376763d7 = L.polygon(
                 [[40.76765300000001, -73.94035100000002], [40.767987999999995, -73.939836], [40.76872799999998, -73.938204], [40.76947499999993, -73.936404], [40.77048499999995, -73.935323], [40.77173000000003, -73.934956], [40.77170900000001, -73.934887], [40.771297000000004, -73.93502300000002], [40.771271, -73.934905], [40.771177000000016, -73.93452700000002], [40.771029000000006, -73.934246], [40.77089900000002, -73.934294], [40.77043899999997, -73.93446400000002], [40.770412, -73.934474], [40.77019499999999, -73.93459900000002], [40.77006500000002, -73.93469], [40.769891000000015, -73.934832], [40.76970100000001, -73.935019], [40.76952600000002, -73.935227], [40.76881800000004, -73.933445], [40.768911999999965, -73.933367], [40.769144999999995, -73.93317600000002], [40.76870500000002, -73.932057], [40.768609, -73.932122], [40.76857700000001, -73.93204200000001], [40.76832600000001, -73.932199], [40.768298999999985, -73.93213], [40.768257000000006, -73.932024], [40.768581999999974, -73.931758], [40.768397000000014, -73.931335], [40.768519000000005, -73.931245], [40.76797599999999, -73.929988], [40.767849, -73.93008], [40.76778399999998, -73.929928], [40.76769500000002, -73.92999400000001], [40.76766099999997, -73.92991500000001], [40.76742000000002, -73.93007200000001], [40.767327000000016, -73.929856], [40.76752700000002, -73.929695], [40.76763900000002, -73.929605], [40.76739199999999, -73.92909], [40.76751600000003, -73.928988], [40.767334000000005, -73.928601], [40.76721300000005, -73.9287], [40.76706799999999, -73.92839200000002], [40.76702500000001, -73.928301], [40.76685400000001, -73.927894], [40.76701099999999, -73.927766], [40.76664799999999, -73.92699100000002], [40.766473000000005, -73.927134], [40.76625999999996, -73.926679], [40.76614800000002, -73.92677], [40.76595500000001, -73.92633300000001], [40.76587100000004, -73.926372], [40.76569299999999, -73.925974], [40.76605, -73.925687], [40.76576400000001, -73.925075], [40.76526900000003, -73.925434], [40.765177999999956, -73.92523700000001], [40.76509699999998, -73.92506100000001], [40.76499600000001, -73.924841], [40.76533199999998, -73.924523], [40.76507399999997, -73.923968], [40.76492200000001, -73.924092], [40.764725, -73.924253], [40.76434799999997, -73.923457], [40.76396600000004, -73.922663], [40.763574, -73.92188], [40.763903999999975, -73.92161], [40.76370700000001, -73.921205], [40.76352500000002, -73.920814], [40.763198999999986, -73.921081], [40.76282299999999, -73.920283], [40.763077999999965, -73.920074], [40.76272099999998, -73.91926], [40.762766, -73.919224], [40.762394, -73.918422], [40.76207200000003, -73.918686], [40.762203999999976, -73.918966], [40.76226300000005, -73.91909], [40.76122149481368, -73.91993210766418], [40.76752999999998, -73.940463], [40.76765300000001, -73.94035100000002]],
                 {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_813947912a2c4afda6fb128e8d892c4b);
+            ).addTo(map_be6aa1792b2f272c9969ecb6aa407c3c);
         
     
-        var popup_dadd942eb661c513eac3c61fe24012b1 = L.popup({"maxWidth": 300});
+        var popup_7b0296f3dadc7c1d05f6e62c35c339a9 = L.popup({"maxWidth": 300});
 
         
             
-                var html_45bc79d839061daafe335a6379cdf1d3 = $(`<div id="html_45bc79d839061daafe335a6379cdf1d3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD14</h4>                              </div>         </div>`)[0];
-                popup_dadd942eb661c513eac3c61fe24012b1.setContent(html_45bc79d839061daafe335a6379cdf1d3);
+                var html_05316aac6e2da5b7a7a9a86ec9e93b5b = $(`<div id="html_05316aac6e2da5b7a7a9a86ec9e93b5b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD14</h4>                              </div>         </div>`)[0];
+                popup_7b0296f3dadc7c1d05f6e62c35c339a9.setContent(html_05316aac6e2da5b7a7a9a86ec9e93b5b);
             
         
 
-        polygon_683d49afc480e33f65cbb3dafa9d9456.bindPopup(popup_dadd942eb661c513eac3c61fe24012b1)
+        polygon_6c27dcf8493907bd93018045376763d7.bindPopup(popup_7b0296f3dadc7c1d05f6e62c35c339a9)
         ;
 
         
     
     
-            polygon_683d49afc480e33f65cbb3dafa9d9456.bindTooltip(
+            polygon_6c27dcf8493907bd93018045376763d7.bindTooltip(
                 `<div>
                       Queens - NY-CD14
                  </div>`,

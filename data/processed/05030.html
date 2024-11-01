@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_0640b0b1dfb80b1c6329e4140917186c {
+                #map_074f9a0aa55a3acfec5bc9adb12ea531 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Windsor - VT-CD00</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_0640b0b1dfb80b1c6329e4140917186c" ></div>
+            <div class="folium-map" id="map_074f9a0aa55a3acfec5bc9adb12ea531" ></div>
         
 </body>
 <script>
     
     
-            var map_0640b0b1dfb80b1c6329e4140917186c = L.map(
-                "map_0640b0b1dfb80b1c6329e4140917186c",
+            var map_074f9a0aa55a3acfec5bc9adb12ea531 = L.map(
+                "map_074f9a0aa55a3acfec5bc9adb12ea531",
                 {
                     center: [43.40106751836958, -72.40785933878651],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_0640b0b1dfb80b1c6329e4140917186c);
+            L.control.scale().addTo(map_074f9a0aa55a3acfec5bc9adb12ea531);
 
             
 
         
     
-            var tile_layer_5993112b6b3f70c754bfbe76c7e4cb1f = L.tileLayer(
+            var tile_layer_61ec8d99c8c765c60ef4100b7b696f3d = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_5993112b6b3f70c754bfbe76c7e4cb1f.addTo(map_0640b0b1dfb80b1c6329e4140917186c);
+            tile_layer_61ec8d99c8c765c60ef4100b7b696f3d.addTo(map_074f9a0aa55a3acfec5bc9adb12ea531);
         
     
-            var polygon_a424d6ce39c0988899fcce4221c8e9ec = L.polygon(
+            var polygon_c2e25a6fa7ddaeddee5619e6a411c467 = L.polygon(
                 [[43.39519699999999, -72.41187900000001], [43.395307, -72.412963], [43.395486999999974, -72.414713], [43.395511999999954, -72.414995], [43.395634000000044, -72.416359], [43.39862400000002, -72.419972], [43.399846999999966, -72.419731], [43.40158499999999, -72.41941], [43.40143899999996, -72.418061], [43.40140200000001, -72.41737900000001], [43.40143099999997, -72.417054], [43.40146199999999, -72.416698], [43.401648000000016, -72.416061], [43.40193300000004, -72.415502], [43.40203299999995, -72.415359], [43.40224200000004, -72.415059], [43.402651000000006, -72.414507], [43.40286000000002, -72.414219], [43.40299000000003, -72.41404000000001], [43.40318300000007, -72.413763], [43.403495999999976, -72.413306], [43.403530999999994, -72.413253], [43.40381699999993, -72.412871], [43.404031000000025, -72.412553], [43.40559200000007, -72.410333], [43.40576599999996, -72.410175], [43.40595799999996, -72.409864], [43.406222000000014, -72.409277], [43.40638000000001, -72.408641], [43.40641499999994, -72.408389], [43.40642799999995, -72.408007], [43.40642400000002, -72.407704], [43.406382000000015, -72.407463], [43.406296999999995, -72.40706700000001], [43.406217000000005, -72.406826], [43.40611000000002, -72.40675300000001], [43.40599099999998, -72.406443], [43.40580499999999, -72.40615400000002], [43.404723, -72.40491], [43.40397987057716, -72.40313696710479], [43.394605568281804, -72.40546573738914], [43.39519699999999, -72.41187900000001]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_0640b0b1dfb80b1c6329e4140917186c);
+            ).addTo(map_074f9a0aa55a3acfec5bc9adb12ea531);
         
     
-        var popup_03aa6dc3ea83f20180cc1bf7260cbd15 = L.popup({"maxWidth": 300});
+        var popup_9de173df65f8f75cc034c918b31974ce = L.popup({"maxWidth": 300});
 
         
             
-                var html_53d16b9252abfae37e6f4eaf7a96010c = $(`<div id="html_53d16b9252abfae37e6f4eaf7a96010c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Windsor - VT-CD00</h4>                              </div>         </div>`)[0];
-                popup_03aa6dc3ea83f20180cc1bf7260cbd15.setContent(html_53d16b9252abfae37e6f4eaf7a96010c);
+                var html_c27d03bc94fa439e87aa8380462da22c = $(`<div id="html_c27d03bc94fa439e87aa8380462da22c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Windsor - VT-CD00</h4>                              </div>         </div>`)[0];
+                popup_9de173df65f8f75cc034c918b31974ce.setContent(html_c27d03bc94fa439e87aa8380462da22c);
             
         
 
-        polygon_a424d6ce39c0988899fcce4221c8e9ec.bindPopup(popup_03aa6dc3ea83f20180cc1bf7260cbd15)
+        polygon_c2e25a6fa7ddaeddee5619e6a411c467.bindPopup(popup_9de173df65f8f75cc034c918b31974ce)
         ;
 
         
     
     
-            polygon_a424d6ce39c0988899fcce4221c8e9ec.bindTooltip(
+            polygon_c2e25a6fa7ddaeddee5619e6a411c467.bindTooltip(
                 `<div>
                       Windsor - VT-CD00
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_e4a47490321ff4021f7b45bed30f1aff = L.polygon(
+            var polygon_a4d5e367412785ea9a00aa79108b09b3 = L.polygon(
                 [[43.40318700000001, -72.401248], [43.40291999999998, -72.401343], [43.402858999999985, -72.401388], [43.402676000000035, -72.401434], [43.40189000000004, -72.401678], [43.401627, -72.40170700000002], [43.40133300000002, -72.401739], [43.40075400000001, -72.401739], [43.40008999999997, -72.401846], [43.399654999999974, -72.402029], [43.399006, -72.402059], [43.39865500000002, -72.402059], [43.39758000000005, -72.402472], [43.39724399999999, -72.40267], [43.39680200000005, -72.40305100000002], [43.39645800000002, -72.40328], [43.39603099999998, -72.403372], [43.39566500000002, -72.40338700000001], [43.39539000000003, -72.403311], [43.395161, -72.403204], [43.39491700000005, -72.403143], [43.39466499999996, -72.403143], [43.39438700000003, -72.403174], [43.394406000000004, -72.403371], [43.39457100000001, -72.405091], [43.394605568281804, -72.40546573738914], [43.40397987057716, -72.40313696710479], [43.403943, -72.403049], [43.40369000000004, -72.40156000000002], [43.40368599999998, -72.401538], [43.40362499999998, -72.401161], [43.40358400000005, -72.401159], [43.40318700000001, -72.401248]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_0640b0b1dfb80b1c6329e4140917186c);
+            ).addTo(map_074f9a0aa55a3acfec5bc9adb12ea531);
         
     
-        var popup_99690daf29eeec946f0cb46a22a62ecd = L.popup({"maxWidth": 300});
+        var popup_30e053570692938da08a89f4249f219d = L.popup({"maxWidth": 300});
 
         
             
-                var html_2990c9981b39e1ee0548aea4a74ed66f = $(`<div id="html_2990c9981b39e1ee0548aea4a74ed66f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Windsor - VT-CD02</h4>                              </div>         </div>`)[0];
-                popup_99690daf29eeec946f0cb46a22a62ecd.setContent(html_2990c9981b39e1ee0548aea4a74ed66f);
+                var html_52ab31b1ae61488a7e04740c713da2dd = $(`<div id="html_52ab31b1ae61488a7e04740c713da2dd" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Windsor - VT-CD02</h4>                              </div>         </div>`)[0];
+                popup_30e053570692938da08a89f4249f219d.setContent(html_52ab31b1ae61488a7e04740c713da2dd);
             
         
 
-        polygon_e4a47490321ff4021f7b45bed30f1aff.bindPopup(popup_99690daf29eeec946f0cb46a22a62ecd)
+        polygon_a4d5e367412785ea9a00aa79108b09b3.bindPopup(popup_30e053570692938da08a89f4249f219d)
         ;
 
         
     
     
-            polygon_e4a47490321ff4021f7b45bed30f1aff.bindTooltip(
+            polygon_a4d5e367412785ea9a00aa79108b09b3.bindTooltip(
                 `<div>
                       Windsor - VT-CD02
                  </div>`,

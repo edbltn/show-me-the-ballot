@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3c1d8a24572655c27473604da8ab4fda {
+                #map_2ed119773370ba8ac8b42201c3707096 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Franklin - OH-CD02</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_3c1d8a24572655c27473604da8ab4fda" ></div>
+            <div class="folium-map" id="map_2ed119773370ba8ac8b42201c3707096" ></div>
         
 </body>
 <script>
     
     
-            var map_3c1d8a24572655c27473604da8ab4fda = L.map(
-                "map_3c1d8a24572655c27473604da8ab4fda",
+            var map_2ed119773370ba8ac8b42201c3707096 = L.map(
+                "map_2ed119773370ba8ac8b42201c3707096",
                 {
                     center: [39.81045657824048, -83.16911467909023],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_3c1d8a24572655c27473604da8ab4fda);
+            L.control.scale().addTo(map_2ed119773370ba8ac8b42201c3707096);
 
             
 
         
     
-            var tile_layer_dda28f9a9ccae9d97a97e34e280ad533 = L.tileLayer(
+            var tile_layer_e93af8fc7f4ec9c0df797a95e603af9b = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_dda28f9a9ccae9d97a97e34e280ad533.addTo(map_3c1d8a24572655c27473604da8ab4fda);
+            tile_layer_e93af8fc7f4ec9c0df797a95e603af9b.addTo(map_2ed119773370ba8ac8b42201c3707096);
         
     
-            var polygon_9f573b51e7ef2bf98e3aae63ea94b0af = L.polygon(
+            var polygon_4fbcb8271c0c318efe76fe5f421eb2ff = L.polygon(
                 [[39.80876000000004, -83.168424], [39.808763, -83.168477], [39.808783999999996, -83.168888], [39.80878700000004, -83.16895], [39.80878900000004, -83.168981], [39.80879099999997, -83.16902], [39.808797000000006, -83.169383], [39.80881699999999, -83.169892], [39.80882299999999, -83.170043], [39.808852999999964, -83.170816], [39.808856999999946, -83.170929], [39.80889, -83.171869], [39.80890900000003, -83.172285], [39.808933, -83.172521], [39.808950000000024, -83.17269500000002], [39.80895400000003, -83.172731], [39.80895699999999, -83.172764], [39.80897399999998, -83.172938], [39.80964970730054, -83.17297217593966], [39.809259000559344, -83.1633636667603], [39.809079, -83.163952], [39.80899899999995, -83.164524], [39.808907000000026, -83.165133], [39.808852999999964, -83.165516], [39.80877999999994, -83.166052], [39.80874200000001, -83.166477], [39.80871100000002, -83.166829], [39.808706999999984, -83.167425], [39.808737999999984, -83.167798], [39.80875500000005, -83.16793], [39.80873499999997, -83.167938], [39.808738999999996, -83.168016], [39.80876000000004, -83.168424]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_3c1d8a24572655c27473604da8ab4fda);
+            ).addTo(map_2ed119773370ba8ac8b42201c3707096);
         
     
-        var popup_560a7e700688dfa27e1f2e7d190ac339 = L.popup({"maxWidth": 300});
+        var popup_602b3a120bca97dc8ff1dbb03d4eb4ea = L.popup({"maxWidth": 300});
 
         
             
-                var html_db189b693d6133aed65eef6ceed81ebe = $(`<div id="html_db189b693d6133aed65eef6ceed81ebe" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Franklin - OH-CD02</h4>                              </div>         </div>`)[0];
-                popup_560a7e700688dfa27e1f2e7d190ac339.setContent(html_db189b693d6133aed65eef6ceed81ebe);
+                var html_470d2ecd175a53e2afafc08e03f8dec7 = $(`<div id="html_470d2ecd175a53e2afafc08e03f8dec7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Franklin - OH-CD02</h4>                              </div>         </div>`)[0];
+                popup_602b3a120bca97dc8ff1dbb03d4eb4ea.setContent(html_470d2ecd175a53e2afafc08e03f8dec7);
             
         
 
-        polygon_9f573b51e7ef2bf98e3aae63ea94b0af.bindPopup(popup_560a7e700688dfa27e1f2e7d190ac339)
+        polygon_4fbcb8271c0c318efe76fe5f421eb2ff.bindPopup(popup_602b3a120bca97dc8ff1dbb03d4eb4ea)
         ;
 
         
     
     
-            polygon_9f573b51e7ef2bf98e3aae63ea94b0af.bindTooltip(
+            polygon_4fbcb8271c0c318efe76fe5f421eb2ff.bindTooltip(
                 `<div>
                       Franklin - OH-CD02
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_9d5fdc50cdff4eb18ffc0b9a7185bdbf = L.polygon(
+            var polygon_b02a16ab3cddfd8544af67660439a0c8 = L.polygon(
                 [[39.80966599999995, -83.172973], [39.809712000000026, -83.173028], [39.809865999999985, -83.173196], [39.81014600000001, -83.173465], [39.81026299999999, -83.17361000000001], [39.81044399999999, -83.173869], [39.81061500000001, -83.174061], [39.810688, -83.174834], [39.81141399999994, -83.174841], [39.81144899999999, -83.174859], [39.81176899999999, -83.17486100000002], [39.81203699999997, -83.174855], [39.812105999999986, -83.174854], [39.81229900000005, -83.17486300000002], [39.81266000000003, -83.174895], [39.812726, -83.174879], [39.81278399999998, -83.174836], [39.81281899999998, -83.174756], [39.81282200000002, -83.174664], [39.81281899999998, -83.173969], [39.81281199999999, -83.17367], [39.81278100000002, -83.172345], [39.81271899999997, -83.171821], [39.81353200000001, -83.171467], [39.813375999999955, -83.171196], [39.81316499999997, -83.170996], [39.81223399999998, -83.169544], [39.811723000000015, -83.168471], [39.81151800000001, -83.167533], [39.81204399999996, -83.165882], [39.81215800000003, -83.165302], [39.81215800000002, -83.164692], [39.812118000000034, -83.164062], [39.81202000000001, -83.163294], [39.811901999999975, -83.162585], [39.81194099999998, -83.161955], [39.81213800000003, -83.161385], [39.81220999999994, -83.161331], [39.81192200000003, -83.161207], [39.811508, -83.161089], [39.81084999999998, -83.160975], [39.810425, -83.160963], [39.810288000000035, -83.161011], [39.810067999999994, -83.161089], [39.809812000000015, -83.161651], [39.809537000000034, -83.162455], [39.809259000559344, -83.1633636667603], [39.80964970730054, -83.17297217593966], [39.80966599999995, -83.172973]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_3c1d8a24572655c27473604da8ab4fda);
+            ).addTo(map_2ed119773370ba8ac8b42201c3707096);
         
     
-        var popup_b9f0f1b1feeeac5ae0f6d1d83f47b3fd = L.popup({"maxWidth": 300});
+        var popup_7b22f8f22b75f433a9fc10fc66cb257c = L.popup({"maxWidth": 300});
 
         
             
-                var html_09b25429142da6a9775ccb34f5305f78 = $(`<div id="html_09b25429142da6a9775ccb34f5305f78" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Franklin - OH-CD15</h4>                              </div>         </div>`)[0];
-                popup_b9f0f1b1feeeac5ae0f6d1d83f47b3fd.setContent(html_09b25429142da6a9775ccb34f5305f78);
+                var html_3965d7cccdc8093654636e78ffd406fe = $(`<div id="html_3965d7cccdc8093654636e78ffd406fe" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Franklin - OH-CD15</h4>                              </div>         </div>`)[0];
+                popup_7b22f8f22b75f433a9fc10fc66cb257c.setContent(html_3965d7cccdc8093654636e78ffd406fe);
             
         
 
-        polygon_9d5fdc50cdff4eb18ffc0b9a7185bdbf.bindPopup(popup_b9f0f1b1feeeac5ae0f6d1d83f47b3fd)
+        polygon_b02a16ab3cddfd8544af67660439a0c8.bindPopup(popup_7b22f8f22b75f433a9fc10fc66cb257c)
         ;
 
         
     
     
-            polygon_9d5fdc50cdff4eb18ffc0b9a7185bdbf.bindTooltip(
+            polygon_b02a16ab3cddfd8544af67660439a0c8.bindTooltip(
                 `<div>
                       Franklin - OH-CD15
                  </div>`,

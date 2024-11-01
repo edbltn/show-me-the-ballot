@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_632ff32ffd73c98a2798c0296f1d0009 {
+                #map_257c3124c26b98f09f5481fffdfe265b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Maricopa - AZ-CD04</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_632ff32ffd73c98a2798c0296f1d0009" ></div>
+            <div class="folium-map" id="map_257c3124c26b98f09f5481fffdfe265b" ></div>
         
 </body>
 <script>
     
     
-            var map_632ff32ffd73c98a2798c0296f1d0009 = L.map(
-                "map_632ff32ffd73c98a2798c0296f1d0009",
+            var map_257c3124c26b98f09f5481fffdfe265b = L.map(
+                "map_257c3124c26b98f09f5481fffdfe265b",
                 {
                     center: [33.44922922647592, -111.97251458117579],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_632ff32ffd73c98a2798c0296f1d0009);
+            L.control.scale().addTo(map_257c3124c26b98f09f5481fffdfe265b);
 
             
 
         
     
-            var tile_layer_e7aee4ed340f9801e598bd5bcc13e10f = L.tileLayer(
+            var tile_layer_97404355f21bd596b82169d837066d0e = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_e7aee4ed340f9801e598bd5bcc13e10f.addTo(map_632ff32ffd73c98a2798c0296f1d0009);
+            tile_layer_97404355f21bd596b82169d837066d0e.addTo(map_257c3124c26b98f09f5481fffdfe265b);
         
     
-            var polygon_043f5b25a243cae249436509dba8bb30 = L.polygon(
+            var polygon_ad2041aa29656d207cc29b57c11af4fc = L.polygon(
                 [[33.449706000000006, -111.96902499999999], [33.448762, -111.969023], [33.447867000000016, -111.969029], [33.44751500000003, -111.96902], [33.44658700000005, -111.969034], [33.446357, -111.96902499999999], [33.446253999999996, -111.969025], [33.44626799999999, -111.969151], [33.446342999999985, -111.969777], [33.44651699999995, -111.97122], [33.44661600000001, -111.97207], [33.44663700000002, -111.972222], [33.446689000000006, -111.972693], [33.446746999999995, -111.973158], [33.44684900000002, -111.974036], [33.44700099999996, -111.975211], [33.447353000000014, -111.97813], [33.44737800000003, -111.97842], [33.44792299999996, -111.978414], [33.44997900000001, -111.978415], [33.45079814331481, -111.9784250950331], [33.449719952393345, -111.96902498142177], [33.449706000000006, -111.96902499999999]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_632ff32ffd73c98a2798c0296f1d0009);
+            ).addTo(map_257c3124c26b98f09f5481fffdfe265b);
         
     
-        var popup_d73307a61c05a490ecb6a1583d770d57 = L.popup({"maxWidth": 300});
+        var popup_46082d0761b33991b2a626cadffc041b = L.popup({"maxWidth": 300});
 
         
             
-                var html_87edffc4dc5edf48465e9eb240244b00 = $(`<div id="html_87edffc4dc5edf48465e9eb240244b00" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Maricopa - AZ-CD04</h4>                              </div>         </div>`)[0];
-                popup_d73307a61c05a490ecb6a1583d770d57.setContent(html_87edffc4dc5edf48465e9eb240244b00);
+                var html_0fcd29d8e8a0b16ef54b226d55fc4b4c = $(`<div id="html_0fcd29d8e8a0b16ef54b226d55fc4b4c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Maricopa - AZ-CD04</h4>                              </div>         </div>`)[0];
+                popup_46082d0761b33991b2a626cadffc041b.setContent(html_0fcd29d8e8a0b16ef54b226d55fc4b4c);
             
         
 
-        polygon_043f5b25a243cae249436509dba8bb30.bindPopup(popup_d73307a61c05a490ecb6a1583d770d57)
+        polygon_ad2041aa29656d207cc29b57c11af4fc.bindPopup(popup_46082d0761b33991b2a626cadffc041b)
         ;
 
         
     
     
-            polygon_043f5b25a243cae249436509dba8bb30.bindTooltip(
+            polygon_ad2041aa29656d207cc29b57c11af4fc.bindTooltip(
                 `<div>
                       Maricopa - AZ-CD04
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_034e5258cf4125f4ed93e752d76e7da6 = L.polygon(
+            var polygon_b5fa73a14ae6d772bac3f24af43a50a3 = L.polygon(
                 [[33.451082, -111.975872], [33.451045000000015, -111.975126], [33.451020000000014, -111.974737], [33.45099299999996, -111.974191], [33.45098300000002, -111.973962], [33.45096800000002, -111.973147], [33.45096800000002, -111.972465], [33.450966999999984, -111.972371], [33.450960999999985, -111.971542], [33.450960999999985, -111.97085], [33.45097099999998, -111.970592], [33.45097099999998, -111.970514], [33.450974, -111.970178], [33.450960999999985, -111.96974800000001], [33.45094600000004, -111.969066], [33.450704, -111.96904], [33.45045700000001, -111.969024], [33.449719952393345, -111.96902498142177], [33.45079814331481, -111.9784250950331], [33.451115000000016, -111.978429], [33.45109600000003, -111.976407], [33.451082, -111.975872]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_632ff32ffd73c98a2798c0296f1d0009);
+            ).addTo(map_257c3124c26b98f09f5481fffdfe265b);
         
     
-        var popup_0b69935ef73c72cc5374f31ab7913ce5 = L.popup({"maxWidth": 300});
+        var popup_5c4d5a6ed4a0efc8310baf9aeabf70f1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_36a5eff764b40b890cf84414267ad404 = $(`<div id="html_36a5eff764b40b890cf84414267ad404" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Maricopa - AZ-CD01</h4>                              </div>         </div>`)[0];
-                popup_0b69935ef73c72cc5374f31ab7913ce5.setContent(html_36a5eff764b40b890cf84414267ad404);
+                var html_92cf65c336836a5907a84723fc7f2daf = $(`<div id="html_92cf65c336836a5907a84723fc7f2daf" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Maricopa - AZ-CD01</h4>                              </div>         </div>`)[0];
+                popup_5c4d5a6ed4a0efc8310baf9aeabf70f1.setContent(html_92cf65c336836a5907a84723fc7f2daf);
             
         
 
-        polygon_034e5258cf4125f4ed93e752d76e7da6.bindPopup(popup_0b69935ef73c72cc5374f31ab7913ce5)
+        polygon_b5fa73a14ae6d772bac3f24af43a50a3.bindPopup(popup_5c4d5a6ed4a0efc8310baf9aeabf70f1)
         ;
 
         
     
     
-            polygon_034e5258cf4125f4ed93e752d76e7da6.bindTooltip(
+            polygon_b5fa73a14ae6d772bac3f24af43a50a3.bindTooltip(
                 `<div>
                       Maricopa - AZ-CD01
                  </div>`,

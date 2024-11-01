@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c29d3fe24a3def3c64d8b3d41dbe62d3 {
+                #map_5e54cbd9afd5e21c08677290ec5c0f84 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Mercer - OH-CD08</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_c29d3fe24a3def3c64d8b3d41dbe62d3" ></div>
+            <div class="folium-map" id="map_5e54cbd9afd5e21c08677290ec5c0f84" ></div>
         
 </body>
 <script>
     
     
-            var map_c29d3fe24a3def3c64d8b3d41dbe62d3 = L.map(
-                "map_c29d3fe24a3def3c64d8b3d41dbe62d3",
+            var map_5e54cbd9afd5e21c08677290ec5c0f84 = L.map(
+                "map_5e54cbd9afd5e21c08677290ec5c0f84",
                 {
                     center: [40.353230619652614, -84.64251234519267],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_c29d3fe24a3def3c64d8b3d41dbe62d3);
+            L.control.scale().addTo(map_5e54cbd9afd5e21c08677290ec5c0f84);
 
             
 
         
     
-            var tile_layer_992e03623e68e767125de757a054587e = L.tileLayer(
+            var tile_layer_c79bd6099d4901d28340b76fc41ca479 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_992e03623e68e767125de757a054587e.addTo(map_c29d3fe24a3def3c64d8b3d41dbe62d3);
+            tile_layer_c79bd6099d4901d28340b76fc41ca479.addTo(map_5e54cbd9afd5e21c08677290ec5c0f84);
         
     
-            var polygon_5ecc8a340a0ec8ef0628b062ebbb2605 = L.polygon(
+            var polygon_9de1e44d5483f1176aefc6c35dce5d0c = L.polygon(
                 [[40.35178100000004, -84.638553], [40.351781999999986, -84.638657], [40.351781999999986, -84.638677], [40.35178499999999, -84.638794], [40.35179300000005, -84.639046], [40.351797000000026, -84.639601], [40.35179900000004, -84.6398], [40.35179900000003, -84.639941], [40.35179999999995, -84.640121], [40.35179900000004, -84.640613], [40.35179900000003, -84.641358], [40.351797000000026, -84.641496], [40.351792, -84.641811], [40.35179300000005, -84.641904], [40.351781999999986, -84.642369], [40.35179300000005, -84.642577], [40.35179600000004, -84.643046], [40.35179600000004, -84.643154], [40.351806999999994, -84.643414], [40.35180499999998, -84.643521], [40.35180499999998, -84.643912], [40.351808000000055, -84.644044], [40.35181500000002, -84.644973], [40.351820999999994, -84.645369], [40.35181500000002, -84.646192], [40.35181399999999, -84.646443], [40.35181300000002, -84.646691], [40.35180800000006, -84.647508], [40.35181100000003, -84.647907], [40.35181199999997, -84.648077], [40.35181300000002, -84.648129], [40.351905000000045, -84.648126], [40.353525921209, -84.6481136047336], [40.353571097848196, -84.63744876883584], [40.35219499999998, -84.637453], [40.35219200000002, -84.638175], [40.35178000000004, -84.638174], [40.35177999999998, -84.638217], [40.35178100000004, -84.638553]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c29d3fe24a3def3c64d8b3d41dbe62d3);
+            ).addTo(map_5e54cbd9afd5e21c08677290ec5c0f84);
         
     
-        var popup_d7b9bb45fe3d72a55b3fc312a7a16318 = L.popup({"maxWidth": 300});
+        var popup_778f5712c5846eb6ecd71b2b10877f4b = L.popup({"maxWidth": 300});
 
         
             
-                var html_085ffd913da952ae9fb9e9c84f96760f = $(`<div id="html_085ffd913da952ae9fb9e9c84f96760f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Mercer - OH-CD08</h4>                              </div>         </div>`)[0];
-                popup_d7b9bb45fe3d72a55b3fc312a7a16318.setContent(html_085ffd913da952ae9fb9e9c84f96760f);
+                var html_06d37bbd812b00fad9c96e6b30ad5d5f = $(`<div id="html_06d37bbd812b00fad9c96e6b30ad5d5f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Mercer - OH-CD08</h4>                              </div>         </div>`)[0];
+                popup_778f5712c5846eb6ecd71b2b10877f4b.setContent(html_06d37bbd812b00fad9c96e6b30ad5d5f);
             
         
 
-        polygon_5ecc8a340a0ec8ef0628b062ebbb2605.bindPopup(popup_d7b9bb45fe3d72a55b3fc312a7a16318)
+        polygon_9de1e44d5483f1176aefc6c35dce5d0c.bindPopup(popup_778f5712c5846eb6ecd71b2b10877f4b)
         ;
 
         
     
     
-            polygon_5ecc8a340a0ec8ef0628b062ebbb2605.bindTooltip(
+            polygon_9de1e44d5483f1176aefc6c35dce5d0c.bindTooltip(
                 `<div>
                       Mercer - OH-CD08
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_f5b5127a3b47c990c38cf61a011ea96e = L.polygon(
+            var polygon_40a16b106df8be9bbb3b7aff47464a1c = L.polygon(
                 [[40.353604999999966, -84.648113], [40.35360600000002, -84.647884], [40.353604999999966, -84.647186], [40.35360100000005, -84.643618], [40.355481999999974, -84.643611], [40.356405999999986, -84.643608], [40.35640699999996, -84.643459], [40.35641, -84.643351], [40.35647500000002, -84.643366], [40.356556, -84.643373], [40.35664300000004, -84.643379], [40.35678500000005, -84.64338300000001], [40.35687499999996, -84.643378], [40.35687499999999, -84.641814], [40.35633600000002, -84.641816], [40.35633300000002, -84.640165], [40.356332000000045, -84.638737], [40.35633099999998, -84.638617], [40.35370500000001, -84.638626], [40.35479499999999, -84.637716], [40.35512200000002, -84.63744400000002], [40.353571097848196, -84.63744876883584], [40.353525921209, -84.6481136047336], [40.353604999999966, -84.648113]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c29d3fe24a3def3c64d8b3d41dbe62d3);
+            ).addTo(map_5e54cbd9afd5e21c08677290ec5c0f84);
         
     
-        var popup_fae8eefe50e5c45908b867a10e4fceba = L.popup({"maxWidth": 300});
+        var popup_fc1559e096f69e67a2055bc002bbe32a = L.popup({"maxWidth": 300});
 
         
             
-                var html_7ae5ea16ecae63291e3d1329cd596f07 = $(`<div id="html_7ae5ea16ecae63291e3d1329cd596f07" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Mercer - OH-CD05</h4>                              </div>         </div>`)[0];
-                popup_fae8eefe50e5c45908b867a10e4fceba.setContent(html_7ae5ea16ecae63291e3d1329cd596f07);
+                var html_b971b80347daace3ebdd1bb633938fd8 = $(`<div id="html_b971b80347daace3ebdd1bb633938fd8" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Mercer - OH-CD05</h4>                              </div>         </div>`)[0];
+                popup_fc1559e096f69e67a2055bc002bbe32a.setContent(html_b971b80347daace3ebdd1bb633938fd8);
             
         
 
-        polygon_f5b5127a3b47c990c38cf61a011ea96e.bindPopup(popup_fae8eefe50e5c45908b867a10e4fceba)
+        polygon_40a16b106df8be9bbb3b7aff47464a1c.bindPopup(popup_fc1559e096f69e67a2055bc002bbe32a)
         ;
 
         
     
     
-            polygon_f5b5127a3b47c990c38cf61a011ea96e.bindTooltip(
+            polygon_40a16b106df8be9bbb3b7aff47464a1c.bindTooltip(
                 `<div>
                       Mercer - OH-CD05
                  </div>`,

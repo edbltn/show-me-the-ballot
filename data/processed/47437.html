@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2a73d0ec155c6dded8ee769daef96b61 {
+                #map_9a40cea1e2e6af645f2b41f5be561637 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Lawrence - IN-CD08</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_2a73d0ec155c6dded8ee769daef96b61" ></div>
+            <div class="folium-map" id="map_9a40cea1e2e6af645f2b41f5be561637" ></div>
         
 </body>
 <script>
     
     
-            var map_2a73d0ec155c6dded8ee769daef96b61 = L.map(
-                "map_2a73d0ec155c6dded8ee769daef96b61",
+            var map_9a40cea1e2e6af645f2b41f5be561637 = L.map(
+                "map_9a40cea1e2e6af645f2b41f5be561637",
                 {
                     center: [38.715242340086014, -86.67325388656775],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_2a73d0ec155c6dded8ee769daef96b61);
+            L.control.scale().addTo(map_9a40cea1e2e6af645f2b41f5be561637);
 
             
 
         
     
-            var tile_layer_43698e58228d848a129423f01a9b67b8 = L.tileLayer(
+            var tile_layer_6264a6600209b68d2101e0872dbe9ed9 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_43698e58228d848a129423f01a9b67b8.addTo(map_2a73d0ec155c6dded8ee769daef96b61);
+            tile_layer_6264a6600209b68d2101e0872dbe9ed9.addTo(map_9a40cea1e2e6af645f2b41f5be561637);
         
     
-            var polygon_ebd6fe8bc62bf33094f0dd1449d59b08 = L.polygon(
+            var polygon_dd1760132561e5e26278b96fec95ffca = L.polygon(
                 [[38.71603100000002, -86.683257], [38.717300999999985, -86.683264], [38.71825000000003, -86.683285], [38.71871900000001, -86.683295], [38.71879117687058, -86.68306530294453], [38.7023197181612, -86.68308406126935], [38.70227400000001, -86.683185], [38.71384799999998, -86.683246], [38.71603100000002, -86.683257]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2a73d0ec155c6dded8ee769daef96b61);
+            ).addTo(map_9a40cea1e2e6af645f2b41f5be561637);
         
     
-        var popup_c5f4cfe6808dca10f7732922d6546534 = L.popup({"maxWidth": 300});
+        var popup_cfbbd0b3b653e18b2912986ee1e9bf45 = L.popup({"maxWidth": 300});
 
         
             
-                var html_c8a66e00469c868f14c87e625baea952 = $(`<div id="html_c8a66e00469c868f14c87e625baea952" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lawrence - IN-CD08</h4>                              </div>         </div>`)[0];
-                popup_c5f4cfe6808dca10f7732922d6546534.setContent(html_c8a66e00469c868f14c87e625baea952);
+                var html_f1c1571d8acf5e588eada63504b82f72 = $(`<div id="html_f1c1571d8acf5e588eada63504b82f72" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lawrence - IN-CD08</h4>                              </div>         </div>`)[0];
+                popup_cfbbd0b3b653e18b2912986ee1e9bf45.setContent(html_f1c1571d8acf5e588eada63504b82f72);
             
         
 
-        polygon_ebd6fe8bc62bf33094f0dd1449d59b08.bindPopup(popup_c5f4cfe6808dca10f7732922d6546534)
+        polygon_dd1760132561e5e26278b96fec95ffca.bindPopup(popup_cfbbd0b3b653e18b2912986ee1e9bf45)
         ;
 
         
     
     
-            polygon_ebd6fe8bc62bf33094f0dd1449d59b08.bindTooltip(
+            polygon_dd1760132561e5e26278b96fec95ffca.bindTooltip(
                 `<div>
                       Lawrence - IN-CD08
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_1fccf209f094990858f112bffca47335 = L.polygon(
+            var polygon_090bd793e43a25bd0b0adf2412608497 = L.polygon(
                 [[38.71900399999998, -86.682388], [38.71986199999999, -86.679668], [38.720009000000005, -86.679205], [38.72010800000001, -86.678975], [38.72022300000002, -86.678795], [38.72063799999998, -86.677575], [38.72188300000002, -86.673918], [38.72229900000003, -86.672699], [38.72253500000001, -86.671804], [38.72255099999999, -86.671731], [38.72275700000002, -86.67082800000001], [38.722853000000015, -86.670076], [38.72287399999998, -86.669161], [38.72285200000002, -86.66876], [38.72284200000001, -86.668551], [38.72274099999997, -86.667767], [38.72272600000001, -86.667826], [38.722683, -86.668003], [38.722669999999965, -86.668063], [38.722663999999995, -86.66809], [38.72266099999998, -86.668137], [38.72265199999999, -86.668363], [38.722648999999976, -86.66843900000002], [38.72248700000001, -86.668405], [38.72200200000004, -86.668303], [38.72184100000001, -86.66827], [38.72148499999999, -86.668192], [38.721416, -86.668177], [38.72093300000005, -86.668085], [38.72042000000002, -86.667959], [38.720406, -86.667956], [38.720216000000015, -86.667941], [38.72016500000001, -86.667966], [38.72012600000003, -86.668023], [38.72011399999999, -86.668053], [38.72007200000002, -86.668155], [38.72006200000001, -86.668243], [38.719996, -86.66883600000001], [38.71997500000001, -86.669034], [38.719947, -86.669246], [38.71989600000001, -86.669642], [38.719848000000034, -86.669883], [38.71980699999996, -86.670094], [38.71962600000002, -86.67005400000001], [38.71908499999997, -86.669937], [38.71893499999999, -86.669905], [38.71890600000001, -86.669895], [38.718842000000016, -86.670314], [38.71879200000003, -86.670644], [38.71873000000002, -86.671305], [38.718708, -86.67158], [38.71868000000001, -86.671704], [38.718691999999976, -86.672002], [38.71836499999997, -86.671931], [38.71823100000002, -86.671905], [38.71774099999996, -86.671811], [38.717413, -86.671722], [38.71723899999998, -86.671596], [38.71696199999997, -86.67137], [38.71682300000001, -86.671257], [38.71657799999996, -86.671102], [38.71647100000003, -86.670898], [38.716208999999985, -86.67039600000001], [38.71618100000001, -86.670279], [38.71613000000003, -86.670056], [38.71543600000002, -86.669994], [38.71458800000003, -86.66992], [38.71335099999998, -86.669926], [38.71265500000004, -86.66993], [38.71263100000005, -86.669931], [38.71256299999997, -86.669935], [38.71254, -86.669937], [38.71190299999998, -86.67021800000002], [38.71121900000001, -86.67052], [38.71095300000004, -86.670937], [38.710424000000025, -86.671771], [38.71008299999999, -86.67213000000001], [38.708920000000006, -86.672834], [38.70852399999999, -86.673152], [38.707706999999964, -86.673855], [38.70759099999998, -86.67390900000001], [38.70748199999997, -86.673938], [38.707330999999975, -86.674079], [38.706776000000005, -86.674619], [38.706654000000015, -86.67473000000001], [38.706609, -86.674772], [38.706401000000014, -86.674904], [38.706159999999976, -86.674983], [38.70582200000001, -86.675021], [38.70552000000002, -86.67501], [38.705082000000026, -86.674828], [38.70496000000006, -86.674746], [38.70486299999998, -86.674689], [38.704797, -86.674836], [38.70471399999999, -86.676725], [38.70471199999999, -86.676784], [38.70553900000003, -86.677364], [38.70565400000004, -86.67762500000002], [38.70561100000001, -86.678614], [38.70533899999995, -86.679515], [38.705020999999995, -86.680214], [38.70476999999997, -86.680475], [38.703338, -86.681469], [38.703309999999966, -86.681489], [38.70283199999997, -86.681953], [38.7023197181612, -86.68308406126935], [38.71879117687058, -86.68306530294453], [38.71900399999998, -86.682388]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2a73d0ec155c6dded8ee769daef96b61);
+            ).addTo(map_9a40cea1e2e6af645f2b41f5be561637);
         
     
-        var popup_161f279e3392b16a38153b397ebf6386 = L.popup({"maxWidth": 300});
+        var popup_c96f64d1dc42f1fb313703a5f552bbe5 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2651470aa30f4a0598e757a567143d6c = $(`<div id="html_2651470aa30f4a0598e757a567143d6c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lawrence - IN-CD09</h4>                              </div>         </div>`)[0];
-                popup_161f279e3392b16a38153b397ebf6386.setContent(html_2651470aa30f4a0598e757a567143d6c);
+                var html_d32cde832fc5b1266513a892db3e3f77 = $(`<div id="html_d32cde832fc5b1266513a892db3e3f77" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lawrence - IN-CD09</h4>                              </div>         </div>`)[0];
+                popup_c96f64d1dc42f1fb313703a5f552bbe5.setContent(html_d32cde832fc5b1266513a892db3e3f77);
             
         
 
-        polygon_1fccf209f094990858f112bffca47335.bindPopup(popup_161f279e3392b16a38153b397ebf6386)
+        polygon_090bd793e43a25bd0b0adf2412608497.bindPopup(popup_c96f64d1dc42f1fb313703a5f552bbe5)
         ;
 
         
     
     
-            polygon_1fccf209f094990858f112bffca47335.bindTooltip(
+            polygon_090bd793e43a25bd0b0adf2412608497.bindTooltip(
                 `<div>
                       Lawrence - IN-CD09
                  </div>`,

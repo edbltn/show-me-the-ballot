@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_898db6dfc8be2fc2ab31e48c979fc2ce {
+                #map_0ea883e33163923e7fab16c90b6b260c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Palm Beach - FL-CD21</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -81,7 +95,14 @@
                 <span> Palm Beach - FL-CD22</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -95,14 +116,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_898db6dfc8be2fc2ab31e48c979fc2ce" ></div>
+            <div class="folium-map" id="map_0ea883e33163923e7fab16c90b6b260c" ></div>
         
 </body>
 <script>
     
     
-            var map_898db6dfc8be2fc2ab31e48c979fc2ce = L.map(
-                "map_898db6dfc8be2fc2ab31e48c979fc2ce",
+            var map_0ea883e33163923e7fab16c90b6b260c = L.map(
+                "map_0ea883e33163923e7fab16c90b6b260c",
                 {
                     center: [26.64587743597158, -80.0403772425491],
                     crs: L.CRS.EPSG3857,
@@ -111,43 +132,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_898db6dfc8be2fc2ab31e48c979fc2ce);
+            L.control.scale().addTo(map_0ea883e33163923e7fab16c90b6b260c);
 
             
 
         
     
-            var tile_layer_a810b228e8da185e50edfd99bc41d4c7 = L.tileLayer(
+            var tile_layer_d74add5bec5a47fe6c7d4a35e5a06c08 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_a810b228e8da185e50edfd99bc41d4c7.addTo(map_898db6dfc8be2fc2ab31e48c979fc2ce);
+            tile_layer_d74add5bec5a47fe6c7d4a35e5a06c08.addTo(map_0ea883e33163923e7fab16c90b6b260c);
         
     
-            var polygon_564631f1802b4ede6b262d24b988d2c0 = L.polygon(
+            var polygon_40d77cf5fa1d2fd314bcce2e66194c3b = L.polygon(
                 [[26.773033919497077, -80.03236250847627], [26.773033918817518, -80.0323625083668], [26.77153, -80.03212], [26.76860157184081, -80.032231724777], [26.77306258125564, -80.03362555098555], [26.773033919497077, -80.03236250847627]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_898db6dfc8be2fc2ab31e48c979fc2ce);
+            ).addTo(map_0ea883e33163923e7fab16c90b6b260c);
         
     
-        var popup_8d689009928e8a17c8cfb97cfa7429bf = L.popup({"maxWidth": 300});
+        var popup_3e59228ebfa52f4dd8bdef163c51ff55 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f8cd4acd41a26618fb44b7da16495c7e = $(`<div id="html_f8cd4acd41a26618fb44b7da16495c7e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Palm Beach - FL-CD21</h4>                              </div>         </div>`)[0];
-                popup_8d689009928e8a17c8cfb97cfa7429bf.setContent(html_f8cd4acd41a26618fb44b7da16495c7e);
+                var html_cd0735a8ce328e98f391ec5d71951e12 = $(`<div id="html_cd0735a8ce328e98f391ec5d71951e12" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Palm Beach - FL-CD21</h4>                              </div>         </div>`)[0];
+                popup_3e59228ebfa52f4dd8bdef163c51ff55.setContent(html_cd0735a8ce328e98f391ec5d71951e12);
             
         
 
-        polygon_564631f1802b4ede6b262d24b988d2c0.bindPopup(popup_8d689009928e8a17c8cfb97cfa7429bf)
+        polygon_40d77cf5fa1d2fd314bcce2e66194c3b.bindPopup(popup_3e59228ebfa52f4dd8bdef163c51ff55)
         ;
 
         
     
     
-            polygon_564631f1802b4ede6b262d24b988d2c0.bindTooltip(
+            polygon_40d77cf5fa1d2fd314bcce2e66194c3b.bindTooltip(
                 `<div>
                       Palm Beach - FL-CD21
                  </div>`,
@@ -155,28 +176,28 @@
             );
         
     
-            var polygon_d17806f9934062ff859e6cda7cab6264 = L.polygon(
+            var polygon_3393b397378298b5cd3725b7062b6495 = L.polygon(
                 [[26.585903999999974, -80.038703], [26.585988, -80.041297], [26.586005999999983, -80.041697], [26.586354, -80.041579], [26.586430000000007, -80.041565], [26.587682999999988, -80.041327], [26.593128000000014, -80.040298], [26.59371700000003, -80.040123], [26.59377999999999, -80.04008], [26.594102999999997, -80.039996], [26.594239000000016, -80.039981], [26.594292000000017, -80.039976], [26.59439899999999, -80.039964], [26.594411999999995, -80.039965], [26.59444600000003, -80.039763], [26.594447999999964, -80.039686], [26.59466699999999, -80.039614], [26.594957000000043, -80.039524], [26.595305000000014, -80.039424], [26.595614000000033, -80.039386], [26.595846999999974, -80.039267], [26.596350999999995, -80.039058], [26.596912000000028, -80.038958], [26.59755900000002, -80.038848], [26.598011000000042, -80.038801], [26.59846699999999, -80.038782], [26.59873399999997, -80.038777], [26.59903300000001, -80.038815], [26.599290000000007, -80.038867], [26.599456999999997, -80.038901], [26.59956599999999, -80.03897200000002], [26.59959900000002, -80.039034], [26.599676000000052, -80.039072], [26.59977500000002, -80.039062], [26.599918000000038, -80.038996], [26.600132000000016, -80.038896], [26.600269999999973, -80.038886], [26.600465000000007, -80.038848], [26.600669999999994, -80.038763], [26.600759999999955, -80.038753], [26.60089799999999, -80.038729], [26.601126000000004, -80.038725], [26.601764, -80.03871], [26.602957, -80.038677], [26.603419000000066, -80.038701], [26.603950999999984, -80.038706], [26.604540999999973, -80.03871], [26.605116999999986, -80.038682], [26.606009999999962, -80.038629], [26.606943000000022, -80.038435], [26.607299999999995, -80.038387], [26.6075, -80.038397], [26.607726999999965, -80.03846], [26.607842000000026, -80.038515], [26.607961000000003, -80.038558], [26.608108000000023, -80.038568], [26.60820300000001, -80.038568], [26.608284000000012, -80.038549], [26.608365000000006, -80.038496], [26.608379000000017, -80.038463], [26.608394, -80.038368], [26.608402999999967, -80.038292], [26.608470000000032, -80.038235], [26.60852699999998, -80.038221], [26.608793000000002, -80.038168], [26.609169, -80.038125], [26.609621000000047, -80.03813], [26.60992999999999, -80.038168], [26.61013899999999, -80.038249], [26.610305999999976, -80.038382], [26.610443999999983, -80.038506], [26.610543999999983, -80.038696], [26.610552999999985, -80.038867], [26.61060499999998, -80.040194], [26.61089600000001, -80.040185], [26.61088099999999, -80.038449], [26.610999999999994, -80.038477], [26.611061999999986, -80.038544], [26.611113999999993, -80.038558], [26.611214, -80.038577], [26.611337999999975, -80.038544], [26.61140899999998, -80.03853900000001], [26.611466000000018, -80.038553], [26.611537999999953, -80.038587], [26.611584999999966, -80.038615], [26.61194400000001, -80.038781], [26.611936, -80.038511], [26.61190300000001, -80.037313], [26.611892999999995, -80.036922], [26.611617000000006, -80.036919], [26.611613000000055, -80.036755], [26.61160700000003, -80.036534], [26.611605000000004, -80.036464], [26.611657999999956, -80.036448], [26.611767999999973, -80.036426], [26.61187799999996, -80.03639], [26.61190300000001, -80.036381], [26.612003, -80.03638], [26.612104999999985, -80.036407], [26.61219599999997, -80.036388], [26.61228600000001, -80.036379], [26.612428999999995, -80.036365], [26.612521000000054, -80.036369], [26.612569999999984, -80.03637100000002], [26.612683999999973, -80.036395], [26.612758999999997, -80.036411], [26.612989999999986, -80.03650000000002], [26.61308599999997, -80.036523], [26.613176999999972, -80.036523], [26.613265000000034, -80.036513], [26.613509000000015, -80.036536], [26.613765999999973, -80.036568], [26.61380899999995, -80.036566], [26.613864, -80.036563], [26.614016000000017, -80.036576], [26.614145999999998, -80.036576], [26.61422999999997, -80.036567], [26.614317999999972, -80.036571], [26.614479000000003, -80.036588], [26.614737999999985, -80.036579], [26.61491400000003, -80.036586], [26.61506499999999, -80.0366], [26.61528600000002, -80.036593], [26.615294000000024, -80.036908], [26.61529799999999, -80.037076], [26.61531500000002, -80.037398], [26.615304000000027, -80.037532], [26.615214999999985, -80.037754], [26.61518099999998, -80.03784900000001], [26.615108999999997, -80.038033], [26.615098999999987, -80.038692], [26.61527899999999, -80.041502], [26.615302000000057, -80.041854], [26.615431999999988, -80.043882], [26.61584199999998, -80.04387000000001], [26.61583700000005, -80.043701], [26.616451999999992, -80.043681], [26.616886, -80.043665], [26.628538999999993, -80.043334], [26.634516999999985, -80.043164], [26.634730000000005, -80.043158], [26.644365999999987, -80.042884], [26.64479100000003, -80.042879], [26.65859400000001, -80.044702], [26.662759999999963, -80.04525], [26.668767000000024, -80.046039], [26.67422599999996, -80.046757], [26.67542600000001, -80.046843], [26.676349471096323, -80.04690749584547], [26.676043000000004, -80.03576300000002], [26.612346000000052, -80.035363], [26.585862983806052, -80.03751910932135], [26.585903999999974, -80.038703]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_898db6dfc8be2fc2ab31e48c979fc2ce);
+            ).addTo(map_0ea883e33163923e7fab16c90b6b260c);
         
     
-        var popup_16e1b92ce8ba148d92af7b3db4d6e747 = L.popup({"maxWidth": 300});
+        var popup_5cb674c9dc542a72b7158ae0a4c859c9 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f32b0b82b1f8b8dd0ce045544ccca4a9 = $(`<div id="html_f32b0b82b1f8b8dd0ce045544ccca4a9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Palm Beach - FL-CD22</h4>                              </div>         </div>`)[0];
-                popup_16e1b92ce8ba148d92af7b3db4d6e747.setContent(html_f32b0b82b1f8b8dd0ce045544ccca4a9);
+                var html_ef069be4563658d82132dcdab3bc1155 = $(`<div id="html_ef069be4563658d82132dcdab3bc1155" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Palm Beach - FL-CD22</h4>                              </div>         </div>`)[0];
+                popup_5cb674c9dc542a72b7158ae0a4c859c9.setContent(html_ef069be4563658d82132dcdab3bc1155);
             
         
 
-        polygon_d17806f9934062ff859e6cda7cab6264.bindPopup(popup_16e1b92ce8ba148d92af7b3db4d6e747)
+        polygon_3393b397378298b5cd3725b7062b6495.bindPopup(popup_5cb674c9dc542a72b7158ae0a4c859c9)
         ;
 
         
     
     
-            polygon_d17806f9934062ff859e6cda7cab6264.bindTooltip(
+            polygon_3393b397378298b5cd3725b7062b6495.bindTooltip(
                 `<div>
                       Palm Beach - FL-CD22
                  </div>`,
@@ -184,28 +205,28 @@
             );
         
     
-            var polygon_5bcf1c5c2029bc69bed3f4345911c82b = L.polygon(
+            var polygon_ee75e2b7e29a0f6d6b739e45a231ad21 = L.polygon(
                 [[26.769246999999996, -80.048989], [26.769241000000022, -80.04875], [26.76955399999996, -80.047705], [26.76974299999997, -80.047078], [26.769808999999988, -80.046858], [26.771938999999996, -80.040549], [26.772307999999956, -80.039071], [26.772395999999997, -80.038739], [26.772881999999992, -80.036779], [26.77303400000002, -80.036108], [26.773113000000013, -80.035849], [26.77306258125564, -80.03362555098555], [26.76860157184081, -80.032231724777], [26.676043000000004, -80.03576300000002], [26.676349471096323, -80.04690749584547], [26.677001000000033, -80.046953], [26.690458999999993, -80.04676], [26.691891000000002, -80.046739], [26.694987000000037, -80.046694], [26.696593999999983, -80.046671], [26.70073100000001, -80.046611], [26.704606000000037, -80.046555], [26.70596700000003, -80.046442], [26.707223000000003, -80.046329], [26.70733299999998, -80.04632], [26.710377000000015, -80.046576], [26.710438, -80.046581], [26.7108, -80.046602], [26.712470000000028, -80.046732], [26.714345000000012, -80.046888], [26.716140000000014, -80.047034], [26.716894000000025, -80.047095], [26.718270999999994, -80.047053], [26.71871700000001, -80.047038], [26.722365999999983, -80.046923], [26.72377399999999, -80.04688], [26.724223999999985, -80.046903], [26.733099999999965, -80.047275], [26.735433000000004, -80.047369], [26.73650499999996, -80.047413], [26.73836, -80.047493], [26.743377999999982, -80.047703], [26.749577000000006, -80.048152], [26.752632000000016, -80.048377], [26.755388000000007, -80.048575], [26.759420999999982, -80.048866], [26.763290999999985, -80.049145], [26.769131999999974, -80.049567], [26.76916899999996, -80.049569], [26.769261000000007, -80.049576], [26.769256000000038, -80.049385], [26.769246999999996, -80.048989]],
                 {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_898db6dfc8be2fc2ab31e48c979fc2ce);
+            ).addTo(map_0ea883e33163923e7fab16c90b6b260c);
         
     
-        var popup_1930ac4d32204404f2f3f75783f34d83 = L.popup({"maxWidth": 300});
+        var popup_8507753ceede5820c3fd433ba32fe756 = L.popup({"maxWidth": 300});
 
         
             
-                var html_99731ca694fdcb1d0ae99522a0d2bd45 = $(`<div id="html_99731ca694fdcb1d0ae99522a0d2bd45" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Palm Beach - FL-CD20</h4>                              </div>         </div>`)[0];
-                popup_1930ac4d32204404f2f3f75783f34d83.setContent(html_99731ca694fdcb1d0ae99522a0d2bd45);
+                var html_9db968d4cdecc45bebcf5cf69317fadc = $(`<div id="html_9db968d4cdecc45bebcf5cf69317fadc" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Palm Beach - FL-CD20</h4>                              </div>         </div>`)[0];
+                popup_8507753ceede5820c3fd433ba32fe756.setContent(html_9db968d4cdecc45bebcf5cf69317fadc);
             
         
 
-        polygon_5bcf1c5c2029bc69bed3f4345911c82b.bindPopup(popup_1930ac4d32204404f2f3f75783f34d83)
+        polygon_ee75e2b7e29a0f6d6b739e45a231ad21.bindPopup(popup_8507753ceede5820c3fd433ba32fe756)
         ;
 
         
     
     
-            polygon_5bcf1c5c2029bc69bed3f4345911c82b.bindTooltip(
+            polygon_ee75e2b7e29a0f6d6b739e45a231ad21.bindTooltip(
                 `<div>
                       Palm Beach - FL-CD20
                  </div>`,

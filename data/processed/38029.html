@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a6e1cca13e10a0b3648aadd24c2fdbdc {
+                #map_7129600f6c5c2ea99b45ec7bf2545819 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Shelby - TN-CD09</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_a6e1cca13e10a0b3648aadd24c2fdbdc" ></div>
+            <div class="folium-map" id="map_7129600f6c5c2ea99b45ec7bf2545819" ></div>
         
 </body>
 <script>
     
     
-            var map_a6e1cca13e10a0b3648aadd24c2fdbdc = L.map(
-                "map_a6e1cca13e10a0b3648aadd24c2fdbdc",
+            var map_7129600f6c5c2ea99b45ec7bf2545819 = L.map(
+                "map_7129600f6c5c2ea99b45ec7bf2545819",
                 {
                     center: [35.239623591909904, -89.82278374005347],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_a6e1cca13e10a0b3648aadd24c2fdbdc);
+            L.control.scale().addTo(map_7129600f6c5c2ea99b45ec7bf2545819);
 
             
 
         
     
-            var tile_layer_4df8a9bab92dbcfc7c0331641354ff75 = L.tileLayer(
+            var tile_layer_0c7f6e3a09e130f7a01beb8944096759 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_4df8a9bab92dbcfc7c0331641354ff75.addTo(map_a6e1cca13e10a0b3648aadd24c2fdbdc);
+            tile_layer_0c7f6e3a09e130f7a01beb8944096759.addTo(map_7129600f6c5c2ea99b45ec7bf2545819);
         
     
-            var polygon_5fc79b7e724b211119dcffe3dcd6e643 = L.polygon(
+            var polygon_b713105d23583af8a5216c114e68dee0 = L.polygon(
                 [[35.24680700000004, -89.822198], [35.24224287260254, -89.82234073189456], [35.24024079278476, -89.82549022965583], [35.240831, -89.82548100000001], [35.241153000000004, -89.82547900000002], [35.24165099999999, -89.825478], [35.241725999999986, -89.825514], [35.24174799999999, -89.825534], [35.24180799999999, -89.825639], [35.241819999999976, -89.82570000000001], [35.241834000000054, -89.826139], [35.24594099999996, -89.826103], [35.24686600000001, -89.826094], [35.24680700000004, -89.822198]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a6e1cca13e10a0b3648aadd24c2fdbdc);
+            ).addTo(map_7129600f6c5c2ea99b45ec7bf2545819);
         
     
-        var popup_a3be559eb55d78f6081cb5ea563496fe = L.popup({"maxWidth": 300});
+        var popup_d8b445f21329e04c62307223a38532b9 = L.popup({"maxWidth": 300});
 
         
             
-                var html_6df0fa3a384bf4515e1354c68ff06b97 = $(`<div id="html_6df0fa3a384bf4515e1354c68ff06b97" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Shelby - TN-CD09</h4>                              </div>         </div>`)[0];
-                popup_a3be559eb55d78f6081cb5ea563496fe.setContent(html_6df0fa3a384bf4515e1354c68ff06b97);
+                var html_1cc67280085a32be7491d448a5c288bf = $(`<div id="html_1cc67280085a32be7491d448a5c288bf" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Shelby - TN-CD09</h4>                              </div>         </div>`)[0];
+                popup_d8b445f21329e04c62307223a38532b9.setContent(html_1cc67280085a32be7491d448a5c288bf);
             
         
 
-        polygon_5fc79b7e724b211119dcffe3dcd6e643.bindPopup(popup_a3be559eb55d78f6081cb5ea563496fe)
+        polygon_b713105d23583af8a5216c114e68dee0.bindPopup(popup_d8b445f21329e04c62307223a38532b9)
         ;
 
         
     
     
-            polygon_5fc79b7e724b211119dcffe3dcd6e643.bindTooltip(
+            polygon_b713105d23583af8a5216c114e68dee0.bindTooltip(
                 `<div>
                       Shelby - TN-CD09
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_b7d48178af3bed419d5024ebe5d039d7 = L.polygon(
+            var polygon_fdfb94086305b1205d15ab6d35b95e6a = L.polygon(
                 [[35.24114700000002, -89.822375], [35.24115400000002, -89.822988], [35.24115800000001, -89.823336], [35.239962000000034, -89.823394], [35.239956000000035, -89.823121], [35.238744999999966, -89.823236], [35.238566, -89.821681], [35.237906000000024, -89.821683], [35.237782999999986, -89.821292], [35.238815999999986, -89.821259], [35.23919800000001, -89.821248], [35.23918799999998, -89.820808], [35.23915899999998, -89.819488], [35.239156000000065, -89.819313], [35.239163999999974, -89.819049], [35.23863699999996, -89.819063], [35.23705799999998, -89.819107], [35.236680999999976, -89.819118], [35.236536999999956, -89.819156], [35.236575000000016, -89.819228], [35.236680999999976, -89.819537], [35.23682000000004, -89.819939], [35.23708200000003, -89.820695], [35.23721699999997, -89.821082], [35.23723099999999, -89.821127], [35.237276000000016, -89.821262], [35.23729199999998, -89.821308], [35.23739299999999, -89.821613], [35.237413000000004, -89.82167100000001], [35.23762500000003, -89.822264], [35.237789, -89.822758], [35.23791000000001, -89.823122], [35.238075999999964, -89.8236], [35.238405, -89.824548], [35.23857, -89.825038], [35.238575000000004, -89.825053], [35.23864799999996, -89.82526800000001], [35.23871300000002, -89.82552400000002], [35.23886599999999, -89.825509], [35.239318000000054, -89.825502], [35.23961600000004, -89.8255], [35.24024079278476, -89.82549022965583], [35.24224287260254, -89.82234073189456], [35.24114700000002, -89.822375]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a6e1cca13e10a0b3648aadd24c2fdbdc);
+            ).addTo(map_7129600f6c5c2ea99b45ec7bf2545819);
         
     
-        var popup_a4ab74d091bbb56171b863f08bde5449 = L.popup({"maxWidth": 300});
+        var popup_d0e99ef9f5aec7dcf5e498d2124c06c0 = L.popup({"maxWidth": 300});
 
         
             
-                var html_088e8e98054e46f6a5892ee2d4ac5f14 = $(`<div id="html_088e8e98054e46f6a5892ee2d4ac5f14" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Shelby - TN-CD08</h4>                              </div>         </div>`)[0];
-                popup_a4ab74d091bbb56171b863f08bde5449.setContent(html_088e8e98054e46f6a5892ee2d4ac5f14);
+                var html_7f58b82ccc5549b0954ec09c6bda480e = $(`<div id="html_7f58b82ccc5549b0954ec09c6bda480e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Shelby - TN-CD08</h4>                              </div>         </div>`)[0];
+                popup_d0e99ef9f5aec7dcf5e498d2124c06c0.setContent(html_7f58b82ccc5549b0954ec09c6bda480e);
             
         
 
-        polygon_b7d48178af3bed419d5024ebe5d039d7.bindPopup(popup_a4ab74d091bbb56171b863f08bde5449)
+        polygon_fdfb94086305b1205d15ab6d35b95e6a.bindPopup(popup_d0e99ef9f5aec7dcf5e498d2124c06c0)
         ;
 
         
     
     
-            polygon_b7d48178af3bed419d5024ebe5d039d7.bindTooltip(
+            polygon_fdfb94086305b1205d15ab6d35b95e6a.bindTooltip(
                 `<div>
                       Shelby - TN-CD08
                  </div>`,

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_96bc848fe0947b0a9b3a68ae5b168c1e {
+                #map_bf82b366cb46f9c3eeb3cdf103a8b26b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> St. Clair - IL-CD15</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_96bc848fe0947b0a9b3a68ae5b168c1e" ></div>
+            <div class="folium-map" id="map_bf82b366cb46f9c3eeb3cdf103a8b26b" ></div>
         
 </body>
 <script>
     
     
-            var map_96bc848fe0947b0a9b3a68ae5b168c1e = L.map(
-                "map_96bc848fe0947b0a9b3a68ae5b168c1e",
+            var map_bf82b366cb46f9c3eeb3cdf103a8b26b = L.map(
+                "map_bf82b366cb46f9c3eeb3cdf103a8b26b",
                 {
                     center: [38.655702683763806, -89.96949170315847],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_96bc848fe0947b0a9b3a68ae5b168c1e);
+            L.control.scale().addTo(map_bf82b366cb46f9c3eeb3cdf103a8b26b);
 
             
 
         
     
-            var tile_layer_f3442c8502cd88a4d42bcc22573dcbd5 = L.tileLayer(
+            var tile_layer_efa5cba5552b3cf1e0aa37e9397fa44d = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_f3442c8502cd88a4d42bcc22573dcbd5.addTo(map_96bc848fe0947b0a9b3a68ae5b168c1e);
+            tile_layer_efa5cba5552b3cf1e0aa37e9397fa44d.addTo(map_bf82b366cb46f9c3eeb3cdf103a8b26b);
         
     
-            var polygon_58a21178acb634b025122685f1f7ec99 = L.polygon(
+            var polygon_d8e4068085b22d7ec15049531dcbc38d = L.polygon(
                 [[38.658180000000016, -89.981159], [38.65817400000005, -89.979904], [38.658161999999976, -89.977836], [38.65816000000001, -89.976691], [38.658151, -89.975419], [38.658149999999985, -89.975177], [38.658145, -89.974262], [38.658140999999986, -89.973651], [38.65811999999999, -89.969666], [38.658119000000006, -89.969324], [38.65811599999998, -89.968784], [38.65811299999997, -89.968291], [38.658109, -89.967508], [38.65810700000003, -89.967087], [38.658106000000004, -89.966948], [38.658104000000016, -89.966563], [38.658098999999986, -89.966045], [38.658094999999996, -89.965309], [38.65808000000001, -89.963008], [38.65807499999997, -89.962179], [38.65807200000002, -89.961697], [38.658056000000016, -89.959226], [38.658043, -89.95715], [38.657916583087534, -89.95714215343102], [38.65818900000001, -89.983178], [38.658180000000016, -89.981159]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_96bc848fe0947b0a9b3a68ae5b168c1e);
+            ).addTo(map_bf82b366cb46f9c3eeb3cdf103a8b26b);
         
     
-        var popup_f32dc0b925e584433d5a27575d533d50 = L.popup({"maxWidth": 300});
+        var popup_53bc94036bd64b6914059c176a3909bf = L.popup({"maxWidth": 300});
 
         
             
-                var html_430dfdee46569400cef12d168346ddfb = $(`<div id="html_430dfdee46569400cef12d168346ddfb" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Clair - IL-CD15</h4>                              </div>         </div>`)[0];
-                popup_f32dc0b925e584433d5a27575d533d50.setContent(html_430dfdee46569400cef12d168346ddfb);
+                var html_3046758c31b442e6ac8f87746bc21160 = $(`<div id="html_3046758c31b442e6ac8f87746bc21160" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Clair - IL-CD15</h4>                              </div>         </div>`)[0];
+                popup_53bc94036bd64b6914059c176a3909bf.setContent(html_3046758c31b442e6ac8f87746bc21160);
             
         
 
-        polygon_58a21178acb634b025122685f1f7ec99.bindPopup(popup_f32dc0b925e584433d5a27575d533d50)
+        polygon_d8e4068085b22d7ec15049531dcbc38d.bindPopup(popup_53bc94036bd64b6914059c176a3909bf)
         ;
 
         
     
     
-            polygon_58a21178acb634b025122685f1f7ec99.bindTooltip(
+            polygon_d8e4068085b22d7ec15049531dcbc38d.bindTooltip(
                 `<div>
                       St. Clair - IL-CD15
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_c6224bbc578b10445f17174ee48bdc0d = L.polygon(
+            var polygon_0ee4e59531af31cdb4289678598f3aad = L.polygon(
                 [[38.65819599999998, -89.984554], [38.65819400000002, -89.984228], [38.65819400000002, -89.984157], [38.65818900000001, -89.983178], [38.657916583087534, -89.95714215343102], [38.657897999999996, -89.957141], [38.657700000000006, -89.957138], [38.654332999999994, -89.957088], [38.64683400000005, -89.956979], [38.64253999999997, -89.956917], [38.63793199999997, -89.9569], [38.63442399999996, -89.95688600000001], [38.63160255190467, -89.95692422579333], [38.65820499999997, -89.98589], [38.65819599999998, -89.98461200000001], [38.65819599999998, -89.984554]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_96bc848fe0947b0a9b3a68ae5b168c1e);
+            ).addTo(map_bf82b366cb46f9c3eeb3cdf103a8b26b);
         
     
-        var popup_fd377cfc3018715a9b01c2044a5ce1b6 = L.popup({"maxWidth": 300});
+        var popup_1cdd1696afacae1b14f6a9d691e41e5f = L.popup({"maxWidth": 300});
 
         
             
-                var html_62bd2ecfd0d338648bdf52a12bd1e1ef = $(`<div id="html_62bd2ecfd0d338648bdf52a12bd1e1ef" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Clair - IL-CD12</h4>                              </div>         </div>`)[0];
-                popup_fd377cfc3018715a9b01c2044a5ce1b6.setContent(html_62bd2ecfd0d338648bdf52a12bd1e1ef);
+                var html_87b52beb62f446e9decf9b8c1c30e53a = $(`<div id="html_87b52beb62f446e9decf9b8c1c30e53a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Clair - IL-CD12</h4>                              </div>         </div>`)[0];
+                popup_1cdd1696afacae1b14f6a9d691e41e5f.setContent(html_87b52beb62f446e9decf9b8c1c30e53a);
             
         
 
-        polygon_c6224bbc578b10445f17174ee48bdc0d.bindPopup(popup_fd377cfc3018715a9b01c2044a5ce1b6)
+        polygon_0ee4e59531af31cdb4289678598f3aad.bindPopup(popup_1cdd1696afacae1b14f6a9d691e41e5f)
         ;
 
         
     
     
-            polygon_c6224bbc578b10445f17174ee48bdc0d.bindTooltip(
+            polygon_0ee4e59531af31cdb4289678598f3aad.bindTooltip(
                 `<div>
                       St. Clair - IL-CD12
                  </div>`,

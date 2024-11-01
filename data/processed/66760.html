@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_283043c9c0cf8cf46b0c338b6c53ffc7 {
+                #map_8483c7cd014bc9b5d6105da3535acf6c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,147 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Crawford - KS-CD07</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Crawford - KS-CD02</p>
-            </div>
+        <div style="
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
+            background-color: white;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Crawford - KS-CD07</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Crawford - KS-CD02</p>
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Crawford - KS-CD07</span>
             </div>
+        
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Crawford - KS-CD02</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_283043c9c0cf8cf46b0c338b6c53ffc7" ></div>
+            <div class="folium-map" id="map_8483c7cd014bc9b5d6105da3535acf6c" ></div>
         
 </body>
 <script>
     
     
-            var map_283043c9c0cf8cf46b0c338b6c53ffc7 = L.map(
-                "map_283043c9c0cf8cf46b0c338b6c53ffc7",
+            var map_8483c7cd014bc9b5d6105da3535acf6c = L.map(
+                "map_8483c7cd014bc9b5d6105da3535acf6c",
                 {
                     center: [37.34883689717093, -94.62221979648805],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_8483c7cd014bc9b5d6105da3535acf6c);
 
             
 
         
     
-            var tile_layer_ee9e90f556e1141059a53836a444d344 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_8175f426c083b0126f31ef1ff1233e8b = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_ee9e90f556e1141059a53836a444d344.addTo(map_283043c9c0cf8cf46b0c338b6c53ffc7);
+            tile_layer_8175f426c083b0126f31ef1ff1233e8b.addTo(map_8483c7cd014bc9b5d6105da3535acf6c);
         
     
-            var polygon_4097c6c935a4aedfb5339283694a55fc = L.polygon(
+            var polygon_7057d1cb5334beac2bdc908e098dcd7b = L.polygon(
                 [[37.349440999999985, -94.617629], [37.34941600000001, -94.617629], [37.349397999999994, -94.617629], [37.345562999999984, -94.617652], [37.34497000000001, -94.617656], [37.34474499999994, -94.617657], [37.34459599999997, -94.617658], [37.344582, -94.617658], [37.344371, -94.617659], [37.344205, -94.61766], [37.34364300000003, -94.61766300000001], [37.34357000000001, -94.61766300000001], [37.342572000000025, -94.617668], [37.342488999999965, -94.617669], [37.34247499999999, -94.617669], [37.342429999999986, -94.617669], [37.342378000000004, -94.617671], [37.34236400000004, -94.617671], [37.342335999999975, -94.617672], [37.34081799999998, -94.617722], [37.339335, -94.61774700000001], [37.338418000000026, -94.617722], [37.33841800008849, -94.61775389160631], [37.35070622217209, -94.6177127256819], [37.350759000000025, -94.617622], [37.349833999999966, -94.617627], [37.349440999999985, -94.617629]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_283043c9c0cf8cf46b0c338b6c53ffc7);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8483c7cd014bc9b5d6105da3535acf6c);
         
     
-        var popup_a7e90aaa161487aed95c353e5307dfce = L.popup({"maxWidth": "100%"});
+        var popup_791b98c88127c4c1fac46c8b8bc58096 = L.popup({"maxWidth": 300});
 
         
             
-                var html_e6d4885120137ecbc4217483064c2bfd = $(`<div id="html_e6d4885120137ecbc4217483064c2bfd" style="width: 100.0%; height: 100.0%;"><b>Crawford - KS-CD07</b></div>`)[0];
-                popup_a7e90aaa161487aed95c353e5307dfce.setContent(html_e6d4885120137ecbc4217483064c2bfd);
+                var html_aa17b67447d47fba3d4102e6be8e5d46 = $(`<div id="html_aa17b67447d47fba3d4102e6be8e5d46" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Crawford - KS-CD07</h4>                              </div>         </div>`)[0];
+                popup_791b98c88127c4c1fac46c8b8bc58096.setContent(html_aa17b67447d47fba3d4102e6be8e5d46);
             
         
 
-        polygon_4097c6c935a4aedfb5339283694a55fc.bindPopup(popup_a7e90aaa161487aed95c353e5307dfce)
+        polygon_7057d1cb5334beac2bdc908e098dcd7b.bindPopup(popup_791b98c88127c4c1fac46c8b8bc58096)
         ;
 
         
     
     
-            var circle_marker_b778ce3ef7a17b197fcfadd1e987709f = L.circleMarker(
-                [37.34456567489853, -94.61766805989957],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_283043c9c0cf8cf46b0c338b6c53ffc7);
-        
-    
-        var popup_adb6e2132be872795c136678a418f91d = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_20136076772fd2fe8baf299e96bfe012 = $(`<div id="html_20136076772fd2fe8baf299e96bfe012" style="width: 100.0%; height: 100.0%;"><b>Crawford - KS-CD07</b></div>`)[0];
-                popup_adb6e2132be872795c136678a418f91d.setContent(html_20136076772fd2fe8baf299e96bfe012);
-            
-        
-
-        circle_marker_b778ce3ef7a17b197fcfadd1e987709f.bindPopup(popup_adb6e2132be872795c136678a418f91d)
-        ;
-
-        
-    
-    
-            circle_marker_b778ce3ef7a17b197fcfadd1e987709f.bindTooltip(
+            polygon_7057d1cb5334beac2bdc908e098dcd7b.bindTooltip(
                 `<div>
-                     Crawford - KS-CD07
+                      Crawford - KS-CD07
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_9187c19454eb9254e42051262876770e = L.polygon(
+            var polygon_ef0441c3df82aec846ec4a4b25cb2ad9 = L.polygon(
                 [[37.338418000000026, -94.618427], [37.33836500000003, -94.619143], [37.338359999999994, -94.619202], [37.338364000000034, -94.619905], [37.338347000000006, -94.620315], [37.338347000000006, -94.620335], [37.33836500000004, -94.621197], [37.33836900000002, -94.621402], [37.33837899999998, -94.622238], [37.338351000000074, -94.622693], [37.338387000000004, -94.623545], [37.338376, -94.623941], [37.33834000000001, -94.625209], [37.338316000000006, -94.631612], [37.339305999999986, -94.6316], [37.34118799999996, -94.631597], [37.344534, -94.631568], [37.34561200000005, -94.631558], [37.34749599999998, -94.631554], [37.34926599999999, -94.631539], [37.350181000000035, -94.63152300000002], [37.350259000000015, -94.631356], [37.350350000000056, -94.631225], [37.35042300000003, -94.631071], [37.35048799999998, -94.630828], [37.350474, -94.630616], [37.350435000000004, -94.630182], [37.35043100000002, -94.629815], [37.350475000000024, -94.629204], [37.350552000000015, -94.628761], [37.35068100000002, -94.628464], [37.350799, -94.628277], [37.35087299999996, -94.628045], [37.350920999999985, -94.627746], [37.351004, -94.627515], [37.35110400000001, -94.627361], [37.351177, -94.627196], [37.351174, -94.626796], [37.351167999999994, -94.626584], [37.351196999999964, -94.62640700000001], [37.35127999999996, -94.62622], [37.35136200000002, -94.626077], [37.351469000000044, -94.625979], [37.35167499999994, -94.62585], [37.352025, -94.62558], [37.35216000000001, -94.625483], [37.35227700000001, -94.625341], [37.35248500000003, -94.62523400000002], [37.35248500000003, -94.625204], [37.35250700000002, -94.625135], [37.35251300000003, -94.624833], [37.35252900000001, -94.624729], [37.352578999999984, -94.624585], [37.35255700000002, -94.624523], [37.35249599999997, -94.62444], [37.35246899999998, -94.62437800000001], [37.352469000000006, -94.624282], [37.35251900000001, -94.624206], [37.35262299999997, -94.624103], [37.35268299999998, -94.62402800000001], [37.352750000000015, -94.62372500000001], [37.352766, -94.623429], [37.352766, -94.623202], [37.352750000000015, -94.622995], [37.352728000000006, -94.622933], [37.352706, -94.622899], [37.35267899999997, -94.622823], [37.35258500000002, -94.622678], [37.352498, -94.622602], [37.35244899999998, -94.622574], [37.35229000000005, -94.62256000000001], [37.35204700000001, -94.62259500000002], [37.35200800000001, -94.62259500000002], [37.35195399999995, -94.622574], [37.35190999999997, -94.62250500000002], [37.35192599999998, -94.622409], [37.35197600000003, -94.622285], [37.35199899999998, -94.622182], [37.351982, -94.621975], [37.351817000000025, -94.621817], [37.35161899999995, -94.621755], [37.351504, -94.621583], [37.35149800000005, -94.621528], [37.35151500000004, -94.62142400000002], [37.35155299999999, -94.621369], [37.35161399999997, -94.621328], [37.35167400000004, -94.621308], [37.35177399999999, -94.621314], [37.351916999999965, -94.62134200000001], [37.35201600000004, -94.62134200000001], [37.35207600000004, -94.621328], [37.35214799999997, -94.621253], [37.352180000000004, -94.621198], [37.352192000000024, -94.621074], [37.352169999999994, -94.620998], [37.352021000000015, -94.620681], [37.35196699999998, -94.620419], [37.352005000000034, -94.620185], [37.351982999999954, -94.620006], [37.35196099999998, -94.619937], [37.35192299999996, -94.619882], [37.35184599999998, -94.619855], [37.35179099999997, -94.619855], [37.35172499999998, -94.61986800000001], [37.35153800000003, -94.619937], [37.351412000000046, -94.619964], [37.35134499999998, -94.619964], [37.35126799999999, -94.619937], [37.351201999999965, -94.61986800000001], [37.35115299999997, -94.619778], [37.35112, -94.619531], [37.351137000000016, -94.619441], [37.35116999999998, -94.619309], [37.351225999999976, -94.61917200000002], [37.35124800000002, -94.61913700000001], [37.35126399999998, -94.619014], [37.351362999999964, -94.618876], [37.351373999999986, -94.618828], [37.351363, -94.618738], [37.35119900000002, -94.618525], [37.35110500000001, -94.618525], [37.350835, -94.61891], [37.350796000000024, -94.618951], [37.350740999999985, -94.618972], [37.35068100000002, -94.618958], [37.350559999999994, -94.61886900000002], [37.350301999999985, -94.61871], [37.35014800000004, -94.61849], [37.350235999999995, -94.618242], [37.350429, -94.618029], [37.35063799999999, -94.61783], [37.35070622217209, -94.6177127256819], [37.33841800008849, -94.61775389160631], [37.338418000000026, -94.618427]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_283043c9c0cf8cf46b0c338b6c53ffc7);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8483c7cd014bc9b5d6105da3535acf6c);
         
     
-        var popup_f3cb1d53f121f852982a50082f278e4c = L.popup({"maxWidth": "100%"});
+        var popup_7935f816baadb5d4d132e0852c853ff8 = L.popup({"maxWidth": 300});
 
         
             
-                var html_512329e30e7ecc526a5eea34c20b4389 = $(`<div id="html_512329e30e7ecc526a5eea34c20b4389" style="width: 100.0%; height: 100.0%;"><b>Crawford - KS-CD02</b></div>`)[0];
-                popup_f3cb1d53f121f852982a50082f278e4c.setContent(html_512329e30e7ecc526a5eea34c20b4389);
+                var html_d25c66090372c9dd51f7c568d9e85599 = $(`<div id="html_d25c66090372c9dd51f7c568d9e85599" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Crawford - KS-CD02</h4>                              </div>         </div>`)[0];
+                popup_7935f816baadb5d4d132e0852c853ff8.setContent(html_d25c66090372c9dd51f7c568d9e85599);
             
         
 
-        polygon_9187c19454eb9254e42051262876770e.bindPopup(popup_f3cb1d53f121f852982a50082f278e4c)
+        polygon_ef0441c3df82aec846ec4a4b25cb2ad9.bindPopup(popup_7935f816baadb5d4d132e0852c853ff8)
         ;
 
         
     
     
-            var circle_marker_047f57e13abce7fb859f4b1222c29591 = L.circleMarker(
-                [37.34969751658404, -94.62313693744245],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_283043c9c0cf8cf46b0c338b6c53ffc7);
-        
-    
-        var popup_27cf929d46b5afb0e895d4630741a8b9 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_8baf468fa12d7ee4e064dcbd89d8f926 = $(`<div id="html_8baf468fa12d7ee4e064dcbd89d8f926" style="width: 100.0%; height: 100.0%;"><b>Crawford - KS-CD02</b></div>`)[0];
-                popup_27cf929d46b5afb0e895d4630741a8b9.setContent(html_8baf468fa12d7ee4e064dcbd89d8f926);
-            
-        
-
-        circle_marker_047f57e13abce7fb859f4b1222c29591.bindPopup(popup_27cf929d46b5afb0e895d4630741a8b9)
-        ;
-
-        
-    
-    
-            circle_marker_047f57e13abce7fb859f4b1222c29591.bindTooltip(
+            polygon_ef0441c3df82aec846ec4a4b25cb2ad9.bindTooltip(
                 `<div>
-                     Crawford - KS-CD02
+                      Crawford - KS-CD02
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2829ee60fc61548e1be79416ec3cf1a1 {
+                #map_e58b48f7df7cba982e6edbf979101cd3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Worcester - MA-CD05</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_2829ee60fc61548e1be79416ec3cf1a1" ></div>
+            <div class="folium-map" id="map_e58b48f7df7cba982e6edbf979101cd3" ></div>
         
 </body>
 <script>
     
     
-            var map_2829ee60fc61548e1be79416ec3cf1a1 = L.map(
-                "map_2829ee60fc61548e1be79416ec3cf1a1",
+            var map_e58b48f7df7cba982e6edbf979101cd3 = L.map(
+                "map_e58b48f7df7cba982e6edbf979101cd3",
                 {
                     center: [42.29426407375949, -71.50026554381988],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_2829ee60fc61548e1be79416ec3cf1a1);
+            L.control.scale().addTo(map_e58b48f7df7cba982e6edbf979101cd3);
 
             
 
         
     
-            var tile_layer_04c4e9783918a9d3afa1bdfa6ab1ef0b = L.tileLayer(
+            var tile_layer_201896018fd4c661e607462f3c0748bc = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_04c4e9783918a9d3afa1bdfa6ab1ef0b.addTo(map_2829ee60fc61548e1be79416ec3cf1a1);
+            tile_layer_201896018fd4c661e607462f3c0748bc.addTo(map_e58b48f7df7cba982e6edbf979101cd3);
         
     
-            var polygon_d4427bfb0e373fb969108ae0eac94cd5 = L.polygon(
+            var polygon_5472d849b992d81edcfe3daec9c1c175 = L.polygon(
                 [[42.29682500000006, -71.493418], [42.296661999999955, -71.493502], [42.29566800000003, -71.49401700000001], [42.294621999999954, -71.494559], [42.29341300000001, -71.495186], [42.29059499999997, -71.496648], [42.290308, -71.496796], [42.28989499999998, -71.497011], [42.28982899999999, -71.497046], [42.29660386030386, -71.49532640223586], [42.29670399999996, -71.494815], [42.29682699999995, -71.494107], [42.29687300000001, -71.493859], [42.29692199999998, -71.493601], [42.29696400000003, -71.493346], [42.29693199999999, -71.493363], [42.29682500000006, -71.493418]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2829ee60fc61548e1be79416ec3cf1a1);
+            ).addTo(map_e58b48f7df7cba982e6edbf979101cd3);
         
     
-        var popup_2e7dfd3332539fa66e57bb5d71a0ea46 = L.popup({"maxWidth": 300});
+        var popup_437f70747b7429a44b72f14c636ff26c = L.popup({"maxWidth": 300});
 
         
             
-                var html_9ac518cedbd63e9ab7d6d7ba668345a5 = $(`<div id="html_9ac518cedbd63e9ab7d6d7ba668345a5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD05</h4>                              </div>         </div>`)[0];
-                popup_2e7dfd3332539fa66e57bb5d71a0ea46.setContent(html_9ac518cedbd63e9ab7d6d7ba668345a5);
+                var html_4519aa1c87020fd0eb7a730af36e6129 = $(`<div id="html_4519aa1c87020fd0eb7a730af36e6129" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD05</h4>                              </div>         </div>`)[0];
+                popup_437f70747b7429a44b72f14c636ff26c.setContent(html_4519aa1c87020fd0eb7a730af36e6129);
             
         
 
-        polygon_d4427bfb0e373fb969108ae0eac94cd5.bindPopup(popup_2e7dfd3332539fa66e57bb5d71a0ea46)
+        polygon_5472d849b992d81edcfe3daec9c1c175.bindPopup(popup_437f70747b7429a44b72f14c636ff26c)
         ;
 
         
     
     
-            polygon_d4427bfb0e373fb969108ae0eac94cd5.bindTooltip(
+            polygon_5472d849b992d81edcfe3daec9c1c175.bindTooltip(
                 `<div>
                       Worcester - MA-CD05
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_0648e822fe981a565dcf951c8a21df3a = L.polygon(
+            var polygon_78ed7cd3b76261f9c471d4e6133ed206 = L.polygon(
                 [[42.28606199999996, -71.499015], [42.28499200000001, -71.49957500000001], [42.284643999999936, -71.500793], [42.28452400000004, -71.50121099999998], [42.28449199999999, -71.50132500000001], [42.283846999999945, -71.50367000000001], [42.28358799999998, -71.50458400000001], [42.286537000000024, -71.504891], [42.29452500000004, -71.505724], [42.29459099999999, -71.505378], [42.29469100000004, -71.505461], [42.29427799999996, -71.50759700000002], [42.294981, -71.507629], [42.29577199999996, -71.507624], [42.296331999999964, -71.50763000000002], [42.29642400000001, -71.50762100000001], [42.296479999999995, -71.50758800000001], [42.29667799999996, -71.50672700000001], [42.29773800000001, -71.50723400000001], [42.297888000000015, -71.507312], [42.297177, -71.50573200000001], [42.29701700000002, -71.50538400000002], [42.29698199999997, -71.505277], [42.29673899999999, -71.504663], [42.29668800000002, -71.504509], [42.29662100000001, -71.504302], [42.29652400000002, -71.503782], [42.29648100000001, -71.503378], [42.29645900000001, -71.503046], [42.29649599999998, -71.502583], [42.296563000000006, -71.501975], [42.296592, -71.50172], [42.296771, -71.49953800000002], [42.29688900000002, -71.49795500000002], [42.29684799999995, -71.49795300000001], [42.29674599999996, -71.497983], [42.296657999999994, -71.498038], [42.296479999999995, -71.49822], [42.29626299999999, -71.498543], [42.29587899999998, -71.499073], [42.29640600000003, -71.496332], [42.296479999999995, -71.495906], [42.296541999999995, -71.495624], [42.296573, -71.495484], [42.29660386030386, -71.49532640223586], [42.28982899999999, -71.497046], [42.28606199999996, -71.499015]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2829ee60fc61548e1be79416ec3cf1a1);
+            ).addTo(map_e58b48f7df7cba982e6edbf979101cd3);
         
     
-        var popup_a096aa7dbb86d4185c58462166ef2cc7 = L.popup({"maxWidth": 300});
+        var popup_f7bd4a525bbac8c4c6d58aa45ba93a31 = L.popup({"maxWidth": 300});
 
         
             
-                var html_6fc72d644779e2ffb8b9950dc9a17427 = $(`<div id="html_6fc72d644779e2ffb8b9950dc9a17427" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD02</h4>                              </div>         </div>`)[0];
-                popup_a096aa7dbb86d4185c58462166ef2cc7.setContent(html_6fc72d644779e2ffb8b9950dc9a17427);
+                var html_158bd04e28c19ba580d7d075d1abc5f0 = $(`<div id="html_158bd04e28c19ba580d7d075d1abc5f0" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD02</h4>                              </div>         </div>`)[0];
+                popup_f7bd4a525bbac8c4c6d58aa45ba93a31.setContent(html_158bd04e28c19ba580d7d075d1abc5f0);
             
         
 
-        polygon_0648e822fe981a565dcf951c8a21df3a.bindPopup(popup_a096aa7dbb86d4185c58462166ef2cc7)
+        polygon_78ed7cd3b76261f9c471d4e6133ed206.bindPopup(popup_f7bd4a525bbac8c4c6d58aa45ba93a31)
         ;
 
         
     
     
-            polygon_0648e822fe981a565dcf951c8a21df3a.bindTooltip(
+            polygon_78ed7cd3b76261f9c471d4e6133ed206.bindTooltip(
                 `<div>
                       Worcester - MA-CD02
                  </div>`,

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_33289f572c10134e489e9a293ce6900c {
+                #map_163e8506270dfb1c8e1de1ce0f64ae0a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Orange - NY-CD05</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_33289f572c10134e489e9a293ce6900c" ></div>
+            <div class="folium-map" id="map_163e8506270dfb1c8e1de1ce0f64ae0a" ></div>
         
 </body>
 <script>
     
     
-            var map_33289f572c10134e489e9a293ce6900c = L.map(
-                "map_33289f572c10134e489e9a293ce6900c",
+            var map_163e8506270dfb1c8e1de1ce0f64ae0a = L.map(
+                "map_163e8506270dfb1c8e1de1ce0f64ae0a",
                 {
                     center: [41.18264956965068, -74.31863175239998],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_33289f572c10134e489e9a293ce6900c);
+            L.control.scale().addTo(map_163e8506270dfb1c8e1de1ce0f64ae0a);
 
             
 
         
     
-            var tile_layer_baf8c446597c4ee87aca91fe8fbad01e = L.tileLayer(
+            var tile_layer_1f52d4295fc6485c2a5e154da60fc413 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_baf8c446597c4ee87aca91fe8fbad01e.addTo(map_33289f572c10134e489e9a293ce6900c);
+            tile_layer_1f52d4295fc6485c2a5e154da60fc413.addTo(map_163e8506270dfb1c8e1de1ce0f64ae0a);
         
     
-            var polygon_1cf208251e639482ecfd74ba35625154 = L.polygon(
+            var polygon_64ff63c04bdfd7cfed669d04d72cee23 = L.polygon(
                 [[41.18155900000002, -74.321846], [41.18199824607326, -74.32132764890041], [41.18097891932024, -74.31923154209909], [41.180611999999996, -74.31969600000001], [41.18090000000003, -74.320341], [41.18155900000002, -74.321846]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_33289f572c10134e489e9a293ce6900c);
+            ).addTo(map_163e8506270dfb1c8e1de1ce0f64ae0a);
         
     
-        var popup_16fad85c365a5b344ca1f512d0a26459 = L.popup({"maxWidth": 300});
+        var popup_18bd22973af7e55fb911fa99d6227bf3 = L.popup({"maxWidth": 300});
 
         
             
-                var html_4f3f399b0c24cc578d6f101e6ae32201 = $(`<div id="html_4f3f399b0c24cc578d6f101e6ae32201" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Orange - NY-CD05</h4>                              </div>         </div>`)[0];
-                popup_16fad85c365a5b344ca1f512d0a26459.setContent(html_4f3f399b0c24cc578d6f101e6ae32201);
+                var html_e7d31f364179771189edfd95e89bc14e = $(`<div id="html_e7d31f364179771189edfd95e89bc14e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Orange - NY-CD05</h4>                              </div>         </div>`)[0];
+                popup_18bd22973af7e55fb911fa99d6227bf3.setContent(html_e7d31f364179771189edfd95e89bc14e);
             
         
 
-        polygon_1cf208251e639482ecfd74ba35625154.bindPopup(popup_16fad85c365a5b344ca1f512d0a26459)
+        polygon_64ff63c04bdfd7cfed669d04d72cee23.bindPopup(popup_18bd22973af7e55fb911fa99d6227bf3)
         ;
 
         
     
     
-            polygon_1cf208251e639482ecfd74ba35625154.bindTooltip(
+            polygon_64ff63c04bdfd7cfed669d04d72cee23.bindTooltip(
                 `<div>
                       Orange - NY-CD05
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_37bed892fa85eaa8a7f67789b7c91f1e = L.polygon(
+            var polygon_c89ffbd84777bf70039a59a88cdf0eb6 = L.polygon(
                 [[41.18235299999999, -74.320909], [41.182507, -74.320656], [41.182591000000045, -74.32066], [41.18273499999999, -74.32065500000002], [41.18280499999998, -74.32062000000002], [41.18285799999994, -74.320551], [41.18301000000005, -74.320277], [41.18306300000002, -74.320174], [41.18312799999996, -74.320027], [41.18317799999998, -74.319879], [41.183228999999976, -74.319633], [41.18324300000006, -74.319462], [41.18326600000003, -74.318866], [41.18326600000003, -74.318454], [41.18328499999994, -74.318066], [41.18332199999997, -74.317888], [41.18335399999997, -74.317771], [41.183404999999965, -74.317648], [41.18360100000001, -74.31722100000002], [41.18363700000001, -74.317242], [41.18369700000003, -74.317255], [41.18380800000001, -74.317267], [41.183919, -74.317224], [41.184021, -74.31716200000001], [41.184289, -74.316849], [41.18439500000003, -74.31675], [41.18436299999994, -74.31664], [41.184112999999975, -74.316012], [41.18374800000003, -74.316381], [41.18339300000003, -74.316784], [41.18331300000003, -74.31659], [41.18301399999997, -74.316089], [41.182171000000004, -74.316484], [41.18182300000002, -74.316626], [41.18186399999995, -74.316799], [41.18196399999998, -74.317075], [41.18237399999998, -74.318107], [41.18204000000001, -74.318228], [41.18189800000001, -74.31828], [41.18171699999994, -74.31833499999999], [41.181688, -74.31836000000001], [41.18160199999999, -74.31843700000002], [41.18153799999997, -74.31851300000001], [41.18151700000002, -74.31854100000001], [41.18134600000001, -74.318766], [41.181338000000004, -74.318777], [41.18097891932024, -74.31923154209909], [41.18199824607326, -74.32132764890041], [41.18235299999999, -74.320909]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_33289f572c10134e489e9a293ce6900c);
+            ).addTo(map_163e8506270dfb1c8e1de1ce0f64ae0a);
         
     
-        var popup_f15ad5e2322fb8673e2f191d82ce1a4c = L.popup({"maxWidth": 300});
+        var popup_6d9233743c39c9086c9511c2f91eaac4 = L.popup({"maxWidth": 300});
 
         
             
-                var html_e77f7b7379f8e7592fc3c97a1f426bab = $(`<div id="html_e77f7b7379f8e7592fc3c97a1f426bab" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Orange - NY-CD18</h4>                              </div>         </div>`)[0];
-                popup_f15ad5e2322fb8673e2f191d82ce1a4c.setContent(html_e77f7b7379f8e7592fc3c97a1f426bab);
+                var html_02d5191472e5076078e7c8a1ed5a24a3 = $(`<div id="html_02d5191472e5076078e7c8a1ed5a24a3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Orange - NY-CD18</h4>                              </div>         </div>`)[0];
+                popup_6d9233743c39c9086c9511c2f91eaac4.setContent(html_02d5191472e5076078e7c8a1ed5a24a3);
             
         
 
-        polygon_37bed892fa85eaa8a7f67789b7c91f1e.bindPopup(popup_f15ad5e2322fb8673e2f191d82ce1a4c)
+        polygon_c89ffbd84777bf70039a59a88cdf0eb6.bindPopup(popup_6d9233743c39c9086c9511c2f91eaac4)
         ;
 
         
     
     
-            polygon_37bed892fa85eaa8a7f67789b7c91f1e.bindTooltip(
+            polygon_c89ffbd84777bf70039a59a88cdf0eb6.bindTooltip(
                 `<div>
                       Orange - NY-CD18
                  </div>`,

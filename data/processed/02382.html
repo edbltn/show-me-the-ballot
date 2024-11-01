@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_7a5bf62f4abed680ad8877f8675916eb {
+                #map_b577dd91c2ba7e97141bdd6f8ce78c08 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Plymouth - MA-CD08</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_7a5bf62f4abed680ad8877f8675916eb" ></div>
+            <div class="folium-map" id="map_b577dd91c2ba7e97141bdd6f8ce78c08" ></div>
         
 </body>
 <script>
     
     
-            var map_7a5bf62f4abed680ad8877f8675916eb = L.map(
-                "map_7a5bf62f4abed680ad8877f8675916eb",
+            var map_b577dd91c2ba7e97141bdd6f8ce78c08 = L.map(
+                "map_b577dd91c2ba7e97141bdd6f8ce78c08",
                 {
                     center: [42.07753152187514, -70.93880870529492],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_7a5bf62f4abed680ad8877f8675916eb);
+            L.control.scale().addTo(map_b577dd91c2ba7e97141bdd6f8ce78c08);
 
             
 
         
     
-            var tile_layer_948acf618bb6a3178998652102efaeea = L.tileLayer(
+            var tile_layer_1c4ad8e19bdf03d056a933d490a31235 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_948acf618bb6a3178998652102efaeea.addTo(map_7a5bf62f4abed680ad8877f8675916eb);
+            tile_layer_1c4ad8e19bdf03d056a933d490a31235.addTo(map_b577dd91c2ba7e97141bdd6f8ce78c08);
         
     
-            var polygon_af63e6d3c9bcc1976f716fc7c0e7ab03 = L.polygon(
+            var polygon_db620c97cfbde8ba2ec1e096b6440c4d = L.polygon(
                 [[42.08729699999999, -70.97639000000001], [42.08729899999998, -70.976299], [42.087292999999995, -70.97621199999999], [42.08730700000001, -70.976128], [42.08734799999998, -70.97607600000002], [42.08738999999999, -70.975999], [42.08742600000001, -70.975915], [42.08743500000001, -70.975812], [42.087422999999994, -70.97568400000002], [42.08744800000001, -70.97559699999998], [42.087464999999966, -70.975468], [42.08749599999999, -70.97538699999998], [42.087466999999954, -70.97541100000001], [42.087648000000016, -70.974676], [42.08917800000002, -70.968509], [42.08948899999997, -70.96725300000001], [42.089725999999985, -70.966297], [42.08987400000002, -70.9657], [42.090167999999935, -70.964506], [42.09037800000002, -70.963659], [42.090617999999985, -70.962711], [42.091544000000006, -70.958952], [42.093584000000035, -70.950684], [42.093710000000044, -70.950236], [42.09382600000003, -70.949701], [42.09444899999999, -70.947184], [42.094534000000024, -70.946838], [42.09455200000002, -70.946731], [42.09457399999998, -70.946611], [42.09483800000001, -70.945136], [42.09509500000001, -70.943722], [42.095332000000056, -70.94242], [42.09584100000002, -70.939604], [42.09592699999997, -70.939124], [42.09640500000002, -70.936489], [42.096903000000005, -70.93373300000002], [42.096956999999996, -70.933436], [42.097347999999975, -70.93126900000001], [42.097438999999994, -70.93076], [42.097819999999984, -70.92865500000002], [42.09814499999998, -70.92685300000001], [42.09821138586888, -70.92648788333028], [42.065378037579144, -70.91767757173106], [42.06546800000001, -70.91877], [42.06558100000001, -70.920254], [42.065943999999995, -70.925009], [42.06598600000004, -70.925564], [42.06621999999993, -70.928627], [42.066228000000024, -70.928732], [42.06624800000004, -70.929], [42.066256, -70.929088], [42.065612000000016, -70.931711], [42.06528699999999, -70.933032], [42.064915999999954, -70.9345], [42.06472900000004, -70.935238], [42.06430099999999, -70.937048], [42.063699, -70.939496], [42.06350900000001, -70.940268], [42.062937, -70.942598], [42.062473000000026, -70.94448500000001], [42.06222000000001, -70.945516], [42.061985, -70.946471], [42.061597999999975, -70.94805000000001], [42.060960999999985, -70.950646], [42.060916999999996, -70.950826], [42.060896999999954, -70.950908], [42.060893000000014, -70.950926], [42.060875, -70.951], [42.06142, -70.952382], [42.061670999999976, -70.953018], [42.06218199999999, -70.954236], [42.06277999999999, -70.95566], [42.06443099999998, -70.95975], [42.06455599999998, -70.960056], [42.064648999999996, -70.960283], [42.06562199999998, -70.962656], [42.06584000000001, -70.96315500000001], [42.06679299999996, -70.965327], [42.06726099999996, -70.966395], [42.068319000000024, -70.968782], [42.06920800000001, -70.970787], [42.07117800000001, -70.975231], [42.07384900000002, -70.975447], [42.07463199999999, -70.975509], [42.077052, -70.975707], [42.07818399999996, -70.975798], [42.07845200000002, -70.975812], [42.08137099999999, -70.97606700000001], [42.082017000000036, -70.976109], [42.082685, -70.97616599999999], [42.084710999999956, -70.976326], [42.08714599999996, -70.976522], [42.08719900000001, -70.976528], [42.08723900000001, -70.976527], [42.08727600000001, -70.976471], [42.08729699999999, -70.97639000000001]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7a5bf62f4abed680ad8877f8675916eb);
+            ).addTo(map_b577dd91c2ba7e97141bdd6f8ce78c08);
         
     
-        var popup_e217772b8edf64cbc896b23a801f5141 = L.popup({"maxWidth": 300});
+        var popup_81b906590d59df33de15233809abc8c0 = L.popup({"maxWidth": 300});
 
         
             
-                var html_c4add7cddeb4e700219cad9920539dee = $(`<div id="html_c4add7cddeb4e700219cad9920539dee" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Plymouth - MA-CD08</h4>                              </div>         </div>`)[0];
-                popup_e217772b8edf64cbc896b23a801f5141.setContent(html_c4add7cddeb4e700219cad9920539dee);
+                var html_df3387c2440e72c0650e0fb8f4c2376b = $(`<div id="html_df3387c2440e72c0650e0fb8f4c2376b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Plymouth - MA-CD08</h4>                              </div>         </div>`)[0];
+                popup_81b906590d59df33de15233809abc8c0.setContent(html_df3387c2440e72c0650e0fb8f4c2376b);
             
         
 
-        polygon_af63e6d3c9bcc1976f716fc7c0e7ab03.bindPopup(popup_e217772b8edf64cbc896b23a801f5141)
+        polygon_db620c97cfbde8ba2ec1e096b6440c4d.bindPopup(popup_81b906590d59df33de15233809abc8c0)
         ;
 
         
     
     
-            polygon_af63e6d3c9bcc1976f716fc7c0e7ab03.bindTooltip(
+            polygon_db620c97cfbde8ba2ec1e096b6440c4d.bindTooltip(
                 `<div>
                       Plymouth - MA-CD08
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_a6cf0f05cd25ab5e5baf709f9d2a5674 = L.polygon(
+            var polygon_6b60407bd192fa4711c18c7a8f9bcd2a = L.polygon(
                 [[42.098329000000014, -70.925841], [42.09883800000003, -70.923021], [42.09933899999999, -70.920252], [42.099813, -70.91762800000001], [42.09991400000002, -70.91706500000001], [42.100092999999994, -70.91606000000002], [42.10012300000001, -70.91590800000002], [42.08589700000002, -70.902412], [42.0858, -70.903038], [42.08526100000002, -70.906932], [42.08512899999999, -70.90796100000001], [42.08475699999999, -70.910612], [42.084493, -70.912594], [42.08441700000001, -70.912962], [42.08233400000004, -70.912517], [42.080413, -70.912107], [42.078987000000005, -70.911803], [42.07625100000001, -70.911227], [42.07619499999996, -70.911216], [42.07476200000001, -70.910901], [42.07349499999997, -70.910629], [42.07288200000002, -70.9105], [42.07075600000003, -70.910047], [42.070303999999986, -70.909952], [42.07026299999999, -70.909943], [42.07021599999998, -70.909933], [42.070198, -70.909929], [42.069592, -70.909799], [42.06953099999999, -70.909772], [42.06909600000006, -70.909632], [42.068416999999975, -70.909448], [42.068182, -70.909395], [42.06752500000001, -70.909259], [42.066963, -70.909141], [42.066821, -70.909112], [42.065494999999984, -70.908881], [42.06375899999998, -70.908612], [42.06347900000005, -70.908553], [42.06323799999997, -70.908528], [42.062884999999994, -70.90846], [42.06271099999999, -70.908417], [42.062584, -70.908386], [42.062472, -70.908358], [42.06222499999998, -70.908302], [42.06172700000002, -70.908188], [42.062800999999986, -70.90973], [42.06353800000003, -70.910784], [42.06383499999999, -70.911213], [42.06398500000006, -70.911422], [42.06403200000001, -70.911491], [42.06437600000001, -70.91198300000002], [42.06501900000002, -70.91289900000001], [42.06517699999999, -70.914963], [42.06533500000002, -70.91715500000001], [42.065378037579144, -70.91767757173106], [42.09821138586888, -70.92648788333028], [42.098329000000014, -70.925841]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7a5bf62f4abed680ad8877f8675916eb);
+            ).addTo(map_b577dd91c2ba7e97141bdd6f8ce78c08);
         
     
-        var popup_9bec673c7b39b0561f47de197011f826 = L.popup({"maxWidth": 300});
+        var popup_729290ff9f938be18f112b6d1f55fc11 = L.popup({"maxWidth": 300});
 
         
             
-                var html_0d5207eb6c2d7f83a38399fbc4ea3cc6 = $(`<div id="html_0d5207eb6c2d7f83a38399fbc4ea3cc6" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Plymouth - MA-CD09</h4>                              </div>         </div>`)[0];
-                popup_9bec673c7b39b0561f47de197011f826.setContent(html_0d5207eb6c2d7f83a38399fbc4ea3cc6);
+                var html_42ba1a119e22b04b7f8d567e883db109 = $(`<div id="html_42ba1a119e22b04b7f8d567e883db109" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Plymouth - MA-CD09</h4>                              </div>         </div>`)[0];
+                popup_729290ff9f938be18f112b6d1f55fc11.setContent(html_42ba1a119e22b04b7f8d567e883db109);
             
         
 
-        polygon_a6cf0f05cd25ab5e5baf709f9d2a5674.bindPopup(popup_9bec673c7b39b0561f47de197011f826)
+        polygon_6b60407bd192fa4711c18c7a8f9bcd2a.bindPopup(popup_729290ff9f938be18f112b6d1f55fc11)
         ;
 
         
     
     
-            polygon_a6cf0f05cd25ab5e5baf709f9d2a5674.bindTooltip(
+            polygon_6b60407bd192fa4711c18c7a8f9bcd2a.bindTooltip(
                 `<div>
                       Plymouth - MA-CD09
                  </div>`,

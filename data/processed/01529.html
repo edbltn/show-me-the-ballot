@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_80dc2817fb7ecd837b6d1118572f77ad {
+                #map_660ba39cea8decd8e1e14c7a89e0ffbe {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Worcester - MA-CD02</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_80dc2817fb7ecd837b6d1118572f77ad" ></div>
+            <div class="folium-map" id="map_660ba39cea8decd8e1e14c7a89e0ffbe" ></div>
         
 </body>
 <script>
     
     
-            var map_80dc2817fb7ecd837b6d1118572f77ad = L.map(
-                "map_80dc2817fb7ecd837b6d1118572f77ad",
+            var map_660ba39cea8decd8e1e14c7a89e0ffbe = L.map(
+                "map_660ba39cea8decd8e1e14c7a89e0ffbe",
                 {
                     center: [42.031880812535505, -71.57980176127604],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_80dc2817fb7ecd837b6d1118572f77ad);
+            L.control.scale().addTo(map_660ba39cea8decd8e1e14c7a89e0ffbe);
 
             
 
         
     
-            var tile_layer_77dafeccea0a93cc8e984ba57217a22b = L.tileLayer(
+            var tile_layer_549b7b0940e38c5a327ddd37c83bc254 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_77dafeccea0a93cc8e984ba57217a22b.addTo(map_80dc2817fb7ecd837b6d1118572f77ad);
+            tile_layer_549b7b0940e38c5a327ddd37c83bc254.addTo(map_660ba39cea8decd8e1e14c7a89e0ffbe);
         
     
-            var polygon_50b921eb2b2e4be5d0a562935f333c0d = L.polygon(
+            var polygon_41969614f1caa1d40af0223d92a029b0 = L.polygon(
                 [[42.013645999999994, -71.5911], [42.01415599999996, -71.591113], [42.01539700000003, -71.591142], [42.01562800000005, -71.59113700000002], [42.01608499999999, -71.591145], [42.01651299999998, -71.591152], [42.01778900000003, -71.59117400000001], [42.01852600000002, -71.591188], [42.019541, -71.591209], [42.02208399999995, -71.59123900000002], [42.022369999999995, -71.591252], [42.02559000000003, -71.591306], [42.02788399999997, -71.59134200000001], [42.02880200000001, -71.59135700000002], [42.03062899999999, -71.59139], [42.03089299999995, -71.591395], [42.031122999999965, -71.5914], [42.031887, -71.591413], [42.031987999999956, -71.59141500000001], [42.032109999999996, -71.59141000000001], [42.03374000000001, -71.59144400000001], [42.03543700000004, -71.591474], [42.036865999999996, -71.5915], [42.03850699999996, -71.591525], [42.04174599999999, -71.59158000000001], [42.04499000000002, -71.591635], [42.048098, -71.591691], [42.05102700000004, -71.59173700000001], [42.054205000000024, -71.59179100000001], [42.055821000000016, -71.59181800000002], [42.057398000000006, -71.59184500000002], [42.058634, -71.591861], [42.058705, -71.591867], [42.061442, -71.591913], [42.063508000000006, -71.591947], [42.063694999999974, -71.591951], [42.06370199999998, -71.591822], [42.063710000000064, -71.59103500000002], [42.06372399999999, -71.58975000000001], [42.063734000000004, -71.588946], [42.063741000000036, -71.588431], [42.06375299999999, -71.58750400000001], [42.06376699999994, -71.58639], [42.063781, -71.585287], [42.06380699999994, -71.583281], [42.063820323814255, -71.58225139503418], [42.013646584442434, -71.59107311706188], [42.013645999999994, -71.5911]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_80dc2817fb7ecd837b6d1118572f77ad);
+            ).addTo(map_660ba39cea8decd8e1e14c7a89e0ffbe);
         
     
-        var popup_7b882c76718c2c3d42197d35042f2f29 = L.popup({"maxWidth": 300});
+        var popup_503f5ebef4cfb0b617e012b42e19752c = L.popup({"maxWidth": 300});
 
         
             
-                var html_07d05c34c15e536cf0ce8a58ec094bc4 = $(`<div id="html_07d05c34c15e536cf0ce8a58ec094bc4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD02</h4>                              </div>         </div>`)[0];
-                popup_7b882c76718c2c3d42197d35042f2f29.setContent(html_07d05c34c15e536cf0ce8a58ec094bc4);
+                var html_301ac805c2ae8b311abab6723d7e1fa7 = $(`<div id="html_301ac805c2ae8b311abab6723d7e1fa7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD02</h4>                              </div>         </div>`)[0];
+                popup_503f5ebef4cfb0b617e012b42e19752c.setContent(html_301ac805c2ae8b311abab6723d7e1fa7);
             
         
 
-        polygon_50b921eb2b2e4be5d0a562935f333c0d.bindPopup(popup_7b882c76718c2c3d42197d35042f2f29)
+        polygon_41969614f1caa1d40af0223d92a029b0.bindPopup(popup_503f5ebef4cfb0b617e012b42e19752c)
         ;
 
         
     
     
-            polygon_50b921eb2b2e4be5d0a562935f333c0d.bindTooltip(
+            polygon_41969614f1caa1d40af0223d92a029b0.bindTooltip(
                 `<div>
                       Worcester - MA-CD02
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_5db54412aca510ca43cac50396a7799a = L.polygon(
+            var polygon_0090efbd9df6b7b81a6667a0fada0916 = L.polygon(
                 [[42.01427499999998, -71.563755], [42.014273999999965, -71.563803], [42.01427200000004, -71.563899], [42.01423499999997, -71.56548500000001], [42.01421799999996, -71.56627400000002], [42.01420800000002, -71.566681], [42.014186999999964, -71.56757800000001], [42.01412400000003, -71.570322], [42.01410900000001, -71.570986], [42.01410099999996, -71.571346], [42.01408799999998, -71.571897], [42.014073, -71.572386], [42.014070999999966, -71.573055], [42.014060999999984, -71.573399], [42.01403199999996, -71.574761], [42.014007, -71.575887], [42.01399000000003, -71.576188], [42.013980000000004, -71.576619], [42.013975000000016, -71.576816], [42.01397399999997, -71.576892], [42.013960999999995, -71.577457], [42.01393799999997, -71.57845], [42.01388899999999, -71.580471], [42.01388800000001, -71.580625], [42.01386699999998, -71.581528], [42.01383299999997, -71.583019], [42.01379599999997, -71.584608], [42.013793999999976, -71.584685], [42.01377799999997, -71.585356], [42.01374300000002, -71.586861], [42.01374100000002, -71.586988], [42.013733999999964, -71.587254], [42.01365299999995, -71.590778], [42.013646584442434, -71.59107311706188], [42.063820323814255, -71.58225139503418], [42.06384200000003, -71.58057500000001], [42.06386000000002, -71.579188], [42.06388299999995, -71.577431], [42.06391299999995, -71.57553700000001], [42.06396099999997, -71.571379], [42.06397999999999, -71.570044], [42.06400300000004, -71.56808], [42.064056000000015, -71.56391700000002], [42.063797000000044, -71.563924], [42.05218199999999, -71.56385700000001], [42.04429900000001, -71.563816], [42.035835999999954, -71.563772], [42.03433699999999, -71.563764], [42.033757999999956, -71.56376200000001], [42.033728000000025, -71.56376200000001], [42.032920999999945, -71.563759], [42.03223800000003, -71.563756], [42.02746000000001, -71.56373000000002], [42.02677100000002, -71.563726], [42.026490000000024, -71.563725], [42.02187199999997, -71.563699], [42.02096600000003, -71.563694], [42.018921999999996, -71.563683], [42.01871300000002, -71.563685], [42.01852599999999, -71.563682], [42.017532, -71.563675], [42.01723199999998, -71.56367400000002], [42.01427600000002, -71.56366500000001], [42.01427499999998, -71.563721], [42.01427499999998, -71.563755]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_80dc2817fb7ecd837b6d1118572f77ad);
+            ).addTo(map_660ba39cea8decd8e1e14c7a89e0ffbe);
         
     
-        var popup_808c800a261884bc4ebf3cbfc37b8936 = L.popup({"maxWidth": 300});
+        var popup_581737d3698d2da63cdb34be288f588b = L.popup({"maxWidth": 300});
 
         
             
-                var html_ac039daeed1abd75fc342ec393229b24 = $(`<div id="html_ac039daeed1abd75fc342ec393229b24" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD04</h4>                              </div>         </div>`)[0];
-                popup_808c800a261884bc4ebf3cbfc37b8936.setContent(html_ac039daeed1abd75fc342ec393229b24);
+                var html_2b7280728b3b14094fbb6d3b52a18c27 = $(`<div id="html_2b7280728b3b14094fbb6d3b52a18c27" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD04</h4>                              </div>         </div>`)[0];
+                popup_581737d3698d2da63cdb34be288f588b.setContent(html_2b7280728b3b14094fbb6d3b52a18c27);
             
         
 
-        polygon_5db54412aca510ca43cac50396a7799a.bindPopup(popup_808c800a261884bc4ebf3cbfc37b8936)
+        polygon_0090efbd9df6b7b81a6667a0fada0916.bindPopup(popup_581737d3698d2da63cdb34be288f588b)
         ;
 
         
     
     
-            polygon_5db54412aca510ca43cac50396a7799a.bindTooltip(
+            polygon_0090efbd9df6b7b81a6667a0fada0916.bindTooltip(
                 `<div>
                       Worcester - MA-CD04
                  </div>`,

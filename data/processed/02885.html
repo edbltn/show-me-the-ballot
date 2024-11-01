@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_dd45f0e626db1929cbc705a8672b82db {
+                #map_d28211fe7257706576b7fe73a85e9a17 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Bristol - RI-CD04</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_dd45f0e626db1929cbc705a8672b82db" ></div>
+            <div class="folium-map" id="map_d28211fe7257706576b7fe73a85e9a17" ></div>
         
 </body>
 <script>
     
     
-            var map_dd45f0e626db1929cbc705a8672b82db = L.map(
-                "map_dd45f0e626db1929cbc705a8672b82db",
+            var map_d28211fe7257706576b7fe73a85e9a17 = L.map(
+                "map_d28211fe7257706576b7fe73a85e9a17",
                 {
                     center: [41.72974870483181, -71.26416887060275],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_dd45f0e626db1929cbc705a8672b82db);
+            L.control.scale().addTo(map_d28211fe7257706576b7fe73a85e9a17);
 
             
 
         
     
-            var tile_layer_e6de00db769a84079c56e7a692007c97 = L.tileLayer(
+            var tile_layer_28aae2859511ef97a8c20be8441f2929 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_e6de00db769a84079c56e7a692007c97.addTo(map_dd45f0e626db1929cbc705a8672b82db);
+            tile_layer_28aae2859511ef97a8c20be8441f2929.addTo(map_d28211fe7257706576b7fe73a85e9a17);
         
     
-            var polygon_6d28a3159f8441c613c7bf5a6119c0e6 = L.polygon(
+            var polygon_638fa56c63ff24a5f9a672749224a4d9 = L.polygon(
                 [[41.75208200000001, -71.26106700000001], [41.74809500000001, -71.257566], [41.74677699999999, -71.256402], [41.74527499999996, -71.255084], [41.745109999999954, -71.25493800000001], [41.74477099999999, -71.25464], [41.74333800000006, -71.253381], [41.74181800000003, -71.252041], [41.738744000000004, -71.249344], [41.73717200000002, -71.24796], [41.73397300000002, -71.24515], [41.73183199999995, -71.243262], [41.72353799999999, -71.235982], [41.71794800000001, -71.231071], [41.716123000000046, -71.229468], [41.71444300000002, -71.227993], [41.71351199999996, -71.227175], [41.713114000000026, -71.226826], [41.713046999999975, -71.226767], [41.71263299999997, -71.226403], [41.71272500000001, -71.22640800000002], [41.71255299999999, -71.22625400000001], [41.71234500000002, -71.226082], [41.71224199999995, -71.22599800000002], [41.70767899999998, -71.222471], [41.69059799999998, -71.20837100000001], [41.690309248792, -71.2086005373097], [41.752174541117135, -71.26128419885497], [41.75208200000001, -71.26106700000001]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_dd45f0e626db1929cbc705a8672b82db);
+            ).addTo(map_d28211fe7257706576b7fe73a85e9a17);
         
     
-        var popup_b2d681bdf29c2ce04975e4065495820f = L.popup({"maxWidth": 300});
+        var popup_6ab30c6f7c2087fcb63d7f42afa36c1d = L.popup({"maxWidth": 300});
 
         
             
-                var html_9de958dbb3b549d95c5a293f59cd21f9 = $(`<div id="html_9de958dbb3b549d95c5a293f59cd21f9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bristol - RI-CD04</h4>                              </div>         </div>`)[0];
-                popup_b2d681bdf29c2ce04975e4065495820f.setContent(html_9de958dbb3b549d95c5a293f59cd21f9);
+                var html_5268f51ef6bf343b65dfadbd8fbb8634 = $(`<div id="html_5268f51ef6bf343b65dfadbd8fbb8634" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bristol - RI-CD04</h4>                              </div>         </div>`)[0];
+                popup_6ab30c6f7c2087fcb63d7f42afa36c1d.setContent(html_5268f51ef6bf343b65dfadbd8fbb8634);
             
         
 
-        polygon_6d28a3159f8441c613c7bf5a6119c0e6.bindPopup(popup_b2d681bdf29c2ce04975e4065495820f)
+        polygon_638fa56c63ff24a5f9a672749224a4d9.bindPopup(popup_6ab30c6f7c2087fcb63d7f42afa36c1d)
         ;
 
         
     
     
-            polygon_6d28a3159f8441c613c7bf5a6119c0e6.bindTooltip(
+            polygon_638fa56c63ff24a5f9a672749224a4d9.bindTooltip(
                 `<div>
                       Bristol - RI-CD04
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_35b551a72d4796c2f738a362f9fc82ac = L.polygon(
+            var polygon_46a7be9113370a9f80dcc1ff9c426cb5 = L.polygon(
                 [[41.76162400000001, -71.283526], [41.76157899999999, -71.283421], [41.76148799999999, -71.283207], [41.761306999999974, -71.282781], [41.760997999999965, -71.28205300000002], [41.76098300000007, -71.282018], [41.76097099999996, -71.281989], [41.76086900000001, -71.281748], [41.76019400000003, -71.28015900000001], [41.76015099999999, -71.280057], [41.75958199999998, -71.278716], [41.75911900000005, -71.277625], [41.75900300000002, -71.277352], [41.75898699999999, -71.277314], [41.75623600000001, -71.270835], [41.754238, -71.266137], [41.75414199999998, -71.265912], [41.75412800000004, -71.265878], [41.75361599999999, -71.26467], [41.75349799999997, -71.264397], [41.75327499999998, -71.263871], [41.753225000000015, -71.263755], [41.753126999999985, -71.263523], [41.75299500000002, -71.263213], [41.75292500000001, -71.26304900000001], [41.75250799999998, -71.262071], [41.752252000000006, -71.261466], [41.752174541117135, -71.26128419885497], [41.690309248792, -71.2086005373097], [41.68800900000001, -71.210429], [41.69164300000003, -71.22429], [41.696608, -71.24323], [41.69789399999999, -71.243565], [41.701208, -71.24443000000001], [41.70260799999996, -71.24643], [41.703107999999965, -71.24643], [41.70341499999997, -71.246558], [41.71220800000004, -71.25023000000002], [41.715408000000004, -71.25153000000002], [41.71480800000001, -71.25543], [41.714601, -71.255492], [41.71417899999998, -71.258099], [41.71417199999999, -71.258159], [41.71403799999998, -71.259227], [41.71400300000002, -71.259514], [41.71378399999997, -71.26107900000001], [41.71371900000001, -71.261582], [41.71360700000004, -71.262371], [41.71346499999996, -71.263379], [41.713417000000035, -71.26371799999998], [41.712886, -71.267494], [41.71252199999995, -71.270021], [41.71235899999998, -71.271172], [41.712223999999985, -71.272151], [41.71218900000001, -71.272413], [41.711898999999974, -71.274539], [41.711732, -71.275623], [41.71140299999995, -71.27818], [41.711183, -71.27967700000002], [41.711059000000034, -71.280524], [41.711034000000005, -71.28071], [41.710974, -71.281138], [41.710173999999945, -71.286889], [41.71016300000004, -71.286964], [41.70954999999998, -71.29137700000001], [41.71027999999996, -71.294039], [41.71040399999997, -71.293989], [41.711758999999965, -71.292854], [41.71600100000003, -71.289294], [41.716744999999946, -71.289113], [41.72294899999998, -71.287604], [41.723400999999946, -71.28749400000001], [41.72380299999999, -71.287478], [41.724130999999964, -71.287465], [41.72780399999996, -71.287321], [41.728500999999966, -71.287294], [41.73029099999998, -71.28825400000001], [41.732600999999946, -71.289494], [41.73380700000001, -71.28980000000001], [41.736689000000005, -71.28943100000001], [41.737427, -71.289337], [41.737777000000015, -71.289305], [41.73779699999999, -71.2893], [41.738958999999994, -71.289002], [41.73905900000004, -71.288931], [41.74240099999999, -71.286593], [41.74404799999997, -71.28641], [41.75891799999999, -71.28474800000001], [41.76200499999999, -71.28440400000001], [41.76185399999998, -71.284057], [41.76162400000001, -71.283526]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_dd45f0e626db1929cbc705a8672b82db);
+            ).addTo(map_d28211fe7257706576b7fe73a85e9a17);
         
     
-        var popup_1a6901cd9d46472dc08157af17645fc2 = L.popup({"maxWidth": 300});
+        var popup_6e0d56fcb30c83fb4cd83aefae19b995 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9054f8a3e4702297ea3ee9c5f501f042 = $(`<div id="html_9054f8a3e4702297ea3ee9c5f501f042" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bristol - RI-CD01</h4>                              </div>         </div>`)[0];
-                popup_1a6901cd9d46472dc08157af17645fc2.setContent(html_9054f8a3e4702297ea3ee9c5f501f042);
+                var html_dbc5243171ac14aa51411f12ded47ce4 = $(`<div id="html_dbc5243171ac14aa51411f12ded47ce4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bristol - RI-CD01</h4>                              </div>         </div>`)[0];
+                popup_6e0d56fcb30c83fb4cd83aefae19b995.setContent(html_dbc5243171ac14aa51411f12ded47ce4);
             
         
 
-        polygon_35b551a72d4796c2f738a362f9fc82ac.bindPopup(popup_1a6901cd9d46472dc08157af17645fc2)
+        polygon_46a7be9113370a9f80dcc1ff9c426cb5.bindPopup(popup_6e0d56fcb30c83fb4cd83aefae19b995)
         ;
 
         
     
     
-            polygon_35b551a72d4796c2f738a362f9fc82ac.bindTooltip(
+            polygon_46a7be9113370a9f80dcc1ff9c426cb5.bindTooltip(
                 `<div>
                       Bristol - RI-CD01
                  </div>`,

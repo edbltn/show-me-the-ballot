@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_03a5d2821ddcd05fa926e8ded27fcb94 {
+                #map_ebff4d2634083a27abbc1b86a614ea25 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Douglas - OR-CD02</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_03a5d2821ddcd05fa926e8ded27fcb94" ></div>
+            <div class="folium-map" id="map_ebff4d2634083a27abbc1b86a614ea25" ></div>
         
 </body>
 <script>
     
     
-            var map_03a5d2821ddcd05fa926e8ded27fcb94 = L.map(
-                "map_03a5d2821ddcd05fa926e8ded27fcb94",
+            var map_ebff4d2634083a27abbc1b86a614ea25 = L.map(
+                "map_ebff4d2634083a27abbc1b86a614ea25",
                 {
                     center: [43.103469995410784, -123.42980487045246],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_03a5d2821ddcd05fa926e8ded27fcb94);
+            L.control.scale().addTo(map_ebff4d2634083a27abbc1b86a614ea25);
 
             
 
         
     
-            var tile_layer_8665762eda6ab79a9b7bcce62d661904 = L.tileLayer(
+            var tile_layer_b94bc9249d0318d61c29ea63b88ae685 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_8665762eda6ab79a9b7bcce62d661904.addTo(map_03a5d2821ddcd05fa926e8ded27fcb94);
+            tile_layer_b94bc9249d0318d61c29ea63b88ae685.addTo(map_ebff4d2634083a27abbc1b86a614ea25);
         
     
-            var polygon_e56db93345ed1566283478c0d09bf0fb = L.polygon(
+            var polygon_6bb7f9853ec7999d5ddff135768c29e4 = L.polygon(
                 [[43.10308821752203, -123.43178381858354], [43.102688524567306, -123.42974806182976], [43.102570999999976, -123.429746], [43.10256100000002, -123.42957800000002], [43.10253100000004, -123.42907499999998], [43.10252199999995, -123.42890800000002], [43.10204100000001, -123.428931], [43.10152199999999, -123.42895700000001], [43.10097099999999, -123.428961], [43.100607000000025, -123.42888200000002], [43.10013699999997, -123.428782], [43.10012700000003, -123.428923], [43.1001, -123.429349], [43.10009099999999, -123.429491], [43.100066000000005, -123.429872], [43.100059, -123.430052], [43.100052000000005, -123.430274], [43.100129000000024, -123.430499], [43.10026600000001, -123.43066300000001], [43.10056799999997, -123.43083900000002], [43.100992999999995, -123.43105000000001], [43.10114700000001, -123.43115800000001], [43.101606999999994, -123.43148200000002], [43.10176999999998, -123.43159899999999], [43.10187100000002, -123.431673], [43.10201699999997, -123.431751], [43.10209500000003, -123.431776], [43.102201000000036, -123.431796], [43.10230800000001, -123.431799], [43.10232399999996, -123.43179799999999], [43.102526000000026, -123.431788], [43.10308821752203, -123.43178381858354]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_03a5d2821ddcd05fa926e8ded27fcb94);
+            ).addTo(map_ebff4d2634083a27abbc1b86a614ea25);
         
     
-        var popup_895e1bda02eff739e7155ee5b160d6d5 = L.popup({"maxWidth": 300});
+        var popup_666f7f504a05263e48332123f1062598 = L.popup({"maxWidth": 300});
 
         
             
-                var html_3bf3ecbc5ef57e57676d1d58584f21e5 = $(`<div id="html_3bf3ecbc5ef57e57676d1d58584f21e5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Douglas - OR-CD02</h4>                              </div>         </div>`)[0];
-                popup_895e1bda02eff739e7155ee5b160d6d5.setContent(html_3bf3ecbc5ef57e57676d1d58584f21e5);
+                var html_f58973fbd26038891deed9525375eda9 = $(`<div id="html_f58973fbd26038891deed9525375eda9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Douglas - OR-CD02</h4>                              </div>         </div>`)[0];
+                popup_666f7f504a05263e48332123f1062598.setContent(html_f58973fbd26038891deed9525375eda9);
             
         
 
-        polygon_e56db93345ed1566283478c0d09bf0fb.bindPopup(popup_895e1bda02eff739e7155ee5b160d6d5)
+        polygon_6bb7f9853ec7999d5ddff135768c29e4.bindPopup(popup_666f7f504a05263e48332123f1062598)
         ;
 
         
     
     
-            polygon_e56db93345ed1566283478c0d09bf0fb.bindTooltip(
+            polygon_6bb7f9853ec7999d5ddff135768c29e4.bindTooltip(
                 `<div>
                       Douglas - OR-CD02
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_08d566280430e591c70b6167715279c4 = L.polygon(
+            var polygon_7c4a0d363086d439df4ee63309508137 = L.polygon(
                 [[43.104004999999944, -123.43177700000001], [43.10530999999998, -123.431768], [43.106869999999994, -123.43176], [43.106868, -123.43147000000002], [43.10686400000002, -123.43138400000001], [43.106861, -123.431306], [43.10682100000001, -123.43111399999998], [43.106799000000024, -123.43088499999999], [43.10678900000001, -123.430661], [43.106788000000066, -123.430364], [43.10678800000003, -123.43026400000001], [43.106789999999975, -123.429889], [43.10679199999997, -123.42941400000001], [43.106798, -123.427991], [43.106800999999955, -123.42751699999998], [43.106799000000024, -123.425638], [43.106798, -123.424584], [43.10676000000003, -123.424405], [43.10577299999999, -123.425782], [43.10478399999998, -123.42715299999999], [43.10460399999999, -123.427341], [43.104538999999974, -123.427401], [43.10445200000003, -123.427481], [43.104251999999995, -123.427625], [43.104250000000015, -123.428042], [43.104248000000005, -123.42929300000002], [43.104247, -123.42971100000001], [43.103910999999954, -123.42971999999999], [43.10290600000002, -123.429749], [43.102855999999996, -123.429751], [43.102688524567306, -123.42974806182976], [43.10308821752203, -123.43178381858354], [43.104004999999944, -123.43177700000001]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_03a5d2821ddcd05fa926e8ded27fcb94);
+            ).addTo(map_ebff4d2634083a27abbc1b86a614ea25);
         
     
-        var popup_93a7f1deb5cb9eba1268b6bc4a3638ac = L.popup({"maxWidth": 300});
+        var popup_c9e396fcffbd1fa815db6c2d252d6567 = L.popup({"maxWidth": 300});
 
         
             
-                var html_3ea7398084df3b5cbf780177ebf17b41 = $(`<div id="html_3ea7398084df3b5cbf780177ebf17b41" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Douglas - OR-CD04</h4>                              </div>         </div>`)[0];
-                popup_93a7f1deb5cb9eba1268b6bc4a3638ac.setContent(html_3ea7398084df3b5cbf780177ebf17b41);
+                var html_8cae0fc167d56742fc302ac800c033c6 = $(`<div id="html_8cae0fc167d56742fc302ac800c033c6" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Douglas - OR-CD04</h4>                              </div>         </div>`)[0];
+                popup_c9e396fcffbd1fa815db6c2d252d6567.setContent(html_8cae0fc167d56742fc302ac800c033c6);
             
         
 
-        polygon_08d566280430e591c70b6167715279c4.bindPopup(popup_93a7f1deb5cb9eba1268b6bc4a3638ac)
+        polygon_7c4a0d363086d439df4ee63309508137.bindPopup(popup_c9e396fcffbd1fa815db6c2d252d6567)
         ;
 
         
     
     
-            polygon_08d566280430e591c70b6167715279c4.bindTooltip(
+            polygon_7c4a0d363086d439df4ee63309508137.bindTooltip(
                 `<div>
                       Douglas - OR-CD04
                  </div>`,

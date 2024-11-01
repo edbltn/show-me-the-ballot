@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_1fb57158d5cbceaf18e841f634534a38 {
+                #map_f2a07d20a7675e91f4f609fa9bc47a68 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Los Angeles - CA-CD36</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -81,7 +95,14 @@
                 <span> Los Angeles - CA-CD36</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -94,7 +115,14 @@
                 <span> Los Angeles - CA-CD37</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -108,14 +136,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_1fb57158d5cbceaf18e841f634534a38" ></div>
+            <div class="folium-map" id="map_f2a07d20a7675e91f4f609fa9bc47a68" ></div>
         
 </body>
 <script>
     
     
-            var map_1fb57158d5cbceaf18e841f634534a38 = L.map(
-                "map_1fb57158d5cbceaf18e841f634534a38",
+            var map_f2a07d20a7675e91f4f609fa9bc47a68 = L.map(
+                "map_f2a07d20a7675e91f4f609fa9bc47a68",
                 {
                     center: [34.0650783563818, -118.38225556702842],
                     crs: L.CRS.EPSG3857,
@@ -124,43 +152,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_1fb57158d5cbceaf18e841f634534a38);
+            L.control.scale().addTo(map_f2a07d20a7675e91f4f609fa9bc47a68);
 
             
 
         
     
-            var tile_layer_d53630572001c214fc0d00b8c6a770ae = L.tileLayer(
+            var tile_layer_59bd704b08a061254682da4f5aecb2d6 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_d53630572001c214fc0d00b8c6a770ae.addTo(map_1fb57158d5cbceaf18e841f634534a38);
+            tile_layer_59bd704b08a061254682da4f5aecb2d6.addTo(map_f2a07d20a7675e91f4f609fa9bc47a68);
         
     
-            var polygon_8ece904ab41fb9e52777d559f10e435a = L.polygon(
+            var polygon_f95b819222ad33f28a7399ef37739aef = L.polygon(
                 [[34.06148700000005, -118.39026700000001], [34.062212000000045, -118.390226], [34.06248299999997, -118.39021099999998], [34.06327300000004, -118.39019299999998], [34.06442500000002, -118.39020400000001], [34.06498500000001, -118.39021300000002], [34.06554600000001, -118.39022200000001], [34.06644499999998, -118.390229], [34.06645099999999, -118.389668], [34.06676800000002, -118.389675], [34.067023, -118.389669], [34.067049999999966, -118.38967200000002], [34.06760699999998, -118.389689], [34.06761499999999, -118.39029], [34.06880399999998, -118.39029600000002], [34.06926199999999, -118.39029400000001], [34.06998900000002, -118.39029099999999], [34.07080799999998, -118.39028899999998], [34.07117299999995, -118.39028899999998], [34.07208200000001, -118.39029499999998], [34.07207799999996, -118.389701], [34.07207499999997, -118.38929700000001], [34.07208000000003, -118.38868799999999], [34.07208799999996, -118.38770200000002], [34.07208699999999, -118.38738500000001], [34.07208299999998, -118.386744], [34.072078999999995, -118.38594600000002], [34.072081999999995, -118.385717], [34.07207399999997, -118.38472200000001], [34.07211161767659, -118.38398971813605], [34.07174808699698, -118.3837622965224], [34.071683000000014, -118.383762], [34.071666, -118.383762], [34.07081700000003, -118.383759], [34.069766000000044, -118.38375500000001], [34.06968399999996, -118.383728], [34.06968799999999, -118.382669], [34.069688756344945, -118.38247404457013], [34.062951188369716, -118.37825979741476], [34.06295099999999, -118.378319], [34.062948000000006, -118.37931], [34.06294700000006, -118.37991500000001], [34.06294600000003, -118.38024400000002], [34.06294600000004, -118.3803], [34.062943999999966, -118.38086100000001], [34.062943999999966, -118.38110400000001], [34.062943999999966, -118.381193], [34.062943, -118.38126000000001], [34.062943, -118.38131], [34.06294000000002, -118.382264], [34.06294000000002, -118.382354], [34.062938999999986, -118.38271500000002], [34.062937000000026, -118.383435], [34.062937000000026, -118.383534], [34.062195, -118.38355100000001], [34.06092599999999, -118.383579], [34.05951605850143, -118.38361153717726], [34.05944071725562, -118.39026015624067], [34.06148700000005, -118.39026700000001]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_1fb57158d5cbceaf18e841f634534a38);
+            ).addTo(map_f2a07d20a7675e91f4f609fa9bc47a68);
         
     
-        var popup_cc997b08646258cee14fb54c813bee59 = L.popup({"maxWidth": 300});
+        var popup_7d9224f0d34bc4b961d0bd26d45b2cc7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_268d5e3013a5fa5a0a992ef9ed75a0a3 = $(`<div id="html_268d5e3013a5fa5a0a992ef9ed75a0a3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD36</h4>                              </div>         </div>`)[0];
-                popup_cc997b08646258cee14fb54c813bee59.setContent(html_268d5e3013a5fa5a0a992ef9ed75a0a3);
+                var html_20ae56fa5c137177848bb8ac26446c02 = $(`<div id="html_20ae56fa5c137177848bb8ac26446c02" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD36</h4>                              </div>         </div>`)[0];
+                popup_7d9224f0d34bc4b961d0bd26d45b2cc7.setContent(html_20ae56fa5c137177848bb8ac26446c02);
             
         
 
-        polygon_8ece904ab41fb9e52777d559f10e435a.bindPopup(popup_cc997b08646258cee14fb54c813bee59)
+        polygon_f95b819222ad33f28a7399ef37739aef.bindPopup(popup_7d9224f0d34bc4b961d0bd26d45b2cc7)
         ;
 
         
     
     
-            polygon_8ece904ab41fb9e52777d559f10e435a.bindTooltip(
+            polygon_f95b819222ad33f28a7399ef37739aef.bindTooltip(
                 `<div>
                       Los Angeles - CA-CD36
                  </div>`,
@@ -168,28 +196,28 @@
             );
         
     
-            var polygon_77b6e36fb17385dbb17b10a577176a96 = L.polygon(
+            var polygon_3254c638a2e758fd227d7f1f5b250830 = L.polygon(
                 [[34.060942999999995, -118.377294], [34.061420587170964, -118.37730254937004], [34.05959999999999, -118.37616400000002], [34.05958757349273, -118.37726919977459], [34.060942999999995, -118.377294]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_1fb57158d5cbceaf18e841f634534a38);
+            ).addTo(map_f2a07d20a7675e91f4f609fa9bc47a68);
         
     
-        var popup_3969bd46405cde0a67983ef4ea2986d3 = L.popup({"maxWidth": 300});
+        var popup_9ad04b6c011d071cf0ce63b392791d75 = L.popup({"maxWidth": 300});
 
         
             
-                var html_38016b68c7400ed1498702f9897487f4 = $(`<div id="html_38016b68c7400ed1498702f9897487f4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD36</h4>                              </div>         </div>`)[0];
-                popup_3969bd46405cde0a67983ef4ea2986d3.setContent(html_38016b68c7400ed1498702f9897487f4);
+                var html_299346d9fe7f1d125de49cfeb435d1f9 = $(`<div id="html_299346d9fe7f1d125de49cfeb435d1f9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD36</h4>                              </div>         </div>`)[0];
+                popup_9ad04b6c011d071cf0ce63b392791d75.setContent(html_299346d9fe7f1d125de49cfeb435d1f9);
             
         
 
-        polygon_77b6e36fb17385dbb17b10a577176a96.bindPopup(popup_3969bd46405cde0a67983ef4ea2986d3)
+        polygon_3254c638a2e758fd227d7f1f5b250830.bindPopup(popup_9ad04b6c011d071cf0ce63b392791d75)
         ;
 
         
     
     
-            polygon_77b6e36fb17385dbb17b10a577176a96.bindTooltip(
+            polygon_3254c638a2e758fd227d7f1f5b250830.bindTooltip(
                 `<div>
                       Los Angeles - CA-CD36
                  </div>`,
@@ -197,28 +225,28 @@
             );
         
     
-            var polygon_c696b9503f2eee932827753658f7aad4 = L.polygon(
+            var polygon_1f59a079ae30b25594e5fbd8f80200d3 = L.polygon(
                 [[34.05913999999997, -118.389779], [34.059319000000045, -118.38977499999999], [34.05937799999999, -118.389773], [34.05939399999995, -118.39026], [34.05944071725562, -118.39026015624067], [34.05951605850143, -118.38361153717726], [34.059365999999976, -118.383615], [34.057099000000015, -118.383666], [34.05709900000001, -118.38413299999999], [34.05709900000001, -118.38471500000001], [34.057097999999996, -118.38519300000002], [34.05709599999996, -118.385723], [34.057094000000056, -118.38624399999999], [34.05709299999998, -118.38676], [34.05709200000002, -118.38726400000002], [34.05709200000002, -118.387282], [34.05709099999998, -118.387783], [34.05708999999998, -118.38826700000001], [34.05708800000002, -118.388806], [34.057086999999946, -118.389321], [34.05708500000002, -118.38985299999999], [34.05708500000002, -118.390298], [34.05858600000001, -118.390284], [34.05859100000002, -118.389796], [34.05913999999997, -118.389779]],
                 {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_1fb57158d5cbceaf18e841f634534a38);
+            ).addTo(map_f2a07d20a7675e91f4f609fa9bc47a68);
         
     
-        var popup_06a0e7cec853ea86fffe10424b932a8a = L.popup({"maxWidth": 300});
+        var popup_8e1ed7db12b16b1998854f62f4d9fcde = L.popup({"maxWidth": 300});
 
         
             
-                var html_5ebada8110222b64e74127139c8cb9f5 = $(`<div id="html_5ebada8110222b64e74127139c8cb9f5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD37</h4>                              </div>         </div>`)[0];
-                popup_06a0e7cec853ea86fffe10424b932a8a.setContent(html_5ebada8110222b64e74127139c8cb9f5);
+                var html_d1981d9e47e8b35200945c17c86bb039 = $(`<div id="html_d1981d9e47e8b35200945c17c86bb039" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD37</h4>                              </div>         </div>`)[0];
+                popup_8e1ed7db12b16b1998854f62f4d9fcde.setContent(html_d1981d9e47e8b35200945c17c86bb039);
             
         
 
-        polygon_c696b9503f2eee932827753658f7aad4.bindPopup(popup_06a0e7cec853ea86fffe10424b932a8a)
+        polygon_1f59a079ae30b25594e5fbd8f80200d3.bindPopup(popup_8e1ed7db12b16b1998854f62f4d9fcde)
         ;
 
         
     
     
-            polygon_c696b9503f2eee932827753658f7aad4.bindTooltip(
+            polygon_1f59a079ae30b25594e5fbd8f80200d3.bindTooltip(
                 `<div>
                       Los Angeles - CA-CD37
                  </div>`,
@@ -226,28 +254,28 @@
             );
         
     
-            var polygon_d1a5511d20b7674e07474de30ddbbdad = L.polygon(
+            var polygon_2d47e3cf83db3656846818129ccd6994 = L.polygon(
                 [[34.06969200000001, -118.381637], [34.06969599999999, -118.38057299999998], [34.06970000000002, -118.379513], [34.069705000000006, -118.37846199999998], [34.06970900000002, -118.377403], [34.069431000000016, -118.37737800000001], [34.069324000000016, -118.37737499999999], [34.069336000000014, -118.376317], [34.069334999999974, -118.37625400000002], [34.06933600000001, -118.37618200000001], [34.069402000000004, -118.37618200000001], [34.069579000000026, -118.37618900000001], [34.06957599999995, -118.376174], [34.069578000000014, -118.37604100000001], [34.069785, -118.37603599999998], [34.06980700000001, -118.37603500000002], [34.069914000000004, -118.37596600000002], [34.07004200000001, -118.375887], [34.07008799999998, -118.37577799999998], [34.070097, -118.375755], [34.06995199999999, -118.375676], [34.06975700000003, -118.375575], [34.06957499999997, -118.375517], [34.06946000000001, -118.37548099999998], [34.06934300000002, -118.375415], [34.069088, -118.375268], [34.06885900000004, -118.375136], [34.068752999999994, -118.375076], [34.06873500000002, -118.375064], [34.06784300000004, -118.374509], [34.06754899999999, -118.374326], [34.06717800000001, -118.374095], [34.065996000000005, -118.373359], [34.065843000000044, -118.373272], [34.065395, -118.37301700000002], [34.06491999999995, -118.37269499999998], [34.06424499999999, -118.37225800000002], [34.06386699999999, -118.37202700000002], [34.06384300000001, -118.37203], [34.06228700000003, -118.372229], [34.0622, -118.37224400000001], [34.061828999999996, -118.37286800000001], [34.059965, -118.376001], [34.059611000000004, -118.376006], [34.05959999999999, -118.37616400000002], [34.061420587170964, -118.37730254937004], [34.062954, -118.37732999999999], [34.062954, -118.37737499999999], [34.062951188369716, -118.37825979741476], [34.069688756344945, -118.38247404457013], [34.06969200000001, -118.381637]],
                 {"bubblingMouseEvents": true, "color": "#e15759", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e15759", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_1fb57158d5cbceaf18e841f634534a38);
+            ).addTo(map_f2a07d20a7675e91f4f609fa9bc47a68);
         
     
-        var popup_b740814e8a402b1f7253423dd64897e6 = L.popup({"maxWidth": 300});
+        var popup_efb24ef95b45f252b9904eb301459522 = L.popup({"maxWidth": 300});
 
         
             
-                var html_14da5edf6b78bdbfb134ffef7dcf2d01 = $(`<div id="html_14da5edf6b78bdbfb134ffef7dcf2d01" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD30</h4>                              </div>         </div>`)[0];
-                popup_b740814e8a402b1f7253423dd64897e6.setContent(html_14da5edf6b78bdbfb134ffef7dcf2d01);
+                var html_949651fcb34723a33d8cf9182d14bda7 = $(`<div id="html_949651fcb34723a33d8cf9182d14bda7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Los Angeles - CA-CD30</h4>                              </div>         </div>`)[0];
+                popup_efb24ef95b45f252b9904eb301459522.setContent(html_949651fcb34723a33d8cf9182d14bda7);
             
         
 
-        polygon_d1a5511d20b7674e07474de30ddbbdad.bindPopup(popup_b740814e8a402b1f7253423dd64897e6)
+        polygon_2d47e3cf83db3656846818129ccd6994.bindPopup(popup_efb24ef95b45f252b9904eb301459522)
         ;
 
         
     
     
-            polygon_d1a5511d20b7674e07474de30ddbbdad.bindTooltip(
+            polygon_2d47e3cf83db3656846818129ccd6994.bindTooltip(
                 `<div>
                       Los Angeles - CA-CD30
                  </div>`,

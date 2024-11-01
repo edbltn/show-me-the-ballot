@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e230dc272c62f84b5fe7479004a8ea66 {
+                #map_32a0c72dd030d07570ab7767e432dcaf {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Boone - IA-CD03</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_e230dc272c62f84b5fe7479004a8ea66" ></div>
+            <div class="folium-map" id="map_32a0c72dd030d07570ab7767e432dcaf" ></div>
         
 </body>
 <script>
     
     
-            var map_e230dc272c62f84b5fe7479004a8ea66 = L.map(
-                "map_e230dc272c62f84b5fe7479004a8ea66",
+            var map_32a0c72dd030d07570ab7767e432dcaf = L.map(
+                "map_32a0c72dd030d07570ab7767e432dcaf",
                 {
                     center: [42.10977091748263, -94.15303135265484],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_e230dc272c62f84b5fe7479004a8ea66);
+            L.control.scale().addTo(map_32a0c72dd030d07570ab7767e432dcaf);
 
             
 
         
     
-            var tile_layer_b91564062c312bb9976044a4e7fc2b18 = L.tileLayer(
+            var tile_layer_2ec1f6de3fc98369d4ff7ec779c6301e = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_b91564062c312bb9976044a4e7fc2b18.addTo(map_e230dc272c62f84b5fe7479004a8ea66);
+            tile_layer_2ec1f6de3fc98369d4ff7ec779c6301e.addTo(map_32a0c72dd030d07570ab7767e432dcaf);
         
     
-            var polygon_dda3e55a873e18f9d0a2522fb60c8e88 = L.polygon(
+            var polygon_268ebe76ad852b04d7f7880111866d2f = L.polygon(
                 [[42.094516, -94.164732], [42.096453999999945, -94.164737], [42.09810499999998, -94.164736], [42.09951499999994, -94.164756], [42.10128599999996, -94.164758], [42.10244800000002, -94.164756], [42.103172000000015, -94.164756], [42.10562399999999, -94.164783], [42.10696800000001, -94.164787], [42.106984000000004, -94.164787], [42.115885999999996, -94.164777], [42.12280700000005, -94.164765], [42.12280700000004, -94.164752], [42.12280727219591, -94.16459780156583], [42.09250763340227, -94.16456092299018], [42.092506000000036, -94.164717], [42.092522999999964, -94.164717], [42.094516, -94.164732]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_e230dc272c62f84b5fe7479004a8ea66);
+            ).addTo(map_32a0c72dd030d07570ab7767e432dcaf);
         
     
-        var popup_916c1fe42e7044dbd6100a688e4f3109 = L.popup({"maxWidth": 300});
+        var popup_1a3fc80b4b6f999eb34dca27cdfa7351 = L.popup({"maxWidth": 300});
 
         
             
-                var html_ac4c14adc690883a402fa37850d1fe68 = $(`<div id="html_ac4c14adc690883a402fa37850d1fe68" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Boone - IA-CD03</h4>                              </div>         </div>`)[0];
-                popup_916c1fe42e7044dbd6100a688e4f3109.setContent(html_ac4c14adc690883a402fa37850d1fe68);
+                var html_31b257f2e3fb93789d8e6dd6404db547 = $(`<div id="html_31b257f2e3fb93789d8e6dd6404db547" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Boone - IA-CD03</h4>                              </div>         </div>`)[0];
+                popup_1a3fc80b4b6f999eb34dca27cdfa7351.setContent(html_31b257f2e3fb93789d8e6dd6404db547);
             
         
 
-        polygon_dda3e55a873e18f9d0a2522fb60c8e88.bindPopup(popup_916c1fe42e7044dbd6100a688e4f3109)
+        polygon_268ebe76ad852b04d7f7880111866d2f.bindPopup(popup_1a3fc80b4b6f999eb34dca27cdfa7351)
         ;
 
         
     
     
-            polygon_dda3e55a873e18f9d0a2522fb60c8e88.bindTooltip(
+            polygon_268ebe76ad852b04d7f7880111866d2f.bindTooltip(
                 `<div>
                       Boone - IA-CD03
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_49e85eca9a9a2713363e94fd76bc4acb = L.polygon(
+            var polygon_591bbf580f75494b6fd79b6766755e61 = L.polygon(
                 [[42.122824000000044, -94.154913], [42.122824000000044, -94.153186], [42.122536999999994, -94.152897], [42.122010000000024, -94.15252900000002], [42.121919000000005, -94.152314], [42.121689999999994, -94.151976], [42.12143800000002, -94.151853], [42.12127800000002, -94.150563], [42.120912, -94.149918], [42.12084299999998, -94.149365], [42.120750999999935, -94.149211], [42.12059100000002, -94.149211], [42.12052200000002, -94.149088], [42.12043100000003, -94.149088], [42.12011099999997, -94.148904], [42.12004199999998, -94.148443], [42.119836, -94.148136], [42.119218000000004, -94.148137], [42.118120999999995, -94.148567], [42.117892000000005, -94.148598], [42.11770899999999, -94.14841400000002], [42.117343, -94.148445], [42.11720600000002, -94.148875], [42.11704599999997, -94.148937], [42.116862999999995, -94.148845], [42.116679, -94.148507], [42.11613000000007, -94.148507], [42.11608399999999, -94.147923], [42.11551199999996, -94.147002], [42.11542100000001, -94.146173], [42.114963000000024, -94.145497], [42.115055000000034, -94.144572], [42.11387799999999, -94.144563], [42.11161899999994, -94.144571], [42.110153999999966, -94.144565], [42.10828699999996, -94.144574], [42.10721600000002, -94.144568], [42.106959999999994, -94.144566], [42.106170999999954, -94.144595], [42.105697000000006, -94.144602], [42.105176000000036, -94.144629], [42.10384400000003, -94.144638], [42.10063299999999, -94.144713], [42.09999000000002, -94.144718], [42.09739100000003, -94.144739], [42.092733000000024, -94.14475], [42.092720000000035, -94.146531], [42.09274700000002, -94.149855], [42.092746, -94.150709], [42.092743999999996, -94.151324], [42.09275800000001, -94.152677], [42.09275999999997, -94.153123], [42.09270999999998, -94.156421], [42.092513000000025, -94.164048], [42.09250763340227, -94.16456092299018], [42.12280727219591, -94.16459780156583], [42.122824000000044, -94.154913]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_e230dc272c62f84b5fe7479004a8ea66);
+            ).addTo(map_32a0c72dd030d07570ab7767e432dcaf);
         
     
-        var popup_0c510b000d21ce0b0eec299318154805 = L.popup({"maxWidth": 300});
+        var popup_ce5632b3d0fa4d054ef844e61deeff0a = L.popup({"maxWidth": 300});
 
         
             
-                var html_78c9aa7cf573ea4ce69f5f37d35de0be = $(`<div id="html_78c9aa7cf573ea4ce69f5f37d35de0be" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Boone - IA-CD04</h4>                              </div>         </div>`)[0];
-                popup_0c510b000d21ce0b0eec299318154805.setContent(html_78c9aa7cf573ea4ce69f5f37d35de0be);
+                var html_961e0219815368932450183caa42ccc3 = $(`<div id="html_961e0219815368932450183caa42ccc3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Boone - IA-CD04</h4>                              </div>         </div>`)[0];
+                popup_ce5632b3d0fa4d054ef844e61deeff0a.setContent(html_961e0219815368932450183caa42ccc3);
             
         
 
-        polygon_49e85eca9a9a2713363e94fd76bc4acb.bindPopup(popup_0c510b000d21ce0b0eec299318154805)
+        polygon_591bbf580f75494b6fd79b6766755e61.bindPopup(popup_ce5632b3d0fa4d054ef844e61deeff0a)
         ;
 
         
     
     
-            polygon_49e85eca9a9a2713363e94fd76bc4acb.bindTooltip(
+            polygon_591bbf580f75494b6fd79b6766755e61.bindTooltip(
                 `<div>
                       Boone - IA-CD04
                  </div>`,

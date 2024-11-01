@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_7e82035369f1fcfad47513f28b18c43f {
+                #map_0fdeb53529008d37af4b974ec6b558b2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Madison - LA-CD05</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -80,61 +94,81 @@
                 "></span>
                 <span> Madison - LA-CD02</span>
             </div>
+        
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Madison - LA-CD02</span>
+            </div>
         </div>
     
-            <div class="folium-map" id="map_7e82035369f1fcfad47513f28b18c43f" ></div>
+            <div class="folium-map" id="map_0fdeb53529008d37af4b974ec6b558b2" ></div>
         
 </body>
 <script>
     
     
-            var map_7e82035369f1fcfad47513f28b18c43f = L.map(
-                "map_7e82035369f1fcfad47513f28b18c43f",
+            var map_0fdeb53529008d37af4b974ec6b558b2 = L.map(
+                "map_0fdeb53529008d37af4b974ec6b558b2",
                 {
-                    center: [32.324765342657315, -90.9305442251863],
+                    center: [32.32446029972352, -90.93052064556257],
                     crs: L.CRS.EPSG3857,
                     zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_7e82035369f1fcfad47513f28b18c43f);
+            L.control.scale().addTo(map_0fdeb53529008d37af4b974ec6b558b2);
 
             
 
         
     
-            var tile_layer_eb9eb041f62389c88c417952ccfda430 = L.tileLayer(
+            var tile_layer_3bf834ca641236312f29ae87134db97d = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_eb9eb041f62389c88c417952ccfda430.addTo(map_7e82035369f1fcfad47513f28b18c43f);
+            tile_layer_3bf834ca641236312f29ae87134db97d.addTo(map_0fdeb53529008d37af4b974ec6b558b2);
         
     
-            var polygon_94c18740b91cb4a11739fcc30a6c0159 = L.polygon(
+            var polygon_a2ee798f0634be8e0fc6d0dc772640d1 = L.polygon(
                 [[32.32916399999999, -90.939178], [32.32920600000003, -90.938919], [32.32930300000001, -90.938583], [32.32960300000001, -90.937633], [32.32983099999998, -90.9368], [32.330046999999986, -90.935969], [32.33015599999999, -90.93549200000001], [32.33020699999999, -90.935162], [32.33026100000003, -90.934747], [32.33028300000005, -90.934414], [32.330447000000014, -90.932628], [32.330655, -90.930658], [32.330761, -90.929539], [32.33086399999998, -90.928331], [32.33091099999999, -90.927835], [32.33092799999998, -90.927672], [32.33093299999996, -90.927517], [32.330882999999965, -90.926561], [32.3308360625471, -90.9262875929187], [32.321685146346134, -90.93045394382044], [32.32167099999998, -90.932439], [32.321593000000036, -90.932554], [32.32152100000001, -90.932654], [32.32158199999998, -90.930768], [32.32157827335708, -90.93050259594155], [32.32034700116065, -90.93106310107353], [32.31959700000004, -90.932161], [32.31891099999999, -90.933272], [32.31878599999999, -90.933581], [32.31846899999998, -90.934464], [32.318175999999994, -90.935389], [32.317964000000025, -90.936056], [32.317653, -90.936939], [32.317558000000005, -90.93715], [32.31732100000003, -90.937514], [32.317171999999985, -90.937761], [32.316978000000006, -90.938086], [32.31666799999999, -90.938522], [32.31606000000002, -90.939256], [32.32071999999997, -90.941061], [32.320797000000006, -90.941105], [32.320862000000034, -90.940605], [32.321064, -90.93924], [32.321079999999974, -90.938431], [32.32126600000003, -90.938156], [32.32140699999998, -90.93787300000001], [32.321728000000036, -90.934783], [32.32173799999999, -90.934599], [32.322575, -90.935397], [32.32271900000002, -90.935535], [32.322826000000035, -90.935395], [32.32288700000001, -90.935288], [32.32349599999999, -90.935139], [32.325411999999965, -90.936448], [32.32836700000002, -90.938433], [32.32833199999996, -90.940884], [32.329076000000036, -90.941593], [32.329129999999985, -90.939656], [32.32916399999999, -90.939178]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7e82035369f1fcfad47513f28b18c43f);
+            ).addTo(map_0fdeb53529008d37af4b974ec6b558b2);
         
     
-        var popup_35a434b1bf10f0b53bd702c280a70fed = L.popup({"maxWidth": 300});
+        var popup_af4601200b6247fe33814e521e6c630b = L.popup({"maxWidth": 300});
 
         
             
-                var html_04058e7029621683e8e1b2b9d18923cc = $(`<div id="html_04058e7029621683e8e1b2b9d18923cc" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Madison - LA-CD05</h4>                              </div>         </div>`)[0];
-                popup_35a434b1bf10f0b53bd702c280a70fed.setContent(html_04058e7029621683e8e1b2b9d18923cc);
+                var html_e3d83be4f8f5bf4118c64241bf03046a = $(`<div id="html_e3d83be4f8f5bf4118c64241bf03046a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Madison - LA-CD05</h4>                              </div>         </div>`)[0];
+                popup_af4601200b6247fe33814e521e6c630b.setContent(html_e3d83be4f8f5bf4118c64241bf03046a);
             
         
 
-        polygon_94c18740b91cb4a11739fcc30a6c0159.bindPopup(popup_35a434b1bf10f0b53bd702c280a70fed)
+        polygon_a2ee798f0634be8e0fc6d0dc772640d1.bindPopup(popup_af4601200b6247fe33814e521e6c630b)
         ;
 
         
     
     
-            polygon_94c18740b91cb4a11739fcc30a6c0159.bindTooltip(
+            polygon_a2ee798f0634be8e0fc6d0dc772640d1.bindTooltip(
                 `<div>
                       Madison - LA-CD05
                  </div>`,
@@ -142,28 +176,57 @@
             );
         
     
-            var polygon_9300f62ae75010bded1ac32cedc7f7b0 = L.polygon(
+            var polygon_386ab9775bb5a4d3ca0c6d555035bd8e = L.polygon(
                 [[32.33057499999999, -90.924767], [32.33038200000003, -90.92427500000001], [32.330173999999985, -90.92387800000002], [32.329925, -90.923453], [32.329692, -90.923122], [32.329475, -90.922867], [32.32899400000003, -90.922383], [32.32888500000004, -90.922297], [32.32877299999998, -90.922227], [32.32848799999997, -90.92209900000002], [32.32820300000002, -90.922012], [32.32802900000001, -90.921987], [32.32779600000002, -90.921992], [32.32753599999998, -90.922044], [32.327336000000045, -90.922114], [32.32711099999999, -90.922231], [32.32686999999996, -90.922442], [32.326518000000014, -90.92275], [32.324888999999985, -90.924378], [32.324728000000015, -90.92457200000001], [32.32464400000003, -90.92462], [32.32448399999999, -90.92465], [32.32434500000001, -90.924595], [32.32427900000005, -90.924511], [32.324196000000036, -90.92444300000001], [32.324134000000015, -90.924474], [32.32405799999999, -90.924511], [32.324019, -90.924558], [32.323985000000036, -90.924672], [32.323981, -90.924822], [32.32395299999998, -90.925128], [32.323907999999996, -90.925314], [32.32373200000001, -90.925583], [32.323352, -90.926094], [32.32267100000004, -90.926993], [32.32240800000002, -90.927342], [32.322224999999996, -90.927603], [32.32206599999998, -90.927861], [32.322003, -90.928003], [32.321978000000044, -90.928147], [32.32199700000002, -90.928339], [32.32204400000001, -90.928522], [32.32208299999997, -90.928747], [32.32203500000003, -90.928931], [32.32183500000001, -90.929281], [32.321735999999994, -90.929492], [32.321659999999994, -90.929586], [32.321686000000035, -90.930334], [32.321685146346134, -90.93045394382044], [32.3308360625471, -90.9262875929187], [32.33057499999999, -90.924767]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7e82035369f1fcfad47513f28b18c43f);
+            ).addTo(map_0fdeb53529008d37af4b974ec6b558b2);
         
     
-        var popup_fdddb34a76d4792f5643a58137cd7050 = L.popup({"maxWidth": 300});
+        var popup_c73fe0f86071915e77f454aaf7476d84 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2b3f8cebdd6d6c5378407c400f264e69 = $(`<div id="html_2b3f8cebdd6d6c5378407c400f264e69" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Madison - LA-CD02</h4>                              </div>         </div>`)[0];
-                popup_fdddb34a76d4792f5643a58137cd7050.setContent(html_2b3f8cebdd6d6c5378407c400f264e69);
+                var html_0779b4bd93487874ddaf8154b0bf9e77 = $(`<div id="html_0779b4bd93487874ddaf8154b0bf9e77" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Madison - LA-CD02</h4>                              </div>         </div>`)[0];
+                popup_c73fe0f86071915e77f454aaf7476d84.setContent(html_0779b4bd93487874ddaf8154b0bf9e77);
             
         
 
-        polygon_9300f62ae75010bded1ac32cedc7f7b0.bindPopup(popup_fdddb34a76d4792f5643a58137cd7050)
+        polygon_386ab9775bb5a4d3ca0c6d555035bd8e.bindPopup(popup_c73fe0f86071915e77f454aaf7476d84)
         ;
 
         
     
     
-            polygon_9300f62ae75010bded1ac32cedc7f7b0.bindTooltip(
+            polygon_386ab9775bb5a4d3ca0c6d555035bd8e.bindTooltip(
+                `<div>
+                      Madison - LA-CD02
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_623870408b796aa2f53512f8dd406218 = L.polygon(
+                [[32.321567000000044, -90.9297], [32.321381, -90.929933], [32.32123899999999, -90.930042], [32.32113599999997, -90.930133], [32.320981, -90.930186], [32.32089400000003, -90.930306], [32.320358000000006, -90.931047], [32.32034700116065, -90.93106310107353], [32.32157827335708, -90.93050259594155], [32.321567000000044, -90.9297]],
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0fdeb53529008d37af4b974ec6b558b2);
+        
+    
+        var popup_97601f5088a43b3e91d2378fe69ecc30 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_77ecbde5a6f1f2613990d660879ac607 = $(`<div id="html_77ecbde5a6f1f2613990d660879ac607" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Madison - LA-CD02</h4>                              </div>         </div>`)[0];
+                popup_97601f5088a43b3e91d2378fe69ecc30.setContent(html_77ecbde5a6f1f2613990d660879ac607);
+            
+        
+
+        polygon_623870408b796aa2f53512f8dd406218.bindPopup(popup_97601f5088a43b3e91d2378fe69ecc30)
+        ;
+
+        
+    
+    
+            polygon_623870408b796aa2f53512f8dd406218.bindTooltip(
                 `<div>
                       Madison - LA-CD02
                  </div>`,

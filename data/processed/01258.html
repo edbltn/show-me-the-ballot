@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_5b87b2efa3b2950b95ced1bee54c408f {
+                #map_1455e9f13738cfadc41a6ca73a73a050 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Berkshire - MA-CD18</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -81,7 +95,14 @@
                 <span> Berkshire - MA-CD19</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -95,14 +116,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_5b87b2efa3b2950b95ced1bee54c408f" ></div>
+            <div class="folium-map" id="map_1455e9f13738cfadc41a6ca73a73a050" ></div>
         
 </body>
 <script>
     
     
-            var map_5b87b2efa3b2950b95ced1bee54c408f = L.map(
-                "map_5b87b2efa3b2950b95ced1bee54c408f",
+            var map_1455e9f13738cfadc41a6ca73a73a050 = L.map(
+                "map_1455e9f13738cfadc41a6ca73a73a050",
                 {
                     center: [42.10590991657314, -73.46159805247515],
                     crs: L.CRS.EPSG3857,
@@ -111,43 +132,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_5b87b2efa3b2950b95ced1bee54c408f);
+            L.control.scale().addTo(map_1455e9f13738cfadc41a6ca73a73a050);
 
             
 
         
     
-            var tile_layer_1ebd0452078f5ee7e8feb8f36da15621 = L.tileLayer(
+            var tile_layer_15414572dfcb27e073245600ec8e5727 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_1ebd0452078f5ee7e8feb8f36da15621.addTo(map_5b87b2efa3b2950b95ced1bee54c408f);
+            tile_layer_15414572dfcb27e073245600ec8e5727.addTo(map_1455e9f13738cfadc41a6ca73a73a050);
         
     
-            var polygon_2dcbaeda55f08fa89dba8afc7b65ea92 = L.polygon(
+            var polygon_fa7bacca9811ed9893478c4315a160bd = L.polygon(
                 [[42.049568792566426, -73.49176776497335], [42.053797709586746, -73.4896799420321], [42.04963799999999, -73.487314], [42.0495250382288, -73.48732287678064], [42.049568792566426, -73.49176776497335]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_5b87b2efa3b2950b95ced1bee54c408f);
+            ).addTo(map_1455e9f13738cfadc41a6ca73a73a050);
         
     
-        var popup_87971da60a6589ac21c1335855a2dc7b = L.popup({"maxWidth": 300});
+        var popup_a57dbbea966af40b799e3cb65a4de40a = L.popup({"maxWidth": 300});
 
         
             
-                var html_d5d16d624fcab6b4a00da47e1b85aa70 = $(`<div id="html_d5d16d624fcab6b4a00da47e1b85aa70" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Berkshire - MA-CD18</h4>                              </div>         </div>`)[0];
-                popup_87971da60a6589ac21c1335855a2dc7b.setContent(html_d5d16d624fcab6b4a00da47e1b85aa70);
+                var html_17b6049782618848c1079542b04d89ef = $(`<div id="html_17b6049782618848c1079542b04d89ef" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Berkshire - MA-CD18</h4>                              </div>         </div>`)[0];
+                popup_a57dbbea966af40b799e3cb65a4de40a.setContent(html_17b6049782618848c1079542b04d89ef);
             
         
 
-        polygon_2dcbaeda55f08fa89dba8afc7b65ea92.bindPopup(popup_87971da60a6589ac21c1335855a2dc7b)
+        polygon_fa7bacca9811ed9893478c4315a160bd.bindPopup(popup_a57dbbea966af40b799e3cb65a4de40a)
         ;
 
         
     
     
-            polygon_2dcbaeda55f08fa89dba8afc7b65ea92.bindTooltip(
+            polygon_fa7bacca9811ed9893478c4315a160bd.bindTooltip(
                 `<div>
                       Berkshire - MA-CD18
                  </div>`,
@@ -155,28 +176,28 @@
             );
         
     
-            var polygon_ace5bc78e2b55b29cde692866042945d = L.polygon(
+            var polygon_3e2e2528dca765e1072e10d0e711373f = L.polygon(
                 [[42.049587000000045, -73.493622], [42.04959, -73.4938], [42.049623999999994, -73.497018], [42.057937000000024, -73.499565], [42.069268999999956, -73.503023], [42.06966100000004, -73.503143], [42.06973299999999, -73.503165], [42.07773299999999, -73.505634], [42.085591000000015, -73.508048], [42.086133999999994, -73.50821], [42.087357, -73.507768], [42.08873299999997, -73.507252], [42.10999000000002, -73.499563], [42.11114800000004, -73.499099], [42.11530499999997, -73.497584], [42.11615799999998, -73.49727700000001], [42.12508999999994, -73.494025], [42.12599500000002, -73.493689], [42.12764300000004, -73.493127], [42.12766600000002, -73.493119], [42.12816799999998, -73.492931], [42.135451000000025, -73.490269], [42.137067999999985, -73.489681], [42.13709499999999, -73.489671], [42.139050999999974, -73.488961], [42.139433999999966, -73.488822], [42.14486099999998, -73.486882], [42.14682899999997, -73.48618], [42.152691000000026, -73.484053], [42.154447999999995, -73.483416], [42.15493199999998, -73.483232], [42.15486554359606, -73.4830736363866], [42.086256999999996, -73.508142], [42.053797709586746, -73.4896799420321], [42.049568792566426, -73.49176776497335], [42.049587000000045, -73.493622]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_5b87b2efa3b2950b95ced1bee54c408f);
+            ).addTo(map_1455e9f13738cfadc41a6ca73a73a050);
         
     
-        var popup_bd1e6418150d320a5fa57b34bfae0504 = L.popup({"maxWidth": 300});
+        var popup_3cc27d0664055f3a87652c7ec18007f1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2e56fed0346e8779606f3093727b5c29 = $(`<div id="html_2e56fed0346e8779606f3093727b5c29" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Berkshire - MA-CD19</h4>                              </div>         </div>`)[0];
-                popup_bd1e6418150d320a5fa57b34bfae0504.setContent(html_2e56fed0346e8779606f3093727b5c29);
+                var html_081680966d5fbaa3c6c5b53b90367660 = $(`<div id="html_081680966d5fbaa3c6c5b53b90367660" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Berkshire - MA-CD19</h4>                              </div>         </div>`)[0];
+                popup_3cc27d0664055f3a87652c7ec18007f1.setContent(html_081680966d5fbaa3c6c5b53b90367660);
             
         
 
-        polygon_ace5bc78e2b55b29cde692866042945d.bindPopup(popup_bd1e6418150d320a5fa57b34bfae0504)
+        polygon_3e2e2528dca765e1072e10d0e711373f.bindPopup(popup_3cc27d0664055f3a87652c7ec18007f1)
         ;
 
         
     
     
-            polygon_ace5bc78e2b55b29cde692866042945d.bindTooltip(
+            polygon_3e2e2528dca765e1072e10d0e711373f.bindTooltip(
                 `<div>
                       Berkshire - MA-CD19
                  </div>`,
@@ -184,28 +205,28 @@
             );
         
     
-            var polygon_b1031363a53dc2528038f624a290dcde = L.polygon(
+            var polygon_e71d2e2d6aaa70cafd86624bfd721006 = L.polygon(
                 [[42.05029899999998, -73.447736], [42.05004, -73.461104], [42.049925000000016, -73.466973], [42.049914000000015, -73.46759], [42.049585273469404, -73.48427207892212], [42.04963799999999, -73.487314], [42.053797709586746, -73.4896799420321], [42.086256999999996, -73.508142], [42.15486554359606, -73.4830736363866], [42.15301200000004, -73.478657], [42.152459, -73.47734], [42.15209199999999, -73.476454], [42.151954000000025, -73.476129], [42.15189700000003, -73.476004], [42.15165300000001, -73.47542400000002], [42.15107500000003, -73.474046], [42.14947699999997, -73.471455], [42.147598, -73.46936], [42.14607100000001, -73.467658], [42.145154, -73.466635], [42.14481099999997, -73.466253], [42.12812000000003, -73.447644], [42.12792000000001, -73.447423], [42.12733300000001, -73.446769], [42.126682000000024, -73.446044], [42.12602099999996, -73.445308], [42.12565800000003, -73.444903], [42.125340000000044, -73.444549], [42.125119000000026, -73.444303], [42.12506100000006, -73.444239], [42.12452600000002, -73.44364300000001], [42.12393599999997, -73.442985], [42.12336999999998, -73.442354], [42.12266800000002, -73.44157300000002], [42.12213300000004, -73.440977], [42.12164399999998, -73.44043200000002], [42.121099999999984, -73.439826], [42.12050600000008, -73.439164], [42.120019999999954, -73.438622], [42.11953800000001, -73.438085], [42.119032999999995, -73.437523], [42.118659, -73.437106], [42.118413, -73.436832], [42.11814899999998, -73.436538], [42.11851699999997, -73.435616], [42.118951999999986, -73.434527], [42.11950300000001, -73.43315], [42.11988999999996, -73.432182], [42.120153000000066, -73.431524], [42.12045299999998, -73.430772], [42.120835000000014, -73.429818], [42.121041, -73.429303], [42.121225999999986, -73.42883900000001], [42.12126299999996, -73.428748], [42.119446000000046, -73.42783100000001], [42.11800600000002, -73.427101], [42.116181, -73.42618200000001], [42.115113000000015, -73.425642], [42.11477100000004, -73.42546999999999], [42.11362, -73.424888], [42.113497999999986, -73.424818], [42.11158499999999, -73.42384400000002], [42.11057099999999, -73.423348], [42.10930999999998, -73.422711], [42.10729599999997, -73.421694], [42.10563899999999, -73.420857], [42.104028999999976, -73.420044], [42.10384600000003, -73.419952], [42.09972200000002, -73.42149300000001], [42.089388000000014, -73.425351], [42.08799500000002, -73.425874], [42.08179100000002, -73.428193], [42.07176500000002, -73.430578], [42.06072900000006, -73.433178], [42.05923100000003, -73.433541], [42.05519300000006, -73.43447600000002], [42.05458700000001, -73.434663], [42.050510999999965, -73.436758], [42.050475, -73.438554], [42.05029899999998, -73.447736]],
                 {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_5b87b2efa3b2950b95ced1bee54c408f);
+            ).addTo(map_1455e9f13738cfadc41a6ca73a73a050);
         
     
-        var popup_6186f9d6c8e24c59ccda1e863fcf037d = L.popup({"maxWidth": 300});
+        var popup_f4b45720e74fbc3d9a6e547644a2a564 = L.popup({"maxWidth": 300});
 
         
             
-                var html_de851c3276d8b7ea72b39df15aba1b2e = $(`<div id="html_de851c3276d8b7ea72b39df15aba1b2e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Berkshire - MA-CD01</h4>                              </div>         </div>`)[0];
-                popup_6186f9d6c8e24c59ccda1e863fcf037d.setContent(html_de851c3276d8b7ea72b39df15aba1b2e);
+                var html_a724ed3caf3567b7a365b5a929a04c72 = $(`<div id="html_a724ed3caf3567b7a365b5a929a04c72" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Berkshire - MA-CD01</h4>                              </div>         </div>`)[0];
+                popup_f4b45720e74fbc3d9a6e547644a2a564.setContent(html_a724ed3caf3567b7a365b5a929a04c72);
             
         
 
-        polygon_b1031363a53dc2528038f624a290dcde.bindPopup(popup_6186f9d6c8e24c59ccda1e863fcf037d)
+        polygon_e71d2e2d6aaa70cafd86624bfd721006.bindPopup(popup_f4b45720e74fbc3d9a6e547644a2a564)
         ;
 
         
     
     
-            polygon_b1031363a53dc2528038f624a290dcde.bindTooltip(
+            polygon_e71d2e2d6aaa70cafd86624bfd721006.bindTooltip(
                 `<div>
                       Berkshire - MA-CD01
                  </div>`,

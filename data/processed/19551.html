@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_7c2958f85d04ce3a61657e41a1caea1f {
+                #map_6efa2e8f2b369a061d7d3222301c5624 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Lebanon - PA-CD11</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_7c2958f85d04ce3a61657e41a1caea1f" ></div>
+            <div class="folium-map" id="map_6efa2e8f2b369a061d7d3222301c5624" ></div>
         
 </body>
 <script>
     
     
-            var map_7c2958f85d04ce3a61657e41a1caea1f = L.map(
-                "map_7c2958f85d04ce3a61657e41a1caea1f",
+            var map_6efa2e8f2b369a061d7d3222301c5624 = L.map(
+                "map_6efa2e8f2b369a061d7d3222301c5624",
                 {
                     center: [40.320073602326865, -76.18547580091457],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_7c2958f85d04ce3a61657e41a1caea1f);
+            L.control.scale().addTo(map_6efa2e8f2b369a061d7d3222301c5624);
 
             
 
         
     
-            var tile_layer_d9d96d87db507910343899d4834155b3 = L.tileLayer(
+            var tile_layer_adf7387db297bfd961721b5741e4882e = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_d9d96d87db507910343899d4834155b3.addTo(map_7c2958f85d04ce3a61657e41a1caea1f);
+            tile_layer_adf7387db297bfd961721b5741e4882e.addTo(map_6efa2e8f2b369a061d7d3222301c5624);
         
     
-            var polygon_22d3abe1f4485ad4589c08e8ccd0c57a = L.polygon(
+            var polygon_4d8bed8e2fbcc4800ba6cc5151656448 = L.polygon(
                 [[40.31569500000001, -76.151475], [40.315382999999926, -76.152296], [40.31504699999996, -76.15318], [40.31310300000001, -76.158298], [40.31245599999998, -76.160004], [40.31245100000001, -76.160018], [40.31216700000002, -76.160762], [40.311260999999966, -76.16315], [40.308240265207615, -76.1711043649334], [40.31597099999997, -76.151215], [40.31569500000001, -76.151475]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7c2958f85d04ce3a61657e41a1caea1f);
+            ).addTo(map_6efa2e8f2b369a061d7d3222301c5624);
         
     
-        var popup_5ebec0bf99c9456f1dacceeacd3f2dde = L.popup({"maxWidth": 300});
+        var popup_fc21a84b84c0f8e07f60d264c2c92da7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d64ce7f9669b1c4367708db3567bef9f = $(`<div id="html_d64ce7f9669b1c4367708db3567bef9f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lebanon - PA-CD11</h4>                              </div>         </div>`)[0];
-                popup_5ebec0bf99c9456f1dacceeacd3f2dde.setContent(html_d64ce7f9669b1c4367708db3567bef9f);
+                var html_8470143f59fac102a99f568451caf4c1 = $(`<div id="html_8470143f59fac102a99f568451caf4c1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lebanon - PA-CD11</h4>                              </div>         </div>`)[0];
+                popup_fc21a84b84c0f8e07f60d264c2c92da7.setContent(html_8470143f59fac102a99f568451caf4c1);
             
         
 
-        polygon_22d3abe1f4485ad4589c08e8ccd0c57a.bindPopup(popup_5ebec0bf99c9456f1dacceeacd3f2dde)
+        polygon_4d8bed8e2fbcc4800ba6cc5151656448.bindPopup(popup_fc21a84b84c0f8e07f60d264c2c92da7)
         ;
 
         
     
     
-            polygon_22d3abe1f4485ad4589c08e8ccd0c57a.bindTooltip(
+            polygon_4d8bed8e2fbcc4800ba6cc5151656448.bindTooltip(
                 `<div>
                       Lebanon - PA-CD11
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_71a055b12e8b054242c49cf719671a6a = L.polygon(
+            var polygon_407c641559f94fabd55665cef1dbc3e9 = L.polygon(
                 [[40.334082999999964, -76.1736], [40.333826000000016, -76.173291], [40.327636999999996, -76.165854], [40.327624999999976, -76.165841], [40.32473699999996, -76.16238], [40.32435799999998, -76.161987], [40.324317000000015, -76.16194], [40.32430399999999, -76.16193000000001], [40.324137000000036, -76.161729], [40.320949, -76.157883], [40.31654000000005, -76.15199400000002], [40.316368000000004, -76.151752], [40.31597099999997, -76.151215], [40.308240265207615, -76.1711043649334], [40.307676000000015, -76.17259000000001], [40.306480999999984, -76.175737], [40.30563199999996, -76.177929], [40.303088999999936, -76.18450700000001], [40.30224199999999, -76.1867], [40.301388, -76.188913], [40.29882600000003, -76.195552], [40.29797200000003, -76.197765], [40.29766399999998, -76.198559], [40.29674400000001, -76.200941], [40.296437000000005, -76.201736], [40.296466, -76.201782], [40.29651900000003, -76.201843], [40.29657799999997, -76.201894], [40.296683999999985, -76.201964], [40.29677299999994, -76.202006], [40.29684699999995, -76.202028], [40.296965, -76.202044], [40.29704000000003, -76.202046], [40.29710600000001, -76.202039], [40.29718699999999, -76.202031], [40.29728200000004, -76.20201], [40.297538, -76.20193200000001], [40.29760599999998, -76.201926], [40.29772700000003, -76.201929], [40.29783999999997, -76.201942], [40.29831399999998, -76.202047], [40.298498999999985, -76.202103], [40.29869099999997, -76.20218300000002], [40.299232, -76.202468], [40.29930900000003, -76.202499], [40.299578000000054, -76.20261100000002], [40.299647000000014, -76.202626], [40.29974699999998, -76.202639], [40.29987300000004, -76.20264], [40.29998299999998, -76.202634], [40.30006000000004, -76.20262], [40.30000099999999, -76.202909], [40.30004700000006, -76.20306900000001], [40.302206999999996, -76.210657], [40.30659199999999, -76.20874], [40.30985099999998, -76.20863600000001], [40.310562000000026, -76.208349], [40.31115900000002, -76.208351], [40.311706000000015, -76.208353], [40.31217300000001, -76.208354], [40.32098100000002, -76.200799], [40.320222000000015, -76.198857], [40.32218100000005, -76.197086], [40.32203400000001, -76.19682], [40.32443900000004, -76.194709], [40.324499999999965, -76.194827], [40.328257999999984, -76.191419], [40.32765799999997, -76.190038], [40.329818999999965, -76.188042], [40.329480000000004, -76.187323], [40.330524000000025, -76.186599], [40.330379000000015, -76.186091], [40.33151600000002, -76.185183], [40.331856000000016, -76.185343], [40.332022999999936, -76.185432], [40.33218000000002, -76.185533], [40.33230499999997, -76.18564], [40.33233199999996, -76.18566800000002], [40.33242200000005, -76.18576000000002], [40.332530999999996, -76.185899], [40.33262200000001, -76.186042], [40.33271500000001, -76.186215], [40.33281999999998, -76.18644], [40.332900999999964, -76.186647], [40.33302199999995, -76.187066], [40.33308300000002, -76.187244], [40.33316800000001, -76.18744], [40.333271000000046, -76.187636], [40.33356099999997, -76.18815], [40.333597999999995, -76.188216], [40.33406299999997, -76.18905200000002], [40.334103999999996, -76.188597], [40.334176999999976, -76.187961], [40.33423000000005, -76.187587], [40.334279999999985, -76.187344], [40.334326000000026, -76.187175], [40.334341999999985, -76.187119], [40.334679999999985, -76.18613500000001], [40.334882000000015, -76.1856], [40.334982000000025, -76.18535], [40.335087000000044, -76.185027], [40.33529500000003, -76.184282], [40.33538099999996, -76.183938], [40.33544199999999, -76.18367000000002], [40.33554700000003, -76.183292], [40.33560200000003, -76.183148], [40.335656000000014, -76.182992], [40.335680000000025, -76.18288], [40.33569100000002, -76.182735], [40.33567900000002, -76.182476], [40.33563900000001, -76.181699], [40.335624999999986, -76.181417], [40.33558900000001, -76.180888], [40.33558399999997, -76.180626], [40.33559599999997, -76.18046200000002], [40.33561799999998, -76.180334], [40.335635999999965, -76.18026400000001], [40.335695, -76.180063], [40.335772999999996, -76.17983], [40.33598699999997, -76.179192], [40.33613399999992, -76.178755], [40.33621199999998, -76.178467], [40.33631799999997, -76.178037], [40.33639600000005, -76.177628], [40.336429000000024, -76.17740300000001], [40.33644900000001, -76.177232], [40.33646699999999, -76.177085], [40.33653500000001, -76.176661], [40.33654900000003, -76.176567], [40.33650899999997, -76.176519], [40.334082999999964, -76.1736]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_7c2958f85d04ce3a61657e41a1caea1f);
+            ).addTo(map_6efa2e8f2b369a061d7d3222301c5624);
         
     
-        var popup_3b80381de5adf5db7b33032ab4b5af57 = L.popup({"maxWidth": 300});
+        var popup_dfe489248ca597729a68f27ba57ceae1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_66c297d2465828323079d624c4a3184d = $(`<div id="html_66c297d2465828323079d624c4a3184d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lebanon - PA-CD09</h4>                              </div>         </div>`)[0];
-                popup_3b80381de5adf5db7b33032ab4b5af57.setContent(html_66c297d2465828323079d624c4a3184d);
+                var html_d5b9294e57761621341b9e5f66943030 = $(`<div id="html_d5b9294e57761621341b9e5f66943030" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lebanon - PA-CD09</h4>                              </div>         </div>`)[0];
+                popup_dfe489248ca597729a68f27ba57ceae1.setContent(html_d5b9294e57761621341b9e5f66943030);
             
         
 
-        polygon_71a055b12e8b054242c49cf719671a6a.bindPopup(popup_3b80381de5adf5db7b33032ab4b5af57)
+        polygon_407c641559f94fabd55665cef1dbc3e9.bindPopup(popup_dfe489248ca597729a68f27ba57ceae1)
         ;
 
         
     
     
-            polygon_71a055b12e8b054242c49cf719671a6a.bindTooltip(
+            polygon_407c641559f94fabd55665cef1dbc3e9.bindTooltip(
                 `<div>
                       Lebanon - PA-CD09
                  </div>`,

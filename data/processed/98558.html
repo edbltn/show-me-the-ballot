@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_20134856cc16e56887d483e9db3be3ae {
+                #map_0687a1cc3f8448df9201c531cf95d1b2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Pierce - WA-CD10</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_20134856cc16e56887d483e9db3be3ae" ></div>
+            <div class="folium-map" id="map_0687a1cc3f8448df9201c531cf95d1b2" ></div>
         
 </body>
 <script>
     
     
-            var map_20134856cc16e56887d483e9db3be3ae = L.map(
-                "map_20134856cc16e56887d483e9db3be3ae",
+            var map_0687a1cc3f8448df9201c531cf95d1b2 = L.map(
+                "map_0687a1cc3f8448df9201c531cf95d1b2",
                 {
                     center: [46.935826808972166, -122.56020588509456],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_20134856cc16e56887d483e9db3be3ae);
+            L.control.scale().addTo(map_0687a1cc3f8448df9201c531cf95d1b2);
 
             
 
         
     
-            var tile_layer_b649c919c88cdb07379ed829322b13ba = L.tileLayer(
+            var tile_layer_67568bc993e12e33f5ad97aaab464e4e = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_b649c919c88cdb07379ed829322b13ba.addTo(map_20134856cc16e56887d483e9db3be3ae);
+            tile_layer_67568bc993e12e33f5ad97aaab464e4e.addTo(map_0687a1cc3f8448df9201c531cf95d1b2);
         
     
-            var polygon_090a5963e0501a7d82ccfd2568de3932 = L.polygon(
+            var polygon_890bc9286772c647b3e6464601471a5e = L.polygon(
                 [[46.93369599999999, -122.560993], [46.934104, -122.561619], [46.934556000000015, -122.56232499999999], [46.93492699999996, -122.562753], [46.93497199999999, -122.562821], [46.93524799999996, -122.563128], [46.935304000000016, -122.56323100000002], [46.935442999999985, -122.56328800000001], [46.935531, -122.563404], [46.93559700000002, -122.56349300000001], [46.93562199999999, -122.56352600000001], [46.935810000000025, -122.563683], [46.936524000000006, -122.56428200000002], [46.93671900000004, -122.56433600000001], [46.936759999999985, -122.564347], [46.936806000000004, -122.564161], [46.937132, -122.56283299999998], [46.937220342248615, -122.56242189755315], [46.933456999999954, -122.56043600000001], [46.93361399999995, -122.560794], [46.93369599999999, -122.560993]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_20134856cc16e56887d483e9db3be3ae);
+            ).addTo(map_0687a1cc3f8448df9201c531cf95d1b2);
         
     
-        var popup_341944de3b556d8d70b6672cecb2523d = L.popup({"maxWidth": 300});
+        var popup_50739febbf8f5b62a5b95fa779cfb7c9 = L.popup({"maxWidth": 300});
 
         
             
-                var html_ba57df52e5419a8a7b1b1b944e1ec9e9 = $(`<div id="html_ba57df52e5419a8a7b1b1b944e1ec9e9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Pierce - WA-CD10</h4>                              </div>         </div>`)[0];
-                popup_341944de3b556d8d70b6672cecb2523d.setContent(html_ba57df52e5419a8a7b1b1b944e1ec9e9);
+                var html_b1abc913412ac4b5d29e006ab0561346 = $(`<div id="html_b1abc913412ac4b5d29e006ab0561346" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Pierce - WA-CD10</h4>                              </div>         </div>`)[0];
+                popup_50739febbf8f5b62a5b95fa779cfb7c9.setContent(html_b1abc913412ac4b5d29e006ab0561346);
             
         
 
-        polygon_090a5963e0501a7d82ccfd2568de3932.bindPopup(popup_341944de3b556d8d70b6672cecb2523d)
+        polygon_890bc9286772c647b3e6464601471a5e.bindPopup(popup_50739febbf8f5b62a5b95fa779cfb7c9)
         ;
 
         
     
     
-            polygon_090a5963e0501a7d82ccfd2568de3932.bindTooltip(
+            polygon_890bc9286772c647b3e6464601471a5e.bindTooltip(
                 `<div>
                       Pierce - WA-CD10
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_2549cd4d9dd58b01557833621b64f6eb = L.polygon(
+            var polygon_c9d5eaae655fe1ee4668f688b1677b2b = L.polygon(
                 [[46.93754200000002, -122.560925], [46.93724699999998, -122.560764], [46.937464000000034, -122.560248], [46.937427, -122.56012100000001], [46.93738600000003, -122.560017], [46.93716399999999, -122.559537], [46.93700000000002, -122.55924399999999], [46.936884, -122.55902], [46.93740800000005, -122.558453], [46.937462000000025, -122.558389], [46.93748999999998, -122.558345], [46.93751599999999, -122.55826800000001], [46.937463, -122.55813399999998], [46.937364, -122.55792900000002], [46.936857, -122.556925], [46.936474, -122.55615200000001], [46.936227999999964, -122.555615], [46.935709000000024, -122.556105], [46.93549399999998, -122.55632899999999], [46.935361, -122.55647999999998], [46.935197000000024, -122.55670499999998], [46.93501699999997, -122.55698999999998], [46.93492899999999, -122.55715799999999], [46.93473099999995, -122.55754], [46.93449, -122.558063], [46.93438299999994, -122.558305], [46.934283999999955, -122.55852600000001], [46.93414599999997, -122.558838], [46.934029999999986, -122.55911], [46.93354300000001, -122.56023200000001], [46.933456999999954, -122.56043600000001], [46.937220342248615, -122.56242189755315], [46.93754200000002, -122.560925]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_20134856cc16e56887d483e9db3be3ae);
+            ).addTo(map_0687a1cc3f8448df9201c531cf95d1b2);
         
     
-        var popup_266ee9dea19a03f1e210bd68f0b8e34c = L.popup({"maxWidth": 300});
+        var popup_0e447870443c9949804ac74d62e5cac3 = L.popup({"maxWidth": 300});
 
         
             
-                var html_371cfb8d61c50e1a9dde9ad59e1f96ef = $(`<div id="html_371cfb8d61c50e1a9dde9ad59e1f96ef" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Pierce - WA-CD08</h4>                              </div>         </div>`)[0];
-                popup_266ee9dea19a03f1e210bd68f0b8e34c.setContent(html_371cfb8d61c50e1a9dde9ad59e1f96ef);
+                var html_a36b2c08eed6af0efcf418adf84de308 = $(`<div id="html_a36b2c08eed6af0efcf418adf84de308" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Pierce - WA-CD08</h4>                              </div>         </div>`)[0];
+                popup_0e447870443c9949804ac74d62e5cac3.setContent(html_a36b2c08eed6af0efcf418adf84de308);
             
         
 
-        polygon_2549cd4d9dd58b01557833621b64f6eb.bindPopup(popup_266ee9dea19a03f1e210bd68f0b8e34c)
+        polygon_c9d5eaae655fe1ee4668f688b1677b2b.bindPopup(popup_0e447870443c9949804ac74d62e5cac3)
         ;
 
         
     
     
-            polygon_2549cd4d9dd58b01557833621b64f6eb.bindTooltip(
+            polygon_c9d5eaae655fe1ee4668f688b1677b2b.bindTooltip(
                 `<div>
                       Pierce - WA-CD08
                  </div>`,

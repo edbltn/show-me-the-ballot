@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_72aec7e607f22de478b2184d169ec619 {
+                #map_515dc5405f79309534138b4bfebfb42a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Grand Isle - VT-CD00</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -81,7 +95,14 @@
                 <span> Grand Isle - VT-CD21</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -95,14 +116,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_72aec7e607f22de478b2184d169ec619" ></div>
+            <div class="folium-map" id="map_515dc5405f79309534138b4bfebfb42a" ></div>
         
 </body>
 <script>
     
     
-            var map_72aec7e607f22de478b2184d169ec619 = L.map(
-                "map_72aec7e607f22de478b2184d169ec619",
+            var map_515dc5405f79309534138b4bfebfb42a = L.map(
+                "map_515dc5405f79309534138b4bfebfb42a",
                 {
                     center: [44.854024544994, -73.35204482737429],
                     crs: L.CRS.EPSG3857,
@@ -111,43 +132,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_72aec7e607f22de478b2184d169ec619);
+            L.control.scale().addTo(map_515dc5405f79309534138b4bfebfb42a);
 
             
 
         
     
-            var tile_layer_44209450fedada62094c58e161bb5389 = L.tileLayer(
+            var tile_layer_e089a14328893c215191c480f192c2e4 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_44209450fedada62094c58e161bb5389.addTo(map_72aec7e607f22de478b2184d169ec619);
+            tile_layer_e089a14328893c215191c480f192c2e4.addTo(map_515dc5405f79309534138b4bfebfb42a);
         
     
-            var polygon_48187728069e6f808ee1a0ec5d2070b5 = L.polygon(
+            var polygon_8a6fcf685d2172e5569f4bf472b84b24 = L.polygon(
                 [[44.857336000000004, -73.37947200000002], [44.857553999999965, -73.378488], [44.85775600000003, -73.377946], [44.85815099999997, -73.377482], [44.85884399999996, -73.377087], [44.860238000000024, -73.376331], [44.86074599999999, -73.37570900000001], [44.86112700000002, -73.374578], [44.86116500000001, -73.374475], [44.861257, -73.374222], [44.861525999999984, -73.37363], [44.861985999999995, -73.37272], [44.86241500000003, -73.37196800000001], [44.862926999999964, -73.37161], [44.863599000000036, -73.371092], [44.864294999999956, -73.37058500000002], [44.86492700000002, -73.37018000000002], [44.86555899999999, -73.369719], [44.866169000000006, -73.369439], [44.86668100000001, -73.369104], [44.871545999999974, -73.36756500000001], [44.875041000000046, -73.36646], [44.877693, -73.365865], [44.877820540071504, -73.3658331231408], [44.91393271499117, -73.341505635712], [44.91397499999999, -73.341264], [44.91393900000001, -73.339447], [44.91387200000002, -73.337131], [44.913346000000026, -73.332991], [44.91300200000001, -73.330642], [44.912411, -73.32784000000001], [44.91166600000001, -73.325472], [44.911062999999935, -73.323878], [44.91052300000002, -73.323521], [44.90814599999999, -73.321417], [44.90554199999997, -73.318439], [44.903356999999986, -73.316063], [44.90269200000003, -73.31532], [44.901488999999955, -73.31408300000001], [44.90084999999998, -73.313427], [44.898937, -73.312057], [44.897222999999954, -73.311511], [44.89607699999999, -73.311422], [44.89249300000005, -73.311788], [44.89042400000004, -73.311999], [44.88392399999994, -73.313304], [44.88228299999999, -73.313634], [44.879423000000045, -73.3141], [44.878235999999944, -73.314294], [44.87557399999998, -73.314603], [44.875081000000016, -73.314693], [44.87447100000001, -73.314801], [44.873402999999975, -73.314956], [44.87255600000001, -73.31512], [44.87202099999994, -73.31522300000002], [44.870759999999976, -73.31543], [44.869572000000055, -73.315635], [44.86863799999997, -73.31595900000002], [44.86754099999999, -73.316206], [44.864613999999996, -73.315919], [44.863811999999996, -73.315906], [44.86326600000007, -73.315932], [44.86260600000001, -73.316019], [44.86171899999998, -73.316146], [44.86095899999999, -73.316121], [44.86030799999998, -73.316173], [44.859738999999976, -73.316294], [44.85684899999997, -73.315822], [44.854307, -73.315425], [44.85141800000008, -73.314199], [44.84769499999999, -73.312391], [44.84666299999999, -73.311733], [44.84323100000002, -73.309547], [44.84275499999999, -73.309244], [44.83914199999995, -73.312672], [44.83552799999999, -73.31609900000001], [44.82179399999999, -73.329128], [44.82051700000002, -73.330338], [44.819241000000034, -73.331549], [44.80882700000001, -73.341429], [44.80938500000001, -73.341793], [44.810381000000035, -73.34260299999998], [44.811059999999955, -73.3431], [44.811546000000014, -73.343499], [44.812260000000045, -73.344177], [44.81301499999996, -73.34508000000001], [44.81334200000002, -73.345696], [44.81377300000005, -73.34633300000002], [44.81408299999998, -73.346995], [44.81443399999999, -73.347543], [44.81477500000005, -73.348046], [44.81510099999998, -73.348537], [44.81545099999999, -73.349006], [44.81606000000002, -73.34975400000002], [44.816393999999974, -73.35020000000002], [44.81683100000001, -73.350589], [44.81729400000002, -73.351113], [44.81794999999999, -73.351667], [44.81859699999996, -73.352155], [44.81940699999999, -73.352786], [44.819947999999954, -73.353094], [44.82038600000002, -73.35347200000001], [44.82071899999998, -73.35393], [44.82110900000003, -73.354432], [44.821172999999995, -73.354516], [44.821500000000036, -73.354945], [44.82185100000003, -73.35561900000002], [44.822185000000026, -73.356156], [44.82292699999997, -73.357432], [44.82331000000001, -73.358081], [44.82370400000003, -73.359057], [44.82396800000002, -73.35985500000001], [44.82452200000001, -73.360818], [44.82457499999994, -73.360956], [44.82483399999997, -73.36162600000002], [44.82511200000001, -73.362198], [44.825375999999984, -73.36295100000001], [44.82554900000001, -73.363535], [44.826187000000026, -73.364926], [44.82645036053091, -73.3656771760386], [44.82645099999997, -73.365678], [44.85703699999996, -73.37982200000002], [44.85703934134495, -73.37982042460365], [44.857336000000004, -73.37947200000002]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_72aec7e607f22de478b2184d169ec619);
+            ).addTo(map_515dc5405f79309534138b4bfebfb42a);
         
     
-        var popup_066fc4352d4f3b965cec11b8db4e62a6 = L.popup({"maxWidth": 300});
+        var popup_d56ec57c68e8e0d13e875b3dffa7a07a = L.popup({"maxWidth": 300});
 
         
             
-                var html_2fdb64ad006fff272bce91ef8b3cb5fd = $(`<div id="html_2fdb64ad006fff272bce91ef8b3cb5fd" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Grand Isle - VT-CD00</h4>                              </div>         </div>`)[0];
-                popup_066fc4352d4f3b965cec11b8db4e62a6.setContent(html_2fdb64ad006fff272bce91ef8b3cb5fd);
+                var html_fe3594e62d83dc8bc0465e148477593d = $(`<div id="html_fe3594e62d83dc8bc0465e148477593d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Grand Isle - VT-CD00</h4>                              </div>         </div>`)[0];
+                popup_d56ec57c68e8e0d13e875b3dffa7a07a.setContent(html_fe3594e62d83dc8bc0465e148477593d);
             
         
 
-        polygon_48187728069e6f808ee1a0ec5d2070b5.bindPopup(popup_066fc4352d4f3b965cec11b8db4e62a6)
+        polygon_8a6fcf685d2172e5569f4bf472b84b24.bindPopup(popup_d56ec57c68e8e0d13e875b3dffa7a07a)
         ;
 
         
     
     
-            polygon_48187728069e6f808ee1a0ec5d2070b5.bindTooltip(
+            polygon_8a6fcf685d2172e5569f4bf472b84b24.bindTooltip(
                 `<div>
                       Grand Isle - VT-CD00
                  </div>`,
@@ -155,28 +176,28 @@
             );
         
     
-            var polygon_2662426360c985e9bb848b7cbc8ab0ac = L.polygon(
+            var polygon_6eb8129c4fe6c0030195d6b52f33b8a5 = L.polygon(
                 [[44.85083700000002, -73.37998600000002], [44.851651, -73.379545], [44.85255300000004, -73.37936500000002], [44.85553999999997, -73.379877], [44.85660300000001, -73.379912], [44.85703799999999, -73.37982200000002], [44.85703934134495, -73.37982042460365], [44.85703699999996, -73.37982200000002], [44.82645099999997, -73.365678], [44.82645036053091, -73.3656771760386], [44.82645099999997, -73.365679], [44.82688299999997, -73.366463], [44.827315, -73.36714500000001], [44.82792800000005, -73.368146], [44.82800700000003, -73.36827500000001], [44.82859199999996, -73.368956], [44.829136000000005, -73.369648], [44.82981000000003, -73.370395], [44.830741999999965, -73.37133], [44.83162300000006, -73.371859], [44.83228599999999, -73.372278], [44.83299700000001, -73.372686], [44.833556000000016, -73.37316400000002], [44.83408999999999, -73.373551], [44.83439700000001, -73.37373900000001], [44.83480200000001, -73.374015], [44.83518999999994, -73.374326], [44.835551999999964, -73.374578], [44.83630700000004, -73.37534600000001], [44.83662800000003, -73.37607], [44.836820000000024, -73.377393], [44.83735799999995, -73.378717], [44.83800999999997, -73.379452], [44.83964399999996, -73.379816], [44.84057799999999, -73.379918], [44.842551, -73.379412], [44.84273499999998, -73.379419], [44.84346099999997, -73.37944700000001], [44.84390399999995, -73.379684], [44.84423299999997, -73.380488], [44.84468299999998, -73.381336], [44.84502200000006, -73.381359], [44.84656899999996, -73.380501], [44.84717299999996, -73.380321], [44.847590999999966, -73.38046800000001], [44.84880599999997, -73.381397], [44.849354000000055, -73.38159000000002], [44.849861000000054, -73.381296], [44.85083700000002, -73.37998600000002]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_72aec7e607f22de478b2184d169ec619);
+            ).addTo(map_515dc5405f79309534138b4bfebfb42a);
         
     
-        var popup_b5745798bd4d280a4a7c1f830f7eb58d = L.popup({"maxWidth": 300});
+        var popup_7fa2a83ee9c9eea68d9a1f85125f650e = L.popup({"maxWidth": 300});
 
         
             
-                var html_f814e9a6be05e06415144812341f9c86 = $(`<div id="html_f814e9a6be05e06415144812341f9c86" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Grand Isle - VT-CD21</h4>                              </div>         </div>`)[0];
-                popup_b5745798bd4d280a4a7c1f830f7eb58d.setContent(html_f814e9a6be05e06415144812341f9c86);
+                var html_24ed781197a0710f74e541d673d574df = $(`<div id="html_24ed781197a0710f74e541d673d574df" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Grand Isle - VT-CD21</h4>                              </div>         </div>`)[0];
+                popup_7fa2a83ee9c9eea68d9a1f85125f650e.setContent(html_24ed781197a0710f74e541d673d574df);
             
         
 
-        polygon_2662426360c985e9bb848b7cbc8ab0ac.bindPopup(popup_b5745798bd4d280a4a7c1f830f7eb58d)
+        polygon_6eb8129c4fe6c0030195d6b52f33b8a5.bindPopup(popup_7fa2a83ee9c9eea68d9a1f85125f650e)
         ;
 
         
     
     
-            polygon_2662426360c985e9bb848b7cbc8ab0ac.bindTooltip(
+            polygon_6eb8129c4fe6c0030195d6b52f33b8a5.bindTooltip(
                 `<div>
                       Grand Isle - VT-CD21
                  </div>`,
@@ -184,28 +205,28 @@
             );
         
     
-            var polygon_d459a1b7302cf52a478b3e8967e62a62 = L.polygon(
+            var polygon_91dc139db9aec118d3fec8a6df96a195 = L.polygon(
                 [[44.88323400000001, -73.36448], [44.88826199999999, -73.363105], [44.89146300000006, -73.36223], [44.897236000000035, -73.360328], [44.90132500000006, -73.35808100000001], [44.90449200000001, -73.356218], [44.90734600000002, -73.353657], [44.90963399999997, -73.350652], [44.91130900000002, -73.347837], [44.91272500000004, -73.344516], [44.91371600000001, -73.342744], [44.91393271499117, -73.341505635712], [44.877820540071504, -73.3658331231408], [44.88323400000001, -73.36448]],
                 {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_72aec7e607f22de478b2184d169ec619);
+            ).addTo(map_515dc5405f79309534138b4bfebfb42a);
         
     
-        var popup_e3b4a189f3062123a061dbe15d1536af = L.popup({"maxWidth": 300});
+        var popup_b955de2c3f18ff563dc49b197d037399 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b77acc7cc87a154ad93b1a4681f25a73 = $(`<div id="html_b77acc7cc87a154ad93b1a4681f25a73" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Grand Isle - VT-CD21</h4>                              </div>         </div>`)[0];
-                popup_e3b4a189f3062123a061dbe15d1536af.setContent(html_b77acc7cc87a154ad93b1a4681f25a73);
+                var html_a622166c249c429af3048da316838b19 = $(`<div id="html_a622166c249c429af3048da316838b19" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Grand Isle - VT-CD21</h4>                              </div>         </div>`)[0];
+                popup_b955de2c3f18ff563dc49b197d037399.setContent(html_a622166c249c429af3048da316838b19);
             
         
 
-        polygon_d459a1b7302cf52a478b3e8967e62a62.bindPopup(popup_e3b4a189f3062123a061dbe15d1536af)
+        polygon_91dc139db9aec118d3fec8a6df96a195.bindPopup(popup_b955de2c3f18ff563dc49b197d037399)
         ;
 
         
     
     
-            polygon_d459a1b7302cf52a478b3e8967e62a62.bindTooltip(
+            polygon_91dc139db9aec118d3fec8a6df96a195.bindTooltip(
                 `<div>
                       Grand Isle - VT-CD21
                  </div>`,

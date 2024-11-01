@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_af392f036e216ed41308bfe5760c9f1c {
+                #map_28b78c86cbe00eb93ef26c3a5a9a31c2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Clermont - OH-CD02</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_af392f036e216ed41308bfe5760c9f1c" ></div>
+            <div class="folium-map" id="map_28b78c86cbe00eb93ef26c3a5a9a31c2" ></div>
         
 </body>
 <script>
     
     
-            var map_af392f036e216ed41308bfe5760c9f1c = L.map(
-                "map_af392f036e216ed41308bfe5760c9f1c",
+            var map_28b78c86cbe00eb93ef26c3a5a9a31c2 = L.map(
+                "map_28b78c86cbe00eb93ef26c3a5a9a31c2",
                 {
                     center: [38.810563668207415, -84.21314751750373],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_af392f036e216ed41308bfe5760c9f1c);
+            L.control.scale().addTo(map_28b78c86cbe00eb93ef26c3a5a9a31c2);
 
             
 
         
     
-            var tile_layer_de7169f0e6fb6777e4a7ef3fc7c5015b = L.tileLayer(
+            var tile_layer_389d3f74cbbc098b9dbb5a51351dd246 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_de7169f0e6fb6777e4a7ef3fc7c5015b.addTo(map_af392f036e216ed41308bfe5760c9f1c);
+            tile_layer_389d3f74cbbc098b9dbb5a51351dd246.addTo(map_28b78c86cbe00eb93ef26c3a5a9a31c2);
         
     
-            var polygon_c469626f476136fdccd546fa7350e4e2 = L.polygon(
+            var polygon_65664fe2eb11ad658445da57589f0556 = L.polygon(
                 [[38.80571947600637, -84.21291086973969], [38.81373451824083, -84.21732476885947], [38.814811999999975, -84.216528], [38.81474000000002, -84.216537], [38.814560000000036, -84.216553], [38.81435700000004, -84.216553], [38.814109000000016, -84.216537], [38.813963999999956, -84.216522], [38.81379700000003, -84.216499], [38.813597000000016, -84.216439], [38.81348899999999, -84.216408], [38.81335199999999, -84.216362], [38.81326600000001, -84.216331], [38.81305700000001, -84.21624], [38.812906000000034, -84.216163], [38.81267300000002, -84.216026], [38.81246699999998, -84.215881], [38.812356999999984, -84.215797], [38.81228599999996, -84.215736], [38.812163999999996, -84.215632], [38.81209, -84.215568], [38.81193300000002, -84.215416], [38.81177199999999, -84.21524], [38.81154899999999, -84.214958], [38.811440999999995, -84.214805], [38.81150699999999, -84.214755], [38.811812999999994, -84.214452], [38.811895, -84.214378], [38.81240699999998, -84.213921], [38.81233699999997, -84.213836], [38.81220500000003, -84.2136], [38.81211100000001, -84.213425], [38.81202199999996, -84.213272], [38.81187200000001, -84.213028], [38.81183000000002, -84.212974], [38.81177899999999, -84.212906], [38.81173700000001, -84.212852], [38.81170400000004, -84.212776], [38.81159900000004, -84.212555], [38.811443000000025, -84.212235], [38.811367000000054, -84.212082], [38.81126400000003, -84.211891], [38.81122599999996, -84.211815], [38.811173999999994, -84.211715], [38.81113700000001, -84.211662], [38.811094000000026, -84.211563], [38.81101300000002, -84.211411], [38.810871999999996, -84.211151], [38.810759, -84.210938], [38.810560999999964, -84.210556], [38.810510000000015, -84.210495], [38.810480999999974, -84.210419], [38.81041900000003, -84.210289], [38.81028300000003, -84.210045], [38.810117999999996, -84.209755], [38.810004999999975, -84.209549], [38.80994400000004, -84.209435], [38.80987399999997, -84.209328], [38.80976899999998, -84.209122], [38.809685, -84.208962], [38.80956600000002, -84.208725], [38.80949499999997, -84.20858], [38.809429000000016, -84.20845800000001], [38.80937799999998, -84.20836600000001], [38.809357999999996, -84.208334], [38.80932500000001, -84.208287], [38.808941, -84.207489], [38.808554000000015, -84.20780300000001], [38.80795, -84.208323], [38.807478999999994, -84.20872], [38.80699500000003, -84.209132], [38.80637799999998, -84.209663], [38.80525433708145, -84.21072894670874], [38.80570200529196, -84.2128799991914], [38.80571947600637, -84.21291086973969]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_af392f036e216ed41308bfe5760c9f1c);
+            ).addTo(map_28b78c86cbe00eb93ef26c3a5a9a31c2);
         
     
-        var popup_5fdde291f5eee507d5ecfbe53fb66502 = L.popup({"maxWidth": 300});
+        var popup_dd9589a3e61e030c323a668b29c46f50 = L.popup({"maxWidth": 300});
 
         
             
-                var html_033a2ddeedc3782f8bd692a85dde11dc = $(`<div id="html_033a2ddeedc3782f8bd692a85dde11dc" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clermont - OH-CD02</h4>                              </div>         </div>`)[0];
-                popup_5fdde291f5eee507d5ecfbe53fb66502.setContent(html_033a2ddeedc3782f8bd692a85dde11dc);
+                var html_52f032d6440eaeb1c39e1e6ed35304b3 = $(`<div id="html_52f032d6440eaeb1c39e1e6ed35304b3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clermont - OH-CD02</h4>                              </div>         </div>`)[0];
+                popup_dd9589a3e61e030c323a668b29c46f50.setContent(html_52f032d6440eaeb1c39e1e6ed35304b3);
             
         
 
-        polygon_c469626f476136fdccd546fa7350e4e2.bindPopup(popup_5fdde291f5eee507d5ecfbe53fb66502)
+        polygon_65664fe2eb11ad658445da57589f0556.bindPopup(popup_dd9589a3e61e030c323a668b29c46f50)
         ;
 
         
     
     
-            polygon_c469626f476136fdccd546fa7350e4e2.bindTooltip(
+            polygon_65664fe2eb11ad658445da57589f0556.bindTooltip(
                 `<div>
                       Clermont - OH-CD02
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_2ad38e8ea2ca5bffab7937c2d7ffb3d1 = L.polygon(
+            var polygon_62102671905e44361c69bc0a51e498d4 = L.polygon(
                 [[38.80583500000002, -84.213115], [38.80607599999996, -84.213356], [38.80628300000002, -84.213567], [38.80634400000005, -84.213624], [38.80678699999999, -84.21401], [38.80697300000001, -84.214188], [38.807187, -84.214377], [38.80754400000003, -84.214755], [38.80888800000001, -84.216445], [38.81016200000003, -84.218204], [38.81064499999999, -84.218795], [38.811473999999976, -84.219719], [38.81227500000001, -84.218404], [38.81373451824083, -84.21732476885947], [38.80571947600637, -84.21291086973969], [38.80583500000002, -84.213115]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_af392f036e216ed41308bfe5760c9f1c);
+            ).addTo(map_28b78c86cbe00eb93ef26c3a5a9a31c2);
         
     
-        var popup_3d46f9155a9da1939e4cc09914ae84be = L.popup({"maxWidth": 300});
+        var popup_97b352db96a9bb173818e96c3ab4f390 = L.popup({"maxWidth": 300});
 
         
             
-                var html_16a82adffa783422c700bace17fab405 = $(`<div id="html_16a82adffa783422c700bace17fab405" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clermont - OH-CD04</h4>                              </div>         </div>`)[0];
-                popup_3d46f9155a9da1939e4cc09914ae84be.setContent(html_16a82adffa783422c700bace17fab405);
+                var html_ac8567cced1558c21c4046ee03f02b74 = $(`<div id="html_ac8567cced1558c21c4046ee03f02b74" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clermont - OH-CD04</h4>                              </div>         </div>`)[0];
+                popup_97b352db96a9bb173818e96c3ab4f390.setContent(html_ac8567cced1558c21c4046ee03f02b74);
             
         
 
-        polygon_2ad38e8ea2ca5bffab7937c2d7ffb3d1.bindPopup(popup_3d46f9155a9da1939e4cc09914ae84be)
+        polygon_62102671905e44361c69bc0a51e498d4.bindPopup(popup_97b352db96a9bb173818e96c3ab4f390)
         ;
 
         
     
     
-            polygon_2ad38e8ea2ca5bffab7937c2d7ffb3d1.bindTooltip(
+            polygon_62102671905e44361c69bc0a51e498d4.bindTooltip(
                 `<div>
                       Clermont - OH-CD04
                  </div>`,

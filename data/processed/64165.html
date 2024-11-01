@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6ea4dac52dbe5da209abebe8fa3438ec {
+                #map_9f445f97fe5bc6d4b25835d216efdec8 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Clay - MO-CD05</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -80,61 +94,81 @@
                 "></span>
                 <span> Clay - MO-CD06</span>
             </div>
+        
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Clay - MO-CD06</span>
+            </div>
         </div>
     
-            <div class="folium-map" id="map_6ea4dac52dbe5da209abebe8fa3438ec" ></div>
+            <div class="folium-map" id="map_9f445f97fe5bc6d4b25835d216efdec8" ></div>
         
 </body>
 <script>
     
     
-            var map_6ea4dac52dbe5da209abebe8fa3438ec = L.map(
-                "map_6ea4dac52dbe5da209abebe8fa3438ec",
+            var map_9f445f97fe5bc6d4b25835d216efdec8 = L.map(
+                "map_9f445f97fe5bc6d4b25835d216efdec8",
                 {
-                    center: [39.32111516134212, -94.5742342044416],
+                    center: [39.321631964309255, -94.57618045208406],
                     crs: L.CRS.EPSG3857,
                     zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_6ea4dac52dbe5da209abebe8fa3438ec);
+            L.control.scale().addTo(map_9f445f97fe5bc6d4b25835d216efdec8);
 
             
 
         
     
-            var tile_layer_985131985b80aa0ba763ab51f56a39dd = L.tileLayer(
+            var tile_layer_3c1581d36a209e533ec62ac3f2f3677f = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_985131985b80aa0ba763ab51f56a39dd.addTo(map_6ea4dac52dbe5da209abebe8fa3438ec);
+            tile_layer_3c1581d36a209e533ec62ac3f2f3677f.addTo(map_9f445f97fe5bc6d4b25835d216efdec8);
         
     
-            var polygon_b6a545393337878958909f8eda00244c = L.polygon(
+            var polygon_7c69e4d0c0d793440900ec2e555ceb49 = L.polygon(
                 [[39.30882099999999, -94.600665], [39.31090799999995, -94.600708], [39.311496, -94.60071800000001], [39.312125999999985, -94.600728], [39.31854000000003, -94.60082], [39.320828811357615, -94.60084653333124], [39.333148999999956, -94.60076500000001], [39.327547725321594, -94.56061550211533], [39.32678400000002, -94.560615], [39.32569600000001, -94.560614], [39.32542199999999, -94.560614], [39.323911000000045, -94.560613], [39.32228400000004, -94.560612], [39.32228700000005, -94.559181], [39.322288, -94.556821], [39.32228899999998, -94.555853], [39.321793000000035, -94.555856], [39.31862599999997, -94.555863], [39.31862900000001, -94.547375], [39.31840699999997, -94.547376], [39.31839500000005, -94.542899], [39.31396799999999, -94.542883], [39.31127000000004, -94.542911], [39.31132699999995, -94.547383], [39.311371, -94.551849], [39.311405, -94.554895], [39.31142600000002, -94.556711], [39.311469000000024, -94.560518], [39.31155700000001, -94.567288], [39.311569999999996, -94.56826900000002], [39.31160400000001, -94.57074000000001], [39.31159499999999, -94.57147100000002], [39.311545000000024, -94.572564], [39.31146699999997, -94.573484], [39.31135800000001, -94.574407], [39.31099999999995, -94.576733], [39.310874999999974, -94.577545], [39.31006299999994, -94.582831], [39.30986999999999, -94.58409], [39.309839, -94.584308], [39.309793000000006, -94.584592], [39.309738000000024, -94.584952], [39.30884599999998, -94.590831], [39.308660000000025, -94.592059], [39.307967000000026, -94.59664], [39.30773200000001, -94.598195], [39.30739699999997, -94.600621], [39.30839300000005, -94.600645], [39.30882099999999, -94.600665]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6ea4dac52dbe5da209abebe8fa3438ec);
+            ).addTo(map_9f445f97fe5bc6d4b25835d216efdec8);
         
     
-        var popup_405dc24143145f4c8779004adf6ff2be = L.popup({"maxWidth": 300});
+        var popup_7670ed1185c4d17c74342428f8345b66 = L.popup({"maxWidth": 300});
 
         
             
-                var html_07f5b07f73765e4204d71778b63d6be1 = $(`<div id="html_07f5b07f73765e4204d71778b63d6be1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD05</h4>                              </div>         </div>`)[0];
-                popup_405dc24143145f4c8779004adf6ff2be.setContent(html_07f5b07f73765e4204d71778b63d6be1);
+                var html_760e50f30e1cc1db234e68a661e6a7ac = $(`<div id="html_760e50f30e1cc1db234e68a661e6a7ac" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD05</h4>                              </div>         </div>`)[0];
+                popup_7670ed1185c4d17c74342428f8345b66.setContent(html_760e50f30e1cc1db234e68a661e6a7ac);
             
         
 
-        polygon_b6a545393337878958909f8eda00244c.bindPopup(popup_405dc24143145f4c8779004adf6ff2be)
+        polygon_7c69e4d0c0d793440900ec2e555ceb49.bindPopup(popup_7670ed1185c4d17c74342428f8345b66)
         ;
 
         
     
     
-            polygon_b6a545393337878958909f8eda00244c.bindTooltip(
+            polygon_7c69e4d0c0d793440900ec2e555ceb49.bindTooltip(
                 `<div>
                       Clay - MO-CD05
                  </div>`,
@@ -142,28 +176,57 @@
             );
         
     
-            var polygon_9cabbba59f863ca8215c49be112c3a3c = L.polygon(
-                [[39.333185000000014, -94.600764], [39.33330000000002, -94.600762], [39.33323199999997, -94.596045], [39.333316000000025, -94.585428], [39.33330700000001, -94.584499], [39.33330599999999, -94.584378], [39.33329199999997, -94.58374], [39.333105000000025, -94.574545], [39.33310599999998, -94.574476], [39.333105000000025, -94.573772], [39.33310599999998, -94.57363700000002], [39.33310700000005, -94.573567], [39.33311000000002, -94.573272], [39.333133, -94.57012], [39.33314300000002, -94.568873], [39.333160000000035, -94.56662700000001], [39.33316500000002, -94.56597400000001], [39.333188999999976, -94.562778], [39.33319000000002, -94.562587], [39.33314000000003, -94.561186], [39.33314100000002, -94.56058], [39.332642000000035, -94.560573], [39.33093199999997, -94.560618], [39.32830499999999, -94.560616], [39.327547725321594, -94.56061550211533], [39.333148999999956, -94.60076500000001], [39.333185000000014, -94.600764]],
+            var polygon_602fe4c80307e45416353b2550df5b62 = L.polygon(
+                [[39.32561299999999, -94.600902], [39.33080699999997, -94.600815], [39.333058000000065, -94.600767], [39.333148999999956, -94.60076500000001], [39.320828811357615, -94.60084653333124], [39.32561299999999, -94.600902]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6ea4dac52dbe5da209abebe8fa3438ec);
+            ).addTo(map_9f445f97fe5bc6d4b25835d216efdec8);
         
     
-        var popup_2dfa3fc61716342cd4b24e4278af70bd = L.popup({"maxWidth": 300});
+        var popup_e5af347d6141189495673a8928ca0664 = L.popup({"maxWidth": 300});
 
         
             
-                var html_1980d6c6437d3f5cdcfa9aa2524b49ae = $(`<div id="html_1980d6c6437d3f5cdcfa9aa2524b49ae" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD06</h4>                              </div>         </div>`)[0];
-                popup_2dfa3fc61716342cd4b24e4278af70bd.setContent(html_1980d6c6437d3f5cdcfa9aa2524b49ae);
+                var html_30e02576a28bb0fdf38d8c2e827c29d4 = $(`<div id="html_30e02576a28bb0fdf38d8c2e827c29d4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD06</h4>                              </div>         </div>`)[0];
+                popup_e5af347d6141189495673a8928ca0664.setContent(html_30e02576a28bb0fdf38d8c2e827c29d4);
             
         
 
-        polygon_9cabbba59f863ca8215c49be112c3a3c.bindPopup(popup_2dfa3fc61716342cd4b24e4278af70bd)
+        polygon_602fe4c80307e45416353b2550df5b62.bindPopup(popup_e5af347d6141189495673a8928ca0664)
         ;
 
         
     
     
-            polygon_9cabbba59f863ca8215c49be112c3a3c.bindTooltip(
+            polygon_602fe4c80307e45416353b2550df5b62.bindTooltip(
+                `<div>
+                      Clay - MO-CD06
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var polygon_3060f3947f889fe1ce16db5b6e84558e = L.polygon(
+                [[39.333185000000014, -94.600764], [39.33330000000002, -94.600762], [39.33323199999997, -94.596045], [39.333316000000025, -94.585428], [39.33330700000001, -94.584499], [39.33330599999999, -94.584378], [39.33329199999997, -94.58374], [39.333105000000025, -94.574545], [39.33310599999998, -94.574476], [39.333105000000025, -94.573772], [39.33310599999998, -94.57363700000002], [39.33310700000005, -94.573567], [39.33311000000002, -94.573272], [39.333133, -94.57012], [39.33314300000002, -94.568873], [39.333160000000035, -94.56662700000001], [39.33316500000002, -94.56597400000001], [39.333188999999976, -94.562778], [39.33319000000002, -94.562587], [39.33314000000003, -94.561186], [39.33314100000002, -94.56058], [39.332642000000035, -94.560573], [39.33093199999997, -94.560618], [39.32830499999999, -94.560616], [39.327547725321594, -94.56061550211533], [39.333148999999956, -94.60076500000001], [39.333185000000014, -94.600764]],
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_9f445f97fe5bc6d4b25835d216efdec8);
+        
+    
+        var popup_cf427a9c6937cd701e574d711edb52f0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_9813cc7997b4d08acabfef5da3843482 = $(`<div id="html_9813cc7997b4d08acabfef5da3843482" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD06</h4>                              </div>         </div>`)[0];
+                popup_cf427a9c6937cd701e574d711edb52f0.setContent(html_9813cc7997b4d08acabfef5da3843482);
+            
+        
+
+        polygon_3060f3947f889fe1ce16db5b6e84558e.bindPopup(popup_cf427a9c6937cd701e574d711edb52f0)
+        ;
+
+        
+    
+    
+            polygon_3060f3947f889fe1ce16db5b6e84558e.bindTooltip(
                 `<div>
                       Clay - MO-CD06
                  </div>`,

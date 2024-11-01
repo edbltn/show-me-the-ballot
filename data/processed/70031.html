@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_35b203c400973906d0f5e77ba71ddd27 {
+                #map_1455cb0759342322a5c849c91ebc6ca8 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> St. Charles - LA-CD02</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_35b203c400973906d0f5e77ba71ddd27" ></div>
+            <div class="folium-map" id="map_1455cb0759342322a5c849c91ebc6ca8" ></div>
         
 </body>
 <script>
     
     
-            var map_35b203c400973906d0f5e77ba71ddd27 = L.map(
-                "map_35b203c400973906d0f5e77ba71ddd27",
+            var map_1455cb0759342322a5c849c91ebc6ca8 = L.map(
+                "map_1455cb0759342322a5c849c91ebc6ca8",
                 {
                     center: [29.94371264362085, -90.30121283973803],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_35b203c400973906d0f5e77ba71ddd27);
+            L.control.scale().addTo(map_1455cb0759342322a5c849c91ebc6ca8);
 
             
 
         
     
-            var tile_layer_a10862125aa46928adceb7dfd1b828b5 = L.tileLayer(
+            var tile_layer_dc984bf2574503322a94a6d355b93c88 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_a10862125aa46928adceb7dfd1b828b5.addTo(map_35b203c400973906d0f5e77ba71ddd27);
+            tile_layer_dc984bf2574503322a94a6d355b93c88.addTo(map_1455cb0759342322a5c849c91ebc6ca8);
         
     
-            var polygon_12689816f7e4257ad5370ddc41250ccc = L.polygon(
+            var polygon_b77a325399eb4e37e01ed2ccd68dafcf = L.polygon(
                 [[29.96197199999996, -90.278235], [29.96166899999998, -90.27816], [29.941402999999994, -90.275655], [29.94082600000003, -90.275584], [29.940682999999986, -90.275566], [29.940189000000004, -90.275527], [29.939873999999975, -90.276336], [29.939027000000017, -90.278388], [29.937807999999997, -90.281288], [29.936514999999993, -90.28446100000001], [29.93498900000003, -90.288078], [29.933263000000043, -90.292205], [29.933142999999973, -90.292495], [29.931131000000008, -90.297386], [29.929507000000044, -90.301236], [29.929042000000024, -90.302337], [29.928701000000007, -90.303184], [29.92229799999994, -90.318517], [29.922128999999998, -90.318921], [29.92692399999998, -90.320269], [29.92828500000002, -90.320678], [29.92854800000005, -90.320739], [29.929525999999985, -90.320961], [29.930749000000024, -90.321239], [29.930897999999985, -90.321273], [29.931121999999974, -90.321366], [29.931556000000015, -90.321469], [29.931600000000017, -90.321482], [29.932852, -90.321847], [29.932970999999988, -90.32189100000001], [29.93643700000001, -90.323183], [29.93648900000002, -90.32293100000001], [29.936689000000026, -90.322311], [29.936981000000017, -90.321647], [29.937589000000017, -90.319953], [29.940313000000025, -90.31626100000001], [29.941012999999998, -90.315315], [29.941574, -90.314559], [29.94346799999996, -90.311981], [29.946527000000014, -90.308738], [29.94721200000004, -90.307968], [29.94835000000003, -90.306999], [29.952059999999967, -90.303596], [29.954537999999992, -90.301216], [29.955622999999978, -90.30017], [29.955865000000017, -90.299934], [29.956796000000015, -90.299095], [29.958026000000014, -90.297828], [29.95916099999999, -90.296546], [29.96048299999999, -90.295112], [29.96155030862542, -90.29362569214132], [29.96797099999996, -90.279533], [29.962472000000023, -90.278358], [29.96197199999996, -90.278235]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_35b203c400973906d0f5e77ba71ddd27);
+            ).addTo(map_1455cb0759342322a5c849c91ebc6ca8);
         
     
-        var popup_9786ed558c7127737ce76b8ed717a944 = L.popup({"maxWidth": 300});
+        var popup_af818f9af9220029b7a056eb141726fb = L.popup({"maxWidth": 300});
 
         
             
-                var html_41cb336de4c47a5652a5525bc73576b1 = $(`<div id="html_41cb336de4c47a5652a5525bc73576b1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Charles - LA-CD02</h4>                              </div>         </div>`)[0];
-                popup_9786ed558c7127737ce76b8ed717a944.setContent(html_41cb336de4c47a5652a5525bc73576b1);
+                var html_c58b5e6091cdcb7958fb9e04a41ec48e = $(`<div id="html_c58b5e6091cdcb7958fb9e04a41ec48e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Charles - LA-CD02</h4>                              </div>         </div>`)[0];
+                popup_af818f9af9220029b7a056eb141726fb.setContent(html_c58b5e6091cdcb7958fb9e04a41ec48e);
             
         
 
-        polygon_12689816f7e4257ad5370ddc41250ccc.bindPopup(popup_9786ed558c7127737ce76b8ed717a944)
+        polygon_b77a325399eb4e37e01ed2ccd68dafcf.bindPopup(popup_af818f9af9220029b7a056eb141726fb)
         ;
 
         
     
     
-            polygon_12689816f7e4257ad5370ddc41250ccc.bindTooltip(
+            polygon_b77a325399eb4e37e01ed2ccd68dafcf.bindTooltip(
                 `<div>
                       St. Charles - LA-CD02
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_8ed5771bb7a84635619e081c65b984ce = L.polygon(
+            var polygon_3c264a849e2c0e16b4cda37e0b8b8212 = L.polygon(
                 [[29.96193999999993, -90.293083], [29.964694000000005, -90.28762], [29.96630399999999, -90.283958], [29.96797099999996, -90.279533], [29.96155030862542, -90.29362569214132], [29.96193999999993, -90.293083]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_35b203c400973906d0f5e77ba71ddd27);
+            ).addTo(map_1455cb0759342322a5c849c91ebc6ca8);
         
     
-        var popup_9d1097027f80d013679a4a8d4edcc7ee = L.popup({"maxWidth": 300});
+        var popup_27ba0599915ae83b12680352558b8571 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f8f2c0e2ec71221a749d42ad3cdb388f = $(`<div id="html_f8f2c0e2ec71221a749d42ad3cdb388f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Charles - LA-CD06</h4>                              </div>         </div>`)[0];
-                popup_9d1097027f80d013679a4a8d4edcc7ee.setContent(html_f8f2c0e2ec71221a749d42ad3cdb388f);
+                var html_3eb08cfcd17b242bf1aff54a7c8f397a = $(`<div id="html_3eb08cfcd17b242bf1aff54a7c8f397a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> St. Charles - LA-CD06</h4>                              </div>         </div>`)[0];
+                popup_27ba0599915ae83b12680352558b8571.setContent(html_3eb08cfcd17b242bf1aff54a7c8f397a);
             
         
 
-        polygon_8ed5771bb7a84635619e081c65b984ce.bindPopup(popup_9d1097027f80d013679a4a8d4edcc7ee)
+        polygon_3c264a849e2c0e16b4cda37e0b8b8212.bindPopup(popup_27ba0599915ae83b12680352558b8571)
         ;
 
         
     
     
-            polygon_8ed5771bb7a84635619e081c65b984ce.bindTooltip(
+            polygon_3c264a849e2c0e16b4cda37e0b8b8212.bindTooltip(
                 `<div>
                       St. Charles - LA-CD06
                  </div>`,

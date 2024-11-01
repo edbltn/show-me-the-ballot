@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_220a48238ba5d9244062fe3ee46c5f4c {
+                #map_a6720a3b3fa5969af650e5fa9b3f1e14 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,22 +40,29 @@
     
     
         <div style="
-            z-index:9999
-            position: fixed; 
-            bottom: 25px; 
-            left: 25px; 
-            width: auto; 
-            height: auto;
-            border-radius: 4px;
-            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            position: fixed;
+            bottom: 50px;
+            right: 50px;
+            z-index: 1000;
             background-color: white;
-            padding: 10px 15px;
+            padding: 10px;
+            border: 2px solid rgba(0,0,0,0.2);
+            border-radius: 4px;
             font-family: Arial, sans-serif;
             font-size: 12px;
+            max-width: 200px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
             ">
             <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -68,7 +75,14 @@
                 <span> Clay - MO-CD05</span>
             </div>
         
-            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            ">
                 <span style="
                     display: inline-block;
                     width: 12px;
@@ -82,14 +96,14 @@
             </div>
         </div>
     
-            <div class="folium-map" id="map_220a48238ba5d9244062fe3ee46c5f4c" ></div>
+            <div class="folium-map" id="map_a6720a3b3fa5969af650e5fa9b3f1e14" ></div>
         
 </body>
 <script>
     
     
-            var map_220a48238ba5d9244062fe3ee46c5f4c = L.map(
-                "map_220a48238ba5d9244062fe3ee46c5f4c",
+            var map_a6720a3b3fa5969af650e5fa9b3f1e14 = L.map(
+                "map_a6720a3b3fa5969af650e5fa9b3f1e14",
                 {
                     center: [39.32091377219844, -94.52249158041967],
                     crs: L.CRS.EPSG3857,
@@ -98,43 +112,43 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_220a48238ba5d9244062fe3ee46c5f4c);
+            L.control.scale().addTo(map_a6720a3b3fa5969af650e5fa9b3f1e14);
 
             
 
         
     
-            var tile_layer_8a678c281df3b2bcc81de650d5fbf96e = L.tileLayer(
+            var tile_layer_f6de32a82d213cc3c50e5c35cb186a49 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_8a678c281df3b2bcc81de650d5fbf96e.addTo(map_220a48238ba5d9244062fe3ee46c5f4c);
+            tile_layer_f6de32a82d213cc3c50e5c35cb186a49.addTo(map_a6720a3b3fa5969af650e5fa9b3f1e14);
         
     
-            var polygon_722e0251b51752266c23800ccdd83cf1 = L.polygon(
+            var polygon_7a724c7099866ee80618f5a0cfcfdd96 = L.polygon(
                 [[39.310977000000015, -94.491751], [39.31023099999997, -94.49176100000001], [39.31004200000002, -94.49176100000001], [39.31003800000002, -94.492036], [39.30983599999998, -94.492036], [39.310005000000004, -94.50198100000001], [39.310014, -94.502305], [39.30988600000006, -94.502524], [39.309724000000024, -94.502779], [39.309583999999965, -94.503002], [39.309289000000014, -94.503411], [39.30919399999995, -94.503545], [39.30921999999999, -94.503609], [39.30926800000001, -94.503686], [39.30936900000003, -94.503838], [39.309481, -94.504027], [39.309515999999945, -94.504099], [39.30955000000001, -94.504173], [39.30958399999995, -94.504248], [39.30961500000004, -94.504327], [39.309642, -94.50440700000001], [39.30966700000001, -94.504485], [39.30969000000002, -94.504561], [39.30971299999999, -94.504636], [39.30973399999997, -94.504709], [39.309755000000024, -94.504782], [39.30977600000005, -94.504853], [39.30979599999991, -94.50492500000001], [39.30982800000005, -94.505036], [39.309837000000044, -94.505068], [39.309877999999955, -94.505212], [39.309920000000005, -94.50535700000002], [39.30994100000003, -94.50543], [39.309960999999994, -94.505503], [39.30997999999998, -94.505573], [39.31012700000001, -94.506052], [39.31013000000002, -94.506124], [39.310207, -94.509072], [39.31036500000002, -94.514557], [39.310505000000006, -94.514966], [39.310637, -94.515422], [39.31076700000003, -94.515983], [39.31086599999998, -94.516555], [39.310937999999965, -94.517183], [39.310965999999986, -94.517591], [39.311173, -94.533797], [39.31127000000004, -94.542911], [39.31396799999999, -94.542883], [39.31839500000005, -94.542899], [39.31840699999997, -94.547376], [39.31862900000001, -94.547375], [39.31862599999997, -94.555863], [39.321793000000035, -94.555856], [39.32228899999998, -94.555853], [39.322288, -94.556821], [39.32228700000005, -94.559181], [39.32228400000004, -94.560612], [39.323911000000045, -94.560613], [39.32542199999999, -94.560614], [39.32569600000001, -94.560614], [39.32678400000002, -94.560615], [39.327547725321594, -94.56061550211533], [39.31793999999999, -94.491977], [39.31271226488245, -94.49173869369537], [39.310977000000015, -94.491751]],
                 {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_220a48238ba5d9244062fe3ee46c5f4c);
+            ).addTo(map_a6720a3b3fa5969af650e5fa9b3f1e14);
         
     
-        var popup_3c216748b857e8ff37d0628aa0087504 = L.popup({"maxWidth": 300});
+        var popup_3f82388b8bc60572f2a11f57a5197dc2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_8bab8462747c715c6d9fd6d2ad498db3 = $(`<div id="html_8bab8462747c715c6d9fd6d2ad498db3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD05</h4>                              </div>         </div>`)[0];
-                popup_3c216748b857e8ff37d0628aa0087504.setContent(html_8bab8462747c715c6d9fd6d2ad498db3);
+                var html_baf1409a982374a759b04cb43724cf4e = $(`<div id="html_baf1409a982374a759b04cb43724cf4e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD05</h4>                              </div>         </div>`)[0];
+                popup_3f82388b8bc60572f2a11f57a5197dc2.setContent(html_baf1409a982374a759b04cb43724cf4e);
             
         
 
-        polygon_722e0251b51752266c23800ccdd83cf1.bindPopup(popup_3c216748b857e8ff37d0628aa0087504)
+        polygon_7a724c7099866ee80618f5a0cfcfdd96.bindPopup(popup_3f82388b8bc60572f2a11f57a5197dc2)
         ;
 
         
     
     
-            polygon_722e0251b51752266c23800ccdd83cf1.bindTooltip(
+            polygon_7a724c7099866ee80618f5a0cfcfdd96.bindTooltip(
                 `<div>
                       Clay - MO-CD05
                  </div>`,
@@ -142,28 +156,28 @@
             );
         
     
-            var polygon_7d3fd873ef7a35f7732d20ff38131470 = L.polygon(
+            var polygon_c295c812859e5e9895d7842f86c6cfb5 = L.polygon(
                 [[39.33263600000002, -94.558661], [39.332621, -94.554084], [39.332614, -94.552369], [39.33261199999994, -94.551877], [39.332606999999996, -94.550704], [39.332599999999985, -94.548394], [39.33259900000006, -94.547554], [39.33260499999999, -94.547438], [39.33260900000002, -94.547381], [39.332632999999994, -94.547246], [39.33268899999997, -94.547062], [39.33271300000001, -94.546881], [39.33273699999997, -94.546191], [39.332708000000004, -94.544928], [39.33269600000003, -94.543554], [39.332694999999966, -94.543326], [39.33268099999997, -94.543052], [39.332663999999944, -94.54287700000002], [39.332556999999966, -94.542347], [39.33249499999998, -94.541775], [39.332451000000006, -94.541214], [39.332228999999984, -94.538955], [39.332128, -94.536807], [39.33214399999996, -94.536315], [39.332194000000015, -94.535633], [39.332205000000016, -94.535161], [39.33215500000001, -94.532492], [39.332135, -94.52970500000002], [39.33212499999999, -94.529556], [39.33219799999996, -94.528943], [39.33220599999997, -94.528593], [39.33218399999997, -94.528087], [39.33213100000004, -94.527681], [39.332102, -94.526779], [39.332088999999996, -94.523812], [39.332079000000014, -94.520503], [39.332095, -94.517548], [39.33203599999999, -94.506056], [39.331989000000014, -94.500859], [39.33198400000003, -94.500309], [39.33197600000001, -94.491865], [39.33027299999999, -94.491855], [39.32601099999998, -94.491883], [39.32472500000003, -94.491889], [39.32348300000001, -94.491894], [39.32308400000005, -94.491916], [39.32203799999999, -94.49184500000001], [39.320173, -94.491719], [39.318989999999964, -94.491738], [39.31793600000002, -94.49173], [39.315912000000004, -94.49171600000001], [39.31271226488245, -94.49173869369537], [39.31793999999999, -94.491977], [39.327547725321594, -94.56061550211533], [39.32830499999999, -94.560616], [39.33093199999997, -94.560618], [39.332642000000035, -94.560573], [39.33263600000002, -94.558661]],
                 {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_220a48238ba5d9244062fe3ee46c5f4c);
+            ).addTo(map_a6720a3b3fa5969af650e5fa9b3f1e14);
         
     
-        var popup_6a8c28dfa37131d5c5328655992afabb = L.popup({"maxWidth": 300});
+        var popup_c5adc0354f1cb0a4d50d5e4444655da6 = L.popup({"maxWidth": 300});
 
         
             
-                var html_7d775d6fafec9e10687d43a1025c74dc = $(`<div id="html_7d775d6fafec9e10687d43a1025c74dc" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD06</h4>                              </div>         </div>`)[0];
-                popup_6a8c28dfa37131d5c5328655992afabb.setContent(html_7d775d6fafec9e10687d43a1025c74dc);
+                var html_8e884fba8c90a8e4b81bc081ffd3f8ab = $(`<div id="html_8e884fba8c90a8e4b81bc081ffd3f8ab" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clay - MO-CD06</h4>                              </div>         </div>`)[0];
+                popup_c5adc0354f1cb0a4d50d5e4444655da6.setContent(html_8e884fba8c90a8e4b81bc081ffd3f8ab);
             
         
 
-        polygon_7d3fd873ef7a35f7732d20ff38131470.bindPopup(popup_6a8c28dfa37131d5c5328655992afabb)
+        polygon_c295c812859e5e9895d7842f86c6cfb5.bindPopup(popup_c5adc0354f1cb0a4d50d5e4444655da6)
         ;
 
         
     
     
-            polygon_7d3fd873ef7a35f7732d20ff38131470.bindTooltip(
+            polygon_c295c812859e5e9895d7842f86c6cfb5.bindTooltip(
                 `<div>
                       Clay - MO-CD06
                  </div>`,
