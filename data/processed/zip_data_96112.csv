@@ -1,0 +1,445 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+2329,California,CA-CD01,Modoc,96112,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 11      |
+|                         | Average Words per Question      | 59.3|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 11|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.5  years of education      |
+| **Length**              | Ballot Length                 | 4,656 characters       |
+|                         | Word Count                     | 652                         |
+
+---
+# Ballot for Modoc County, California
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Peace and Freedom Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (American Independent Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House California District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rose Penelope Yee** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rose_Penelope_Yee)
+
+- [ ] **Doug LaMalfa** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Doug_LaMalfa)
+
+---
+
+## U.S. Senate California
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steve Garvey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Garvey_(California))
+
+- [ ] **Adam Schiff** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Schiff)
+
+---
+
+## California State Assembly District 1
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tenessa Audette** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tenessa_Audette)
+
+- [ ] **Heather Hadwick** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Heather_Hadwick)
+
+---
+
+## California State Senate District 1
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Megan Dahle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Dahle)
+
+- [ ] **David Fennell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Fennell)
+
+---
+
+## California Proposition 2, Public Education Facilities Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 3, Right to Marry and Repeal Proposition 8 Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 32, $18 Minimum Wage Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 33, Prohibit State Limitations on Local Rent Control Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 34, Require Certain Participants in Medi-Cal Rx Program to Spend 98% of Revenues on Patient Care Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 35, Managed Care Organization Tax Authorization Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 36, Drug and Theft Crime Penalties and Treatment-Mandated Felonies Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 4, Parks, Environment, Energy, and Water Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 5, Lower Supermajority Requirement to 55% for Local Bond Measures to Fund Housing and Public Infrastructure Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 6, Remove Involuntary Servitude as Punishment for Crime Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Tulelake Multi-County Fire Protection District, California, Measure U, Parcel Tax Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",11.0,59.27272727272727,2.1818181818181817,5.0,11.0,0.0,0.0,17.5,4656.0,652.0
+2524,California,CA-CD02,Modoc,96112,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 11      |
+|                         | Average Words per Question      | 41.8|
+|                         | Average Options per Question    | 1.9|
+|                         | Number of Measures              | 7|
+|                         | Number of Races                 | 2||
+|                         | Number of Non-Competitive Races | 3|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.4  years of education      |
+| **Length**              | Ballot Length                 | 3,290 characters       |
+|                         | Word Count                     | 460                         |
+
+---
+# Ballot for Modoc County, California
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joel Skousen** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Skousen)
+  - Running Mate: Rik Combs
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. Senate Nevada
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Janine Hansen** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Janine_Hansen)
+
+- [ ] **Chris Cunningham** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Cunningham_(Nevada))
+
+- [ ] **Jacky Rosen** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jacky_Rosen)
+
+- [ ] **Sam Brown** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sam_Brown_(Nevada))
+
+---
+
+## Nevada Supreme Court Seat C
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elissa Cadish** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elissa_Cadish)
+
+---
+
+## Nevada Supreme Court Seat F
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patricia Lee** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Patricia_Lee)
+
+---
+
+## Nevada Supreme Court Seat G
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lidia Stiglich** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lidia_Stiglich)
+
+---
+
+## Nevada Question 1, Remove Constitutional Status of Board of Regents Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 2, Revising Language Related to Public Entities for Individuals with Mental Illness, Blindness, or Deafness Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 3, Top-Five Ranked-Choice Voting Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 4, Remove Slavery as Punishment for Crime from Constitution Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 5, Sales Tax Exemption for Diapers Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 6, Right to Abortion Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 7, Require Voter Identification Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",11.0,41.81818181818182,1.9090909090909092,2.0,7.0,3.0,0.0,16.4,3290.0,460.0

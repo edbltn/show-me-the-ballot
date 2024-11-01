@@ -1,0 +1,835 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+2388,California,CA-CD01,Sutter,95692,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 28.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 996.0|
+|                         | Average Options per Question    | 4.0|
+|                         | Number of Measures              | 10|
+|                         | Number of Races                 | 12||
+|                         | Number of Non-Competitive Races | 0|
+|                         | Non-Partisan Races  | ## Browns Elementary School, At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Bruce Poland** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bruce_Poland_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Darren Stokes** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Darren_Stokes_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Elisabeth Turold** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elisabeth_Turold_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Joe Dickson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joe_Dickson_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+---
+
+, ## East Nicolaus Joint Union High School District school board At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **David Fales** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Fales_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Ed Henderson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ed_Henderson_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jeffery C. Moore** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffery_C._Moore_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jill Bramhill** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Bramhill_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Thomas Engler** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_Engler_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+---
+
+, ## Sutter County Board of Education Trustee Area 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **June McJunkin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/June_McJunkin_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+- [ ] **Mike Reid** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Reid_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.9  years of education      |
+| **Length**              | Ballot Length                 | 9,095 characters       |
+|                         | Word Count                     | 996                         |
+
+---
+# Ballot for Sutter County, California
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert F. Kennedy Jr.** (American Independent Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Claudia De La Cruz** (Peace and Freedom Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House California District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rose Penelope Yee** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rose_Penelope_Yee)
+
+- [ ] **Doug LaMalfa** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Doug_LaMalfa)
+
+---
+
+## U.S. Senate California
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steve Garvey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Garvey_(California))
+
+- [ ] **Adam Schiff** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Schiff)
+
+---
+
+## California State Assembly District 3
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Aaron Draper** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Aaron_Draper)
+
+- [ ] **James Gallagher** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Gallagher_(California))
+
+---
+
+## California State Senate District 1
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Megan Dahle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Dahle)
+
+- [ ] **David Fennell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Fennell)
+
+---
+
+## Browns Elementary School, At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Bruce Poland** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bruce_Poland_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Darren Stokes** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Darren_Stokes_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Elisabeth Turold** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elisabeth_Turold_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Joe Dickson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joe_Dickson_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+---
+
+## East Nicolaus Joint Union High School District school board At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Thomas Engler** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_Engler_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jill Bramhill** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Bramhill_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Ed Henderson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ed_Henderson_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jeffery C. Moore** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffery_C._Moore_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **David Fales** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Fales_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+---
+
+## Sutter County Board of Education Trustee Area 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **June McJunkin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/June_McJunkin_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+- [ ] **Mike Reid** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Reid_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+---
+
+## Yuba Community College District Governing Board Trustee Area 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bill Cornelius** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Cornelius_(Yuba_Community_College_District_Governing_Board_Trustee_Area_3,_California,_candidate_2024))
+
+- [ ] **Rita Andrews** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rita_Andrews_(Yuba_Community_College_District_Governing_Board_Trustee_Area_3,_California,_candidate_2024))
+
+---
+
+## Yuba Community College District Governing Board Trustee Area 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Cassidy** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Cassidy_(Yuba_Community_College_District_Governing_Board_Trustee_Area_4,_California,_candidate_2024))
+
+- [ ] **Juan Delgado** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Juan_Delgado_(Yuba_Community_College_District_Governing_Board_Trustee_Area_4,_California,_candidate_2024))
+
+---
+
+## Yuba Community College District Governing Board Trustee Area 6
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Deborah Bautista Zavala** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deborah_Bautista_Zavala_(Yuba_Community_College_District_Governing_Board_Trustee_Area_6,_California,_candidate_2024))
+
+- [ ] **Jose L. Garcia** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jose_L._Garcia_(Yuba_Community_College_District_Governing_Board_Trustee_Area_6,_California,_candidate_2024))
+
+---
+
+## Yuba Community College District Governing Board Trustee Area 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeffrey Lee Dryden** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffrey_Lee_Dryden_(Yuba_Community_College_District_Governing_Board_Trustee_Area_7,_California,_candidate_2024))
+
+- [ ] **Douglas M. Harris** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Douglas_M._Harris_(Yuba_Community_College_District_Governing_Board_Trustee_Area_7,_California,_candidate_2024))
+
+---
+
+## California Proposition 2, Public Education Facilities Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 3, Right to Marry and Repeal Proposition 8 Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 32, $18 Minimum Wage Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 33, Prohibit State Limitations on Local Rent Control Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 34, Require Certain Participants in Medi-Cal Rx Program to Spend 98% of Revenues on Patient Care Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 35, Managed Care Organization Tax Authorization Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 36, Drug and Theft Crime Penalties and Treatment-Mandated Felonies Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 4, Parks, Environment, Energy, and Water Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 5, Lower Supermajority Requirement to 55% for Local Bond Measures to Fund Housing and Public Infrastructure Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 6, Remove Involuntary Servitude as Punishment for Crime Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,996.0,4.0,12.0,10.0,0.0,7.0,21.9,9095.0,996.0
+2705,California,CA-CD03,Sutter,95692,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 25.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 812.0|
+|                         | Average Options per Question    | 4.0|
+|                         | Number of Measures              | 10|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 0|
+|                         | Non-Partisan Races  | ## Browns Elementary School, At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Bruce Poland** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bruce_Poland_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Darren Stokes** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Darren_Stokes_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Elisabeth Turold** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elisabeth_Turold_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Joe Dickson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joe_Dickson_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+---
+
+, ## East Nicolaus Joint Union High School District school board At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **David Fales** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Fales_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Ed Henderson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ed_Henderson_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jeffery C. Moore** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffery_C._Moore_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jill Bramhill** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Bramhill_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Thomas Engler** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_Engler_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+---
+
+, ## Sutter County Board of Education Trustee Area 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **June McJunkin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/June_McJunkin_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+- [ ] **Mike Reid** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Reid_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.9  years of education      |
+| **Length**              | Ballot Length                 | 6,804 characters       |
+|                         | Word Count                     | 812                         |
+
+---
+# Ballot for Sutter County, California
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Peace and Freedom Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (American Independent Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House California District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Doug LaMalfa** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Doug_LaMalfa)
+
+- [ ] **Rose Penelope Yee** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rose_Penelope_Yee)
+
+---
+
+## U.S. Senate California
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steve Garvey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Garvey_(California))
+
+- [ ] **Adam Schiff** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Schiff)
+
+---
+
+## California State Assembly District 3
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Gallagher** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Gallagher_(California))
+
+- [ ] **Aaron Draper** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Aaron_Draper)
+
+---
+
+## California State Senate District 1
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Megan Dahle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Dahle)
+
+- [ ] **David Fennell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Fennell)
+
+---
+
+## Browns Elementary School, At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Darren Stokes** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Darren_Stokes_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Elisabeth Turold** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elisabeth_Turold_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Joe Dickson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joe_Dickson_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+- [ ] **Bruce Poland** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bruce_Poland_(Browns_Elementary_School,_At-large,_California,_candidate_2024))
+
+---
+
+## East Nicolaus Joint Union High School District school board At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **David Fales** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Fales_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Thomas Engler** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_Engler_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jill Bramhill** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Bramhill_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Jeffery C. Moore** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffery_C._Moore_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+- [ ] **Ed Henderson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ed_Henderson_(East_Nicolaus_School_Board,_California,_candidate_2024))
+
+---
+
+## Sutter County Board of Education Trustee Area 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Reid** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Reid_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+- [ ] **June McJunkin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/June_McJunkin_(Sutter_County_Board_of_Education_Trustee_Area_2,_California,_candidate_2024))
+
+---
+
+## California Proposition 2, Public Education Facilities Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 3, Right to Marry and Repeal Proposition 8 Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 32, $18 Minimum Wage Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 33, Prohibit State Limitations on Local Rent Control Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 34, Require Certain Participants in Medi-Cal Rx Program to Spend 98% of Revenues on Patient Care Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 35, Managed Care Organization Tax Authorization Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 36, Drug and Theft Crime Penalties and Treatment-Mandated Felonies Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 4, Parks, Environment, Energy, and Water Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 5, Lower Supermajority Requirement to 55% for Local Bond Measures to Fund Housing and Public Infrastructure Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## California Proposition 6, Remove Involuntary Servitude as Punishment for Crime Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,812.0,4.0,8.0,10.0,0.0,3.0,19.9,6804.0,812.0

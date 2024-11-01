@@ -1,0 +1,537 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+1927,Arkansas,AR-CD02,Sebastian,72901,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 15      |
+|                         | Average Words per Question      | 44.3|
+|                         | Average Options per Question    | 1.3|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 12|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.1  years of education      |
+| **Length**              | Ballot Length                 | 5,243 characters       |
+|                         | Word Count                     | 665                         |
+
+---
+# Ballot for Sebastian County, Arkansas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Christopher Garrity** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Garrity)
+  - Running Mate: Cody Ballard
+
+---
+
+## U.S. House Oklahoma District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ronnie Hopkins** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ronnie_Hopkins)
+
+- [ ] **Brandon Wade** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brandon_Wade)
+
+- [ ] **Josh Brecheen** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Josh_Brecheen)
+
+---
+
+## Oklahoma Corporation Commissioner
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chad Williams** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Williams_(Oklahoma))
+
+- [ ] **Harold Spradling** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Harold_Spradling)
+
+- [ ] **Brian Bingman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Bingman)
+
+---
+
+## Oklahoma Court of Civil Appeals District 2 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Huber** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jim_Huber)
+
+---
+
+## Oklahoma Court of Civil Appeals District 4 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Timothy Downing** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Timothy_Downing)
+
+---
+
+## Oklahoma Court of Civil Appeals District 5 Office 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas E. Prince** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_E._Prince)
+
+---
+
+## Oklahoma Court of Civil Appeals District 5 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert D. Bell** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_D._Bell_(Oklahoma))
+
+---
+
+## Oklahoma Court of Civil Appeals District 6 Office 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bay Mitchell** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bay_Mitchell)
+
+---
+
+## Oklahoma Court of Civil Appeals District 6 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Goree** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brian_Goree)
+
+---
+
+## Oklahoma Court of Criminal Appeals District 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **William J. Musseman** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/William_J._Musseman)
+
+---
+
+## Oklahoma Court of Criminal Appeals District 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scott Rowland** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Scott_Rowland)
+
+---
+
+## Oklahoma Court of Criminal Appeals District 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David B. Lewis** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_B._Lewis)
+
+---
+
+## Oklahoma Supreme Court District 3
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Noma D. Gurich** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Noma_D._Gurich)
+
+---
+
+## Oklahoma Supreme Court District 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Yvonne Kauger** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Yvonne_Kauger)
+
+---
+
+## Oklahoma Supreme Court District 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Edmondson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Edmondson_(Oklahoma))
+
+---
+
+## Oklahoma State Question 833, Public Infrastructure Districts Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oklahoma State Question 834, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",15.0,44.333333333333336,1.2666666666666666,3.0,2.0,12.0,0.0,16.1,5243.0,665.0
+1997,Arkansas,AR-CD03,Sebastian,72901,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 21.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 143.0|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 0|
+|                         | Non-Partisan Races  | ## Arkansas Supreme Court Chief Justice
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karen R. Baker** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_R._Baker)
+
+- [ ] **Rhonda Wood** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Wood)
+
+---
+
+, ## Fort Smith City Council Ward 3 Position 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carl Nevin** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carl_Nevin_(Fort_Smith_City_Council_Ward_3_Position_3,_Arkansas,_candidate_2024))
+
+- [ ] **Lee Kemp** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Kemp_(Fort_Smith_City_Council_Ward_3_Position_3,_Arkansas,_candidate_2024))
+
+- [ ] **Russell E. Bragg** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russell_E._Bragg_(Fort_Smith_City_Council_Ward_3_Position_3,_Arkansas,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.0  years of education      |
+| **Length**              | Ballot Length                 | 5,111 characters       |
+|                         | Word Count                     | 572                         |
+
+---
+# Ballot for Sebastian County, Arkansas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Michael Wood** (Prohibition Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Wood_(2024_presidential_candidate))
+  - Running Mate: John G. Pietrowski
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Peter Sonski** (American Solidarity Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House Arkansas District 3
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bobby Wilson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bobby_Wilson_(Arkansas))
+
+- [ ] **Caitlin Draper Mattelin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Caitlin_Draper_Mattelin)
+
+- [ ] **Steve Womack** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steve_Womack)
+
+---
+
+## Arkansas House of Representatives District 50
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robin McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robin_McCray)
+
+- [ ] **Zack Gramlich** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Zack_Gramlich)
+
+---
+
+## Arkansas Supreme Court Chief Justice
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rhonda Wood** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Wood)
+
+- [ ] **Karen R. Baker** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_R._Baker)
+
+---
+
+## Arkansas Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Pakko** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Pakko)
+
+- [ ] **John Thurston** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Thurston)
+
+- [ ] **John Pagan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Pagan)
+
+---
+
+## Fort Smith City Council Ward 3 Position 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carl Nevin** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carl_Nevin_(Fort_Smith_City_Council_Ward_3_Position_3,_Arkansas,_candidate_2024))
+
+- [ ] **Russell E. Bragg** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russell_E._Bragg_(Fort_Smith_City_Council_Ward_3_Position_3,_Arkansas,_candidate_2024))
+
+- [ ] **Lee Kemp** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Kemp_(Fort_Smith_City_Council_Ward_3_Position_3,_Arkansas,_candidate_2024))
+
+---
+
+## Sebastian County Justice of the Peace District 11
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephen Edwards** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Edwards_(Sebastian_County_Justice_of_the_Peace_District_11,_Arkansas,_candidate_2024))
+
+- [ ] **Jerry Ward** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jerry_Ward_(Sebastian_County_Justice_of_the_Peace_District_11,_Arkansas,_candidate_2024))
+
+---
+
+## Sebastian County Justice of the Peace District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kenneth Williamson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kenneth_Williamson_(Sebastian_County_Justice_of_the_Peace_District_7,_Arkansas,_candidate_2024))
+
+- [ ] **David Austin Crowell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Austin_Crowell_(Sebastian_County_Justice_of_the_Peace_District_7,_Arkansas,_candidate_2024))
+
+---
+
+## Arkansas Issue 1, Lottery Proceed Funding for Vocational-Technical School Scholarships and Grants Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Arkansas Issue 2, Countywide Voter Approval for New Casino Licenses and Repeal Casino Licenses in Pope County Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",4.0,143.0,2.25,8.0,2.0,0.0,2.0,19.0,5111.0,572.0

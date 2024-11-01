@@ -1,0 +1,193 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+2112,Arkansas,AR-CD04,Johnson,72832,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 19.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 109.5|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 1|
+|                         | Non-Partisan Races  | ## Arkansas Supreme Court Chief Justice
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karen R. Baker** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_R._Baker)
+
+- [ ] **Rhonda Wood** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Wood)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.4  years of education      |
+| **Length**              | Ballot Length                 | 3,479 characters       |
+|                         | Word Count                     | 438                         |
+
+---
+# Ballot for Johnson County, Arkansas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Michael Wood** (Prohibition Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Wood_(2024_presidential_candidate))
+  - Running Mate: John G. Pietrowski
+
+- [ ] **Peter Sonski** (American Solidarity Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Arkansas District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bruce Westerman** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bruce_Westerman)
+
+- [ ] **Risie Howard** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Risie_Howard)
+
+---
+
+## Arkansas House of Representatives District 45
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Whitney Freeman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Whitney_Freeman)
+
+- [ ] **Aaron Pilkington** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Aaron_Pilkington)
+
+---
+
+## Arkansas State Senate District 26
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gary Stubblefield** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gary_Stubblefield)
+
+---
+
+## Arkansas Supreme Court Chief Justice
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rhonda Wood** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Wood)
+
+- [ ] **Karen R. Baker** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_R._Baker)
+
+---
+
+## Arkansas Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Pakko** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Pakko)
+
+- [ ] **John Thurston** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Thurston)
+
+- [ ] **John Pagan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Pagan)
+
+---
+
+## Arkansas Issue 1, Lottery Proceed Funding for Vocational-Technical School Scholarships and Grants Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Arkansas Issue 2, Countywide Voter Approval for New Casino Licenses and Repeal Casino Licenses in Pope County Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",4.0,109.5,2.25,5.0,2.0,1.0,1.0,15.4,3479.0,438.0

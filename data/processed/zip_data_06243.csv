@@ -1,0 +1,149 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+5559,Connecticut,CT-CD02,Northeastern Connecticut,06243,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 11.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 178.5|
+|                         | Average Options per Question    | 3.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.2  years of education      |
+| **Length**              | Ballot Length                 | 2,911 characters       |
+|                         | Word Count                     | 357                         |
+
+---
+# Ballot for Northeastern Connecticut County, Connecticut
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House Connecticut District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joe Courtney** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joe_Courtney)
+
+- [ ] **Mike France** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_France)
+
+---
+
+## U.S. Senate Connecticut
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher S. Murphy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Chris_Murphy_(Connecticut))
+
+- [ ] **Robert Hyde** (Cheaper Gas Groceries Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_Hyde)
+
+- [ ] **Matthew Corey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Corey)
+
+- [ ] **Justin Paglino** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_Paglino)
+
+---
+
+## Connecticut House of Representatives District 51
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Renee Waldron** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Renee_Waldron)
+
+- [ ] **Chris Stewart** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Stewart_(Connecticut))
+
+---
+
+## Connecticut State Senate District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mae Flexer** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mae_Flexer)
+
+- [ ] **Chris Reddy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Reddy)
+
+- [ ] **Alice Leibowitz** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alice_Leibowitz)
+
+---
+
+## Connecticut No-Excuse Absentee Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,178.5,3.0,5.0,1.0,0.0,0.0,16.2,2911.0,357.0
