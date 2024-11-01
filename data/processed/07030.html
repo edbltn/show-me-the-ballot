@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b3f62026fc5a2c79b2de088379528d8f {
+                #map_f840a743ac8a3292fed913de45684f3c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD12</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD08</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD12</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD08</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hudson - NJ-CD10</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD12</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hudson - NJ-CD08</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hudson - NJ-CD12</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hudson - NJ-CD08</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_b3f62026fc5a2c79b2de088379528d8f" ></div>
+            <div class="folium-map" id="map_f840a743ac8a3292fed913de45684f3c" ></div>
         
 </body>
 <script>
     
     
-            var map_b3f62026fc5a2c79b2de088379528d8f = L.map(
-                "map_b3f62026fc5a2c79b2de088379528d8f",
+            var map_f840a743ac8a3292fed913de45684f3c = L.map(
+                "map_f840a743ac8a3292fed913de45684f3c",
                 {
                     center: [40.74495214932589, -74.03329368169217],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_f840a743ac8a3292fed913de45684f3c);
 
             
 
         
     
-            var tile_layer_5f53a1a49ee9ba232dce6245e0b1208b = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_94a23fd4ce57809c5eb931a8e314bcb7 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_5f53a1a49ee9ba232dce6245e0b1208b.addTo(map_b3f62026fc5a2c79b2de088379528d8f);
+            tile_layer_94a23fd4ce57809c5eb931a8e314bcb7.addTo(map_f840a743ac8a3292fed913de45684f3c);
         
     
-            var polygon_083b5e8764ae704b11b4ee1ba4fcd8df = L.polygon(
+            var polygon_70c948c6d55465921b68b7d337e75e3b = L.polygon(
                 [[40.744180000000014, -74.017283], [40.74392900000002, -74.017344], [40.74370600000002, -74.01739800000001], [40.74169599999997, -74.017887], [40.74066699999999, -74.01813600000001], [40.739594000000004, -74.018399], [40.73636600000001, -74.019184], [40.73580700000001, -74.019321], [40.73536900000006, -74.019427], [40.73463000000005, -74.019607], [40.73275899999998, -74.020062], [40.731425, -74.020387], [40.730390999999976, -74.020639], [40.731060999999926, -74.022888], [40.73205684654618, -74.02622798282069], [40.74530854701688, -74.01950902693082], [40.74440443134017, -74.01722838655627], [40.744180000000014, -74.017283]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b3f62026fc5a2c79b2de088379528d8f);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f840a743ac8a3292fed913de45684f3c);
         
     
-        var popup_13b389e6c7f1986cb29eb1a8c0757ac3 = L.popup({"maxWidth": "100%"});
+        var popup_58fe814f8bb171e4b2b5485d160e879d = L.popup({"maxWidth": 300});
 
         
             
-                var html_a29b0701865b51751eab10be5bd92199 = $(`<div id="html_a29b0701865b51751eab10be5bd92199" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD10</b></div>`)[0];
-                popup_13b389e6c7f1986cb29eb1a8c0757ac3.setContent(html_a29b0701865b51751eab10be5bd92199);
+                var html_58c9885939cce213a82017bca5bbcd71 = $(`<div id="html_58c9885939cce213a82017bca5bbcd71" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hudson - NJ-CD10</h4>                              </div>         </div>`)[0];
+                popup_58fe814f8bb171e4b2b5485d160e879d.setContent(html_58c9885939cce213a82017bca5bbcd71);
             
         
 
-        polygon_083b5e8764ae704b11b4ee1ba4fcd8df.bindPopup(popup_13b389e6c7f1986cb29eb1a8c0757ac3)
+        polygon_70c948c6d55465921b68b7d337e75e3b.bindPopup(popup_58fe814f8bb171e4b2b5485d160e879d)
         ;
 
         
     
     
-            var circle_marker_cf67dc70086b6d8fc1fd59dc83fb8ffc = L.circleMarker(
-                [40.73819610138352, -74.01934502201709],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b3f62026fc5a2c79b2de088379528d8f);
-        
-    
-        var popup_de47c695bb97dcc335b10690b15e8783 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f0568b6eb161bdce1823d1cc36b5c15a = $(`<div id="html_f0568b6eb161bdce1823d1cc36b5c15a" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD10</b></div>`)[0];
-                popup_de47c695bb97dcc335b10690b15e8783.setContent(html_f0568b6eb161bdce1823d1cc36b5c15a);
-            
-        
-
-        circle_marker_cf67dc70086b6d8fc1fd59dc83fb8ffc.bindPopup(popup_de47c695bb97dcc335b10690b15e8783)
-        ;
-
-        
-    
-    
-            circle_marker_cf67dc70086b6d8fc1fd59dc83fb8ffc.bindTooltip(
+            polygon_70c948c6d55465921b68b7d337e75e3b.bindTooltip(
                 `<div>
-                     Hudson - NJ-CD10
+                      Hudson - NJ-CD10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_9f953221a5362d8a424749e777d3128d = L.polygon(
+            var polygon_a708a45235a41d2f78235ff684658c9f = L.polygon(
                 [[40.751483000000015, -74.01550500000002], [40.74939599999997, -74.016013], [40.746962, -74.01660600000001], [40.74440443134017, -74.01722838655627], [40.74530854701688, -74.01950902693082], [40.7547925649063, -74.0147009650607], [40.753505999999994, -74.015013], [40.751483000000015, -74.01550500000002]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b3f62026fc5a2c79b2de088379528d8f);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f840a743ac8a3292fed913de45684f3c);
         
     
-        var popup_3bc79e549aff6f692d56d246b4fbb92f = L.popup({"maxWidth": "100%"});
+        var popup_ec4616ca5b84b288a2c014fb035be7d7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_5e31fcf8cd06a1083b8328d040a46fab = $(`<div id="html_5e31fcf8cd06a1083b8328d040a46fab" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD12</b></div>`)[0];
-                popup_3bc79e549aff6f692d56d246b4fbb92f.setContent(html_5e31fcf8cd06a1083b8328d040a46fab);
+                var html_090eaffc75dcc3e1955efbe61b6daf44 = $(`<div id="html_090eaffc75dcc3e1955efbe61b6daf44" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hudson - NJ-CD12</h4>                              </div>         </div>`)[0];
+                popup_ec4616ca5b84b288a2c014fb035be7d7.setContent(html_090eaffc75dcc3e1955efbe61b6daf44);
             
         
 
-        polygon_9f953221a5362d8a424749e777d3128d.bindPopup(popup_3bc79e549aff6f692d56d246b4fbb92f)
+        polygon_a708a45235a41d2f78235ff684658c9f.bindPopup(popup_ec4616ca5b84b288a2c014fb035be7d7)
         ;
 
         
     
     
-            var circle_marker_9a37f34d064c47f9b46ce18207244fb7 = L.circleMarker(
-                [40.74966694290792, -74.01626004731848],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b3f62026fc5a2c79b2de088379528d8f);
-        
-    
-        var popup_eec4528ae1c35f299475e11aabbacb3e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2dcb53c2c66b7b3a582ca85ee66b14b1 = $(`<div id="html_2dcb53c2c66b7b3a582ca85ee66b14b1" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD12</b></div>`)[0];
-                popup_eec4528ae1c35f299475e11aabbacb3e.setContent(html_2dcb53c2c66b7b3a582ca85ee66b14b1);
-            
-        
-
-        circle_marker_9a37f34d064c47f9b46ce18207244fb7.bindPopup(popup_eec4528ae1c35f299475e11aabbacb3e)
-        ;
-
-        
-    
-    
-            circle_marker_9a37f34d064c47f9b46ce18207244fb7.bindTooltip(
+            polygon_a708a45235a41d2f78235ff684658c9f.bindTooltip(
                 `<div>
-                     Hudson - NJ-CD12
+                      Hudson - NJ-CD12
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_55cec638094c6f7ea0cae1d724875770 = L.polygon(
+            var polygon_13527575eb656fbe61a735d30e1b06df = L.polygon(
                 [[40.733035, -74.029509], [40.733372000000045, -74.030038], [40.73356199999997, -74.030304], [40.73368300000001, -74.030525], [40.733720999999996, -74.030507], [40.733622, -74.02929500000002], [40.73367699999999, -74.02927], [40.734115000000024, -74.030811], [40.734190000000005, -74.03104], [40.734367000000006, -74.03168600000001], [40.73439499999998, -74.031784], [40.73459800000002, -74.032496], [40.734819999999935, -74.033274], [40.73488600000005, -74.033507], [40.73498600000005, -74.033861], [40.73516500000002, -74.03449], [40.73538199999999, -74.035254], [40.735513999999995, -74.035725], [40.73553799999998, -74.03581], [40.73582799999999, -74.03683100000002], [40.73585400000003, -74.036921], [40.735931000000036, -74.037194], [40.73600700000004, -74.03746300000002], [40.73632200000004, -74.038572], [40.73632200000004, -74.038596], [40.73624500000007, -74.038607], [40.73626099999995, -74.03870600000002], [40.73627200000005, -74.038782], [40.736305999999985, -74.039144], [40.736364, -74.039412], [40.73640500000005, -74.03960700000002], [40.73634999999997, -74.039978], [40.73631600000001, -74.04021], [40.73628999999997, -74.040437], [40.736260999999956, -74.04065100000001], [40.73607699999999, -74.041902], [40.735986999999966, -74.042576], [40.73595200000001, -74.042821], [40.73603599999996, -74.04281600000002], [40.736064000000034, -74.042815], [40.73617500000002, -74.04280900000002], [40.736190000000015, -74.042808], [40.736219999999996, -74.042815], [40.736266, -74.042825], [40.73640100000003, -74.04285400000002], [40.736603999999986, -74.042741], [40.736662999999986, -74.04280900000002], [40.73672999999997, -74.042885], [40.737597000000015, -74.043872], [40.73771800000001, -74.043801], [40.73775400000003, -74.04378], [40.73779599999998, -74.043763], [40.73791200000004, -74.043709], [40.73817099999997, -74.043558], [40.73847700000001, -74.043375], [40.73850100000002, -74.04341900000001], [40.73855700000002, -74.043499], [40.73859899999999, -74.043558], [40.738694, -74.043629], [40.738787999999985, -74.0437], [40.738857000000046, -74.043752], [40.73945899999996, -74.043783], [40.73968599999999, -74.043782], [40.73984899999994, -74.04378100000001], [40.740007999999996, -74.043674], [40.74006799999997, -74.04359300000002], [40.74027900000001, -74.043702], [40.74041199999996, -74.043712], [40.740509999999986, -74.04371000000002], [40.74061300000001, -74.043691], [40.74070399999998, -74.043652], [40.741163, -74.04333700000001], [40.74156099999999, -74.04312900000001], [40.742062000000004, -74.042964], [40.742620000000024, -74.042867], [40.743145999999996, -74.042762], [40.743748000000004, -74.042537], [40.74423399999997, -74.042299], [40.74470699999999, -74.042037], [40.745023999999944, -74.041847], [40.74483400000006, -74.041321], [40.74513699999996, -74.04108300000001], [40.74549700000002, -74.040777], [40.746204000000006, -74.040174], [40.746546000000045, -74.039875], [40.74660000000001, -74.039834], [40.74666799999997, -74.039782], [40.74696800000001, -74.039551], [40.74753900000003, -74.039201], [40.747911000000016, -74.039008], [40.74805299999997, -74.038935], [40.74844600000004, -74.038731], [40.74874899999999, -74.038575], [40.74905200000004, -74.03842700000001], [40.74979400000002, -74.038065], [40.75031700000001, -74.037784], [40.750540000000036, -74.037665], [40.750614, -74.03762], [40.751213, -74.037258], [40.75123999999997, -74.037241], [40.75238900000005, -74.036533], [40.75247299999996, -74.03648], [40.75275100000003, -74.036309], [40.75484500000001, -74.03507500000002], [40.75495199999998, -74.035012], [40.75506199999996, -74.034952], [40.75551400000001, -74.034706], [40.75597400000003, -74.034448], [40.75621899999998, -74.034311], [40.75687999999995, -74.03399], [40.757224999999984, -74.033806], [40.75740000000002, -74.033644], [40.757433, -74.033607], [40.75758499999995, -74.033435], [40.75766800000003, -74.033304], [40.75774900000001, -74.03318100000001], [40.757898, -74.032885], [40.75800999999998, -74.032562], [40.75807700000002, -74.032308], [40.75808800000004, -74.032221], [40.75812099999999, -74.031949], [40.75813000000001, -74.031881], [40.75813400000002, -74.031389], [40.75806500000001, -74.030874], [40.757963000000004, -74.030427], [40.757795999999985, -74.029699], [40.75776399999998, -74.029488], [40.757756999999984, -74.029396], [40.75773399999999, -74.029107], [40.75772999999997, -74.029055], [40.757770999999956, -74.028419], [40.757871999999985, -74.028389], [40.757777999999995, -74.028352], [40.757653999999995, -74.028312], [40.75718700000001, -74.027827], [40.75711199999997, -74.027743], [40.75711099999999, -74.02773], [40.75715900000002, -74.02721], [40.757266999999956, -74.027179], [40.75719199999996, -74.02652900000001], [40.75715999999999, -74.026462], [40.75711399999993, -74.02622500000001], [40.75726499999995, -74.02618100000001], [40.75728000000003, -74.026279], [40.757426000000045, -74.02624], [40.757698000000026, -74.02379900000001], [40.757713, -74.023773], [40.75766899999997, -74.023674], [40.75774800000005, -74.02361], [40.757645000000025, -74.023376], [40.757625000000026, -74.023346], [40.75717399999997, -74.018614], [40.75665599999997, -74.014249], [40.7547925649063, -74.0147009650607], [40.74530854701688, -74.01950902693082], [40.73205684654618, -74.02622798282069], [40.733035, -74.029509]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b3f62026fc5a2c79b2de088379528d8f);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f840a743ac8a3292fed913de45684f3c);
         
     
-        var popup_f9d139edd0ebd1570462fea3474d4dfd = L.popup({"maxWidth": "100%"});
+        var popup_9457ffc6a5da393adfcaaa534dc903ea = L.popup({"maxWidth": 300});
 
         
             
-                var html_6a84ca5ef13244b448253dc13ebc096b = $(`<div id="html_6a84ca5ef13244b448253dc13ebc096b" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD08</b></div>`)[0];
-                popup_f9d139edd0ebd1570462fea3474d4dfd.setContent(html_6a84ca5ef13244b448253dc13ebc096b);
+                var html_2c20e755844dd1214eaa0cf5992ff365 = $(`<div id="html_2c20e755844dd1214eaa0cf5992ff365" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hudson - NJ-CD08</h4>                              </div>         </div>`)[0];
+                popup_9457ffc6a5da393adfcaaa534dc903ea.setContent(html_2c20e755844dd1214eaa0cf5992ff365);
             
         
 
-        polygon_55cec638094c6f7ea0cae1d724875770.bindPopup(popup_f9d139edd0ebd1570462fea3474d4dfd)
+        polygon_13527575eb656fbe61a735d30e1b06df.bindPopup(popup_9457ffc6a5da393adfcaaa534dc903ea)
         ;
 
         
     
     
-            var circle_marker_7108d3d541bdc73db5f1df4b557bd808 = L.circleMarker(
-                [40.745486483811916, -74.03576084697333],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b3f62026fc5a2c79b2de088379528d8f);
-        
-    
-        var popup_677b483df455d606fbdafecf3e7875a8 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f1de18a13f01bb68216b952e788ca003 = $(`<div id="html_f1de18a13f01bb68216b952e788ca003" style="width: 100.0%; height: 100.0%;"><b>Hudson - NJ-CD08</b></div>`)[0];
-                popup_677b483df455d606fbdafecf3e7875a8.setContent(html_f1de18a13f01bb68216b952e788ca003);
-            
-        
-
-        circle_marker_7108d3d541bdc73db5f1df4b557bd808.bindPopup(popup_677b483df455d606fbdafecf3e7875a8)
-        ;
-
-        
-    
-    
-            circle_marker_7108d3d541bdc73db5f1df4b557bd808.bindTooltip(
+            polygon_13527575eb656fbe61a735d30e1b06df.bindTooltip(
                 `<div>
-                     Hudson - NJ-CD08
+                      Hudson - NJ-CD08
                  </div>`,
                 {"sticky": true}
             );

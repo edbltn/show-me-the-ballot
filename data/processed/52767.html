@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_43f25d08e0ccf90be61335cef3bdf2b9 {
+                #map_a120a12b9c72795e04a228acbe64e845 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Scott - IA-CD17</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Scott - IA-CD01</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Scott - IA-CD17</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Scott - IA-CD01</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Scott - IA-CD17</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Scott - IA-CD01</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_43f25d08e0ccf90be61335cef3bdf2b9" ></div>
+            <div class="folium-map" id="map_a120a12b9c72795e04a228acbe64e845" ></div>
         
 </body>
 <script>
     
     
-            var map_43f25d08e0ccf90be61335cef3bdf2b9 = L.map(
-                "map_43f25d08e0ccf90be61335cef3bdf2b9",
+            var map_a120a12b9c72795e04a228acbe64e845 = L.map(
+                "map_a120a12b9c72795e04a228acbe64e845",
                 {
                     center: [41.572393235597566, -90.42280333433895],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_a120a12b9c72795e04a228acbe64e845);
 
             
 
         
     
-            var tile_layer_e50c08b2a7f313fd22a62da429b257f4 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_4d617ec34b4a05d908e0f5e8a8dbcf71 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_e50c08b2a7f313fd22a62da429b257f4.addTo(map_43f25d08e0ccf90be61335cef3bdf2b9);
+            tile_layer_4d617ec34b4a05d908e0f5e8a8dbcf71.addTo(map_a120a12b9c72795e04a228acbe64e845);
         
     
-            var polygon_c3b465d40ab828356f77a5352ed48eee = L.polygon(
+            var polygon_0a0ae3c3bede525a24809008c0ef98ca = L.polygon(
                 [[41.56288100000003, -90.415871], [41.56272699999999, -90.415997], [41.562675999999975, -90.416039], [41.56222999999997, -90.416401], [41.561783000000005, -90.416763], [41.561649, -90.416871], [41.56156499999998, -90.41694], [41.56134700000001, -90.417116], [41.559233000000006, -90.41883], [41.558527, -90.419309], [41.55743499999999, -90.420053], [41.55656799999996, -90.420641], [41.55593200000004, -90.421075], [41.55442900000005, -90.422097], [41.55423299999996, -90.42223], [41.55407599999995, -90.422506], [41.55356099999996, -90.423418], [41.553434999999965, -90.42364], [41.553058, -90.42430700000001], [41.55293300000002, -90.42453], [41.55525358340317, -90.42472358145486], [41.56293300000001, -90.41583], [41.56288100000003, -90.415871]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_43f25d08e0ccf90be61335cef3bdf2b9);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a120a12b9c72795e04a228acbe64e845);
         
     
-        var popup_6d14973cc0733c09a27a671a69219657 = L.popup({"maxWidth": "100%"});
+        var popup_9dc7e3650e25f190af188dbdb2db364d = L.popup({"maxWidth": 300});
 
         
             
-                var html_0512af411161fca329a23dd20abfb4dc = $(`<div id="html_0512af411161fca329a23dd20abfb4dc" style="width: 100.0%; height: 100.0%;"><b>Scott - IA-CD17</b></div>`)[0];
-                popup_6d14973cc0733c09a27a671a69219657.setContent(html_0512af411161fca329a23dd20abfb4dc);
+                var html_363ff73d30ba0bff15314e7ab430b06f = $(`<div id="html_363ff73d30ba0bff15314e7ab430b06f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Scott - IA-CD17</h4>                              </div>         </div>`)[0];
+                popup_9dc7e3650e25f190af188dbdb2db364d.setContent(html_363ff73d30ba0bff15314e7ab430b06f);
             
         
 
-        polygon_c3b465d40ab828356f77a5352ed48eee.bindPopup(popup_6d14973cc0733c09a27a671a69219657)
+        polygon_0a0ae3c3bede525a24809008c0ef98ca.bindPopup(popup_9dc7e3650e25f190af188dbdb2db364d)
         ;
 
         
     
     
-            var circle_marker_9c7f71b1d96a4188a81ddb5abf13dde4 = L.circleMarker(
-                [41.558319373191445, -90.41961124267195],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_43f25d08e0ccf90be61335cef3bdf2b9);
-        
-    
-        var popup_832a713ce2b655dee90aa750601c1bdb = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_5fb42b403c61d1538ec8c1c587963a44 = $(`<div id="html_5fb42b403c61d1538ec8c1c587963a44" style="width: 100.0%; height: 100.0%;"><b>Scott - IA-CD17</b></div>`)[0];
-                popup_832a713ce2b655dee90aa750601c1bdb.setContent(html_5fb42b403c61d1538ec8c1c587963a44);
-            
-        
-
-        circle_marker_9c7f71b1d96a4188a81ddb5abf13dde4.bindPopup(popup_832a713ce2b655dee90aa750601c1bdb)
-        ;
-
-        
-    
-    
-            circle_marker_9c7f71b1d96a4188a81ddb5abf13dde4.bindTooltip(
+            polygon_0a0ae3c3bede525a24809008c0ef98ca.bindTooltip(
                 `<div>
-                     Scott - IA-CD17
+                      Scott - IA-CD17
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_56724b48517c4c6abfd89c3c0a879c36 = L.polygon(
+            var polygon_df0abb4468c4747b92336a976d5b0a8c = L.polygon(
                 [[41.56586599999999, -90.411554], [41.56532899999998, -90.412825], [41.565205999999975, -90.412984], [41.56474200000002, -90.413546], [41.56393300000003, -90.41453], [41.563377000000024, -90.415252], [41.56293300000001, -90.41583], [41.55525358340317, -90.42472358145486], [41.55850699999996, -90.424995], [41.558932999999996, -90.425031], [41.56100099999994, -90.424523], [41.56383800000002, -90.425308], [41.56637299999995, -90.425283], [41.56645400000001, -90.425334], [41.56648899999999, -90.425397], [41.566518, -90.425487], [41.56654100000006, -90.425658], [41.566583, -90.425855], [41.56661100000001, -90.425935], [41.56667300000004, -90.425997], [41.566818999999995, -90.426093], [41.56743699999999, -90.426321], [41.56765999999999, -90.426373], [41.56781700000002, -90.426368], [41.567602999999984, -90.427181], [41.56758300000005, -90.427242], [41.56740300000004, -90.427806], [41.567679999999996, -90.42798], [41.56773200000004, -90.428014], [41.56785199999996, -90.428122], [41.56790300000002, -90.428238], [41.56791700000003, -90.42834], [41.56794499999998, -90.428409], [41.568025999999975, -90.428449], [41.56840900000002, -90.428437], [41.568090999999974, -90.430118], [41.56816600000002, -90.430116], [41.568474000000016, -90.430116], [41.568468, -90.431034], [41.56846499999995, -90.431548], [41.56846099999998, -90.432102], [41.56849900000001, -90.432409], [41.56854800000002, -90.432224], [41.568580999999966, -90.43218], [41.568652000000036, -90.432145], [41.568910000000066, -90.43214800000001], [41.569382999999966, -90.432153], [41.569707999999984, -90.432144], [41.570334, -90.432145], [41.571895, -90.432129], [41.57199500000001, -90.432168], [41.572018999999955, -90.432248], [41.572014999999965, -90.432963], [41.57200399999999, -90.434988], [41.57259699999999, -90.434992], [41.57819000000004, -90.435001], [41.57865100000006, -90.435001], [41.57873500000002, -90.435009], [41.57904400000001, -90.435007], [41.579296, -90.43500600000002], [41.58258500000005, -90.43500400000002], [41.583602, -90.435009], [41.58491599999998, -90.435001], [41.585822999999976, -90.434996], [41.586307999999995, -90.434993], [41.58834, -90.435027], [41.58893999999999, -90.435032], [41.588956999999965, -90.4349], [41.588978, -90.434742], [41.58909199999992, -90.434281], [41.58919700000003, -90.433857], [41.589868999999986, -90.43227700000001], [41.59021799999998, -90.431434], [41.590879999999984, -90.430052], [41.59068400000001, -90.429974], [41.590361, -90.429788], [41.58914199999999, -90.428771], [41.58841699999998, -90.42815], [41.586564, -90.426588], [41.586296000000026, -90.42627], [41.58601, -90.425835], [41.58577499999999, -90.425323], [41.585617000000006, -90.424722], [41.58542799999998, -90.423874], [41.58528400000002, -90.423173], [41.585075999999994, -90.42219], [41.585055000000025, -90.42209200000002], [41.58487799999999, -90.421637], [41.58463499999998, -90.421119], [41.584341999999985, -90.42069], [41.584201000000014, -90.420522], [41.58404799999998, -90.420339], [41.58363300000004, -90.419939], [41.58305899999998, -90.419398], [41.582592999999996, -90.419001], [41.58215800000001, -90.418706], [41.58188299999998, -90.418558], [41.58155299999997, -90.418381], [41.579813, -90.417445], [41.57889600000003, -90.416922], [41.57867300000001, -90.416775], [41.578437, -90.416569], [41.57815799999997, -90.416263], [41.57681499999996, -90.414483], [41.576581999999945, -90.414212], [41.576468000000006, -90.414127], [41.57634299999997, -90.414034], [41.57616600000002, -90.413922], [41.575926000000024, -90.413846], [41.57569399999996, -90.413802], [41.57547500000004, -90.413805], [41.57526699999999, -90.413829], [41.575106000000005, -90.41389], [41.57473100000003, -90.414066], [41.57393300000002, -90.41598500000002], [41.57296900000003, -90.418306], [41.57254000000003, -90.419409], [41.57238200000004, -90.419559], [41.572029, -90.419559], [41.57148000000003, -90.419302], [41.570997999999975, -90.41911300000001], [41.57008800000002, -90.418592], [41.56986400000001, -90.418434], [41.570082000000006, -90.417544], [41.570871000000004, -90.414555], [41.57132799999996, -90.412999], [41.571589, -90.412317], [41.572156, -90.411068], [41.572810000000004, -90.409854], [41.57352300000004, -90.408427], [41.57414799999995, -90.407246], [41.57456000000001, -90.40652], [41.57469500000001, -90.406306], [41.57499499999997, -90.405831], [41.57459600000001, -90.40580600000001], [41.57373300000002, -90.40573], [41.568333, -90.40573], [41.56771600000003, -90.407186], [41.56586599999999, -90.411554]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_43f25d08e0ccf90be61335cef3bdf2b9);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a120a12b9c72795e04a228acbe64e845);
         
     
-        var popup_633dffb2940ab9f7cd6701a253d984e8 = L.popup({"maxWidth": "100%"});
+        var popup_8d96de746035b261f1d19e17e80c3ffa = L.popup({"maxWidth": 300});
 
         
             
-                var html_bb8cb92f5c427ac222ef9acd6a68332e = $(`<div id="html_bb8cb92f5c427ac222ef9acd6a68332e" style="width: 100.0%; height: 100.0%;"><b>Scott - IA-CD01</b></div>`)[0];
-                popup_633dffb2940ab9f7cd6701a253d984e8.setContent(html_bb8cb92f5c427ac222ef9acd6a68332e);
+                var html_a91d5dfab83c154d138d370e1057de8d = $(`<div id="html_a91d5dfab83c154d138d370e1057de8d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Scott - IA-CD01</h4>                              </div>         </div>`)[0];
+                popup_8d96de746035b261f1d19e17e80c3ffa.setContent(html_a91d5dfab83c154d138d370e1057de8d);
             
         
 
-        polygon_56724b48517c4c6abfd89c3c0a879c36.bindPopup(popup_633dffb2940ab9f7cd6701a253d984e8)
+        polygon_df0abb4468c4747b92336a976d5b0a8c.bindPopup(popup_8d96de746035b261f1d19e17e80c3ffa)
         ;
 
         
     
     
-            var circle_marker_2dfb095b613b4c598694ad07099e9aa0 = L.circleMarker(
-                [41.57472200419714, -90.42333152216875],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_43f25d08e0ccf90be61335cef3bdf2b9);
-        
-    
-        var popup_1406c0915c6dcece43e1ffca46d9da4e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_e5980629520f7ce0cccf6bbd67b6a1ff = $(`<div id="html_e5980629520f7ce0cccf6bbd67b6a1ff" style="width: 100.0%; height: 100.0%;"><b>Scott - IA-CD01</b></div>`)[0];
-                popup_1406c0915c6dcece43e1ffca46d9da4e.setContent(html_e5980629520f7ce0cccf6bbd67b6a1ff);
-            
-        
-
-        circle_marker_2dfb095b613b4c598694ad07099e9aa0.bindPopup(popup_1406c0915c6dcece43e1ffca46d9da4e)
-        ;
-
-        
-    
-    
-            circle_marker_2dfb095b613b4c598694ad07099e9aa0.bindTooltip(
+            polygon_df0abb4468c4747b92336a976d5b0a8c.bindTooltip(
                 `<div>
-                     Scott - IA-CD01
+                      Scott - IA-CD01
                  </div>`,
                 {"sticky": true}
             );

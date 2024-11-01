@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_33c498c1d4c081f1538778646e440b8d {
+                #map_6364b11d2555bce86b6db209d0c1a037 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Rockingham - NH-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Rockingham - NH-CD01</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Rockingham - NH-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Rockingham - NH-CD01</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Rockingham - NH-CD02</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Rockingham - NH-CD01</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_33c498c1d4c081f1538778646e440b8d" ></div>
+            <div class="folium-map" id="map_6364b11d2555bce86b6db209d0c1a037" ></div>
         
 </body>
 <script>
     
     
-            var map_33c498c1d4c081f1538778646e440b8d = L.map(
-                "map_33c498c1d4c081f1538778646e440b8d",
+            var map_6364b11d2555bce86b6db209d0c1a037 = L.map(
+                "map_6364b11d2555bce86b6db209d0c1a037",
                 {
                     center: [43.17830203640005, -71.14192957935887],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_6364b11d2555bce86b6db209d0c1a037);
 
             
 
         
     
-            var tile_layer_5b5a1d8dcce478673f54e6675797585a = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_5beadc91cc8992f0a4e5b4a65ee856d3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_5b5a1d8dcce478673f54e6675797585a.addTo(map_33c498c1d4c081f1538778646e440b8d);
+            tile_layer_5beadc91cc8992f0a4e5b4a65ee856d3.addTo(map_6364b11d2555bce86b6db209d0c1a037);
         
     
-            var polygon_f98ff5e76d54c538570ad2dbc71c1234 = L.polygon(
+            var polygon_b160b0d708627185b27d121600162fd2 = L.polygon(
                 [[43.17761899999996, -71.147264], [43.17787699999999, -71.147043], [43.178249999999984, -71.146724], [43.17879400000001, -71.146256], [43.179931, -71.14531], [43.18104500000003, -71.14436500000001], [43.182172999999985, -71.14342000000002], [43.18288099999997, -71.14282900000002], [43.18336399999999, -71.142426], [43.184538999999965, -71.141435], [43.185736999999996, -71.140443], [43.186334999999985, -71.139932], [43.18690200000006, -71.139443], [43.186358000000006, -71.13827300000001], [43.18618500000003, -71.138319], [43.185476406946876, -71.13804464549565], [43.17563267645513, -71.14485155661481], [43.17596699999998, -71.146104], [43.17616499999998, -71.147123], [43.17619800000003, -71.147408], [43.17623499999999, -71.147624], [43.17624199999998, -71.147731], [43.17625800000002, -71.14798799999998], [43.17625999999998, -71.14808400000001], [43.176267000000024, -71.148185], [43.176281999999986, -71.148284], [43.176303999999945, -71.148367], [43.17642899999998, -71.148256], [43.17761899999996, -71.147264]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_33c498c1d4c081f1538778646e440b8d);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6364b11d2555bce86b6db209d0c1a037);
         
     
-        var popup_f5fe666c0f1091475dc387b72c3f8f82 = L.popup({"maxWidth": "100%"});
+        var popup_126deed0e0c55273c63792b189f1010e = L.popup({"maxWidth": 300});
 
         
             
-                var html_671584584685ad58496faf60d8e3b391 = $(`<div id="html_671584584685ad58496faf60d8e3b391" style="width: 100.0%; height: 100.0%;"><b>Rockingham - NH-CD02</b></div>`)[0];
-                popup_f5fe666c0f1091475dc387b72c3f8f82.setContent(html_671584584685ad58496faf60d8e3b391);
+                var html_9f56eff7bf796a2dafc9a9af0b151f9e = $(`<div id="html_9f56eff7bf796a2dafc9a9af0b151f9e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Rockingham - NH-CD02</h4>                              </div>         </div>`)[0];
+                popup_126deed0e0c55273c63792b189f1010e.setContent(html_9f56eff7bf796a2dafc9a9af0b151f9e);
             
         
 
-        polygon_f98ff5e76d54c538570ad2dbc71c1234.bindPopup(popup_f5fe666c0f1091475dc387b72c3f8f82)
+        polygon_b160b0d708627185b27d121600162fd2.bindPopup(popup_126deed0e0c55273c63792b189f1010e)
         ;
 
         
     
     
-            var circle_marker_cbe9d92950d42aff4cd14ff1be1a57da = L.circleMarker(
-                [43.17983879597937, -71.14478607593486],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_33c498c1d4c081f1538778646e440b8d);
-        
-    
-        var popup_9a3b1a973173e13f95a6220ba8bbabe0 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_dc5547d69f70ba56f875b0d964fdd9e1 = $(`<div id="html_dc5547d69f70ba56f875b0d964fdd9e1" style="width: 100.0%; height: 100.0%;"><b>Rockingham - NH-CD02</b></div>`)[0];
-                popup_9a3b1a973173e13f95a6220ba8bbabe0.setContent(html_dc5547d69f70ba56f875b0d964fdd9e1);
-            
-        
-
-        circle_marker_cbe9d92950d42aff4cd14ff1be1a57da.bindPopup(popup_9a3b1a973173e13f95a6220ba8bbabe0)
-        ;
-
-        
-    
-    
-            circle_marker_cbe9d92950d42aff4cd14ff1be1a57da.bindTooltip(
+            polygon_b160b0d708627185b27d121600162fd2.bindTooltip(
                 `<div>
-                     Rockingham - NH-CD02
+                      Rockingham - NH-CD02
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_e8aee6091127263f429d47fbb1c5ff07 = L.polygon(
+            var polygon_6badf480b7a37b30f403d6f87744e803 = L.polygon(
                 [[43.185015, -71.137866], [43.18427999999996, -71.137714], [43.183910999999995, -71.137747], [43.18248400000002, -71.13838100000001], [43.18154099999995, -71.13838600000001], [43.180941999999995, -71.13801500000001], [43.18059599999996, -71.137954], [43.180113000000006, -71.138082], [43.180065999999975, -71.138113], [43.179541999999955, -71.138458], [43.178947, -71.138739], [43.17871899999998, -71.138958], [43.17877199999997, -71.139171], [43.180114, -71.14046999999998], [43.179799000000045, -71.140636], [43.179591000000045, -71.14069900000001], [43.179379000000026, -71.140713], [43.17916799999997, -71.14069800000001], [43.17895800000002, -71.140654], [43.17854500000001, -71.140536], [43.178335999999994, -71.14049], [43.17817000000002, -71.140471], [43.17812700000003, -71.14046600000002], [43.177915, -71.14045800000001], [43.177863999999964, -71.14045800000001], [43.17770499999998, -71.140457], [43.177284, -71.140466], [43.17707300000001, -71.14046], [43.17686200000003, -71.140436], [43.17665299999998, -71.140405], [43.17591299999999, -71.140266], [43.175819000000004, -71.140249], [43.175609999999985, -71.14022100000001], [43.17519000000001, -71.140179], [43.17467599999999, -71.140151], [43.17413500000003, -71.140121], [43.173715000000044, -71.140119], [43.17348000000004, -71.140128], [43.17351700000006, -71.140182], [43.17355500000002, -71.14025], [43.17362400000001, -71.140407], [43.17368300000004, -71.140575], [43.173905, -71.141267], [43.174031, -71.14170800000001], [43.17409000000005, -71.141879], [43.174159000000024, -71.142045], [43.17423300000002, -71.142206], [43.17439800000003, -71.14251500000002], [43.17479000000005, -71.1432], [43.174973, -71.143489], [43.17516699999998, -71.143762], [43.17526199999999, -71.14390800000001], [43.175441999999975, -71.14423], [43.17547999999998, -71.144309], [43.175509999999996, -71.144392], [43.17563267645513, -71.14485155661481], [43.185476406946876, -71.13804464549565], [43.185015, -71.137866]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_33c498c1d4c081f1538778646e440b8d);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6364b11d2555bce86b6db209d0c1a037);
         
     
-        var popup_4cdc356d961622900e9c6f2e571d48a2 = L.popup({"maxWidth": "100%"});
+        var popup_d229ff633cf4de3b1a7d17f7a7483d53 = L.popup({"maxWidth": 300});
 
         
             
-                var html_448ee79ede43aa539dc29ef8f0f902be = $(`<div id="html_448ee79ede43aa539dc29ef8f0f902be" style="width: 100.0%; height: 100.0%;"><b>Rockingham - NH-CD01</b></div>`)[0];
-                popup_4cdc356d961622900e9c6f2e571d48a2.setContent(html_448ee79ede43aa539dc29ef8f0f902be);
+                var html_88e38fd444e0cbcec55e5a8a6bc4724e = $(`<div id="html_88e38fd444e0cbcec55e5a8a6bc4724e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Rockingham - NH-CD01</h4>                              </div>         </div>`)[0];
+                popup_d229ff633cf4de3b1a7d17f7a7483d53.setContent(html_88e38fd444e0cbcec55e5a8a6bc4724e);
             
         
 
-        polygon_e8aee6091127263f429d47fbb1c5ff07.bindPopup(popup_4cdc356d961622900e9c6f2e571d48a2)
+        polygon_6badf480b7a37b30f403d6f87744e803.bindPopup(popup_d229ff633cf4de3b1a7d17f7a7483d53)
         ;
 
         
     
     
-            var circle_marker_8b852aec9f0fe5eacec62465bda786ec = L.circleMarker(
-                [43.17753365661038, -71.14050133107085],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_33c498c1d4c081f1538778646e440b8d);
-        
-    
-        var popup_14669b5c3bcf40b8164eb92b515df299 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_767a950f6db796a8b7bcecb76c326be4 = $(`<div id="html_767a950f6db796a8b7bcecb76c326be4" style="width: 100.0%; height: 100.0%;"><b>Rockingham - NH-CD01</b></div>`)[0];
-                popup_14669b5c3bcf40b8164eb92b515df299.setContent(html_767a950f6db796a8b7bcecb76c326be4);
-            
-        
-
-        circle_marker_8b852aec9f0fe5eacec62465bda786ec.bindPopup(popup_14669b5c3bcf40b8164eb92b515df299)
-        ;
-
-        
-    
-    
-            circle_marker_8b852aec9f0fe5eacec62465bda786ec.bindTooltip(
+            polygon_6badf480b7a37b30f403d6f87744e803.bindTooltip(
                 `<div>
-                     Rockingham - NH-CD01
+                      Rockingham - NH-CD01
                  </div>`,
                 {"sticky": true}
             );

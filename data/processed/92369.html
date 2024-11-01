@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e4633b9b9f7b8265d260f641d50fede6 {
+                #map_b80f97f47a2e4f77367f6bedaffea74a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   San Bernardino - CA-CD33</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   San Bernardino - CA-CD23</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   San Bernardino - CA-CD33</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   San Bernardino - CA-CD23</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> San Bernardino - CA-CD33</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> San Bernardino - CA-CD23</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_e4633b9b9f7b8265d260f641d50fede6" ></div>
+            <div class="folium-map" id="map_b80f97f47a2e4f77367f6bedaffea74a" ></div>
         
 </body>
 <script>
     
     
-            var map_e4633b9b9f7b8265d260f641d50fede6 = L.map(
-                "map_e4633b9b9f7b8265d260f641d50fede6",
+            var map_b80f97f47a2e4f77367f6bedaffea74a = L.map(
+                "map_b80f97f47a2e4f77367f6bedaffea74a",
                 {
                     center: [34.13814311000266, -117.21863921798213],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_b80f97f47a2e4f77367f6bedaffea74a);
 
             
 
         
     
-            var tile_layer_95f9345976b8251f1dbb61c74f07a394 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_f2b2f59545be36f2ed74d7911aba7e1b = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_95f9345976b8251f1dbb61c74f07a394.addTo(map_e4633b9b9f7b8265d260f641d50fede6);
+            tile_layer_f2b2f59545be36f2ed74d7911aba7e1b.addTo(map_b80f97f47a2e4f77367f6bedaffea74a);
         
     
-            var polygon_38eedf780138318d5c12235c3988dc20 = L.polygon(
+            var polygon_06a1c21dac980cc5efbd9fdabce9f638 = L.polygon(
                 [[34.138925999999984, -117.22620300000001], [34.14127200000001, -117.22616], [34.14140499999999, -117.226156], [34.14252999999995, -117.22612799999999], [34.142724999999984, -117.226118], [34.143061999999986, -117.226102], [34.1430427228165, -117.22320603584413], [34.13989518726597, -117.21311572160182], [34.13962799999999, -117.213117], [34.139140999999974, -117.213119], [34.138907, -117.21312199999998], [34.13838899999999, -117.213129], [34.13798799999997, -117.213129], [34.13719200000001, -117.21312999999999], [34.13678599999999, -117.21312999999999], [34.136386, -117.213131], [34.13626699999998, -117.213131], [34.135910999999986, -117.213131], [34.13579300000005, -117.213132], [34.135796, -117.213349], [34.135805, -117.21400199999998], [34.13580899999999, -117.21422000000001], [34.13581100000001, -117.21443900000001], [34.13581700000002, -117.215098], [34.13582, -117.215318], [34.13581900000004, -117.21540600000002], [34.13581700000002, -117.215651], [34.13581599999999, -117.215672], [34.13581599999999, -117.21576099999999], [34.13581200000002, -117.216123], [34.135803999999986, -117.217211], [34.13580200000001, -117.21757400000001], [34.135803999999986, -117.218394], [34.13581100000001, -117.22085500000001], [34.13581299999998, -117.22143], [34.13581400000001, -117.221676], [34.13581400000001, -117.22183499999998], [34.13581700000004, -117.222584], [34.13582100000005, -117.22362400000002], [34.135822, -117.22531], [34.13582300000005, -117.225976], [34.13582300000005, -117.226219], [34.13603999999999, -117.22621799999999], [34.136691, -117.22621799999999], [34.13690899999997, -117.22621799999999], [34.13707100000001, -117.22621799999999], [34.137134000000025, -117.22621799999999], [34.137527000000006, -117.22622100000001], [34.137862, -117.22622300000002], [34.13803300000003, -117.226219], [34.138925999999984, -117.22620300000001]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_e4633b9b9f7b8265d260f641d50fede6);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b80f97f47a2e4f77367f6bedaffea74a);
         
     
-        var popup_eb5bb3e570a8a844f9841a10079e25ef = L.popup({"maxWidth": "100%"});
+        var popup_700dea3844b98968d26e6e0eb7cd27fa = L.popup({"maxWidth": 300});
 
         
             
-                var html_32b2c4acd359ae66bdedc8dd9ef93f83 = $(`<div id="html_32b2c4acd359ae66bdedc8dd9ef93f83" style="width: 100.0%; height: 100.0%;"><b>San Bernardino - CA-CD33</b></div>`)[0];
-                popup_eb5bb3e570a8a844f9841a10079e25ef.setContent(html_32b2c4acd359ae66bdedc8dd9ef93f83);
+                var html_477bad1770c18916b634b0dd31c9d4c8 = $(`<div id="html_477bad1770c18916b634b0dd31c9d4c8" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> San Bernardino - CA-CD33</h4>                              </div>         </div>`)[0];
+                popup_700dea3844b98968d26e6e0eb7cd27fa.setContent(html_477bad1770c18916b634b0dd31c9d4c8);
             
         
 
-        polygon_38eedf780138318d5c12235c3988dc20.bindPopup(popup_eb5bb3e570a8a844f9841a10079e25ef)
+        polygon_06a1c21dac980cc5efbd9fdabce9f638.bindPopup(popup_700dea3844b98968d26e6e0eb7cd27fa)
         ;
 
         
     
     
-            var circle_marker_0e9628f88beed7cafe1bffe44bc9071b = L.circleMarker(
-                [34.13735578255064, -117.21963279916562],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_e4633b9b9f7b8265d260f641d50fede6);
-        
-    
-        var popup_031343e504493323fd1baae559b26a54 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_1300e9946c3463287ea8e2a761ddc93d = $(`<div id="html_1300e9946c3463287ea8e2a761ddc93d" style="width: 100.0%; height: 100.0%;"><b>San Bernardino - CA-CD33</b></div>`)[0];
-                popup_031343e504493323fd1baae559b26a54.setContent(html_1300e9946c3463287ea8e2a761ddc93d);
-            
-        
-
-        circle_marker_0e9628f88beed7cafe1bffe44bc9071b.bindPopup(popup_031343e504493323fd1baae559b26a54)
-        ;
-
-        
-    
-    
-            circle_marker_0e9628f88beed7cafe1bffe44bc9071b.bindTooltip(
+            polygon_06a1c21dac980cc5efbd9fdabce9f638.bindTooltip(
                 `<div>
-                     San Bernardino - CA-CD33
+                      San Bernardino - CA-CD33
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_b03d15ca8f80f13a2172ab3626272529 = L.polygon(
+            var polygon_6d76ff6b0701de4bc03fbbbe0bd93cbd = L.polygon(
                 [[34.14297499999996, -117.213117], [34.14248400000002, -117.213118], [34.14218900000002, -117.213117], [34.14186800000002, -117.213117], [34.14169099999998, -117.21311500000002], [34.14115999999998, -117.213112], [34.14098399999998, -117.213111], [34.14046399999999, -117.213113], [34.13989518726597, -117.21311572160182], [34.1430427228165, -117.22320603584413], [34.14297499999996, -117.213117]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_e4633b9b9f7b8265d260f641d50fede6);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b80f97f47a2e4f77367f6bedaffea74a);
         
     
-        var popup_73476648968021b865ae32f7e0439c7f = L.popup({"maxWidth": "100%"});
+        var popup_97c9eaa359fa768fc7e4d50a003aa44d = L.popup({"maxWidth": 300});
 
         
             
-                var html_8627e8fa8f5f725d8074319d52ab44fb = $(`<div id="html_8627e8fa8f5f725d8074319d52ab44fb" style="width: 100.0%; height: 100.0%;"><b>San Bernardino - CA-CD23</b></div>`)[0];
-                popup_73476648968021b865ae32f7e0439c7f.setContent(html_8627e8fa8f5f725d8074319d52ab44fb);
+                var html_7fcfe94c0917dce4e280902881f43236 = $(`<div id="html_7fcfe94c0917dce4e280902881f43236" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> San Bernardino - CA-CD23</h4>                              </div>         </div>`)[0];
+                popup_97c9eaa359fa768fc7e4d50a003aa44d.setContent(html_7fcfe94c0917dce4e280902881f43236);
             
         
 
-        polygon_b03d15ca8f80f13a2172ab3626272529.bindPopup(popup_73476648968021b865ae32f7e0439c7f)
+        polygon_6d76ff6b0701de4bc03fbbbe0bd93cbd.bindPopup(popup_97c9eaa359fa768fc7e4d50a003aa44d)
         ;
 
         
     
     
-            var circle_marker_6ed604edd5bac1c0ad71db12f77dfcb1 = L.circleMarker(
-                [34.14179344637113, -117.21403261431327],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_e4633b9b9f7b8265d260f641d50fede6);
-        
-    
-        var popup_7de2c843fee1b227e4bd0acf9fc39d36 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f3d548d2aa133972e1e22544c7fa8f98 = $(`<div id="html_f3d548d2aa133972e1e22544c7fa8f98" style="width: 100.0%; height: 100.0%;"><b>San Bernardino - CA-CD23</b></div>`)[0];
-                popup_7de2c843fee1b227e4bd0acf9fc39d36.setContent(html_f3d548d2aa133972e1e22544c7fa8f98);
-            
-        
-
-        circle_marker_6ed604edd5bac1c0ad71db12f77dfcb1.bindPopup(popup_7de2c843fee1b227e4bd0acf9fc39d36)
-        ;
-
-        
-    
-    
-            circle_marker_6ed604edd5bac1c0ad71db12f77dfcb1.bindTooltip(
+            polygon_6d76ff6b0701de4bc03fbbbe0bd93cbd.bindTooltip(
                 `<div>
-                     San Bernardino - CA-CD23
+                      San Bernardino - CA-CD23
                  </div>`,
                 {"sticky": true}
             );

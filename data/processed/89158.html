@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d4dad540c4f9ae09e441d18dc1a10bfb {
+                #map_ff2bd790dab27eba82cb2dd93fa2ba4a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Clark - NV-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Clark - NV-CD03</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Clark - NV-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Clark - NV-CD03</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Clark - NV-CD01</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Clark - NV-CD03</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_d4dad540c4f9ae09e441d18dc1a10bfb" ></div>
+            <div class="folium-map" id="map_ff2bd790dab27eba82cb2dd93fa2ba4a" ></div>
         
 </body>
 <script>
     
     
-            var map_d4dad540c4f9ae09e441d18dc1a10bfb = L.map(
-                "map_d4dad540c4f9ae09e441d18dc1a10bfb",
+            var map_ff2bd790dab27eba82cb2dd93fa2ba4a = L.map(
+                "map_ff2bd790dab27eba82cb2dd93fa2ba4a",
                 {
                     center: [36.10529144833189, -115.17680232100912],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_ff2bd790dab27eba82cb2dd93fa2ba4a);
 
             
 
         
     
-            var tile_layer_458d0cc61bf4e63192d55f2724c196c3 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_55977280049a8d5d071c459307802e32 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_458d0cc61bf4e63192d55f2724c196c3.addTo(map_d4dad540c4f9ae09e441d18dc1a10bfb);
+            tile_layer_55977280049a8d5d071c459307802e32.addTo(map_ff2bd790dab27eba82cb2dd93fa2ba4a);
         
     
-            var polygon_ea0927cf15044769b17395525cee2d8a = L.polygon(
+            var polygon_5c6457242fcfb4c44e6c5971b9f09fdf = L.polygon(
                 [[36.109231, -115.17513700000002], [36.109210999999995, -115.17422800000001], [36.10919099999999, -115.173743], [36.10912799999999, -115.17345000000002], [36.10900900000003, -115.17321900000002], [36.10884500000005, -115.17300000000002], [36.10856800000002, -115.173001], [36.10849099999997, -115.173001], [36.106418, -115.172975], [36.105294000000015, -115.172972], [36.103884000000015, -115.172969], [36.10235900000002, -115.172957], [36.10083800000003, -115.17294600000001], [36.10086800000001, -115.17407200000001], [36.10086331187749, -115.17464771279568], [36.10922867225358, -115.1752941519277], [36.109231, -115.17513700000002]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d4dad540c4f9ae09e441d18dc1a10bfb);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_ff2bd790dab27eba82cb2dd93fa2ba4a);
         
     
-        var popup_47a120186c61769824df216a6216dc69 = L.popup({"maxWidth": "100%"});
+        var popup_985fef80ee6ffa06017e3920b38e71cc = L.popup({"maxWidth": 300});
 
         
             
-                var html_6953890363365b8a57eb6fe370179a64 = $(`<div id="html_6953890363365b8a57eb6fe370179a64" style="width: 100.0%; height: 100.0%;"><b>Clark - NV-CD01</b></div>`)[0];
-                popup_47a120186c61769824df216a6216dc69.setContent(html_6953890363365b8a57eb6fe370179a64);
+                var html_1f8db3e0f8d909485044650c3d6f7790 = $(`<div id="html_1f8db3e0f8d909485044650c3d6f7790" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clark - NV-CD01</h4>                              </div>         </div>`)[0];
+                popup_985fef80ee6ffa06017e3920b38e71cc.setContent(html_1f8db3e0f8d909485044650c3d6f7790);
             
         
 
-        polygon_ea0927cf15044769b17395525cee2d8a.bindPopup(popup_47a120186c61769824df216a6216dc69)
+        polygon_5c6457242fcfb4c44e6c5971b9f09fdf.bindPopup(popup_985fef80ee6ffa06017e3920b38e71cc)
         ;
 
         
     
     
-            var circle_marker_833ab6d46939a73d744dacad9ee3e815 = L.circleMarker(
-                [36.10650929318419, -115.17369110968961],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d4dad540c4f9ae09e441d18dc1a10bfb);
-        
-    
-        var popup_93e62b83b795a6674da2df9888e04817 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3b272fbff9907d3ef26c0fd061fc9582 = $(`<div id="html_3b272fbff9907d3ef26c0fd061fc9582" style="width: 100.0%; height: 100.0%;"><b>Clark - NV-CD01</b></div>`)[0];
-                popup_93e62b83b795a6674da2df9888e04817.setContent(html_3b272fbff9907d3ef26c0fd061fc9582);
-            
-        
-
-        circle_marker_833ab6d46939a73d744dacad9ee3e815.bindPopup(popup_93e62b83b795a6674da2df9888e04817)
-        ;
-
-        
-    
-    
-            circle_marker_833ab6d46939a73d744dacad9ee3e815.bindTooltip(
+            polygon_5c6457242fcfb4c44e6c5971b9f09fdf.bindTooltip(
                 `<div>
-                     Clark - NV-CD01
+                      Clark - NV-CD01
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_7c28e4da4a276cf764f025e23bd3d03f = L.polygon(
+            var polygon_20c1fb6f7895ce862139c527674711ac = L.polygon(
                 [[36.103808000000015, -115.180478], [36.10387199999999, -115.18047699999998], [36.10406800000003, -115.180475], [36.10413299999994, -115.180475], [36.10492800000004, -115.180468], [36.107317000000016, -115.18044999999998], [36.10811300000006, -115.18044399999998], [36.10811300000004, -115.179994], [36.10810400000001, -115.1794], [36.108121000000025, -115.178905], [36.108186000000046, -115.178602], [36.108485999999985, -115.177604], [36.10876700000004, -115.17723], [36.109001, -115.17685200000001], [36.10906800000002, -115.17668600000002], [36.10917999999997, -115.17625700000002], [36.109219, -115.175947], [36.10922867225358, -115.1752941519277], [36.10086331187749, -115.17464771279568], [36.10086300000002, -115.174686], [36.10084999999997, -115.17520000000002], [36.10081300000003, -115.17600500000002], [36.10080100000001, -115.17722100000002], [36.100798000000026, -115.17751000000001], [36.10079000000002, -115.177611], [36.10071500000003, -115.17939799999999], [36.10070600000004, -115.179998], [36.10069999999998, -115.180331], [36.100697999999994, -115.18048200000001], [36.101319, -115.180481], [36.10318599999998, -115.180478], [36.103808000000015, -115.180478]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d4dad540c4f9ae09e441d18dc1a10bfb);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_ff2bd790dab27eba82cb2dd93fa2ba4a);
         
     
-        var popup_213d0cc9e70d47de13808b3a6510ff20 = L.popup({"maxWidth": "100%"});
+        var popup_3fe20cf1c872954c07d3d098d38ad926 = L.popup({"maxWidth": 300});
 
         
             
-                var html_a40b13f29f9bc5e6149e3ca2d7aef7bd = $(`<div id="html_a40b13f29f9bc5e6149e3ca2d7aef7bd" style="width: 100.0%; height: 100.0%;"><b>Clark - NV-CD03</b></div>`)[0];
-                popup_213d0cc9e70d47de13808b3a6510ff20.setContent(html_a40b13f29f9bc5e6149e3ca2d7aef7bd);
+                var html_9eee2b120e40e4545735cfb3be9e2b48 = $(`<div id="html_9eee2b120e40e4545735cfb3be9e2b48" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Clark - NV-CD03</h4>                              </div>         </div>`)[0];
+                popup_3fe20cf1c872954c07d3d098d38ad926.setContent(html_9eee2b120e40e4545735cfb3be9e2b48);
             
         
 
-        polygon_7c28e4da4a276cf764f025e23bd3d03f.bindPopup(popup_213d0cc9e70d47de13808b3a6510ff20)
+        polygon_20c1fb6f7895ce862139c527674711ac.bindPopup(popup_3fe20cf1c872954c07d3d098d38ad926)
         ;
 
         
     
     
-            var circle_marker_e256f44843f7c0e1c571161b6501fd88 = L.circleMarker(
-                [36.10464446825411, -115.17845515202261],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d4dad540c4f9ae09e441d18dc1a10bfb);
-        
-    
-        var popup_13ee1e54a28c8c823397a5c934e4b854 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_681be25deedd1e2ac9c62b52672640cc = $(`<div id="html_681be25deedd1e2ac9c62b52672640cc" style="width: 100.0%; height: 100.0%;"><b>Clark - NV-CD03</b></div>`)[0];
-                popup_13ee1e54a28c8c823397a5c934e4b854.setContent(html_681be25deedd1e2ac9c62b52672640cc);
-            
-        
-
-        circle_marker_e256f44843f7c0e1c571161b6501fd88.bindPopup(popup_13ee1e54a28c8c823397a5c934e4b854)
-        ;
-
-        
-    
-    
-            circle_marker_e256f44843f7c0e1c571161b6501fd88.bindTooltip(
+            polygon_20c1fb6f7895ce862139c527674711ac.bindTooltip(
                 `<div>
-                     Clark - NV-CD03
+                      Clark - NV-CD03
                  </div>`,
                 {"sticky": true}
             );

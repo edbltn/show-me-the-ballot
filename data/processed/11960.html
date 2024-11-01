@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_0646831d04b1a2521430024302f35245 {
+                #map_8f3d766ca5e98d407966aa5615736491 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Suffolk - NY-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Suffolk - NY-CD01</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Suffolk - NY-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Suffolk - NY-CD01</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Suffolk - NY-CD02</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Suffolk - NY-CD01</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_0646831d04b1a2521430024302f35245" ></div>
+            <div class="folium-map" id="map_8f3d766ca5e98d407966aa5615736491" ></div>
         
 </body>
 <script>
     
     
-            var map_0646831d04b1a2521430024302f35245 = L.map(
-                "map_0646831d04b1a2521430024302f35245",
+            var map_8f3d766ca5e98d407966aa5615736491 = L.map(
+                "map_8f3d766ca5e98d407966aa5615736491",
                 {
                     center: [40.812352321152574, -72.70744189934369],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_8f3d766ca5e98d407966aa5615736491);
 
             
 
         
     
-            var tile_layer_75b24f9326a86ab2616b3e56a8c4ad1c = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_f0fb92e8b0a553b66e8390d15f7b6acc = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_75b24f9326a86ab2616b3e56a8c4ad1c.addTo(map_0646831d04b1a2521430024302f35245);
+            tile_layer_f0fb92e8b0a553b66e8390d15f7b6acc.addTo(map_8f3d766ca5e98d407966aa5615736491);
         
     
-            var polygon_e9d2afe433268f03ae1a570bf1b4bd37 = L.polygon(
+            var polygon_8d50dc573b5159ab8927558165ef2ed6 = L.polygon(
                 [[40.81234, -72.724665], [40.81201900000003, -72.724389], [40.81208400000001, -72.724038], [40.81289299999999, -72.72346400000002], [40.813170999999976, -72.723267], [40.81542600000003, -72.723496], [40.81595999999996, -72.723818], [40.81590500000002, -72.723961], [40.81621200000003, -72.723923], [40.81625299999999, -72.723909], [40.81648900000001, -72.723797], [40.816523, -72.723774], [40.816903999999994, -72.723525], [40.81746300000001, -72.72314200000001], [40.81792499999998, -72.72271], [40.818164999999965, -72.722406], [40.81845200000005, -72.722055], [40.818627, -72.721831], [40.818930000000044, -72.721463], [40.81899999999996, -72.72138], [40.81918700000005, -72.720567], [40.819320117937785, -72.71925858807973], [40.80673828579396, -72.72166035285288], [40.80746099999993, -72.72256500000002], [40.80924999999996, -72.72437500000001], [40.810099999999984, -72.724282], [40.81179500000002, -72.724699], [40.81248499999997, -72.72487], [40.81258000000001, -72.724473], [40.81234, -72.724665]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_0646831d04b1a2521430024302f35245);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8f3d766ca5e98d407966aa5615736491);
         
     
-        var popup_9dac9df16b129ebf0a8424d4c254e6de = L.popup({"maxWidth": "100%"});
+        var popup_8e359d322c6fa8b6380effc6fc4ec8c9 = L.popup({"maxWidth": 300});
 
         
             
-                var html_876fade3ad6f07059a1859e836a36a48 = $(`<div id="html_876fade3ad6f07059a1859e836a36a48" style="width: 100.0%; height: 100.0%;"><b>Suffolk - NY-CD02</b></div>`)[0];
-                popup_9dac9df16b129ebf0a8424d4c254e6de.setContent(html_876fade3ad6f07059a1859e836a36a48);
+                var html_3391b0190c0dd994003a5f1e50f3f2ec = $(`<div id="html_3391b0190c0dd994003a5f1e50f3f2ec" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Suffolk - NY-CD02</h4>                              </div>         </div>`)[0];
+                popup_8e359d322c6fa8b6380effc6fc4ec8c9.setContent(html_3391b0190c0dd994003a5f1e50f3f2ec);
             
         
 
-        polygon_e9d2afe433268f03ae1a570bf1b4bd37.bindPopup(popup_9dac9df16b129ebf0a8424d4c254e6de)
+        polygon_8d50dc573b5159ab8927558165ef2ed6.bindPopup(popup_8e359d322c6fa8b6380effc6fc4ec8c9)
         ;
 
         
     
     
-            var circle_marker_bf08c2579248f39e2f6ef76919824e46 = L.circleMarker(
-                [40.81473324679106, -72.72321426469777],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_0646831d04b1a2521430024302f35245);
-        
-    
-        var popup_71c2c1cc91a355f4aa1a764c4562a94a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_7ef7c30bb6855c1ab1c5ece4b9e18580 = $(`<div id="html_7ef7c30bb6855c1ab1c5ece4b9e18580" style="width: 100.0%; height: 100.0%;"><b>Suffolk - NY-CD02</b></div>`)[0];
-                popup_71c2c1cc91a355f4aa1a764c4562a94a.setContent(html_7ef7c30bb6855c1ab1c5ece4b9e18580);
-            
-        
-
-        circle_marker_bf08c2579248f39e2f6ef76919824e46.bindPopup(popup_71c2c1cc91a355f4aa1a764c4562a94a)
-        ;
-
-        
-    
-    
-            circle_marker_bf08c2579248f39e2f6ef76919824e46.bindTooltip(
+            polygon_8d50dc573b5159ab8927558165ef2ed6.bindTooltip(
                 `<div>
-                     Suffolk - NY-CD02
+                      Suffolk - NY-CD02
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_c624f35f1fdd242656991c960c0588a0 = L.polygon(
+            var polygon_ea9bff5bc827c3be0e6e9f7cb6589dc4 = L.polygon(
                 [[40.819587, -72.716635], [40.82109400000001, -72.713918], [40.820999999999955, -72.713819], [40.82069400000002, -72.713483], [40.82053800000001, -72.713329], [40.820339000000004, -72.713164], [40.82010999999997, -72.713096], [40.819906999999986, -72.71284500000002], [40.819678000000046, -72.712698], [40.819278999999966, -72.712465], [40.81908299999994, -72.71237], [40.818828000000025, -72.712266], [40.818405, -72.712108], [40.81810199999997, -72.712007], [40.81782499999998, -72.71197000000001], [40.81659099999998, -72.711731], [40.815758000000024, -72.71164], [40.815473999999995, -72.711616], [40.815333000000024, -72.711596], [40.81518199999997, -72.711581], [40.81500300000001, -72.711626], [40.81465500000001, -72.711806], [40.813968000000024, -72.71212], [40.813813, -72.711994], [40.813296, -72.711551], [40.81310099999999, -72.71138600000002], [40.81286999999999, -72.711199], [40.81271499999997, -72.71116000000002], [40.81258000000001, -72.71113400000002], [40.812425, -72.711107], [40.812524000000025, -72.710505], [40.813828000000015, -72.709511], [40.81365800000001, -72.709108], [40.81361800000005, -72.708981], [40.813602000000024, -72.708912], [40.813598000000006, -72.708849], [40.813618000000034, -72.708704], [40.81369300000001, -72.708445], [40.81370799999996, -72.708346], [40.813703, -72.70828], [40.81368800000004, -72.708213], [40.81357800000002, -72.707881], [40.81336199999999, -72.707195], [40.813236999999965, -72.706909], [40.813199000000004, -72.706766], [40.81318600000001, -72.706649], [40.813208, -72.70631], [40.813202999999994, -72.706201], [40.81317999999998, -72.706103], [40.81314600000003, -72.70601], [40.81309700000003, -72.705939], [40.813045000000024, -72.70590100000001], [40.81297599999995, -72.705881], [40.81347799999999, -72.70555], [40.81423300000004, -72.70505500000002], [40.81440699999993, -72.704949], [40.81477800000002, -72.704753], [40.81512500000003, -72.704557], [40.81529899999996, -72.704419], [40.81545199999999, -72.704275], [40.81596700000002, -72.703817], [40.816111000000056, -72.703718], [40.81642299999999, -72.703554], [40.81656800000001, -72.703495], [40.81668100000002, -72.703463], [40.816995999999975, -72.70339], [40.81726799999996, -72.703335], [40.817386999999975, -72.703291], [40.81765499999999, -72.703144], [40.818007999999985, -72.702907], [40.81816100000002, -72.702824], [40.81825000000001, -72.7028], [40.818484000000005, -72.70281400000002], [40.818621999999976, -72.702819], [40.818766999999966, -72.7028], [40.81899000000003, -72.702731], [40.819213000000026, -72.702681], [40.81930299999999, -72.70266800000002], [40.81929199999996, -72.702503], [40.81914900000002, -72.700369], [40.819059999999986, -72.69899800000002], [40.819000999999965, -72.69813600000002], [40.818862, -72.695904], [40.81883299999996, -72.695571], [40.818748999999976, -72.694842], [40.818681, -72.69445400000001], [40.818615, -72.694134], [40.81856000000005, -72.69367800000002], [40.818500999999976, -72.69318], [40.818339000000016, -72.69158600000002], [40.81832200000002, -72.690971], [40.81795500000005, -72.691062], [40.81779499999996, -72.691078], [40.817176999999965, -72.691091], [40.81662699999998, -72.69096600000002], [40.81609900000003, -72.690982], [40.815954999999995, -72.69099800000001], [40.815507000000004, -72.690998], [40.815217000000025, -72.690945], [40.81495600000004, -72.690906], [40.81462900000002, -72.690845], [40.81436999999996, -72.690814], [40.81401299999995, -72.690768], [40.813180999999986, -72.69063], [40.81265100000002, -72.69075300000002], [40.81210099999998, -72.690805], [40.808563000000014, -72.69007], [40.808514999999964, -72.690674], [40.80836200000003, -72.690702], [40.80401400000002, -72.691233], [40.803825, -72.691992], [40.80361900000003, -72.692305], [40.800374000000005, -72.693954], [40.79888199999998, -72.694198], [40.79793900000003, -72.693803], [40.79769899999997, -72.69333600000002], [40.797538999999986, -72.693002], [40.79721800000002, -72.693062], [40.79673699999998, -72.693496], [40.79707299999999, -72.693619], [40.79713799999999, -72.695236], [40.796707, -72.697074], [40.797012000000024, -72.697464], [40.79744299999999, -72.699334], [40.797315, -72.699685], [40.79703599999996, -72.699973], [40.79673699999999, -72.70028], [40.797152999999945, -72.70127800000002], [40.797474000000015, -72.702324], [40.797957000000025, -72.704192], [40.797969999999985, -72.704453], [40.79840499999998, -72.70617], [40.799155999999975, -72.70964100000002], [40.79931600000002, -72.71029700000001], [40.79977799999998, -72.711098], [40.80075399999998, -72.713013], [40.80068999999997, -72.713782], [40.80077000000001, -72.713944], [40.801002000000054, -72.714264], [40.80201299999999, -72.715652], [40.803326999999996, -72.717533], [40.80357, -72.71788100000002], [40.80389, -72.718613], [40.80523699999999, -72.720346], [40.805986000000004, -72.721187], [40.80627400000001, -72.721124], [40.80659499999998, -72.721481], [40.80673828579396, -72.72166035285288], [40.819320117937785, -72.71925858807973], [40.819587, -72.716635]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_0646831d04b1a2521430024302f35245);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8f3d766ca5e98d407966aa5615736491);
         
     
-        var popup_4f32dd9cf11aeeeb510b34b99fa61058 = L.popup({"maxWidth": "100%"});
+        var popup_20af89827a44b57433a081c3a14cfc45 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2f15b2fd39e96dcc0e6acf36c1a80858 = $(`<div id="html_2f15b2fd39e96dcc0e6acf36c1a80858" style="width: 100.0%; height: 100.0%;"><b>Suffolk - NY-CD01</b></div>`)[0];
-                popup_4f32dd9cf11aeeeb510b34b99fa61058.setContent(html_2f15b2fd39e96dcc0e6acf36c1a80858);
+                var html_5721fce4505d420047a25402358db6e5 = $(`<div id="html_5721fce4505d420047a25402358db6e5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Suffolk - NY-CD01</h4>                              </div>         </div>`)[0];
+                popup_20af89827a44b57433a081c3a14cfc45.setContent(html_5721fce4505d420047a25402358db6e5);
             
         
 
-        polygon_c624f35f1fdd242656991c960c0588a0.bindPopup(popup_4f32dd9cf11aeeeb510b34b99fa61058)
+        polygon_ea9bff5bc827c3be0e6e9f7cb6589dc4.bindPopup(popup_20af89827a44b57433a081c3a14cfc45)
         ;
 
         
     
     
-            var circle_marker_e434cf9e10cedfc66c835a47538cd260 = L.circleMarker(
-                [40.81187613602488, -72.70428742627288],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_0646831d04b1a2521430024302f35245);
-        
-    
-        var popup_3cc91460a0e6e7cab29eb8a1667745ee = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_0f67cb688079caa40dc91f310fdcd020 = $(`<div id="html_0f67cb688079caa40dc91f310fdcd020" style="width: 100.0%; height: 100.0%;"><b>Suffolk - NY-CD01</b></div>`)[0];
-                popup_3cc91460a0e6e7cab29eb8a1667745ee.setContent(html_0f67cb688079caa40dc91f310fdcd020);
-            
-        
-
-        circle_marker_e434cf9e10cedfc66c835a47538cd260.bindPopup(popup_3cc91460a0e6e7cab29eb8a1667745ee)
-        ;
-
-        
-    
-    
-            circle_marker_e434cf9e10cedfc66c835a47538cd260.bindTooltip(
+            polygon_ea9bff5bc827c3be0e6e9f7cb6589dc4.bindTooltip(
                 `<div>
-                     Suffolk - NY-CD01
+                      Suffolk - NY-CD01
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_960eafa5e297839e79fee3ff0b1971d6 {
+                #map_60e55e77bacee57fd8f86fc4451968a6 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Greater Bridgeport - CT-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Greater Bridgeport - CT-CD03</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Greater Bridgeport - CT-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Greater Bridgeport - CT-CD03</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Greater Bridgeport - CT-CD04</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Greater Bridgeport - CT-CD03</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_960eafa5e297839e79fee3ff0b1971d6" ></div>
+            <div class="folium-map" id="map_60e55e77bacee57fd8f86fc4451968a6" ></div>
         
 </body>
 <script>
     
     
-            var map_960eafa5e297839e79fee3ff0b1971d6 = L.map(
-                "map_960eafa5e297839e79fee3ff0b1971d6",
+            var map_60e55e77bacee57fd8f86fc4451968a6 = L.map(
+                "map_60e55e77bacee57fd8f86fc4451968a6",
                 {
                     center: [41.17481567438575, -73.16439869640625],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_60e55e77bacee57fd8f86fc4451968a6);
 
             
 
         
     
-            var tile_layer_4f3c7e0cdf9120c3ff4768123be3f539 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_c0c535c35bb1fba4259a36f65ef02213 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_4f3c7e0cdf9120c3ff4768123be3f539.addTo(map_960eafa5e297839e79fee3ff0b1971d6);
+            tile_layer_c0c535c35bb1fba4259a36f65ef02213.addTo(map_60e55e77bacee57fd8f86fc4451968a6);
         
     
-            var polygon_dd632f48c5b3bfb606ac82c6efdfa74c = L.polygon(
+            var polygon_fd3707fcf8d0d70062bbecaebc7abc47 = L.polygon(
                 [[41.17564499999996, -73.17736700000002], [41.176732999999984, -73.176595], [41.17678099999996, -73.176565], [41.17702699999996, -73.17641900000001], [41.17791399999997, -73.175893], [41.17803799999999, -73.175824], [41.17809400000005, -73.175794], [41.178214999999994, -73.175733], [41.17826200000002, -73.17571200000002], [41.178769999999986, -73.175407], [41.178912000000025, -73.175322], [41.18099999999999, -73.174071], [41.18169599999999, -73.173655], [41.18241600000001, -73.173179], [41.18457699999997, -73.171755], [41.185297999999996, -73.171281], [41.18536000000004, -73.171266], [41.18542400000005, -73.171252], [41.18551699999998, -73.171165], [41.185564, -73.171122], [41.185584999999946, -73.17110100000001], [41.18561100000001, -73.171078], [41.185665000000036, -73.17107100000001], [41.18569500000003, -73.171068], [41.18569300000001, -73.170876], [41.18568699999998, -73.1703], [41.185685000000014, -73.170109], [41.18567400000002, -73.170018], [41.185642, -73.169746], [41.18563200000002, -73.16965600000002], [41.18559799999997, -73.169143], [41.18549700000004, -73.16760800000002], [41.18546399999996, -73.167096], [41.185457000000014, -73.166987], [41.18543700000002, -73.166663], [41.185430999999994, -73.166555], [41.185431, -73.166126], [41.18534800000001, -73.164905], [41.18507177925304, -73.16080378897058], [41.15344235623824, -73.17283533580266], [41.15344232064517, -73.17283563105015], [41.15445193816246, -73.17930106237029], [41.158132000000016, -73.17820200000001], [41.159515999999975, -73.17779], [41.16004900000002, -73.17763], [41.161650999999935, -73.177152], [41.16218500000002, -73.176993], [41.16289799999999, -73.17678], [41.165036999999984, -73.17614], [41.16575100000003, -73.175928], [41.16599600000004, -73.175855], [41.166504000000025, -73.175855], [41.16689600000002, -73.175855], [41.16846500000002, -73.176924], [41.16909600000003, -73.177355], [41.169536, -73.17797500000002], [41.170855999999944, -73.17983500000001], [41.171295999999984, -73.180455], [41.17238300000004, -73.179682], [41.17564499999996, -73.17736700000002]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_960eafa5e297839e79fee3ff0b1971d6);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60e55e77bacee57fd8f86fc4451968a6);
         
     
-        var popup_ba281737fc8c1ff56aea8dc1e3b14ad3 = L.popup({"maxWidth": "100%"});
+        var popup_156d04017e2057a45a2e3ec3cf197647 = L.popup({"maxWidth": 300});
 
         
             
-                var html_ce7c44fea6018bbf5517cf6ca10e1165 = $(`<div id="html_ce7c44fea6018bbf5517cf6ca10e1165" style="width: 100.0%; height: 100.0%;"><b>Greater Bridgeport - CT-CD04</b></div>`)[0];
-                popup_ba281737fc8c1ff56aea8dc1e3b14ad3.setContent(html_ce7c44fea6018bbf5517cf6ca10e1165);
+                var html_d25108001983b08f78a1ec616c468768 = $(`<div id="html_d25108001983b08f78a1ec616c468768" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Greater Bridgeport - CT-CD04</h4>                              </div>         </div>`)[0];
+                popup_156d04017e2057a45a2e3ec3cf197647.setContent(html_d25108001983b08f78a1ec616c468768);
             
         
 
-        polygon_dd632f48c5b3bfb606ac82c6efdfa74c.bindPopup(popup_ba281737fc8c1ff56aea8dc1e3b14ad3)
+        polygon_fd3707fcf8d0d70062bbecaebc7abc47.bindPopup(popup_156d04017e2057a45a2e3ec3cf197647)
         ;
 
         
     
     
-            var circle_marker_62d1671e8de3abb32884b0498aeb6c82 = L.circleMarker(
-                [41.176496256571646, -73.1734171969699],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_960eafa5e297839e79fee3ff0b1971d6);
-        
-    
-        var popup_7d04830276ba1f403f60c283a5c69293 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_c6a590b1dc12b65bb0d796b8f3321acf = $(`<div id="html_c6a590b1dc12b65bb0d796b8f3321acf" style="width: 100.0%; height: 100.0%;"><b>Greater Bridgeport - CT-CD04</b></div>`)[0];
-                popup_7d04830276ba1f403f60c283a5c69293.setContent(html_c6a590b1dc12b65bb0d796b8f3321acf);
-            
-        
-
-        circle_marker_62d1671e8de3abb32884b0498aeb6c82.bindPopup(popup_7d04830276ba1f403f60c283a5c69293)
-        ;
-
-        
-    
-    
-            circle_marker_62d1671e8de3abb32884b0498aeb6c82.bindTooltip(
+            polygon_fd3707fcf8d0d70062bbecaebc7abc47.bindTooltip(
                 `<div>
-                     Greater Bridgeport - CT-CD04
+                      Greater Bridgeport - CT-CD04
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_6d3c9d9b4945eb7fa7dc0d88ccb24d52 = L.polygon(
+            var polygon_04464a516d2fba4b41881d1c1dbb68e5 = L.polygon(
                 [[41.18501500000003, -73.159961], [41.18493899999999, -73.15882700000002], [41.18494000000003, -73.158312], [41.18493, -73.158002], [41.184902999999984, -73.157072], [41.18489400000001, -73.156762], [41.184858000000006, -73.155808], [41.184818999999976, -73.154731], [41.18443799999997, -73.154677], [41.183861, -73.154467], [41.183833999999976, -73.15446], [41.18368299999996, -73.154486], [41.183554000000036, -73.154613], [41.18353600000001, -73.154573], [41.183252999999986, -73.154297], [41.183130000000006, -73.154225], [41.183030000000045, -73.154231], [41.182466, -73.154351], [41.181947000000015, -73.154474], [41.18182999999997, -73.154494], [41.18160699999998, -73.154565], [41.18110699999996, -73.154721], [41.18102800000001, -73.154762], [41.180953999999986, -73.154807], [41.180304, -73.154949], [41.18004300000004, -73.155135], [41.17982699999999, -73.15529], [41.17976700000001, -73.155294], [41.179430999999994, -73.155319], [41.17894799999997, -73.155283], [41.17879100000002, -73.155295], [41.178467, -73.15532], [41.178383, -73.155327], [41.17836600000003, -73.15533], [41.178071000000024, -73.15539900000002], [41.17797299999999, -73.15542400000001], [41.177725999999964, -73.155618], [41.177643999999994, -73.15569800000002], [41.17672600000002, -73.156599], [41.17642100000002, -73.1569], [41.17607099999995, -73.157218], [41.17597500000002, -73.157305], [41.17502499999997, -73.15817200000001], [41.17485500000002, -73.158327], [41.174675999999984, -73.15849], [41.17460500000006, -73.158548], [41.174395000000004, -73.158724], [41.174325, -73.158783], [41.17427399999997, -73.158753], [41.174249, -73.158738], [41.174137999999964, -73.158673], [41.174020999999954, -73.158612], [41.17394399999998, -73.158572], [41.17392499999997, -73.158562], [41.173902000000005, -73.158545], [41.173785000000024, -73.158458], [41.17374600000003, -73.158429], [41.17363599999999, -73.15831], [41.1736, -73.15827100000001], [41.173451, -73.15812400000002], [41.17331799999997, -73.157947], [41.17329599999998, -73.157918], [41.173207999999995, -73.157831], [41.172695999999945, -73.15823800000001], [41.17194700000001, -73.15883600000001], [41.171186, -73.159494], [41.17069199999998, -73.159923], [41.169883999999975, -73.160204], [41.167462000000015, -73.16105], [41.16665500000001, -73.161332], [41.166476000000024, -73.161401], [41.165939, -73.161612], [41.16576100000002, -73.161682], [41.165440999999966, -73.161806], [41.164483, -73.162182], [41.16416400000001, -73.162308], [41.16284100000001, -73.16273], [41.16111699999999, -73.163281], [41.160786999999964, -73.163391], [41.16041000000002, -73.16356], [41.159281, -73.164071], [41.158905000000026, -73.164241], [41.15884299999996, -73.164266], [41.15865999999998, -73.164342], [41.15860000000005, -73.164368], [41.15847199999999, -73.164376], [41.158087999999985, -73.164401], [41.15796099999998, -73.16441000000002], [41.157228, -73.16467800000001], [41.15502899999998, -73.165486], [41.15429699999999, -73.16575500000002], [41.15395600000005, -73.168574], [41.15344235623824, -73.17283533580266], [41.18507177925304, -73.16080378897058], [41.18501500000003, -73.159961]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_960eafa5e297839e79fee3ff0b1971d6);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_60e55e77bacee57fd8f86fc4451968a6);
         
     
-        var popup_28dddbc5760b227be0f794049cc66fd2 = L.popup({"maxWidth": "100%"});
+        var popup_427a027b6878eac83b61288d35c7301f = L.popup({"maxWidth": 300});
 
         
             
-                var html_b6dfefd03829d01ecc1f095005675927 = $(`<div id="html_b6dfefd03829d01ecc1f095005675927" style="width: 100.0%; height: 100.0%;"><b>Greater Bridgeport - CT-CD03</b></div>`)[0];
-                popup_28dddbc5760b227be0f794049cc66fd2.setContent(html_b6dfefd03829d01ecc1f095005675927);
+                var html_003c6d8b891dae177da7547e9e81adbd = $(`<div id="html_003c6d8b891dae177da7547e9e81adbd" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Greater Bridgeport - CT-CD03</h4>                              </div>         </div>`)[0];
+                popup_427a027b6878eac83b61288d35c7301f.setContent(html_003c6d8b891dae177da7547e9e81adbd);
             
         
 
-        polygon_6d3c9d9b4945eb7fa7dc0d88ccb24d52.bindPopup(popup_28dddbc5760b227be0f794049cc66fd2)
+        polygon_04464a516d2fba4b41881d1c1dbb68e5.bindPopup(popup_427a027b6878eac83b61288d35c7301f)
         ;
 
         
     
     
-            var circle_marker_af191c11b5ccac0e40aa8f37bf2144c9 = L.circleMarker(
-                [41.173754254057805, -73.15870280131341],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_960eafa5e297839e79fee3ff0b1971d6);
-        
-    
-        var popup_128e5b09d8143f3f47cade307196da50 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_8607c06a46a59cefa4df8de66e3d9688 = $(`<div id="html_8607c06a46a59cefa4df8de66e3d9688" style="width: 100.0%; height: 100.0%;"><b>Greater Bridgeport - CT-CD03</b></div>`)[0];
-                popup_128e5b09d8143f3f47cade307196da50.setContent(html_8607c06a46a59cefa4df8de66e3d9688);
-            
-        
-
-        circle_marker_af191c11b5ccac0e40aa8f37bf2144c9.bindPopup(popup_128e5b09d8143f3f47cade307196da50)
-        ;
-
-        
-    
-    
-            circle_marker_af191c11b5ccac0e40aa8f37bf2144c9.bindTooltip(
+            polygon_04464a516d2fba4b41881d1c1dbb68e5.bindTooltip(
                 `<div>
-                     Greater Bridgeport - CT-CD03
+                      Greater Bridgeport - CT-CD03
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3d934419da92312c4aedaaee038c55f1 {
+                #map_f1b2a49e149f499c9162c234c15f0ef3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Telfair - GA-CD12</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Telfair - GA-CD08</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Telfair - GA-CD12</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Telfair - GA-CD08</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Telfair - GA-CD12</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Telfair - GA-CD08</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_3d934419da92312c4aedaaee038c55f1" ></div>
+            <div class="folium-map" id="map_f1b2a49e149f499c9162c234c15f0ef3" ></div>
         
 </body>
 <script>
     
     
-            var map_3d934419da92312c4aedaaee038c55f1 = L.map(
-                "map_3d934419da92312c4aedaaee038c55f1",
+            var map_f1b2a49e149f499c9162c234c15f0ef3 = L.map(
+                "map_f1b2a49e149f499c9162c234c15f0ef3",
                 {
                     center: [32.04685006327053, -82.81883750695258],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_f1b2a49e149f499c9162c234c15f0ef3);
 
             
 
         
     
-            var tile_layer_7253474be0f380f7850fb6d48af882e3 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_d887f313baaab66690e6b556844d4e03 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_7253474be0f380f7850fb6d48af882e3.addTo(map_3d934419da92312c4aedaaee038c55f1);
+            tile_layer_d887f313baaab66690e6b556844d4e03.addTo(map_f1b2a49e149f499c9162c234c15f0ef3);
         
     
-            var polygon_d12909e86e8fd7f0aaa4467507704e58 = L.polygon(
+            var polygon_3cc6a21546a5be6d3604e8f9721764a8 = L.polygon(
                 [[32.05271999999999, -82.828635], [32.05155299999996, -82.82060800000001], [32.05115699999999, -82.818085], [32.05106700000002, -82.8177], [32.05080100000003, -82.816574], [32.05073000000001, -82.81635400000002], [32.05052800000001, -82.81644600000001], [32.05029499999998, -82.815736], [32.050266999999984, -82.815752], [32.049632000000045, -82.815998], [32.04883699999998, -82.81638], [32.04837800000001, -82.81503], [32.04719799999997, -82.815639], [32.04606000000002, -82.816104], [32.04584300000001, -82.815468], [32.04580099999996, -82.815358], [32.04517400000004, -82.813565], [32.04498599999999, -82.813179], [32.044178501472494, -82.81223732175663], [32.05297516903246, -82.83079805686596], [32.053027999999955, -82.830735], [32.05271999999999, -82.828635]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_3d934419da92312c4aedaaee038c55f1);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f1b2a49e149f499c9162c234c15f0ef3);
         
     
-        var popup_6c7ad9d95bc9e82ba72e7485299cc378 = L.popup({"maxWidth": "100%"});
+        var popup_dce90404148d5fc481cf4f635bde6372 = L.popup({"maxWidth": 300});
 
         
             
-                var html_504fc5dbf25bddba08184af3d082a485 = $(`<div id="html_504fc5dbf25bddba08184af3d082a485" style="width: 100.0%; height: 100.0%;"><b>Telfair - GA-CD12</b></div>`)[0];
-                popup_6c7ad9d95bc9e82ba72e7485299cc378.setContent(html_504fc5dbf25bddba08184af3d082a485);
+                var html_dd1e815d053265908019db2718b8eed7 = $(`<div id="html_dd1e815d053265908019db2718b8eed7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Telfair - GA-CD12</h4>                              </div>         </div>`)[0];
+                popup_dce90404148d5fc481cf4f635bde6372.setContent(html_dd1e815d053265908019db2718b8eed7);
             
         
 
-        polygon_d12909e86e8fd7f0aaa4467507704e58.bindPopup(popup_6c7ad9d95bc9e82ba72e7485299cc378)
+        polygon_3cc6a21546a5be6d3604e8f9721764a8.bindPopup(popup_dce90404148d5fc481cf4f635bde6372)
         ;
 
         
     
     
-            var circle_marker_1c420c026cd09960f7f2a0d69691aca1 = L.circleMarker(
-                [32.049269485022954, -82.81840983539193],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_3d934419da92312c4aedaaee038c55f1);
-        
-    
-        var popup_2fe5ab9386f217d8db3e26a1cec40322 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_bd97fb453b367eaa45dc1d2dc1a5e30e = $(`<div id="html_bd97fb453b367eaa45dc1d2dc1a5e30e" style="width: 100.0%; height: 100.0%;"><b>Telfair - GA-CD12</b></div>`)[0];
-                popup_2fe5ab9386f217d8db3e26a1cec40322.setContent(html_bd97fb453b367eaa45dc1d2dc1a5e30e);
-            
-        
-
-        circle_marker_1c420c026cd09960f7f2a0d69691aca1.bindPopup(popup_2fe5ab9386f217d8db3e26a1cec40322)
-        ;
-
-        
-    
-    
-            circle_marker_1c420c026cd09960f7f2a0d69691aca1.bindTooltip(
+            polygon_3cc6a21546a5be6d3604e8f9721764a8.bindTooltip(
                 `<div>
-                     Telfair - GA-CD12
+                      Telfair - GA-CD12
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_6b5d531df66afbb6285b8dc73ba63220 = L.polygon(
+            var polygon_fa8c4d15c433521673f95d72d0f99823 = L.polygon(
                 [[32.040916, -82.80843300000001], [32.040595, -82.808293], [32.039335, -82.807875], [32.03456900000003, -82.81377], [32.034266000000024, -82.814146], [32.038994000000024, -82.819483], [32.04193500000002, -82.822807], [32.044379, -82.82555], [32.04575100000004, -82.82709800000002], [32.04711800000001, -82.828638], [32.05106400000002, -82.833083], [32.05253200000001, -82.831327], [32.05297516903246, -82.83079805686596], [32.044178501472494, -82.81223732175663], [32.040916, -82.80843300000001]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_3d934419da92312c4aedaaee038c55f1);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f1b2a49e149f499c9162c234c15f0ef3);
         
     
-        var popup_efff46750f783a81868ccf11e59101f8 = L.popup({"maxWidth": "100%"});
+        var popup_a3a2cdf8b867af9ca1fc324a2def6a0b = L.popup({"maxWidth": 300});
 
         
             
-                var html_da0f1a68279d087d8716d4a5e877d4a9 = $(`<div id="html_da0f1a68279d087d8716d4a5e877d4a9" style="width: 100.0%; height: 100.0%;"><b>Telfair - GA-CD08</b></div>`)[0];
-                popup_efff46750f783a81868ccf11e59101f8.setContent(html_da0f1a68279d087d8716d4a5e877d4a9);
+                var html_72014f5c0f0bf54713431b8a39a14e5d = $(`<div id="html_72014f5c0f0bf54713431b8a39a14e5d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Telfair - GA-CD08</h4>                              </div>         </div>`)[0];
+                popup_a3a2cdf8b867af9ca1fc324a2def6a0b.setContent(html_72014f5c0f0bf54713431b8a39a14e5d);
             
         
 
-        polygon_6b5d531df66afbb6285b8dc73ba63220.bindPopup(popup_efff46750f783a81868ccf11e59101f8)
+        polygon_fa8c4d15c433521673f95d72d0f99823.bindPopup(popup_a3a2cdf8b867af9ca1fc324a2def6a0b)
         ;
 
         
     
     
-            var circle_marker_6f94e9f833086e1ca4091da7054ef078 = L.circleMarker(
-                [32.04330157803367, -82.81946475857482],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_3d934419da92312c4aedaaee038c55f1);
-        
-    
-        var popup_bbd5a8faa361bb0ce5ae4bacedd11598 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_e885e1a311f466d7479b01b75f5de48d = $(`<div id="html_e885e1a311f466d7479b01b75f5de48d" style="width: 100.0%; height: 100.0%;"><b>Telfair - GA-CD08</b></div>`)[0];
-                popup_bbd5a8faa361bb0ce5ae4bacedd11598.setContent(html_e885e1a311f466d7479b01b75f5de48d);
-            
-        
-
-        circle_marker_6f94e9f833086e1ca4091da7054ef078.bindPopup(popup_bbd5a8faa361bb0ce5ae4bacedd11598)
-        ;
-
-        
-    
-    
-            circle_marker_6f94e9f833086e1ca4091da7054ef078.bindTooltip(
+            polygon_fa8c4d15c433521673f95d72d0f99823.bindTooltip(
                 `<div>
-                     Telfair - GA-CD08
+                      Telfair - GA-CD08
                  </div>`,
                 {"sticky": true}
             );

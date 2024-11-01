@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_22dbd81d58d7c9cac5fe88600119c776 {
+                #map_33be6147a4e3385cfb0af76d6c4cf0d5 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bexar - TX-CD35</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bexar - TX-CD28</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bexar - TX-CD35</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bexar - TX-CD28</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Bexar - TX-CD35</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Bexar - TX-CD28</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_22dbd81d58d7c9cac5fe88600119c776" ></div>
+            <div class="folium-map" id="map_33be6147a4e3385cfb0af76d6c4cf0d5" ></div>
         
 </body>
 <script>
     
     
-            var map_22dbd81d58d7c9cac5fe88600119c776 = L.map(
-                "map_22dbd81d58d7c9cac5fe88600119c776",
+            var map_33be6147a4e3385cfb0af76d6c4cf0d5 = L.map(
+                "map_33be6147a4e3385cfb0af76d6c4cf0d5",
                 {
                     center: [29.413996488183063, -98.45961192984626],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_33be6147a4e3385cfb0af76d6c4cf0d5);
 
             
 
         
     
-            var tile_layer_f2bc1212f86c02f9d4346e0bc12b0229 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_d9d541f058c2fe3774884a4d717307ad = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_f2bc1212f86c02f9d4346e0bc12b0229.addTo(map_22dbd81d58d7c9cac5fe88600119c776);
+            tile_layer_d9d541f058c2fe3774884a4d717307ad.addTo(map_33be6147a4e3385cfb0af76d6c4cf0d5);
         
     
-            var polygon_af5afdd683534b21c2c5ce21fe05f698 = L.polygon(
+            var polygon_a82c8162d1931f683be0bde66e755c39 = L.polygon(
                 [[29.417697, -98.47623], [29.418050000000022, -98.476232], [29.41851999999999, -98.476227], [29.419834, -98.476219], [29.420446000000002, -98.476212], [29.42045, -98.47473], [29.419836000000014, -98.474732], [29.41983400000002, -98.473248], [29.419811999999997, -98.473248], [29.419805999999998, -98.471766], [29.41917699999999, -98.471764], [29.419185, -98.470244], [29.41981399999999, -98.470239], [29.42114899999999, -98.470238], [29.421150000000015, -98.468079], [29.42114099999996, -98.465389], [29.421135999999997, -98.464061], [29.42113999999998, -98.462547], [29.421137999999974, -98.46137], [29.421131000000003, -98.461255], [29.420329, -98.461257], [29.419429, -98.46125000000002], [29.41944000000001, -98.46112], [29.419446999999984, -98.460976], [29.419441999999982, -98.458999], [29.419897000000027, -98.45900000000002], [29.419907000000016, -98.456754], [29.419915000000017, -98.454512], [29.41983300000003, -98.454512], [29.41945, -98.454511], [29.419446999999984, -98.452278], [29.42034600000005, -98.452275], [29.42035799999998, -98.449912], [29.41945599999997, -98.449911], [29.419453999999973, -98.448299], [29.419453000000008, -98.447793], [29.419459999999987, -98.447541], [29.419518999999998, -98.446499], [29.41955100000004, -98.445601], [29.41955700000001, -98.44544300000001], [29.419586999999986, -98.444413], [29.41962700000001, -98.443348], [29.41963800000002, -98.443068], [29.41670700000001, -98.443115], [29.41337799999998, -98.443091], [29.411819431869677, -98.44309867776444], [29.4094201032059, -98.44997407793426], [29.409789999999937, -98.449954], [29.410424999999986, -98.44992], [29.410437000000027, -98.450399], [29.410016000000027, -98.4504], [29.410011000000026, -98.450514], [29.410011, -98.450648], [29.410026999999943, -98.451453], [29.410861999999995, -98.451445], [29.410861999999984, -98.45176300000001], [29.410865999999974, -98.452321], [29.410871, -98.453423], [29.410865999999974, -98.454474], [29.410865999999967, -98.454516], [29.41086500000001, -98.455625], [29.410875000000026, -98.456733], [29.410874000000018, -98.45731300000001], [29.410399000000016, -98.457314], [29.410362000000017, -98.458985], [29.410874000000018, -98.458987], [29.41087500000004, -98.460111], [29.410876999999964, -98.461244], [29.410584999999976, -98.461244], [29.41057000000001, -98.463323], [29.41057100000003, -98.465386], [29.41070500000002, -98.465385], [29.410707000000013, -98.466195], [29.41070500000002, -98.467001], [29.410699999999984, -98.467811], [29.410699000000026, -98.468636], [29.410697999999982, -98.470242], [29.410696000000065, -98.471012], [29.41069700000003, -98.471775], [29.410045999999994, -98.471775], [29.40987699999997, -98.471773], [29.40989400000001, -98.471866], [29.409900999999994, -98.472005], [29.409902000000024, -98.472221], [29.40989099999998, -98.472694], [29.40989099999998, -98.473257], [29.410703999999992, -98.47325300000001], [29.41069299999998, -98.474741], [29.410288000000023, -98.474738], [29.411384000000037, -98.476216], [29.412010999999996, -98.476222], [29.412344999999974, -98.476223], [29.413287999999962, -98.476226], [29.413826999999994, -98.476228], [29.413859000000002, -98.476228], [29.414615, -98.476232], [29.415923, -98.476233], [29.416571000000026, -98.476233], [29.41722400000002, -98.476228], [29.417697, -98.47623]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_22dbd81d58d7c9cac5fe88600119c776);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_33be6147a4e3385cfb0af76d6c4cf0d5);
         
     
-        var popup_c02f43112e948acec09743e543fd87f7 = L.popup({"maxWidth": "100%"});
+        var popup_8fe561625d232879bf365907b175ebf5 = L.popup({"maxWidth": 300});
 
         
             
-                var html_3a1aba7121759ba53ffcce02178ed2d8 = $(`<div id="html_3a1aba7121759ba53ffcce02178ed2d8" style="width: 100.0%; height: 100.0%;"><b>Bexar - TX-CD35</b></div>`)[0];
-                popup_c02f43112e948acec09743e543fd87f7.setContent(html_3a1aba7121759ba53ffcce02178ed2d8);
+                var html_8894a0885544c9076ee2dd390a9d8a50 = $(`<div id="html_8894a0885544c9076ee2dd390a9d8a50" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bexar - TX-CD35</h4>                              </div>         </div>`)[0];
+                popup_8fe561625d232879bf365907b175ebf5.setContent(html_8894a0885544c9076ee2dd390a9d8a50);
             
         
 
-        polygon_af5afdd683534b21c2c5ce21fe05f698.bindPopup(popup_c02f43112e948acec09743e543fd87f7)
+        polygon_a82c8162d1931f683be0bde66e755c39.bindPopup(popup_8fe561625d232879bf365907b175ebf5)
         ;
 
         
     
     
-            var circle_marker_244cb1403e99e9a7fad8cef4adfee6e6 = L.circleMarker(
-                [29.415033875350755, -98.46234954755698],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_22dbd81d58d7c9cac5fe88600119c776);
-        
-    
-        var popup_71cb7de6cfb15be8edb776965d30cc39 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_959109386c6dd6d38aea2055efe657f1 = $(`<div id="html_959109386c6dd6d38aea2055efe657f1" style="width: 100.0%; height: 100.0%;"><b>Bexar - TX-CD35</b></div>`)[0];
-                popup_71cb7de6cfb15be8edb776965d30cc39.setContent(html_959109386c6dd6d38aea2055efe657f1);
-            
-        
-
-        circle_marker_244cb1403e99e9a7fad8cef4adfee6e6.bindPopup(popup_71cb7de6cfb15be8edb776965d30cc39)
-        ;
-
-        
-    
-    
-            circle_marker_244cb1403e99e9a7fad8cef4adfee6e6.bindTooltip(
+            polygon_a82c8162d1931f683be0bde66e755c39.bindTooltip(
                 `<div>
-                     Bexar - TX-CD35
+                      Bexar - TX-CD35
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_e3db70366ea689dbeb9ab6f6fbc8dcc3 = L.polygon(
+            var polygon_a9023a49ce1bfb144359af26fac3ad42 = L.polygon(
                 [[29.410941999999967, -98.44310300000001], [29.409421999999996, -98.44310300000001], [29.40839199999996, -98.44326], [29.40739599999998, -98.443612], [29.406941000000014, -98.444467], [29.407446000000007, -98.444394], [29.40744, -98.445143], [29.408429999999992, -98.445149], [29.408425999999974, -98.447203], [29.40891599999996, -98.447207], [29.40891099999997, -98.448926], [29.409407999999964, -98.448931], [29.409407000000023, -98.449296], [29.409330999999945, -98.449295], [29.409285000000008, -98.449351], [29.409297999999982, -98.449671], [29.409303999999967, -98.449822], [29.409310999999974, -98.44998], [29.4094201032059, -98.44997407793426], [29.411819431869677, -98.44309867776444], [29.410941999999967, -98.44310300000001]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_22dbd81d58d7c9cac5fe88600119c776);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_33be6147a4e3385cfb0af76d6c4cf0d5);
         
     
-        var popup_eacd06759dc3b63a48043ac4a14e45ec = L.popup({"maxWidth": "100%"});
+        var popup_fce9c1087c8676e81a5d81f430a4912c = L.popup({"maxWidth": 300});
 
         
             
-                var html_bdeda351733ef56748f4aa1aab8a57f5 = $(`<div id="html_bdeda351733ef56748f4aa1aab8a57f5" style="width: 100.0%; height: 100.0%;"><b>Bexar - TX-CD28</b></div>`)[0];
-                popup_eacd06759dc3b63a48043ac4a14e45ec.setContent(html_bdeda351733ef56748f4aa1aab8a57f5);
+                var html_b9ef867f6efe2cbf15d464a572d36a2b = $(`<div id="html_b9ef867f6efe2cbf15d464a572d36a2b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bexar - TX-CD28</h4>                              </div>         </div>`)[0];
+                popup_fce9c1087c8676e81a5d81f430a4912c.setContent(html_b9ef867f6efe2cbf15d464a572d36a2b);
             
         
 
-        polygon_e3db70366ea689dbeb9ab6f6fbc8dcc3.bindPopup(popup_eacd06759dc3b63a48043ac4a14e45ec)
+        polygon_a9023a49ce1bfb144359af26fac3ad42.bindPopup(popup_fce9c1087c8676e81a5d81f430a4912c)
         ;
 
         
     
     
-            var circle_marker_b383f86da18d080d002c0efc3b234886 = L.circleMarker(
-                [29.4090565492893, -98.44657565503329],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_22dbd81d58d7c9cac5fe88600119c776);
-        
-    
-        var popup_28a60b5607522b8e4f1c352f2e94b0f3 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3433cce418e57aaaf1b5d2d848ee026b = $(`<div id="html_3433cce418e57aaaf1b5d2d848ee026b" style="width: 100.0%; height: 100.0%;"><b>Bexar - TX-CD28</b></div>`)[0];
-                popup_28a60b5607522b8e4f1c352f2e94b0f3.setContent(html_3433cce418e57aaaf1b5d2d848ee026b);
-            
-        
-
-        circle_marker_b383f86da18d080d002c0efc3b234886.bindPopup(popup_28a60b5607522b8e4f1c352f2e94b0f3)
-        ;
-
-        
-    
-    
-            circle_marker_b383f86da18d080d002c0efc3b234886.bindTooltip(
+            polygon_a9023a49ce1bfb144359af26fac3ad42.bindTooltip(
                 `<div>
-                     Bexar - TX-CD28
+                      Bexar - TX-CD28
                  </div>`,
                 {"sticky": true}
             );

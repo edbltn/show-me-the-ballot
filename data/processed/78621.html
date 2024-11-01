@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_1d1a6d72fcbff206f8a267974465d0ae {
+                #map_d3a5a729ec154f7f017b5fa4a282553b {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Travis - TX-CD17</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Travis - TX-CD35</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Travis - TX-CD17</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Travis - TX-CD35</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Travis - TX-CD17</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Travis - TX-CD35</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_1d1a6d72fcbff206f8a267974465d0ae" ></div>
+            <div class="folium-map" id="map_d3a5a729ec154f7f017b5fa4a282553b" ></div>
         
 </body>
 <script>
     
     
-            var map_1d1a6d72fcbff206f8a267974465d0ae = L.map(
-                "map_1d1a6d72fcbff206f8a267974465d0ae",
+            var map_d3a5a729ec154f7f017b5fa4a282553b = L.map(
+                "map_d3a5a729ec154f7f017b5fa4a282553b",
                 {
                     center: [30.33269594748045, -97.43121318056669],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_d3a5a729ec154f7f017b5fa4a282553b);
 
             
 
         
     
-            var tile_layer_f028147bc1655f053e7b447ec2b4d395 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_6067d8d7faaf0265f0c7a360a69fe0d9 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_f028147bc1655f053e7b447ec2b4d395.addTo(map_1d1a6d72fcbff206f8a267974465d0ae);
+            tile_layer_6067d8d7faaf0265f0c7a360a69fe0d9.addTo(map_d3a5a729ec154f7f017b5fa4a282553b);
         
     
-            var polygon_a4e2c08b215f15c8ba4f5619316d503d = L.polygon(
+            var polygon_4f27e753975500bd130ed9c7b1659f5d = L.polygon(
                 [[30.42404799999996, -97.38174500000001], [30.424071000000037, -97.381672], [30.424050999999935, -97.38143800000002], [30.424007999999986, -97.380842], [30.423901, -97.379429], [30.42371999999996, -97.379221], [30.422369999999997, -97.377729], [30.419196000000024, -97.376767], [30.417714999999983, -97.373537], [30.419286999999983, -97.370283], [30.419442000000036, -97.369948], [30.41950499999998, -97.36982600000002], [30.419599000000026, -97.369641], [30.419562999999986, -97.369539], [30.41846299999995, -97.370208], [30.416843000000014, -97.371213], [30.416373999999983, -97.371487], [30.41454099999997, -97.372562], [30.414254000000007, -97.372727], [30.413041, -97.373426], [30.411925000000014, -97.37411700000001], [30.411055000000033, -97.374703], [30.410806000000004, -97.374866], [30.41054700000001, -97.375033], [30.410478999999988, -97.37507300000001], [30.410405999999988, -97.375115], [30.41028999999996, -97.375182], [30.410281000000026, -97.375191], [30.410269999999997, -97.375203], [30.410247000000027, -97.375235], [30.41022000000001, -97.375274], [30.41004699999995, -97.375384], [30.408770000000025, -97.3762], [30.40708599999998, -97.377227], [30.405618999999998, -97.378077], [30.40480299999995, -97.37855], [30.40457899999998, -97.37868], [30.404497999999972, -97.378727], [30.40445299999996, -97.378753], [30.404416000000044, -97.378775], [30.404399999999974, -97.378784], [30.404284999999994, -97.378851], [30.40328299999997, -97.379432], [30.401002, -97.380754], [30.39840899999998, -97.382257], [30.39683500000001, -97.383184], [30.39192700000004, -97.386073], [30.390863999999993, -97.386699], [30.390129999999978, -97.38713], [30.389737999999973, -97.387361], [30.388078000000053, -97.388339], [30.383798000000024, -97.39084], [30.383765999999973, -97.390859], [30.38374000000003, -97.390874], [30.383681000000013, -97.390908], [30.383525000000006, -97.390999], [30.38318999999995, -97.391195], [30.383174, -97.391204], [30.38316100000003, -97.391212], [30.382531999999973, -97.39158], [30.37940599999997, -97.393406], [30.376595000000002, -97.395061], [30.375206999999993, -97.395879], [30.374268000000008, -97.396422], [30.373365, -97.39694400000002], [30.369834428048232, -97.39894936765685], [30.367905999999998, -97.400089], [30.38757477650027, -97.43638327002255], [30.387820999999995, -97.436235], [30.390515999999977, -97.434615], [30.39080399999997, -97.43444], [30.394419000000035, -97.432117], [30.39479499999997, -97.431875], [30.399342000000022, -97.429061], [30.404387999999976, -97.425938], [30.407143000000023, -97.424233], [30.408516999999986, -97.423383], [30.409521000000037, -97.422762], [30.409550999999965, -97.422743], [30.40993199999996, -97.422508], [30.410392000000016, -97.422223], [30.411360999999978, -97.421624], [30.414316999999954, -97.419675], [30.41484200000002, -97.419361], [30.415021000000017, -97.415366], [30.415065000000013, -97.414009], [30.415178, -97.410756], [30.416813000000037, -97.409725], [30.417994000000004, -97.408993], [30.426844999999982, -97.403335], [30.42690300000001, -97.403284], [30.426931, -97.40323], [30.426942000000043, -97.403159], [30.42693500000004, -97.403105], [30.42690899999997, -97.403008], [30.426859999999973, -97.402894], [30.426629000000013, -97.402402], [30.42584500000003, -97.400771], [30.423422999999996, -97.395729], [30.419997000000006, -97.388446], [30.41758499999999, -97.389985], [30.415634000000036, -97.391236], [30.41577400000004, -97.387566], [30.415788999999986, -97.387232], [30.41582400000002, -97.38503500000002], [30.41588599999997, -97.381157], [30.41589999999998, -97.380304], [30.415912999999993, -97.37945], [30.416297, -97.379733], [30.417275000000025, -97.380365], [30.417688999999992, -97.380562], [30.418485000000018, -97.380951], [30.419812999999984, -97.381482], [30.421037999999985, -97.381857], [30.421354999999966, -97.381921], [30.422192000000027, -97.382084], [30.422733000000008, -97.382166], [30.42357099999999, -97.382203], [30.423794999999984, -97.382241], [30.423890999999994, -97.382242], [30.424078999999974, -97.382248], [30.424061000000005, -97.381953], [30.42404799999996, -97.38174500000001]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_1d1a6d72fcbff206f8a267974465d0ae);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d3a5a729ec154f7f017b5fa4a282553b);
         
     
-        var popup_3027c8982852a9af288ff990183b9542 = L.popup({"maxWidth": "100%"});
+        var popup_9ed9a665bda46bc9c6d79617b84d3992 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d749ed4ffc8b078328c242c61bbd3778 = $(`<div id="html_d749ed4ffc8b078328c242c61bbd3778" style="width: 100.0%; height: 100.0%;"><b>Travis - TX-CD17</b></div>`)[0];
-                popup_3027c8982852a9af288ff990183b9542.setContent(html_d749ed4ffc8b078328c242c61bbd3778);
+                var html_87d7a8e3156f1343334f012294d03a43 = $(`<div id="html_87d7a8e3156f1343334f012294d03a43" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Travis - TX-CD17</h4>                              </div>         </div>`)[0];
+                popup_9ed9a665bda46bc9c6d79617b84d3992.setContent(html_87d7a8e3156f1343334f012294d03a43);
             
         
 
-        polygon_a4e2c08b215f15c8ba4f5619316d503d.bindPopup(popup_3027c8982852a9af288ff990183b9542)
+        polygon_4f27e753975500bd130ed9c7b1659f5d.bindPopup(popup_9ed9a665bda46bc9c6d79617b84d3992)
         ;
 
         
     
     
-            var circle_marker_56d7b11d5387ec899a99a096ec550231 = L.circleMarker(
-                [30.40852879028088, -97.39078859055024],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_1d1a6d72fcbff206f8a267974465d0ae);
-        
-    
-        var popup_c0999479f69763090441db6b65ec935a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_1887b58b5d1c098ec591cbb3c77c01f2 = $(`<div id="html_1887b58b5d1c098ec591cbb3c77c01f2" style="width: 100.0%; height: 100.0%;"><b>Travis - TX-CD17</b></div>`)[0];
-                popup_c0999479f69763090441db6b65ec935a.setContent(html_1887b58b5d1c098ec591cbb3c77c01f2);
-            
-        
-
-        circle_marker_56d7b11d5387ec899a99a096ec550231.bindPopup(popup_c0999479f69763090441db6b65ec935a)
-        ;
-
-        
-    
-    
-            circle_marker_56d7b11d5387ec899a99a096ec550231.bindTooltip(
+            polygon_4f27e753975500bd130ed9c7b1659f5d.bindTooltip(
                 `<div>
-                     Travis - TX-CD17
+                      Travis - TX-CD17
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_f8f5e078aa782c1e61cb4569236361c3 = L.polygon(
+            var polygon_a1921874d0199cfe56312d40048625c1 = L.polygon(
                 [[30.21655199999999, -97.488662], [30.215853000000024, -97.489067], [30.214065000000016, -97.490138], [30.213848000000027, -97.49026800000001], [30.212948999999952, -97.490807], [30.212618000000006, -97.490984], [30.21237200000002, -97.491115], [30.21210999999999, -97.491254], [30.212159000000042, -97.491372], [30.21224699999999, -97.491516], [30.212313999999992, -97.49158], [30.212445999999968, -97.491753], [30.212541999999985, -97.491926], [30.212608000000003, -97.492114], [30.21264700000002, -97.49224], [30.212641000000016, -97.49236], [30.21263899999999, -97.492417], [30.21258099999998, -97.492566], [30.212468000000015, -97.492704], [30.21229899999999, -97.492843], [30.21206400000001, -97.493019], [30.211812, -97.49321600000002], [30.211643999999996, -97.493376], [30.211353000000024, -97.493784], [30.21130199999996, -97.493855], [30.211101999999997, -97.494199], [30.21104199999999, -97.494295], [30.210912999999962, -97.494501], [30.210688000000008, -97.494839], [30.210628000000042, -97.49492], [30.21051500000001, -97.495077], [30.21025599999996, -97.495239], [30.210018999999996, -97.495352], [30.209838000000012, -97.495449], [30.20955299999998, -97.495577], [30.20939600000001, -97.495695], [30.209301, -97.495803], [30.209227999999978, -97.49595], [30.20906499999999, -97.496342], [30.20890499999998, -97.496883], [30.208817000000046, -97.497294], [30.208804000000026, -97.497617], [30.208793000000036, -97.49788], [30.20875199999998, -97.498522], [30.208737000000035, -97.499228], [30.208712999999992, -97.499648], [30.208662999999977, -97.500171], [30.2086, -97.500638], [30.20851200000003, -97.501085], [30.20845099999997, -97.501431], [30.20903399999997, -97.500852], [30.209465999999992, -97.500448], [30.209807000000016, -97.50027500000002], [30.21050500000001, -97.499629], [30.216098000000006, -97.496061], [30.217278000000043, -97.495308], [30.21738800000003, -97.495606], [30.21611100000001, -97.496346], [30.215932, -97.496689], [30.216312000000002, -97.497646], [30.217085000000004, -97.498731], [30.21421000000001, -97.500474], [30.215023000000013, -97.501691], [30.21794900000003, -97.49967300000002], [30.21729600000002, -97.4986], [30.216361999999968, -97.49706500000002], [30.216142999999995, -97.49652], [30.217409000000007, -97.495703], [30.218560999999976, -97.494959], [30.219251000000032, -97.494513], [30.21982899999999, -97.49414], [30.220110999999985, -97.49411], [30.221023999999986, -97.493538], [30.221190999999994, -97.493382], [30.224088215886216, -97.49286648012732], [30.220528000000037, -97.48632900000001], [30.216877023135037, -97.48846517609634], [30.21655199999999, -97.488662]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_1d1a6d72fcbff206f8a267974465d0ae);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d3a5a729ec154f7f017b5fa4a282553b);
         
     
-        var popup_9a18ea5cc521d873450fe1582d9a173b = L.popup({"maxWidth": "100%"});
+        var popup_7d15c671057371b99b0a41dde4717ff1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_29bd5829c480954b86294836d97c57e9 = $(`<div id="html_29bd5829c480954b86294836d97c57e9" style="width: 100.0%; height: 100.0%;"><b>Travis - TX-CD35</b></div>`)[0];
-                popup_9a18ea5cc521d873450fe1582d9a173b.setContent(html_29bd5829c480954b86294836d97c57e9);
+                var html_984209ef2095529ad5adf571215bc1f7 = $(`<div id="html_984209ef2095529ad5adf571215bc1f7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Travis - TX-CD35</h4>                              </div>         </div>`)[0];
+                popup_7d15c671057371b99b0a41dde4717ff1.setContent(html_984209ef2095529ad5adf571215bc1f7);
             
         
 
-        polygon_f8f5e078aa782c1e61cb4569236361c3.bindPopup(popup_9a18ea5cc521d873450fe1582d9a173b)
+        polygon_a1921874d0199cfe56312d40048625c1.bindPopup(popup_7d15c671057371b99b0a41dde4717ff1)
         ;
 
         
     
     
-            var circle_marker_7bb410be2b778a272da1a70e6662897b = L.circleMarker(
-                [30.21311338767976, -97.49495964943875],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_1d1a6d72fcbff206f8a267974465d0ae);
-        
-    
-        var popup_2bfcac538256bd477c8594e587ae12e1 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_722fd524c7fd061afc7c7fbf7d4e0d2a = $(`<div id="html_722fd524c7fd061afc7c7fbf7d4e0d2a" style="width: 100.0%; height: 100.0%;"><b>Travis - TX-CD35</b></div>`)[0];
-                popup_2bfcac538256bd477c8594e587ae12e1.setContent(html_722fd524c7fd061afc7c7fbf7d4e0d2a);
-            
-        
-
-        circle_marker_7bb410be2b778a272da1a70e6662897b.bindPopup(popup_2bfcac538256bd477c8594e587ae12e1)
-        ;
-
-        
-    
-    
-            circle_marker_7bb410be2b778a272da1a70e6662897b.bindTooltip(
+            polygon_a1921874d0199cfe56312d40048625c1.bindTooltip(
                 `<div>
-                     Travis - TX-CD35
+                      Travis - TX-CD35
                  </div>`,
                 {"sticky": true}
             );

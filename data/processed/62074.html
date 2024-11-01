@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6c1d91c6fd48cfae246bf22d5a0caaf3 {
+                #map_bb820eb913f6946b0213580d828488e2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Macoupin - IL-CD15</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Macoupin - IL-CD13</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Macoupin - IL-CD15</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Macoupin - IL-CD13</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Macoupin - IL-CD15</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Macoupin - IL-CD13</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_6c1d91c6fd48cfae246bf22d5a0caaf3" ></div>
+            <div class="folium-map" id="map_bb820eb913f6946b0213580d828488e2" ></div>
         
 </body>
 <script>
     
     
-            var map_6c1d91c6fd48cfae246bf22d5a0caaf3 = L.map(
-                "map_6c1d91c6fd48cfae246bf22d5a0caaf3",
+            var map_bb820eb913f6946b0213580d828488e2 = L.map(
+                "map_bb820eb913f6946b0213580d828488e2",
                 {
                     center: [39.014179674632786, -89.719099934042],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_bb820eb913f6946b0213580d828488e2);
 
             
 
         
     
-            var tile_layer_6f712f8ebfd6938c478634e4c78bf5d1 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_fa3a1328c7d20d0e0a0c89bb34f9187d = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_6f712f8ebfd6938c478634e4c78bf5d1.addTo(map_6c1d91c6fd48cfae246bf22d5a0caaf3);
+            tile_layer_fa3a1328c7d20d0e0a0c89bb34f9187d.addTo(map_bb820eb913f6946b0213580d828488e2);
         
     
-            var polygon_ef674de9344ebe7a88f19e389490619a = L.polygon(
+            var polygon_b8b6686c188b5ca07233955adfeb9f29 = L.polygon(
                 [[38.99897700000003, -89.699167], [38.998920000000005, -89.705067], [38.998956000000014, -89.705292], [38.99894900000001, -89.707911], [38.998948000000006, -89.709241], [38.99894400000002, -89.714422], [38.99894499999999, -89.714511], [38.998942000000035, -89.717434], [38.99892700000001, -89.72092], [38.998899999999985, -89.726632], [38.99888100000005, -89.731253], [38.99897428678015, -89.73125412551224], [38.99897899999998, -89.698555], [38.99897700000003, -89.699167]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6c1d91c6fd48cfae246bf22d5a0caaf3);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb820eb913f6946b0213580d828488e2);
         
     
-        var popup_eba317db40ed51a53c9108ba540825c5 = L.popup({"maxWidth": "100%"});
+        var popup_33129fa5d902fd093f19ef49546b100b = L.popup({"maxWidth": 300});
 
         
             
-                var html_7d4b21b564ff78a65d4835169fd7f62d = $(`<div id="html_7d4b21b564ff78a65d4835169fd7f62d" style="width: 100.0%; height: 100.0%;"><b>Macoupin - IL-CD15</b></div>`)[0];
-                popup_eba317db40ed51a53c9108ba540825c5.setContent(html_7d4b21b564ff78a65d4835169fd7f62d);
+                var html_29b74a6ba1a83c704ee7d225ed5a106e = $(`<div id="html_29b74a6ba1a83c704ee7d225ed5a106e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Macoupin - IL-CD15</h4>                              </div>         </div>`)[0];
+                popup_33129fa5d902fd093f19ef49546b100b.setContent(html_29b74a6ba1a83c704ee7d225ed5a106e);
             
         
 
-        polygon_ef674de9344ebe7a88f19e389490619a.bindPopup(popup_eba317db40ed51a53c9108ba540825c5)
+        polygon_b8b6686c188b5ca07233955adfeb9f29.bindPopup(popup_33129fa5d902fd093f19ef49546b100b)
         ;
 
         
     
     
-            var circle_marker_d4f7c43f9cc14d07376bd98516d8015d = L.circleMarker(
-                [38.99894423477002, -89.71291615182231],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6c1d91c6fd48cfae246bf22d5a0caaf3);
-        
-    
-        var popup_0fdd90911406443cbd343497077ac024 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2461a91fd3b6d2dda9d579158b542173 = $(`<div id="html_2461a91fd3b6d2dda9d579158b542173" style="width: 100.0%; height: 100.0%;"><b>Macoupin - IL-CD15</b></div>`)[0];
-                popup_0fdd90911406443cbd343497077ac024.setContent(html_2461a91fd3b6d2dda9d579158b542173);
-            
-        
-
-        circle_marker_d4f7c43f9cc14d07376bd98516d8015d.bindPopup(popup_0fdd90911406443cbd343497077ac024)
-        ;
-
-        
-    
-    
-            circle_marker_d4f7c43f9cc14d07376bd98516d8015d.bindTooltip(
+            polygon_b8b6686c188b5ca07233955adfeb9f29.bindTooltip(
                 `<div>
-                     Macoupin - IL-CD15
+                      Macoupin - IL-CD15
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_ccecebb0def997c6e1b0e01a388f7a5c = L.polygon(
+            var polygon_087a4d8ac882821263ba8e5fdc364e0c = L.polygon(
                 [[39.02010700000003, -89.698726], [39.020075, -89.698726], [39.01671, -89.698689], [39.01601300000001, -89.698684], [39.01158300000003, -89.69865], [39.00683300000001, -89.698612], [39.006496999999975, -89.698613], [39.00595900000001, -89.698608], [38.99897899999998, -89.698555], [38.99897428678015, -89.73125412551224], [39.00028999999997, -89.73127], [39.00136000000004, -89.731269], [39.00189100000001, -89.731275], [39.00240299999999, -89.731294], [39.00256700000001, -89.731307], [39.00256899999997, -89.73138100000001], [39.00268600000002, -89.731387], [39.002992000000006, -89.73138300000001], [39.003411000000014, -89.731384], [39.01029400000006, -89.731393], [39.011987, -89.731388], [39.01559699999998, -89.731387], [39.017287999999986, -89.731402], [39.01905399999996, -89.73142800000001], [39.02064800000002, -89.731429], [39.020875, -89.731422], [39.020879, -89.729102], [39.020874000000006, -89.728029], [39.020846999999996, -89.726774], [39.021361999999996, -89.726796], [39.02182400000002, -89.726782], [39.02236199999995, -89.726786], [39.022591000000055, -89.726798], [39.02266999999999, -89.7268], [39.022816, -89.726804], [39.02296900000003, -89.726796], [39.02315, -89.726791], [39.02396700000002, -89.726769], [39.02419299999998, -89.726758], [39.024571000000016, -89.72679], [39.024785999999985, -89.726788], [39.025582999999976, -89.726797], [39.026337, -89.726807], [39.02755399999995, -89.726803], [39.02813500000003, -89.726822], [39.02814999999996, -89.725672], [39.02814099999998, -89.724594], [39.028116000000004, -89.722435], [39.02808899999999, -89.719196], [39.028065, -89.717787], [39.02806600000001, -89.717628], [39.02807099999999, -89.717553], [39.028137000000044, -89.710096], [39.02817900000001, -89.706441], [39.02822399999998, -89.703196], [39.028275000000036, -89.698801], [39.02098500000001, -89.698736], [39.02010700000003, -89.698726]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6c1d91c6fd48cfae246bf22d5a0caaf3);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_bb820eb913f6946b0213580d828488e2);
         
     
-        var popup_d78ea31f3c7129164f8c3550229f8121 = L.popup({"maxWidth": "100%"});
+        var popup_b2c217a54ddc5f6cdb12c0c8e3a26e6a = L.popup({"maxWidth": 300});
 
         
             
-                var html_6672208ba9e5d207f0393cb55015da73 = $(`<div id="html_6672208ba9e5d207f0393cb55015da73" style="width: 100.0%; height: 100.0%;"><b>Macoupin - IL-CD13</b></div>`)[0];
-                popup_d78ea31f3c7129164f8c3550229f8121.setContent(html_6672208ba9e5d207f0393cb55015da73);
+                var html_d46f931e1ffa65fada348bd239a12ede = $(`<div id="html_d46f931e1ffa65fada348bd239a12ede" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Macoupin - IL-CD13</h4>                              </div>         </div>`)[0];
+                popup_b2c217a54ddc5f6cdb12c0c8e3a26e6a.setContent(html_d46f931e1ffa65fada348bd239a12ede);
             
         
 
-        polygon_ccecebb0def997c6e1b0e01a388f7a5c.bindPopup(popup_d78ea31f3c7129164f8c3550229f8121)
+        polygon_087a4d8ac882821263ba8e5fdc364e0c.bindPopup(popup_b2c217a54ddc5f6cdb12c0c8e3a26e6a)
         ;
 
         
     
     
-            var circle_marker_f41ca5eaed69c584b765c19d9fa0dfde = L.circleMarker(
-                [39.01785719459966, -89.72059257112952],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6c1d91c6fd48cfae246bf22d5a0caaf3);
-        
-    
-        var popup_bc35d5990dfab7c9294702e31f993576 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_72ca36133436d6fc1684098667c90f21 = $(`<div id="html_72ca36133436d6fc1684098667c90f21" style="width: 100.0%; height: 100.0%;"><b>Macoupin - IL-CD13</b></div>`)[0];
-                popup_bc35d5990dfab7c9294702e31f993576.setContent(html_72ca36133436d6fc1684098667c90f21);
-            
-        
-
-        circle_marker_f41ca5eaed69c584b765c19d9fa0dfde.bindPopup(popup_bc35d5990dfab7c9294702e31f993576)
-        ;
-
-        
-    
-    
-            circle_marker_f41ca5eaed69c584b765c19d9fa0dfde.bindTooltip(
+            polygon_087a4d8ac882821263ba8e5fdc364e0c.bindTooltip(
                 `<div>
-                     Macoupin - IL-CD13
+                      Macoupin - IL-CD13
                  </div>`,
                 {"sticky": true}
             );

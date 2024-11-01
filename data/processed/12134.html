@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_ca86ff6245dbd35c2e1457bfd2043af7 {
+                #map_d7c4599c9adee584afd51c2d57c0ce63 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hamilton - NY-CD20</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hamilton - NY-CD21</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hamilton - NY-CD20</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hamilton - NY-CD21</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hamilton - NY-CD20</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hamilton - NY-CD21</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_ca86ff6245dbd35c2e1457bfd2043af7" ></div>
+            <div class="folium-map" id="map_d7c4599c9adee584afd51c2d57c0ce63" ></div>
         
 </body>
 <script>
     
     
-            var map_ca86ff6245dbd35c2e1457bfd2043af7 = L.map(
-                "map_ca86ff6245dbd35c2e1457bfd2043af7",
+            var map_d7c4599c9adee584afd51c2d57c0ce63 = L.map(
+                "map_d7c4599c9adee584afd51c2d57c0ce63",
                 {
                     center: [43.2715983573169, -74.28761639105234],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_d7c4599c9adee584afd51c2d57c0ce63);
 
             
 
         
     
-            var tile_layer_e241daa0ba360a1f34c58e853b7124ec = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_d462a6c702a9b434179f18423dc7cb53 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_e241daa0ba360a1f34c58e853b7124ec.addTo(map_ca86ff6245dbd35c2e1457bfd2043af7);
+            tile_layer_d462a6c702a9b434179f18423dc7cb53.addTo(map_d7c4599c9adee584afd51c2d57c0ce63);
         
     
-            var polygon_8e917499103af35462211f7c9d08563a = L.polygon(
+            var polygon_668bca7ebde3436a635b277b3958dff9 = L.polygon(
                 [[43.30231099999997, -74.148342], [43.28957400000003, -74.146062], [43.28623800000002, -74.145507], [43.28594099999999, -74.145457], [43.285643999999984, -74.145408], [43.283313, -74.145021], [43.273979000000026, -74.14347], [43.27234199999996, -74.14319800000001], [43.26230099999997, -74.14153], [43.260586999999965, -74.141245], [43.260472999999955, -74.141226], [43.25950500000001, -74.141065], [43.25853600000001, -74.140904], [43.25397900000003, -74.140147], [43.302424193277595, -74.14836204392213], [43.30231099999997, -74.148342]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_ca86ff6245dbd35c2e1457bfd2043af7);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d7c4599c9adee584afd51c2d57c0ce63);
         
     
-        var popup_87c571aeca34573e5abffbc497e78364 = L.popup({"maxWidth": "100%"});
+        var popup_3bef6155efb2811d1044edff5f82acf2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_941ef29d4956065f68f1ae21414a8809 = $(`<div id="html_941ef29d4956065f68f1ae21414a8809" style="width: 100.0%; height: 100.0%;"><b>Hamilton - NY-CD20</b></div>`)[0];
-                popup_87c571aeca34573e5abffbc497e78364.setContent(html_941ef29d4956065f68f1ae21414a8809);
+                var html_7249ab3634ae7ddf10659713f82044da = $(`<div id="html_7249ab3634ae7ddf10659713f82044da" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hamilton - NY-CD20</h4>                              </div>         </div>`)[0];
+                popup_3bef6155efb2811d1044edff5f82acf2.setContent(html_7249ab3634ae7ddf10659713f82044da);
             
         
 
-        polygon_8e917499103af35462211f7c9d08563a.bindPopup(popup_87c571aeca34573e5abffbc497e78364)
+        polygon_668bca7ebde3436a635b277b3958dff9.bindPopup(popup_3bef6155efb2811d1044edff5f82acf2)
         ;
 
         
     
     
-            var circle_marker_381689d8c35ecc0e1e4e033827de2af5 = L.circleMarker(
-                [43.27746613707984, -74.14408037774513],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_ca86ff6245dbd35c2e1457bfd2043af7);
-        
-    
-        var popup_b7a7af6f876f446073778c62e7e95888 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_678045698f4941322765ef01f1d20bc8 = $(`<div id="html_678045698f4941322765ef01f1d20bc8" style="width: 100.0%; height: 100.0%;"><b>Hamilton - NY-CD20</b></div>`)[0];
-                popup_b7a7af6f876f446073778c62e7e95888.setContent(html_678045698f4941322765ef01f1d20bc8);
-            
-        
-
-        circle_marker_381689d8c35ecc0e1e4e033827de2af5.bindPopup(popup_b7a7af6f876f446073778c62e7e95888)
-        ;
-
-        
-    
-    
-            circle_marker_381689d8c35ecc0e1e4e033827de2af5.bindTooltip(
+            polygon_668bca7ebde3436a635b277b3958dff9.bindTooltip(
                 `<div>
-                     Hamilton - NY-CD20
+                      Hamilton - NY-CD20
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_b872e5a42411ef864be78cc17a960f41 = L.polygon(
+            var polygon_a501e1c6ef0ca882f918ab08b417fb72 = L.polygon(
                 [[43.248929999999994, -74.213244], [43.248897, -74.213598], [43.24816500000001, -74.224215], [43.22140299999998, -74.220902], [43.221042000000004, -74.227168], [43.219456, -74.249579], [43.219247000000024, -74.252906], [43.21921199999996, -74.253456], [43.21830000000001, -74.267985], [43.217772, -74.274866], [43.21694299999997, -74.287521], [43.216608999999984, -74.292702], [43.21639799999996, -74.29598000000001], [43.215493999999964, -74.31004300000001], [43.214956999999984, -74.318214], [43.214930999999964, -74.318606], [43.21468399999994, -74.322375], [43.21692300000001, -74.322704], [43.228767999999974, -74.324444], [43.22932099999997, -74.32452500000001], [43.23038499999999, -74.324682], [43.23047199999997, -74.324695], [43.231042999999964, -74.32477900000002], [43.231099000000036, -74.32479], [43.23165000000001, -74.324896], [43.241594999999975, -74.326372], [43.24163500000004, -74.32637800000002], [43.24135000000001, -74.330511], [43.24128999999996, -74.33191], [43.24126899999999, -74.332409], [43.24125399999997, -74.332746], [43.241245999999975, -74.332936], [43.24114599999997, -74.334868], [43.241088, -74.33553700000002], [43.240960999999984, -74.337092], [43.24094500000001, -74.337307], [43.240917000000046, -74.337681], [43.24087100000001, -74.33829], [43.24081199999998, -74.33917000000001], [43.24076099999999, -74.339508], [43.240762999999966, -74.340094], [43.24067400000002, -74.343915], [43.24066899999999, -74.34413200000002], [43.240759000000004, -74.345961], [43.24070900000003, -74.346129], [43.240667000000016, -74.346273], [43.23986599999997, -74.353105], [43.23960399999998, -74.357019], [43.23957999999998, -74.357381], [43.23951700000003, -74.358308], [43.23949699999997, -74.35862900000001], [43.23919900000001, -74.36376700000001], [43.239111999999984, -74.364996], [43.23842999999997, -74.374583], [43.235708999999986, -74.415851], [43.23458099999997, -74.43175], [43.23450799999995, -74.432939], [43.234500999999995, -74.433108], [43.234404, -74.435354], [43.23438300000002, -74.435832], [43.234291000000034, -74.436489], [43.23424400000004, -74.437065], [43.23406299999999, -74.439274], [43.23405700000003, -74.439358], [43.233498999999995, -74.44746100000002], [43.23330700000005, -74.450503], [43.233147000000045, -74.45364], [43.233124000000004, -74.4541], [43.23303300000003, -74.455314], [43.23300899999999, -74.455637], [43.23288500000003, -74.457719], [43.23513499999999, -74.45803100000002], [43.24980300000001, -74.460033], [43.25428000000005, -74.46065200000001], [43.25841600000001, -74.461306], [43.268331, -74.46265], [43.26899300000003, -74.462733], [43.284304999999954, -74.464917], [43.30055600000003, -74.467184], [43.33653600000001, -74.472144], [43.336819999999975, -74.467347], [43.337794000000024, -74.453516], [43.338533000000005, -74.442726], [43.338671999999995, -74.440646], [43.338727000000056, -74.43914000000001], [43.338861999999985, -74.437202], [43.33903000000008, -74.4348], [43.33919899999998, -74.432405], [43.339665000000025, -74.425751], [43.34030599999994, -74.416685], [43.34320299999997, -74.374639], [43.343298, -74.372025], [43.34584500000001, -74.336013], [43.34598199999997, -74.33346], [43.346555, -74.325495], [43.347123, -74.31619400000001], [43.34737799999998, -74.312548], [43.345210999999956, -74.310314], [43.34587800000001, -74.30289400000001], [43.349550999999984, -74.264112], [43.349615000000014, -74.263029], [43.34970300000001, -74.26229400000001], [43.34974099999998, -74.262038], [43.350809, -74.250404], [43.35193400000002, -74.239356], [43.351945999999955, -74.23916100000001], [43.35210100000005, -74.236662], [43.35258799999998, -74.23332], [43.354275999999956, -74.21585100000001], [43.35435100000001, -74.215082], [43.35466199999996, -74.210492], [43.35502000000002, -74.206765], [43.356961999999996, -74.186579], [43.35766900000002, -74.179248], [43.35952700000007, -74.15808300000002], [43.350844999999964, -74.15662600000002], [43.348783000000005, -74.156279], [43.348388000000014, -74.156213], [43.34833399999998, -74.156204], [43.34810999999999, -74.156166], [43.31638700000001, -74.150838], [43.31264899999998, -74.15017400000002], [43.31202300000001, -74.150062], [43.302424193277595, -74.14836204392213], [43.25397900000003, -74.140147], [43.253731999999985, -74.143808], [43.25372299999998, -74.143921], [43.253468999999996, -74.147703], [43.25341999999998, -74.148431], [43.25315000000002, -74.152426], [43.25313500000001, -74.152645], [43.253076999999976, -74.153482], [43.252692999999965, -74.159194], [43.252629000000034, -74.160139], [43.25258999999999, -74.16071], [43.252520999999994, -74.16173000000002], [43.252510000000015, -74.161887], [43.25212400000001, -74.16760400000001], [43.25211199999998, -74.167787], [43.250402999999984, -74.19316100000002], [43.25039900000001, -74.193244], [43.25024000000002, -74.195568], [43.25019499999999, -74.196155], [43.25017399999997, -74.196427], [43.250161000000006, -74.196585], [43.250067, -74.197821], [43.25000600000001, -74.1987], [43.249894000000005, -74.200664], [43.24956199999999, -74.206525], [43.249546, -74.2068], [43.24926199999997, -74.209759], [43.249095000000025, -74.211491], [43.248929999999994, -74.213244]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_ca86ff6245dbd35c2e1457bfd2043af7);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d7c4599c9adee584afd51c2d57c0ce63);
         
     
-        var popup_ca43928992e90e37828b06e1131187ae = L.popup({"maxWidth": "100%"});
+        var popup_5bb688f09c2247f2e94166d455e4ab8d = L.popup({"maxWidth": 300});
 
         
             
-                var html_ed067acd86431d003ede23e52296730c = $(`<div id="html_ed067acd86431d003ede23e52296730c" style="width: 100.0%; height: 100.0%;"><b>Hamilton - NY-CD21</b></div>`)[0];
-                popup_ca43928992e90e37828b06e1131187ae.setContent(html_ed067acd86431d003ede23e52296730c);
+                var html_937e78e775d440481fcc8012662a5ec0 = $(`<div id="html_937e78e775d440481fcc8012662a5ec0" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hamilton - NY-CD21</h4>                              </div>         </div>`)[0];
+                popup_5bb688f09c2247f2e94166d455e4ab8d.setContent(html_937e78e775d440481fcc8012662a5ec0);
             
         
 
-        polygon_b872e5a42411ef864be78cc17a960f41.bindPopup(popup_ca43928992e90e37828b06e1131187ae)
+        polygon_a501e1c6ef0ca882f918ab08b417fb72.bindPopup(popup_5bb688f09c2247f2e94166d455e4ab8d)
         ;
 
         
     
     
-            var circle_marker_da36002fbe9afaf782b08c8bd47a88d4 = L.circleMarker(
-                [43.27098473328939, -74.30262669309752],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_ca86ff6245dbd35c2e1457bfd2043af7);
-        
-    
-        var popup_7c7882a43c1b396de2077659141313a5 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_22f135f0596923391bb278654efd239b = $(`<div id="html_22f135f0596923391bb278654efd239b" style="width: 100.0%; height: 100.0%;"><b>Hamilton - NY-CD21</b></div>`)[0];
-                popup_7c7882a43c1b396de2077659141313a5.setContent(html_22f135f0596923391bb278654efd239b);
-            
-        
-
-        circle_marker_da36002fbe9afaf782b08c8bd47a88d4.bindPopup(popup_7c7882a43c1b396de2077659141313a5)
-        ;
-
-        
-    
-    
-            circle_marker_da36002fbe9afaf782b08c8bd47a88d4.bindTooltip(
+            polygon_a501e1c6ef0ca882f918ab08b417fb72.bindTooltip(
                 `<div>
-                     Hamilton - NY-CD21
+                      Hamilton - NY-CD21
                  </div>`,
                 {"sticky": true}
             );

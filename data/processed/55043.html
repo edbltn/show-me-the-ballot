@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_73dc7b811de21161b6f74829db59c2a3 {
+                #map_410524528689d15ac73282258ab2d9fa {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washington - MN-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washington - MN-CD07</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washington - MN-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washington - MN-CD07</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Washington - MN-CD04</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Washington - MN-CD07</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_73dc7b811de21161b6f74829db59c2a3" ></div>
+            <div class="folium-map" id="map_410524528689d15ac73282258ab2d9fa" ></div>
         
 </body>
 <script>
     
     
-            var map_73dc7b811de21161b6f74829db59c2a3 = L.map(
-                "map_73dc7b811de21161b6f74829db59c2a3",
+            var map_410524528689d15ac73282258ab2d9fa = L.map(
+                "map_410524528689d15ac73282258ab2d9fa",
                 {
                     center: [44.932787631189285, -92.77280262785203],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_410524528689d15ac73282258ab2d9fa);
 
             
 
         
     
-            var tile_layer_ad56a56529c94099d784153e6c9de85d = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_e421f59d2ded16754c35404ef4b35dda = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_ad56a56529c94099d784153e6c9de85d.addTo(map_73dc7b811de21161b6f74829db59c2a3);
+            tile_layer_e421f59d2ded16754c35404ef4b35dda.addTo(map_410524528689d15ac73282258ab2d9fa);
         
     
-            var polygon_17fd38234d8124d1c6b2a1c7d1aa5a00 = L.polygon(
+            var polygon_9ce5c65a37bdfef1b4c090f713447388 = L.polygon(
                 [[44.97262899999999, -92.769458], [44.97215000000002, -92.76944500000002], [44.971442, -92.769169], [44.96983900000001, -92.768545], [44.968766999999964, -92.767804], [44.96846500000001, -92.767614], [44.968083999999955, -92.767218], [44.96636, -92.76337], [44.964978999999964, -92.7607], [44.962804, -92.759582], [44.96268899999998, -92.759523], [44.962575000000015, -92.759464], [44.962067999999974, -92.759202], [44.95956199999999, -92.757465], [44.95602400000003, -92.754797], [44.95595200000001, -92.754743], [44.95576699999997, -92.754603], [44.95255799999997, -92.753575], [44.95094399999998, -92.753218], [44.94996700000002, -92.753003], [44.948740000000065, -92.752652], [44.94568400000001, -92.75185], [44.94248000000005, -92.751034], [44.94185399999998, -92.750875], [44.94156700000002, -92.750802], [44.91868048773983, -92.75547015734907], [44.91863099999996, -92.755484], [44.91856700000002, -92.755502], [44.918149, -92.755619], [44.911214, -92.757557], [44.91028299999997, -92.757923], [44.90897899999999, -92.75870100000002], [44.90785699999996, -92.759556], [44.906903999999955, -92.761341], [44.90650099999998, -92.762317], [44.906058000000016, -92.763396], [44.90597800000004, -92.763591], [44.905431, -92.764767], [44.90487399999998, -92.766271], [44.904020999999986, -92.767932], [44.90438100000003, -92.770291], [44.90449200000001, -92.772536], [44.90449900000001, -92.772668], [44.90446299999998, -92.775297], [44.90444200000001, -92.775479], [44.90442999999996, -92.775589], [44.904417, -92.775697], [44.905335999999984, -92.773741], [44.90535300000005, -92.773811], [44.90542300000002, -92.773981], [44.905630000000016, -92.774246], [44.905682999999996, -92.77433600000002], [44.905721999999955, -92.774401], [44.90580399999998, -92.774587], [44.905813999999964, -92.77473300000001], [44.90578699999994, -92.774752], [44.90572599999998, -92.774795], [44.90563899999998, -92.774794], [44.90557299999997, -92.774763], [44.90550300000006, -92.774646], [44.90547599999998, -92.774414], [44.905433, -92.774329], [44.905388999999936, -92.774313], [44.905323000000045, -92.774328], [44.90525800000006, -92.77439], [44.90521899999993, -92.774505], [44.905224000000075, -92.774598], [44.905315999999935, -92.774846], [44.90549000000002, -92.775125], [44.905550999999996, -92.77537], [44.90556000000001, -92.775404], [44.90560399999996, -92.775442], [44.90569199999998, -92.77542], [44.90574599999995, -92.775498], [44.905744999999996, -92.77569100000001], [44.90573999999997, -92.775733], [44.905818999999994, -92.775733], [44.90677099999995, -92.77573000000001], [44.907303000000006, -92.77572800000002], [44.90774999999999, -92.77572600000002], [44.909233000000015, -92.77572], [44.91232599999998, -92.775708], [44.91251799999999, -92.775708], [44.912701999999975, -92.775707], [44.91289100000004, -92.775706], [44.91297699999999, -92.775706], [44.91296900000003, -92.776288], [44.91296599999996, -92.776562], [44.91296499999994, -92.776675], [44.91296399999997, -92.776734], [44.91296199999997, -92.77681], [44.914035999999996, -92.776805], [44.91446699999999, -92.776803], [44.91509500000001, -92.7768], [44.915200000000006, -92.776798], [44.915467000000014, -92.776795], [44.915897, -92.776794], [44.915941000000025, -92.776793], [44.91627800000003, -92.776789], [44.91660499999999, -92.776785], [44.91665499999996, -92.776784], [44.91694600000002, -92.77678], [44.91700799999995, -92.776687], [44.91703000000001, -92.776655], [44.91826800000007, -92.776661], [44.91899699999997, -92.776664], [44.91991600000005, -92.77664], [44.92010999999994, -92.776644], [44.920107999999985, -92.776765], [44.92014600000001, -92.776701], [44.920720999999965, -92.77667800000002], [44.92095499999994, -92.776668], [44.92144299999995, -92.776669], [44.92152200000002, -92.776669], [44.92188299999997, -92.776669], [44.92276800000001, -92.776669], [44.923464, -92.776663], [44.92352299999999, -92.776662], [44.92416000000002, -92.776657], [44.925289999999976, -92.776627], [44.92626099999998, -92.776597], [44.92654800000004, -92.776609], [44.92718800000001, -92.776636], [44.92723199999998, -92.776646], [44.927275999999985, -92.776657], [44.92733999999999, -92.776657], [44.92740899999997, -92.776655], [44.92799699999998, -92.776648], [44.928059999999974, -92.776647], [44.92815499999998, -92.776646], [44.92852599999998, -92.776643], [44.929504000000065, -92.77663], [44.930356000000025, -92.77662], [44.93087599999996, -92.776613], [44.93092000000008, -92.776613], [44.930988, -92.776617], [44.93098299999995, -92.779615], [44.931050000000035, -92.781503], [44.93453800000001, -92.781463], [44.94257400000003, -92.781371], [44.948755000000034, -92.7813], [44.948780000000006, -92.7813], [44.948779999999985, -92.78132], [44.948859000000006, -92.78131700000002], [44.949003, -92.781314], [44.94900100000004, -92.781655], [44.94899499999999, -92.782371], [44.94893299999996, -92.782942], [44.94887299999996, -92.783498], [44.94882900000002, -92.783904], [44.94882899999998, -92.784121], [44.94878200000005, -92.791423], [44.948757000000064, -92.796713], [44.948878000000065, -92.796728], [44.949313999999966, -92.796742], [44.950596000000004, -92.796753], [44.953214999999965, -92.79674], [44.95458099999999, -92.796764], [44.95503800000004, -92.795321], [44.955166000000006, -92.794916], [44.955707000000004, -92.793106], [44.95933399999998, -92.781417], [44.95956399999999, -92.781423], [44.95967999999999, -92.781426], [44.96554600000001, -92.781479], [44.97416599999998, -92.781581], [44.97433299999996, -92.781583], [44.97434899999999, -92.779252], [44.974360000000054, -92.777764], [44.974367999999984, -92.776538], [44.97436900000002, -92.776426], [44.97436999999999, -92.776331], [44.974374000000005, -92.775711], [44.974378000000016, -92.775124], [44.97438100000006, -92.774697], [44.97438299999994, -92.774433], [44.974383999999986, -92.774316], [44.974384999999984, -92.77408600000001], [44.97439599999999, -92.772616], [44.97440400000001, -92.77143700000002], [44.97440499999994, -92.771303], [44.974406, -92.77115], [44.97440799999995, -92.770926], [44.97441200000003, -92.770218], [44.974414, -92.769863], [44.97426699999999, -92.769828], [44.974267000000026, -92.769504], [44.973447999999976, -92.769481], [44.97262899999999, -92.769458]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_73dc7b811de21161b6f74829db59c2a3);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_410524528689d15ac73282258ab2d9fa);
         
     
-        var popup_500207069f9a600c65b80b0fd87e584d = L.popup({"maxWidth": "100%"});
+        var popup_a95d73ede5af2de869c49b4cb221949d = L.popup({"maxWidth": 300});
 
         
             
-                var html_fb3f07c6aaf8291ed514829f03b466c5 = $(`<div id="html_fb3f07c6aaf8291ed514829f03b466c5" style="width: 100.0%; height: 100.0%;"><b>Washington - MN-CD04</b></div>`)[0];
-                popup_500207069f9a600c65b80b0fd87e584d.setContent(html_fb3f07c6aaf8291ed514829f03b466c5);
+                var html_eb09b8442e5eb50027c8aef6c805acb1 = $(`<div id="html_eb09b8442e5eb50027c8aef6c805acb1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Washington - MN-CD04</h4>                              </div>         </div>`)[0];
+                popup_a95d73ede5af2de869c49b4cb221949d.setContent(html_eb09b8442e5eb50027c8aef6c805acb1);
             
         
 
-        polygon_17fd38234d8124d1c6b2a1c7d1aa5a00.bindPopup(popup_500207069f9a600c65b80b0fd87e584d)
+        polygon_9ce5c65a37bdfef1b4c090f713447388.bindPopup(popup_a95d73ede5af2de869c49b4cb221949d)
         ;
 
         
     
     
-            var circle_marker_7872fa63cf7fe7335d20d9dea5773d56 = L.circleMarker(
-                [44.932860357077985, -92.77377993204946],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_73dc7b811de21161b6f74829db59c2a3);
-        
-    
-        var popup_86fccf1e24a5aa020c13e02545a67551 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_fbaecf326ce63c6e31b22494c4557360 = $(`<div id="html_fbaecf326ce63c6e31b22494c4557360" style="width: 100.0%; height: 100.0%;"><b>Washington - MN-CD04</b></div>`)[0];
-                popup_86fccf1e24a5aa020c13e02545a67551.setContent(html_fbaecf326ce63c6e31b22494c4557360);
-            
-        
-
-        circle_marker_7872fa63cf7fe7335d20d9dea5773d56.bindPopup(popup_86fccf1e24a5aa020c13e02545a67551)
-        ;
-
-        
-    
-    
-            circle_marker_7872fa63cf7fe7335d20d9dea5773d56.bindTooltip(
+            polygon_9ce5c65a37bdfef1b4c090f713447388.bindTooltip(
                 `<div>
-                     Washington - MN-CD04
+                      Washington - MN-CD04
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_c92aa0e7c2235b27a24e0a4d082d2893 = L.polygon(
+            var polygon_1f8f81be682fea6010d0a2f96d1efc3d = L.polygon(
                 [[44.937299000000024, -92.750645], [44.935047000000026, -92.751155], [44.932956999999995, -92.751628], [44.930866999999985, -92.752102], [44.928567000000044, -92.752702], [44.91905999999999, -92.75536400000001], [44.91868048773983, -92.75547015734907], [44.94156700000002, -92.750802], [44.937299000000024, -92.750645]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_73dc7b811de21161b6f74829db59c2a3);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_410524528689d15ac73282258ab2d9fa);
         
     
-        var popup_f75226b4373b71dda5ed3f364f0e4f10 = L.popup({"maxWidth": "100%"});
+        var popup_e1365ae7adb9441b279884782ec04da7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9ee96ccf79485013bbae27ea6471ae55 = $(`<div id="html_9ee96ccf79485013bbae27ea6471ae55" style="width: 100.0%; height: 100.0%;"><b>Washington - MN-CD07</b></div>`)[0];
-                popup_f75226b4373b71dda5ed3f364f0e4f10.setContent(html_9ee96ccf79485013bbae27ea6471ae55);
+                var html_b49e87919edf4c9ca7f63632cbb5a357 = $(`<div id="html_b49e87919edf4c9ca7f63632cbb5a357" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Washington - MN-CD07</h4>                              </div>         </div>`)[0];
+                popup_e1365ae7adb9441b279884782ec04da7.setContent(html_b49e87919edf4c9ca7f63632cbb5a357);
             
         
 
-        polygon_c92aa0e7c2235b27a24e0a4d082d2893.bindPopup(popup_f75226b4373b71dda5ed3f364f0e4f10)
+        polygon_1f8f81be682fea6010d0a2f96d1efc3d.bindPopup(popup_e1365ae7adb9441b279884782ec04da7)
         ;
 
         
     
     
-            var circle_marker_1e6c3b7942d4c057923d6bd1135da645 = L.circleMarker(
-                [44.93126038752666, -92.75227923970544],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_73dc7b811de21161b6f74829db59c2a3);
-        
-    
-        var popup_31c71381f34bd5d368848ab517f03235 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_20e13429ab276bf5e91fab399938c0f3 = $(`<div id="html_20e13429ab276bf5e91fab399938c0f3" style="width: 100.0%; height: 100.0%;"><b>Washington - MN-CD07</b></div>`)[0];
-                popup_31c71381f34bd5d368848ab517f03235.setContent(html_20e13429ab276bf5e91fab399938c0f3);
-            
-        
-
-        circle_marker_1e6c3b7942d4c057923d6bd1135da645.bindPopup(popup_31c71381f34bd5d368848ab517f03235)
-        ;
-
-        
-    
-    
-            circle_marker_1e6c3b7942d4c057923d6bd1135da645.bindTooltip(
+            polygon_1f8f81be682fea6010d0a2f96d1efc3d.bindTooltip(
                 `<div>
-                     Washington - MN-CD07
+                      Washington - MN-CD07
                  </div>`,
                 {"sticky": true}
             );

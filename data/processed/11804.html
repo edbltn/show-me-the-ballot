@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c8ac343c0127135e3c41cee05499c64c {
+                #map_604f13c048f0162902d0aa541bcf3cc1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nassau - NY-CD03</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nassau - NY-CD01</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nassau - NY-CD03</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nassau - NY-CD01</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Nassau - NY-CD03</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Nassau - NY-CD01</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_c8ac343c0127135e3c41cee05499c64c" ></div>
+            <div class="folium-map" id="map_604f13c048f0162902d0aa541bcf3cc1" ></div>
         
 </body>
 <script>
     
     
-            var map_c8ac343c0127135e3c41cee05499c64c = L.map(
-                "map_c8ac343c0127135e3c41cee05499c64c",
+            var map_604f13c048f0162902d0aa541bcf3cc1 = L.map(
+                "map_604f13c048f0162902d0aa541bcf3cc1",
                 {
                     center: [40.75506854678645, -73.4574379556455],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_604f13c048f0162902d0aa541bcf3cc1);
 
             
 
         
     
-            var tile_layer_743dc1e88a5476aca137108ba75d5f73 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_7730f559a4c431f6df2114288a0bb246 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_743dc1e88a5476aca137108ba75d5f73.addTo(map_c8ac343c0127135e3c41cee05499c64c);
+            tile_layer_7730f559a4c431f6df2114288a0bb246.addTo(map_604f13c048f0162902d0aa541bcf3cc1);
         
     
-            var polygon_7e9b9115bc722edde7e87ca2754d51ac = L.polygon(
+            var polygon_e577c8afd59277e787b625a7bde22187 = L.polygon(
                 [[40.759070999999956, -73.442301], [40.758808999999985, -73.44259900000002], [40.75855000000001, -73.442922], [40.758505000000056, -73.443014], [40.75848599999997, -73.44311500000002], [40.75848600000001, -73.443202], [40.75850900000006, -73.443303], [40.75874299999999, -73.44395], [40.75882499999999, -73.44424900000001], [40.75885400000004, -73.444354], [40.758894, -73.444613], [40.758944000000035, -73.445097], [40.75874500000001, -73.445102], [40.75697900000001, -73.44505], [40.75654599999999, -73.445026], [40.75569299999998, -73.444807], [40.755554000000004, -73.444771], [40.755379000000026, -73.444747], [40.755191999999944, -73.444763], [40.755167000000014, -73.444769], [40.754984, -73.44481200000001], [40.754830000000005, -73.444875], [40.754807999999954, -73.444887], [40.75417799999995, -73.44525], [40.75160000000002, -73.446731], [40.75141399999997, -73.446859], [40.75130499999998, -73.44695], [40.75115199999997, -73.447114], [40.751042999999996, -73.447263], [40.75093700000003, -73.447434], [40.750869999999985, -73.447566], [40.750138999999976, -73.449019], [40.750015000000026, -73.449264], [40.74993900000004, -73.449384], [40.74978599999997, -73.44958], [40.74957599999997, -73.449797], [40.74939199999996, -73.4498], [40.749151999999995, -73.449762], [40.74894699999999, -73.449709], [40.748632999999984, -73.449669], [40.74838099999995, -73.449667], [40.74791999999996, -73.449718], [40.747766000000006, -73.449752], [40.747735999999975, -73.449752], [40.74761299999998, -73.44971], [40.74733899999994, -73.449871], [40.74690099999997, -73.450044], [40.74514800000001, -73.450838], [40.74492800000002, -73.45091900000001], [40.74463300000006, -73.451051], [40.74413900000002, -73.451236], [40.74365300000001, -73.451437], [40.744669, -73.46292700000001], [40.743677999999946, -73.463709], [40.74046700000002, -73.466113], [40.74082300000001, -73.466784], [40.738044, -73.468592], [40.73815799999995, -73.468646], [40.738216, -73.4687], [40.738246000000025, -73.468747], [40.738282000000034, -73.468869], [40.738282999999974, -73.468992], [40.73826699999999, -73.469064], [40.738161999999996, -73.469264], [40.738168999999964, -73.469296], [40.738224000000024, -73.469396], [40.73847899999999, -73.469943], [40.738573000000045, -73.470101], [40.73871700000001, -73.470291], [40.73877199999993, -73.470395], [40.738959999999985, -73.470491], [40.73910000000001, -73.47054], [40.73914800000003, -73.470553], [40.73958099999997, -73.470674], [40.73975099999995, -73.470698], [40.740174000000025, -73.470824], [40.74040600000001, -73.470971], [40.740516, -73.47102], [40.74106500000001, -73.47118500000002], [40.741406000000026, -73.471348], [40.74175899999994, -73.471598], [40.74246000000001, -73.47215300000002], [40.743283000000034, -73.472631], [40.743434999999984, -73.472572], [40.74352399999996, -73.472567], [40.74364400000002, -73.47258500000001], [40.74380800000005, -73.472655], [40.743913, -73.472742], [40.744063, -73.472955], [40.74438299999999, -73.473393], [40.74455999999994, -73.473526], [40.74466300000003, -73.47356800000001], [40.744708999999986, -73.473687], [40.74508799999998, -73.473628], [40.74610400000006, -73.473447], [40.74750299999996, -73.47318], [40.747698999999955, -73.473143], [40.74820500000004, -73.473049], [40.74864400000002, -73.472987], [40.749192, -73.472954], [40.74968699999996, -73.472968], [40.750136999999995, -73.473015], [40.75034199999998, -73.473053], [40.750630999999956, -73.473106], [40.750829000000024, -73.473147], [40.75116499999998, -73.473242], [40.75183100000001, -73.473459], [40.752646, -73.473724], [40.75286600000005, -73.473806], [40.75323100000001, -73.473862], [40.753717000000016, -73.473981], [40.75398700000002, -73.473973], [40.75499300000003, -73.473738], [40.75512500000001, -73.473716], [40.75526699999998, -73.473707], [40.755421, -73.473731], [40.75562500000001, -73.47379100000002], [40.75568799999997, -73.473863], [40.75556600000003, -73.473023], [40.75648200000003, -73.473368], [40.75684700000001, -73.471593], [40.75969899999998, -73.470175], [40.75957200000005, -73.469661], [40.761598999999975, -73.468748], [40.763978000000016, -73.466731], [40.766299000000004, -73.464967], [40.771064999999986, -73.46074100000001], [40.77444900000001, -73.458104], [40.77585, -73.457537], [40.77232299999999, -73.449452], [40.772920000000035, -73.448992], [40.77337599999999, -73.44867], [40.77373700000006, -73.448432], [40.773835999999974, -73.448381], [40.77451399999998, -73.447956], [40.77494500000002, -73.447693], [40.775253000000006, -73.447524], [40.775483, -73.447382], [40.77623900000003, -73.446949], [40.776908000000034, -73.446598], [40.77750000000001, -73.446306], [40.778393, -73.445782], [40.779625999999986, -73.445011], [40.779880000000006, -73.444875], [40.78034900000003, -73.44462300000002], [40.78041585917991, -73.44461416400453], [40.76025879748845, -73.44046363239522], [40.759070999999956, -73.442301]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c8ac343c0127135e3c41cee05499c64c);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_604f13c048f0162902d0aa541bcf3cc1);
         
     
-        var popup_7d0a5b1e78d3ca820d21128b4d10e08e = L.popup({"maxWidth": "100%"});
+        var popup_9a724d612f113fe1cdb6fc20e641b618 = L.popup({"maxWidth": 300});
 
         
             
-                var html_7dc3256df57ae65014bb9ca7ed033595 = $(`<div id="html_7dc3256df57ae65014bb9ca7ed033595" style="width: 100.0%; height: 100.0%;"><b>Nassau - NY-CD03</b></div>`)[0];
-                popup_7d0a5b1e78d3ca820d21128b4d10e08e.setContent(html_7dc3256df57ae65014bb9ca7ed033595);
+                var html_8e17995dd859d83bde327a82515d1581 = $(`<div id="html_8e17995dd859d83bde327a82515d1581" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Nassau - NY-CD03</h4>                              </div>         </div>`)[0];
+                popup_9a724d612f113fe1cdb6fc20e641b618.setContent(html_8e17995dd859d83bde327a82515d1581);
             
         
 
-        polygon_7e9b9115bc722edde7e87ca2754d51ac.bindPopup(popup_7d0a5b1e78d3ca820d21128b4d10e08e)
+        polygon_e577c8afd59277e787b625a7bde22187.bindPopup(popup_9a724d612f113fe1cdb6fc20e641b618)
         ;
 
         
     
     
-            var circle_marker_8af5108598c061c4d1bcf6580579ea6b = L.circleMarker(
-                [40.75276611254505, -73.4593186607865],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c8ac343c0127135e3c41cee05499c64c);
-        
-    
-        var popup_052a4fb40f1878307da68b7a4286065c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_d984ca16fccbcf64cdcbec6924378e58 = $(`<div id="html_d984ca16fccbcf64cdcbec6924378e58" style="width: 100.0%; height: 100.0%;"><b>Nassau - NY-CD03</b></div>`)[0];
-                popup_052a4fb40f1878307da68b7a4286065c.setContent(html_d984ca16fccbcf64cdcbec6924378e58);
-            
-        
-
-        circle_marker_8af5108598c061c4d1bcf6580579ea6b.bindPopup(popup_052a4fb40f1878307da68b7a4286065c)
-        ;
-
-        
-    
-    
-            circle_marker_8af5108598c061c4d1bcf6580579ea6b.bindTooltip(
+            polygon_e577c8afd59277e787b625a7bde22187.bindTooltip(
                 `<div>
-                     Nassau - NY-CD03
+                      Nassau - NY-CD03
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_f960bb6abda2681f7f148328fd090093 = L.polygon(
+            var polygon_c5ecd23ae11fa553ddcf60a6ff7f55fc = L.polygon(
                 [[40.77649799999996, -73.443264], [40.77590400000002, -73.44315], [40.772842000000026, -73.442549], [40.76989900000002, -73.441967], [40.764399, -73.440967], [40.762139000000026, -73.44060900000001], [40.761807000000026, -73.44055], [40.76163899999999, -73.44052], [40.760415000000016, -73.440222], [40.76025879748845, -73.44046363239522], [40.78041585917991, -73.44461416400453], [40.78057599999999, -73.444593], [40.78080799999999, -73.44460800000002], [40.78085500000002, -73.44462], [40.78098099999999, -73.444651], [40.781205000000014, -73.444754], [40.78160600000003, -73.444096], [40.77831699999999, -73.443515], [40.77649799999996, -73.443264]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c8ac343c0127135e3c41cee05499c64c);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_604f13c048f0162902d0aa541bcf3cc1);
         
     
-        var popup_a684ef4646c29524550b22da8b6ad2a9 = L.popup({"maxWidth": "100%"});
+        var popup_859bb1e2dbdb6fec282e7f851ca8959f = L.popup({"maxWidth": 300});
 
         
             
-                var html_236c5148ce31ce43ab0b5f6862036d46 = $(`<div id="html_236c5148ce31ce43ab0b5f6862036d46" style="width: 100.0%; height: 100.0%;"><b>Nassau - NY-CD01</b></div>`)[0];
-                popup_a684ef4646c29524550b22da8b6ad2a9.setContent(html_236c5148ce31ce43ab0b5f6862036d46);
+                var html_cce1483c2fdf88027893965541063eb5 = $(`<div id="html_cce1483c2fdf88027893965541063eb5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Nassau - NY-CD01</h4>                              </div>         </div>`)[0];
+                popup_859bb1e2dbdb6fec282e7f851ca8959f.setContent(html_cce1483c2fdf88027893965541063eb5);
             
         
 
-        polygon_f960bb6abda2681f7f148328fd090093.bindPopup(popup_a684ef4646c29524550b22da8b6ad2a9)
+        polygon_c5ecd23ae11fa553ddcf60a6ff7f55fc.bindPopup(popup_859bb1e2dbdb6fec282e7f851ca8959f)
         ;
 
         
     
     
-            var circle_marker_3c6e230f4feb86b771a29ee012ef7c6d = L.circleMarker(
-                [40.77300329771939, -73.4427882524421],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c8ac343c0127135e3c41cee05499c64c);
-        
-    
-        var popup_1bcd520e86a8b36a64521c7f0deecc91 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_7b995ff6690e4cb11e04e6bd6ee5393d = $(`<div id="html_7b995ff6690e4cb11e04e6bd6ee5393d" style="width: 100.0%; height: 100.0%;"><b>Nassau - NY-CD01</b></div>`)[0];
-                popup_1bcd520e86a8b36a64521c7f0deecc91.setContent(html_7b995ff6690e4cb11e04e6bd6ee5393d);
-            
-        
-
-        circle_marker_3c6e230f4feb86b771a29ee012ef7c6d.bindPopup(popup_1bcd520e86a8b36a64521c7f0deecc91)
-        ;
-
-        
-    
-    
-            circle_marker_3c6e230f4feb86b771a29ee012ef7c6d.bindTooltip(
+            polygon_c5ecd23ae11fa553ddcf60a6ff7f55fc.bindTooltip(
                 `<div>
-                     Nassau - NY-CD01
+                      Nassau - NY-CD01
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d0b106de61b3e2490e9228f4d08a77bf {
+                #map_4b9856f93c1658d1613e0a93f6cb0d31 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD20</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD21</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD21</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD20</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD21</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD21</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Saratoga - NY-CD20</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD20</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD21</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Saratoga - NY-CD21</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Saratoga - NY-CD21</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Saratoga - NY-CD21</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_d0b106de61b3e2490e9228f4d08a77bf" ></div>
+            <div class="folium-map" id="map_4b9856f93c1658d1613e0a93f6cb0d31" ></div>
         
 </body>
 <script>
     
     
-            var map_d0b106de61b3e2490e9228f4d08a77bf = L.map(
-                "map_d0b106de61b3e2490e9228f4d08a77bf",
+            var map_4b9856f93c1658d1613e0a93f6cb0d31 = L.map(
+                "map_4b9856f93c1658d1613e0a93f6cb0d31",
                 {
                     center: [43.282450600008204, -73.63663331765456],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_4b9856f93c1658d1613e0a93f6cb0d31);
 
             
 
         
     
-            var tile_layer_f289fd6a69f3d42b2cc7e3f1edd24258 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_59894ab1a910906adb266056a9508338 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_f289fd6a69f3d42b2cc7e3f1edd24258.addTo(map_d0b106de61b3e2490e9228f4d08a77bf);
+            tile_layer_59894ab1a910906adb266056a9508338.addTo(map_4b9856f93c1658d1613e0a93f6cb0d31);
         
     
-            var polygon_92ee156d61493af169bb73f909126151 = L.polygon(
+            var polygon_d6c639ce33885bef74cff4758250594c = L.polygon(
                 [[43.26301099999999, -73.675204], [43.26292300000007, -73.674484], [43.262961999999966, -73.673257], [43.26315900000007, -73.672099], [43.26361700000003, -73.670682], [43.26384500000005, -73.670007], [43.263845178819935, -73.67000647385927], [43.263870999999995, -73.66956100000002], [43.26414475506051, -73.66930249862966], [43.264145000000006, -73.669302], [43.26472099999999, -73.668133], [43.265420000000034, -73.667036], [43.266303999999955, -73.66597], [43.26742400000003, -73.664828], [43.26828400000001, -73.663979], [43.26924999999999, -73.6632], [43.27029799999999, -73.6626], [43.271137000000024, -73.66225700000001], [43.27194365605638, -73.66193713638567], [43.272290000000005, -73.66161], [43.27245699999999, -73.66145200000001], [43.27287199999997, -73.661061], [43.275212000000025, -73.663766], [43.280063000000006, -73.669372], [43.28147399999999, -73.671015], [43.283323625401685, -73.6731467800791], [43.283505000000005, -73.67308300000002], [43.285279, -73.67239], [43.285995000000035, -73.672192], [43.28663200000001, -73.672069], [43.287429, -73.672015], [43.28843799999999, -73.671848], [43.289101000000045, -73.671688], [43.28968399999999, -73.671493], [43.29023899999996, -73.671226], [43.29055500000002, -73.670928], [43.29088899999999, -73.670511], [43.291178000000016, -73.669913], [43.29139300000007, -73.669333], [43.291536000000036, -73.668823], [43.291641000000006, -73.668319], [43.29171600000004, -73.667881], [43.29174199999994, -73.66745], [43.29172109697402, -73.66727779887644], [43.29086600000004, -73.665862], [43.290572, -73.660461], [43.29127199999992, -73.653061], [43.290078999999984, -73.651377], [43.289572000000014, -73.650661], [43.293272999999964, -73.641861], [43.296703798459376, -73.64214425830264], [43.305976982293195, -73.59529737320157], [43.30571791325202, -73.59471593587942], [43.2931653813195, -73.5938636638177], [43.291344, -73.594969], [43.29090300000001, -73.595078], [43.290401, -73.595203], [43.28460700000003, -73.596954], [43.284114, -73.597136], [43.28172099999996, -73.598866], [43.279848999999984, -73.599992], [43.27976199999999, -73.600044], [43.27880700000001, -73.600244], [43.27787400000003, -73.600281], [43.277642, -73.600287], [43.27205200000001, -73.600443], [43.272060000000025, -73.601263], [43.272065, -73.60177400000002], [43.27205099999995, -73.602835], [43.27319299999999, -73.604218], [43.274939999999994, -73.603483], [43.27507499999999, -73.602472], [43.27570299999994, -73.603031], [43.27641800000005, -73.603669], [43.27629399999992, -73.60454300000002], [43.27619799999997, -73.605232], [43.27917100000005, -73.606623], [43.27923700000001, -73.609029], [43.28551900000002, -73.61053000000001], [43.28537400000002, -73.61085900000002], [43.28513500000001, -73.611319], [43.28457599999999, -73.612185], [43.28376299999998, -73.61219300000002], [43.28106899999998, -73.612134], [43.27947399999998, -73.612136], [43.279123999999996, -73.612114], [43.27886600000002, -73.612063], [43.27862400000004, -73.61197], [43.278522999999964, -73.611907], [43.27846500000003, -73.611844], [43.278577, -73.61227700000002], [43.278625000000005, -73.612454], [43.27870099999998, -73.612817], [43.279013999999954, -73.61448], [43.27911799999998, -73.614974], [43.279254, -73.61550200000002], [43.27942300000003, -73.615986], [43.27952700000002, -73.61623], [43.27966400000004, -73.616503], [43.280052, -73.617156], [43.28018099999998, -73.617343], [43.28025400000002, -73.617432], [43.280371, -73.617552], [43.28052600000001, -73.617672], [43.28070499999999, -73.617774], [43.281512999999975, -73.618082], [43.282065, -73.618314], [43.282586999999964, -73.618587], [43.28299200000002, -73.618831], [43.28331800000001, -73.619101], [43.283448, -73.619246], [43.28357899999999, -73.619418], [43.28373399999998, -73.619668], [43.28433699999997, -73.620769], [43.28454000000002, -73.621155], [43.28464600000003, -73.621336], [43.28368999999997, -73.62344], [43.28355100000001, -73.62369], [43.28338899999999, -73.623947], [43.28282400000002, -73.624616], [43.28108699999996, -73.626322], [43.27986699999999, -73.627487], [43.27969599999998, -73.627637], [43.27728399999998, -73.629948], [43.275894000000015, -73.631268], [43.27547500000002, -73.631651], [43.27518199999996, -73.633433], [43.27527599999999, -73.633453], [43.275135000000056, -73.63463100000001], [43.27535499999998, -73.634987], [43.27430600000002, -73.636231], [43.27428999999998, -73.636362], [43.27418500000001, -73.637293], [43.27399599999999, -73.638998], [43.27392299999999, -73.63962], [43.273875000000004, -73.64003700000002], [43.273491999999976, -73.639914], [43.27323800000001, -73.639832], [43.27321799999998, -73.64010000000002], [43.27312700000001, -73.641322], [43.27112099999999, -73.641527], [43.26959799999995, -73.641683], [43.26957300000004, -73.64258100000002], [43.26947599999998, -73.646056], [43.26944399999998, -73.647203], [43.27141300000002, -73.648318], [43.27253800000001, -73.648062], [43.27304199999998, -73.647948], [43.273020999999986, -73.648184], [43.272973000000015, -73.64872], [43.272641, -73.648913], [43.27234399999999, -73.649097], [43.27168799999999, -73.65069000000001], [43.270197, -73.651552], [43.26962399999994, -73.65386000000001], [43.26957300000004, -73.654926], [43.27088299999994, -73.65801], [43.27086199999996, -73.658106], [43.27087399999995, -73.65827100000001], [43.270894999999946, -73.658415], [43.270916999999955, -73.658514], [43.27095300000001, -73.658638], [43.27127699999997, -73.659506], [43.271548999999965, -73.660065], [43.271569999999976, -73.660205], [43.271569999999976, -73.66030000000002], [43.27155899999998, -73.660426], [43.27152199999999, -73.660517], [43.271468000000006, -73.660612], [43.271315000000016, -73.660731], [43.271149, -73.66082600000001], [43.27099299999994, -73.660894], [43.270257, -73.661121], [43.26923900000001, -73.661787], [43.26901700000001, -73.661923], [43.268904000000006, -73.661981], [43.268590999999994, -73.662098], [43.268518, -73.662145], [43.26790999999998, -73.66266800000001], [43.26689700000002, -73.66360400000002], [43.266180000000055, -73.664495], [43.265407, -73.665357], [43.26522100000002, -73.665547], [43.264966000000044, -73.665784], [43.26477700000002, -73.665995], [43.263552999999966, -73.667596], [43.26348399999999, -73.667723], [43.26334899999997, -73.668026], [43.26325800000001, -73.668347], [43.263191999999975, -73.668504], [43.263021000000066, -73.668839], [43.26298099999998, -73.669032], [43.26296699999999, -73.66929], [43.26294099999999, -73.669667], [43.26290800000003, -73.669871], [43.26245100000002, -73.672105], [43.26234900000003, -73.672895], [43.26229500000001, -73.673761], [43.262288, -73.674194], [43.26231400000002, -73.67468], [43.26236800000005, -73.675037], [43.26243099999994, -73.675347], [43.262701, -73.676314], [43.26276299999998, -73.676482], [43.262873999999975, -73.676727], [43.26334397868536, -73.67646294025225], [43.26315100000001, -73.675922], [43.26301099999999, -73.675204]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d0b106de61b3e2490e9228f4d08a77bf);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4b9856f93c1658d1613e0a93f6cb0d31);
         
     
-        var popup_780eb2b65c5a75c1ed40ca4134104c57 = L.popup({"maxWidth": "100%"});
+        var popup_9a2e31bc115bd36b03f08df3c045da6e = L.popup({"maxWidth": 300});
 
         
             
-                var html_bee182f3a47ac6def6558c6d3abd4145 = $(`<div id="html_bee182f3a47ac6def6558c6d3abd4145" style="width: 100.0%; height: 100.0%;"><b>Saratoga - NY-CD20</b></div>`)[0];
-                popup_780eb2b65c5a75c1ed40ca4134104c57.setContent(html_bee182f3a47ac6def6558c6d3abd4145);
+                var html_72b6c3e6ffd3dc12fabb782162c83f70 = $(`<div id="html_72b6c3e6ffd3dc12fabb782162c83f70" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Saratoga - NY-CD20</h4>                              </div>         </div>`)[0];
+                popup_9a2e31bc115bd36b03f08df3c045da6e.setContent(html_72b6c3e6ffd3dc12fabb782162c83f70);
             
         
 
-        polygon_92ee156d61493af169bb73f909126151.bindPopup(popup_780eb2b65c5a75c1ed40ca4134104c57)
+        polygon_d6c639ce33885bef74cff4758250594c.bindPopup(popup_9a2e31bc115bd36b03f08df3c045da6e)
         ;
 
         
     
     
-            var circle_marker_1f8faf8d95a4fea824897ed47c67c511 = L.circleMarker(
-                [43.27579551137655, -73.64326298009271],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d0b106de61b3e2490e9228f4d08a77bf);
-        
-    
-        var popup_21c3dc9ab24e0f6c9b3db0b894202cc7 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_af3e73a24b3e38147b3e6b521e91685d = $(`<div id="html_af3e73a24b3e38147b3e6b521e91685d" style="width: 100.0%; height: 100.0%;"><b>Saratoga - NY-CD20</b></div>`)[0];
-                popup_21c3dc9ab24e0f6c9b3db0b894202cc7.setContent(html_af3e73a24b3e38147b3e6b521e91685d);
-            
-        
-
-        circle_marker_1f8faf8d95a4fea824897ed47c67c511.bindPopup(popup_21c3dc9ab24e0f6c9b3db0b894202cc7)
-        ;
-
-        
-    
-    
-            circle_marker_1f8faf8d95a4fea824897ed47c67c511.bindTooltip(
+            polygon_d6c639ce33885bef74cff4758250594c.bindTooltip(
                 `<div>
-                     Saratoga - NY-CD20
+                      Saratoga - NY-CD20
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_0b499c65133b78492915c035a395f2c1 = L.polygon(
+            var polygon_ef6d3673d29ddcc7428ba239f5d1cb3d = L.polygon(
                 [[43.30034600000001, -73.642445], [43.304171999999994, -73.642761], [43.30514600000002, -73.641726], [43.30577600000007, -73.641056], [43.305796999999984, -73.640976], [43.305851999999994, -73.640764], [43.30592000000002, -73.64050000000002], [43.305927999999994, -73.640471], [43.30603, -73.640084], [43.30613100000002, -73.639698], [43.30627199999995, -73.639161], [43.30644399999996, -73.638608], [43.30655800000002, -73.638238], [43.30671600000003, -73.637732], [43.30692699999996, -73.636838], [43.30693600000005, -73.636798], [43.306998, -73.635941], [43.306904999999965, -73.635256], [43.30689400000004, -73.635244], [43.306646000000015, -73.634064], [43.30635699999998, -73.633203], [43.306310000000046, -73.633064], [43.30595100000002, -73.632419], [43.304033999999966, -73.628584], [43.30386299999997, -73.62814900000001], [43.304226999999955, -73.624442], [43.30456800000001, -73.623075], [43.30474800000003, -73.621456], [43.30494000000003, -73.619736], [43.304998999999995, -73.61921], [43.305250999999984, -73.616953], [43.30654199999995, -73.60983100000001], [43.30646799999999, -73.606303], [43.306628999999994, -73.603648], [43.30666900000004, -73.602982], [43.306664, -73.602926], [43.30671600000003, -73.60142100000002], [43.306692000000005, -73.600346], [43.306631, -73.599478], [43.306515000000005, -73.59782600000001], [43.3065148125194, -73.597823398691], [43.30631454807346, -73.59637823051673], [43.30631400000003, -73.596376], [43.30613900000001, -73.595661], [43.305976982293195, -73.59529737320157], [43.296703798459376, -73.64214425830264], [43.30034600000001, -73.642445]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d0b106de61b3e2490e9228f4d08a77bf);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4b9856f93c1658d1613e0a93f6cb0d31);
         
     
-        var popup_aec560055490ada91e115f5e426212d6 = L.popup({"maxWidth": "100%"});
+        var popup_9e0e795d2ec11b9fb6cb9d8cbf2ed038 = L.popup({"maxWidth": 300});
 
         
             
-                var html_385d6f64d1b6620e1c100f86ff854c02 = $(`<div id="html_385d6f64d1b6620e1c100f86ff854c02" style="width: 100.0%; height: 100.0%;"><b>Saratoga - NY-CD21</b></div>`)[0];
-                popup_aec560055490ada91e115f5e426212d6.setContent(html_385d6f64d1b6620e1c100f86ff854c02);
+                var html_e196d927014d65b22a8fc94e6fa6cb36 = $(`<div id="html_e196d927014d65b22a8fc94e6fa6cb36" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Saratoga - NY-CD21</h4>                              </div>         </div>`)[0];
+                popup_9e0e795d2ec11b9fb6cb9d8cbf2ed038.setContent(html_e196d927014d65b22a8fc94e6fa6cb36);
             
         
 
-        polygon_0b499c65133b78492915c035a395f2c1.bindPopup(popup_aec560055490ada91e115f5e426212d6)
+        polygon_ef6d3673d29ddcc7428ba239f5d1cb3d.bindPopup(popup_9e0e795d2ec11b9fb6cb9d8cbf2ed038)
         ;
 
         
     
     
-            var circle_marker_906ab9520cd36de7155852859bc05886 = L.circleMarker(
-                [43.305563343432894, -73.6244582608662],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d0b106de61b3e2490e9228f4d08a77bf);
-        
-    
-        var popup_65f448a3a87fcdbe8af25a1282dc9f1c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_ecb7d7406efc5b6ddfea79f7e744c6af = $(`<div id="html_ecb7d7406efc5b6ddfea79f7e744c6af" style="width: 100.0%; height: 100.0%;"><b>Saratoga - NY-CD21</b></div>`)[0];
-                popup_65f448a3a87fcdbe8af25a1282dc9f1c.setContent(html_ecb7d7406efc5b6ddfea79f7e744c6af);
-            
-        
-
-        circle_marker_906ab9520cd36de7155852859bc05886.bindPopup(popup_65f448a3a87fcdbe8af25a1282dc9f1c)
-        ;
-
-        
-    
-    
-            circle_marker_906ab9520cd36de7155852859bc05886.bindTooltip(
+            polygon_ef6d3673d29ddcc7428ba239f5d1cb3d.bindTooltip(
                 `<div>
-                     Saratoga - NY-CD21
+                      Saratoga - NY-CD21
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_a3c4666df6b7e4eb2d2048bf6a9d8320 = L.polygon(
+            var polygon_ee7f408ada4f283308843f3f79e3a694 = L.polygon(
                 [[43.305697, -73.594669], [43.305927999999994, -73.594713], [43.303999999999995, -73.592193], [43.30054299999999, -73.588822], [43.299414, -73.588549], [43.298217000000015, -73.588913], [43.29770299999998, -73.589111], [43.29740500000002, -73.589224], [43.297215000000044, -73.58946], [43.296272999999935, -73.59063], [43.29548599999999, -73.59185], [43.295111999999975, -73.592666], [43.295083999999996, -73.592729], [43.29495799999994, -73.592799], [43.29445499999999, -73.593081], [43.2931653813195, -73.5938636638177], [43.30571791325202, -73.59471593587942], [43.305697, -73.594669]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d0b106de61b3e2490e9228f4d08a77bf);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_4b9856f93c1658d1613e0a93f6cb0d31);
         
     
-        var popup_fd2f8f2ae4c875fe9818262ac088869c = L.popup({"maxWidth": "100%"});
+        var popup_8e4f7721d1c7ece8e6ab66cf341d5637 = L.popup({"maxWidth": 300});
 
         
             
-                var html_aa4d5fa0a80cefd460ab6455e05c8864 = $(`<div id="html_aa4d5fa0a80cefd460ab6455e05c8864" style="width: 100.0%; height: 100.0%;"><b>Saratoga - NY-CD21</b></div>`)[0];
-                popup_fd2f8f2ae4c875fe9818262ac088869c.setContent(html_aa4d5fa0a80cefd460ab6455e05c8864);
+                var html_2fa640b137be57a6ca912997bedcccb9 = $(`<div id="html_2fa640b137be57a6ca912997bedcccb9" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Saratoga - NY-CD21</h4>                              </div>         </div>`)[0];
+                popup_8e4f7721d1c7ece8e6ab66cf341d5637.setContent(html_2fa640b137be57a6ca912997bedcccb9);
             
         
 
-        polygon_a3c4666df6b7e4eb2d2048bf6a9d8320.bindPopup(popup_fd2f8f2ae4c875fe9818262ac088869c)
+        polygon_ee7f408ada4f283308843f3f79e3a694.bindPopup(popup_8e4f7721d1c7ece8e6ab66cf341d5637)
         ;
 
         
     
     
-            var circle_marker_3ff825102825d77451cf58c65e700676 = L.circleMarker(
-                [43.29900390525396, -73.59181431109428],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d0b106de61b3e2490e9228f4d08a77bf);
-        
-    
-        var popup_4792a58ec4479e03c58cf8364b09fec3 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_c86e69bbfddf326e6b4602e8f090ad64 = $(`<div id="html_c86e69bbfddf326e6b4602e8f090ad64" style="width: 100.0%; height: 100.0%;"><b>Saratoga - NY-CD21</b></div>`)[0];
-                popup_4792a58ec4479e03c58cf8364b09fec3.setContent(html_c86e69bbfddf326e6b4602e8f090ad64);
-            
-        
-
-        circle_marker_3ff825102825d77451cf58c65e700676.bindPopup(popup_4792a58ec4479e03c58cf8364b09fec3)
-        ;
-
-        
-    
-    
-            circle_marker_3ff825102825d77451cf58c65e700676.bindTooltip(
+            polygon_ee7f408ada4f283308843f3f79e3a694.bindTooltip(
                 `<div>
-                     Saratoga - NY-CD21
+                      Saratoga - NY-CD21
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a0f380bb04d9efb4a3174aaf0a3ec078 {
+                #map_a184f76848859abc1cd320b54e79e1a6 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD02</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD01</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD02</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD01</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Worcester - MA-CD02</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD02</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Worcester - MA-CD01</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Worcester - MA-CD01</span>
             </div>
+        </div>
     
-            <div class="folium-map" id="map_a0f380bb04d9efb4a3174aaf0a3ec078" ></div>
+            <div class="folium-map" id="map_a184f76848859abc1cd320b54e79e1a6" ></div>
         
 </body>
 <script>
     
     
-            var map_a0f380bb04d9efb4a3174aaf0a3ec078 = L.map(
-                "map_a0f380bb04d9efb4a3174aaf0a3ec078",
+            var map_a184f76848859abc1cd320b54e79e1a6 = L.map(
+                "map_a184f76848859abc1cd320b54e79e1a6",
                 {
-                    center: [42.23925866459081, -71.9943829765568],
+                    center: [42.2350358351891, -72.00093754238542],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_a184f76848859abc1cd320b54e79e1a6);
 
             
 
         
     
-            var tile_layer_27aab235a5510291a041cd10b89e378d = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_3d73db95a76275cc9e031f9083de6ac3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_27aab235a5510291a041cd10b89e378d.addTo(map_a0f380bb04d9efb4a3174aaf0a3ec078);
+            tile_layer_3d73db95a76275cc9e031f9083de6ac3.addTo(map_a184f76848859abc1cd320b54e79e1a6);
         
     
-            var polygon_dd9999025fd9ddfe849e9f73b8062761 = L.polygon(
+            var polygon_bb9bea03ab9355116877a19a0af22a77 = L.polygon(
                 [[42.30887900000001, -72.034968], [42.30898199999995, -72.031304], [42.30913599999997, -72.025972], [42.30921899999999, -72.023092], [42.30930700000004, -72.020066], [42.309468000000024, -72.014457], [42.30951899999997, -72.01271], [42.309542000000036, -72.011921], [42.30954800000002, -72.011719], [42.309563, -72.011179], [42.309611000000025, -72.009496], [42.30961799999999, -72.009281], [42.309642999999966, -72.008453], [42.30970299999994, -72.006528], [42.309913, -71.999007], [42.30991500000002, -71.998933], [42.309993000000006, -71.9962], [42.31001199999998, -71.995437], [42.31003100000001, -71.994895], [42.31004800000002, -71.994298], [42.310187999999954, -71.989406], [42.310316000000014, -71.98388800000001], [42.310450999999986, -71.97804799999999], [42.310464000000024, -71.97764000000001], [42.310608000000016, -71.972183], [42.310667, -71.96891100000002], [42.31066999999999, -71.968625], [42.31068200000005, -71.967291], [42.30869699999999, -72.04116800000001], [42.30885300000002, -72.035783], [42.30887900000001, -72.034968]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a0f380bb04d9efb4a3174aaf0a3ec078);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a184f76848859abc1cd320b54e79e1a6);
         
     
-        var popup_b73f8fd63f52cbe360de52cdd3961b6e = L.popup({"maxWidth": "100%"});
+        var popup_e152534bb2d40319f85f867dd0d1b3c3 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d67f97afcc1089a995abf2a997e3e218 = $(`<div id="html_d67f97afcc1089a995abf2a997e3e218" style="width: 100.0%; height: 100.0%;"><b>Worcester - MA-CD02</b></div>`)[0];
-                popup_b73f8fd63f52cbe360de52cdd3961b6e.setContent(html_d67f97afcc1089a995abf2a997e3e218);
+                var html_d01815606001dd4cbb1a417625396302 = $(`<div id="html_d01815606001dd4cbb1a417625396302" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD02</h4>                              </div>         </div>`)[0];
+                popup_e152534bb2d40319f85f867dd0d1b3c3.setContent(html_d01815606001dd4cbb1a417625396302);
             
         
 
-        polygon_dd9999025fd9ddfe849e9f73b8062761.bindPopup(popup_b73f8fd63f52cbe360de52cdd3961b6e)
+        polygon_bb9bea03ab9355116877a19a0af22a77.bindPopup(popup_e152534bb2d40319f85f867dd0d1b3c3)
         ;
 
         
     
     
-            var circle_marker_1e444e56aacebcdc57cc18cbd9ef383e = L.circleMarker(
-                [42.30974596774193, -72.0041234516129],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_a0f380bb04d9efb4a3174aaf0a3ec078);
-        
-    
-        var popup_8b17f217f1b198ca328547683e4eafd8 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_5b39dfe2917cb2f6dabb834029b1acee = $(`<div id="html_5b39dfe2917cb2f6dabb834029b1acee" style="width: 100.0%; height: 100.0%;"><b>Worcester - MA-CD02</b></div>`)[0];
-                popup_8b17f217f1b198ca328547683e4eafd8.setContent(html_5b39dfe2917cb2f6dabb834029b1acee);
-            
-        
-
-        circle_marker_1e444e56aacebcdc57cc18cbd9ef383e.bindPopup(popup_8b17f217f1b198ca328547683e4eafd8)
-        ;
-
-        
-    
-    
-            circle_marker_1e444e56aacebcdc57cc18cbd9ef383e.bindTooltip(
+            polygon_bb9bea03ab9355116877a19a0af22a77.bindTooltip(
                 `<div>
-                     Worcester - MA-CD02
+                      Worcester - MA-CD02
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_c59d20bba9a854f12818a56e4bfeb121 = L.polygon(
-                [[42.30998700000002, -71.96713], [42.303343000000055, -71.965596], [42.29719600000002, -71.964176], [42.28156899999997, -71.96056700000001], [42.281424999999956, -71.960534], [42.27821999999998, -71.959797], [42.27322899999999, -71.958624], [42.27151199999999, -71.958242], [42.26989400000003, -71.95788300000001], [42.26784900000006, -71.957413], [42.265256000000015, -71.95681700000002], [42.261714000000026, -71.956003], [42.25929200000002, -71.955446], [42.256699999999974, -71.95485], [42.255854999999954, -71.954655], [42.252213999999995, -71.95381900000001], [42.24756600000002, -71.95275], [42.24323400000001, -71.951755], [42.241659000000006, -71.95139], [42.23967800000003, -71.950932], [42.23872500000002, -71.950712], [42.237527000000014, -71.95044], [42.23654399999998, -71.950217], [42.23117199999998, -71.948982], [42.230951, -71.948928], [42.23036097161688, -71.94880467935745], [42.31068200000005, -71.967291], [42.30998700000002, -71.96713]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a0f380bb04d9efb4a3174aaf0a3ec078);
-        
-    
-        var popup_76d9f637e7a613b77229f2b28f6a0eb7 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_0908f30bcc8340bb1f3aaafb3cce9b5b = $(`<div id="html_0908f30bcc8340bb1f3aaafb3cce9b5b" style="width: 100.0%; height: 100.0%;"><b>Worcester - MA-CD02</b></div>`)[0];
-                popup_76d9f637e7a613b77229f2b28f6a0eb7.setContent(html_0908f30bcc8340bb1f3aaafb3cce9b5b);
-            
-        
-
-        polygon_c59d20bba9a854f12818a56e4bfeb121.bindPopup(popup_76d9f637e7a613b77229f2b28f6a0eb7)
-        ;
-
-        
-    
-    
-            var circle_marker_b025211df4399a476d393b941dc94b8b = L.circleMarker(
-                [42.26369074898633, -71.95646013140562],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_a0f380bb04d9efb4a3174aaf0a3ec078);
-        
-    
-        var popup_a721d37162072cde6f05a01ee5877278 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_41f5911365f6d7611362f3f5a3ee8fa6 = $(`<div id="html_41f5911365f6d7611362f3f5a3ee8fa6" style="width: 100.0%; height: 100.0%;"><b>Worcester - MA-CD02</b></div>`)[0];
-                popup_a721d37162072cde6f05a01ee5877278.setContent(html_41f5911365f6d7611362f3f5a3ee8fa6);
-            
-        
-
-        circle_marker_b025211df4399a476d393b941dc94b8b.bindPopup(popup_a721d37162072cde6f05a01ee5877278)
-        ;
-
-        
-    
-    
-            circle_marker_b025211df4399a476d393b941dc94b8b.bindTooltip(
-                `<div>
-                     Worcester - MA-CD02
-                 </div>`,
-                {"sticky": true}
-            );
-        
-    
-            var polygon_fbe32008b072d2e7808dbc0c50711c98 = L.polygon(
+            var polygon_f3c75c7931a19339887e9cd6bff4c535 = L.polygon(
                 [[42.22946299999998, -71.948617], [42.22785472333576, -71.94822851783665], [42.20640520965183, -71.94329913299381], [42.206134999999996, -71.943243], [42.20551300000003, -71.943115], [42.20442499999996, -71.942868], [42.203076, -71.94255100000001], [42.20134000000001, -71.942137], [42.20037300000003, -71.941915], [42.20026200000001, -71.94188900000002], [42.20001300000003, -71.94183200000002], [42.199406000000025, -71.941692], [42.198166000000036, -71.941408], [42.197755000000015, -71.941313], [42.19721199999997, -71.941189], [42.196025000000006, -71.940916], [42.193359999999984, -71.940304], [42.190835, -71.939738], [42.18938839603052, -71.93939053624888], [42.18923800000001, -71.939356], [42.189154000000045, -71.9406], [42.189078999999985, -71.94171], [42.188894999999974, -71.944426], [42.18889200000001, -71.944465], [42.18888900000002, -71.944525], [42.18863299999999, -71.94829300000002], [42.188284, -71.953437], [42.187716, -71.96180400000001], [42.18731900000004, -71.96765400000001], [42.187295, -71.96801600000002], [42.18727200000001, -71.968351], [42.18683399999996, -71.9748], [42.186471000000026, -71.980152], [42.18613600000001, -71.98509100000001], [42.186094000000004, -71.985645], [42.18598800000001, -71.98725900000001], [42.185958000000014, -71.987699], [42.18592500000002, -71.98798600000002], [42.18586500000002, -71.989067], [42.185772000000036, -71.990443], [42.18576799999998, -71.99049600000001], [42.185645000000015, -71.992331], [42.185627999999966, -71.992512], [42.18561499999997, -71.992766], [42.185589999999955, -71.99303600000002], [42.18555399999999, -71.993639], [42.18533899999999, -71.996845], [42.185219000000025, -71.99822], [42.18515899999999, -71.999536], [42.18505599999997, -72.000904], [42.18503299999998, -72.001288], [42.18496399999994, -72.002222], [42.18495699999999, -72.002312], [42.18490100000004, -72.003184], [42.18489099999998, -72.003347], [42.18484399999998, -72.004035], [42.18478899999999, -72.004954], [42.184711999999976, -72.00595], [42.184601, -72.007729], [42.18445900000001, -72.009695], [42.184411999999966, -72.010386], [42.18436099999997, -72.011128], [42.183766999999996, -72.01973100000001], [42.183761999999994, -72.019886], [42.184804999999976, -72.020065], [42.186636000000014, -72.020376], [42.187133000000024, -72.020461], [42.18890700000002, -72.020764], [42.189760999999976, -72.020907], [42.19034000000004, -72.021016], [42.191318999999964, -72.02117500000001], [42.19376499999997, -72.021592], [42.19612899999998, -72.02199400000002], [42.19850900000006, -72.0224], [42.200920000000025, -72.022811], [42.201441999999986, -72.02290000000002], [42.203424000000034, -72.023238], [42.20591799999998, -72.023663], [42.20836, -72.02407900000001], [42.21085600000004, -72.024505], [42.21330499999995, -72.02492200000002], [42.214600000000026, -72.025143], [42.21570199999995, -72.02533100000001], [42.218032000000015, -72.025728], [42.220321000000034, -72.026118], [42.220950999999964, -72.026223], [42.221273999999966, -72.026282], [42.221874, -72.026383], [42.222403000000014, -72.026473], [42.22441700000002, -72.026816], [42.22690499999996, -72.02724], [42.22941699999998, -72.02767200000001], [42.23040799999996, -72.02784], [42.23097899999997, -72.02793600000001], [42.23155200000002, -72.028034], [42.23315399999996, -72.028305], [42.235614999999946, -72.028724], [42.23810800000002, -72.029149], [42.23881000000003, -72.02927000000001], [42.24028, -72.029527], [42.243088999999976, -72.029998], [42.243638999999995, -72.03009199999998], [42.245202999999975, -72.030359], [42.24533000000002, -72.03038], [42.25184899999998, -72.03149], [42.25684700000002, -72.032344], [42.25874500000003, -72.032665], [42.26860100000002, -72.03434400000002], [42.26938399999998, -72.03447500000001], [42.27393699999999, -72.035251], [42.274329000000016, -72.035315], [42.274771000000015, -72.035392], [42.27858800000003, -72.03603999999999], [42.27962199999999, -72.036232], [42.28083000000001, -72.036428], [42.286776999999965, -72.03743100000001], [42.29298600000003, -72.038494], [42.294285000000016, -72.038716], [42.294408999999945, -72.038745], [42.29565099999999, -72.038956], [42.295765000000046, -72.038975], [42.29633099999999, -72.03906600000002], [42.29706199999996, -72.03919], [42.297385, -72.039244], [42.29867400000004, -72.039462], [42.30409099999997, -72.040382], [42.30822400000001, -72.04109], [42.30869699999999, -72.04116800000001], [42.31068200000005, -71.967291], [42.23036097161688, -71.94880467935745], [42.22946299999998, -71.948617]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a0f380bb04d9efb4a3174aaf0a3ec078);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_a184f76848859abc1cd320b54e79e1a6);
         
     
-        var popup_aea5b680802c6ee37d4f7d9b66cf3099 = L.popup({"maxWidth": "100%"});
+        var popup_91ba6b2d35dd6837b680bd1266725633 = L.popup({"maxWidth": 300});
 
         
             
-                var html_a7ad5ba93d6573c569a514aa05e83a51 = $(`<div id="html_a7ad5ba93d6573c569a514aa05e83a51" style="width: 100.0%; height: 100.0%;"><b>Worcester - MA-CD01</b></div>`)[0];
-                popup_aea5b680802c6ee37d4f7d9b66cf3099.setContent(html_a7ad5ba93d6573c569a514aa05e83a51);
+                var html_97d9103d5e9d09459a60d1155789fe80 = $(`<div id="html_97d9103d5e9d09459a60d1155789fe80" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Worcester - MA-CD01</h4>                              </div>         </div>`)[0];
+                popup_91ba6b2d35dd6837b680bd1266725633.setContent(html_97d9103d5e9d09459a60d1155789fe80);
             
         
 
-        polygon_fbe32008b072d2e7808dbc0c50711c98.bindPopup(popup_aea5b680802c6ee37d4f7d9b66cf3099)
+        polygon_f3c75c7931a19339887e9cd6bff4c535.bindPopup(popup_91ba6b2d35dd6837b680bd1266725633)
         ;
 
         
     
     
-            var circle_marker_1ae81fb42444279e8d21f9989bbc5ef2 = L.circleMarker(
-                [42.21735633817279, -72.00018362493464],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_a0f380bb04d9efb4a3174aaf0a3ec078);
-        
-    
-        var popup_54dabc8aa4a0212ca55258cd7ba6a7ee = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3109d69ffffece8ae1cfc19586eb9a67 = $(`<div id="html_3109d69ffffece8ae1cfc19586eb9a67" style="width: 100.0%; height: 100.0%;"><b>Worcester - MA-CD01</b></div>`)[0];
-                popup_54dabc8aa4a0212ca55258cd7ba6a7ee.setContent(html_3109d69ffffece8ae1cfc19586eb9a67);
-            
-        
-
-        circle_marker_1ae81fb42444279e8d21f9989bbc5ef2.bindPopup(popup_54dabc8aa4a0212ca55258cd7ba6a7ee)
-        ;
-
-        
-    
-    
-            circle_marker_1ae81fb42444279e8d21f9989bbc5ef2.bindTooltip(
+            polygon_f3c75c7931a19339887e9cd6bff4c535.bindTooltip(
                 `<div>
-                     Worcester - MA-CD01
+                      Worcester - MA-CD01
                  </div>`,
                 {"sticky": true}
             );

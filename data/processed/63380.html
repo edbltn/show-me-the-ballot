@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2faa0aebd20c7560657a3adc7f6ac88a {
+                #map_83399531ac821daff935b35cd3ec2c81 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Warren - MO-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Warren - MO-CD03</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Warren - MO-CD02</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Warren - MO-CD03</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Warren - MO-CD02</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Warren - MO-CD03</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_2faa0aebd20c7560657a3adc7f6ac88a" ></div>
+            <div class="folium-map" id="map_83399531ac821daff935b35cd3ec2c81" ></div>
         
 </body>
 <script>
     
     
-            var map_2faa0aebd20c7560657a3adc7f6ac88a = L.map(
-                "map_2faa0aebd20c7560657a3adc7f6ac88a",
+            var map_83399531ac821daff935b35cd3ec2c81 = L.map(
+                "map_83399531ac821daff935b35cd3ec2c81",
                 {
                     center: [38.81367787117939, -91.12000137318546],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_83399531ac821daff935b35cd3ec2c81);
 
             
 
         
     
-            var tile_layer_17ea5eff51ce83bffdb9369cd7f58669 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_6797d45481d0641cfcb772505b751c01 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_17ea5eff51ce83bffdb9369cd7f58669.addTo(map_2faa0aebd20c7560657a3adc7f6ac88a);
+            tile_layer_6797d45481d0641cfcb772505b751c01.addTo(map_83399531ac821daff935b35cd3ec2c81);
         
     
-            var polygon_cc8925553ed4ca46828712c72323c498 = L.polygon(
+            var polygon_14797cd6c41663bb661176d4ac98e2ff = L.polygon(
                 [[38.81099399999997, -91.136493], [38.81186899999997, -91.13647], [38.812365, -91.13646300000002], [38.81256300000002, -91.136461], [38.81316200000001, -91.136449], [38.815223999999986, -91.136405], [38.81599999999997, -91.136388], [38.818474999999985, -91.136338], [38.818479999999994, -91.135418], [38.81848399999999, -91.134705], [38.818486, -91.134294], [38.818488, -91.133906], [38.81848500000003, -91.133394], [38.81848299999999, -91.132935], [38.818479, -91.131968], [38.818492000000006, -91.131207], [38.818488000000016, -91.130793], [38.818437000000046, -91.130173], [38.818379999999976, -91.129833], [38.81832299999999, -91.129562], [38.81834300000003, -91.129125], [38.81835700000001, -91.128836], [38.818367999999985, -91.128608], [38.81841799999999, -91.127522], [38.818405999999996, -91.126299], [38.81841300000003, -91.125904], [38.818421999999984, -91.125347], [38.81842799999996, -91.125003], [38.818427, -91.122059], [38.81842600000001, -91.120771], [38.81842600000001, -91.118053], [38.81842600000001, -91.117511], [38.81822600000003, -91.117522], [38.81822399999999, -91.116377], [38.81823600000001, -91.115213], [38.81823400000002, -91.114086], [38.81825200000003, -91.113467], [38.81831600000002, -91.112699], [38.818740566571904, -91.10900648723478], [38.81866499239726, -91.10415367203801], [38.81833300000001, -91.104155], [38.81841300000003, -91.103605], [38.81856599999999, -91.103177], [38.81828800000001, -91.103179], [38.81488999999995, -91.103216], [38.814628000000006, -91.103202], [38.814651999999974, -91.10202], [38.81465100000001, -91.101941], [38.814344999999946, -91.101954], [38.81413000000002, -91.10302700000001], [38.81409200000002, -91.103735], [38.81397499999999, -91.105716], [38.81383799999999, -91.106565], [38.81338199999997, -91.110079], [38.81300500000002, -91.113056], [38.81297299999999, -91.113308], [38.81174499999998, -91.113313], [38.811740000000015, -91.115023], [38.811747999999966, -91.11554400000001], [38.81157400000004, -91.115551], [38.811387000000025, -91.115619], [38.81130700000003, -91.115631], [38.81127400000001, -91.115604], [38.80928399999999, -91.11550700000001], [38.808738999999996, -91.115481], [38.80863500000005, -91.115476], [38.808525000000046, -91.11547], [38.805737000000036, -91.115335], [38.803799000000055, -91.115242], [38.802588999999976, -91.115234], [38.80260299999998, -91.119429], [38.802610999999985, -91.121603], [38.802602000000014, -91.121674], [38.802704000000006, -91.121716], [38.80300400000001, -91.121922], [38.803357000000055, -91.122382], [38.80362100000001, -91.122371], [38.80621799999999, -91.122348], [38.806867, -91.12234300000001], [38.80687700000003, -91.122866], [38.80689600000002, -91.123336], [38.80690400000001, -91.123841], [38.80695699999996, -91.127019], [38.807017000000016, -91.130379], [38.80704300000001, -91.13185], [38.80704700000004, -91.132224], [38.807099, -91.1341], [38.80729200000002, -91.136568], [38.80981599999999, -91.136517], [38.81000799999997, -91.136513], [38.81099399999997, -91.136493]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2faa0aebd20c7560657a3adc7f6ac88a);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_83399531ac821daff935b35cd3ec2c81);
         
     
-        var popup_9c1fd9b2a7818a2ce9054edf9cf99fbd = L.popup({"maxWidth": "100%"});
+        var popup_6a1193781128fddd664e691ee8a66650 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d841aefe0e76380b7adbf14aad282ea9 = $(`<div id="html_d841aefe0e76380b7adbf14aad282ea9" style="width: 100.0%; height: 100.0%;"><b>Warren - MO-CD02</b></div>`)[0];
-                popup_9c1fd9b2a7818a2ce9054edf9cf99fbd.setContent(html_d841aefe0e76380b7adbf14aad282ea9);
+                var html_a304f21b6875b94b709da3a0fdfec509 = $(`<div id="html_a304f21b6875b94b709da3a0fdfec509" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Warren - MO-CD02</h4>                              </div>         </div>`)[0];
+                popup_6a1193781128fddd664e691ee8a66650.setContent(html_a304f21b6875b94b709da3a0fdfec509);
             
         
 
-        polygon_cc8925553ed4ca46828712c72323c498.bindPopup(popup_9c1fd9b2a7818a2ce9054edf9cf99fbd)
+        polygon_14797cd6c41663bb661176d4ac98e2ff.bindPopup(popup_6a1193781128fddd664e691ee8a66650)
         ;
 
         
     
     
-            var circle_marker_3d79718781ac28dc1112f45f5e9836ce = L.circleMarker(
-                [38.81316144570296, -91.12132611164034],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_2faa0aebd20c7560657a3adc7f6ac88a);
-        
-    
-        var popup_e6ce49ce4c8270d69e56f05109473390 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_ee43c71650ae14d1caa9ba10ff1c124a = $(`<div id="html_ee43c71650ae14d1caa9ba10ff1c124a" style="width: 100.0%; height: 100.0%;"><b>Warren - MO-CD02</b></div>`)[0];
-                popup_e6ce49ce4c8270d69e56f05109473390.setContent(html_ee43c71650ae14d1caa9ba10ff1c124a);
-            
-        
-
-        circle_marker_3d79718781ac28dc1112f45f5e9836ce.bindPopup(popup_e6ce49ce4c8270d69e56f05109473390)
-        ;
-
-        
-    
-    
-            circle_marker_3d79718781ac28dc1112f45f5e9836ce.bindTooltip(
+            polygon_14797cd6c41663bb661176d4ac98e2ff.bindTooltip(
                 `<div>
-                     Warren - MO-CD02
+                      Warren - MO-CD02
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_2a87c4ca86222fa7bd744c936c9c7d90 = L.polygon(
+            var polygon_c90efc0523d33fe7bb39e9e82828ce7c = L.polygon(
                 [[38.81879499999998, -91.108533], [38.818956, -91.107452], [38.819119, -91.105891], [38.81901300000004, -91.105876], [38.81892900000003, -91.105864], [38.81908299999998, -91.104152], [38.81866499239726, -91.10415367203801], [38.818740566571904, -91.10900648723478], [38.81879499999998, -91.108533]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2faa0aebd20c7560657a3adc7f6ac88a);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_83399531ac821daff935b35cd3ec2c81);
         
     
-        var popup_5a8161b69409c09eadd3a4fb76f36d13 = L.popup({"maxWidth": "100%"});
+        var popup_5ccf2a10222f1c9868cbcbd59b277b52 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f27d2bcd1047ff3f1a7bb393abb07216 = $(`<div id="html_f27d2bcd1047ff3f1a7bb393abb07216" style="width: 100.0%; height: 100.0%;"><b>Warren - MO-CD03</b></div>`)[0];
-                popup_5a8161b69409c09eadd3a4fb76f36d13.setContent(html_f27d2bcd1047ff3f1a7bb393abb07216);
+                var html_bc6a3347c632e965d1dc57d687e026e5 = $(`<div id="html_bc6a3347c632e965d1dc57d687e026e5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Warren - MO-CD03</h4>                              </div>         </div>`)[0];
+                popup_5ccf2a10222f1c9868cbcbd59b277b52.setContent(html_bc6a3347c632e965d1dc57d687e026e5);
             
         
 
-        polygon_2a87c4ca86222fa7bd744c936c9c7d90.bindPopup(popup_5a8161b69409c09eadd3a4fb76f36d13)
+        polygon_c90efc0523d33fe7bb39e9e82828ce7c.bindPopup(popup_5ccf2a10222f1c9868cbcbd59b277b52)
         ;
 
         
     
     
-            var circle_marker_ce07efea77eea4569dddb265fbe79eed = L.circleMarker(
-                [38.81889950655213, -91.10660679547476],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_2faa0aebd20c7560657a3adc7f6ac88a);
-        
-    
-        var popup_c921e21a9ed49afc8e6bd9283cfeb28f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_ba6eb3de9a989a128b369b3a62d52f19 = $(`<div id="html_ba6eb3de9a989a128b369b3a62d52f19" style="width: 100.0%; height: 100.0%;"><b>Warren - MO-CD03</b></div>`)[0];
-                popup_c921e21a9ed49afc8e6bd9283cfeb28f.setContent(html_ba6eb3de9a989a128b369b3a62d52f19);
-            
-        
-
-        circle_marker_ce07efea77eea4569dddb265fbe79eed.bindPopup(popup_c921e21a9ed49afc8e6bd9283cfeb28f)
-        ;
-
-        
-    
-    
-            circle_marker_ce07efea77eea4569dddb265fbe79eed.bindTooltip(
+            polygon_c90efc0523d33fe7bb39e9e82828ce7c.bindTooltip(
                 `<div>
-                     Warren - MO-CD03
+                      Warren - MO-CD03
                  </div>`,
                 {"sticky": true}
             );

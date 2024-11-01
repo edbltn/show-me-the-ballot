@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_e7b8e48923f32e112d9efe9ded0e0e43 {
+                #map_b7c998f55d4b1ab97f6e23267f765de2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD09</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD29</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD09</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD29</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Harris - TX-CD09</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Harris - TX-CD29</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_e7b8e48923f32e112d9efe9ded0e0e43" ></div>
+            <div class="folium-map" id="map_b7c998f55d4b1ab97f6e23267f765de2" ></div>
         
 </body>
 <script>
     
     
-            var map_e7b8e48923f32e112d9efe9ded0e0e43 = L.map(
-                "map_e7b8e48923f32e112d9efe9ded0e0e43",
+            var map_b7c998f55d4b1ab97f6e23267f765de2 = L.map(
+                "map_b7c998f55d4b1ab97f6e23267f765de2",
                 {
                     center: [29.72550654581683, -95.31213153858926],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_b7c998f55d4b1ab97f6e23267f765de2);
 
             
 
         
     
-            var tile_layer_2bc8c5ae7e4f4e0656059232798052f0 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_b8706619a98434bf117984a56bcca308 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_2bc8c5ae7e4f4e0656059232798052f0.addTo(map_e7b8e48923f32e112d9efe9ded0e0e43);
+            tile_layer_b8706619a98434bf117984a56bcca308.addTo(map_b7c998f55d4b1ab97f6e23267f765de2);
         
     
-            var polygon_9aedeffda39a38998c8ecb9b7b8f5ba2 = L.polygon(
+            var polygon_bd0d4d14e51226d4c7505fb78e970ae1 = L.polygon(
                 [[29.70739899999999, -95.30689], [29.70633200000001, -95.308974], [29.702685999999996, -95.315128], [29.70077699999997, -95.31816800000001], [29.69898999999999, -95.320999], [29.69824799999997, -95.322221], [29.69770700000001, -95.323072], [29.697605000000017, -95.323234], [29.697087999999983, -95.32406000000002], [29.696993999999993, -95.324213], [29.69660500000001, -95.32484600000001], [29.69589100000001, -95.32598], [29.695466000000007, -95.32666400000001], [29.712199999999992, -95.310691], [29.707662667635443, -95.3064298476467], [29.70739899999999, -95.30689]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_e7b8e48923f32e112d9efe9ded0e0e43);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b7c998f55d4b1ab97f6e23267f765de2);
         
     
-        var popup_21b4fd0e37ad51db0e3766b88166fb80 = L.popup({"maxWidth": "100%"});
+        var popup_ca48270dbd6188a60507187bde596da8 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2011c55d3767098b72d7667f735bee7d = $(`<div id="html_2011c55d3767098b72d7667f735bee7d" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD09</b></div>`)[0];
-                popup_21b4fd0e37ad51db0e3766b88166fb80.setContent(html_2011c55d3767098b72d7667f735bee7d);
+                var html_7bb2f8a0adcb601bb5f61f5d38995340 = $(`<div id="html_7bb2f8a0adcb601bb5f61f5d38995340" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Harris - TX-CD09</h4>                              </div>         </div>`)[0];
+                popup_ca48270dbd6188a60507187bde596da8.setContent(html_7bb2f8a0adcb601bb5f61f5d38995340);
             
         
 
-        polygon_9aedeffda39a38998c8ecb9b7b8f5ba2.bindPopup(popup_21b4fd0e37ad51db0e3766b88166fb80)
+        polygon_bd0d4d14e51226d4c7505fb78e970ae1.bindPopup(popup_ca48270dbd6188a60507187bde596da8)
         ;
 
         
     
     
-            var circle_marker_b38767ab6a8622375ce0db4a3e40f68f = L.circleMarker(
-                [29.701190604227214, -95.31802874047793],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_e7b8e48923f32e112d9efe9ded0e0e43);
-        
-    
-        var popup_66e03f4a592ceaf95f479c9765a42046 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_5823adcc030bab139c71d814a0cac4a1 = $(`<div id="html_5823adcc030bab139c71d814a0cac4a1" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD09</b></div>`)[0];
-                popup_66e03f4a592ceaf95f479c9765a42046.setContent(html_5823adcc030bab139c71d814a0cac4a1);
-            
-        
-
-        circle_marker_b38767ab6a8622375ce0db4a3e40f68f.bindPopup(popup_66e03f4a592ceaf95f479c9765a42046)
-        ;
-
-        
-    
-    
-            circle_marker_b38767ab6a8622375ce0db4a3e40f68f.bindTooltip(
+            polygon_bd0d4d14e51226d4c7505fb78e970ae1.bindTooltip(
                 `<div>
-                     Harris - TX-CD09
+                      Harris - TX-CD09
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_f75f2875e329cfcbe623ed63f5cad520 = L.polygon(
+            var polygon_282741f87fc4a1cf839ee25346c02965 = L.polygon(
                 [[29.744516999999995, -95.337395], [29.744225999999994, -95.336294], [29.743896000000007, -95.335256], [29.74355699999997, -95.33421], [29.743505000000006, -95.334054], [29.74336500000001, -95.333599], [29.743215000000035, -95.333109], [29.743180000000006, -95.333012], [29.742408000000026, -95.33059], [29.742124000000008, -95.329647], [29.742058999999987, -95.329458], [29.741651000000005, -95.328129], [29.740884000000012, -95.325716], [29.740831999999966, -95.325524], [29.74053900000001, -95.32463], [29.74025299999999, -95.323751], [29.739985999999984, -95.322857], [29.73971700000004, -95.321972], [29.739572999999986, -95.32154], [29.73940899999998, -95.321052], [29.73899299999999, -95.319724], [29.73861000000001, -95.318519], [29.73821999999998, -95.317285], [29.737918999999998, -95.316329], [29.737664000000006, -95.315497], [29.73737900000001, -95.314631], [29.737263000000013, -95.314247], [29.737195000000018, -95.313984], [29.73712299999998, -95.313713], [29.73691000000004, -95.312985], [29.73666699999999, -95.312264], [29.736101000000005, -95.312508], [29.734890999999976, -95.31303], [29.734958999999968, -95.313364], [29.73478499999997, -95.313395], [29.734538, -95.312541], [29.73370199999999, -95.312981], [29.733467000000008, -95.313488], [29.73269999999998, -95.313408], [29.732590999999985, -95.313543], [29.732590000000027, -95.31338], [29.732590999999985, -95.313063], [29.732581000000025, -95.312479], [29.732580000000027, -95.312384], [29.73259899999997, -95.31172], [29.732750000000003, -95.31078], [29.732858, -95.31042], [29.733154999999982, -95.309816], [29.733346999999966, -95.309466], [29.733475999999992, -95.308979], [29.73343300000002, -95.308646], [29.733345999999983, -95.308303], [29.733166999999987, -95.307792], [29.732893000000022, -95.307906], [29.732705000000024, -95.30799], [29.732139000000036, -95.308188], [29.732012000000026, -95.308255], [29.73178299999998, -95.308344], [29.73067000000001, -95.308785], [29.729798000000024, -95.309125], [29.729488999999997, -95.309246], [29.729176, -95.309367], [29.728621999999987, -95.309584], [29.727619999999998, -95.309976], [29.727290000000025, -95.310113], [29.727021999999955, -95.310273], [29.726622000000003, -95.310453], [29.725928000000028, -95.310778], [29.725864, -95.31081], [29.724893000000012, -95.311256], [29.72477000000001, -95.311309], [29.724734, -95.311205], [29.72469699999999, -95.311093], [29.723806999999997, -95.308275], [29.723785999999993, -95.308194], [29.722942999999972, -95.306327], [29.722443000000005, -95.30518], [29.722377000000012, -95.305029], [29.722632000000008, -95.304945], [29.724266999999998, -95.305224], [29.725579999999994, -95.304984], [29.725964000000022, -95.305091], [29.726577000000002, -95.305437], [29.726898000000006, -95.305452], [29.727155999999976, -95.305309], [29.727282000000017, -95.305162], [29.727490999999997, -95.304461], [29.727648999999982, -95.304237], [29.72808100000001, -95.304037], [29.728999000000005, -95.30383], [29.729324999999974, -95.303657], [29.729995999999993, -95.303186], [29.730082000000003, -95.302749], [29.729960999999964, -95.30239], [29.729824000000058, -95.302201], [29.729000999999975, -95.30179000000001], [29.728771000000016, -95.301535], [29.72853999999999, -95.30088500000001], [29.728271999999976, -95.299727], [29.728223999999976, -95.299603], [29.727584999999994, -95.297953], [29.727531999999957, -95.297629], [29.727542000000003, -95.297299], [29.72793300000001, -95.295454], [29.727945000000005, -95.29489900000002], [29.72794699999999, -95.294795], [29.727878999999994, -95.294595], [29.72770300000001, -95.29433400000002], [29.727398000000004, -95.294043], [29.726749, -95.29359900000001], [29.72648499999999, -95.293261], [29.726323999999995, -95.292892], [29.726072000000016, -95.291687], [29.72584000000001, -95.291272], [29.72557299999999, -95.291063], [29.723917999999962, -95.290487], [29.72363300000005, -95.290312], [29.723490000000037, -95.290126], [29.723355000000005, -95.289835], [29.72326699999999, -95.28930800000002], [29.72333299999997, -95.28861], [29.723380000000027, -95.288409], [29.723464000000043, -95.28805300000002], [29.723455999999967, -95.287806], [29.72327599999999, -95.287266], [29.722659, -95.286431], [29.722632999999973, -95.286176], [29.72235399999997, -95.28631], [29.72152700000003, -95.286705], [29.721102999999992, -95.286909], [29.720748999999987, -95.286707], [29.720492999999973, -95.286559], [29.720360999999993, -95.286417], [29.720256999999993, -95.286262], [29.720167000000014, -95.286091], [29.720143999999973, -95.286037], [29.72012100000001, -95.285984], [29.720081999999994, -95.285861], [29.720036000000043, -95.285668], [29.719988999999973, -95.285272], [29.719650000000044, -95.28511100000001], [29.719319999999986, -95.285691], [29.719238999999977, -95.28584200000002], [29.71915099999994, -95.285999], [29.719107000000008, -95.286075], [29.716739000000004, -95.290278], [29.71663000000001, -95.290496], [29.71417200000003, -95.294851], [29.71319600000004, -95.296603], [29.71207099999998, -95.298598], [29.711359999999992, -95.299859], [29.709975999999973, -95.302327], [29.708517999999977, -95.304937], [29.708424999999966, -95.3051], [29.708354999999987, -95.305215], [29.708292999999983, -95.305329], [29.708233999999997, -95.305434], [29.70792099999998, -95.305979], [29.707662667635443, -95.3064298476467], [29.712199999999992, -95.310691], [29.695466000000007, -95.32666400000001], [29.69555700000001, -95.326685], [29.695737999999988, -95.326741], [29.69829400000004, -95.327525], [29.69839500000002, -95.327561], [29.707932999999997, -95.330786], [29.710163999999985, -95.331527], [29.71298800000001, -95.332488], [29.71422400000001, -95.332871], [29.71437200000005, -95.332917], [29.714513000000025, -95.33296], [29.71568000000002, -95.333318], [29.716668999999982, -95.333661], [29.717972, -95.334131], [29.725785999999985, -95.33672], [29.726389000000005, -95.336923], [29.727151000000003, -95.337165], [29.727327999999996, -95.337218], [29.727564000000008, -95.337272], [29.72812400000004, -95.33741], [29.728303999999987, -95.337454], [29.728426999999996, -95.33748400000002], [29.728585000000006, -95.337523], [29.728881999999984, -95.337995], [29.72901100000003, -95.3382], [29.72917099999998, -95.338454], [29.729203634402374, -95.33850567102549], [29.735322930125356, -95.3406546808415], [29.735462999999992, -95.340599], [29.735744000000036, -95.340496], [29.73642500000001, -95.340225], [29.736456999999998, -95.340212], [29.737441000000043, -95.339807], [29.737685000000006, -95.340605], [29.73973100000002, -95.341298], [29.739914999999996, -95.341361], [29.740788000000027, -95.34165000000002], [29.741034000000013, -95.342449], [29.741108999999973, -95.342687], [29.744673542454116, -95.33785382670841], [29.744516999999995, -95.337395]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_e7b8e48923f32e112d9efe9ded0e0e43);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_b7c998f55d4b1ab97f6e23267f765de2);
         
     
-        var popup_74a1296cd4d0a65aeb7720db29fb6c6d = L.popup({"maxWidth": "100%"});
+        var popup_4b44df79c2fadd42770c37f9239797a6 = L.popup({"maxWidth": 300});
 
         
             
-                var html_6e428946881e3e662b02e58c3adad3d4 = $(`<div id="html_6e428946881e3e662b02e58c3adad3d4" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD29</b></div>`)[0];
-                popup_74a1296cd4d0a65aeb7720db29fb6c6d.setContent(html_6e428946881e3e662b02e58c3adad3d4);
+                var html_584c951fabed9243e5909dd001cc1f07 = $(`<div id="html_584c951fabed9243e5909dd001cc1f07" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Harris - TX-CD29</h4>                              </div>         </div>`)[0];
+                popup_4b44df79c2fadd42770c37f9239797a6.setContent(html_584c951fabed9243e5909dd001cc1f07);
             
         
 
-        polygon_f75f2875e329cfcbe623ed63f5cad520.bindPopup(popup_74a1296cd4d0a65aeb7720db29fb6c6d)
+        polygon_282741f87fc4a1cf839ee25346c02965.bindPopup(popup_4b44df79c2fadd42770c37f9239797a6)
         ;
 
         
     
     
-            var circle_marker_5cc63a8dfc982ddff47fcba331faa225 = L.circleMarker(
-                [29.727442143157297, -95.3116621095832],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_e7b8e48923f32e112d9efe9ded0e0e43);
-        
-    
-        var popup_b4eb104d0be0388ab20fa58280914c5a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_ebb6db027b1113dd61ec02aef58e778a = $(`<div id="html_ebb6db027b1113dd61ec02aef58e778a" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD29</b></div>`)[0];
-                popup_b4eb104d0be0388ab20fa58280914c5a.setContent(html_ebb6db027b1113dd61ec02aef58e778a);
-            
-        
-
-        circle_marker_5cc63a8dfc982ddff47fcba331faa225.bindPopup(popup_b4eb104d0be0388ab20fa58280914c5a)
-        ;
-
-        
-    
-    
-            circle_marker_5cc63a8dfc982ddff47fcba331faa225.bindTooltip(
+            polygon_282741f87fc4a1cf839ee25346c02965.bindTooltip(
                 `<div>
-                     Harris - TX-CD29
+                      Harris - TX-CD29
                  </div>`,
                 {"sticky": true}
             );

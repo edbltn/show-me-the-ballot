@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a6aae1556dcf2ea3f34cfeedb1445bbe {
+                #map_d8b41ea74a0906d48ad2b2bcee659872 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Roosevelt - NM-CD19</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Roosevelt - NM-CD03</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Roosevelt - NM-CD19</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Roosevelt - NM-CD03</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Roosevelt - NM-CD19</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Roosevelt - NM-CD03</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_a6aae1556dcf2ea3f34cfeedb1445bbe" ></div>
+            <div class="folium-map" id="map_d8b41ea74a0906d48ad2b2bcee659872" ></div>
         
 </body>
 <script>
     
     
-            var map_a6aae1556dcf2ea3f34cfeedb1445bbe = L.map(
-                "map_a6aae1556dcf2ea3f34cfeedb1445bbe",
+            var map_d8b41ea74a0906d48ad2b2bcee659872 = L.map(
+                "map_d8b41ea74a0906d48ad2b2bcee659872",
                 {
                     center: [34.274043622924886, -103.0686440305182],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_d8b41ea74a0906d48ad2b2bcee659872);
 
             
 
         
     
-            var tile_layer_d9f210f666672f62db5bcd73a9587a6c = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_8969ad31d476c4c1029ac6478cc22033 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_d9f210f666672f62db5bcd73a9587a6c.addTo(map_a6aae1556dcf2ea3f34cfeedb1445bbe);
+            tile_layer_8969ad31d476c4c1029ac6478cc22033.addTo(map_d8b41ea74a0906d48ad2b2bcee659872);
         
     
-            var polygon_98857ea47c362da5897cf9d3be2a5537 = L.polygon(
+            var polygon_b48ad3a8a1dcb9aae9237ff3bc1fba88 = L.polygon(
                 [[34.30264799999997, -103.043767], [34.30140300000002, -103.043752], [34.30038999999997, -103.043765], [34.298655999999994, -103.043778], [34.29657400000003, -103.043778], [34.295033999999966, -103.043778], [34.29441799999997, -103.043778], [34.29087300000001, -103.04377], [34.28958299999999, -103.043773], [34.28811600000001, -103.043755], [34.285541, -103.043753], [34.284970999999985, -103.043756], [34.28135200000003, -103.043758], [34.27906000000001, -103.043763], [34.27726199999997, -103.043772], [34.27538000000001, -103.043753], [34.27479999999999, -103.043753], [34.273583, -103.043764], [34.27257800000001, -103.043766], [34.27180700000002, -103.043745], [34.270421000000006, -103.043768], [34.268827, -103.043762], [34.26592099999999, -103.043743], [34.26432799999998, -103.043736], [34.26095200000005, -103.043758], [34.26030099999997, -103.043747], [34.257459000000026, -103.04376], [34.256908000000024, -103.043764], [34.245550000000016, -103.04373800000002], [34.244834268328304, -103.04375282690232], [34.30264799999997, -103.043835830165], [34.30264800004972, -103.04383583016507], [34.30264799999997, -103.043767]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a6aae1556dcf2ea3f34cfeedb1445bbe);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d8b41ea74a0906d48ad2b2bcee659872);
         
     
-        var popup_02a32e1896b96a09c8a955c727fefc88 = L.popup({"maxWidth": "100%"});
+        var popup_c2c8af51788169ad186cb8099125ed3d = L.popup({"maxWidth": 300});
 
         
             
-                var html_e6e774cefc834035090e774f11fa30a7 = $(`<div id="html_e6e774cefc834035090e774f11fa30a7" style="width: 100.0%; height: 100.0%;"><b>Roosevelt - NM-CD19</b></div>`)[0];
-                popup_02a32e1896b96a09c8a955c727fefc88.setContent(html_e6e774cefc834035090e774f11fa30a7);
+                var html_9ee713b10ebac05b31cd36a52e92608a = $(`<div id="html_9ee713b10ebac05b31cd36a52e92608a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Roosevelt - NM-CD19</h4>                              </div>         </div>`)[0];
+                popup_c2c8af51788169ad186cb8099125ed3d.setContent(html_9ee713b10ebac05b31cd36a52e92608a);
             
         
 
-        polygon_98857ea47c362da5897cf9d3be2a5537.bindPopup(popup_02a32e1896b96a09c8a955c727fefc88)
+        polygon_b48ad3a8a1dcb9aae9237ff3bc1fba88.bindPopup(popup_c2c8af51788169ad186cb8099125ed3d)
         ;
 
         
     
     
-            var circle_marker_f63ea8a2f155e2ddae0f4126f41abe77 = L.circleMarker(
-                [34.27992346267811, -103.04376498446159],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_a6aae1556dcf2ea3f34cfeedb1445bbe);
-        
-    
-        var popup_b47508dbc7eb4b60cc33474a752bb84f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_cab5e831677c088c5d2ad4b29af7c9ba = $(`<div id="html_cab5e831677c088c5d2ad4b29af7c9ba" style="width: 100.0%; height: 100.0%;"><b>Roosevelt - NM-CD19</b></div>`)[0];
-                popup_b47508dbc7eb4b60cc33474a752bb84f.setContent(html_cab5e831677c088c5d2ad4b29af7c9ba);
-            
-        
-
-        circle_marker_f63ea8a2f155e2ddae0f4126f41abe77.bindPopup(popup_b47508dbc7eb4b60cc33474a752bb84f)
-        ;
-
-        
-    
-    
-            circle_marker_f63ea8a2f155e2ddae0f4126f41abe77.bindTooltip(
+            polygon_b48ad3a8a1dcb9aae9237ff3bc1fba88.bindTooltip(
                 `<div>
-                     Roosevelt - NM-CD19
+                      Roosevelt - NM-CD19
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_d69be9dbc7e7b3315cbcbbb3aa401cab = L.polygon(
+            var polygon_1feb229fe19496d7b6e8cf5a48515e2b = L.polygon(
                 [[34.302718999999996, -103.089508], [34.30271900000002, -103.0867], [34.30270399999999, -103.082779], [34.302700000000016, -103.080704], [34.30269200000001, -103.079666], [34.30269099999993, -103.077887], [34.302689000000015, -103.075417], [34.302677000000024, -103.074348], [34.30267299999999, -103.073575], [34.30267299999999, -103.073524], [34.302681000000014, -103.072235], [34.30267299999999, -103.070107], [34.30267099999999, -103.069075], [34.30266599999997, -103.065804], [34.302658000000015, -103.063652], [34.302658, -103.061531], [34.302651, -103.059979], [34.30265000000005, -103.059081], [34.30265000000005, -103.058133], [34.30264900000001, -103.056784], [34.30264900000001, -103.056513], [34.30264799999996, -103.056122], [34.302648, -103.054479], [34.30264799999997, -103.052466], [34.30264799999997, -103.04923700000002], [34.30264799999997, -103.048449], [34.30264799999997, -103.044694], [34.30264799999996, -103.044004], [34.30264800004972, -103.04383583016507], [34.30264799999997, -103.043835830165], [34.244834268328304, -103.04375282690232], [34.24448799999997, -103.04376], [34.244350000000026, -103.04378500000001], [34.244223000000034, -103.04386700000002], [34.24270700000003, -103.043834], [34.24241799999999, -103.043826], [34.24337400000001, -103.04768700000001], [34.248099000000025, -103.066852], [34.249885000000035, -103.074088], [34.250019, -103.074087], [34.250361000000005, -103.074069], [34.25099999999999, -103.07410900000002], [34.25115500000001, -103.07413], [34.251225, -103.074126], [34.251306999999976, -103.07411], [34.25138300000004, -103.074078], [34.251438000000036, -103.07402700000002], [34.251579999999976, -103.07388], [34.25193199999998, -103.073382], [34.252113999999985, -103.073169], [34.25242700000004, -103.072878], [34.252773000000005, -103.07257], [34.253221000000025, -103.072276], [34.253787000000024, -103.07203700000001], [34.25423200000004, -103.071895], [34.254650999999996, -103.071846], [34.25468500000003, -103.071845], [34.25509800000003, -103.071833], [34.255364000000014, -103.071807], [34.25577700000003, -103.071828], [34.25587899999999, -103.07185], [34.25605699999999, -103.071891], [34.25652200000001, -103.07203700000001], [34.257045999999995, -103.072276], [34.25755500000001, -103.07261], [34.25787699999996, -103.072876], [34.258358000000015, -103.073412], [34.25863, -103.073774], [34.25876799999998, -103.07401900000002], [34.25899900000002, -103.07454300000002], [34.25925100000004, -103.07519400000001], [34.25972199999997, -103.07628], [34.25990999999999, -103.076676], [34.26027800000001, -103.077142], [34.26060499999999, -103.07745000000001], [34.261084999999994, -103.07775], [34.26139000000002, -103.077897], [34.26154800000001, -103.077963], [34.26199000000004, -103.078065], [34.262556000000004, -103.078124], [34.262958999999995, -103.07815], [34.263287999999996, -103.078177], [34.263598999999985, -103.078255], [34.263988999999974, -103.07840000000002], [34.264184999999976, -103.078508], [34.26456800000002, -103.078767], [34.26481999999999, -103.078983], [34.265152999999984, -103.079306], [34.265394999999984, -103.079601], [34.265671999999995, -103.080015], [34.26581199999999, -103.080283], [34.26606099999999, -103.080874], [34.26619000000001, -103.081314], [34.26624000000003, -103.081521], [34.266265000000054, -103.08166], [34.266293, -103.082537], [34.266273, -103.083241], [34.26623300000003, -103.08424900000001], [34.266222000000006, -103.085664], [34.266245, -103.08698000000001], [34.266334999999984, -103.087606], [34.26647900000003, -103.088306], [34.266655000000014, -103.088834], [34.266787999999934, -103.089163], [34.266973000000014, -103.089445], [34.267411, -103.09005900000001], [34.26765199999995, -103.09033], [34.26786599999996, -103.090545], [34.26813900000001, -103.090735], [34.268391, -103.090879], [34.26867900000003, -103.091002], [34.269402000000014, -103.091242], [34.27086200000005, -103.091234], [34.27174999999999, -103.091217], [34.27269400000001, -103.091187], [34.27323500000003, -103.091216], [34.27339199999997, -103.091233], [34.273424999999996, -103.091237], [34.27381700000001, -103.091244], [34.27466700000004, -103.091225], [34.28543500000002, -103.091133], [34.286542000000026, -103.091147], [34.288178999999985, -103.091146], [34.295412000000006, -103.091119], [34.29560300000006, -103.09112], [34.29663399999997, -103.091106], [34.301626, -103.09109300000001], [34.30272700000001, -103.091103], [34.30272700000001, -103.09044600000001], [34.302718999999996, -103.089508]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a6aae1556dcf2ea3f34cfeedb1445bbe);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d8b41ea74a0906d48ad2b2bcee659872);
         
     
-        var popup_20a3c8c0834f832a271d0f49f3285744 = L.popup({"maxWidth": "100%"});
+        var popup_26455d06995b8da5ae60441e9815285b = L.popup({"maxWidth": 300});
 
         
             
-                var html_84a8e94c8b4bed7fd79cb786766ce065 = $(`<div id="html_84a8e94c8b4bed7fd79cb786766ce065" style="width: 100.0%; height: 100.0%;"><b>Roosevelt - NM-CD03</b></div>`)[0];
-                popup_20a3c8c0834f832a271d0f49f3285744.setContent(html_84a8e94c8b4bed7fd79cb786766ce065);
+                var html_2f404e2ca3c0494695c80911f0aac1b4 = $(`<div id="html_2f404e2ca3c0494695c80911f0aac1b4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Roosevelt - NM-CD03</h4>                              </div>         </div>`)[0];
+                popup_26455d06995b8da5ae60441e9815285b.setContent(html_2f404e2ca3c0494695c80911f0aac1b4);
             
         
 
-        polygon_d69be9dbc7e7b3315cbcbbb3aa401cab.bindPopup(popup_20a3c8c0834f832a271d0f49f3285744)
+        polygon_1feb229fe19496d7b6e8cf5a48515e2b.bindPopup(popup_26455d06995b8da5ae60441e9815285b)
         ;
 
         
     
     
-            var circle_marker_d0347aabf9884905cdd534e9935d3817 = L.circleMarker(
-                [34.2725510482183, -103.07495948067103],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_a6aae1556dcf2ea3f34cfeedb1445bbe);
-        
-    
-        var popup_194141d3caad69a1442e6fce10d8a9aa = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_58ee59ab4721ae88b82bf0daf48d6af8 = $(`<div id="html_58ee59ab4721ae88b82bf0daf48d6af8" style="width: 100.0%; height: 100.0%;"><b>Roosevelt - NM-CD03</b></div>`)[0];
-                popup_194141d3caad69a1442e6fce10d8a9aa.setContent(html_58ee59ab4721ae88b82bf0daf48d6af8);
-            
-        
-
-        circle_marker_d0347aabf9884905cdd534e9935d3817.bindPopup(popup_194141d3caad69a1442e6fce10d8a9aa)
-        ;
-
-        
-    
-    
-            circle_marker_d0347aabf9884905cdd534e9935d3817.bindTooltip(
+            polygon_1feb229fe19496d7b6e8cf5a48515e2b.bindTooltip(
                 `<div>
-                     Roosevelt - NM-CD03
+                      Roosevelt - NM-CD03
                  </div>`,
                 {"sticky": true}
             );

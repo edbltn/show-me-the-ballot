@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b4716ad974a19890430a338bb691dd62 {
+                #map_650f854452f43a022604ce00cbc98cd3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nueces - TX-CD27</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nueces - TX-CD34</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nueces - TX-CD27</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Nueces - TX-CD34</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Nueces - TX-CD27</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Nueces - TX-CD34</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_b4716ad974a19890430a338bb691dd62" ></div>
+            <div class="folium-map" id="map_650f854452f43a022604ce00cbc98cd3" ></div>
         
 </body>
 <script>
     
     
-            var map_b4716ad974a19890430a338bb691dd62 = L.map(
-                "map_b4716ad974a19890430a338bb691dd62",
+            var map_650f854452f43a022604ce00cbc98cd3 = L.map(
+                "map_650f854452f43a022604ce00cbc98cd3",
                 {
                     center: [27.57326284432176, -97.48235652670367],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_650f854452f43a022604ce00cbc98cd3);
 
             
 
         
     
-            var tile_layer_e24800fab78f54fe6a3db7ec8f7c9413 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_c68addd7bf8b217b64c22df1bac7cd65 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_e24800fab78f54fe6a3db7ec8f7c9413.addTo(map_b4716ad974a19890430a338bb691dd62);
+            tile_layer_c68addd7bf8b217b64c22df1bac7cd65.addTo(map_650f854452f43a022604ce00cbc98cd3);
         
     
-            var polygon_0792b3896e63d3a8acb4ef7b952f759e = L.polygon(
+            var polygon_733abf18110723cc6a3dbd29deb72c73 = L.polygon(
                 [[27.560421095622313, -97.47414744105293], [27.560350240241284, -97.49195922332682], [27.56043999999999, -97.499446], [27.560457999999965, -97.50083], [27.560386000000012, -97.50272], [27.56738000000005, -97.50261500000002], [27.571044000000008, -97.502691], [27.57131799999999, -97.502697], [27.571794000000025, -97.50270900000001], [27.57206499999998, -97.502717], [27.573191999999995, -97.502721], [27.573442000000025, -97.502733], [27.57469299999999, -97.502738], [27.578622000000017, -97.502757], [27.581613, -97.502778], [27.58279, -97.502778], [27.583390999999992, -97.50278500000002], [27.585136999999992, -97.502809], [27.58619900000001, -97.502811], [27.586290999999992, -97.502806], [27.586290999999996, -97.50276], [27.58629100000001, -97.502625], [27.586291999999982, -97.50258000000001], [27.586296000000026, -97.50179800000001], [27.586309999999976, -97.499455], [27.58631600000005, -97.498674], [27.586326999999994, -97.496432], [27.586329000000024, -97.496241], [27.586370999999964, -97.488943], [27.586382999999977, -97.48693], [27.586380999999992, -97.486511], [27.58639799999997, -97.48324800000002], [27.586415999999954, -97.479906], [27.58645000000002, -97.47346200000001], [27.58646800000003, -97.470201], [27.58644800000001, -97.470201], [27.586387999999975, -97.470201], [27.586369000000033, -97.470202], [27.58567099999997, -97.47021], [27.583481999999997, -97.470189], [27.58335999999998, -97.470188], [27.581549999999982, -97.47017000000001], [27.580661000000052, -97.470174], [27.57939199999999, -97.470161], [27.578923999999994, -97.470157], [27.578057000000005, -97.470149], [27.577123, -97.47016600000002], [27.574821999999998, -97.47015], [27.574551000000053, -97.470149], [27.573524999999968, -97.470124], [27.572411, -97.47012], [27.57197700000002, -97.470112], [27.571935999999987, -97.470108], [27.571912999999984, -97.470104], [27.570772000000034, -97.470103], [27.570169000000003, -97.470107], [27.56964399999998, -97.4701], [27.56932699999998, -97.470097], [27.568825, -97.470084], [27.568717000000067, -97.470077], [27.56804999999997, -97.47008600000001], [27.56611599999999, -97.470073], [27.565515000000037, -97.470068], [27.565145999999974, -97.470064], [27.564672000000016, -97.470056], [27.564302999999974, -97.470063], [27.563787999999978, -97.470058], [27.563293999999985, -97.470053], [27.562850999999988, -97.470054], [27.562770000000015, -97.470053], [27.56160800000002, -97.47004], [27.561245000000003, -97.470051], [27.560895000000002, -97.470043], [27.560605000000017, -97.470047], [27.560529000000006, -97.47004100000001], [27.56047999999999, -97.470032], [27.560433000000018, -97.473294], [27.560421095622313, -97.47414744105293]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b4716ad974a19890430a338bb691dd62);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_650f854452f43a022604ce00cbc98cd3);
         
     
-        var popup_a68b8f754f283de0dafd676bdff5a0c5 = L.popup({"maxWidth": "100%"});
+        var popup_d4a21d7875875d10db67a19fd0f654f1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_aba3e90dd60440c9251a84f056e0f8b8 = $(`<div id="html_aba3e90dd60440c9251a84f056e0f8b8" style="width: 100.0%; height: 100.0%;"><b>Nueces - TX-CD27</b></div>`)[0];
-                popup_a68b8f754f283de0dafd676bdff5a0c5.setContent(html_aba3e90dd60440c9251a84f056e0f8b8);
+                var html_190da4c463e67012d36e3263631b33ce = $(`<div id="html_190da4c463e67012d36e3263631b33ce" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Nueces - TX-CD27</h4>                              </div>         </div>`)[0];
+                popup_d4a21d7875875d10db67a19fd0f654f1.setContent(html_190da4c463e67012d36e3263631b33ce);
             
         
 
-        polygon_0792b3896e63d3a8acb4ef7b952f759e.bindPopup(popup_a68b8f754f283de0dafd676bdff5a0c5)
+        polygon_733abf18110723cc6a3dbd29deb72c73.bindPopup(popup_d4a21d7875875d10db67a19fd0f654f1)
         ;
 
         
     
     
-            var circle_marker_898a1e9e7b87207622b30574fa3ba798 = L.circleMarker(
-                [27.574424108095975, -97.48207615519787],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b4716ad974a19890430a338bb691dd62);
-        
-    
-        var popup_b096a2e1a12b07a6b5adfbce1c476664 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_d80721fe28afef958e06f93889e8011e = $(`<div id="html_d80721fe28afef958e06f93889e8011e" style="width: 100.0%; height: 100.0%;"><b>Nueces - TX-CD27</b></div>`)[0];
-                popup_b096a2e1a12b07a6b5adfbce1c476664.setContent(html_d80721fe28afef958e06f93889e8011e);
-            
-        
-
-        circle_marker_898a1e9e7b87207622b30574fa3ba798.bindPopup(popup_b096a2e1a12b07a6b5adfbce1c476664)
-        ;
-
-        
-    
-    
-            circle_marker_898a1e9e7b87207622b30574fa3ba798.bindTooltip(
+            polygon_733abf18110723cc6a3dbd29deb72c73.bindTooltip(
                 `<div>
-                     Nueces - TX-CD27
+                      Nueces - TX-CD27
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_c100a8e98b378b273e013287c15463ab = L.polygon(
+            var polygon_c488ae4462ca6e5abc56a1b612400f83 = L.polygon(
                 [[27.560295999999976, -97.483086], [27.56025200000002, -97.486351], [27.560317999999953, -97.489624], [27.56032799999995, -97.490111], [27.560350240241284, -97.49195922332682], [27.560421095622313, -97.47414744105293], [27.560295999999976, -97.483086]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b4716ad974a19890430a338bb691dd62);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_650f854452f43a022604ce00cbc98cd3);
         
     
-        var popup_c60b7f691cb2b2bb38c792ef2aaa3538 = L.popup({"maxWidth": "100%"});
+        var popup_420558730f478c2c2dbf2a14fd587258 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b4d6776b87a0cb88568089f5f6aeaa76 = $(`<div id="html_b4d6776b87a0cb88568089f5f6aeaa76" style="width: 100.0%; height: 100.0%;"><b>Nueces - TX-CD34</b></div>`)[0];
-                popup_c60b7f691cb2b2bb38c792ef2aaa3538.setContent(html_b4d6776b87a0cb88568089f5f6aeaa76);
+                var html_6b971b1200389162e11685971cf439d1 = $(`<div id="html_6b971b1200389162e11685971cf439d1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Nueces - TX-CD34</h4>                              </div>         </div>`)[0];
+                popup_420558730f478c2c2dbf2a14fd587258.setContent(html_6b971b1200389162e11685971cf439d1);
             
         
 
-        polygon_c100a8e98b378b273e013287c15463ab.bindPopup(popup_c60b7f691cb2b2bb38c792ef2aaa3538)
+        polygon_c488ae4462ca6e5abc56a1b612400f83.bindPopup(popup_420558730f478c2c2dbf2a14fd587258)
         ;
 
         
     
     
-            var circle_marker_75eae30adfe02dbae7d218ece60570a4 = L.circleMarker(
-                [27.560323047980493, -97.48548066633997],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b4716ad974a19890430a338bb691dd62);
-        
-    
-        var popup_edd39f3e8bf89ea2237dca25d052a6b8 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b18ec3f8397ea04f5bd60eba1e163c32 = $(`<div id="html_b18ec3f8397ea04f5bd60eba1e163c32" style="width: 100.0%; height: 100.0%;"><b>Nueces - TX-CD34</b></div>`)[0];
-                popup_edd39f3e8bf89ea2237dca25d052a6b8.setContent(html_b18ec3f8397ea04f5bd60eba1e163c32);
-            
-        
-
-        circle_marker_75eae30adfe02dbae7d218ece60570a4.bindPopup(popup_edd39f3e8bf89ea2237dca25d052a6b8)
-        ;
-
-        
-    
-    
-            circle_marker_75eae30adfe02dbae7d218ece60570a4.bindTooltip(
+            polygon_c488ae4462ca6e5abc56a1b612400f83.bindTooltip(
                 `<div>
-                     Nueces - TX-CD34
+                      Nueces - TX-CD34
                  </div>`,
                 {"sticky": true}
             );

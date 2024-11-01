@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_34b76c7a77a17a96ab0672c2cc1d28b9 {
+                #map_c7c6417a24a27fc1bbbffd2c30cc6b87 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD06</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD01</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD01</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD06</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD01</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD01</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Essex - MA-CD06</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD06</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD01</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - MA-CD01</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Essex - MA-CD01</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Essex - MA-CD01</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_34b76c7a77a17a96ab0672c2cc1d28b9" ></div>
+            <div class="folium-map" id="map_c7c6417a24a27fc1bbbffd2c30cc6b87" ></div>
         
 </body>
 <script>
     
     
-            var map_34b76c7a77a17a96ab0672c2cc1d28b9 = L.map(
-                "map_34b76c7a77a17a96ab0672c2cc1d28b9",
+            var map_c7c6417a24a27fc1bbbffd2c30cc6b87 = L.map(
+                "map_c7c6417a24a27fc1bbbffd2c30cc6b87",
                 {
                     center: [42.83399355891145, -71.00432489602208],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_c7c6417a24a27fc1bbbffd2c30cc6b87);
 
             
 
         
     
-            var tile_layer_83a1f25424f3f222773bb07c09e6b7b6 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_56f937e50c74f19b98ee51f4b7af46d6 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_83a1f25424f3f222773bb07c09e6b7b6.addTo(map_34b76c7a77a17a96ab0672c2cc1d28b9);
+            tile_layer_56f937e50c74f19b98ee51f4b7af46d6.addTo(map_c7c6417a24a27fc1bbbffd2c30cc6b87);
         
     
-            var polygon_1caff52709e4bff457b893b41db0ae21 = L.polygon(
+            var polygon_0a128d43507debd2c0bb0f84328e7124 = L.polygon(
                 [[42.85908699999996, -71.031201], [42.859113334378684, -71.03104224152717], [42.86315679310787, -71.00464357960789], [42.862543, -71.003786], [42.86149100000003, -71.00232700000001], [42.85939599999996, -70.999444], [42.858751999999974, -70.998572], [42.85654600000002, -70.99558400000001], [42.85417800000005, -70.992383], [42.85274500000003, -70.990454], [42.851857, -70.989272], [42.851062000000006, -70.988189], [42.85093000000002, -70.98802], [42.850358000000014, -70.98724000000001], [42.849827, -70.986488], [42.84959799999999, -70.986211], [42.849259999999965, -70.985752], [42.84891299999998, -70.985282], [42.84836500000002, -70.98454], [42.848018000000025, -70.98407], [42.84765999999997, -70.983584], [42.84763099999994, -70.98353500000002], [42.84741799999996, -70.98324300000002], [42.84558100000001, -70.980764], [42.84496499999996, -70.979952], [42.84486199999995, -70.97979300000002], [42.84468399999998, -70.979708], [42.84442700000003, -70.979581], [42.84402199999995, -70.979393], [42.84372700000001, -70.979251], [42.84330899999997, -70.979051], [42.842777, -70.978797], [42.84215, -70.978486], [42.841826, -70.978346], [42.84176999999999, -70.97831600000002], [42.84175900000003, -70.978311], [42.84167100000002, -70.978269], [42.841001, -70.977949], [42.84098400000004, -70.977941], [42.840465, -70.977693], [42.83994999999997, -70.977447], [42.839836, -70.977393], [42.83937399999999, -70.97717300000001], [42.83922399999998, -70.977101], [42.83837400000006, -70.97669500000002], [42.834325000000014, -70.97476200000001], [42.833926, -70.974572], [42.83375600000004, -70.974489], [42.83288899999997, -70.97407700000001], [42.832629999999995, -70.973953], [42.832584, -70.973931], [42.832410000000024, -70.973847], [42.830942, -70.973148], [42.82741299999994, -70.971462], [42.82497699999998, -70.970299], [42.82477599999997, -70.97020600000002], [42.82454599999999, -70.970104], [42.82249600000001, -70.96917999999998], [42.82255799999998, -70.969346], [42.82274100000003, -70.969681], [42.823021999999995, -70.970203], [42.82334000000001, -70.970809], [42.823569999999975, -70.97133], [42.82378200000002, -70.971917], [42.82394299999999, -70.97242300000002], [42.82403499999992, -70.972945], [42.82418499999999, -70.974183], [42.824231000000026, -70.974562], [42.82438, -70.976164], [42.824474000000016, -70.977141], [42.824589, -70.97872], [42.824580999999974, -70.979235], [42.82456200000002, -70.979931], [42.824543999999996, -70.980364], [42.82440399999996, -70.981726], [42.82436700000001, -70.98191], [42.824221999999985, -70.982617], [42.824194000000006, -70.98275400000001], [42.824097999999964, -70.983336], [42.824053, -70.98358900000001], [42.824002000000036, -70.984062], [42.823882, -70.985132], [42.823862999999996, -70.98524600000002], [42.82373, -70.98611200000002], [42.82368699999998, -70.986286], [42.82356900000001, -70.98674700000001], [42.823461000000016, -70.987178], [42.82318099999999, -70.988087], [42.822881999999964, -70.988898], [42.82282099999995, -70.98906500000001], [42.82276799999998, -70.989208], [42.822654, -70.989526], [42.82228999999999, -70.990537], [42.822167999999984, -70.99101000000002], [42.82213099999997, -70.99122300000002], [42.82196400000001, -70.99219100000002], [42.82190700000002, -70.99271], [42.821869999999976, -70.993585], [42.82192400000004, -70.994061], [42.82190799999998, -70.994521], [42.82186000000003, -70.99506], [42.82168499999999, -70.99581700000002], [42.82155599999999, -70.996178], [42.821420999999965, -70.996536], [42.821246, -70.99694000000001], [42.821086999999984, -70.99723], [42.82088699999997, -70.997571], [42.82043300000002, -70.998229], [42.82014799999998, -70.998574], [42.81983400000002, -70.998954], [42.81955600000003, -70.999299], [42.81917000000003, -70.99976600000001], [42.818864999999995, -71.000096], [42.818648999999965, -71.000323], [42.81843100000004, -71.000532], [42.81819000000001, -71.000741], [42.818106000000014, -71.0008], [42.817972000000005, -71.000872], [42.817771999999984, -71.000964], [42.817607, -71.001034], [42.81751499999998, -71.001057], [42.81726300000002, -71.001158], [42.81701199999997, -71.00122], [42.816720000000004, -71.00126], [42.81623300000005, -71.001292], [42.815786999999986, -71.001347], [42.81531200000003, -71.001362], [42.81512200000005, -71.00135700000001], [42.81496699999996, -71.00135400000002], [42.81409900000007, -71.001259], [42.81368499999997, -71.001194], [42.813408000000024, -71.001125], [42.81303000000001, -71.001015], [42.812779000000035, -71.00096000000002], [42.812509000000006, -71.00084], [42.81192400000002, -71.00052000000001], [42.81146600000003, -71.000235], [42.81069099999994, -70.999714], [42.81054499999998, -70.999611], [42.81063600000005, -70.999846], [42.81067000000006, -70.999932], [42.81071600000003, -71.000048], [42.811457000000026, -71.001926], [42.811529000000014, -71.002139], [42.81171100000001, -71.00258500000001], [42.81207300000001, -71.003428], [42.81299899999996, -71.005637], [42.813592999999976, -71.007057], [42.81363500000001, -71.007155], [42.81368800000002, -71.007276], [42.81391699999999, -71.00783100000001], [42.814270000000064, -71.008678], [42.815864000000005, -71.012469], [42.81603100000001, -71.012851], [42.818815000000036, -71.019511], [42.819026999999984, -71.020016], [42.820409000000005, -71.023316], [42.824729000000005, -71.0336], [42.82509000000001, -71.034472], [42.82543799999998, -71.035302], [42.825819000000024, -71.036206], [42.826532999999976, -71.037896], [42.826759000000024, -71.038447], [42.826969999999974, -71.038955], [42.82704700000001, -71.039134], [42.82721599999997, -71.039554], [42.827367, -71.039909], [42.82796300000004, -71.041321], [42.828368999999995, -71.042297], [42.82904800000001, -71.04390700000002], [42.829971999999955, -71.046112], [42.830895000000034, -71.04831300000001], [42.83106433980199, -71.04871641262415], [42.85908530752846, -71.03120330877898], [42.85908699999996, -71.031201]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_34b76c7a77a17a96ab0672c2cc1d28b9);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c7c6417a24a27fc1bbbffd2c30cc6b87);
         
     
-        var popup_3f4f348108c3504379a194297cbeb5fc = L.popup({"maxWidth": "100%"});
+        var popup_db826d9541b094d7c45283d597c71567 = L.popup({"maxWidth": 300});
 
         
             
-                var html_5e0fb4cb54c428c84b08fe10758a9e4d = $(`<div id="html_5e0fb4cb54c428c84b08fe10758a9e4d" style="width: 100.0%; height: 100.0%;"><b>Essex - MA-CD06</b></div>`)[0];
-                popup_3f4f348108c3504379a194297cbeb5fc.setContent(html_5e0fb4cb54c428c84b08fe10758a9e4d);
+                var html_c9145dd7a71df23e2ef93fa9b312a8b1 = $(`<div id="html_c9145dd7a71df23e2ef93fa9b312a8b1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Essex - MA-CD06</h4>                              </div>         </div>`)[0];
+                popup_db826d9541b094d7c45283d597c71567.setContent(html_c9145dd7a71df23e2ef93fa9b312a8b1);
             
         
 
-        polygon_1caff52709e4bff457b893b41db0ae21.bindPopup(popup_3f4f348108c3504379a194297cbeb5fc)
+        polygon_0a128d43507debd2c0bb0f84328e7124.bindPopup(popup_db826d9541b094d7c45283d597c71567)
         ;
 
         
     
     
-            var circle_marker_a584ec2b6bf545cf9af208369ec6ac35 = L.circleMarker(
-                [42.828576478713245, -70.99513266595737],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_34b76c7a77a17a96ab0672c2cc1d28b9);
-        
-    
-        var popup_e7a07e7de51fad390d1823addbb010b0 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_9e91cfde6a690577068ab96fa1d21c0d = $(`<div id="html_9e91cfde6a690577068ab96fa1d21c0d" style="width: 100.0%; height: 100.0%;"><b>Essex - MA-CD06</b></div>`)[0];
-                popup_e7a07e7de51fad390d1823addbb010b0.setContent(html_9e91cfde6a690577068ab96fa1d21c0d);
-            
-        
-
-        circle_marker_a584ec2b6bf545cf9af208369ec6ac35.bindPopup(popup_e7a07e7de51fad390d1823addbb010b0)
-        ;
-
-        
-    
-    
-            circle_marker_a584ec2b6bf545cf9af208369ec6ac35.bindTooltip(
+            polygon_0a128d43507debd2c0bb0f84328e7124.bindTooltip(
                 `<div>
-                     Essex - MA-CD06
+                      Essex - MA-CD06
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_318105ac6c5d35fef1bc11b0c1c76fa4 = L.polygon(
+            var polygon_1bbbc12ed4dd4c42856c211f645850f9 = L.polygon(
                 [[42.84028199999998, -71.049863], [42.84060400000003, -71.049674], [42.84095299999998, -71.04946700000002], [42.84421300000002, -71.047545], [42.84431300000002, -71.047486], [42.848667, -71.04492], [42.85173799999996, -71.040934], [42.852618999999954, -71.03979], [42.852887000000045, -71.039441], [42.852929999999986, -71.039385], [42.85314399999999, -71.039108], [42.853628999999984, -71.038478], [42.853995000000026, -71.038004], [42.854059999999976, -71.03794], [42.85406599999997, -71.037924], [42.856353999999975, -71.034929], [42.85908530752846, -71.03120330877898], [42.83106433980199, -71.04871641262415], [42.83142599999998, -71.049578], [42.83232699999999, -71.051727], [42.832479000000006, -71.052091], [42.832515000000015, -71.052194], [42.83293500000001, -71.053274], [42.83308900000004, -71.053601], [42.83314099999996, -71.053667], [42.83326799999997, -71.053974], [42.83327599999997, -71.053992], [42.833281999999976, -71.054005], [42.83336899999999, -71.053954], [42.84028199999998, -71.049863]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_34b76c7a77a17a96ab0672c2cc1d28b9);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c7c6417a24a27fc1bbbffd2c30cc6b87);
         
     
-        var popup_c1897c03cfb6d197baa14510edb86333 = L.popup({"maxWidth": "100%"});
+        var popup_1acc239e16ba8ebdd2de75c068e3a68a = L.popup({"maxWidth": 300});
 
         
             
-                var html_c3cd388550ed072b64c886f0b1cfeab7 = $(`<div id="html_c3cd388550ed072b64c886f0b1cfeab7" style="width: 100.0%; height: 100.0%;"><b>Essex - MA-CD01</b></div>`)[0];
-                popup_c1897c03cfb6d197baa14510edb86333.setContent(html_c3cd388550ed072b64c886f0b1cfeab7);
+                var html_5436938786e6489f51c43b16a06f372b = $(`<div id="html_5436938786e6489f51c43b16a06f372b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Essex - MA-CD01</h4>                              </div>         </div>`)[0];
+                popup_1acc239e16ba8ebdd2de75c068e3a68a.setContent(html_5436938786e6489f51c43b16a06f372b);
             
         
 
-        polygon_318105ac6c5d35fef1bc11b0c1c76fa4.bindPopup(popup_c1897c03cfb6d197baa14510edb86333)
+        polygon_1bbbc12ed4dd4c42856c211f645850f9.bindPopup(popup_1acc239e16ba8ebdd2de75c068e3a68a)
         ;
 
         
     
     
-            var circle_marker_d617dfd6ab2287ba875415d9246eebfe = L.circleMarker(
-                [42.842866421577675, -71.0462242573801],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_34b76c7a77a17a96ab0672c2cc1d28b9);
-        
-    
-        var popup_3dce094a3e09a3357a53b7675ed40691 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3e255ce451a335c66167a56b7d48698e = $(`<div id="html_3e255ce451a335c66167a56b7d48698e" style="width: 100.0%; height: 100.0%;"><b>Essex - MA-CD01</b></div>`)[0];
-                popup_3dce094a3e09a3357a53b7675ed40691.setContent(html_3e255ce451a335c66167a56b7d48698e);
-            
-        
-
-        circle_marker_d617dfd6ab2287ba875415d9246eebfe.bindPopup(popup_3dce094a3e09a3357a53b7675ed40691)
-        ;
-
-        
-    
-    
-            circle_marker_d617dfd6ab2287ba875415d9246eebfe.bindTooltip(
+            polygon_1bbbc12ed4dd4c42856c211f645850f9.bindTooltip(
                 `<div>
-                     Essex - MA-CD01
+                      Essex - MA-CD01
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_ed2fb0db54061c1db2bfb924598144ab = L.polygon(
+            var polygon_d31c18853028eb8e4c1c1b7c84d53ea0 = L.polygon(
                 [[42.85912199999997, -71.03099], [42.85954799999998, -71.02845], [42.86013199999999, -71.025519], [42.86043100000003, -71.02402], [42.86053099999996, -71.023519], [42.86057799999998, -71.02322100000002], [42.860608000000006, -71.02303500000001], [42.860634000000076, -71.022872], [42.86065300000002, -71.022757], [42.860674, -71.022625], [42.86150300000004, -71.01746500000002], [42.86155299999998, -71.017151], [42.861681999999966, -71.016339], [42.86188899999997, -71.01494], [42.86192800000004, -71.01467300000002], [42.862046, -71.013859], [42.86234800000001, -71.011781], [42.862529, -71.010536], [42.86262000000006, -71.009908], [42.86264100000008, -71.009766], [42.863347, -71.004902], [42.86325299999997, -71.004778], [42.86315679310787, -71.00464357960789], [42.859113334378684, -71.03104224152717], [42.85912199999997, -71.03099]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_34b76c7a77a17a96ab0672c2cc1d28b9);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c7c6417a24a27fc1bbbffd2c30cc6b87);
         
     
-        var popup_45d93020dbc726d21e58450337fc8a0e = L.popup({"maxWidth": "100%"});
+        var popup_d1108729118bcb850fa5f521e8e90677 = L.popup({"maxWidth": 300});
 
         
             
-                var html_65ebd90ee25404bad50d04ba992b3cbd = $(`<div id="html_65ebd90ee25404bad50d04ba992b3cbd" style="width: 100.0%; height: 100.0%;"><b>Essex - MA-CD01</b></div>`)[0];
-                popup_45d93020dbc726d21e58450337fc8a0e.setContent(html_65ebd90ee25404bad50d04ba992b3cbd);
+                var html_d7cf4001aec6842deab22cc271602c31 = $(`<div id="html_d7cf4001aec6842deab22cc271602c31" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Essex - MA-CD01</h4>                              </div>         </div>`)[0];
+                popup_d1108729118bcb850fa5f521e8e90677.setContent(html_d7cf4001aec6842deab22cc271602c31);
             
         
 
-        polygon_ed2fb0db54061c1db2bfb924598144ab.bindPopup(popup_45d93020dbc726d21e58450337fc8a0e)
+        polygon_d31c18853028eb8e4c1c1b7c84d53ea0.bindPopup(popup_d1108729118bcb850fa5f521e8e90677)
         ;
 
         
     
     
-            var circle_marker_3cc985e93299b6720d238b79ad6d6c19 = L.circleMarker(
-                [42.86126568509947, -71.0183912728454],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_34b76c7a77a17a96ab0672c2cc1d28b9);
-        
-    
-        var popup_4177bef9cf54899acaa0d41bfcb8a3f8 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_04afafd38e98abc254b64a67947c901c = $(`<div id="html_04afafd38e98abc254b64a67947c901c" style="width: 100.0%; height: 100.0%;"><b>Essex - MA-CD01</b></div>`)[0];
-                popup_4177bef9cf54899acaa0d41bfcb8a3f8.setContent(html_04afafd38e98abc254b64a67947c901c);
-            
-        
-
-        circle_marker_3cc985e93299b6720d238b79ad6d6c19.bindPopup(popup_4177bef9cf54899acaa0d41bfcb8a3f8)
-        ;
-
-        
-    
-    
-            circle_marker_3cc985e93299b6720d238b79ad6d6c19.bindTooltip(
+            polygon_d31c18853028eb8e4c1c1b7c84d53ea0.bindTooltip(
                 `<div>
-                     Essex - MA-CD01
+                      Essex - MA-CD01
                  </div>`,
                 {"sticky": true}
             );

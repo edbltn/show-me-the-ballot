@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c2bf6749a130432570cca48d12eae056 {
+                #map_8561da4c1de680a60a2ce87f65f97251 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD11</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD11</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD11</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD11</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Essex - NJ-CD10</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD11</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Essex - NJ-CD11</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Essex - NJ-CD11</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Essex - NJ-CD11</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_c2bf6749a130432570cca48d12eae056" ></div>
+            <div class="folium-map" id="map_8561da4c1de680a60a2ce87f65f97251" ></div>
         
 </body>
 <script>
     
     
-            var map_c2bf6749a130432570cca48d12eae056 = L.map(
-                "map_c2bf6749a130432570cca48d12eae056",
+            var map_8561da4c1de680a60a2ce87f65f97251 = L.map(
+                "map_8561da4c1de680a60a2ce87f65f97251",
                 {
                     center: [40.83257220475185, -74.24249422036608],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_8561da4c1de680a60a2ce87f65f97251);
 
             
 
         
     
-            var tile_layer_bfe25c125eea50d089514b7384213a41 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_5bd89ca5e2f18b09f988d8708a7c5f2a = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_bfe25c125eea50d089514b7384213a41.addTo(map_c2bf6749a130432570cca48d12eae056);
+            tile_layer_5bd89ca5e2f18b09f988d8708a7c5f2a.addTo(map_8561da4c1de680a60a2ce87f65f97251);
         
     
-            var polygon_0bd9d59c70e756d544e842d8ac65874e = L.polygon(
+            var polygon_98b0ce8b823108cb28076753bbd78730 = L.polygon(
                 [[40.826190000000004, -74.264135], [40.826609999999974, -74.2639], [40.82753599999998, -74.26338000000001], [40.82768499999996, -74.263296], [40.82863599999997, -74.262762], [40.82891900000001, -74.262603], [40.82938999999995, -74.26234], [40.82969900000001, -74.262167], [40.829927999999995, -74.262038], [40.830338000000026, -74.261808], [40.830386999999995, -74.26178000000002], [40.83078799999997, -74.261555], [40.83133100000001, -74.261246], [40.83168100000001, -74.261047], [40.831912000000024, -74.260916], [40.83345900000001, -74.260056], [40.83406599999999, -74.259714], [40.834660000000014, -74.25938], [40.83483300000004, -74.259278], [40.83487600000004, -74.259805], [40.835473000000015, -74.25975500000001], [40.835802999999984, -74.259613], [40.835961000000005, -74.259502], [40.83603499999995, -74.259432], [40.83629599999995, -74.25912399999999], [40.836486999999956, -74.258745], [40.836784000000044, -74.258272], [40.83700900000001, -74.257924], [40.83713000000001, -74.257782], [40.83723299999999, -74.257684], [40.83739000000005, -74.257587], [40.83765599999999, -74.257463], [40.83788599999997, -74.25735], [40.83819399999998, -74.257232], [40.83834399999999, -74.257209], [40.83848, -74.257217], [40.83868400000006, -74.257259], [40.83895599999997, -74.257297], [40.83909200000001, -74.257306], [40.83917799999996, -74.2573], [40.83943199999995, -74.257229], [40.83972099999999, -74.257105], [40.84027600000001, -74.256843], [40.840489, -74.256861], [40.84051900000001, -74.256835], [40.840545999999975, -74.25681], [40.840572999999964, -74.25678200000002], [40.84059799999997, -74.25675300000002], [40.84092100000001, -74.25635900000002], [40.84100600000003, -74.256271], [40.84124795503819, -74.2561279131037], [40.83727647067258, -74.23616205007221], [40.837019000000005, -74.23627900000001], [40.83689400000003, -74.236335], [40.83632599999996, -74.236592], [40.835955, -74.236759], [40.835774000000015, -74.236114], [40.834972999999984, -74.233263], [40.83428999999997, -74.230828], [40.83403199999996, -74.22991], [40.83358900000002, -74.228334], [40.833321, -74.22738], [40.83333900000003, -74.227369], [40.83379599999999, -74.227257], [40.83393399999996, -74.227204], [40.83441599999999, -74.227019], [40.83517000000004, -74.22696200000001], [40.8354510019562, -74.22699086976986], [40.834107, -74.220241], [40.833818, -74.22017], [40.832796000000045, -74.220991], [40.832525000000004, -74.220975], [40.83227399999996, -74.22118200000001], [40.831753, -74.221258], [40.831560999999965, -74.221629], [40.83087699999996, -74.222209], [40.829627000000016, -74.223272], [40.82932999999997, -74.223908], [40.828499000000015, -74.22493500000002], [40.82764600000004, -74.225978], [40.82750100000002, -74.226261], [40.82748099999997, -74.2263], [40.82737000000001, -74.226312], [40.82727600000001, -74.226322], [40.82719599999997, -74.22633100000002], [40.827129, -74.226354], [40.82692699999998, -74.226424], [40.82684399999996, -74.226453], [40.82686399999999, -74.226482], [40.82714399999996, -74.226893], [40.827206000000025, -74.226983], [40.82712599999997, -74.227048], [40.82707499999997, -74.227107], [40.82693100000004, -74.227199], [40.826410000000024, -74.227755], [40.825965000000025, -74.228341], [40.825658, -74.22879100000002], [40.82521300000001, -74.228082], [40.82504699999997, -74.22791], [40.824938999999965, -74.227928], [40.82480000000002, -74.22795], [40.82438599999996, -74.228018], [40.82331999999996, -74.228494], [40.82268999999999, -74.228912], [40.822404999999975, -74.22909], [40.82219900000005, -74.229219], [40.82161099999998, -74.22958600000001], [40.82095900000002, -74.22919900000001], [40.82086899999995, -74.229146], [40.82080399999999, -74.229112], [40.820489999999985, -74.228981], [40.82007700000001, -74.229098], [40.81994299999999, -74.22913], [40.81969299999997, -74.229261], [40.819112999999945, -74.229592], [40.81861100000004, -74.229878], [40.81707499999998, -74.230658], [40.81645100000002, -74.231185], [40.81591400000002, -74.231457], [40.81574599999997, -74.231523], [40.815545999999955, -74.231602], [40.81443199999999, -74.232038], [40.81432900000001, -74.232294], [40.81820500000005, -74.239482], [40.81825700000004, -74.239578], [40.818299999999994, -74.239657], [40.82058400000002, -74.243895], [40.823328000000004, -74.248984], [40.82398399999996, -74.250201], [40.824342000000016, -74.250866], [40.82441600000001, -74.251003], [40.824485999999986, -74.252068], [40.824527999999994, -74.252969], [40.824690000000054, -74.256572], [40.82487900000002, -74.260349], [40.82493100000003, -74.26155400000002], [40.82502999999997, -74.263537], [40.825022000000004, -74.263716], [40.82506900000006, -74.26476400000001], [40.82548200000001, -74.264532], [40.825950999999996, -74.264269], [40.826190000000004, -74.264135]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c2bf6749a130432570cca48d12eae056);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8561da4c1de680a60a2ce87f65f97251);
         
     
-        var popup_a1b25dc382e08e1b10a78055a1c087ea = L.popup({"maxWidth": "100%"});
+        var popup_67471336331a0b832471ef6fc4da09e4 = L.popup({"maxWidth": 300});
 
         
             
-                var html_2b12e13b9e65ba0e9ae8fcb3f0e68b82 = $(`<div id="html_2b12e13b9e65ba0e9ae8fcb3f0e68b82" style="width: 100.0%; height: 100.0%;"><b>Essex - NJ-CD10</b></div>`)[0];
-                popup_a1b25dc382e08e1b10a78055a1c087ea.setContent(html_2b12e13b9e65ba0e9ae8fcb3f0e68b82);
+                var html_9f3419c1291a1b66a9cf4ec20ba107f7 = $(`<div id="html_9f3419c1291a1b66a9cf4ec20ba107f7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Essex - NJ-CD10</h4>                              </div>         </div>`)[0];
+                popup_67471336331a0b832471ef6fc4da09e4.setContent(html_9f3419c1291a1b66a9cf4ec20ba107f7);
             
         
 
-        polygon_0bd9d59c70e756d544e842d8ac65874e.bindPopup(popup_a1b25dc382e08e1b10a78055a1c087ea)
+        polygon_98b0ce8b823108cb28076753bbd78730.bindPopup(popup_67471336331a0b832471ef6fc4da09e4)
         ;
 
         
     
     
-            var circle_marker_2fcbbf8b0d1539e860f3537fc99a8ee1 = L.circleMarker(
-                [40.829641770617364, -74.24277866783765],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c2bf6749a130432570cca48d12eae056);
-        
-    
-        var popup_3c52760865d4c481d44f99971b2f2713 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_af2e8aa5eed443d743f1758ebe51b477 = $(`<div id="html_af2e8aa5eed443d743f1758ebe51b477" style="width: 100.0%; height: 100.0%;"><b>Essex - NJ-CD10</b></div>`)[0];
-                popup_3c52760865d4c481d44f99971b2f2713.setContent(html_af2e8aa5eed443d743f1758ebe51b477);
-            
-        
-
-        circle_marker_2fcbbf8b0d1539e860f3537fc99a8ee1.bindPopup(popup_3c52760865d4c481d44f99971b2f2713)
-        ;
-
-        
-    
-    
-            circle_marker_2fcbbf8b0d1539e860f3537fc99a8ee1.bindTooltip(
+            polygon_98b0ce8b823108cb28076753bbd78730.bindTooltip(
                 `<div>
-                     Essex - NJ-CD10
+                      Essex - NJ-CD10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_ff06d0ce716f6acf17f3f5a93f2af377 = L.polygon(
+            var polygon_7a99d097288ecaebcae74399d18c8cb4 = L.polygon(
                 [[40.842794999999974, -74.255213], [40.843196000000034, -74.254975], [40.843698999999994, -74.254677], [40.84418000000001, -74.25439300000001], [40.84575899999999, -74.253567], [40.84580799999998, -74.253542], [40.846856000000024, -74.252993], [40.84771899999999, -74.25254200000002], [40.84935799999997, -74.251737], [40.849622999999994, -74.251602], [40.84899200000001, -74.249292], [40.848967, -74.24920200000001], [40.84859000000004, -74.24782], [40.848362000000016, -74.246988], [40.84792599999995, -74.245392], [40.84748699999996, -74.243808], [40.846706999999995, -74.24099200000002], [40.84661200000003, -74.24076400000001], [40.84544299999998, -74.236521], [40.84539100000005, -74.236359], [40.84544400000002, -74.236328], [40.84506599999996, -74.235279], [40.844389000000014, -74.2334], [40.843993999999995, -74.233605], [40.84385400000002, -74.233137], [40.842587999999964, -74.233724], [40.841478999999936, -74.234237], [40.841050999999965, -74.23443600000002], [40.839718000000005, -74.235053], [40.83727647067258, -74.23616205007221], [40.84124795503819, -74.2561279131037], [40.842794999999974, -74.255213]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c2bf6749a130432570cca48d12eae056);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8561da4c1de680a60a2ce87f65f97251);
         
     
-        var popup_7546cce5bd842e7b935ef952f9ddbdb0 = L.popup({"maxWidth": "100%"});
+        var popup_fb17dfdd8b5d7c03ccd77519959e3053 = L.popup({"maxWidth": 300});
 
         
             
-                var html_32e0560c58118d27000b35c6c26cb71f = $(`<div id="html_32e0560c58118d27000b35c6c26cb71f" style="width: 100.0%; height: 100.0%;"><b>Essex - NJ-CD11</b></div>`)[0];
-                popup_7546cce5bd842e7b935ef952f9ddbdb0.setContent(html_32e0560c58118d27000b35c6c26cb71f);
+                var html_0e68d6bb74ba1f21a1a3704acfa6d3ba = $(`<div id="html_0e68d6bb74ba1f21a1a3704acfa6d3ba" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Essex - NJ-CD11</h4>                              </div>         </div>`)[0];
+                popup_fb17dfdd8b5d7c03ccd77519959e3053.setContent(html_0e68d6bb74ba1f21a1a3704acfa6d3ba);
             
         
 
-        polygon_ff06d0ce716f6acf17f3f5a93f2af377.bindPopup(popup_7546cce5bd842e7b935ef952f9ddbdb0)
+        polygon_7a99d097288ecaebcae74399d18c8cb4.bindPopup(popup_fb17dfdd8b5d7c03ccd77519959e3053)
         ;
 
         
     
     
-            var circle_marker_8074e01dcb651d63c23eaa7a253657cb = L.circleMarker(
-                [40.84507413830346, -74.24465878009926],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c2bf6749a130432570cca48d12eae056);
-        
-    
-        var popup_ad7fbd05f825aa6267ac88486446f365 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2f584364c19f8b160b5baff08a667c68 = $(`<div id="html_2f584364c19f8b160b5baff08a667c68" style="width: 100.0%; height: 100.0%;"><b>Essex - NJ-CD11</b></div>`)[0];
-                popup_ad7fbd05f825aa6267ac88486446f365.setContent(html_2f584364c19f8b160b5baff08a667c68);
-            
-        
-
-        circle_marker_8074e01dcb651d63c23eaa7a253657cb.bindPopup(popup_ad7fbd05f825aa6267ac88486446f365)
-        ;
-
-        
-    
-    
-            circle_marker_8074e01dcb651d63c23eaa7a253657cb.bindTooltip(
+            polygon_7a99d097288ecaebcae74399d18c8cb4.bindTooltip(
                 `<div>
-                     Essex - NJ-CD11
+                      Essex - NJ-CD11
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_ca72a1c9731a00cd0a3dd764adc6a1a4 = L.polygon(
+            var polygon_3968cc2a6c1cd54b087849f30445d025 = L.polygon(
                 [[40.83619199999993, -74.227067], [40.83536799999997, -74.223509], [40.83418299999998, -74.220433], [40.834107, -74.220241], [40.8354510019562, -74.22699086976986], [40.83619199999993, -74.227067]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c2bf6749a130432570cca48d12eae056);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_8561da4c1de680a60a2ce87f65f97251);
         
     
-        var popup_f46e39d9312469b0434a75e4e2f89fdc = L.popup({"maxWidth": "100%"});
+        var popup_bc3a95b8fbef9da73489fd7ae2281a61 = L.popup({"maxWidth": 300});
 
         
             
-                var html_69b039aeee48a7ab3ebadb20f3995f2d = $(`<div id="html_69b039aeee48a7ab3ebadb20f3995f2d" style="width: 100.0%; height: 100.0%;"><b>Essex - NJ-CD11</b></div>`)[0];
-                popup_f46e39d9312469b0434a75e4e2f89fdc.setContent(html_69b039aeee48a7ab3ebadb20f3995f2d);
+                var html_d5b8b1471a5014092e4cfd6854e4128d = $(`<div id="html_d5b8b1471a5014092e4cfd6854e4128d" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Essex - NJ-CD11</h4>                              </div>         </div>`)[0];
+                popup_bc3a95b8fbef9da73489fd7ae2281a61.setContent(html_d5b8b1471a5014092e4cfd6854e4128d);
             
         
 
-        polygon_ca72a1c9731a00cd0a3dd764adc6a1a4.bindPopup(popup_f46e39d9312469b0434a75e4e2f89fdc)
+        polygon_3968cc2a6c1cd54b087849f30445d025.bindPopup(popup_bc3a95b8fbef9da73489fd7ae2281a61)
         ;
 
         
     
     
-            var circle_marker_40dfe6a3c3e73f44cfbd39e8c9944f19 = L.circleMarker(
-                [40.835248833659335, -74.22421797829497],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c2bf6749a130432570cca48d12eae056);
-        
-    
-        var popup_c9f048e836ec7cfae383871a92a19de6 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_918d9151c9cd0f8909286c40516b854b = $(`<div id="html_918d9151c9cd0f8909286c40516b854b" style="width: 100.0%; height: 100.0%;"><b>Essex - NJ-CD11</b></div>`)[0];
-                popup_c9f048e836ec7cfae383871a92a19de6.setContent(html_918d9151c9cd0f8909286c40516b854b);
-            
-        
-
-        circle_marker_40dfe6a3c3e73f44cfbd39e8c9944f19.bindPopup(popup_c9f048e836ec7cfae383871a92a19de6)
-        ;
-
-        
-    
-    
-            circle_marker_40dfe6a3c3e73f44cfbd39e8c9944f19.bindTooltip(
+            polygon_3968cc2a6c1cd54b087849f30445d025.bindTooltip(
                 `<div>
-                     Essex - NJ-CD11
+                      Essex - NJ-CD11
                  </div>`,
                 {"sticky": true}
             );

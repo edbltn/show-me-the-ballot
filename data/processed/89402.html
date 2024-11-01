@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_956385d282487d358adb67e89af589cd {
+                #map_c7c47e1d8d20e22b561fc40cb1822d90 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washoe - NV-CD03</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washoe - NV-CD02</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washoe - NV-CD03</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Washoe - NV-CD02</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Washoe - NV-CD03</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Washoe - NV-CD02</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_956385d282487d358adb67e89af589cd" ></div>
+            <div class="folium-map" id="map_c7c47e1d8d20e22b561fc40cb1822d90" ></div>
         
 </body>
 <script>
     
     
-            var map_956385d282487d358adb67e89af589cd = L.map(
-                "map_956385d282487d358adb67e89af589cd",
+            var map_c7c47e1d8d20e22b561fc40cb1822d90 = L.map(
+                "map_c7c47e1d8d20e22b561fc40cb1822d90",
                 {
                     center: [39.23262400524623, -120.0020871192945],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_c7c47e1d8d20e22b561fc40cb1822d90);
 
             
 
         
     
-            var tile_layer_bc3965163a435e76fabbaa3844e01594 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_bc150175d847d7c88b22b3ea54eb94eb = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_bc3965163a435e76fabbaa3844e01594.addTo(map_956385d282487d358adb67e89af589cd);
+            tile_layer_bc150175d847d7c88b22b3ea54eb94eb.addTo(map_c7c47e1d8d20e22b561fc40cb1822d90);
         
     
-            var polygon_a71fecfa8ebdbd705688fd103399a78b = L.polygon(
+            var polygon_7bde2ba31d78bf5efe3d5f7c73a5c3ae = L.polygon(
                 [[39.225828000000014, -120.005727], [39.226040000000054, -120.00572599999998], [39.22644600000002, -120.005724], [39.22697299999995, -120.00572199999999], [39.22742600000002, -120.005577], [39.22798699999996, -120.00559800000002], [39.22833500000001, -120.00561100000002], [39.228415999999996, -120.005448], [39.22856000000002, -120.005162], [39.22860900000003, -120.005093], [39.22891400000004, -120.00479400000002], [39.22906899999999, -120.00468999999998], [39.229334999999956, -120.004591], [39.22935300000002, -120.004584], [39.22945699999999, -120.004586], [39.22944999999999, -120.005084], [39.23094400000001, -120.005063], [39.23126200000001, -120.00503100000002], [39.231599000000024, -120.00497499999999], [39.23229000000001, -120.00481299999998], [39.23294000000003, -120.004533], [39.23342767429552, -120.00432280898762], [39.221814101131706, -120.00415845397356], [39.22218299999997, -120.005208], [39.222609999999996, -120.005634], [39.22522599999998, -120.00571], [39.225828000000014, -120.005727]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_956385d282487d358adb67e89af589cd);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c7c47e1d8d20e22b561fc40cb1822d90);
         
     
-        var popup_7a744818e1422e74b4330912301d8c41 = L.popup({"maxWidth": "100%"});
+        var popup_7269b3f57c5ca56ef9cc3908d5bea6ae = L.popup({"maxWidth": 300});
 
         
             
-                var html_b1bef66cfe687232d24714c8b1ecfa1c = $(`<div id="html_b1bef66cfe687232d24714c8b1ecfa1c" style="width: 100.0%; height: 100.0%;"><b>Washoe - NV-CD03</b></div>`)[0];
-                popup_7a744818e1422e74b4330912301d8c41.setContent(html_b1bef66cfe687232d24714c8b1ecfa1c);
+                var html_83b1968b862efc748343a45b68e4fd06 = $(`<div id="html_83b1968b862efc748343a45b68e4fd06" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Washoe - NV-CD03</h4>                              </div>         </div>`)[0];
+                popup_7269b3f57c5ca56ef9cc3908d5bea6ae.setContent(html_83b1968b862efc748343a45b68e4fd06);
             
         
 
-        polygon_a71fecfa8ebdbd705688fd103399a78b.bindPopup(popup_7a744818e1422e74b4330912301d8c41)
+        polygon_7bde2ba31d78bf5efe3d5f7c73a5c3ae.bindPopup(popup_7269b3f57c5ca56ef9cc3908d5bea6ae)
         ;
 
         
     
     
-            var circle_marker_314afd8560bf04e0a12f348d527621b0 = L.circleMarker(
-                [39.228160065756576, -120.00514415788746],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_956385d282487d358adb67e89af589cd);
-        
-    
-        var popup_9d31c3bb83eb12ebeb168f0c0adf5ba3 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_721ab8e8fd2be8ea3d2fd80dffcfe1b5 = $(`<div id="html_721ab8e8fd2be8ea3d2fd80dffcfe1b5" style="width: 100.0%; height: 100.0%;"><b>Washoe - NV-CD03</b></div>`)[0];
-                popup_9d31c3bb83eb12ebeb168f0c0adf5ba3.setContent(html_721ab8e8fd2be8ea3d2fd80dffcfe1b5);
-            
-        
-
-        circle_marker_314afd8560bf04e0a12f348d527621b0.bindPopup(popup_9d31c3bb83eb12ebeb168f0c0adf5ba3)
-        ;
-
-        
-    
-    
-            circle_marker_314afd8560bf04e0a12f348d527621b0.bindTooltip(
+            polygon_7bde2ba31d78bf5efe3d5f7c73a5c3ae.bindTooltip(
                 `<div>
-                     Washoe - NV-CD03
+                      Washoe - NV-CD03
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_161216e85f739e6530cc7255b2661ba5 = L.polygon(
+            var polygon_bbe818ac513dc0819b3f9b68c4d195bc = L.polygon(
                 [[39.234694000000054, -120.00377699999999], [39.23484000000001, -120.00361100000002], [39.23556300000003, -120.00298099999998], [39.23567, -120.002887], [39.23589699999997, -120.002409], [39.236387000000015, -120.002088], [39.23635599999999, -120.00193000000002], [39.23743399999997, -120.00158], [39.23759200000001, -120.00154900000001], [39.237760000000016, -120.001538], [39.238389000000005, -120.001578], [39.23851100000001, -120.001568], [39.23863099999999, -120.001541], [39.23875400000002, -120.001495], [39.23887400000002, -120.00142899999999], [39.23947400000004, -120.000973], [39.23957799999998, -120.000903], [39.23970700000008, -120.000839], [39.23983899999997, -120.000797], [39.24007899999997, -120.00075900000002], [39.24017399999999, -120.00074499999998], [39.241752000000005, -120.000512], [39.24197099999999, -120.00044900000002], [39.242190000000036, -120.00034500000001], [39.24237999999998, -120.00021299999999], [39.24254899999998, -120.00005700000001], [39.24322100000002, -119.999283], [39.243577999999985, -119.99887100000001], [39.24420600000005, -119.998613], [39.24410100000003, -119.997564], [39.24211000000005, -119.998413], [39.241881000000014, -119.99867800000001], [39.241399999999985, -119.99903], [39.24082899999997, -119.99908699999999], [39.240142999999975, -119.99873299999997], [39.23957100000001, -119.99867300000001], [39.23893200000002, -119.999082], [39.238518999999954, -119.999347], [39.23767200000002, -119.99937500000001], [39.23728299999996, -119.99961], [39.236597, -119.999638], [39.234766000000015, -120.00054600000001], [39.23460800000001, -120.00053400000002], [39.234229999999954, -120.00050399999999], [39.233211000000054, -120.00042500000002], [39.23293700000001, -120.00124000000001], [39.232663, -120.001593], [39.23227399999994, -120.00159400000001], [39.23192999999998, -120.001007], [39.23172499999998, -120.000686], [39.23135899999998, -120.00074499999998], [39.230946999999965, -120.000773], [39.23035300000002, -120.000419], [39.230275, -120.000403], [39.23005600000003, -120.00036000000001], [39.229888, -120.00036000000001], [39.22971299999999, -120.00035900000002], [39.22951699999996, -120.00058500000002], [39.22925500000004, -120.000887], [39.22916500000002, -120.00109900000001], [39.22900299999994, -120.00148300000001], [39.22846299999995, -120.001539], [39.22786000000001, -120.00160299999999], [39.226349999999975, -120.001488], [39.22605300000004, -120.00160600000001], [39.22545899999998, -120.001607], [39.224955999999985, -120.001785], [39.22468099999999, -120.00155], [39.22192600000004, -120.001533], [39.22111299999995, -120.00152800000001], [39.22077099999996, -120.002234], [39.22070299999999, -120.002616], [39.22093199999995, -120.00326300000002], [39.221275999999975, -120.003497], [39.22175700000001, -120.00399599999999], [39.221814101131706, -120.00415845397356], [39.23342767429552, -120.00432280898762], [39.234694000000054, -120.00377699999999]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_956385d282487d358adb67e89af589cd);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_c7c47e1d8d20e22b561fc40cb1822d90);
         
     
-        var popup_2bb646861c6bee1699bfe147350799d9 = L.popup({"maxWidth": "100%"});
+        var popup_0bf8204e05149af04dde989c55442fe0 = L.popup({"maxWidth": 300});
 
         
             
-                var html_bfc027951a1a168e96fbba5e7a08c136 = $(`<div id="html_bfc027951a1a168e96fbba5e7a08c136" style="width: 100.0%; height: 100.0%;"><b>Washoe - NV-CD02</b></div>`)[0];
-                popup_2bb646861c6bee1699bfe147350799d9.setContent(html_bfc027951a1a168e96fbba5e7a08c136);
+                var html_9f546c965bfadf45bf663af443302851 = $(`<div id="html_9f546c965bfadf45bf663af443302851" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Washoe - NV-CD02</h4>                              </div>         </div>`)[0];
+                popup_0bf8204e05149af04dde989c55442fe0.setContent(html_9f546c965bfadf45bf663af443302851);
             
         
 
-        polygon_161216e85f739e6530cc7255b2661ba5.bindPopup(popup_2bb646861c6bee1699bfe147350799d9)
+        polygon_bbe818ac513dc0819b3f9b68c4d195bc.bindPopup(popup_0bf8204e05149af04dde989c55442fe0)
         ;
 
         
     
     
-            var circle_marker_3a5807e3cf870881a8899bb7fc44a35a = L.circleMarker(
-                [39.23416921506958, -120.00102891362768],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_956385d282487d358adb67e89af589cd);
-        
-    
-        var popup_06135d09fba99f3e7f543c7f266088b2 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_11280df79158a765f9ff9de31d34583d = $(`<div id="html_11280df79158a765f9ff9de31d34583d" style="width: 100.0%; height: 100.0%;"><b>Washoe - NV-CD02</b></div>`)[0];
-                popup_06135d09fba99f3e7f543c7f266088b2.setContent(html_11280df79158a765f9ff9de31d34583d);
-            
-        
-
-        circle_marker_3a5807e3cf870881a8899bb7fc44a35a.bindPopup(popup_06135d09fba99f3e7f543c7f266088b2)
-        ;
-
-        
-    
-    
-            circle_marker_3a5807e3cf870881a8899bb7fc44a35a.bindTooltip(
+            polygon_bbe818ac513dc0819b3f9b68c4d195bc.bindTooltip(
                 `<div>
-                     Washoe - NV-CD02
+                      Washoe - NV-CD02
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_45c6be446573a8e56eb1d194d86326eb {
+                #map_881a96fe6ce9d041750f344c15017155 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Anson - NC-CD07</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Anson - NC-CD08</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Anson - NC-CD07</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Anson - NC-CD08</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Anson - NC-CD07</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Anson - NC-CD08</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_45c6be446573a8e56eb1d194d86326eb" ></div>
+            <div class="folium-map" id="map_881a96fe6ce9d041750f344c15017155" ></div>
         
 </body>
 <script>
     
     
-            var map_45c6be446573a8e56eb1d194d86326eb = L.map(
-                "map_45c6be446573a8e56eb1d194d86326eb",
+            var map_881a96fe6ce9d041750f344c15017155 = L.map(
+                "map_881a96fe6ce9d041750f344c15017155",
                 {
                     center: [34.81479782616635, -79.97724947206434],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_881a96fe6ce9d041750f344c15017155);
 
             
 
         
     
-            var tile_layer_26d9e0dd23ab09f1185b0002af464302 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_ca04833a264c1b18c1dae9529ff8ae86 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_26d9e0dd23ab09f1185b0002af464302.addTo(map_45c6be446573a8e56eb1d194d86326eb);
+            tile_layer_ca04833a264c1b18c1dae9529ff8ae86.addTo(map_881a96fe6ce9d041750f344c15017155);
         
     
-            var polygon_6c9272bbda7960f781415243f9cbb79a = L.polygon(
+            var polygon_0e0452da8deeeb374571a4890dad58ed = L.polygon(
                 [[34.80758700000004, -79.972559], [34.80771499999999, -79.978741], [34.80784399999999, -79.985092], [34.808258, -79.985077], [34.80859866918717, -79.98506633568984], [34.80839420180703, -79.96882216146854], [34.807514999999995, -79.968915], [34.807555000000015, -79.970887], [34.80758700000004, -79.972559]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_45c6be446573a8e56eb1d194d86326eb);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_881a96fe6ce9d041750f344c15017155);
         
     
-        var popup_7afcf09028e6593eb332cb1d1c62e415 = L.popup({"maxWidth": "100%"});
+        var popup_193e3c9f4844204ceb0f85818197e0ff = L.popup({"maxWidth": 300});
 
         
             
-                var html_b51c79a63aefbc766ba88c9253eeed25 = $(`<div id="html_b51c79a63aefbc766ba88c9253eeed25" style="width: 100.0%; height: 100.0%;"><b>Anson - NC-CD07</b></div>`)[0];
-                popup_7afcf09028e6593eb332cb1d1c62e415.setContent(html_b51c79a63aefbc766ba88c9253eeed25);
+                var html_2200865ed0c238931b9448cf69dc0821 = $(`<div id="html_2200865ed0c238931b9448cf69dc0821" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Anson - NC-CD07</h4>                              </div>         </div>`)[0];
+                popup_193e3c9f4844204ceb0f85818197e0ff.setContent(html_2200865ed0c238931b9448cf69dc0821);
             
         
 
-        polygon_6c9272bbda7960f781415243f9cbb79a.bindPopup(popup_7afcf09028e6593eb332cb1d1c62e415)
+        polygon_0e0452da8deeeb374571a4890dad58ed.bindPopup(popup_193e3c9f4844204ceb0f85818197e0ff)
         ;
 
         
     
     
-            var circle_marker_20c812e7a09d14e55e62eb844bcec1d6 = L.circleMarker(
-                [34.80789487455492, -79.97641316635094],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_45c6be446573a8e56eb1d194d86326eb);
-        
-    
-        var popup_2e561322cadd3fda96fc64b70fa40572 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f1fca024f02a6a4cd08d72bb3a936037 = $(`<div id="html_f1fca024f02a6a4cd08d72bb3a936037" style="width: 100.0%; height: 100.0%;"><b>Anson - NC-CD07</b></div>`)[0];
-                popup_2e561322cadd3fda96fc64b70fa40572.setContent(html_f1fca024f02a6a4cd08d72bb3a936037);
-            
-        
-
-        circle_marker_20c812e7a09d14e55e62eb844bcec1d6.bindPopup(popup_2e561322cadd3fda96fc64b70fa40572)
-        ;
-
-        
-    
-    
-            circle_marker_20c812e7a09d14e55e62eb844bcec1d6.bindTooltip(
+            polygon_0e0452da8deeeb374571a4890dad58ed.bindTooltip(
                 `<div>
-                     Anson - NC-CD07
+                      Anson - NC-CD07
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_2aa7dcc8535da78d16cce8814ed90d54 = L.polygon(
+            var polygon_b8eda9cebd97850f80f70d0d923a8abd = L.polygon(
                 [[34.80940800000004, -79.985041], [34.809792000000016, -79.985029], [34.81074399999998, -79.984999], [34.81360299999999, -79.984912], [34.81455599999999, -79.984884], [34.815200000000026, -79.98487], [34.81713500000003, -79.984829], [34.817780000000006, -79.984816], [34.821988999999974, -79.984721], [34.82192399999996, -79.981396], [34.821894999999955, -79.979919], [34.82197600000001, -79.977478], [34.82201200000003, -79.977335], [34.82208300000002, -79.976906], [34.82202700000001, -79.976365], [34.82170599999999, -79.97086500000002], [34.82178100000003, -79.970281], [34.82178000000002, -79.970215], [34.821766000000004, -79.968252], [34.821765000000006, -79.968011], [34.82135299999998, -79.968039], [34.81924600000003, -79.968144], [34.81292600000003, -79.96846], [34.81081999999999, -79.968566], [34.80839420180703, -79.96882216146854], [34.80859866918717, -79.98506633568984], [34.80940800000004, -79.985041]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_45c6be446573a8e56eb1d194d86326eb);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_881a96fe6ce9d041750f344c15017155);
         
     
-        var popup_1b54937df8a92bb2c1e8d9ddecaf7091 = L.popup({"maxWidth": "100%"});
+        var popup_7df587b51f536b547f51112194f46e21 = L.popup({"maxWidth": 300});
 
         
             
-                var html_ec7ba81b9c176087db8932be4525e6d9 = $(`<div id="html_ec7ba81b9c176087db8932be4525e6d9" style="width: 100.0%; height: 100.0%;"><b>Anson - NC-CD08</b></div>`)[0];
-                popup_1b54937df8a92bb2c1e8d9ddecaf7091.setContent(html_ec7ba81b9c176087db8932be4525e6d9);
+                var html_8d47edb6127f24296671559fc58b38fd = $(`<div id="html_8d47edb6127f24296671559fc58b38fd" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Anson - NC-CD08</h4>                              </div>         </div>`)[0];
+                popup_7df587b51f536b547f51112194f46e21.setContent(html_8d47edb6127f24296671559fc58b38fd);
             
         
 
-        polygon_2aa7dcc8535da78d16cce8814ed90d54.bindPopup(popup_1b54937df8a92bb2c1e8d9ddecaf7091)
+        polygon_b8eda9cebd97850f80f70d0d923a8abd.bindPopup(popup_7df587b51f536b547f51112194f46e21)
         ;
 
         
     
     
-            var circle_marker_5715fa37f85f903a68dfe886dc90b595 = L.circleMarker(
-                [34.81709881003683, -79.9775282406355],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_45c6be446573a8e56eb1d194d86326eb);
-        
-    
-        var popup_49a650a32dbe4e09e0469f4ae585a671 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b0baba96ab821d6ec1b31927879b4481 = $(`<div id="html_b0baba96ab821d6ec1b31927879b4481" style="width: 100.0%; height: 100.0%;"><b>Anson - NC-CD08</b></div>`)[0];
-                popup_49a650a32dbe4e09e0469f4ae585a671.setContent(html_b0baba96ab821d6ec1b31927879b4481);
-            
-        
-
-        circle_marker_5715fa37f85f903a68dfe886dc90b595.bindPopup(popup_49a650a32dbe4e09e0469f4ae585a671)
-        ;
-
-        
-    
-    
-            circle_marker_5715fa37f85f903a68dfe886dc90b595.bindTooltip(
+            polygon_b8eda9cebd97850f80f70d0d923a8abd.bindTooltip(
                 `<div>
-                     Anson - NC-CD08
+                      Anson - NC-CD08
                  </div>`,
                 {"sticky": true}
             );

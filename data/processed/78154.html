@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_0b3f72422380d81b69b122e9c00182a9 {
+                #map_75a58eeb04389e85c01a1a7aeb0e1d3a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD21</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD35</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD28</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD21</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD35</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD28</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Comal - TX-CD21</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD21</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD35</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Comal - TX-CD28</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Comal - TX-CD35</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Comal - TX-CD28</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_0b3f72422380d81b69b122e9c00182a9" ></div>
+            <div class="folium-map" id="map_75a58eeb04389e85c01a1a7aeb0e1d3a" ></div>
         
 </body>
 <script>
     
     
-            var map_0b3f72422380d81b69b122e9c00182a9 = L.map(
-                "map_0b3f72422380d81b69b122e9c00182a9",
+            var map_75a58eeb04389e85c01a1a7aeb0e1d3a = L.map(
+                "map_75a58eeb04389e85c01a1a7aeb0e1d3a",
                 {
                     center: [29.61225689617776, -98.28380545958318],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_75a58eeb04389e85c01a1a7aeb0e1d3a);
 
             
 
         
     
-            var tile_layer_fe9e4f81316b1cb75c3ac722fba5a0e9 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_247d6c2f3b249802b8ce6a6ed34f358f = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_fe9e4f81316b1cb75c3ac722fba5a0e9.addTo(map_0b3f72422380d81b69b122e9c00182a9);
+            tile_layer_247d6c2f3b249802b8ce6a6ed34f358f.addTo(map_75a58eeb04389e85c01a1a7aeb0e1d3a);
         
     
-            var polygon_cf3871b06576d856483460c5aa143ff1 = L.polygon(
+            var polygon_62fbc23c31a85904fd0093ec3930d8e5 = L.polygon(
                 [[29.604175999999995, -98.30931300000002], [29.60442699999999, -98.308788], [29.604849000000005, -98.307892], [29.606119999999965, -98.305112], [29.606375, -98.304578], [29.607613999999995, -98.301899], [29.60766700000006, -98.30177900000001], [29.607784999999986, -98.301523], [29.60789000000002, -98.301651], [29.608455999999965, -98.302025], [29.611754999999995, -98.304206], [29.614600000000006, -98.306078], [29.615107000000005, -98.305021], [29.615365, -98.304482], [29.616372999999967, -98.302474], [29.616673999999982, -98.301838], [29.616977000000002, -98.301091], [29.617565999999997, -98.299475], [29.618672999999998, -98.296388], [29.61888500000002, -98.296525], [29.619930999999973, -98.297231], [29.620157000000024, -98.296763], [29.620319000000016, -98.296411], [29.62041399999998, -98.296223], [29.620500999999948, -98.296108], [29.620577999999966, -98.296052], [29.620658000000002, -98.296004], [29.620837999999956, -98.295958], [29.620842999999997, -98.295831], [29.620848000000002, -98.295724], [29.620881999999977, -98.295428], [29.620919999999952, -98.295228], [29.62095899999996, -98.295049], [29.62104299999998, -98.294764], [29.62109800000001, -98.294604], [29.62117500000002, -98.294412], [29.621317999999977, -98.294091], [29.621838000000032, -98.292981], [29.622225000000007, -98.292216], [29.622633, -98.291429], [29.62300999999999, -98.290751], [29.622421999999954, -98.290275], [29.621437999999994, -98.289564], [29.621128999999975, -98.28933], [29.62193899999996, -98.287104], [29.62275599999994, -98.284857], [29.62384099999999, -98.281776], [29.623908999999987, -98.281576], [29.62404099999998, -98.281198], [29.624838999999984, -98.278907], [29.62542499999997, -98.277218], [29.625591999999976, -98.276741], [29.62585900000006, -98.27603], [29.626103000000025, -98.27538], [29.627949999999974, -98.27014], [29.628079999999972, -98.269815], [29.62809500000001, -98.269778], [29.62818000000004, -98.26959000000001], [29.628377000000015, -98.269189], [29.62839599999998, -98.269151], [29.628501999999962, -98.268951], [29.628874000000014, -98.268247], [29.629837999999978, -98.26659100000002], [29.63017600000001, -98.266011], [29.630219999999973, -98.265936], [29.631930000000033, -98.263075], [29.63223700000001, -98.26256200000002], [29.63274800000002, -98.261586], [29.63329200000001, -98.259723], [29.63334499999999, -98.258853], [29.633342000000017, -98.258448], [29.633338000000006, -98.258035], [29.63321200000005, -98.257369], [29.633047999999974, -98.25644], [29.632951999999996, -98.2551], [29.633355999999964, -98.253749], [29.631340999999967, -98.257216], [29.629327999999997, -98.260737], [29.62888199999999, -98.260437], [29.628625000000017, -98.260269], [29.627641000000008, -98.25966300000002], [29.626458162498157, -98.25887783150071], [29.603354713053626, -98.31106622373764], [29.604175999999995, -98.30931300000002]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_0b3f72422380d81b69b122e9c00182a9);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_75a58eeb04389e85c01a1a7aeb0e1d3a);
         
     
-        var popup_fcc9cd5af319a2f1749c90ec47acd86e = L.popup({"maxWidth": "100%"});
+        var popup_cc81e1dfc87eed7ddae269be0a528871 = L.popup({"maxWidth": 300});
 
         
             
-                var html_0634b64e0ea056a0a610e8f536a7388e = $(`<div id="html_0634b64e0ea056a0a610e8f536a7388e" style="width: 100.0%; height: 100.0%;"><b>Comal - TX-CD21</b></div>`)[0];
-                popup_fcc9cd5af319a2f1749c90ec47acd86e.setContent(html_0634b64e0ea056a0a610e8f536a7388e);
+                var html_63be180cd669628620d5ba41886868aa = $(`<div id="html_63be180cd669628620d5ba41886868aa" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Comal - TX-CD21</h4>                              </div>         </div>`)[0];
+                popup_cc81e1dfc87eed7ddae269be0a528871.setContent(html_63be180cd669628620d5ba41886868aa);
             
         
 
-        polygon_cf3871b06576d856483460c5aa143ff1.bindPopup(popup_fcc9cd5af319a2f1749c90ec47acd86e)
+        polygon_62fbc23c31a85904fd0093ec3930d8e5.bindPopup(popup_cc81e1dfc87eed7ddae269be0a528871)
         ;
 
         
     
     
-            var circle_marker_a7742200cbad96e4f14f3c71d42e4f0f = L.circleMarker(
-                [29.621882248518464, -98.28453892922904],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_0b3f72422380d81b69b122e9c00182a9);
-        
-    
-        var popup_f87d65fc3738938ef56e957f71577e03 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b61b5d4585541eb5c1af41281fdef5d4 = $(`<div id="html_b61b5d4585541eb5c1af41281fdef5d4" style="width: 100.0%; height: 100.0%;"><b>Comal - TX-CD21</b></div>`)[0];
-                popup_f87d65fc3738938ef56e957f71577e03.setContent(html_b61b5d4585541eb5c1af41281fdef5d4);
-            
-        
-
-        circle_marker_a7742200cbad96e4f14f3c71d42e4f0f.bindPopup(popup_f87d65fc3738938ef56e957f71577e03)
-        ;
-
-        
-    
-    
-            circle_marker_a7742200cbad96e4f14f3c71d42e4f0f.bindTooltip(
+            polygon_62fbc23c31a85904fd0093ec3930d8e5.bindTooltip(
                 `<div>
-                     Comal - TX-CD21
+                      Comal - TX-CD21
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_677c620ea1324e5f30d3cac0c7d7b4f4 = L.polygon(
+            var polygon_237f427ba679768408dc99fb75f5bbf3 = L.polygon(
                 [[29.594522999999995, -98.310941], [29.59453899999997, -98.310945], [29.59456000000001, -98.31095], [29.594826000000015, -98.31102], [29.595117000000002, -98.311014], [29.59562399999999, -98.3109], [29.595937000000013, -98.31087500000001], [29.596026999999967, -98.310912], [29.596048999999987, -98.310913], [29.596090999999998, -98.310914], [29.596218000000036, -98.310876], [29.597152999999988, -98.31097], [29.597538, -98.310995], [29.598083000000006, -98.310831], [29.598178000000008, -98.310833], [29.598332, -98.310837], [29.598571999999972, -98.31102], [29.59871599999998, -98.311164], [29.599178000000006, -98.311372], [29.599507999999997, -98.311428], [29.599783000000006, -98.311505], [29.60032699999998, -98.311693], [29.600783999999987, -98.311921], [29.60106500000003, -98.311826], [29.601241000000027, -98.311875], [29.60154300000001, -98.312033], [29.60180199999994, -98.312222], [29.60198299999997, -98.312462], [29.60211099999998, -98.312713], [29.602182000000006, -98.312901], [29.602236000000033, -98.313292], [29.602262999999983, -98.31348], [29.602279000000014, -98.313494], [29.603198462629162, -98.31141887711831], [29.603263000000005, -98.31126200000001], [29.603354713053626, -98.31106622373764], [29.626458162498157, -98.25887783150071], [29.62636200000001, -98.258814], [29.624961000000027, -98.25789200000001], [29.62438299999999, -98.257512], [29.623821999999976, -98.257134], [29.62211399999998, -98.256015], [29.62179000000002, -98.255794], [29.621528999999985, -98.255653], [29.62139399999998, -98.255608], [29.621109000000036, -98.255529], [29.620964999999995, -98.255533], [29.620645000000014, -98.255509], [29.620494999999995, -98.255498], [29.620177000000034, -98.255485], [29.620030999999955, -98.255486], [29.619889000000022, -98.255496], [29.619724999999985, -98.255524], [29.61957200000001, -98.255556], [29.619356999999965, -98.25563400000001], [29.619256999999973, -98.255675], [29.619095999999985, -98.255751], [29.618914999999973, -98.255858], [29.618789999999958, -98.255951], [29.61855700000002, -98.256155], [29.61843200000003, -98.256285], [29.61830799999997, -98.256442], [29.618128000000006, -98.256696], [29.61785800000002, -98.257088], [29.617763, -98.25720000000001], [29.617677999999994, -98.257264], [29.61758699999999, -98.257292], [29.617517999999965, -98.257292], [29.617426000000002, -98.257269], [29.61730200000001, -98.257196], [29.61718400000002, -98.257126], [29.616901000000013, -98.256941], [29.616785999999973, -98.256868], [29.616438174909867, -98.25664280514091], [29.594472999999994, -98.310928], [29.594522999999995, -98.310941]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_0b3f72422380d81b69b122e9c00182a9);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_75a58eeb04389e85c01a1a7aeb0e1d3a);
         
     
-        var popup_8041a3855b6a9823a22beef1c8dc3e00 = L.popup({"maxWidth": "100%"});
+        var popup_b1a07706bf2ac25601df0607376cf825 = L.popup({"maxWidth": 300});
 
         
             
-                var html_6a3e9f73d65d599ec02b11e896253927 = $(`<div id="html_6a3e9f73d65d599ec02b11e896253927" style="width: 100.0%; height: 100.0%;"><b>Comal - TX-CD35</b></div>`)[0];
-                popup_8041a3855b6a9823a22beef1c8dc3e00.setContent(html_6a3e9f73d65d599ec02b11e896253927);
+                var html_101cabe5385271129c060abd4de54f65 = $(`<div id="html_101cabe5385271129c060abd4de54f65" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Comal - TX-CD35</h4>                              </div>         </div>`)[0];
+                popup_b1a07706bf2ac25601df0607376cf825.setContent(html_101cabe5385271129c060abd4de54f65);
             
         
 
-        polygon_677c620ea1324e5f30d3cac0c7d7b4f4.bindPopup(popup_8041a3855b6a9823a22beef1c8dc3e00)
+        polygon_237f427ba679768408dc99fb75f5bbf3.bindPopup(popup_b1a07706bf2ac25601df0607376cf825)
         ;
 
         
     
     
-            var circle_marker_0c9c61e2708b3432a3e377cc11da4797 = L.circleMarker(
-                [29.609314243593303, -98.28397743075655],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_0b3f72422380d81b69b122e9c00182a9);
-        
-    
-        var popup_f2fcb56e6e710b745df583ebc54a83bf = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_217b93afc24a8ea7ef47787cd5a804ed = $(`<div id="html_217b93afc24a8ea7ef47787cd5a804ed" style="width: 100.0%; height: 100.0%;"><b>Comal - TX-CD35</b></div>`)[0];
-                popup_f2fcb56e6e710b745df583ebc54a83bf.setContent(html_217b93afc24a8ea7ef47787cd5a804ed);
-            
-        
-
-        circle_marker_0c9c61e2708b3432a3e377cc11da4797.bindPopup(popup_f2fcb56e6e710b745df583ebc54a83bf)
-        ;
-
-        
-    
-    
-            circle_marker_0c9c61e2708b3432a3e377cc11da4797.bindTooltip(
+            polygon_237f427ba679768408dc99fb75f5bbf3.bindTooltip(
                 `<div>
-                     Comal - TX-CD35
+                      Comal - TX-CD35
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_cfd9ae2f6dc31d45a4749f796989478e = L.polygon(
+            var polygon_327194b714d9c05996c4d2f9b19ab25d = L.polygon(
                 [[29.614620000000013, -98.260073], [29.614627000000073, -98.260089], [29.614522000000026, -98.26037], [29.61442600000001, -98.260627], [29.614340999999985, -98.260853], [29.61432900000001, -98.260885], [29.614307999999994, -98.26094], [29.614135000000044, -98.261402], [29.61406200000003, -98.261595], [29.613928000000012, -98.261948], [29.613909000000003, -98.261998], [29.613756000000013, -98.26239], [29.611726999999988, -98.267589], [29.611526999999985, -98.268089], [29.609051999999988, -98.273805], [29.607034000000038, -98.278465], [29.606935999999973, -98.2787], [29.606925, -98.278726], [29.606917999999954, -98.278743], [29.606909999999974, -98.278762], [29.60686799999999, -98.278864], [29.606829999999988, -98.278955], [29.606815000000044, -98.27899], [29.606806999999986, -98.27901], [29.606797999999994, -98.27903200000002], [29.606790000000046, -98.279051], [29.606785999999992, -98.279061], [29.60638299999997, -98.280032], [29.606261999999962, -98.280325], [29.606249999999985, -98.280354], [29.606166999999974, -98.280554], [29.605942999999993, -98.281101], [29.60549, -98.282235], [29.605448999999997, -98.282334], [29.605434999999986, -98.282369], [29.60539800000005, -98.282461], [29.60420700000003, -98.28544200000002], [29.604161999999985, -98.285555], [29.603847999999985, -98.28634], [29.603819999999963, -98.28641], [29.603752000000032, -98.286579], [29.603728000000004, -98.286639], [29.60366999999998, -98.286784], [29.60310199999997, -98.288203], [29.603065999999977, -98.288294], [29.60242699999997, -98.28989], [29.60239899999999, -98.290018], [29.600752999999983, -98.294386], [29.600172000000004, -98.295796], [29.600148999999977, -98.295851], [29.60014499999999, -98.295861], [29.60011, -98.295946], [29.60010400000002, -98.295955], [29.60006300000001, -98.296028], [29.60004100000001, -98.296111], [29.600028999999985, -98.29614300000001], [29.600024999999988, -98.296154], [29.60001400000001, -98.296181], [29.600005999999976, -98.296199], [29.60000000000004, -98.296211], [29.59997499999998, -98.296265], [29.59992499999995, -98.296378], [29.59981699999999, -98.296905], [29.599597999999997, -98.297455], [29.599502000000005, -98.297699], [29.599379000000017, -98.29801], [29.599213000000002, -98.29843], [29.597951000000005, -98.301626], [29.597859, -98.301872], [29.59784600000001, -98.30190600000002], [29.59783300000001, -98.30194], [29.597805, -98.302015], [29.59772300000002, -98.302235], [29.597717000000003, -98.30225200000001], [29.596693999999992, -98.304989], [29.596566999999997, -98.305328], [29.596536000000004, -98.30541100000002], [29.594472999999994, -98.310928], [29.616438174909867, -98.25664280514091], [29.616318000000025, -98.256565], [29.616612000000014, -98.25597], [29.61696199999998, -98.255342], [29.616568000000008, -98.255083], [29.614761999999992, -98.25971000000001], [29.614620000000013, -98.260073]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_0b3f72422380d81b69b122e9c00182a9);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_75a58eeb04389e85c01a1a7aeb0e1d3a);
         
     
-        var popup_7b32e1c11b2b17205f969a5059ab49a9 = L.popup({"maxWidth": "100%"});
+        var popup_fcf9277fb1bfdbbd99538fe5b5104cef = L.popup({"maxWidth": 300});
 
         
             
-                var html_2fd1510d55c529980bd35ec7b48898e6 = $(`<div id="html_2fd1510d55c529980bd35ec7b48898e6" style="width: 100.0%; height: 100.0%;"><b>Comal - TX-CD28</b></div>`)[0];
-                popup_7b32e1c11b2b17205f969a5059ab49a9.setContent(html_2fd1510d55c529980bd35ec7b48898e6);
+                var html_9c0d87b48a34fb0f9e7668043f4564ac = $(`<div id="html_9c0d87b48a34fb0f9e7668043f4564ac" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Comal - TX-CD28</h4>                              </div>         </div>`)[0];
+                popup_fcf9277fb1bfdbbd99538fe5b5104cef.setContent(html_9c0d87b48a34fb0f9e7668043f4564ac);
             
         
 
-        polygon_cfd9ae2f6dc31d45a4749f796989478e.bindPopup(popup_7b32e1c11b2b17205f969a5059ab49a9)
+        polygon_327194b714d9c05996c4d2f9b19ab25d.bindPopup(popup_fcf9277fb1bfdbbd99538fe5b5104cef)
         ;
 
         
     
     
-            var circle_marker_0fcdfc1df061efb52a50ee9a6b3a3afe = L.circleMarker(
-                [29.605375860881292, -98.28292685653108],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_0b3f72422380d81b69b122e9c00182a9);
-        
-    
-        var popup_d2cea947cd6a81dbac354275dcac46ed = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_a33c43d9be7283f8ee34c9ab248d69a4 = $(`<div id="html_a33c43d9be7283f8ee34c9ab248d69a4" style="width: 100.0%; height: 100.0%;"><b>Comal - TX-CD28</b></div>`)[0];
-                popup_d2cea947cd6a81dbac354275dcac46ed.setContent(html_a33c43d9be7283f8ee34c9ab248d69a4);
-            
-        
-
-        circle_marker_0fcdfc1df061efb52a50ee9a6b3a3afe.bindPopup(popup_d2cea947cd6a81dbac354275dcac46ed)
-        ;
-
-        
-    
-    
-            circle_marker_0fcdfc1df061efb52a50ee9a6b3a3afe.bindTooltip(
+            polygon_327194b714d9c05996c4d2f9b19ab25d.bindTooltip(
                 `<div>
-                     Comal - TX-CD28
+                      Comal - TX-CD28
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_193b89496a8b0a6d1874fb97d9498d19 {
+                #map_0dc87474ebb4b955fc6444e2473b598e {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Ford - IL-CD16</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Ford - IL-CD02</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Ford - IL-CD16</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Ford - IL-CD02</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Ford - IL-CD16</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Ford - IL-CD02</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_193b89496a8b0a6d1874fb97d9498d19" ></div>
+            <div class="folium-map" id="map_0dc87474ebb4b955fc6444e2473b598e" ></div>
         
 </body>
 <script>
     
     
-            var map_193b89496a8b0a6d1874fb97d9498d19 = L.map(
-                "map_193b89496a8b0a6d1874fb97d9498d19",
+            var map_0dc87474ebb4b955fc6444e2473b598e = L.map(
+                "map_0dc87474ebb4b955fc6444e2473b598e",
                 {
                     center: [40.568616332111766, -88.3991128594765],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_0dc87474ebb4b955fc6444e2473b598e);
 
             
 
         
     
-            var tile_layer_44e7e13896171a459b2008170fe3775c = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_80e7a0dddf3fb686914b182bd22706d7 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_44e7e13896171a459b2008170fe3775c.addTo(map_193b89496a8b0a6d1874fb97d9498d19);
+            tile_layer_80e7a0dddf3fb686914b182bd22706d7.addTo(map_0dc87474ebb4b955fc6444e2473b598e);
         
     
-            var polygon_d4aa4715ede7f6d03088d981c80d1162 = L.polygon(
+            var polygon_6702995229fbe09696f2af6af0c37f86 = L.polygon(
                 [[40.529758000000065, -88.373817], [40.52975900000001, -88.375625], [40.52976, -88.380545], [40.52977200000007, -88.381921], [40.52977699999997, -88.384855], [40.52976400000004, -88.385103], [40.529768999999995, -88.386691], [40.529785000000054, -88.39214700000001], [40.529820999999956, -88.404135], [40.52982600000001, -88.407991], [40.52984499999998, -88.423133], [40.529873000000066, -88.442193], [40.529989493084166, -88.44219245985512], [40.52975699999999, -88.370661], [40.529758000000065, -88.373817]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_193b89496a8b0a6d1874fb97d9498d19);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0dc87474ebb4b955fc6444e2473b598e);
         
     
-        var popup_11ad26cf9fc4eb3463cf4c8aab8f00d8 = L.popup({"maxWidth": "100%"});
+        var popup_faf3830e9c207c56f6151a065d23fc80 = L.popup({"maxWidth": 300});
 
         
             
-                var html_52687a5bf31b65901b677ecf4637d67e = $(`<div id="html_52687a5bf31b65901b677ecf4637d67e" style="width: 100.0%; height: 100.0%;"><b>Ford - IL-CD16</b></div>`)[0];
-                popup_11ad26cf9fc4eb3463cf4c8aab8f00d8.setContent(html_52687a5bf31b65901b677ecf4637d67e);
+                var html_e845aca0dd11813ab9a13be085abf912 = $(`<div id="html_e845aca0dd11813ab9a13be085abf912" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Ford - IL-CD16</h4>                              </div>         </div>`)[0];
+                popup_faf3830e9c207c56f6151a065d23fc80.setContent(html_e845aca0dd11813ab9a13be085abf912);
             
         
 
-        polygon_d4aa4715ede7f6d03088d981c80d1162.bindPopup(popup_11ad26cf9fc4eb3463cf4c8aab8f00d8)
+        polygon_6702995229fbe09696f2af6af0c37f86.bindPopup(popup_faf3830e9c207c56f6151a065d23fc80)
         ;
 
         
     
     
-            var circle_marker_2eea368f5fb3e6be019b38c1a75f4b11 = L.circleMarker(
-                [40.52980089953896, -88.394988430657],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_193b89496a8b0a6d1874fb97d9498d19);
-        
-    
-        var popup_5348dffe83f5f1395878ce110574cbce = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_d68c98b29dd514a5c9861d3a7122b4b1 = $(`<div id="html_d68c98b29dd514a5c9861d3a7122b4b1" style="width: 100.0%; height: 100.0%;"><b>Ford - IL-CD16</b></div>`)[0];
-                popup_5348dffe83f5f1395878ce110574cbce.setContent(html_d68c98b29dd514a5c9861d3a7122b4b1);
-            
-        
-
-        circle_marker_2eea368f5fb3e6be019b38c1a75f4b11.bindPopup(popup_5348dffe83f5f1395878ce110574cbce)
-        ;
-
-        
-    
-    
-            circle_marker_2eea368f5fb3e6be019b38c1a75f4b11.bindTooltip(
+            polygon_6702995229fbe09696f2af6af0c37f86.bindTooltip(
                 `<div>
-                     Ford - IL-CD16
+                      Ford - IL-CD16
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_8229ca9afaa78daee56341fd5371404a = L.polygon(
+            var polygon_93be6de7a8895d20f5b46268f650949a = L.polygon(
                 [[40.565648, -88.459316], [40.56588700000003, -88.459318], [40.56670000000006, -88.459325], [40.57356800000002, -88.459349], [40.574582, -88.459361], [40.57529900000002, -88.459358], [40.575943000000024, -88.459346], [40.576631, -88.459364], [40.57851700000001, -88.459363], [40.57972900000001, -88.459356], [40.580403999999966, -88.459365], [40.581744999999984, -88.459358], [40.58183400000002, -88.459356], [40.58233699999998, -88.459346], [40.58290400000004, -88.45935], [40.583512999999975, -88.459344], [40.58425600000001, -88.459353], [40.58501199999999, -88.459356], [40.58552000000003, -88.459365], [40.58553299999995, -88.459365], [40.585871000000026, -88.459372], [40.587029000000015, -88.459371], [40.58711400000004, -88.45937], [40.587137000000006, -88.45937], [40.587156, -88.45937], [40.587173, -88.45937], [40.58718800000002, -88.45937], [40.587200999999986, -88.45937], [40.58721199999995, -88.45937], [40.58808199999999, -88.459353], [40.588058, -88.454162], [40.588104999999985, -88.442652], [40.589062000000006, -88.44265], [40.60287899999999, -88.442628], [40.60287700000002, -88.423431], [40.61733999999997, -88.42352], [40.61734999999997, -88.423371], [40.617349000000026, -88.422969], [40.617301999999995, -88.40454], [40.617270000000026, -88.387293], [40.617270000000026, -88.38723], [40.617270000000026, -88.387086], [40.617270000000026, -88.387017], [40.61725999999997, -88.38544], [40.61724999999998, -88.38128], [40.61724999999998, -88.38069900000002], [40.61723099999997, -88.377663], [40.617150000000024, -88.36633], [40.61714700000001, -88.364985], [40.617110000000054, -88.359072], [40.61709900000003, -88.355774], [40.61703800000001, -88.347198], [40.61706999999996, -88.347198], [40.617380000000054, -88.34719], [40.61745400000002, -88.3335], [40.61745400000002, -88.333453], [40.61746299999997, -88.329548], [40.61748200000004, -88.320834], [40.61749999999996, -88.31045], [40.60913200000004, -88.310276], [40.60293599999997, -88.31018], [40.59349599999996, -88.310174], [40.58835699999996, -88.310171], [40.57878500000001, -88.310173], [40.573786999999975, -88.310173], [40.57378900000003, -88.309951], [40.571413, -88.309941], [40.567578999999995, -88.309947], [40.55908800000002, -88.30996], [40.554737999999986, -88.309953], [40.54453999999999, -88.309935], [40.54103399999999, -88.309934], [40.53147499999998, -88.30993], [40.52998000000002, -88.309929], [40.53004000000001, -88.328966], [40.53006799999999, -88.338678], [40.53008300000001, -88.34699700000002], [40.52976, -88.347012], [40.52018599999998, -88.347014], [40.515327999999975, -88.347015], [40.515217, -88.347686], [40.51518500000002, -88.348033], [40.51518500000002, -88.348608], [40.51518100000004, -88.355075], [40.51517800000003, -88.360563], [40.51517499999996, -88.36491], [40.51516768428969, -88.36591319047048], [40.5158688435125, -88.36614132438103], [40.526985000000025, -88.366099], [40.529754999999966, -88.366088], [40.52975699999999, -88.370661], [40.529989493084166, -88.44219245985512], [40.53548, -88.442167], [40.544515999999994, -88.442125], [40.54449799999998, -88.440157], [40.54444500000001, -88.434463], [40.54436799999996, -88.423113], [40.548051, -88.42311], [40.559028, -88.4231], [40.559071999999986, -88.442262], [40.560392000000036, -88.442275], [40.56020099999999, -88.450522], [40.560360999999986, -88.450909], [40.560657000000035, -88.451412], [40.560815000000034, -88.451768], [40.56092800000004, -88.45254], [40.561086000000024, -88.45828], [40.56110900000004, -88.459309], [40.56267, -88.459311], [40.565648, -88.459316]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_193b89496a8b0a6d1874fb97d9498d19);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_0dc87474ebb4b955fc6444e2473b598e);
         
     
-        var popup_932b948b29c951868ebd2cef7c36f39a = L.popup({"maxWidth": "100%"});
+        var popup_959ef15545a75028e55691f85d210eda = L.popup({"maxWidth": 300});
 
         
             
-                var html_3da92740bf1bd60fd1df19110d24d15e = $(`<div id="html_3da92740bf1bd60fd1df19110d24d15e" style="width: 100.0%; height: 100.0%;"><b>Ford - IL-CD02</b></div>`)[0];
-                popup_932b948b29c951868ebd2cef7c36f39a.setContent(html_3da92740bf1bd60fd1df19110d24d15e);
+                var html_6bf438c332ceca818c4c0b8c5ff94438 = $(`<div id="html_6bf438c332ceca818c4c0b8c5ff94438" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Ford - IL-CD02</h4>                              </div>         </div>`)[0];
+                popup_959ef15545a75028e55691f85d210eda.setContent(html_6bf438c332ceca818c4c0b8c5ff94438);
             
         
 
-        polygon_8229ca9afaa78daee56341fd5371404a.bindPopup(popup_932b948b29c951868ebd2cef7c36f39a)
+        polygon_93be6de7a8895d20f5b46268f650949a.bindPopup(popup_959ef15545a75028e55691f85d210eda)
         ;
 
         
     
     
-            var circle_marker_b88c99247d6f11f21d4f629675e3d9b2 = L.circleMarker(
-                [40.57390934564442, -88.39967528158827],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_193b89496a8b0a6d1874fb97d9498d19);
-        
-    
-        var popup_5ed69c0a471184ed5880ba2ea04fbb23 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_60133f3694349bd747cb9fb5d361fb3a = $(`<div id="html_60133f3694349bd747cb9fb5d361fb3a" style="width: 100.0%; height: 100.0%;"><b>Ford - IL-CD02</b></div>`)[0];
-                popup_5ed69c0a471184ed5880ba2ea04fbb23.setContent(html_60133f3694349bd747cb9fb5d361fb3a);
-            
-        
-
-        circle_marker_b88c99247d6f11f21d4f629675e3d9b2.bindPopup(popup_5ed69c0a471184ed5880ba2ea04fbb23)
-        ;
-
-        
-    
-    
-            circle_marker_b88c99247d6f11f21d4f629675e3d9b2.bindTooltip(
+            polygon_93be6de7a8895d20f5b46268f650949a.bindTooltip(
                 `<div>
-                     Ford - IL-CD02
+                      Ford - IL-CD02
                  </div>`,
                 {"sticky": true}
             );

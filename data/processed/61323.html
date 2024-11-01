@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6a634781b5bb29c2cdb6269810945e58 {
+                #map_be9a3c0f353abfe4b741a7221d1605ae {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bureau - IL-CD14</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bureau - IL-CD16</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bureau - IL-CD14</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Bureau - IL-CD16</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Bureau - IL-CD14</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Bureau - IL-CD16</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_6a634781b5bb29c2cdb6269810945e58" ></div>
+            <div class="folium-map" id="map_be9a3c0f353abfe4b741a7221d1605ae" ></div>
         
 </body>
 <script>
     
     
-            var map_6a634781b5bb29c2cdb6269810945e58 = L.map(
-                "map_6a634781b5bb29c2cdb6269810945e58",
+            var map_be9a3c0f353abfe4b741a7221d1605ae = L.map(
+                "map_be9a3c0f353abfe4b741a7221d1605ae",
                 {
                     center: [41.43603314822238, -89.39623172442334],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_be9a3c0f353abfe4b741a7221d1605ae);
 
             
 
         
     
-            var tile_layer_d941ffe7f4431720c36e90e98f60b56e = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_f6386500502948e22f7ccc20b53880f5 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_d941ffe7f4431720c36e90e98f60b56e.addTo(map_6a634781b5bb29c2cdb6269810945e58);
+            tile_layer_f6386500502948e22f7ccc20b53880f5.addTo(map_be9a3c0f353abfe4b741a7221d1605ae);
         
     
-            var polygon_100beaf10c2fda840abef27c3abb535b = L.polygon(
+            var polygon_aab6627bfa44b1f79a96faf70f77c007 = L.polygon(
                 [[41.44001100000006, -89.393534], [41.439987000000016, -89.393534], [41.439697000000045, -89.39353500000001], [41.43965600000003, -89.39353500000001], [41.438274000000035, -89.393539], [41.43791000000005, -89.393537], [41.437546999999995, -89.393554], [41.43685600000003, -89.393572], [41.43686300000002, -89.392228], [41.436870999999975, -89.392109], [41.43616900000002, -89.392114], [41.43576600000006, -89.392096], [41.43574899999998, -89.392558], [41.43574500000001, -89.393325], [41.435750999999996, -89.393584], [41.43532400000001, -89.393589], [41.434654999999964, -89.39358000000001], [41.43428100000002, -89.39357800000002], [41.43357300000004, -89.393559], [41.433203999999996, -89.393562], [41.43275999999995, -89.393559], [41.43250999999994, -89.393567], [41.43250970654524, -89.39360427978804], [41.440011000015964, -89.39361061051126], [41.44001100000006, -89.393534]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6a634781b5bb29c2cdb6269810945e58);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_be9a3c0f353abfe4b741a7221d1605ae);
         
     
-        var popup_a8d329f09dd6050e11e20c4e10bedb5f = L.popup({"maxWidth": "100%"});
+        var popup_3009d3282360c5cfffcbe624d1b09c75 = L.popup({"maxWidth": 300});
 
         
             
-                var html_5d959f5ff56b68237922d02b12773dc6 = $(`<div id="html_5d959f5ff56b68237922d02b12773dc6" style="width: 100.0%; height: 100.0%;"><b>Bureau - IL-CD14</b></div>`)[0];
-                popup_a8d329f09dd6050e11e20c4e10bedb5f.setContent(html_5d959f5ff56b68237922d02b12773dc6);
+                var html_5cd1371eb9547af4b69adc755434ce5b = $(`<div id="html_5cd1371eb9547af4b69adc755434ce5b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bureau - IL-CD14</h4>                              </div>         </div>`)[0];
+                popup_3009d3282360c5cfffcbe624d1b09c75.setContent(html_5cd1371eb9547af4b69adc755434ce5b);
             
         
 
-        polygon_100beaf10c2fda840abef27c3abb535b.bindPopup(popup_a8d329f09dd6050e11e20c4e10bedb5f)
+        polygon_aab6627bfa44b1f79a96faf70f77c007.bindPopup(popup_3009d3282360c5cfffcbe624d1b09c75)
         ;
 
         
     
     
-            var circle_marker_8c8377e1cf4478d932a6b007f0247ca2 = L.circleMarker(
-                [41.43646762826246, -89.39328387561198],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6a634781b5bb29c2cdb6269810945e58);
-        
-    
-        var popup_b81a55a696244b2506619d87a32eaf0d = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_def04a4e9d261a31e970c57dfb0f300c = $(`<div id="html_def04a4e9d261a31e970c57dfb0f300c" style="width: 100.0%; height: 100.0%;"><b>Bureau - IL-CD14</b></div>`)[0];
-                popup_b81a55a696244b2506619d87a32eaf0d.setContent(html_def04a4e9d261a31e970c57dfb0f300c);
-            
-        
-
-        circle_marker_8c8377e1cf4478d932a6b007f0247ca2.bindPopup(popup_b81a55a696244b2506619d87a32eaf0d)
-        ;
-
-        
-    
-    
-            circle_marker_8c8377e1cf4478d932a6b007f0247ca2.bindTooltip(
+            polygon_aab6627bfa44b1f79a96faf70f77c007.bindTooltip(
                 `<div>
-                     Bureau - IL-CD14
+                      Bureau - IL-CD14
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_cb28aeeb82d3a3badf15ba061ac98d71 = L.polygon(
+            var polygon_55a3269e3d287ca6053b95a45de18e0a = L.polygon(
                 [[41.433054, -89.399675], [41.433151000000045, -89.399654], [41.43335100000005, -89.399628], [41.433532000000035, -89.399619], [41.433945999999985, -89.399613], [41.43433900000002, -89.39963], [41.434620000000045, -89.39964800000001], [41.43487000000002, -89.399632], [41.43495400000004, -89.399618], [41.435072000000034, -89.399599], [41.43515399999998, -89.399581], [41.435364000000035, -89.3995], [41.43565099999999, -89.399357], [41.435712, -89.399499], [41.43576199999997, -89.399571], [41.435816999999936, -89.399623], [41.435869999999994, -89.399649], [41.43598700000001, -89.399675], [41.43639000000004, -89.39968700000001], [41.436807, -89.3997], [41.43683599999997, -89.398675], [41.43681800000003, -89.397317], [41.43684099999997, -89.39705000000001], [41.43684199999996, -89.397024], [41.43684700000003, -89.396873], [41.43693999999996, -89.396876], [41.43698700000003, -89.396876], [41.43707700000004, -89.396876], [41.43721400000001, -89.396876], [41.43795799999995, -89.396876], [41.43795900000001, -89.396538], [41.43793200000004, -89.396538], [41.43793399999996, -89.395982], [41.43793399999996, -89.395909], [41.43793599999995, -89.395386], [41.438383000000016, -89.395394], [41.43901400000002, -89.3954], [41.44000799999997, -89.395413], [41.440009999999994, -89.394437], [41.44001100000003, -89.393708], [41.44001100000006, -89.39366400000002], [41.440011000015964, -89.39361061051126], [41.43250970654524, -89.39360427978804], [41.432505000000035, -89.394202], [41.43250400000003, -89.394801], [41.43249799999999, -89.39508], [41.432486000000026, -89.397395], [41.43248099999999, -89.398097], [41.43249199999998, -89.399878], [41.43264799999993, -89.399801], [41.432777999999956, -89.399756], [41.433054, -89.399675]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6a634781b5bb29c2cdb6269810945e58);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_be9a3c0f353abfe4b741a7221d1605ae);
         
     
-        var popup_58213998b2310c9c55bd18b9d7aa96f8 = L.popup({"maxWidth": "100%"});
+        var popup_0a0fb08182b9245b2bd574eaa60a6b71 = L.popup({"maxWidth": 300});
 
         
             
-                var html_3ab86be9a3aa0f8bc94b20255b61af5a = $(`<div id="html_3ab86be9a3aa0f8bc94b20255b61af5a" style="width: 100.0%; height: 100.0%;"><b>Bureau - IL-CD16</b></div>`)[0];
-                popup_58213998b2310c9c55bd18b9d7aa96f8.setContent(html_3ab86be9a3aa0f8bc94b20255b61af5a);
+                var html_b363f730c3e8c674d06b41442914d58e = $(`<div id="html_b363f730c3e8c674d06b41442914d58e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Bureau - IL-CD16</h4>                              </div>         </div>`)[0];
+                popup_0a0fb08182b9245b2bd574eaa60a6b71.setContent(html_b363f730c3e8c674d06b41442914d58e);
             
         
 
-        polygon_cb28aeeb82d3a3badf15ba061ac98d71.bindPopup(popup_58213998b2310c9c55bd18b9d7aa96f8)
+        polygon_55a3269e3d287ca6053b95a45de18e0a.bindPopup(popup_0a0fb08182b9245b2bd574eaa60a6b71)
         ;
 
         
     
     
-            var circle_marker_05cf5dea874d8ce51e3aed17777483de = L.circleMarker(
-                [41.43582426358772, -89.3976489594288],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6a634781b5bb29c2cdb6269810945e58);
-        
-    
-        var popup_31afc6a9ef17dab598dae4ecc98c823f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_c314dc108b575259ecf2e29b82cccb4e = $(`<div id="html_c314dc108b575259ecf2e29b82cccb4e" style="width: 100.0%; height: 100.0%;"><b>Bureau - IL-CD16</b></div>`)[0];
-                popup_31afc6a9ef17dab598dae4ecc98c823f.setContent(html_c314dc108b575259ecf2e29b82cccb4e);
-            
-        
-
-        circle_marker_05cf5dea874d8ce51e3aed17777483de.bindPopup(popup_31afc6a9ef17dab598dae4ecc98c823f)
-        ;
-
-        
-    
-    
-            circle_marker_05cf5dea874d8ce51e3aed17777483de.bindTooltip(
+            polygon_55a3269e3d287ca6053b95a45de18e0a.bindTooltip(
                 `<div>
-                     Bureau - IL-CD16
+                      Bureau - IL-CD16
                  </div>`,
                 {"sticky": true}
             );

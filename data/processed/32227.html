@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d7d1a8f228a99d0fbfef443bd61b4d9b {
+                #map_1e8a830e4666a80c26f2e1470dfa4215 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Duval - FL-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Duval - FL-CD05</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Duval - FL-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Duval - FL-CD05</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Duval - FL-CD04</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Duval - FL-CD05</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_d7d1a8f228a99d0fbfef443bd61b4d9b" ></div>
+            <div class="folium-map" id="map_1e8a830e4666a80c26f2e1470dfa4215" ></div>
         
 </body>
 <script>
     
     
-            var map_d7d1a8f228a99d0fbfef443bd61b4d9b = L.map(
-                "map_d7d1a8f228a99d0fbfef443bd61b4d9b",
+            var map_1e8a830e4666a80c26f2e1470dfa4215 = L.map(
+                "map_1e8a830e4666a80c26f2e1470dfa4215",
                 {
                     center: [30.394194019317215, -81.41424554466391],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_1e8a830e4666a80c26f2e1470dfa4215);
 
             
 
         
     
-            var tile_layer_66fce3c5312f815577965c1f1a610cf0 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_95457d622a3223dee812d985dde60799 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_66fce3c5312f815577965c1f1a610cf0.addTo(map_d7d1a8f228a99d0fbfef443bd61b4d9b);
+            tile_layer_95457d622a3223dee812d985dde60799.addTo(map_1e8a830e4666a80c26f2e1470dfa4215);
         
     
-            var polygon_6f589f49cfeaaf75d13c24abff684446 = L.polygon(
+            var polygon_e49d72d34e5faa41dd3dfe479f486690 = L.polygon(
                 [[30.398112000000026, -81.426494], [30.39858199999997, -81.425327], [30.398767999999986, -81.424698], [30.39880800000003, -81.424313], [30.398899999999973, -81.424167], [30.39906699999998, -81.424027], [30.399656000000032, -81.423749], [30.399826999999977, -81.423625], [30.399881000000004, -81.423558], [30.399896000000027, -81.42335700000001], [30.39986399999999, -81.423223], [30.39990300000001, -81.422584], [30.399939000000007, -81.422395], [30.40000199999998, -81.42225], [30.400172000000016, -81.421806], [30.400204000000024, -81.421648], [30.40020899999998, -81.421042], [30.400223000000008, -81.420683], [30.40022600000004, -81.420258], [30.400232999999957, -81.420107], [30.400341000000036, -81.418888], [30.400333000000003, -81.418701], [30.400295000000025, -81.418583], [30.400298000000014, -81.418487], [30.400288000000035, -81.418166], [30.40014900000001, -81.417437], [30.40017999999999, -81.416689], [30.40017600000001, -81.416225], [30.400034999999995, -81.415434], [30.399987999999976, -81.415224], [30.399948000000016, -81.414578], [30.39983799999998, -81.414202], [30.39987400000004, -81.413925], [30.399957999999966, -81.413488], [30.399956000000014, -81.413248], [30.399903000000016, -81.413021], [30.399702999999995, -81.412447], [30.399669000000014, -81.412235], [30.399638000000017, -81.412151], [30.399622000000004, -81.41204800000001], [30.399420000000035, -81.411544], [30.39929600000003, -81.411203], [30.399288000000045, -81.410933], [30.399136, -81.410333], [30.398855168706778, -81.40973072397938], [30.397921147698696, -81.41503253177011], [30.398105999999995, -81.41497], [30.39836899999998, -81.41489], [30.398523000000036, -81.414828], [30.39858799999996, -81.414791], [30.398637000000022, -81.414742], [30.39869099999999, -81.41467], [30.398723999999966, -81.414598], [30.39876400000002, -81.414487], [30.398786999999967, -81.414374], [30.398797999999985, -81.414247], [30.398786000000026, -81.413752], [30.398787, -81.413593], [30.398814000000048, -81.413257], [30.398845000000037, -81.413079], [30.399014999999952, -81.413052], [30.399206999999972, -81.412993], [30.399333999999993, -81.41296], [30.399375000000003, -81.41296], [30.39942399999997, -81.412976], [30.399453000000044, -81.413026], [30.399488000000034, -81.413166], [30.399543000000037, -81.413437], [30.399580000000004, -81.413686], [30.39962500000001, -81.414048], [30.399769000000006, -81.415338], [30.39981999999998, -81.415721], [30.399843, -81.416061], [30.399693000000006, -81.419673], [30.399679000000027, -81.419857], [30.399653999999952, -81.420006], [30.39942399999996, -81.421111], [30.399355000000043, -81.421488], [30.399189999999976, -81.422477], [30.39912900000001, -81.422863], [30.399077000000013, -81.423153], [30.399041000000054, -81.423386], [30.399013000000032, -81.423607], [30.398983000000015, -81.423713], [30.398962000000036, -81.423772], [30.398923999999955, -81.423834], [30.39885499999997, -81.423912], [30.39823500000001, -81.424448], [30.398175000000002, -81.424513], [30.398138000000028, -81.42456300000002], [30.398088000000026, -81.424647], [30.398045000000018, -81.424834], [30.397926999999974, -81.425958], [30.397890999999955, -81.426247], [30.397872, -81.426368], [30.39783900000001, -81.426446], [30.397792999999986, -81.42653], [30.397727999999976, -81.426601], [30.39635600000001, -81.426745], [30.396342000000008, -81.426836], [30.396314999999984, -81.426876], [30.39624399999999, -81.426938], [30.396213999999983, -81.426971], [30.397820999999983, -81.427031], [30.398045999999944, -81.426628], [30.398112000000026, -81.426494]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d7d1a8f228a99d0fbfef443bd61b4d9b);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1e8a830e4666a80c26f2e1470dfa4215);
         
     
-        var popup_04939c5c11a93532b87680a7b661f1cc = L.popup({"maxWidth": "100%"});
+        var popup_07fbf0af7dfa5e0e3236de3625304bdb = L.popup({"maxWidth": 300});
 
         
             
-                var html_84cd9df01c420e72ee74204ebad0e787 = $(`<div id="html_84cd9df01c420e72ee74204ebad0e787" style="width: 100.0%; height: 100.0%;"><b>Duval - FL-CD04</b></div>`)[0];
-                popup_04939c5c11a93532b87680a7b661f1cc.setContent(html_84cd9df01c420e72ee74204ebad0e787);
+                var html_80b0bc6a8e4497d256abe86334599f63 = $(`<div id="html_80b0bc6a8e4497d256abe86334599f63" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Duval - FL-CD04</h4>                              </div>         </div>`)[0];
+                popup_07fbf0af7dfa5e0e3236de3625304bdb.setContent(html_80b0bc6a8e4497d256abe86334599f63);
             
         
 
-        polygon_6f589f49cfeaaf75d13c24abff684446.bindPopup(popup_04939c5c11a93532b87680a7b661f1cc)
+        polygon_e49d72d34e5faa41dd3dfe479f486690.bindPopup(popup_07fbf0af7dfa5e0e3236de3625304bdb)
         ;
 
         
     
     
-            var circle_marker_f0b3a6e9a6855e7d982b9cca3f37b7dd = L.circleMarker(
-                [30.39908901241892, -81.41907068165801],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d7d1a8f228a99d0fbfef443bd61b4d9b);
-        
-    
-        var popup_6359ead61d6f07561c82068e0ea5ceba = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_258abaa5d60cb3a4d9dd0884c4e2c10b = $(`<div id="html_258abaa5d60cb3a4d9dd0884c4e2c10b" style="width: 100.0%; height: 100.0%;"><b>Duval - FL-CD04</b></div>`)[0];
-                popup_6359ead61d6f07561c82068e0ea5ceba.setContent(html_258abaa5d60cb3a4d9dd0884c4e2c10b);
-            
-        
-
-        circle_marker_f0b3a6e9a6855e7d982b9cca3f37b7dd.bindPopup(popup_6359ead61d6f07561c82068e0ea5ceba)
-        ;
-
-        
-    
-    
-            circle_marker_f0b3a6e9a6855e7d982b9cca3f37b7dd.bindTooltip(
+            polygon_e49d72d34e5faa41dd3dfe479f486690.bindTooltip(
                 `<div>
-                     Duval - FL-CD04
+                      Duval - FL-CD04
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_3bb022b361ef4fbcabfddffbbaafdae1 = L.polygon(
+            var polygon_486196869b748960e04fbf27b22f7e90 = L.polygon(
                 [[30.39881100000003, -81.409636], [30.39858400000002, -81.408959], [30.398518999999983, -81.408696], [30.398263000000057, -81.40739], [30.398194999999987, -81.407167], [30.398049999999973, -81.406602], [30.398016000000023, -81.406418], [30.397981000000016, -81.406327], [30.397880999999977, -81.406061], [30.397703000000032, -81.405421], [30.39752400000002, -81.404541], [30.39742399999999, -81.404436], [30.397310999999988, -81.40442200000001], [30.39723000000001, -81.404443], [30.39650699999999, -81.404091], [30.396304999999998, -81.403707], [30.394784000000037, -81.402519], [30.394911873157767, -81.40197189732528], [30.394319915638498, -81.4019118198706], [30.39430899999997, -81.40197], [30.39426100000004, -81.402156], [30.394216999999994, -81.402278], [30.394160000000028, -81.402374], [30.394095000000032, -81.402464], [30.39401099999999, -81.40255700000002], [30.393919999999945, -81.402634], [30.393904000000003, -81.402644], [30.39364800000001, -81.402727], [30.393598999999995, -81.402736], [30.39237900000004, -81.402746], [30.390499000000013, -81.402744], [30.38790099999999, -81.402741], [30.387901014522203, -81.4012604297697], [30.37774033072802, -81.40022955099532], [30.37774, -81.40030700000001], [30.37774, -81.401707], [30.37654000000002, -81.401807], [30.376431000000036, -81.401806], [30.37643999999995, -81.405107], [30.373539999999984, -81.405107], [30.37353999999997, -81.405807], [30.373539999999984, -81.41005600000001], [30.373744000000013, -81.410048], [30.374250000000032, -81.410021], [30.37443599999999, -81.410016], [30.374928999999973, -81.410026], [30.375210000000028, -81.410043], [30.375586000000013, -81.410097], [30.375996999999927, -81.410141], [30.376353000000037, -81.410171], [30.37705999999997, -81.410261], [30.38007399999997, -81.410643], [30.381047, -81.410751], [30.38135599999997, -81.410796], [30.381823999999973, -81.410844], [30.38207999999994, -81.41087900000001], [30.382247999999983, -81.41088], [30.382619000000012, -81.410883], [30.382650999999992, -81.410883], [30.383423999999962, -81.41092200000001], [30.384153, -81.410944], [30.384988000000003, -81.41102], [30.38529499999999, -81.41111], [30.385530999999993, -81.411189], [30.385787999999998, -81.411298], [30.386019999999956, -81.411411], [30.386511000000013, -81.411779], [30.387034999999994, -81.412104], [30.38721899999997, -81.412192], [30.387591000000036, -81.412396], [30.387887999999986, -81.412602], [30.388086, -81.412778], [30.388301999999978, -81.41305], [30.388847999999978, -81.413587], [30.389175000000005, -81.413878], [30.391288999999986, -81.415974], [30.391862000000007, -81.416521], [30.391974999999995, -81.416652], [30.392144000000016, -81.416815], [30.392244999999996, -81.416874], [30.392336000000004, -81.41689], [30.392433999999998, -81.416872], [30.392550000000007, -81.416826], [30.393064000000066, -81.416649], [30.393450000000023, -81.416505], [30.397768999999993, -81.41508400000001], [30.397921147698696, -81.41503253177011], [30.398855168706778, -81.40973072397938], [30.39881100000003, -81.409636]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d7d1a8f228a99d0fbfef443bd61b4d9b);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1e8a830e4666a80c26f2e1470dfa4215);
         
     
-        var popup_7bb60ec93f871970664a162dc15521f0 = L.popup({"maxWidth": "100%"});
+        var popup_dede774ebcd0360e2f45fcee2f6ccdcb = L.popup({"maxWidth": 300});
 
         
             
-                var html_1c47ef5a37063dcf4327cc0e594ec069 = $(`<div id="html_1c47ef5a37063dcf4327cc0e594ec069" style="width: 100.0%; height: 100.0%;"><b>Duval - FL-CD05</b></div>`)[0];
-                popup_7bb60ec93f871970664a162dc15521f0.setContent(html_1c47ef5a37063dcf4327cc0e594ec069);
+                var html_85fb7b2316f5f977c7642f59ddb9552a = $(`<div id="html_85fb7b2316f5f977c7642f59ddb9552a" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Duval - FL-CD05</h4>                              </div>         </div>`)[0];
+                popup_dede774ebcd0360e2f45fcee2f6ccdcb.setContent(html_85fb7b2316f5f977c7642f59ddb9552a);
             
         
 
-        polygon_3bb022b361ef4fbcabfddffbbaafdae1.bindPopup(popup_7bb60ec93f871970664a162dc15521f0)
+        polygon_486196869b748960e04fbf27b22f7e90.bindPopup(popup_dede774ebcd0360e2f45fcee2f6ccdcb)
         ;
 
         
     
     
-            var circle_marker_9bafc7cc2cd5a6b2e905b96798601594 = L.circleMarker(
-                [30.38836402753317, -81.40849875228889],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d7d1a8f228a99d0fbfef443bd61b4d9b);
-        
-    
-        var popup_86606b400b650093447e7e27e37821af = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_d45eee1453357719203049c4c6a0a512 = $(`<div id="html_d45eee1453357719203049c4c6a0a512" style="width: 100.0%; height: 100.0%;"><b>Duval - FL-CD05</b></div>`)[0];
-                popup_86606b400b650093447e7e27e37821af.setContent(html_d45eee1453357719203049c4c6a0a512);
-            
-        
-
-        circle_marker_9bafc7cc2cd5a6b2e905b96798601594.bindPopup(popup_86606b400b650093447e7e27e37821af)
-        ;
-
-        
-    
-    
-            circle_marker_9bafc7cc2cd5a6b2e905b96798601594.bindTooltip(
+            polygon_486196869b748960e04fbf27b22f7e90.bindTooltip(
                 `<div>
-                     Duval - FL-CD05
+                      Duval - FL-CD05
                  </div>`,
                 {"sticky": true}
             );

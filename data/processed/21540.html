@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2498fb4f09cb8dcbc371794cd531e4f9 {
+                #map_741d90ff28d6b8da542e33ee2083e5da {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Allegany - MD-CD06</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Allegany - MD-CD02</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Allegany - MD-CD06</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Allegany - MD-CD02</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Allegany - MD-CD06</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Allegany - MD-CD02</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_2498fb4f09cb8dcbc371794cd531e4f9" ></div>
+            <div class="folium-map" id="map_741d90ff28d6b8da542e33ee2083e5da" ></div>
         
 </body>
 <script>
     
     
-            var map_2498fb4f09cb8dcbc371794cd531e4f9 = L.map(
-                "map_2498fb4f09cb8dcbc371794cd531e4f9",
+            var map_741d90ff28d6b8da542e33ee2083e5da = L.map(
+                "map_741d90ff28d6b8da542e33ee2083e5da",
                 {
                     center: [39.47616625154253, -79.06000618350411],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_741d90ff28d6b8da542e33ee2083e5da);
 
             
 
         
     
-            var tile_layer_ab0b52337102dacfc3b502f72f99d46d = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_44e2e7dc7c7285dec8726edbfaa9e105 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_ab0b52337102dacfc3b502f72f99d46d.addTo(map_2498fb4f09cb8dcbc371794cd531e4f9);
+            tile_layer_44e2e7dc7c7285dec8726edbfaa9e105.addTo(map_741d90ff28d6b8da542e33ee2083e5da);
         
     
-            var polygon_86ee3f6e28264388acc4fba21b1c7758 = L.polygon(
+            var polygon_061faa219beee4ca19c3f0ad4f46adeb = L.polygon(
                 [[39.477797, -79.053636], [39.477623000000065, -79.05375], [39.477414000000024, -79.05389], [39.47735200000001, -79.053886], [39.47715000000001, -79.053955], [39.47696300000001, -79.053963], [39.47674899999997, -79.054008], [39.47656199999995, -79.054031], [39.47501999999997, -79.054261], [39.474254999999985, -79.054416], [39.47310100000007, -79.054694], [39.47302375774425, -79.05471974768616], [39.472910067839585, -79.06145774401556], [39.473228999999996, -79.061508], [39.47328399999999, -79.061548], [39.473346999999976, -79.061547], [39.47389999999999, -79.06173], [39.47459799999999, -79.062067], [39.474725000000014, -79.06218700000001], [39.47577000000002, -79.062741], [39.477049, -79.063471], [39.478099000000014, -79.064012], [39.478441999999966, -79.06422400000001], [39.478653, -79.06442], [39.47916099999999, -79.064897], [39.47919999999996, -79.064934], [39.47956599999999, -79.065534], [39.47975300000004, -79.065832], [39.479851000000025, -79.066006], [39.47994399999997, -79.06623], [39.47997099999999, -79.066342], [39.479973999999935, -79.066396], [39.47985100000007, -79.06672], [39.479819999999954, -79.066804], [39.479639999999975, -79.067278], [39.47949599999997, -79.067485], [39.47944300000002, -79.067559], [39.48062299999998, -79.066892], [39.48072999999999, -79.066827], [39.48083500000002, -79.066767], [39.480859, -79.066754], [39.480845999999964, -79.066718], [39.480897999999996, -79.06669300000001], [39.481205999999986, -79.066523], [39.48145999999998, -79.06638200000002], [39.48148700000002, -79.066368], [39.481528999999995, -79.066346], [39.481329000000024, -79.06473800000002], [39.48106399999997, -79.062575], [39.47976800000003, -79.060822], [39.48121099999998, -79.058672], [39.47939900000001, -79.055268], [39.479379, -79.055236], [39.479319000000025, -79.055141], [39.4793, -79.05511], [39.47931999999999, -79.054665], [39.47916399999997, -79.054375], [39.479077999999994, -79.054209], [39.47899100000002, -79.05404300000001], [39.47892000000005, -79.053906], [39.47884800000001, -79.053768], [39.47881100000002, -79.05369], [39.478699999999996, -79.053459], [39.47866399999998, -79.053382], [39.47793899999999, -79.053543], [39.477797, -79.053636]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2498fb4f09cb8dcbc371794cd531e4f9);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_741d90ff28d6b8da542e33ee2083e5da);
         
     
-        var popup_0e26dde78f163d892da6b062e4e95058 = L.popup({"maxWidth": "100%"});
+        var popup_e936349db408d6eca755f28af18154fd = L.popup({"maxWidth": 300});
 
         
             
-                var html_b08908c7115c965becfaafefee566393 = $(`<div id="html_b08908c7115c965becfaafefee566393" style="width: 100.0%; height: 100.0%;"><b>Allegany - MD-CD06</b></div>`)[0];
-                popup_0e26dde78f163d892da6b062e4e95058.setContent(html_b08908c7115c965becfaafefee566393);
+                var html_863277eccb62a96c805a8108080cf69e = $(`<div id="html_863277eccb62a96c805a8108080cf69e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Allegany - MD-CD06</h4>                              </div>         </div>`)[0];
+                popup_e936349db408d6eca755f28af18154fd.setContent(html_863277eccb62a96c805a8108080cf69e);
             
         
 
-        polygon_86ee3f6e28264388acc4fba21b1c7758.bindPopup(popup_0e26dde78f163d892da6b062e4e95058)
+        polygon_061faa219beee4ca19c3f0ad4f46adeb.bindPopup(popup_e936349db408d6eca755f28af18154fd)
         ;
 
         
     
     
-            var circle_marker_784ad75921ac9d67af3b352f92bb4c98 = L.circleMarker(
-                [39.478335754933084, -79.06043405290457],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_2498fb4f09cb8dcbc371794cd531e4f9);
-        
-    
-        var popup_2a76242ec2ddc7bedfa17cb7a477921a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_4712ff55223ee769007cb89c737b6195 = $(`<div id="html_4712ff55223ee769007cb89c737b6195" style="width: 100.0%; height: 100.0%;"><b>Allegany - MD-CD06</b></div>`)[0];
-                popup_2a76242ec2ddc7bedfa17cb7a477921a.setContent(html_4712ff55223ee769007cb89c737b6195);
-            
-        
-
-        circle_marker_784ad75921ac9d67af3b352f92bb4c98.bindPopup(popup_2a76242ec2ddc7bedfa17cb7a477921a)
-        ;
-
-        
-    
-    
-            circle_marker_784ad75921ac9d67af3b352f92bb4c98.bindTooltip(
+            polygon_061faa219beee4ca19c3f0ad4f46adeb.bindTooltip(
                 `<div>
-                     Allegany - MD-CD06
+                      Allegany - MD-CD06
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_6b2374988260c8d06b160ee20ac3c401 = L.polygon(
+            var polygon_4a7606aded8e236f82c51d140523ae90 = L.polygon(
                 [[39.47228799999998, -79.054965], [39.47149499999999, -79.05542500000001], [39.47110200000003, -79.055809], [39.470744000000046, -79.056458], [39.470672000000036, -79.056904], [39.470677999999964, -79.057207], [39.470811, -79.058093], [39.47082400000003, -79.058137], [39.47085400000002, -79.058253], [39.47097499999999, -79.058869], [39.47105500000001, -79.059112], [39.47112299999995, -79.05925], [39.47132799999994, -79.05968], [39.471432000000014, -79.059809], [39.47144299999999, -79.059857], [39.471476999999986, -79.059954], [39.47152600000005, -79.06019300000001], [39.471641999999946, -79.060532], [39.47164800000003, -79.060587], [39.471738999999964, -79.060776], [39.47187699999997, -79.06097700000001], [39.47191999999997, -79.06101], [39.472078, -79.061122], [39.472151, -79.061127], [39.472232999999996, -79.061193], [39.472463999999995, -79.061283], [39.472577000000015, -79.061355], [39.472856, -79.061423], [39.472898999999984, -79.061456], [39.472910067839585, -79.06145774401556], [39.47302375774425, -79.05471974768616], [39.47228799999998, -79.054965]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2498fb4f09cb8dcbc371794cd531e4f9);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_741d90ff28d6b8da542e33ee2083e5da);
         
     
-        var popup_70cd4fe040b27e366799034260d35371 = L.popup({"maxWidth": "100%"});
+        var popup_98cf673707caff305170a1104ea28853 = L.popup({"maxWidth": 300});
 
         
             
-                var html_7f08d840a8b1418db650bea43b0216b0 = $(`<div id="html_7f08d840a8b1418db650bea43b0216b0" style="width: 100.0%; height: 100.0%;"><b>Allegany - MD-CD02</b></div>`)[0];
-                popup_70cd4fe040b27e366799034260d35371.setContent(html_7f08d840a8b1418db650bea43b0216b0);
+                var html_f51cdc40887342edb9cd4f373c1b2aec = $(`<div id="html_f51cdc40887342edb9cd4f373c1b2aec" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Allegany - MD-CD02</h4>                              </div>         </div>`)[0];
+                popup_98cf673707caff305170a1104ea28853.setContent(html_f51cdc40887342edb9cd4f373c1b2aec);
             
         
 
-        polygon_6b2374988260c8d06b160ee20ac3c401.bindPopup(popup_70cd4fe040b27e366799034260d35371)
+        polygon_4a7606aded8e236f82c51d140523ae90.bindPopup(popup_98cf673707caff305170a1104ea28853)
         ;
 
         
     
     
-            var circle_marker_8ddfb4cc2b9bd1b59ab7a758c430ea48 = L.circleMarker(
-                [39.47169165079949, -79.05912370286568],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_2498fb4f09cb8dcbc371794cd531e4f9);
-        
-    
-        var popup_187bbb33f70b0801fa466e7d008585e9 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_e5cb54fdba48586eb5d69482c67aefd6 = $(`<div id="html_e5cb54fdba48586eb5d69482c67aefd6" style="width: 100.0%; height: 100.0%;"><b>Allegany - MD-CD02</b></div>`)[0];
-                popup_187bbb33f70b0801fa466e7d008585e9.setContent(html_e5cb54fdba48586eb5d69482c67aefd6);
-            
-        
-
-        circle_marker_8ddfb4cc2b9bd1b59ab7a758c430ea48.bindPopup(popup_187bbb33f70b0801fa466e7d008585e9)
-        ;
-
-        
-    
-    
-            circle_marker_8ddfb4cc2b9bd1b59ab7a758c430ea48.bindTooltip(
+            polygon_4a7606aded8e236f82c51d140523ae90.bindTooltip(
                 `<div>
-                     Allegany - MD-CD02
+                      Allegany - MD-CD02
                  </div>`,
                 {"sticky": true}
             );

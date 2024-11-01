@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_6d7da9a7303defd984078c994fd94839 {
+                #map_1982e462cb48053e3cef070ce3623d5c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD17</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD17</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD19</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD17</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD17</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD19</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Lee - FL-CD17</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD17</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD17</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lee - FL-CD19</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Lee - FL-CD17</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Lee - FL-CD19</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_6d7da9a7303defd984078c994fd94839" ></div>
+            <div class="folium-map" id="map_1982e462cb48053e3cef070ce3623d5c" ></div>
         
 </body>
 <script>
     
     
-            var map_6d7da9a7303defd984078c994fd94839 = L.map(
-                "map_6d7da9a7303defd984078c994fd94839",
+            var map_1982e462cb48053e3cef070ce3623d5c = L.map(
+                "map_1982e462cb48053e3cef070ce3623d5c",
                 {
                     center: [26.776206176079054, -82.24467095088018],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_1982e462cb48053e3cef070ce3623d5c);
 
             
 
         
     
-            var tile_layer_539d2c5e61bac36a4cce719f1de4fe0a = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_8782aacd72708b01047eb1a7f5a4683a = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_539d2c5e61bac36a4cce719f1de4fe0a.addTo(map_6d7da9a7303defd984078c994fd94839);
+            tile_layer_8782aacd72708b01047eb1a7f5a4683a.addTo(map_1982e462cb48053e3cef070ce3623d5c);
         
     
-            var polygon_8fb3de2618b34ff331af6c8852acceb9 = L.polygon(
+            var polygon_6b43c35295e804ee7e664a4ca39afa64 = L.polygon(
                 [[26.789506, -82.272655], [26.789506, -82.272639], [26.789506999999986, -82.272608], [26.789507999999987, -82.27259], [26.789516000000006, -82.272258], [26.789516999999986, -82.27223], [26.789518000000005, -82.272213], [26.789514000000004, -82.270911], [26.789519000000006, -82.270873], [26.789521000000004, -82.27084], [26.789523000000024, -82.27081], [26.78955100000002, -82.270288], [26.78955100000001, -82.270054], [26.789546000000016, -82.26986], [26.789533000000002, -82.269404], [26.789517000000018, -82.268668], [26.78951599999998, -82.268612], [26.78950799999999, -82.268266], [26.789497000000033, -82.267646], [26.789496, -82.267589], [26.789494999999974, -82.267554], [26.789494000000023, -82.267511], [26.789493000000043, -82.267471], [26.78949200000001, -82.267437], [26.78949200000001, -82.26742], [26.78949100000001, -82.26739700000002], [26.78949000000002, -82.267373], [26.78948499999999, -82.267152], [26.789482999999997, -82.267053], [26.789482999999997, -82.267041], [26.789482999999997, -82.267022], [26.78948200000001, -82.266981], [26.789474000000002, -82.266641], [26.789472999999983, -82.266577], [26.789471000000006, -82.266491], [26.789471000000006, -82.26648], [26.789469999999987, -82.266461], [26.789463999999985, -82.266214], [26.789457999999996, -82.265937], [26.789429000000016, -82.264676], [26.789164000000007, -82.263111], [26.788861999999995, -82.261346], [26.787821, -82.25527100000001], [26.78688600000003, -82.249816], [26.786857000000015, -82.248032], [26.786391, -82.245635], [26.785738999999992, -82.242631], [26.785708999999997, -82.242534], [26.785115000000008, -82.24058], [26.784648000000008, -82.238931], [26.784623000000032, -82.238845], [26.78439899999998, -82.23806600000002], [26.783221000000008, -82.233914], [26.782653000000032, -82.231046], [26.782494999999976, -82.23005300000001], [26.782486999999982, -82.230005], [26.782479999999985, -82.229962], [26.782477999999994, -82.229948], [26.782468, -82.229882], [26.782457000000008, -82.229814], [26.782416000000026, -82.229556], [26.782178, -82.228066], [26.782011000000004, -82.226218], [26.78199200000006, -82.223188], [26.781988000000027, -82.222403], [26.781753999999996, -82.221492], [26.780655999999954, -82.21969], [26.77978800000002, -82.218118], [26.778500999999995, -82.216688], [26.77808899999999, -82.216204], [26.776531999999968, -82.214376], [26.77528800000004, -82.213197], [26.773857000000024, -82.21131], [26.772553000000027, -82.209844], [26.771724, -82.208794], [26.77126699999997, -82.207937], [26.771029000000045, -82.20749], [26.770528000000013, -82.205562], [26.788061383552858, -82.27555415739403], [26.78941799999998, -82.27614300000002], [26.789486000000018, -82.27345900000002], [26.789506, -82.272655]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6d7da9a7303defd984078c994fd94839);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1982e462cb48053e3cef070ce3623d5c);
         
     
-        var popup_52c3631404dd0f408f4d6d05798f061a = L.popup({"maxWidth": "100%"});
+        var popup_7c4085963f082e33f9cdceab5574079e = L.popup({"maxWidth": 300});
 
         
             
-                var html_dee7a7d3aa9384b4ca6fc23c1f2d362d = $(`<div id="html_dee7a7d3aa9384b4ca6fc23c1f2d362d" style="width: 100.0%; height: 100.0%;"><b>Lee - FL-CD17</b></div>`)[0];
-                popup_52c3631404dd0f408f4d6d05798f061a.setContent(html_dee7a7d3aa9384b4ca6fc23c1f2d362d);
+                var html_c3fc2e7938b74bf40c05f1e73accbdc3 = $(`<div id="html_c3fc2e7938b74bf40c05f1e73accbdc3" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lee - FL-CD17</h4>                              </div>         </div>`)[0];
+                popup_7c4085963f082e33f9cdceab5574079e.setContent(html_c3fc2e7938b74bf40c05f1e73accbdc3);
             
         
 
-        polygon_8fb3de2618b34ff331af6c8852acceb9.bindPopup(popup_52c3631404dd0f408f4d6d05798f061a)
+        polygon_6b43c35295e804ee7e664a4ca39afa64.bindPopup(popup_7c4085963f082e33f9cdceab5574079e)
         ;
 
         
     
     
-            var circle_marker_0351f5f817dd1039ee59ad5517372786 = L.circleMarker(
-                [26.78567705345797, -82.25067401411457],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6d7da9a7303defd984078c994fd94839);
-        
-    
-        var popup_2627a9c21c567a00f361b795103ee95c = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_7cd6ab30af3e413ebc0ec1f3e69d1a46 = $(`<div id="html_7cd6ab30af3e413ebc0ec1f3e69d1a46" style="width: 100.0%; height: 100.0%;"><b>Lee - FL-CD17</b></div>`)[0];
-                popup_2627a9c21c567a00f361b795103ee95c.setContent(html_7cd6ab30af3e413ebc0ec1f3e69d1a46);
-            
-        
-
-        circle_marker_0351f5f817dd1039ee59ad5517372786.bindPopup(popup_2627a9c21c567a00f361b795103ee95c)
-        ;
-
-        
-    
-    
-            circle_marker_0351f5f817dd1039ee59ad5517372786.bindTooltip(
+            polygon_6b43c35295e804ee7e664a4ca39afa64.bindTooltip(
                 `<div>
-                     Lee - FL-CD17
+                      Lee - FL-CD17
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_fbfd8e2d99b27b4533e9548dd96774b0 = L.polygon(
+            var polygon_5b24ad88917eb9f17ad85c9d8ddf31b9 = L.polygon(
                 [[26.77057499999997, -82.204662], [26.770892000000007, -82.198626], [26.770861000000007, -82.191112], [26.770520837742822, -82.191112], [26.770528000000013, -82.205562], [26.77057499999997, -82.204662]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6d7da9a7303defd984078c994fd94839);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1982e462cb48053e3cef070ce3623d5c);
         
     
-        var popup_c5fdeb1e581a84a8ef88048e6fa184a5 = L.popup({"maxWidth": "100%"});
+        var popup_bd240bab759908283895be95645c6f35 = L.popup({"maxWidth": 300});
 
         
             
-                var html_bb65deeb97b40596278e45d2732e4683 = $(`<div id="html_bb65deeb97b40596278e45d2732e4683" style="width: 100.0%; height: 100.0%;"><b>Lee - FL-CD17</b></div>`)[0];
-                popup_c5fdeb1e581a84a8ef88048e6fa184a5.setContent(html_bb65deeb97b40596278e45d2732e4683);
+                var html_fe90daf6f3f5b6fe11dac3a36f11791f = $(`<div id="html_fe90daf6f3f5b6fe11dac3a36f11791f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lee - FL-CD17</h4>                              </div>         </div>`)[0];
+                popup_bd240bab759908283895be95645c6f35.setContent(html_fe90daf6f3f5b6fe11dac3a36f11791f);
             
         
 
-        polygon_fbfd8e2d99b27b4533e9548dd96774b0.bindPopup(popup_c5fdeb1e581a84a8ef88048e6fa184a5)
+        polygon_5b24ad88917eb9f17ad85c9d8ddf31b9.bindPopup(popup_bd240bab759908283895be95645c6f35)
         ;
 
         
     
     
-            var circle_marker_4d33bb0247357e2661a9dbb89cbb907b = L.circleMarker(
-                [26.7706586396238, -82.19928933333334],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6d7da9a7303defd984078c994fd94839);
-        
-    
-        var popup_8798674bb83b235536d5ceb708b457f0 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_978ae474af53b4c568a96acd4801571f = $(`<div id="html_978ae474af53b4c568a96acd4801571f" style="width: 100.0%; height: 100.0%;"><b>Lee - FL-CD17</b></div>`)[0];
-                popup_8798674bb83b235536d5ceb708b457f0.setContent(html_978ae474af53b4c568a96acd4801571f);
-            
-        
-
-        circle_marker_4d33bb0247357e2661a9dbb89cbb907b.bindPopup(popup_8798674bb83b235536d5ceb708b457f0)
-        ;
-
-        
-    
-    
-            circle_marker_4d33bb0247357e2661a9dbb89cbb907b.bindTooltip(
+            polygon_5b24ad88917eb9f17ad85c9d8ddf31b9.bindTooltip(
                 `<div>
-                     Lee - FL-CD17
+                      Lee - FL-CD17
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_cbb4ad26d79e2f55c6f822c99fbbba84 = L.polygon(
+            var polygon_66cd0a57f4fafac996605766a8fd5f52 = L.polygon(
                 [[26.769922000000022, -82.191112], [26.769061999999998, -82.190562], [26.767368000000037, -82.190388], [26.76571299999998, -82.191567], [26.76496000000003, -82.20336], [26.764521999999985, -82.211717], [26.763797999999998, -82.211526], [26.762961000000008, -82.216672], [26.763063999999986, -82.225346], [26.763374000000017, -82.23286400000002], [26.762548000000017, -82.238878], [26.75893300000001, -82.246973], [26.758004, -82.246973], [26.750567000000025, -82.245586], [26.742614999999994, -82.245933], [26.733215999999995, -82.250096], [26.72454000000001, -82.250443], [26.717119999999987, -82.250101], [26.716478999999968, -82.252575], [26.71548800000002, -82.259267], [26.71526999999999, -82.261578], [26.715148999999993, -82.262868], [26.714999999999975, -82.264403], [26.714995906730355, -82.26444456343984], [26.756835999999996, -82.264682], [26.769600132322417, -82.27091412915252], [26.776545999999996, -82.27238200000001], [26.781951999999986, -82.273699], [26.783025999999968, -82.273932], [26.78602200000003, -82.274669], [26.788061383552858, -82.27555415739403], [26.770528000000013, -82.205562], [26.770520837742822, -82.191112], [26.769922000000022, -82.191112]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_6d7da9a7303defd984078c994fd94839);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_1982e462cb48053e3cef070ce3623d5c);
         
     
-        var popup_f651d8369b6626eed89182c19e6871e4 = L.popup({"maxWidth": "100%"});
+        var popup_2d9e93d7d95438d412c9358cb9e0391c = L.popup({"maxWidth": 300});
 
         
             
-                var html_7f270db9f8f297006c7b3ae3047a2b17 = $(`<div id="html_7f270db9f8f297006c7b3ae3047a2b17" style="width: 100.0%; height: 100.0%;"><b>Lee - FL-CD19</b></div>`)[0];
-                popup_f651d8369b6626eed89182c19e6871e4.setContent(html_7f270db9f8f297006c7b3ae3047a2b17);
+                var html_4d94d11ef82c3272dcf9460e3316ca03 = $(`<div id="html_4d94d11ef82c3272dcf9460e3316ca03" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lee - FL-CD19</h4>                              </div>         </div>`)[0];
+                popup_2d9e93d7d95438d412c9358cb9e0391c.setContent(html_4d94d11ef82c3272dcf9460e3316ca03);
             
         
 
-        polygon_cbb4ad26d79e2f55c6f822c99fbbba84.bindPopup(popup_f651d8369b6626eed89182c19e6871e4)
+        polygon_66cd0a57f4fafac996605766a8fd5f52.bindPopup(popup_2d9e93d7d95438d412c9358cb9e0391c)
         ;
 
         
     
     
-            var circle_marker_7145c2b4c198fe073aed3a5a7d65ae71 = L.circleMarker(
-                [26.75434362530437, -82.23820149558783],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_6d7da9a7303defd984078c994fd94839);
-        
-    
-        var popup_fc6ef4f0f9ac2d8a020bdbff98dcc254 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_34ff9ca89cb19b2ff83b37b0b1b424e5 = $(`<div id="html_34ff9ca89cb19b2ff83b37b0b1b424e5" style="width: 100.0%; height: 100.0%;"><b>Lee - FL-CD19</b></div>`)[0];
-                popup_fc6ef4f0f9ac2d8a020bdbff98dcc254.setContent(html_34ff9ca89cb19b2ff83b37b0b1b424e5);
-            
-        
-
-        circle_marker_7145c2b4c198fe073aed3a5a7d65ae71.bindPopup(popup_fc6ef4f0f9ac2d8a020bdbff98dcc254)
-        ;
-
-        
-    
-    
-            circle_marker_7145c2b4c198fe073aed3a5a7d65ae71.bindTooltip(
+            polygon_66cd0a57f4fafac996605766a8fd5f52.bindTooltip(
                 `<div>
-                     Lee - FL-CD19
+                      Lee - FL-CD19
                  </div>`,
                 {"sticky": true}
             );

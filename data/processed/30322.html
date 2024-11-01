@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b1d1b36d5e15b0f5dfbe4b1b54dac716 {
+                #map_2f410e58f9cbaf72f3067da4e2745fa6 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   DeKalb - GA-CD05</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   DeKalb - GA-CD04</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   DeKalb - GA-CD05</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   DeKalb - GA-CD04</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> DeKalb - GA-CD05</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> DeKalb - GA-CD04</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_b1d1b36d5e15b0f5dfbe4b1b54dac716" ></div>
+            <div class="folium-map" id="map_2f410e58f9cbaf72f3067da4e2745fa6" ></div>
         
 </body>
 <script>
     
     
-            var map_b1d1b36d5e15b0f5dfbe4b1b54dac716 = L.map(
-                "map_b1d1b36d5e15b0f5dfbe4b1b54dac716",
+            var map_2f410e58f9cbaf72f3067da4e2745fa6 = L.map(
+                "map_2f410e58f9cbaf72f3067da4e2745fa6",
                 {
                     center: [33.79629836869276, -84.3264163498346],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_2f410e58f9cbaf72f3067da4e2745fa6);
 
             
 
         
     
-            var tile_layer_6536315c61eeb6b7b9b365eb371ca434 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_de82e4b6356eeefc6c7020afecacb3c3 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_6536315c61eeb6b7b9b365eb371ca434.addTo(map_b1d1b36d5e15b0f5dfbe4b1b54dac716);
+            tile_layer_de82e4b6356eeefc6c7020afecacb3c3.addTo(map_2f410e58f9cbaf72f3067da4e2745fa6);
         
     
-            var polygon_5b1506f618c93d3a35015219b39c8e35 = L.polygon(
+            var polygon_77387b7c2a74abaf0569ab6c0de8b6a1 = L.polygon(
                 [[33.803041571045384, -84.33602294023527], [33.80260780313226, -84.33270179752911], [33.80249700000001, -84.332572], [33.80213299999998, -84.332058], [33.801747, -84.331565], [33.80149800000002, -84.331238], [33.80144099999993, -84.331162], [33.801247000000004, -84.330868], [33.80111500000001, -84.330544], [33.80105200000004, -84.33014300000002], [33.800974999999994, -84.329696], [33.80088799999999, -84.329286], [33.80086299999999, -84.329207], [33.799944, -84.329573], [33.79970299999995, -84.32962900000001], [33.79951199999999, -84.329582], [33.799332000000014, -84.329456], [33.799179999999986, -84.329268], [33.79874400000003, -84.329549], [33.79846800000003, -84.329735], [33.798275000000004, -84.329789], [33.79804199999998, -84.329759], [33.79787700000002, -84.32965], [33.79773700000004, -84.329457], [33.79752299999999, -84.329026], [33.79719900000001, -84.328308], [33.796697000000016, -84.326925], [33.79667000000001, -84.326844], [33.796616, -84.326518], [33.79665799999994, -84.326326], [33.79673899999998, -84.326057], [33.796749999999975, -84.325579], [33.79673799999995, -84.325189], [33.797240999999985, -84.325015], [33.797597, -84.324778], [33.79802700000002, -84.324494], [33.79830399999998, -84.32426], [33.798441000000004, -84.324088], [33.798514999999995, -84.32391700000001], [33.79852200000001, -84.323897], [33.79855899999999, -84.323784], [33.7984, -84.323629], [33.79821599999999, -84.323467], [33.79796899999998, -84.323268], [33.797746, -84.323069], [33.797545000000014, -84.322823], [33.79741600000002, -84.322649], [33.79732800000004, -84.322539], [33.79721900000001, -84.322412], [33.79713100000001, -84.32232], [33.797906000000005, -84.321415], [33.79802800000001, -84.32128], [33.798167, -84.321155], [33.798247, -84.321083], [33.79825199999999, -84.321038], [33.79826599999998, -84.320924], [33.79828099999998, -84.320796], [33.79829899999999, -84.320573], [33.79830799999999, -84.320432], [33.79832499999999, -84.320365], [33.79826599999998, -84.320363], [33.79775299999999, -84.320366], [33.797754000000005, -84.320436], [33.79666200000005, -84.320483], [33.796681000000014, -84.317968], [33.79585199999996, -84.318292], [33.795433000000024, -84.318426], [33.795408, -84.318162], [33.79539900000001, -84.318066], [33.795328999999995, -84.317534], [33.795291, -84.31728600000001], [33.79518300000003, -84.316751], [33.795139999999996, -84.316535], [33.795109999999994, -84.316618], [33.79489499999999, -84.316995], [33.79471000000002, -84.316896], [33.794547, -84.316905], [33.79432400000003, -84.316995], [33.793765, -84.317372], [33.79349800000004, -84.317543], [33.79353200000002, -84.3176], [33.792882000000034, -84.318415], [33.792556999999995, -84.31827300000002], [33.79241799999996, -84.318125], [33.792352999999984, -84.318181], [33.792371999999986, -84.31805], [33.79234000000002, -84.317997], [33.792247, -84.317797], [33.79216900000001, -84.317801], [33.79168400000001, -84.317827], [33.79165499999999, -84.317955], [33.791615000000014, -84.318135], [33.79157099999999, -84.318333], [33.791543000000026, -84.318461], [33.791534999999996, -84.318495], [33.791339, -84.318453], [33.79117899999998, -84.318419], [33.791008999999974, -84.318382], [33.791047000000034, -84.318198], [33.79109100000006, -84.317986], [33.791150999999964, -84.317698], [33.79101500000001, -84.317672], [33.790961000000046, -84.317661], [33.790952000000004, -84.317692], [33.790937000000035, -84.317689], [33.790748, -84.317653], [33.79075199999996, -84.317621], [33.79041700000004, -84.317556], [33.78996999999999, -84.318243], [33.78970200000001, -84.318747], [33.789297999999995, -84.319579], [33.789042, -84.320235], [33.78882800000003, -84.32092000000002], [33.78881100000002, -84.320946], [33.78874099999999, -84.321186], [33.78850800000002, -84.322145], [33.788258999999975, -84.323489], [33.78823799999996, -84.323712], [33.78823199999998, -84.324198], [33.78823799999996, -84.32448000000001], [33.78824500000001, -84.325522], [33.78838600000003, -84.325893], [33.788472000000034, -84.326176], [33.78855100000002, -84.326305], [33.788741999999985, -84.326542], [33.78910599999999, -84.326956], [33.789521, -84.327399], [33.78967699999998, -84.327546], [33.789831, -84.327673], [33.79038300000005, -84.327902], [33.79046099999997, -84.328003], [33.790497999999985, -84.32805], [33.790513, -84.328071], [33.79064000000001, -84.328295], [33.79072400000005, -84.32848], [33.790893999999966, -84.328514], [33.79127100000004, -84.328617], [33.791359999999976, -84.328647], [33.791621, -84.328736], [33.791985, -84.32880800000001], [33.792281999999986, -84.328893], [33.792529, -84.328926], [33.792609000000006, -84.328949], [33.79281000000001, -84.328969], [33.793105, -84.329108], [33.793382999999956, -84.329259], [33.79363799999997, -84.329579], [33.793808000000034, -84.32988], [33.793838999999984, -84.329935], [33.79412199999998, -84.330152], [33.79439199999999, -84.330205], [33.79467200000003, -84.330138], [33.79498100000001, -84.33011], [33.795302000000035, -84.33010400000002], [33.79573400000002, -84.330111], [33.79589999999999, -84.33025], [33.79610499999999, -84.330639], [33.79625999999998, -84.330746], [33.796452, -84.330851], [33.79694400000001, -84.33094], [33.797098, -84.331057], [33.79739899999995, -84.331457], [33.797772000000016, -84.331981], [33.798144000000015, -84.332364], [33.79823200000001, -84.332443], [33.79859400000001, -84.332696], [33.79886300000003, -84.332772], [33.799147999999974, -84.332956], [33.799370999999994, -84.333035], [33.79954199999995, -84.333152], [33.79990500000003, -84.333524], [33.80031500000002, -84.333806], [33.80083199999998, -84.334307], [33.80100699999999, -84.334575], [33.80116000000002, -84.334835], [33.80132900000003, -84.335152], [33.80133999999997, -84.33517900000001], [33.80141900000003, -84.33549], [33.80149800000002, -84.335732], [33.801606999999976, -84.335715], [33.801696999999955, -84.335713], [33.80178700000001, -84.33572], [33.80187599999999, -84.335737], [33.80269100000002, -84.336032], [33.80285199999995, -84.336105], [33.80288899999998, -84.336107], [33.80298800000001, -84.336072], [33.803041571045384, -84.33602294023527]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b1d1b36d5e15b0f5dfbe4b1b54dac716);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_2f410e58f9cbaf72f3067da4e2745fa6);
         
     
-        var popup_f2560114bf8b81ca387bd566b8e0505f = L.popup({"maxWidth": "100%"});
+        var popup_4ea2c994043e78902a4d81f8c70bbca1 = L.popup({"maxWidth": 300});
 
         
             
-                var html_cffbf1a4d7e7356871c6f9a5f572fe78 = $(`<div id="html_cffbf1a4d7e7356871c6f9a5f572fe78" style="width: 100.0%; height: 100.0%;"><b>DeKalb - GA-CD05</b></div>`)[0];
-                popup_f2560114bf8b81ca387bd566b8e0505f.setContent(html_cffbf1a4d7e7356871c6f9a5f572fe78);
+                var html_88155126ef3583e64f3fef8e96f777f4 = $(`<div id="html_88155126ef3583e64f3fef8e96f777f4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> DeKalb - GA-CD05</h4>                              </div>         </div>`)[0];
+                popup_4ea2c994043e78902a4d81f8c70bbca1.setContent(html_88155126ef3583e64f3fef8e96f777f4);
             
         
 
-        polygon_5b1506f618c93d3a35015219b39c8e35.bindPopup(popup_f2560114bf8b81ca387bd566b8e0505f)
+        polygon_77387b7c2a74abaf0569ab6c0de8b6a1.bindPopup(popup_4ea2c994043e78902a4d81f8c70bbca1)
         ;
 
         
     
     
-            var circle_marker_66c630c34691f6232ebc7289517f25d4 = L.circleMarker(
-                [33.795594930559695, -84.32560832807447],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b1d1b36d5e15b0f5dfbe4b1b54dac716);
-        
-    
-        var popup_02bdf1e7e4f3dc95163541d86767b358 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_b79842a8b5713c5f586e0de79f83230d = $(`<div id="html_b79842a8b5713c5f586e0de79f83230d" style="width: 100.0%; height: 100.0%;"><b>DeKalb - GA-CD05</b></div>`)[0];
-                popup_02bdf1e7e4f3dc95163541d86767b358.setContent(html_b79842a8b5713c5f586e0de79f83230d);
-            
-        
-
-        circle_marker_66c630c34691f6232ebc7289517f25d4.bindPopup(popup_02bdf1e7e4f3dc95163541d86767b358)
-        ;
-
-        
-    
-    
-            circle_marker_66c630c34691f6232ebc7289517f25d4.bindTooltip(
+            polygon_77387b7c2a74abaf0569ab6c0de8b6a1.bindTooltip(
                 `<div>
-                     DeKalb - GA-CD05
+                      DeKalb - GA-CD05
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_81f63bd3b6a9483e26f81d6cf8610071 = L.polygon(
+            var polygon_0c3e745727ac40370963f58db97b65f1 = L.polygon(
                 [[33.80308300000003, -84.335985], [33.80313, -84.335815], [33.80314399999996, -84.33561300000001], [33.803169000000004, -84.335231], [33.80329000000005, -84.334638], [33.803330999999964, -84.334537], [33.80336600000006, -84.334437], [33.80344499999997, -84.334243], [33.80353599999999, -84.334057], [33.803590999999955, -84.33396300000001], [33.80363899999998, -84.33388], [33.80376099999999, -84.33370300000001], [33.80365500000002, -84.33361300000001], [33.80319300000004, -84.333294], [33.80307300000002, -84.3332], [33.80277699999995, -84.3329], [33.80260780313226, -84.33270179752911], [33.803041571045384, -84.33602294023527], [33.80308300000003, -84.335985]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b1d1b36d5e15b0f5dfbe4b1b54dac716);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_2f410e58f9cbaf72f3067da4e2745fa6);
         
     
-        var popup_90ce6057d8bad79cf25daff7c5c8ed23 = L.popup({"maxWidth": "100%"});
+        var popup_0b860769b9cf8c45e8fa4edff44aa2f8 = L.popup({"maxWidth": 300});
 
         
             
-                var html_62b4ba88c1d75fbf4032727d3d7af6db = $(`<div id="html_62b4ba88c1d75fbf4032727d3d7af6db" style="width: 100.0%; height: 100.0%;"><b>DeKalb - GA-CD04</b></div>`)[0];
-                popup_90ce6057d8bad79cf25daff7c5c8ed23.setContent(html_62b4ba88c1d75fbf4032727d3d7af6db);
+                var html_77a98cf8e1f942d656f9e0f3333975af = $(`<div id="html_77a98cf8e1f942d656f9e0f3333975af" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> DeKalb - GA-CD04</h4>                              </div>         </div>`)[0];
+                popup_0b860769b9cf8c45e8fa4edff44aa2f8.setContent(html_77a98cf8e1f942d656f9e0f3333975af);
             
         
 
-        polygon_81f63bd3b6a9483e26f81d6cf8610071.bindPopup(popup_90ce6057d8bad79cf25daff7c5c8ed23)
+        polygon_0c3e745727ac40370963f58db97b65f1.bindPopup(popup_0b860769b9cf8c45e8fa4edff44aa2f8)
         ;
 
         
     
     
-            var circle_marker_42b0665df3fb78dc02202a706bbe9ec4 = L.circleMarker(
-                [33.80325870390408, -84.33441151251391],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b1d1b36d5e15b0f5dfbe4b1b54dac716);
-        
-    
-        var popup_cd521a37f3b543b14dbc76d4f3c360a5 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_d451fa6c6d14262d702618695fd64d72 = $(`<div id="html_d451fa6c6d14262d702618695fd64d72" style="width: 100.0%; height: 100.0%;"><b>DeKalb - GA-CD04</b></div>`)[0];
-                popup_cd521a37f3b543b14dbc76d4f3c360a5.setContent(html_d451fa6c6d14262d702618695fd64d72);
-            
-        
-
-        circle_marker_42b0665df3fb78dc02202a706bbe9ec4.bindPopup(popup_cd521a37f3b543b14dbc76d4f3c360a5)
-        ;
-
-        
-    
-    
-            circle_marker_42b0665df3fb78dc02202a706bbe9ec4.bindTooltip(
+            polygon_0c3e745727ac40370963f58db97b65f1.bindTooltip(
                 `<div>
-                     DeKalb - GA-CD04
+                      DeKalb - GA-CD04
                  </div>`,
                 {"sticky": true}
             );

@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d20eea2a39216ff8051abbce7bba532f {
+                #map_f4543ccd3f6198b42e4c6e466e7b5cb2 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD40</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD46</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD46</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD40</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD46</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD46</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Orange - CA-CD40</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD40</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD46</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Orange - CA-CD46</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Orange - CA-CD46</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Orange - CA-CD46</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_d20eea2a39216ff8051abbce7bba532f" ></div>
+            <div class="folium-map" id="map_f4543ccd3f6198b42e4c6e466e7b5cb2" ></div>
         
 </body>
 <script>
     
     
-            var map_d20eea2a39216ff8051abbce7bba532f = L.map(
-                "map_d20eea2a39216ff8051abbce7bba532f",
+            var map_f4543ccd3f6198b42e4c6e466e7b5cb2 = L.map(
+                "map_f4543ccd3f6198b42e4c6e466e7b5cb2",
                 {
                     center: [33.784298164343355, -117.84531506743754],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_f4543ccd3f6198b42e4c6e466e7b5cb2);
 
             
 
         
     
-            var tile_layer_cb26e4febd06d6f1baed69ff57ecdc8d = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_40ba7ce8815b812571998fd3cb296aae = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_cb26e4febd06d6f1baed69ff57ecdc8d.addTo(map_d20eea2a39216ff8051abbce7bba532f);
+            tile_layer_40ba7ce8815b812571998fd3cb296aae.addTo(map_f4543ccd3f6198b42e4c6e466e7b5cb2);
         
     
-            var polygon_95e8640e1b6ec08d3f2ac6d2a225c60e = L.polygon(
+            var polygon_f1e3a50719c695dd9fa3afd79e9988b7 = L.polygon(
                 [[33.78782800000002, -117.835257], [33.78782500000001, -117.833837], [33.787823999999965, -117.83336399999999], [33.787822999999975, -117.833045], [33.787822000000006, -117.83249599999999], [33.78781899999996, -117.831201], [33.78741599999998, -117.83120200000002], [33.78500700000006, -117.83122699999998], [33.78491399999997, -117.83122099999999], [33.784419999999955, -117.831204], [33.78386800000006, -117.831229], [33.78208600000002, -117.831234], [33.78073000000003, -117.83123499999999], [33.780541000000014, -117.831231], [33.77889199999999, -117.83119900000001], [33.776947000000014, -117.831207], [33.776918, -117.831177], [33.77537400000001, -117.83116200000002], [33.77392399999998, -117.831146], [33.77326099999999, -117.831133], [33.77326099999999, -117.83132], [33.77326199999995, -117.83152100000001], [33.77326199999995, -117.83200600000002], [33.77326199999995, -117.832693], [33.77325800000003, -117.833461], [33.773257000000015, -117.83352399999998], [33.77325599999995, -117.833946], [33.773257000000015, -117.834305], [33.773260000000036, -117.83538400000002], [33.77326099999999, -117.83574400000002], [33.77326099999999, -117.835921], [33.77326199999995, -117.836454], [33.77326299999997, -117.836632], [33.77326099999999, -117.837017], [33.77326088934305, -117.83704312064296], [33.775095851701714, -117.8368745907549], [33.775101000000014, -117.836789], [33.77510199999998, -117.83657900000001], [33.775105999999994, -117.835951], [33.77510800000002, -117.83574200000001], [33.77550499999999, -117.835741], [33.77591111036064, -117.83679971163805], [33.787828944998914, -117.83570490550088], [33.78782800000002, -117.835257]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d20eea2a39216ff8051abbce7bba532f);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f4543ccd3f6198b42e4c6e466e7b5cb2);
         
     
-        var popup_c82897f423ce4090b34bd4d56eed5833 = L.popup({"maxWidth": "100%"});
+        var popup_e28a92f583c5ecc6956dd22255aedd93 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d12a7cb687ad5481337afc865dd443bc = $(`<div id="html_d12a7cb687ad5481337afc865dd443bc" style="width: 100.0%; height: 100.0%;"><b>Orange - CA-CD40</b></div>`)[0];
-                popup_c82897f423ce4090b34bd4d56eed5833.setContent(html_d12a7cb687ad5481337afc865dd443bc);
+                var html_dc859c41f8ba95464397dbaa79b9f757 = $(`<div id="html_dc859c41f8ba95464397dbaa79b9f757" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Orange - CA-CD40</h4>                              </div>         </div>`)[0];
+                popup_e28a92f583c5ecc6956dd22255aedd93.setContent(html_dc859c41f8ba95464397dbaa79b9f757);
             
         
 
-        polygon_95e8640e1b6ec08d3f2ac6d2a225c60e.bindPopup(popup_c82897f423ce4090b34bd4d56eed5833)
+        polygon_f1e3a50719c695dd9fa3afd79e9988b7.bindPopup(popup_e28a92f583c5ecc6956dd22255aedd93)
         ;
 
         
     
     
-            var circle_marker_d256605239f73fd79e4dfe41ff398a7d = L.circleMarker(
-                [33.77847110900918, -117.83360037110312],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d20eea2a39216ff8051abbce7bba532f);
-        
-    
-        var popup_2c3faca67f44bad8af0411e3f46dcf8a = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_101082a134584246fb4ed13eadb67ba8 = $(`<div id="html_101082a134584246fb4ed13eadb67ba8" style="width: 100.0%; height: 100.0%;"><b>Orange - CA-CD40</b></div>`)[0];
-                popup_2c3faca67f44bad8af0411e3f46dcf8a.setContent(html_101082a134584246fb4ed13eadb67ba8);
-            
-        
-
-        circle_marker_d256605239f73fd79e4dfe41ff398a7d.bindPopup(popup_2c3faca67f44bad8af0411e3f46dcf8a)
-        ;
-
-        
-    
-    
-            circle_marker_d256605239f73fd79e4dfe41ff398a7d.bindTooltip(
+            polygon_f1e3a50719c695dd9fa3afd79e9988b7.bindTooltip(
                 `<div>
-                     Orange - CA-CD40
+                      Orange - CA-CD40
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_efd056fb32369b91afe99d400bdc631e = L.polygon(
+            var polygon_837094ab68898c08d25ed3e2a43b8e07 = L.polygon(
                 [[33.77972100000005, -117.857464], [33.77989799999998, -117.857464], [33.78043199999997, -117.857464], [33.78061000000004, -117.857464], [33.781179999999964, -117.857463], [33.78289199999996, -117.85746200000001], [33.783463000000005, -117.85746200000001], [33.78361800000003, -117.85746200000001], [33.78408700000001, -117.85746200000001], [33.78424299999998, -117.85746200000001], [33.78439000000002, -117.85746200000001], [33.78483399999997, -117.85746200000001], [33.784981999999964, -117.85746200000001], [33.78519699999996, -117.85746100000001], [33.78584300000003, -117.85746100000001], [33.78605900000001, -117.85746100000001], [33.78642099999999, -117.85746], [33.787511, -117.85746], [33.78787399999998, -117.85746], [33.78787399999998, -117.85735900000002], [33.78787399999998, -117.85705600000001], [33.78787399999996, -117.856955], [33.78823700000001, -117.856953], [33.78860699999996, -117.856951], [33.789329, -117.85694800000002], [33.78969299999999, -117.856947], [33.78969200000003, -117.857049], [33.789688000000005, -117.85735700000001], [33.78968799999998, -117.85746], [33.79005199999999, -117.857459], [33.79114700000003, -117.857459], [33.79151199999998, -117.857459], [33.79188300000002, -117.857458], [33.792996, -117.857458], [33.793020999999975, -117.857458], [33.79336699999999, -117.857453], [33.79371899999993, -117.857448], [33.794775, -117.85743199999999], [33.79512800000005, -117.857428], [33.795126999999994, -117.857395], [33.795126999999994, -117.857297], [33.795126999999994, -117.857265], [33.795125999999996, -117.85708100000001], [33.79512399999998, -117.85653099999999], [33.79512399999996, -117.85634800000001], [33.795122999999975, -117.85613100000002], [33.79512, -117.855479], [33.79512, -117.855263], [33.795119, -117.85504400000002], [33.79511600000001, -117.854388], [33.79511600000001, -117.85417], [33.795115000000045, -117.853952], [33.79511200000001, -117.85329900000002], [33.795112000000046, -117.853082], [33.79511100000003, -117.852864], [33.795109999999994, -117.85253800000001], [33.795108000000006, -117.852212], [33.795107999999985, -117.851995], [33.79510700000005, -117.85177400000002], [33.79510700000005, -117.851452], [33.795103999999974, -117.851114], [33.795103000000005, -117.850895], [33.79510199999999, -117.85067999999998], [33.795100999999974, -117.850035], [33.79510099999997, -117.849821], [33.79509999999998, -117.84960099999999], [33.795099000000015, -117.84926499999999], [33.79509799999998, -117.848942], [33.79509800000001, -117.848723], [33.79509599999997, -117.84838299999998], [33.79509599999997, -117.848289], [33.79465199999999, -117.848296], [33.79464499999999, -117.846661], [33.79464199999999, -117.84655400000001], [33.79482700000001, -117.846553], [33.794909, -117.846553], [33.79508999999999, -117.846553], [33.79508900000002, -117.846334], [33.795087, -117.84568000000002], [33.795087, -117.845462], [33.79508599999999, -117.84524200000001], [33.795083, -117.84458400000001], [33.795083, -117.84436500000001], [33.795082, -117.84414600000001], [33.79508, -117.843489], [33.79508, -117.84327], [33.79507800000001, -117.842919], [33.795077999999975, -117.842733], [33.795075, -117.841866], [33.795074, -117.84151600000001], [33.79507300000002, -117.84120099999998], [33.79507199999998, -117.84113], [33.79364300000001, -117.84113100000002], [33.79361999999992, -117.84004700000001], [33.794175999999986, -117.84004200000001], [33.794173, -117.839281], [33.79407200000001, -117.83928200000001], [33.794067000000005, -117.837969], [33.794063, -117.83785900000001], [33.79446900000004, -117.837857], [33.79467400000002, -117.83785599999999], [33.79475100000003, -117.83785500000002], [33.794983999999985, -117.83785300000001], [33.795061999999994, -117.83785300000001], [33.795061, -117.83766900000002], [33.79505899999998, -117.83711699999999], [33.79505899999998, -117.83693400000001], [33.79505899999998, -117.836841], [33.79467799999998, -117.836843], [33.79437800000001, -117.836843], [33.79438000000004, -117.83633699999999], [33.79238600000002, -117.83636300000002], [33.79238600000002, -117.83654999999999], [33.792162000000005, -117.83655599999999], [33.79215999999996, -117.836374], [33.791442000000025, -117.836372], [33.791441999999996, -117.83618900000002], [33.791441999999996, -117.835936], [33.791442000000025, -117.83570600000002], [33.787829, -117.83573099999998], [33.787828944998914, -117.83570490550088], [33.77591111036064, -117.83679971163805], [33.77619199999996, -117.83753200000001], [33.776405, -117.839278], [33.776389999999985, -117.840033], [33.77639199999998, -117.8401], [33.77656799999997, -117.8401], [33.77656199999998, -117.840239], [33.77655399999996, -117.840403], [33.77654500000005, -117.840592], [33.77653799999999, -117.840754], [33.776531999999975, -117.840872], [33.776526999999966, -117.84096000000001], [33.77651299999999, -117.841224], [33.77650900000003, -117.841313], [33.77650100000004, -117.841473], [33.776482999999956, -117.841839], [33.77647199999997, -117.841956], [33.77645899999999, -117.842117], [33.77644699999995, -117.842259], [33.77644300000004, -117.842286], [33.77639699999997, -117.842678], [33.776379000000034, -117.84279199999999], [33.776352999999986, -117.842961], [33.776335999999986, -117.84307400000002], [33.776299999999964, -117.84326000000001], [33.776256999999966, -117.843487], [33.776165000000006, -117.843895], [33.77609799999995, -117.844151], [33.77609499999999, -117.844164], [33.77601899999997, -117.844445], [33.77585099999996, -117.845058], [33.77548999999997, -117.84638299999999], [33.77538499999999, -117.84682499999998], [33.77536699999997, -117.84690499999999], [33.77529099999999, -117.84727100000002], [33.775245, -117.84753], [33.775234000000026, -117.847587], [33.77520300000005, -117.847765], [33.77519500000002, -117.84781799999999], [33.77516000000001, -117.84806000000002], [33.775127999999995, -117.848287], [33.77508700000003, -117.848678], [33.77507899999998, -117.848789], [33.77507800000004, -117.848804], [33.77506700000001, -117.84898000000001], [33.775063, -117.84903399999999], [33.77505, -117.84948800000001], [33.775052999999986, -117.849885], [33.775074000000004, -117.85031900000001], [33.77510800000004, -117.850713], [33.77516299999998, -117.85115400000001], [33.775247000000014, -117.85167800000002], [33.77533999999999, -117.852155], [33.775438, -117.85258500000002], [33.77555399999999, -117.853031], [33.775581000000045, -117.853127], [33.77572299999998, -117.85360700000001], [33.77584500000001, -117.853958], [33.77598999999997, -117.854347], [33.77607699999998, -117.854568], [33.776267999999995, -117.85501100000002], [33.77643600000004, -117.85540800000001], [33.776671, -117.85595799999999], [33.777016, -117.856809], [33.777247, -117.85740400000002], [33.777505, -117.85744900000002], [33.777596, -117.857465], [33.777736999999995, -117.857464], [33.77922499999999, -117.857464], [33.77972100000005, -117.857464]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d20eea2a39216ff8051abbce7bba532f);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f4543ccd3f6198b42e4c6e466e7b5cb2);
         
     
-        var popup_bf8fc877da57af180a837e3add450638 = L.popup({"maxWidth": "100%"});
+        var popup_ddb0b2f1a21929057a4f21732d1202c2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_d104d27c48fd22092a6015f4f6e961d8 = $(`<div id="html_d104d27c48fd22092a6015f4f6e961d8" style="width: 100.0%; height: 100.0%;"><b>Orange - CA-CD46</b></div>`)[0];
-                popup_bf8fc877da57af180a837e3add450638.setContent(html_d104d27c48fd22092a6015f4f6e961d8);
+                var html_780785d9d01452517407ea6ef4a2248f = $(`<div id="html_780785d9d01452517407ea6ef4a2248f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Orange - CA-CD46</h4>                              </div>         </div>`)[0];
+                popup_ddb0b2f1a21929057a4f21732d1202c2.setContent(html_780785d9d01452517407ea6ef4a2248f);
             
         
 
-        polygon_efd056fb32369b91afe99d400bdc631e.bindPopup(popup_bf8fc877da57af180a837e3add450638)
+        polygon_837094ab68898c08d25ed3e2a43b8e07.bindPopup(popup_ddb0b2f1a21929057a4f21732d1202c2)
         ;
 
         
     
     
-            var circle_marker_eabef2ebc8aea6b931b9a5b4a9759128 = L.circleMarker(
-                [33.78628700552544, -117.8484712702468],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d20eea2a39216ff8051abbce7bba532f);
-        
-    
-        var popup_e46588a25dd7649c42acfcf91f394ef6 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2c736804b4f66be9d6b1440a0f1c0312 = $(`<div id="html_2c736804b4f66be9d6b1440a0f1c0312" style="width: 100.0%; height: 100.0%;"><b>Orange - CA-CD46</b></div>`)[0];
-                popup_e46588a25dd7649c42acfcf91f394ef6.setContent(html_2c736804b4f66be9d6b1440a0f1c0312);
-            
-        
-
-        circle_marker_eabef2ebc8aea6b931b9a5b4a9759128.bindPopup(popup_e46588a25dd7649c42acfcf91f394ef6)
-        ;
-
-        
-    
-    
-            circle_marker_eabef2ebc8aea6b931b9a5b4a9759128.bindTooltip(
+            polygon_837094ab68898c08d25ed3e2a43b8e07.bindTooltip(
                 `<div>
-                     Orange - CA-CD46
+                      Orange - CA-CD46
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_080a9bcb24bcab1eeb8d6e6e91598800 = L.polygon(
+            var polygon_75e30edb454d0c23bd64db4c89295f41 = L.polygon(
                 [[33.77326000000002, -117.837253], [33.77325400000002, -117.838172], [33.77325199999998, -117.83855799999999], [33.77325000000005, -117.83872300000002], [33.77324900000003, -117.839013], [33.774931, -117.83901200000001], [33.77509699999999, -117.83901200000001], [33.77509699999999, -117.838557], [33.775093000000005, -117.83692200000002], [33.775095851701714, -117.8368745907549], [33.77326088934305, -117.83704312064296], [33.77326000000002, -117.837253]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d20eea2a39216ff8051abbce7bba532f);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_f4543ccd3f6198b42e4c6e466e7b5cb2);
         
     
-        var popup_d0a2057a963ff71c55dcaa1ee1fac38a = L.popup({"maxWidth": "100%"});
+        var popup_f5f4e1fdd5d416f87954e197cc5ddee2 = L.popup({"maxWidth": 300});
 
         
             
-                var html_01d8aa4cc85ee63571f62f925fd2475b = $(`<div id="html_01d8aa4cc85ee63571f62f925fd2475b" style="width: 100.0%; height: 100.0%;"><b>Orange - CA-CD46</b></div>`)[0];
-                popup_d0a2057a963ff71c55dcaa1ee1fac38a.setContent(html_01d8aa4cc85ee63571f62f925fd2475b);
+                var html_6d72878d3d8dec1071e8309704886c4f = $(`<div id="html_6d72878d3d8dec1071e8309704886c4f" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Orange - CA-CD46</h4>                              </div>         </div>`)[0];
+                popup_f5f4e1fdd5d416f87954e197cc5ddee2.setContent(html_6d72878d3d8dec1071e8309704886c4f);
             
         
 
-        polygon_080a9bcb24bcab1eeb8d6e6e91598800.bindPopup(popup_d0a2057a963ff71c55dcaa1ee1fac38a)
+        polygon_75e30edb454d0c23bd64db4c89295f41.bindPopup(popup_f5f4e1fdd5d416f87954e197cc5ddee2)
         ;
 
         
     
     
-            var circle_marker_fde10896c22e76da3ef5126c95199319 = L.circleMarker(
-                [33.77400831175374, -117.8380327259498],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d20eea2a39216ff8051abbce7bba532f);
-        
-    
-        var popup_1a8031ddd135b14a7037d7b2adeadd6b = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_eab9cdef6237968dc3fe9f81b373c18a = $(`<div id="html_eab9cdef6237968dc3fe9f81b373c18a" style="width: 100.0%; height: 100.0%;"><b>Orange - CA-CD46</b></div>`)[0];
-                popup_1a8031ddd135b14a7037d7b2adeadd6b.setContent(html_eab9cdef6237968dc3fe9f81b373c18a);
-            
-        
-
-        circle_marker_fde10896c22e76da3ef5126c95199319.bindPopup(popup_1a8031ddd135b14a7037d7b2adeadd6b)
-        ;
-
-        
-    
-    
-            circle_marker_fde10896c22e76da3ef5126c95199319.bindTooltip(
+            polygon_75e30edb454d0c23bd64db4c89295f41.bindTooltip(
                 `<div>
-                     Orange - CA-CD46
+                      Orange - CA-CD46
                  </div>`,
                 {"sticky": true}
             );

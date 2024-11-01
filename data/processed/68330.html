@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_610aceb38b0865a9f40b4f1b203423f4 {
+                #map_d8ab5b64c8e4f3d34c1df705b8149334 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Seward - NE-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Seward - NE-CD03</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Seward - NE-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Seward - NE-CD03</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Seward - NE-CD01</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Seward - NE-CD03</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_610aceb38b0865a9f40b4f1b203423f4" ></div>
+            <div class="folium-map" id="map_d8ab5b64c8e4f3d34c1df705b8149334" ></div>
         
 </body>
 <script>
     
     
-            var map_610aceb38b0865a9f40b4f1b203423f4 = L.map(
-                "map_610aceb38b0865a9f40b4f1b203423f4",
+            var map_d8ab5b64c8e4f3d34c1df705b8149334 = L.map(
+                "map_d8ab5b64c8e4f3d34c1df705b8149334",
                 {
                     center: [40.71066536820887, -97.34567068167556],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_d8ab5b64c8e4f3d34c1df705b8149334);
 
             
 
         
     
-            var tile_layer_eec45b5dc2bf4f753cc7e3719f765f9b = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_07a7bc11b72c200ec5eaee9876a8a32c = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_eec45b5dc2bf4f753cc7e3719f765f9b.addTo(map_610aceb38b0865a9f40b4f1b203423f4);
+            tile_layer_07a7bc11b72c200ec5eaee9876a8a32c.addTo(map_d8ab5b64c8e4f3d34c1df705b8149334);
         
     
-            var polygon_beff48fe4ebde709b6c297880e1afedb = L.polygon(
+            var polygon_6755005b2ec43106612043719e6dd3eb = L.polygon(
                 [[40.699965999999996, -97.349322], [40.70146399999996, -97.349291], [40.70295799999997, -97.349254], [40.704360999999984, -97.349226], [40.70586000000005, -97.349189], [40.70700400000001, -97.349151], [40.707286999999994, -97.349141], [40.70877600000002, -97.349142], [40.710271000000006, -97.349137], [40.71313699999996, -97.349156], [40.71313999999999, -97.350533], [40.71450800000001, -97.350521], [40.715841000000026, -97.350517], [40.71584200000001, -97.351213], [40.71583900000002, -97.351905], [40.71538899999999, -97.351904], [40.715082000000024, -97.351906], [40.71486600000006, -97.351908], [40.714588999999975, -97.35191], [40.71460699999996, -97.352613], [40.71462500000001, -97.353262], [40.715003999999965, -97.353267], [40.71512099999995, -97.353268], [40.71539399999998, -97.353271], [40.71585699999999, -97.353276], [40.71587100000002, -97.353891], [40.715884000000024, -97.354641], [40.71609599999998, -97.354634], [40.71632399999998, -97.354626], [40.71656699999998, -97.35461900000001], [40.71663800000005, -97.354599], [40.716850999999956, -97.35444300000002], [40.71692, -97.354376], [40.71723199999997, -97.354074], [40.71723599999995, -97.353287], [40.717503000000015, -97.35328000000001], [40.71767899999999, -97.353276], [40.717748999999976, -97.353275], [40.71792599999998, -97.353283], [40.71800199999998, -97.35325], [40.71848599999998, -97.352812], [40.718531000000034, -97.352747], [40.71856999999999, -97.35269], [40.718606000000044, -97.352527], [40.718633000000025, -97.352382], [40.71862900000001, -97.351885], [40.71862900000001, -97.351414], [40.71862700000004, -97.351221], [40.71862000000007, -97.350538], [40.71924999999999, -97.350534], [40.719239, -97.34993900000002], [40.71918399999998, -97.349151], [40.71910100000004, -97.34915], [40.71863100000002, -97.349148], [40.71761900000003, -97.349143], [40.71725299999997, -97.349147], [40.716594999999984, -97.349154], [40.71637199999997, -97.34915700000002], [40.71614800000001, -97.34916], [40.71583300000003, -97.349159], [40.71449599999996, -97.349153], [40.71418200000004, -97.349154], [40.71412500000002, -97.346691], [40.713125, -97.346715], [40.713124000000015, -97.346423], [40.71310899999999, -97.34328], [40.713115000000016, -97.34051], [40.71311299999999, -97.337908], [40.713105999999975, -97.335047], [40.71312099999999, -97.332198], [40.71311599999997, -97.331363], [40.71310799999997, -97.33006400000001], [40.71236199999999, -97.330067], [40.71134700000003, -97.330071], [40.709986999999984, -97.330123], [40.708709000000006, -97.330125], [40.70726699999997, -97.33014800000001], [40.705837999999964, -97.330142], [40.705656000000005, -97.330144], [40.70494899999998, -97.330153], [40.70452399999998, -97.330151], [40.701867999999955, -97.330206], [40.70050199999999, -97.330268], [40.69863081358872, -97.33031054897889], [40.69862933327314, -97.34936489815001], [40.699965999999996, -97.349322]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_610aceb38b0865a9f40b4f1b203423f4);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d8ab5b64c8e4f3d34c1df705b8149334);
         
     
-        var popup_12347f140f1564a9128eb93038f56865 = L.popup({"maxWidth": "100%"});
+        var popup_fd09f299683a7186f415b133142dda50 = L.popup({"maxWidth": 300});
 
         
             
-                var html_9be561f797b5ec21d252c4298cd44ec2 = $(`<div id="html_9be561f797b5ec21d252c4298cd44ec2" style="width: 100.0%; height: 100.0%;"><b>Seward - NE-CD01</b></div>`)[0];
-                popup_12347f140f1564a9128eb93038f56865.setContent(html_9be561f797b5ec21d252c4298cd44ec2);
+                var html_9f42635dddc908cd68009d6b23899149 = $(`<div id="html_9f42635dddc908cd68009d6b23899149" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Seward - NE-CD01</h4>                              </div>         </div>`)[0];
+                popup_fd09f299683a7186f415b133142dda50.setContent(html_9f42635dddc908cd68009d6b23899149);
             
         
 
-        polygon_beff48fe4ebde709b6c297880e1afedb.bindPopup(popup_12347f140f1564a9128eb93038f56865)
+        polygon_6755005b2ec43106612043719e6dd3eb.bindPopup(popup_fd09f299683a7186f415b133142dda50)
         ;
 
         
     
     
-            var circle_marker_2d5d2916a639442393b880512b01f84e = L.circleMarker(
-                [40.71319647845188, -97.3470115865945],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_610aceb38b0865a9f40b4f1b203423f4);
-        
-    
-        var popup_304d52043195dc11c9c45ac870a86280 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f5c5b4a269ae8c04326e44e498c03676 = $(`<div id="html_f5c5b4a269ae8c04326e44e498c03676" style="width: 100.0%; height: 100.0%;"><b>Seward - NE-CD01</b></div>`)[0];
-                popup_304d52043195dc11c9c45ac870a86280.setContent(html_f5c5b4a269ae8c04326e44e498c03676);
-            
-        
-
-        circle_marker_2d5d2916a639442393b880512b01f84e.bindPopup(popup_304d52043195dc11c9c45ac870a86280)
-        ;
-
-        
-    
-    
-            circle_marker_2d5d2916a639442393b880512b01f84e.bindTooltip(
+            polygon_6755005b2ec43106612043719e6dd3eb.bindTooltip(
                 `<div>
-                     Seward - NE-CD01
+                      Seward - NE-CD01
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_542315f710fe4ab3d48cb12ab7537a4c = L.polygon(
+            var polygon_e79ab4d3058014ffa3ad3c8e1c546de3 = L.polygon(
                 [[40.698551999999985, -97.332672], [40.698561, -97.334], [40.698551999999985, -97.335445], [40.69855799999996, -97.336585], [40.698563999999976, -97.339407], [40.698563999999976, -97.339583], [40.69856200000001, -97.339938], [40.698553999999994, -97.341595], [40.69856499999998, -97.344101], [40.69856699999994, -97.345969], [40.698575, -97.346794], [40.698589, -97.348176], [40.69859500000004, -97.349366], [40.69862933327314, -97.34936489815001], [40.69863081358872, -97.33031054897889], [40.698566999999926, -97.33031200000002], [40.698563999999976, -97.330464], [40.698551999999985, -97.332672]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_610aceb38b0865a9f40b4f1b203423f4);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d8ab5b64c8e4f3d34c1df705b8149334);
         
     
-        var popup_793e6b93821e1d3b77bb8d1b22ee6d4c = L.popup({"maxWidth": "100%"});
+        var popup_44e01298457ef030804a2eaa73df359a = L.popup({"maxWidth": 300});
 
         
             
-                var html_65c7396b2de5b32def6823f2abb96f3c = $(`<div id="html_65c7396b2de5b32def6823f2abb96f3c" style="width: 100.0%; height: 100.0%;"><b>Seward - NE-CD03</b></div>`)[0];
-                popup_793e6b93821e1d3b77bb8d1b22ee6d4c.setContent(html_65c7396b2de5b32def6823f2abb96f3c);
+                var html_0aa41e6b069ff5041ba6e498e8c1be41 = $(`<div id="html_0aa41e6b069ff5041ba6e498e8c1be41" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Seward - NE-CD03</h4>                              </div>         </div>`)[0];
+                popup_44e01298457ef030804a2eaa73df359a.setContent(html_0aa41e6b069ff5041ba6e498e8c1be41);
             
         
 
-        polygon_542315f710fe4ab3d48cb12ab7537a4c.bindPopup(popup_793e6b93821e1d3b77bb8d1b22ee6d4c)
+        polygon_e79ab4d3058014ffa3ad3c8e1c546de3.bindPopup(popup_44e01298457ef030804a2eaa73df359a)
         ;
 
         
     
     
-            var circle_marker_8b8afba738e6ed7f04a0610ee247683b = L.circleMarker(
-                [40.698572285936756, -97.33926413595161],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_610aceb38b0865a9f40b4f1b203423f4);
-        
-    
-        var popup_89aa859240e901db9787e245e0ff7c6e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f213fe743095dc5ccd6eec2f378c6cac = $(`<div id="html_f213fe743095dc5ccd6eec2f378c6cac" style="width: 100.0%; height: 100.0%;"><b>Seward - NE-CD03</b></div>`)[0];
-                popup_89aa859240e901db9787e245e0ff7c6e.setContent(html_f213fe743095dc5ccd6eec2f378c6cac);
-            
-        
-
-        circle_marker_8b8afba738e6ed7f04a0610ee247683b.bindPopup(popup_89aa859240e901db9787e245e0ff7c6e)
-        ;
-
-        
-    
-    
-            circle_marker_8b8afba738e6ed7f04a0610ee247683b.bindTooltip(
+            polygon_e79ab4d3058014ffa3ad3c8e1c546de3.bindTooltip(
                 `<div>
-                     Seward - NE-CD03
+                      Seward - NE-CD03
                  </div>`,
                 {"sticky": true}
             );

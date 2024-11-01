@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_aac87f55043181e2767582f544a7cb34 {
+                #map_20730d24b30028bad24ea6b12cb6fa0a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Union - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Union - NJ-CD07</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Union - NJ-CD10</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Union - NJ-CD07</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Union - NJ-CD10</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Union - NJ-CD07</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_aac87f55043181e2767582f544a7cb34" ></div>
+            <div class="folium-map" id="map_20730d24b30028bad24ea6b12cb6fa0a" ></div>
         
 </body>
 <script>
     
     
-            var map_aac87f55043181e2767582f544a7cb34 = L.map(
-                "map_aac87f55043181e2767582f544a7cb34",
+            var map_20730d24b30028bad24ea6b12cb6fa0a = L.map(
+                "map_20730d24b30028bad24ea6b12cb6fa0a",
                 {
                     center: [40.649623736226204, -74.2600745031561],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_20730d24b30028bad24ea6b12cb6fa0a);
 
             
 
         
     
-            var tile_layer_b08724ba49fbe28beac492440a96e0f7 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_87fa716588f5c7a094a72685d2020cf0 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_b08724ba49fbe28beac492440a96e0f7.addTo(map_aac87f55043181e2767582f544a7cb34);
+            tile_layer_87fa716588f5c7a094a72685d2020cf0.addTo(map_20730d24b30028bad24ea6b12cb6fa0a);
         
     
-            var polygon_1a154c4b3e7acfb661f9aed65bba053a = L.polygon(
+            var polygon_54ae1126522dd135c08fbc89926d19b4 = L.polygon(
                 [[40.657034000000024, -74.283395], [40.657272000000034, -74.28310900000001], [40.65743400000001, -74.283162], [40.658199999999994, -74.28342300000001], [40.65827299999995, -74.282937], [40.658583, -74.28086800000001], [40.65862599999999, -74.280584], [40.658985, -74.27796500000001], [40.65909099999996, -74.277165], [40.659556, -74.27364500000002], [40.65959200000005, -74.273368], [40.66044799999996, -74.266793], [40.660522, -74.266223], [40.66087300000003, -74.26372600000002], [40.66123000000005, -74.261192], [40.66129800000001, -74.260676], [40.66148300000001, -74.259283], [40.661655999999965, -74.25825300000001], [40.661979, -74.25554100000001], [40.662001999999994, -74.25536500000001], [40.662074000000025, -74.254829], [40.66219100000005, -74.253963], [40.66231200000001, -74.253075], [40.66244699999996, -74.252085], [40.66267599999996, -74.250402], [40.66282899999999, -74.249272], [40.66301299999999, -74.24791300000001], [40.66309, -74.247351], [40.66316399999998, -74.246722], [40.66336400000004, -74.24532], [40.663431, -74.244849], [40.66345400000003, -74.24469], [40.663396, -74.244604], [40.662879000000025, -74.243832], [40.66278599999998, -74.243693], [40.66260100000002, -74.243417], [40.662494999999986, -74.243259], [40.66170800000003, -74.242086], [40.66128194504084, -74.24145089019913], [40.657462374403174, -74.23596061232081], [40.65682999999993, -74.235419], [40.65571899999995, -74.234467], [40.654436000000004, -74.233372], [40.65406099999995, -74.234005], [40.653263000000045, -74.235352], [40.652811000000035, -74.236081], [40.652331000000046, -74.236851], [40.65200499999999, -74.237336], [40.65151400000005, -74.238066], [40.65142399999999, -74.238228], [40.65083700000002, -74.239276], [40.65062600000002, -74.239653], [40.65042800000003, -74.24000800000002], [40.650356999999985, -74.24015600000001], [40.650241000000044, -74.240399], [40.649790999999944, -74.241341], [40.649719999999995, -74.241551], [40.649388000000016, -74.242531], [40.64934999999997, -74.242644], [40.64918099999998, -74.243144], [40.64906299999997, -74.243498], [40.64858499999996, -74.244954], [40.64826099999999, -74.245939], [40.647856, -74.247157], [40.64733400000001, -74.248656], [40.64729300000001, -74.248772], [40.646777000000036, -74.249311], [40.646602000000044, -74.249494], [40.646473999999984, -74.249632], [40.646423, -74.24968], [40.64626600000002, -74.249836], [40.646256000000015, -74.249846], [40.646156999999995, -74.249945], [40.64613000000005, -74.249972], [40.645970999999975, -74.250155], [40.64588, -74.250273], [40.645830000000025, -74.250336], [40.64575799999999, -74.250443], [40.645624, -74.250657], [40.64560699999996, -74.250686], [40.64557299999999, -74.250743], [40.64545400000001, -74.25098199999998], [40.64534392959146, -74.25120088328572], [40.64652546236615, -74.27662664003567], [40.64711100000004, -74.277402], [40.64748399999999, -74.27788900000002], [40.64767800000002, -74.278143], [40.648115, -74.27871900000001], [40.64836799999999, -74.279055], [40.648952999999935, -74.279833], [40.64933699999999, -74.280339], [40.64938999999997, -74.280409], [40.64979800000002, -74.280931], [40.649881000000015, -74.281044], [40.650103, -74.28137], [40.650189999999995, -74.281641], [40.65031799999999, -74.282075], [40.65062099999999, -74.281917], [40.65082699999997, -74.28181], [40.651034000000024, -74.28186200000002], [40.651865999999934, -74.28209600000001], [40.65271699999993, -74.282332], [40.65353499999999, -74.282558], [40.654105000000015, -74.282715], [40.654279000000024, -74.282763], [40.65502300000005, -74.285216], [40.65640799999998, -74.283247], [40.65679700000001, -74.283339], [40.657034000000024, -74.283395]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_aac87f55043181e2767582f544a7cb34);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_20730d24b30028bad24ea6b12cb6fa0a);
         
     
-        var popup_6d53d17a66c87462c9efb1000b35ca20 = L.popup({"maxWidth": "100%"});
+        var popup_24de2493ecf96c0165cdb442122c92f7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_60c004f550916e6627e98905305b13c9 = $(`<div id="html_60c004f550916e6627e98905305b13c9" style="width: 100.0%; height: 100.0%;"><b>Union - NJ-CD10</b></div>`)[0];
-                popup_6d53d17a66c87462c9efb1000b35ca20.setContent(html_60c004f550916e6627e98905305b13c9);
+                var html_262d7cd4d30c7acf4d7e5e9ab36ba452 = $(`<div id="html_262d7cd4d30c7acf4d7e5e9ab36ba452" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Union - NJ-CD10</h4>                              </div>         </div>`)[0];
+                popup_24de2493ecf96c0165cdb442122c92f7.setContent(html_262d7cd4d30c7acf4d7e5e9ab36ba452);
             
         
 
-        polygon_1a154c4b3e7acfb661f9aed65bba053a.bindPopup(popup_6d53d17a66c87462c9efb1000b35ca20)
+        polygon_54ae1126522dd135c08fbc89926d19b4.bindPopup(popup_24de2493ecf96c0165cdb442122c92f7)
         ;
 
         
     
     
-            var circle_marker_9e5a9b02facca8fbdbd87dcde399dca3 = L.circleMarker(
-                [40.65390018083854, -74.25840569748479],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_aac87f55043181e2767582f544a7cb34);
-        
-    
-        var popup_c9a1a949d055514c4190d42ffe7ee084 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_bea80cb15a5c3cb0315cdae3e2572f83 = $(`<div id="html_bea80cb15a5c3cb0315cdae3e2572f83" style="width: 100.0%; height: 100.0%;"><b>Union - NJ-CD10</b></div>`)[0];
-                popup_c9a1a949d055514c4190d42ffe7ee084.setContent(html_bea80cb15a5c3cb0315cdae3e2572f83);
-            
-        
-
-        circle_marker_9e5a9b02facca8fbdbd87dcde399dca3.bindPopup(popup_c9a1a949d055514c4190d42ffe7ee084)
-        ;
-
-        
-    
-    
-            circle_marker_9e5a9b02facca8fbdbd87dcde399dca3.bindTooltip(
+            polygon_54ae1126522dd135c08fbc89926d19b4.bindTooltip(
                 `<div>
-                     Union - NJ-CD10
+                      Union - NJ-CD10
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_a35a9c5c14f13e4a7d91007c08fc4a11 = L.polygon(
+            var polygon_8302689586a68ff1affb38461f30428d = L.polygon(
                 [[40.645278999999995, -74.25133], [40.64522399999996, -74.251456], [40.64517399999993, -74.251568], [40.64514399999997, -74.25165], [40.645117000000035, -74.251701], [40.64502700000002, -74.25219], [40.645001000000015, -74.252334], [40.644798000000016, -74.25344700000001], [40.644795000000016, -74.253467], [40.64465700000003, -74.254224], [40.644638, -74.254326], [40.644462, -74.25512], [40.64437000000001, -74.25553300000001], [40.64426200000001, -74.25602300000001], [40.64411900000003, -74.256668], [40.644035999999986, -74.256951], [40.64385199999999, -74.257581], [40.64378200000004, -74.25782], [40.643764, -74.25788], [40.64335500000004, -74.258685], [40.643217000000014, -74.258956], [40.64300499999998, -74.259213], [40.64291399999998, -74.259324], [40.64260599999999, -74.259601], [40.642365999999996, -74.259817], [40.642055000000035, -74.260097], [40.64158799999998, -74.260517], [40.64101600000002, -74.26103], [40.63999399999997, -74.261946], [40.63923700000005, -74.262606], [40.63862800000005, -74.263137], [40.63838900000004, -74.263345], [40.63724400000002, -74.264342], [40.63727300000002, -74.26439], [40.637887000000035, -74.265205], [40.63825799999998, -74.265696], [40.63828500000004, -74.265734], [40.63831099999998, -74.265766], [40.63877300000001, -74.266381], [40.63927300000002, -74.267044], [40.639318000000024, -74.267103], [40.63974500000001, -74.26766900000001], [40.63980600000003, -74.267749], [40.64028700000003, -74.268387], [40.640557, -74.268742], [40.640887999999954, -74.269178], [40.64135700000001, -74.269794], [40.64147000000002, -74.269943], [40.64187500000002, -74.270476], [40.642256000000046, -74.270976], [40.64230499999999, -74.271041], [40.642351999999995, -74.271103], [40.642716000000036, -74.271581], [40.642811, -74.271707], [40.64283500000003, -74.271739], [40.643308, -74.272366], [40.643410000000024, -74.272501], [40.64379999999998, -74.273017], [40.644186000000005, -74.27352800000001], [40.64450200000001, -74.273946], [40.64510200000002, -74.274741], [40.646200999999984, -74.276197], [40.64652546236615, -74.27662664003567], [40.64534392959146, -74.25120088328572], [40.645278999999995, -74.25133]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_aac87f55043181e2767582f544a7cb34);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_20730d24b30028bad24ea6b12cb6fa0a);
         
     
-        var popup_1b317a3a663f1097d128a019c5998544 = L.popup({"maxWidth": "100%"});
+        var popup_895d724f0bb6d2c2d7faf2ff377e6b6d = L.popup({"maxWidth": 300});
 
         
             
-                var html_cbbea1260bc5b51ac94c3245e4d955fd = $(`<div id="html_cbbea1260bc5b51ac94c3245e4d955fd" style="width: 100.0%; height: 100.0%;"><b>Union - NJ-CD07</b></div>`)[0];
-                popup_1b317a3a663f1097d128a019c5998544.setContent(html_cbbea1260bc5b51ac94c3245e4d955fd);
+                var html_38e4baadb647da24a31517fc57d26954 = $(`<div id="html_38e4baadb647da24a31517fc57d26954" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Union - NJ-CD07</h4>                              </div>         </div>`)[0];
+                popup_895d724f0bb6d2c2d7faf2ff377e6b6d.setContent(html_38e4baadb647da24a31517fc57d26954);
             
         
 
-        polygon_a35a9c5c14f13e4a7d91007c08fc4a11.bindPopup(popup_1b317a3a663f1097d128a019c5998544)
+        polygon_8302689586a68ff1affb38461f30428d.bindPopup(popup_895d724f0bb6d2c2d7faf2ff377e6b6d)
         ;
 
         
     
     
-            var circle_marker_a7340bded28822347c4914b500b4a29f = L.circleMarker(
-                [40.64245246756858, -74.26287296189726],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_aac87f55043181e2767582f544a7cb34);
-        
-    
-        var popup_19acd3de5a920b0754cfa6ceb93a436f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_3237b0ba12d307ada0d47106998b725f = $(`<div id="html_3237b0ba12d307ada0d47106998b725f" style="width: 100.0%; height: 100.0%;"><b>Union - NJ-CD07</b></div>`)[0];
-                popup_19acd3de5a920b0754cfa6ceb93a436f.setContent(html_3237b0ba12d307ada0d47106998b725f);
-            
-        
-
-        circle_marker_a7340bded28822347c4914b500b4a29f.bindPopup(popup_19acd3de5a920b0754cfa6ceb93a436f)
-        ;
-
-        
-    
-    
-            circle_marker_a7340bded28822347c4914b500b4a29f.bindTooltip(
+            polygon_8302689586a68ff1affb38461f30428d.bindTooltip(
                 `<div>
-                     Union - NJ-CD07
+                      Union - NJ-CD07
                  </div>`,
                 {"sticky": true}
             );

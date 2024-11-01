@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_023bc6984537e60b61ee92c64fdd2a08 {
+                #map_98dfa45abfead6fb51664d698c78c3e3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Queens - NY-CD12</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Queens - NY-CD07</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Queens - NY-CD12</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Queens - NY-CD07</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Queens - NY-CD12</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Queens - NY-CD07</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_023bc6984537e60b61ee92c64fdd2a08" ></div>
+            <div class="folium-map" id="map_98dfa45abfead6fb51664d698c78c3e3" ></div>
         
 </body>
 <script>
     
     
-            var map_023bc6984537e60b61ee92c64fdd2a08 = L.map(
-                "map_023bc6984537e60b61ee92c64fdd2a08",
+            var map_98dfa45abfead6fb51664d698c78c3e3 = L.map(
+                "map_98dfa45abfead6fb51664d698c78c3e3",
                 {
                     center: [40.74605135362119, -73.9572826761044],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_98dfa45abfead6fb51664d698c78c3e3);
 
             
 
         
     
-            var tile_layer_2ca0cff4ee83ecf80c30b08f0d26b03c = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_46c6bca3a69f562cc13023c8f899e257 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_2ca0cff4ee83ecf80c30b08f0d26b03c.addTo(map_023bc6984537e60b61ee92c64fdd2a08);
+            tile_layer_46c6bca3a69f562cc13023c8f899e257.addTo(map_98dfa45abfead6fb51664d698c78c3e3);
         
     
-            var polygon_dcbf1ef05cfc7ba15955d886c92a0148 = L.polygon(
+            var polygon_f0c74b8d5359f6d363ad832f386cc524 = L.polygon(
                 [[40.74611899999997, -73.959124], [40.74663500000004, -73.958711], [40.74708100000004, -73.958327], [40.74721199999998, -73.958216], [40.74777499999996, -73.957732], [40.747947999999965, -73.957584], [40.74882800000002, -73.956842], [40.74804600000002, -73.954804], [40.74786000000003, -73.954917], [40.747333999999974, -73.95505], [40.747033955634954, -73.95514970321044], [40.74408070230411, -73.95726511445977], [40.74431599999997, -73.958457], [40.74487200000002, -73.957857], [40.74497700000001, -73.958392], [40.74498699999999, -73.958493], [40.74500699999996, -73.958622], [40.74509199999999, -73.959076], [40.74510800000004, -73.959055], [40.745215999999964, -73.959652], [40.745260999999964, -73.959725], [40.746035000000006, -73.959193], [40.74611899999997, -73.959124]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_023bc6984537e60b61ee92c64fdd2a08);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_98dfa45abfead6fb51664d698c78c3e3);
         
     
-        var popup_4d5b9cba1711129954693209ed73b917 = L.popup({"maxWidth": "100%"});
+        var popup_da4fd300ea0f05b8868e1a52c7b6b222 = L.popup({"maxWidth": 300});
 
         
             
-                var html_651c12baf45b4eac62ceb172c1630fd7 = $(`<div id="html_651c12baf45b4eac62ceb172c1630fd7" style="width: 100.0%; height: 100.0%;"><b>Queens - NY-CD12</b></div>`)[0];
-                popup_4d5b9cba1711129954693209ed73b917.setContent(html_651c12baf45b4eac62ceb172c1630fd7);
+                var html_1f1301f1ecf68ca094517920d428be15 = $(`<div id="html_1f1301f1ecf68ca094517920d428be15" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD12</h4>                              </div>         </div>`)[0];
+                popup_da4fd300ea0f05b8868e1a52c7b6b222.setContent(html_1f1301f1ecf68ca094517920d428be15);
             
         
 
-        polygon_dcbf1ef05cfc7ba15955d886c92a0148.bindPopup(popup_4d5b9cba1711129954693209ed73b917)
+        polygon_f0c74b8d5359f6d363ad832f386cc524.bindPopup(popup_da4fd300ea0f05b8868e1a52c7b6b222)
         ;
 
         
     
     
-            var circle_marker_c1fc9aef5f07dd44e5b3a2ab82f1fbca = L.circleMarker(
-                [40.74621489817126, -73.95788555729001],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_023bc6984537e60b61ee92c64fdd2a08);
-        
-    
-        var popup_489802d19df522453953d067236ec723 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_c8b0126485615bc8ca26554644f3ae79 = $(`<div id="html_c8b0126485615bc8ca26554644f3ae79" style="width: 100.0%; height: 100.0%;"><b>Queens - NY-CD12</b></div>`)[0];
-                popup_489802d19df522453953d067236ec723.setContent(html_c8b0126485615bc8ca26554644f3ae79);
-            
-        
-
-        circle_marker_c1fc9aef5f07dd44e5b3a2ab82f1fbca.bindPopup(popup_489802d19df522453953d067236ec723)
-        ;
-
-        
-    
-    
-            circle_marker_c1fc9aef5f07dd44e5b3a2ab82f1fbca.bindTooltip(
+            polygon_f0c74b8d5359f6d363ad832f386cc524.bindTooltip(
                 `<div>
-                     Queens - NY-CD12
+                      Queens - NY-CD12
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_9075b6114c70eaf015abce0f8c7415de = L.polygon(
+            var polygon_bc78dfe51dad6b275fb698ab1ce3a276 = L.polygon(
                 [[40.74669300000001, -73.955263], [40.74663700000004, -73.955282], [40.74594499999996, -73.955514], [40.745251000000046, -73.955741], [40.74449499999998, -73.955992], [40.743871999999996, -73.95620800000002], [40.74408070230411, -73.95726511445977], [40.747033955634954, -73.95514970321044], [40.74669300000001, -73.955263]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_023bc6984537e60b61ee92c64fdd2a08);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_98dfa45abfead6fb51664d698c78c3e3);
         
     
-        var popup_0410250864dd198919d911a6cba02701 = L.popup({"maxWidth": "100%"});
+        var popup_c0d6fce9bb6d0439acad85e4cf8495c0 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b199a1e68fc6ae0471f4d13980d2de6a = $(`<div id="html_b199a1e68fc6ae0471f4d13980d2de6a" style="width: 100.0%; height: 100.0%;"><b>Queens - NY-CD07</b></div>`)[0];
-                popup_0410250864dd198919d911a6cba02701.setContent(html_b199a1e68fc6ae0471f4d13980d2de6a);
+                var html_85637132d967c89922e0ed576347c26b = $(`<div id="html_85637132d967c89922e0ed576347c26b" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Queens - NY-CD07</h4>                              </div>         </div>`)[0];
+                popup_c0d6fce9bb6d0439acad85e4cf8495c0.setContent(html_85637132d967c89922e0ed576347c26b);
             
         
 
-        polygon_9075b6114c70eaf015abce0f8c7415de.bindPopup(popup_0410250864dd198919d911a6cba02701)
+        polygon_bc78dfe51dad6b275fb698ab1ce3a276.bindPopup(popup_c0d6fce9bb6d0439acad85e4cf8495c0)
         ;
 
         
     
     
-            var circle_marker_cd264903d3f03242886bcf056fee0164 = L.circleMarker(
-                [40.745633406437676, -73.95574197974113],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_023bc6984537e60b61ee92c64fdd2a08);
-        
-    
-        var popup_504f1c072d3858e73659a1a10672c609 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_6a2d81bed4592ad3e6af1a3785836c7c = $(`<div id="html_6a2d81bed4592ad3e6af1a3785836c7c" style="width: 100.0%; height: 100.0%;"><b>Queens - NY-CD07</b></div>`)[0];
-                popup_504f1c072d3858e73659a1a10672c609.setContent(html_6a2d81bed4592ad3e6af1a3785836c7c);
-            
-        
-
-        circle_marker_cd264903d3f03242886bcf056fee0164.bindPopup(popup_504f1c072d3858e73659a1a10672c609)
-        ;
-
-        
-    
-    
-            circle_marker_cd264903d3f03242886bcf056fee0164.bindTooltip(
+            polygon_bc78dfe51dad6b275fb698ab1ce3a276.bindTooltip(
                 `<div>
-                     Queens - NY-CD07
+                      Queens - NY-CD07
                  </div>`,
                 {"sticky": true}
             );

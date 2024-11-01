@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_142cf3337938af61799e84cedd278d48 {
+                #map_acb1fa0888b961c8fd4f79b9e087ca74 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Delaware - IN-CD05</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Delaware - IN-CD06</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Delaware - IN-CD05</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Delaware - IN-CD06</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Delaware - IN-CD05</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Delaware - IN-CD06</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_142cf3337938af61799e84cedd278d48" ></div>
+            <div class="folium-map" id="map_acb1fa0888b961c8fd4f79b9e087ca74" ></div>
         
 </body>
 <script>
     
     
-            var map_142cf3337938af61799e84cedd278d48 = L.map(
-                "map_142cf3337938af61799e84cedd278d48",
+            var map_acb1fa0888b961c8fd4f79b9e087ca74 = L.map(
+                "map_acb1fa0888b961c8fd4f79b9e087ca74",
                 {
                     center: [40.08262704382829, -85.39278022104277],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_acb1fa0888b961c8fd4f79b9e087ca74);
 
             
 
         
     
-            var tile_layer_3ebcd6bb776e188fb4b508adfee7b9a3 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_8a8a3eca604ba5d1df60303b0fdf35bc = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_3ebcd6bb776e188fb4b508adfee7b9a3.addTo(map_142cf3337938af61799e84cedd278d48);
+            tile_layer_8a8a3eca604ba5d1df60303b0fdf35bc.addTo(map_acb1fa0888b961c8fd4f79b9e087ca74);
         
     
-            var polygon_aeaebd83c383c907d06550f6dcd6e41c = L.polygon(
+            var polygon_17e3a430096a49a21dd907cca81169af = L.polygon(
                 [[40.07915899999998, -85.394444], [40.080065, -85.394445], [40.08326399999998, -85.394447], [40.08534900000001, -85.394441], [40.08716399999999, -85.394449], [40.08732800000003, -85.394454], [40.08950199999997, -85.39445100000002], [40.089800000000054, -85.394457], [40.09080000000001, -85.394454], [40.09098300000003, -85.394458], [40.09097099999999, -85.393772], [40.09095499999996, -85.391728], [40.090933, -85.389769], [40.08521099999995, -85.389699], [40.08385899999998, -85.389686], [40.081459999999964, -85.389661], [40.07917499999999, -85.389637], [40.07756900000003, -85.38962], [40.07714179830435, -85.38961887478702], [40.07714531529181, -85.39445071981163], [40.07915899999998, -85.394444]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_142cf3337938af61799e84cedd278d48);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_acb1fa0888b961c8fd4f79b9e087ca74);
         
     
-        var popup_eace94ee50cac707edeb6f304a116fc6 = L.popup({"maxWidth": "100%"});
+        var popup_e417588a308d4673ef4766bd6480ab8c = L.popup({"maxWidth": 300});
 
         
             
-                var html_70122412adc0f36f0d4a7d94f58abed1 = $(`<div id="html_70122412adc0f36f0d4a7d94f58abed1" style="width: 100.0%; height: 100.0%;"><b>Delaware - IN-CD05</b></div>`)[0];
-                popup_eace94ee50cac707edeb6f304a116fc6.setContent(html_70122412adc0f36f0d4a7d94f58abed1);
+                var html_ada8e4af3eade35ffda2b72541f6a3e7 = $(`<div id="html_ada8e4af3eade35ffda2b72541f6a3e7" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Delaware - IN-CD05</h4>                              </div>         </div>`)[0];
+                popup_e417588a308d4673ef4766bd6480ab8c.setContent(html_ada8e4af3eade35ffda2b72541f6a3e7);
             
         
 
-        polygon_aeaebd83c383c907d06550f6dcd6e41c.bindPopup(popup_eace94ee50cac707edeb6f304a116fc6)
+        polygon_17e3a430096a49a21dd907cca81169af.bindPopup(popup_e417588a308d4673ef4766bd6480ab8c)
         ;
 
         
     
     
-            var circle_marker_6e675baac8cdd8795517abc2651ca7f6 = L.circleMarker(
-                [40.084618719695044, -85.39269455212373],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_142cf3337938af61799e84cedd278d48);
-        
-    
-        var popup_ff44be2332250e2cbefee7d1f008f4cb = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_e7baabff18d511d2309ba28c1e25b606 = $(`<div id="html_e7baabff18d511d2309ba28c1e25b606" style="width: 100.0%; height: 100.0%;"><b>Delaware - IN-CD05</b></div>`)[0];
-                popup_ff44be2332250e2cbefee7d1f008f4cb.setContent(html_e7baabff18d511d2309ba28c1e25b606);
-            
-        
-
-        circle_marker_6e675baac8cdd8795517abc2651ca7f6.bindPopup(popup_ff44be2332250e2cbefee7d1f008f4cb)
-        ;
-
-        
-    
-    
-            circle_marker_6e675baac8cdd8795517abc2651ca7f6.bindTooltip(
+            polygon_17e3a430096a49a21dd907cca81169af.bindTooltip(
                 `<div>
-                     Delaware - IN-CD05
+                      Delaware - IN-CD05
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_935a685ff01d3f535fe889ce2568e3c7 = L.polygon(
+            var polygon_74675c2596d1e8787104ea51edc1fb93 = L.polygon(
                 [[40.076462000000035, -85.394423], [40.076462000000035, -85.39445300000001], [40.07714531529181, -85.39445071981163], [40.07714179830435, -85.38961887478702], [40.07643, -85.389617], [40.07646099999999, -85.394275], [40.076462000000035, -85.394423]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_142cf3337938af61799e84cedd278d48);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_acb1fa0888b961c8fd4f79b9e087ca74);
         
     
-        var popup_c9d51fa3fe58bbed4cc24dddef1585f6 = L.popup({"maxWidth": "100%"});
+        var popup_0b7a5be8745e808d92f9d870619a5fad = L.popup({"maxWidth": 300});
 
         
             
-                var html_ef765fd757198827b9d1d5075371da74 = $(`<div id="html_ef765fd757198827b9d1d5075371da74" style="width: 100.0%; height: 100.0%;"><b>Delaware - IN-CD06</b></div>`)[0];
-                popup_c9d51fa3fe58bbed4cc24dddef1585f6.setContent(html_ef765fd757198827b9d1d5075371da74);
+                var html_28f95e5933120c38e2d9c69be1ef633e = $(`<div id="html_28f95e5933120c38e2d9c69be1ef633e" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Delaware - IN-CD06</h4>                              </div>         </div>`)[0];
+                popup_0b7a5be8745e808d92f9d870619a5fad.setContent(html_28f95e5933120c38e2d9c69be1ef633e);
             
         
 
-        polygon_935a685ff01d3f535fe889ce2568e3c7.bindPopup(popup_c9d51fa3fe58bbed4cc24dddef1585f6)
+        polygon_74675c2596d1e8787104ea51edc1fb93.bindPopup(popup_0b7a5be8745e808d92f9d870619a5fad)
         ;
 
         
     
     
-            var circle_marker_967f7839f3771ca0a235b3bf2f8e5972 = L.circleMarker(
-                [40.07665201622804, -85.3930372277998],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_142cf3337938af61799e84cedd278d48);
-        
-    
-        var popup_505a5ba2cd9907ff73ec43bb0b453f5f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_0a0ca0a8f26eb6d5f555006496db74f2 = $(`<div id="html_0a0ca0a8f26eb6d5f555006496db74f2" style="width: 100.0%; height: 100.0%;"><b>Delaware - IN-CD06</b></div>`)[0];
-                popup_505a5ba2cd9907ff73ec43bb0b453f5f.setContent(html_0a0ca0a8f26eb6d5f555006496db74f2);
-            
-        
-
-        circle_marker_967f7839f3771ca0a235b3bf2f8e5972.bindPopup(popup_505a5ba2cd9907ff73ec43bb0b453f5f)
-        ;
-
-        
-    
-    
-            circle_marker_967f7839f3771ca0a235b3bf2f8e5972.bindTooltip(
+            polygon_74675c2596d1e8787104ea51edc1fb93.bindTooltip(
                 `<div>
-                     Delaware - IN-CD06
+                      Delaware - IN-CD06
                  </div>`,
                 {"sticky": true}
             );

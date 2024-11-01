@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8344abe941ced7faad454e0f4846e525 {
+                #map_fcecffcc2c02ce301a696592d6c15bef {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Miami-Dade - FL-CD24</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Miami-Dade - FL-CD27</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Miami-Dade - FL-CD24</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Miami-Dade - FL-CD27</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Miami-Dade - FL-CD24</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Miami-Dade - FL-CD27</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_8344abe941ced7faad454e0f4846e525" ></div>
+            <div class="folium-map" id="map_fcecffcc2c02ce301a696592d6c15bef" ></div>
         
 </body>
 <script>
     
     
-            var map_8344abe941ced7faad454e0f4846e525 = L.map(
-                "map_8344abe941ced7faad454e0f4846e525",
+            var map_fcecffcc2c02ce301a696592d6c15bef = L.map(
+                "map_fcecffcc2c02ce301a696592d6c15bef",
                 {
                     center: [25.765049398510325, -80.13419804001659],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_fcecffcc2c02ce301a696592d6c15bef);
 
             
 
         
     
-            var tile_layer_041a744c31796b8eb71dbe6b715462eb = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_345813ecec8f7aeb5ef1cba78c63977e = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_041a744c31796b8eb71dbe6b715462eb.addTo(map_8344abe941ced7faad454e0f4846e525);
+            tile_layer_345813ecec8f7aeb5ef1cba78c63977e.addTo(map_fcecffcc2c02ce301a696592d6c15bef);
         
     
-            var polygon_ee00f10c5f4f9d10109323b1e2ad161f = L.polygon(
+            var polygon_9afb14306f96e260ee5b051654463efa = L.polygon(
                 [[25.766187000000013, -80.13908], [25.765932999999983, -80.138401], [25.766212000000007, -80.138211], [25.76752500000001, -80.137316], [25.767405999999966, -80.137253], [25.76714299999997, -80.137077], [25.76730100000001, -80.136813], [25.767134000000006, -80.136708], [25.767012000000012, -80.13697100000002], [25.766726999999992, -80.136786], [25.766666000000015, -80.136789], [25.76663400000002, -80.136775], [25.766576000000022, -80.136701], [25.766496999999987, -80.136499], [25.76638399999995, -80.136176], [25.766363999999978, -80.136065], [25.76634200000002, -80.13584500000002], [25.766185000000043, -80.135502], [25.765891999999994, -80.134888], [25.765604000000014, -80.134235], [25.765281, -80.133436], [25.764981999999968, -80.132716], [25.764653999999997, -80.131907], [25.764359000000002, -80.131223], [25.764211999999993, -80.130868], [25.764207, -80.130847], [25.764188, -80.13082], [25.76416000000005, -80.130794], [25.764320999999978, -80.130719], [25.764440999999962, -80.130769], [25.764518999999982, -80.130787], [25.765069999999955, -80.130804], [25.765207999999998, -80.130808], [25.765378000000002, -80.13084], [25.765549000000018, -80.130883], [25.76578300000002, -80.130905], [25.766735000000043, -80.130907], [25.767287000000007, -80.130909], [25.767331999999982, -80.130909], [25.767558, -80.13091], [25.76811599999997, -80.130885], [25.768416000000006, -80.130881], [25.76853, -80.130879], [25.768815, -80.130854], [25.768971999999984, -80.130827], [25.769814000000018, -80.130788], [25.770362999999982, -80.130704], [25.770502999999984, -80.130677], [25.771115999999996, -80.13056100000001], [25.771200999999994, -80.130558], [25.771750000000026, -80.130565], [25.771804999999944, -80.130557], [25.77196400000003, -80.130515], [25.77199199999995, -80.130512], [25.771094999999992, -80.125858], [25.770475999999977, -80.12596700000002], [25.76281997430447, -80.12379278548627], [25.762767000000018, -80.123806], [25.761077554132463, -80.12434738029137], [25.760045000000037, -80.124888], [25.749414567668232, -80.13045691033538], [25.765163999999974, -80.136902], [25.76599710852644, -80.13922460743919], [25.766187000000013, -80.13908]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_8344abe941ced7faad454e0f4846e525);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fcecffcc2c02ce301a696592d6c15bef);
         
     
-        var popup_bb6e1312f7def2fbc03fc34a554e9431 = L.popup({"maxWidth": "100%"});
+        var popup_57eb10ebd5a9099037076fb232ff515c = L.popup({"maxWidth": 300});
 
         
             
-                var html_8170bf7dd34d1f098907bb40979141e8 = $(`<div id="html_8170bf7dd34d1f098907bb40979141e8" style="width: 100.0%; height: 100.0%;"><b>Miami-Dade - FL-CD24</b></div>`)[0];
-                popup_bb6e1312f7def2fbc03fc34a554e9431.setContent(html_8170bf7dd34d1f098907bb40979141e8);
+                var html_432eef2676d66997d4319283f3620a85 = $(`<div id="html_432eef2676d66997d4319283f3620a85" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Miami-Dade - FL-CD24</h4>                              </div>         </div>`)[0];
+                popup_57eb10ebd5a9099037076fb232ff515c.setContent(html_432eef2676d66997d4319283f3620a85);
             
         
 
-        polygon_ee00f10c5f4f9d10109323b1e2ad161f.bindPopup(popup_bb6e1312f7def2fbc03fc34a554e9431)
+        polygon_9afb14306f96e260ee5b051654463efa.bindPopup(popup_57eb10ebd5a9099037076fb232ff515c)
         ;
 
         
     
     
-            var circle_marker_fdb07fe0fe693b1dcae3547191cb5678 = L.circleMarker(
-                [25.766489815697366, -80.13251465130551],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_8344abe941ced7faad454e0f4846e525);
-        
-    
-        var popup_deff279047a551cfac3fb3fa5387bcc1 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_f2cd70918f93787d9b824549c85c41fb = $(`<div id="html_f2cd70918f93787d9b824549c85c41fb" style="width: 100.0%; height: 100.0%;"><b>Miami-Dade - FL-CD24</b></div>`)[0];
-                popup_deff279047a551cfac3fb3fa5387bcc1.setContent(html_f2cd70918f93787d9b824549c85c41fb);
-            
-        
-
-        circle_marker_fdb07fe0fe693b1dcae3547191cb5678.bindPopup(popup_deff279047a551cfac3fb3fa5387bcc1)
-        ;
-
-        
-    
-    
-            circle_marker_fdb07fe0fe693b1dcae3547191cb5678.bindTooltip(
+            polygon_9afb14306f96e260ee5b051654463efa.bindTooltip(
                 `<div>
-                     Miami-Dade - FL-CD24
+                      Miami-Dade - FL-CD24
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_a61713027360827ae214a46453bcc4bc = L.polygon(
+            var polygon_794fcb8ea7341cd2248496381ed22d3a = L.polygon(
                 [[25.765113, -80.149117], [25.765357999999996, -80.141862], [25.76544999999999, -80.139157], [25.765688000000015, -80.13946], [25.76599710852644, -80.13922460743919], [25.765163999999974, -80.136902], [25.749414567668232, -80.13045691033538], [25.747676999999992, -80.131367], [25.748546999999995, -80.132538], [25.750577000000018, -80.135267], [25.751076999999988, -80.136067], [25.753096999999975, -80.138966], [25.760977000000004, -80.150268], [25.764276999999996, -80.154968], [25.765077000000034, -80.150168], [25.765113, -80.149117]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_8344abe941ced7faad454e0f4846e525);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_fcecffcc2c02ce301a696592d6c15bef);
         
     
-        var popup_f4a0819ebd26cce53dc5b9f920efa7a7 = L.popup({"maxWidth": "100%"});
+        var popup_4f912883fcdbc2497ac3d885a5cda692 = L.popup({"maxWidth": 300});
 
         
             
-                var html_393eab05d756f43d85962092687b0ccd = $(`<div id="html_393eab05d756f43d85962092687b0ccd" style="width: 100.0%; height: 100.0%;"><b>Miami-Dade - FL-CD27</b></div>`)[0];
-                popup_f4a0819ebd26cce53dc5b9f920efa7a7.setContent(html_393eab05d756f43d85962092687b0ccd);
+                var html_cfe5ac5ef8a4df1e8db27011c9b44a10 = $(`<div id="html_cfe5ac5ef8a4df1e8db27011c9b44a10" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Miami-Dade - FL-CD27</h4>                              </div>         </div>`)[0];
+                popup_4f912883fcdbc2497ac3d885a5cda692.setContent(html_cfe5ac5ef8a4df1e8db27011c9b44a10);
             
         
 
-        polygon_a61713027360827ae214a46453bcc4bc.bindPopup(popup_f4a0819ebd26cce53dc5b9f920efa7a7)
+        polygon_794fcb8ea7341cd2248496381ed22d3a.bindPopup(popup_4f912883fcdbc2497ac3d885a5cda692)
         ;
 
         
     
     
-            var circle_marker_651e4b1ed80be81768feff8cc0067501 = L.circleMarker(
-                [25.759287729762164, -80.1409315948609],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_8344abe941ced7faad454e0f4846e525);
-        
-    
-        var popup_94ed7a9997ae0e2806b93c6be1bd5dbb = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_d4a9fe8f543c043d61f6cd47bad03754 = $(`<div id="html_d4a9fe8f543c043d61f6cd47bad03754" style="width: 100.0%; height: 100.0%;"><b>Miami-Dade - FL-CD27</b></div>`)[0];
-                popup_94ed7a9997ae0e2806b93c6be1bd5dbb.setContent(html_d4a9fe8f543c043d61f6cd47bad03754);
-            
-        
-
-        circle_marker_651e4b1ed80be81768feff8cc0067501.bindPopup(popup_94ed7a9997ae0e2806b93c6be1bd5dbb)
-        ;
-
-        
-    
-    
-            circle_marker_651e4b1ed80be81768feff8cc0067501.bindTooltip(
+            polygon_794fcb8ea7341cd2248496381ed22d3a.bindTooltip(
                 `<div>
-                     Miami-Dade - FL-CD27
+                      Miami-Dade - FL-CD27
                  </div>`,
                 {"sticky": true}
             );

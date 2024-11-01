@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_2d77a1857d62881bee0c1910aac4784c {
+                #map_6a09f61ff7008a551ad9b32ccccb3d88 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Jefferson - AL-CD06</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Jefferson - AL-CD07</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Jefferson - AL-CD06</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Jefferson - AL-CD07</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Jefferson - AL-CD06</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Jefferson - AL-CD07</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_2d77a1857d62881bee0c1910aac4784c" ></div>
+            <div class="folium-map" id="map_6a09f61ff7008a551ad9b32ccccb3d88" ></div>
         
 </body>
 <script>
     
     
-            var map_2d77a1857d62881bee0c1910aac4784c = L.map(
-                "map_2d77a1857d62881bee0c1910aac4784c",
+            var map_6a09f61ff7008a551ad9b32ccccb3d88 = L.map(
+                "map_6a09f61ff7008a551ad9b32ccccb3d88",
                 {
                     center: [33.46455119673528, -86.7946011780337],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_6a09f61ff7008a551ad9b32ccccb3d88);
 
             
 
         
     
-            var tile_layer_dd7eb953362c0994ec9d7ec4278be056 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_9f688ba2f9f14c5ed2079ea2187822da = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_dd7eb953362c0994ec9d7ec4278be056.addTo(map_2d77a1857d62881bee0c1910aac4784c);
+            tile_layer_9f688ba2f9f14c5ed2079ea2187822da.addTo(map_6a09f61ff7008a551ad9b32ccccb3d88);
         
     
-            var polygon_a3fae3bfe033f668cbc77af528522bfe = L.polygon(
+            var polygon_99714394ba639b841ff356760ed5f8c5 = L.polygon(
                 [[33.46781099999999, -86.791493], [33.46731699999997, -86.790806], [33.46724700000002, -86.790708], [33.467238, -86.790395], [33.46722699999999, -86.79008], [33.46717399999998, -86.788692], [33.467147, -86.788055], [33.467701000000005, -86.78734], [33.46775, -86.787338], [33.46774700000001, -86.787236], [33.467738, -86.786954], [33.46708200000002, -86.78680700000001], [33.46656900000003, -86.787081], [33.46621299999999, -86.787039], [33.46501699999998, -86.786162], [33.464911, -86.786119], [33.463906999999985, -86.788391], [33.46315999999995, -86.790153], [33.462938, -86.790642], [33.462801, -86.790944], [33.46242597205404, -86.79177066394038], [33.46780711857769, -86.79173330018872], [33.46781099999999, -86.791493]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2d77a1857d62881bee0c1910aac4784c);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6a09f61ff7008a551ad9b32ccccb3d88);
         
     
-        var popup_984fa037a6253a75d1a4f88c387b1872 = L.popup({"maxWidth": "100%"});
+        var popup_8069ae6d7dcb67fbfbe2b68a9a3a5a2f = L.popup({"maxWidth": 300});
 
         
             
-                var html_0b541f41251a7e95827b10e5a8e9da0b = $(`<div id="html_0b541f41251a7e95827b10e5a8e9da0b" style="width: 100.0%; height: 100.0%;"><b>Jefferson - AL-CD06</b></div>`)[0];
-                popup_984fa037a6253a75d1a4f88c387b1872.setContent(html_0b541f41251a7e95827b10e5a8e9da0b);
+                var html_fed993d6cda0b2fdb2c60d059a117df5 = $(`<div id="html_fed993d6cda0b2fdb2c60d059a117df5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jefferson - AL-CD06</h4>                              </div>         </div>`)[0];
+                popup_8069ae6d7dcb67fbfbe2b68a9a3a5a2f.setContent(html_fed993d6cda0b2fdb2c60d059a117df5);
             
         
 
-        polygon_a3fae3bfe033f668cbc77af528522bfe.bindPopup(popup_984fa037a6253a75d1a4f88c387b1872)
+        polygon_99714394ba639b841ff356760ed5f8c5.bindPopup(popup_8069ae6d7dcb67fbfbe2b68a9a3a5a2f)
         ;
 
         
     
     
-            var circle_marker_b8871141c6e7d4e3cd90f0416018737f = L.circleMarker(
-                [33.46620604741876, -86.7890187810491],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_2d77a1857d62881bee0c1910aac4784c);
-        
-    
-        var popup_e8cfca22c0951ffed0dffdede08ae1f6 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_a734d6ecfe2f7a7cc160820fa7949fa1 = $(`<div id="html_a734d6ecfe2f7a7cc160820fa7949fa1" style="width: 100.0%; height: 100.0%;"><b>Jefferson - AL-CD06</b></div>`)[0];
-                popup_e8cfca22c0951ffed0dffdede08ae1f6.setContent(html_a734d6ecfe2f7a7cc160820fa7949fa1);
-            
-        
-
-        circle_marker_b8871141c6e7d4e3cd90f0416018737f.bindPopup(popup_e8cfca22c0951ffed0dffdede08ae1f6)
-        ;
-
-        
-    
-    
-            circle_marker_b8871141c6e7d4e3cd90f0416018737f.bindTooltip(
+            polygon_99714394ba639b841ff356760ed5f8c5.bindTooltip(
                 `<div>
-                     Jefferson - AL-CD06
+                      Jefferson - AL-CD06
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_8a7f87918860d6429e9b9ee2be2eb542 = L.polygon(
+            var polygon_1882537b8853d165c60974a6d0f5a7fa = L.polygon(
                 [[33.462966999999985, -86.801806], [33.46319100000002, -86.801595], [33.46344499999997, -86.801297], [33.46367900000001, -86.801024], [33.463867000000036, -86.800803], [33.464650999999996, -86.799692], [33.464965, -86.799225], [33.465145000000014, -86.798956], [33.46592499999995, -86.797693], [33.466160999999985, -86.797308], [33.466268000000035, -86.797181], [33.46634400000001, -86.797041], [33.46605399999999, -86.797076], [33.466062999999984, -86.796653], [33.46618299999998, -86.796467], [33.46629900000002, -86.796463], [33.46686700000003, -86.79601], [33.467437999999966, -86.796013], [33.46732600000001, -86.79283000000001], [33.467319999999965, -86.792695], [33.46779200000001, -86.792669], [33.46780711857769, -86.79173330018872], [33.46242597205404, -86.79177066394038], [33.46204699999999, -86.792606], [33.46186899999999, -86.792997], [33.46152900000001, -86.79369], [33.46147700000003, -86.793795], [33.46138400000001, -86.793983], [33.46121699999995, -86.794344], [33.46031199999998, -86.7963], [33.46024300000003, -86.79645], [33.46016899999996, -86.796611], [33.45975399999998, -86.797513], [33.46204900000001, -86.797486], [33.46205000000002, -86.79767], [33.462046, -86.799119], [33.462063, -86.799525], [33.46206299999997, -86.801207], [33.462063, -86.802025], [33.462063, -86.80228], [33.46207600000001, -86.802458], [33.46221999999998, -86.802588], [33.46234700000002, -86.802393], [33.462966999999985, -86.801806]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_2d77a1857d62881bee0c1910aac4784c);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_6a09f61ff7008a551ad9b32ccccb3d88);
         
     
-        var popup_ecf8c4b0b49d878fca5b201b651d46a3 = L.popup({"maxWidth": "100%"});
+        var popup_7f9e52e1bfe4a03968cc02cec734bd0b = L.popup({"maxWidth": 300});
 
         
             
-                var html_7b14fc9c0d54acab28f46e6fdcfe6334 = $(`<div id="html_7b14fc9c0d54acab28f46e6fdcfe6334" style="width: 100.0%; height: 100.0%;"><b>Jefferson - AL-CD07</b></div>`)[0];
-                popup_ecf8c4b0b49d878fca5b201b651d46a3.setContent(html_7b14fc9c0d54acab28f46e6fdcfe6334);
+                var html_5ad19e4a187f1e24358b220f84a112a5 = $(`<div id="html_5ad19e4a187f1e24358b220f84a112a5" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Jefferson - AL-CD07</h4>                              </div>         </div>`)[0];
+                popup_7f9e52e1bfe4a03968cc02cec734bd0b.setContent(html_5ad19e4a187f1e24358b220f84a112a5);
             
         
 
-        polygon_8a7f87918860d6429e9b9ee2be2eb542.bindPopup(popup_ecf8c4b0b49d878fca5b201b651d46a3)
+        polygon_1882537b8853d165c60974a6d0f5a7fa.bindPopup(popup_7f9e52e1bfe4a03968cc02cec734bd0b)
         ;
 
         
     
     
-            var circle_marker_c1abb5fb6484687f3b13040e98281aa6 = L.circleMarker(
-                [33.46368616115071, -86.79751924918475],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_2d77a1857d62881bee0c1910aac4784c);
-        
-    
-        var popup_6714c1df4c58a48891cfdeedb22828cb = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2a85dab118a2245362e3e08ea99e2672 = $(`<div id="html_2a85dab118a2245362e3e08ea99e2672" style="width: 100.0%; height: 100.0%;"><b>Jefferson - AL-CD07</b></div>`)[0];
-                popup_6714c1df4c58a48891cfdeedb22828cb.setContent(html_2a85dab118a2245362e3e08ea99e2672);
-            
-        
-
-        circle_marker_c1abb5fb6484687f3b13040e98281aa6.bindPopup(popup_6714c1df4c58a48891cfdeedb22828cb)
-        ;
-
-        
-    
-    
-            circle_marker_c1abb5fb6484687f3b13040e98281aa6.bindTooltip(
+            polygon_1882537b8853d165c60974a6d0f5a7fa.bindTooltip(
                 `<div>
-                     Jefferson - AL-CD07
+                      Jefferson - AL-CD07
                  </div>`,
                 {"sticky": true}
             );

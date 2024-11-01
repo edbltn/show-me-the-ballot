@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c7c0b9ccebf59736fbc0797caf3211eb {
+                #map_095b942391dae782617a5082f195d83a {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lake - IL-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lake - IL-CD10</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lake - IL-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Lake - IL-CD10</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Lake - IL-CD01</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Lake - IL-CD10</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_c7c0b9ccebf59736fbc0797caf3211eb" ></div>
+            <div class="folium-map" id="map_095b942391dae782617a5082f195d83a" ></div>
         
 </body>
 <script>
     
     
-            var map_c7c0b9ccebf59736fbc0797caf3211eb = L.map(
-                "map_c7c0b9ccebf59736fbc0797caf3211eb",
+            var map_095b942391dae782617a5082f195d83a = L.map(
+                "map_095b942391dae782617a5082f195d83a",
                 {
                     center: [42.49271571392193, -87.90917759902078],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_095b942391dae782617a5082f195d83a);
 
             
 
         
     
-            var tile_layer_96fff6568f666de5bf5da3bd2f170086 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_a9125195ef57f7a9100529fd16477d12 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_96fff6568f666de5bf5da3bd2f170086.addTo(map_c7c0b9ccebf59736fbc0797caf3211eb);
+            tile_layer_a9125195ef57f7a9100529fd16477d12.addTo(map_095b942391dae782617a5082f195d83a);
         
     
-            var polygon_dbf561085bcb4fd657f2499615dd59c7 = L.polygon(
+            var polygon_66fe268de2e516e5782dfd808b167b34 = L.polygon(
                 [[42.49414499999999, -87.917287], [42.49414299999999, -87.91711], [42.494141999999954, -87.916989], [42.49408599999998, -87.91198200000001], [42.494043000000005, -87.908202], [42.49398199999997, -87.90281], [42.49397500000004, -87.902379], [42.493927000000006, -87.899683], [42.49391600000002, -87.900103], [42.49390500000001, -87.900533], [42.49387700000001, -87.90084900000001], [42.49385800000004, -87.901059], [42.49383499999994, -87.901315], [42.493790999999995, -87.901796], [42.49370899999999, -87.902166], [42.49360000000001, -87.902625], [42.49353599999998, -87.902867], [42.493236000000024, -87.903739], [42.49303474056303, -87.90419272392192], [42.49317589356338, -87.91790165257666], [42.49324099999997, -87.917868], [42.493814000000036, -87.917599], [42.49414699999996, -87.917457], [42.49414599999999, -87.917379], [42.49414499999999, -87.917287]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c7c0b9ccebf59736fbc0797caf3211eb);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_095b942391dae782617a5082f195d83a);
         
     
-        var popup_c72e6a4d07e152a97ebc650e4316eb28 = L.popup({"maxWidth": "100%"});
+        var popup_1719a3ddc511d3b2487a5a3b4e1d896c = L.popup({"maxWidth": 300});
 
         
             
-                var html_46f4b8f3e78c55e70fc29ca494a320fe = $(`<div id="html_46f4b8f3e78c55e70fc29ca494a320fe" style="width: 100.0%; height: 100.0%;"><b>Lake - IL-CD01</b></div>`)[0];
-                popup_c72e6a4d07e152a97ebc650e4316eb28.setContent(html_46f4b8f3e78c55e70fc29ca494a320fe);
+                var html_d08f53e45a75c3a433bd672065ef751c = $(`<div id="html_d08f53e45a75c3a433bd672065ef751c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lake - IL-CD01</h4>                              </div>         </div>`)[0];
+                popup_1719a3ddc511d3b2487a5a3b4e1d896c.setContent(html_d08f53e45a75c3a433bd672065ef751c);
             
         
 
-        polygon_dbf561085bcb4fd657f2499615dd59c7.bindPopup(popup_c72e6a4d07e152a97ebc650e4316eb28)
+        polygon_66fe268de2e516e5782dfd808b167b34.bindPopup(popup_1719a3ddc511d3b2487a5a3b4e1d896c)
         ;
 
         
     
     
-            var circle_marker_521ac64c9b0c20d4f8f6f87917c5aa46 = L.circleMarker(
-                [42.49381638536505, -87.90812713505994],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c7c0b9ccebf59736fbc0797caf3211eb);
-        
-    
-        var popup_f8c97d8e8e0ef21a9f089170c8f9cdfc = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_62a9c096daa7ea597fcb14e64cf16647 = $(`<div id="html_62a9c096daa7ea597fcb14e64cf16647" style="width: 100.0%; height: 100.0%;"><b>Lake - IL-CD01</b></div>`)[0];
-                popup_f8c97d8e8e0ef21a9f089170c8f9cdfc.setContent(html_62a9c096daa7ea597fcb14e64cf16647);
-            
-        
-
-        circle_marker_521ac64c9b0c20d4f8f6f87917c5aa46.bindPopup(popup_f8c97d8e8e0ef21a9f089170c8f9cdfc)
-        ;
-
-        
-    
-    
-            circle_marker_521ac64c9b0c20d4f8f6f87917c5aa46.bindTooltip(
+            polygon_66fe268de2e516e5782dfd808b167b34.bindTooltip(
                 `<div>
-                     Lake - IL-CD01
+                      Lake - IL-CD01
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_bbfd0089919d9d7aa9cb223d8a2e29ff = L.polygon(
+            var polygon_828b3c4e0c69b044efa11ebd19a352f1 = L.polygon(
                 [[42.49295299999999, -87.904377], [42.492730999999985, -87.904791], [42.49250800000001, -87.905207], [42.491633000000014, -87.906758], [42.491355000000006, -87.907318], [42.49118299999995, -87.907733], [42.49104899999997, -87.908096], [42.49101199999994, -87.908198], [42.49086600000001, -87.908699], [42.49075300000005, -87.909137], [42.490653000000016, -87.909641], [42.490566000000044, -87.910121], [42.49051799999997, -87.910578], [42.490488, -87.91098], [42.49047199999999, -87.911414], [42.49046500000002, -87.912629], [42.49047900000001, -87.919473], [42.490479999999984, -87.919536], [42.49276100000001, -87.918122], [42.49285600000005, -87.918067], [42.49317589356338, -87.91790165257666], [42.49303474056303, -87.90419272392192], [42.49295299999999, -87.904377]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_c7c0b9ccebf59736fbc0797caf3211eb);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_095b942391dae782617a5082f195d83a);
         
     
-        var popup_caceb71e9f09fe4d9a59adc0de894b5e = L.popup({"maxWidth": "100%"});
+        var popup_9207ca8bf137b3e44380dace82238964 = L.popup({"maxWidth": 300});
 
         
             
-                var html_7139ceafcdc36587ee388cc688c7a979 = $(`<div id="html_7139ceafcdc36587ee388cc688c7a979" style="width: 100.0%; height: 100.0%;"><b>Lake - IL-CD10</b></div>`)[0];
-                popup_caceb71e9f09fe4d9a59adc0de894b5e.setContent(html_7139ceafcdc36587ee388cc688c7a979);
+                var html_94c3a1e3f0f811e9e2ca07441e32a24c = $(`<div id="html_94c3a1e3f0f811e9e2ca07441e32a24c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Lake - IL-CD10</h4>                              </div>         </div>`)[0];
+                popup_9207ca8bf137b3e44380dace82238964.setContent(html_94c3a1e3f0f811e9e2ca07441e32a24c);
             
         
 
-        polygon_bbfd0089919d9d7aa9cb223d8a2e29ff.bindPopup(popup_caceb71e9f09fe4d9a59adc0de894b5e)
+        polygon_828b3c4e0c69b044efa11ebd19a352f1.bindPopup(popup_9207ca8bf137b3e44380dace82238964)
         ;
 
         
     
     
-            var circle_marker_570140dae3370628ac451d1ad22a72bf = L.circleMarker(
-                [42.49151933191854, -87.91031940767384],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_c7c0b9ccebf59736fbc0797caf3211eb);
-        
-    
-        var popup_cf58aefe98d346dbe9cf255c37ce1d23 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_dc132a79027b577f75b42c1d75775b37 = $(`<div id="html_dc132a79027b577f75b42c1d75775b37" style="width: 100.0%; height: 100.0%;"><b>Lake - IL-CD10</b></div>`)[0];
-                popup_cf58aefe98d346dbe9cf255c37ce1d23.setContent(html_dc132a79027b577f75b42c1d75775b37);
-            
-        
-
-        circle_marker_570140dae3370628ac451d1ad22a72bf.bindPopup(popup_cf58aefe98d346dbe9cf255c37ce1d23)
-        ;
-
-        
-    
-    
-            circle_marker_570140dae3370628ac451d1ad22a72bf.bindTooltip(
+            polygon_828b3c4e0c69b044efa11ebd19a352f1.bindTooltip(
                 `<div>
-                     Lake - IL-CD10
+                      Lake - IL-CD10
                  </div>`,
                 {"sticky": true}
             );

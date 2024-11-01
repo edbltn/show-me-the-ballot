@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_b09535d895f53051c4978d69e0dcdebc {
+                #map_226386541d74fed712d0f254eb7efa55 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hancock - OH-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hancock - OH-CD05</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hancock - OH-CD04</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Hancock - OH-CD05</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hancock - OH-CD04</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Hancock - OH-CD05</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_b09535d895f53051c4978d69e0dcdebc" ></div>
+            <div class="folium-map" id="map_226386541d74fed712d0f254eb7efa55" ></div>
         
 </body>
 <script>
     
     
-            var map_b09535d895f53051c4978d69e0dcdebc = L.map(
-                "map_b09535d895f53051c4978d69e0dcdebc",
+            var map_226386541d74fed712d0f254eb7efa55 = L.map(
+                "map_226386541d74fed712d0f254eb7efa55",
                 {
                     center: [40.824783835913394, -83.8077816646441],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_226386541d74fed712d0f254eb7efa55);
 
             
 
         
     
-            var tile_layer_b89a27c5d41e704e90c2bf826229c1a7 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_e6cc37be3f017b320a61ebd8a4a2236e = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_b89a27c5d41e704e90c2bf826229c1a7.addTo(map_b09535d895f53051c4978d69e0dcdebc);
+            tile_layer_e6cc37be3f017b320a61ebd8a4a2236e.addTo(map_226386541d74fed712d0f254eb7efa55);
         
     
-            var polygon_cb6adb944c4065d41cc3338eecaf126d = L.polygon(
+            var polygon_a2212f11dd730ae4de4bbb3c71467edc = L.polygon(
                 [[40.81929800000003, -83.737932], [40.81929699999997, -83.740108], [40.81929699999997, -83.740123], [40.81929700000001, -83.740279], [40.81929400000001, -83.740818], [40.81929300000004, -83.740965], [40.819293000000016, -83.741004], [40.819293000000016, -83.74102], [40.81929199999996, -83.741063], [40.81929199999996, -83.741108], [40.81929199999996, -83.741121], [40.81926299999994, -83.745563], [40.81925899999998, -83.74825300000002], [40.81925999999997, -83.749082], [40.81925999999997, -83.749112], [40.81925999999997, -83.749174], [40.819261999999995, -83.751712], [40.819261999999995, -83.751948], [40.819261999999995, -83.751974], [40.81925999999997, -83.754453], [40.81925800000005, -83.757174], [40.81925800000008, -83.759023], [40.81925800000005, -83.759171], [40.81925800000005, -83.759203], [40.819258999999995, -83.760705], [40.819258999999995, -83.761109], [40.81925899999998, -83.761659], [40.819256, -83.76438200000001], [40.81925800000005, -83.766305], [40.81929500000004, -83.771056], [40.819328000000056, -83.77481500000002], [40.81934599999999, -83.776911], [40.81936199999999, -83.779036], [40.81936199999999, -83.779071], [40.81936199999999, -83.779096], [40.81936199999999, -83.779111], [40.81940499999999, -83.784775], [40.81940500000003, -83.78482200000002], [40.81941099999998, -83.785436], [40.81952199999999, -83.797453], [40.81952799999999, -83.79895200000001], [40.819533, -83.800169], [40.819533, -83.800216], [40.819533, -83.800236], [40.81953500000003, -83.800839], [40.81957000000002, -83.803862], [40.819571999999994, -83.80403], [40.81957300000001, -83.804056], [40.81957300000001, -83.804072], [40.81957300000001, -83.804091], [40.81957400000002, -83.804177], [40.81957400000002, -83.804209], [40.819578, -83.80458000000002], [40.81959400000002, -83.805964], [40.81959700000004, -83.806186], [40.81960200000001, -83.806605], [40.819604999999974, -83.806869], [40.81960599999999, -83.806929], [40.81960599999999, -83.806968], [40.81960599999999, -83.806983], [40.819614000000016, -83.807737], [40.81963099999998, -83.810638], [40.81963099999999, -83.810718], [40.81963200000001, -83.810747], [40.81963200000001, -83.81077], [40.81963200000001, -83.8108], [40.81963200000001, -83.810831], [40.81963200000001, -83.810856], [40.819641000000004, -83.81226], [40.819641000000026, -83.812293], [40.819641000000004, -83.812312], [40.81965499999997, -83.814638], [40.81967099999998, -83.816873], [40.819671999999976, -83.817065], [40.81967299999999, -83.817267], [40.81967500000002, -83.817516], [40.81967700000001, -83.817731], [40.819700250807855, -83.82097740899633], [40.819344098698686, -83.73742958504879], [40.81930099999999, -83.737429], [40.81929800000001, -83.737886], [40.81929800000003, -83.737932]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b09535d895f53051c4978d69e0dcdebc);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_226386541d74fed712d0f254eb7efa55);
         
     
-        var popup_6b7d65ce60cd9cb8fbfceba0b7a69599 = L.popup({"maxWidth": "100%"});
+        var popup_47d17ad6902d2d4daea954412b52b068 = L.popup({"maxWidth": 300});
 
         
             
-                var html_bba49ac5552d2bd90ab6fb3c3b995dd7 = $(`<div id="html_bba49ac5552d2bd90ab6fb3c3b995dd7" style="width: 100.0%; height: 100.0%;"><b>Hancock - OH-CD04</b></div>`)[0];
-                popup_6b7d65ce60cd9cb8fbfceba0b7a69599.setContent(html_bba49ac5552d2bd90ab6fb3c3b995dd7);
+                var html_974b1ab7f1cde531345e0bb1b243edb4 = $(`<div id="html_974b1ab7f1cde531345e0bb1b243edb4" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hancock - OH-CD04</h4>                              </div>         </div>`)[0];
+                popup_47d17ad6902d2d4daea954412b52b068.setContent(html_974b1ab7f1cde531345e0bb1b243edb4);
             
         
 
-        polygon_cb6adb944c4065d41cc3338eecaf126d.bindPopup(popup_6b7d65ce60cd9cb8fbfceba0b7a69599)
+        polygon_a2212f11dd730ae4de4bbb3c71467edc.bindPopup(popup_47d17ad6902d2d4daea954412b52b068)
         ;
 
         
     
     
-            var circle_marker_4135ca5c8777af2643621499f39cc7fb = L.circleMarker(
-                [40.81944460182325, -83.78060760968349],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b09535d895f53051c4978d69e0dcdebc);
-        
-    
-        var popup_397caf3a4c1f6501d63db6f80a20921e = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_1b1945640f1b3ca280336ffff2f49280 = $(`<div id="html_1b1945640f1b3ca280336ffff2f49280" style="width: 100.0%; height: 100.0%;"><b>Hancock - OH-CD04</b></div>`)[0];
-                popup_397caf3a4c1f6501d63db6f80a20921e.setContent(html_1b1945640f1b3ca280336ffff2f49280);
-            
-        
-
-        circle_marker_4135ca5c8777af2643621499f39cc7fb.bindPopup(popup_397caf3a4c1f6501d63db6f80a20921e)
-        ;
-
-        
-    
-    
-            circle_marker_4135ca5c8777af2643621499f39cc7fb.bindTooltip(
+            polygon_a2212f11dd730ae4de4bbb3c71467edc.bindTooltip(
                 `<div>
-                     Hancock - OH-CD04
+                      Hancock - OH-CD04
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_34647cc92ce472309bbacd7316155871 = L.polygon(
+            var polygon_e67c27c3ff3bcf75facb122b09527ae6 = L.polygon(
                 [[40.81971599999999, -83.823183], [40.81971799999997, -83.823456], [40.81971900000001, -83.823667], [40.819725999999974, -83.82464100000001], [40.81974900000001, -83.82784], [40.81976000000003, -83.832248], [40.81976699999995, -83.835079], [40.81976699999995, -83.835117], [40.81976699999995, -83.83518], [40.819771, -83.83660100000002], [40.819793000000004, -83.840914], [40.81979500000003, -83.842269], [40.81979499999998, -83.842453], [40.81979500000003, -83.842825], [40.81979499999998, -83.842857], [40.819796000000004, -83.84316], [40.81980699999999, -83.844432], [40.81980699999999, -83.844465], [40.819807, -83.844502], [40.819807, -83.844543], [40.81980699999999, -83.844587], [40.819807, -83.844599], [40.81980800000005, -83.844611], [40.81980800000001, -83.844634], [40.819813999999994, -83.845194], [40.81981599999998, -83.845417], [40.819815000000034, -83.846247], [40.819815000000034, -83.846268], [40.81981300000005, -83.847579], [40.81981599999998, -83.849797], [40.8198146034025, -83.85093841939987], [40.81982937793998, -83.85494976358497], [40.819831000000015, -83.85514700000002], [40.819831, -83.855179], [40.819831000000015, -83.855202], [40.819831000000015, -83.855216], [40.81983200000002, -83.855289], [40.81983200000002, -83.85533], [40.81984700000004, -83.857248], [40.81985299999998, -83.860452], [40.819858999999994, -83.861716], [40.81986000000002, -83.862031], [40.81986000000002, -83.862066], [40.819875999999994, -83.865132], [40.819879999999934, -83.865529], [40.81989899999996, -83.86762100000001], [40.81990800000003, -83.870571], [40.819908, -83.871001], [40.819913, -83.874934], [40.819915999999985, -83.877529], [40.81991799999999, -83.878866], [40.81991799999999, -83.878892], [40.81991799999996, -83.878954], [40.81991899999995, -83.880063], [40.827482712852444, -83.88009005669632], [40.82747000000002, -83.87819100000002], [40.827459000000005, -83.874507], [40.82769800000001, -83.874395], [40.827695999999946, -83.873888], [40.82768599999998, -83.871025], [40.827678, -83.86854], [40.82767599999996, -83.866998], [40.82766499999998, -83.864687], [40.827659999999966, -83.862067], [40.831146000000025, -83.862088], [40.834383, -83.862089], [40.83438200000004, -83.861178], [40.834366999999986, -83.859341], [40.834353, -83.857077], [40.834325, -83.852644], [40.83429800000001, -83.846836], [40.834276, -83.843517], [40.834273999999965, -83.842777], [40.83668499999995, -83.842766], [40.837011, -83.843997], [40.83721699999998, -83.844473], [40.837650000000004, -83.844947], [40.838039, -83.845212], [40.838427999999986, -83.845298], [40.838473000000036, -83.845357], [40.83908999999998, -83.84543900000001], [40.84036900000001, -83.845391], [40.841145999999995, -83.84529], [40.84145100000003, -83.845174], [40.84146099999998, -83.842775], [40.84149600000001, -83.823813], [40.84153, -83.808837], [40.841543, -83.804701], [40.84607899999998, -83.804711], [40.84765499999995, -83.804722], [40.848620000000004, -83.804722], [40.84857399999997, -83.797012], [40.84856900000005, -83.79547], [40.84854800000002, -83.793336], [40.848534999999984, -83.789957], [40.84852700000001, -83.789365], [40.84852500000001, -83.785572], [40.84701699999997, -83.785577], [40.84580199999998, -83.785572], [40.84368599999998, -83.785586], [40.839905, -83.785575], [40.83729400000007, -83.785554], [40.83612300000001, -83.785549], [40.83468299999999, -83.78553500000001], [40.83418800000002, -83.785535], [40.83399900000002, -83.78553], [40.833997999999994, -83.78500100000001], [40.833952999999994, -83.780674], [40.83393699999999, -83.7786], [40.833899999999964, -83.774891], [40.82631800000001, -83.774851], [40.82633100000001, -83.773361], [40.826295999999985, -83.771533], [40.82623900000001, -83.768564], [40.82625, -83.766239], [40.82621100000006, -83.76624], [40.825999000000024, -83.766243], [40.82597700000001, -83.763476], [40.82597700000001, -83.761974], [40.825949000000044, -83.761081], [40.82583499999992, -83.759423], [40.825637000000015, -83.756461], [40.82543899999994, -83.753811], [40.825226, -83.751246], [40.825141000000016, -83.74888], [40.825099, -83.746485], [40.82512, -83.744557], [40.825177, -83.742545], [40.825318000000024, -83.740363], [40.825466999999946, -83.737382], [40.82420600000001, -83.737388], [40.819522000000006, -83.73743200000001], [40.819344098698686, -83.73742958504879], [40.819700250807855, -83.82097740899633], [40.81971599999999, -83.823183]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_b09535d895f53051c4978d69e0dcdebc);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_226386541d74fed712d0f254eb7efa55);
         
     
-        var popup_f7f64477f411918b4cc99f0392a2ed77 = L.popup({"maxWidth": "100%"});
+        var popup_397c201cb1560750fc9a87c5915d70f7 = L.popup({"maxWidth": 300});
 
         
             
-                var html_b8e5c2a38368681149bd11258fa9aadc = $(`<div id="html_b8e5c2a38368681149bd11258fa9aadc" style="width: 100.0%; height: 100.0%;"><b>Hancock - OH-CD05</b></div>`)[0];
-                popup_f7f64477f411918b4cc99f0392a2ed77.setContent(html_b8e5c2a38368681149bd11258fa9aadc);
+                var html_f40e9279825090d1b0a058e872f7bdd1 = $(`<div id="html_f40e9279825090d1b0a058e872f7bdd1" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Hancock - OH-CD05</h4>                              </div>         </div>`)[0];
+                popup_397c201cb1560750fc9a87c5915d70f7.setContent(html_f40e9279825090d1b0a058e872f7bdd1);
             
         
 
-        polygon_34647cc92ce472309bbacd7316155871.bindPopup(popup_f7f64477f411918b4cc99f0392a2ed77)
+        polygon_e67c27c3ff3bcf75facb122b09527ae6.bindPopup(popup_397c201cb1560750fc9a87c5915d70f7)
         ;
 
         
     
     
-            var circle_marker_8563550f25c44b6ba3ec3b2c536e06b2 = L.circleMarker(
-                [40.82802692624964, -83.8242873869165],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_b09535d895f53051c4978d69e0dcdebc);
-        
-    
-        var popup_f9d3092540438fb8e8258fc17e3f5dc1 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_2c0ceb7d941cdb75123de8e1801b006a = $(`<div id="html_2c0ceb7d941cdb75123de8e1801b006a" style="width: 100.0%; height: 100.0%;"><b>Hancock - OH-CD05</b></div>`)[0];
-                popup_f9d3092540438fb8e8258fc17e3f5dc1.setContent(html_2c0ceb7d941cdb75123de8e1801b006a);
-            
-        
-
-        circle_marker_8563550f25c44b6ba3ec3b2c536e06b2.bindPopup(popup_f9d3092540438fb8e8258fc17e3f5dc1)
-        ;
-
-        
-    
-    
-            circle_marker_8563550f25c44b6ba3ec3b2c536e06b2.bindTooltip(
+            polygon_e67c27c3ff3bcf75facb122b09527ae6.bindTooltip(
                 `<div>
-                     Hancock - OH-CD05
+                      Hancock - OH-CD05
                  </div>`,
                 {"sticky": true}
             );

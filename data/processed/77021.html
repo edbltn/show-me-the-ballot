@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d3627378a4fbabbf6963cd5c2ded1ef4 {
+                #map_7c8f9d30a480b4e6986da378122af4a3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,253 +39,175 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD09</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD18</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD29</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD09</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD18</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD29</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Harris - TX-CD09</span>
             </div>
-    
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD09</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD18</p>
-            
-                <p><i style="background: #ffe119;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Harris - TX-CD29</p>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Harris - TX-CD18</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #59a14f;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Harris - TX-CD29</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_d3627378a4fbabbf6963cd5c2ded1ef4" ></div>
+            <div class="folium-map" id="map_7c8f9d30a480b4e6986da378122af4a3" ></div>
         
 </body>
 <script>
     
     
-            var map_d3627378a4fbabbf6963cd5c2ded1ef4 = L.map(
-                "map_d3627378a4fbabbf6963cd5c2ded1ef4",
+            var map_7c8f9d30a480b4e6986da378122af4a3 = L.map(
+                "map_7c8f9d30a480b4e6986da378122af4a3",
                 {
                     center: [29.698431268634426, -95.35999370338014],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_7c8f9d30a480b4e6986da378122af4a3);
 
             
 
         
     
-            var tile_layer_2e7235468f5dea9f9fdb9dad35e43c7e = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_6b4b1d222e32a1fbd075cb4f7367cfbe = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_2e7235468f5dea9f9fdb9dad35e43c7e.addTo(map_d3627378a4fbabbf6963cd5c2ded1ef4);
+            tile_layer_6b4b1d222e32a1fbd075cb4f7367cfbe.addTo(map_7c8f9d30a480b4e6986da378122af4a3);
         
     
-            var polygon_4cc795b2a39387c393a62a26bcaeb25a = L.polygon(
+            var polygon_33cd6658fdeed0bfd01609575f3a5556 = L.polygon(
                 [[29.69530699999997, -95.326944], [29.695127999999976, -95.327258], [29.69502400000001, -95.327514], [29.694940000000003, -95.32752400000001], [29.694687000000005, -95.327855], [29.693676999999983, -95.32944], [29.693347999999947, -95.329976], [29.692651000000005, -95.331204], [29.691466999999978, -95.33314], [29.69039899999997, -95.334837], [29.689577999999997, -95.336092], [29.688981999999974, -95.337153], [29.68850999999995, -95.338161], [29.68817399999997, -95.338987], [29.687750000000026, -95.340066], [29.687489000000006, -95.340881], [29.687122000000006, -95.341036], [29.686788999999965, -95.34113], [29.686421000000013, -95.341131], [29.68598999999997, -95.341036], [29.685736999999985, -95.341916], [29.685643999999986, -95.342193], [29.685215000000003, -95.343662], [29.685014999999968, -95.34435], [29.684907, -95.34474], [29.684794999999994, -95.345068], [29.684705999999995, -95.345389], [29.684258999999994, -95.346841], [29.683754999999998, -95.348512], [29.683508999999972, -95.349309], [29.683213, -95.350218], [29.683086999999986, -95.35048600000002], [29.682933000000013, -95.350884], [29.68278299999998, -95.351209], [29.682697, -95.351576], [29.682674000000024, -95.352116], [29.68266900000001, -95.352535], [29.68270300000001, -95.352778], [29.68278999999998, -95.353079], [29.682897000000036, -95.353408], [29.682995999999967, -95.353808], [29.68303400000001, -95.354463], [29.683010000000042, -95.354907], [29.682888999999978, -95.355508], [29.68280500000001, -95.355782], [29.68278299999998, -95.355829], [29.68272799999999, -95.355953], [29.68295099999999, -95.355951], [29.682247000000014, -95.358271], [29.681907000000013, -95.359384], [29.681173, -95.361786], [29.681030999999987, -95.362287], [29.680899999999976, -95.362756], [29.680767000000003, -95.363205], [29.680717000000033, -95.362588], [29.680555999999978, -95.363085], [29.680605999999973, -95.363743], [29.680516000000022, -95.364044], [29.680182, -95.365109], [29.679599000000017, -95.367085], [29.678454999999964, -95.370907], [29.677365000000012, -95.374546], [29.676623999999997, -95.377022], [29.676589999999976, -95.377134], [29.67635599999999, -95.377923], [29.676201000000034, -95.378455], [29.676058999999963, -95.37890800000001], [29.67578900000004, -95.379828], [29.67535099999998, -95.38128], [29.675272999999983, -95.381586], [29.675222000000012, -95.381783], [29.67543900000002, -95.381778], [29.675890000000027, -95.38176600000001], [29.67798200000002, -95.381707], [29.67862399999999, -95.381626], [29.679182999999995, -95.381543], [29.680110999999993, -95.38136], [29.680407999999996, -95.381283], [29.680524999999996, -95.381253], [29.680569999999943, -95.381241], [29.680678999999966, -95.381213], [29.68071600000001, -95.381204], [29.680756999999982, -95.381193], [29.680782999999984, -95.381193], [29.68081699999998, -95.381178], [29.681865999999978, -95.380912], [29.682488999999986, -95.380794], [29.68424300000001, -95.380717], [29.684562000000035, -95.38069], [29.684893999999968, -95.380621], [29.685162999999974, -95.380507], [29.685626000000024, -95.380311], [29.685775999999986, -95.380235], [29.68609499999997, -95.38002], [29.686455999999968, -95.379788], [29.68676300000001, -95.379622], [29.686923000000014, -95.379542], [29.687294999999995, -95.379413], [29.687684000000026, -95.379268], [29.69069699999998, -95.378402], [29.69077899999998, -95.378378], [29.691234000000005, -95.378245], [29.691568999999994, -95.378151], [29.692844000000015, -95.377848], [29.69417331636014, -95.37747343615564], [29.695466000000007, -95.32666400000001], [29.69530699999997, -95.326944]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d3627378a4fbabbf6963cd5c2ded1ef4);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7c8f9d30a480b4e6986da378122af4a3);
         
     
-        var popup_c6ddb1c88b3d76294e7e882bde48bc78 = L.popup({"maxWidth": "100%"});
+        var popup_3d6fadf3c08ea73742d5cbeccef0b054 = L.popup({"maxWidth": 300});
 
         
             
-                var html_31a485582032f4f4cff86976971eaf7e = $(`<div id="html_31a485582032f4f4cff86976971eaf7e" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD09</b></div>`)[0];
-                popup_c6ddb1c88b3d76294e7e882bde48bc78.setContent(html_31a485582032f4f4cff86976971eaf7e);
+                var html_fb745aa24a517e314ed529542afefd79 = $(`<div id="html_fb745aa24a517e314ed529542afefd79" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Harris - TX-CD09</h4>                              </div>         </div>`)[0];
+                popup_3d6fadf3c08ea73742d5cbeccef0b054.setContent(html_fb745aa24a517e314ed529542afefd79);
             
         
 
-        polygon_4cc795b2a39387c393a62a26bcaeb25a.bindPopup(popup_c6ddb1c88b3d76294e7e882bde48bc78)
+        polygon_33cd6658fdeed0bfd01609575f3a5556.bindPopup(popup_3d6fadf3c08ea73742d5cbeccef0b054)
         ;
 
         
     
     
-            var circle_marker_b283021d7338776464337850baf6b370 = L.circleMarker(
-                [29.684228890807102, -95.36075358351549],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d3627378a4fbabbf6963cd5c2ded1ef4);
-        
-    
-        var popup_d92eaedfa6903ab293bb9df48b513e7b = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_1aff34d4ecc1892521f89c07fdfc7549 = $(`<div id="html_1aff34d4ecc1892521f89c07fdfc7549" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD09</b></div>`)[0];
-                popup_d92eaedfa6903ab293bb9df48b513e7b.setContent(html_1aff34d4ecc1892521f89c07fdfc7549);
-            
-        
-
-        circle_marker_b283021d7338776464337850baf6b370.bindPopup(popup_d92eaedfa6903ab293bb9df48b513e7b)
-        ;
-
-        
-    
-    
-            circle_marker_b283021d7338776464337850baf6b370.bindTooltip(
+            polygon_33cd6658fdeed0bfd01609575f3a5556.bindTooltip(
                 `<div>
-                     Harris - TX-CD09
+                      Harris - TX-CD09
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_6858256e753859121e21fd0c276c7f14 = L.polygon(
+            var polygon_bff48f3d347ac19561d9711b7c155dba = L.polygon(
                 [[29.70255499999996, -95.385728], [29.705699000000024, -95.384616], [29.708581999999993, -95.38367200000002], [29.710106000000028, -95.383186], [29.711240999999998, -95.382807], [29.711486999999988, -95.382688], [29.711612000000002, -95.382599], [29.71165600000002, -95.382522], [29.71185800000006, -95.382494], [29.712539999999976, -95.382274], [29.713012999999997, -95.38212], [29.713103999999973, -95.382091], [29.71298600000001, -95.381579], [29.712800000000005, -95.380445], [29.712682000000036, -95.38006], [29.712106999999975, -95.379396], [29.711998999999988, -95.37909], [29.711973000000004, -95.379017], [29.711942999999984, -95.378735], [29.711960999999977, -95.378659], [29.712079000000024, -95.378142], [29.71211599999999, -95.378048], [29.712258000000013, -95.377689], [29.713446999999995, -95.374689], [29.713841000000006, -95.373697], [29.71392399999999, -95.373299], [29.713943000000047, -95.372808], [29.713845999999993, -95.372124], [29.713717, -95.371702], [29.713586999999976, -95.371467], [29.713526000000012, -95.371356], [29.71308699999997, -95.370863], [29.713069, -95.370843], [29.712855999999984, -95.370695], [29.71226100000002, -95.370421], [29.711840000000013, -95.370329], [29.71051600000002, -95.370431], [29.710163999999985, -95.370367], [29.70984099999999, -95.37019900000001], [29.70950300000001, -95.369897], [29.70926400000002, -95.3694], [29.709274000000015, -95.36894600000001], [29.709628000000002, -95.368006], [29.709773000000002, -95.367243], [29.71012700000001, -95.363957], [29.710216999999975, -95.362408], [29.710226999999993, -95.362243], [29.710004000000012, -95.36070800000002], [29.71000700000002, -95.359929], [29.71012399999999, -95.359285], [29.71046900000004, -95.358428], [29.71052799999998, -95.358066], [29.71045499999997, -95.357566], [29.71045200000002, -95.35754300000002], [29.71033800000001, -95.357335], [29.709769999999985, -95.356713], [29.709704999999996, -95.356546], [29.709524000000005, -95.35608], [29.70940400000004, -95.355353], [29.709341999999985, -95.354578], [29.709372000000005, -95.353637], [29.709449, -95.353008], [29.70975699999997, -95.351747], [29.71027000000001, -95.35052], [29.710389000000006, -95.350143], [29.710429, -95.350019], [29.710799999999978, -95.348654], [29.71114400000001, -95.34693400000002], [29.71126999999996, -95.346686], [29.711452000000058, -95.346423], [29.71233600000006, -95.345151], [29.712463999999994, -95.344857], [29.71254500000001, -95.344458], [29.712508999999983, -95.343886], [29.71208600000003, -95.342059], [29.71186099999998, -95.341745], [29.711799000000035, -95.341509], [29.711736000000002, -95.341273], [29.711409000000007, -95.340682], [29.711313000000054, -95.340286], [29.711332999999993, -95.340097], [29.711355999999995, -95.340053], [29.71144499999996, -95.339888], [29.71181299999997, -95.33956600000002], [29.71227200000004, -95.339336], [29.712840999999973, -95.339249], [29.713591999999995, -95.339219], [29.71390400000002, -95.339129], [29.714092999999977, -95.339025], [29.714260000000003, -95.338933], [29.714648000000004, -95.338719], [29.714842999999966, -95.338477], [29.714899000000024, -95.338199], [29.714799000000003, -95.337762], [29.714264000000007, -95.336834], [29.713864, -95.336007], [29.713269000000036, -95.334928], [29.71322300000004, -95.334774], [29.71321800000002, -95.33411600000001], [29.713246000000012, -95.334025], [29.713289, -95.333883], [29.713570999999995, -95.333499], [29.713636000000047, -95.333411], [29.713793000000035, -95.333327], [29.714054262943087, -95.33318698636262], [29.695466000000007, -95.32666400000001], [29.69417331636014, -95.37747343615564], [29.694220999999978, -95.37746], [29.695035000000008, -95.377222], [29.698060000000012, -95.376276], [29.70019299999999, -95.375645], [29.700532999999975, -95.375545], [29.700882, -95.375449], [29.700994000000055, -95.375419], [29.70098600000002, -95.375806], [29.70078399999998, -95.377022], [29.700543999999987, -95.378455], [29.700253999999973, -95.380016], [29.70005299999998, -95.381079], [29.699993000000067, -95.381365], [29.699884999999995, -95.381968], [29.699788000000055, -95.38241100000002], [29.69968600000003, -95.382855], [29.699530000000003, -95.383668], [29.69921000000003, -95.385374], [29.698977999999997, -95.386679], [29.698921999999964, -95.386993], [29.699087999999968, -95.386922], [29.700145000000024, -95.386583], [29.70255499999996, -95.385728]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d3627378a4fbabbf6963cd5c2ded1ef4);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7c8f9d30a480b4e6986da378122af4a3);
         
     
-        var popup_a64b0e644563e7aaa418f77238ee70ac = L.popup({"maxWidth": "100%"});
+        var popup_aae480b905b1078dca0630de541bd155 = L.popup({"maxWidth": 300});
 
         
             
-                var html_71888f87852d59901202c2e3c122c770 = $(`<div id="html_71888f87852d59901202c2e3c122c770" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD18</b></div>`)[0];
-                popup_a64b0e644563e7aaa418f77238ee70ac.setContent(html_71888f87852d59901202c2e3c122c770);
+                var html_c1efa01599b8befe056f127da696290c = $(`<div id="html_c1efa01599b8befe056f127da696290c" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Harris - TX-CD18</h4>                              </div>         </div>`)[0];
+                popup_aae480b905b1078dca0630de541bd155.setContent(html_c1efa01599b8befe056f127da696290c);
             
         
 
-        polygon_6858256e753859121e21fd0c276c7f14.bindPopup(popup_a64b0e644563e7aaa418f77238ee70ac)
+        polygon_bff48f3d347ac19561d9711b7c155dba.bindPopup(popup_aae480b905b1078dca0630de541bd155)
         ;
 
         
     
     
-            var circle_marker_5abe907b01c546c4edc4bfa5d2dadb94 = L.circleMarker(
-                [29.709306389071564, -95.36232749555784],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d3627378a4fbabbf6963cd5c2ded1ef4);
-        
-    
-        var popup_76bfbe3c65c0f4dd5aa8f80742528e18 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_1826f06654828c098676deed43eb380f = $(`<div id="html_1826f06654828c098676deed43eb380f" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD18</b></div>`)[0];
-                popup_76bfbe3c65c0f4dd5aa8f80742528e18.setContent(html_1826f06654828c098676deed43eb380f);
-            
-        
-
-        circle_marker_5abe907b01c546c4edc4bfa5d2dadb94.bindPopup(popup_76bfbe3c65c0f4dd5aa8f80742528e18)
-        ;
-
-        
-    
-    
-            circle_marker_5abe907b01c546c4edc4bfa5d2dadb94.bindTooltip(
+            polygon_bff48f3d347ac19561d9711b7c155dba.bindTooltip(
                 `<div>
-                     Harris - TX-CD18
+                      Harris - TX-CD18
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_0f86a4bedb5c2d46a484ccac17c60f8b = L.polygon(
+            var polygon_2b1b310b788a44c5fa48e45a7a49a553 = L.polygon(
                 [[29.714155000000027, -95.333133], [29.71437200000005, -95.332917], [29.71422400000001, -95.332871], [29.71298800000001, -95.332488], [29.710163999999985, -95.331527], [29.707932999999997, -95.330786], [29.69839500000002, -95.327561], [29.69829400000004, -95.327525], [29.695737999999988, -95.326741], [29.69555700000001, -95.326685], [29.695466000000007, -95.32666400000001], [29.714054262943087, -95.33318698636262], [29.714155000000027, -95.333133]],
-                {"bubblingMouseEvents": true, "color": "#ffe119", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#ffe119", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_d3627378a4fbabbf6963cd5c2ded1ef4);
+                {"bubblingMouseEvents": true, "color": "#59a14f", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#59a14f", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_7c8f9d30a480b4e6986da378122af4a3);
         
     
-        var popup_31a1f8d1a6f590d11788941a471f7e8e = L.popup({"maxWidth": "100%"});
+        var popup_898c8879742aaad06c7cce68255a0c49 = L.popup({"maxWidth": 300});
 
         
             
-                var html_f90a1f52d2fdb7b5734aaec98d569bd9 = $(`<div id="html_f90a1f52d2fdb7b5734aaec98d569bd9" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD29</b></div>`)[0];
-                popup_31a1f8d1a6f590d11788941a471f7e8e.setContent(html_f90a1f52d2fdb7b5734aaec98d569bd9);
+                var html_a67bd88bdc8cfc1d40e11c664f41fa81 = $(`<div id="html_a67bd88bdc8cfc1d40e11c664f41fa81" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Harris - TX-CD29</h4>                              </div>         </div>`)[0];
+                popup_898c8879742aaad06c7cce68255a0c49.setContent(html_a67bd88bdc8cfc1d40e11c664f41fa81);
             
         
 
-        polygon_0f86a4bedb5c2d46a484ccac17c60f8b.bindPopup(popup_31a1f8d1a6f590d11788941a471f7e8e)
+        polygon_2b1b310b788a44c5fa48e45a7a49a553.bindPopup(popup_898c8879742aaad06c7cce68255a0c49)
         ;
 
         
     
     
-            var circle_marker_3131e44ea67a1ee43d7e56d85e7ca8c7 = L.circleMarker(
-                [29.70657655868794, -95.33040138356635],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_d3627378a4fbabbf6963cd5c2ded1ef4);
-        
-    
-        var popup_d4283a049891fb2bd68696e78ce2260f = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_264b35bbdab66fc7b0ab113ab823d5cf = $(`<div id="html_264b35bbdab66fc7b0ab113ab823d5cf" style="width: 100.0%; height: 100.0%;"><b>Harris - TX-CD29</b></div>`)[0];
-                popup_d4283a049891fb2bd68696e78ce2260f.setContent(html_264b35bbdab66fc7b0ab113ab823d5cf);
-            
-        
-
-        circle_marker_3131e44ea67a1ee43d7e56d85e7ca8c7.bindPopup(popup_d4283a049891fb2bd68696e78ce2260f)
-        ;
-
-        
-    
-    
-            circle_marker_3131e44ea67a1ee43d7e56d85e7ca8c7.bindTooltip(
+            polygon_2b1b310b788a44c5fa48e45a7a49a553.bindTooltip(
                 `<div>
-                     Harris - TX-CD29
+                      Harris - TX-CD29
                  </div>`,
                 {"sticky": true}
             );

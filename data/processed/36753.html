@@ -25,7 +25,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_a832c3ea0d9e1810ad0834bd9ca9a4ba {
+                #map_d4585c01dbfd2504daa9b7069713da72 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -39,169 +39,133 @@
 <body>
     
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Wilcox - AL-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Wilcox - AL-CD07</p>
-            </div>
+        <div style="
+            z-index:9999
+            position: fixed; 
+            bottom: 25px; 
+            left: 25px; 
+            width: auto; 
+            height: auto;
+            border-radius: 4px;
+            box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+            background-color: white;
+            padding: 10px 15px;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            ">
+            <div style="font-weight: bold; margin-bottom: 10px;">Areas</div>
     
-            <div style="position: fixed; 
-                        bottom: 50px; left: 50px; width: 200px; height: auto;
-                        border:2px solid grey; z-index:9999; background-color:white;
-                        padding:10px;
-                        font-size:14px;
-                        ">
-            <p><b>Areas:</b></p>
-            
-                <p><i style="background: #e6194B;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Wilcox - AL-CD01</p>
-            
-                <p><i style="background: #3cb44b;
-                            padding: 5px;
-                            opacity: 0.7;"></i>
-                   Wilcox - AL-CD07</p>
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #4e79a7;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Wilcox - AL-CD01</span>
             </div>
+        
+            <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                <span style="
+                    display: inline-block;
+                    width: 12px;
+                    height: 12px;
+                    margin-right: 8px;
+                    background: #f28e2b;
+                    opacity: 0.7;
+                    border-radius: 2px;
+                "></span>
+                <span> Wilcox - AL-CD07</span>
+            </div>
+        </div>
     
-            <div class="folium-map" id="map_a832c3ea0d9e1810ad0834bd9ca9a4ba" ></div>
+            <div class="folium-map" id="map_d4585c01dbfd2504daa9b7069713da72" ></div>
         
 </body>
 <script>
     
     
-            var map_a832c3ea0d9e1810ad0834bd9ca9a4ba = L.map(
-                "map_a832c3ea0d9e1810ad0834bd9ca9a4ba",
+            var map_d4585c01dbfd2504daa9b7069713da72 = L.map(
+                "map_d4585c01dbfd2504daa9b7069713da72",
                 {
                     center: [31.835635985758543, -87.10813446665315],
                     crs: L.CRS.EPSG3857,
-                    zoom: 14,
+                    zoom: 13,
                     zoomControl: true,
                     preferCanvas: false,
                 }
             );
+            L.control.scale().addTo(map_d4585c01dbfd2504daa9b7069713da72);
 
             
 
         
     
-            var tile_layer_57690502cbc397d8fff1d07d506d8ec2 = L.tileLayer(
-                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            var tile_layer_3638a363e75f963eee2772d6efd3e394 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
         
     
-            tile_layer_57690502cbc397d8fff1d07d506d8ec2.addTo(map_a832c3ea0d9e1810ad0834bd9ca9a4ba);
+            tile_layer_3638a363e75f963eee2772d6efd3e394.addTo(map_d4585c01dbfd2504daa9b7069713da72);
         
     
-            var polygon_352feb6598e8c0aacc3e99cb24756c37 = L.polygon(
+            var polygon_bd4fcbf5fa5d09d432cbecac64831aee = L.polygon(
                 [[31.828990999999977, -87.099847], [31.828980000000016, -87.100718], [31.828998999999985, -87.101609], [31.829046000000048, -87.103171], [31.82909399999999, -87.103825], [31.829101999999978, -87.104258], [31.82907899999999, -87.104696], [31.829045000000008, -87.105134], [31.82896299999998, -87.107093], [31.828958000000025, -87.10753400000002], [31.828971999999947, -87.108057], [31.828976000000026, -87.108195], [31.82896600000007, -87.108636], [31.82892399999998, -87.10929], [31.828885999999976, -87.109725], [31.828875000000014, -87.110158], [31.828918999999985, -87.110893], [31.828948999999977, -87.111769], [31.828989999999987, -87.11264600000001], [31.828969999999984, -87.113589], [31.828964000000017, -87.113674], [31.828959000000015, -87.113735], [31.828929000000013, -87.11388], [31.828875999999987, -87.114024], [31.82881200000002, -87.114144], [31.82878500000001, -87.116242], [31.828784, -87.116341], [31.828801000000023, -87.116378], [31.82884200000003, -87.116567], [31.828847999999965, -87.11659300000001], [31.828858999999984, -87.116703], [31.828882999999983, -87.116951], [31.828885999999976, -87.117099], [31.82891600000004, -87.118458], [31.828902999999986, -87.119296], [31.82894499999998, -87.119551], [31.829000000000025, -87.119787], [31.82902699999993, -87.119835], [31.829211000000022, -87.120134], [31.82925000000001, -87.120185], [31.829295000000002, -87.120236], [31.82934699999998, -87.120284], [31.82942300000002, -87.120342], [31.829515999999987, -87.120406], [31.829696000000006, -87.12051], [31.829967000000007, -87.120632], [31.830233999999983, -87.120734], [31.830494110809937, -87.12081050314906], [31.830528507768133, -87.0974792622058], [31.830518999999956, -87.09752], [31.83040999999999, -87.098038], [31.83036299999999, -87.098183], [31.83032799999999, -87.09825], [31.83028400000001, -87.098307], [31.830165999999988, -87.098384], [31.830045000000013, -87.098413], [31.829805000000004, -87.098418], [31.82958899999997, -87.098401], [31.829442000000043, -87.098401], [31.82930299999996, -87.098432], [31.829240999999985, -87.098467], [31.829142000000022, -87.098571], [31.829082, -87.098703], [31.829047999999975, -87.098887], [31.829031999999973, -87.098988], [31.828990999999977, -87.099847]],
-                {"bubblingMouseEvents": true, "color": "#e6194B", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#e6194B", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a832c3ea0d9e1810ad0834bd9ca9a4ba);
+                {"bubblingMouseEvents": true, "color": "#4e79a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4e79a7", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d4585c01dbfd2504daa9b7069713da72);
         
     
-        var popup_d13ecf88ed79043161513c930e875c88 = L.popup({"maxWidth": "100%"});
+        var popup_29a41e1cac4439f094a4ad6cf1a9edec = L.popup({"maxWidth": 300});
 
         
             
-                var html_f5782cfe392d189fab56cb0635b11b86 = $(`<div id="html_f5782cfe392d189fab56cb0635b11b86" style="width: 100.0%; height: 100.0%;"><b>Wilcox - AL-CD01</b></div>`)[0];
-                popup_d13ecf88ed79043161513c930e875c88.setContent(html_f5782cfe392d189fab56cb0635b11b86);
+                var html_3915e1cd64c8279bb927863d195a0e19 = $(`<div id="html_3915e1cd64c8279bb927863d195a0e19" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Wilcox - AL-CD01</h4>                              </div>         </div>`)[0];
+                popup_29a41e1cac4439f094a4ad6cf1a9edec.setContent(html_3915e1cd64c8279bb927863d195a0e19);
             
         
 
-        polygon_352feb6598e8c0aacc3e99cb24756c37.bindPopup(popup_d13ecf88ed79043161513c930e875c88)
+        polygon_bd4fcbf5fa5d09d432cbecac64831aee.bindPopup(popup_29a41e1cac4439f094a4ad6cf1a9edec)
         ;
 
         
     
     
-            var circle_marker_6b274098f7fa57a0c2d723aeee0a1571 = L.circleMarker(
-                [31.82926446391785, -87.10933429947508],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_a832c3ea0d9e1810ad0834bd9ca9a4ba);
-        
-    
-        var popup_57fddf50ede713b28bd2617eabc15332 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_ac89a466663f94ceb8f07a557b8de230 = $(`<div id="html_ac89a466663f94ceb8f07a557b8de230" style="width: 100.0%; height: 100.0%;"><b>Wilcox - AL-CD01</b></div>`)[0];
-                popup_57fddf50ede713b28bd2617eabc15332.setContent(html_ac89a466663f94ceb8f07a557b8de230);
-            
-        
-
-        circle_marker_6b274098f7fa57a0c2d723aeee0a1571.bindPopup(popup_57fddf50ede713b28bd2617eabc15332)
-        ;
-
-        
-    
-    
-            circle_marker_6b274098f7fa57a0c2d723aeee0a1571.bindTooltip(
+            polygon_bd4fcbf5fa5d09d432cbecac64831aee.bindTooltip(
                 `<div>
-                     Wilcox - AL-CD01
+                      Wilcox - AL-CD01
                  </div>`,
                 {"sticky": true}
             );
         
     
-            var polygon_795d61c14c4780c6f5728eb8f11e4173 = L.polygon(
+            var polygon_9b6f73c6148d2a1536fa96330a055d42 = L.polygon(
                 [[31.830522999999985, -87.120819], [31.83081099999997, -87.120887], [31.831429000000014, -87.121018], [31.831566999999993, -87.12105400000002], [31.831640999999973, -87.121075], [31.83168600000003, -87.121102], [31.831759000000044, -87.121147], [31.83195499999997, -87.12131], [31.83211899999998, -87.121357], [31.83223600000003, -87.121347], [31.83245900000002, -87.121214], [31.832524999999983, -87.121184], [31.832769, -87.121112], [31.83333500000003, -87.120982], [31.83374800000002, -87.12085], [31.83415999999999, -87.12071], [31.834414999999982, -87.120635], [31.834649999999975, -87.120591], [31.83513800000003, -87.120541], [31.835264000000016, -87.120514], [31.83546699999997, -87.120445], [31.836194000000006, -87.120133], [31.836452999999956, -87.120003], [31.83669900000001, -87.11985], [31.83753099999998, -87.119254], [31.837775999999995, -87.119096], [31.838036000000013, -87.118967], [31.838839000000007, -87.118663], [31.839305000000035, -87.118465], [31.839428999999978, -87.118392], [31.839544999999994, -87.118304], [31.839653000000038, -87.118205], [31.839947000000024, -87.117882], [31.840224999999947, -87.117544], [31.84052999999998, -87.117233], [31.840751000000008, -87.117043], [31.840993000000037, -87.116878], [31.84118099999996, -87.116764], [31.841295, -87.116676], [31.841396999999994, -87.116573], [31.84158300000003, -87.116351], [31.841687000000015, -87.116249], [31.84186800000002, -87.116126], [31.84239400000003, -87.115875], [31.842761000000024, -87.115652], [31.843058000000003, -87.115448], [31.84339399999999, -87.115173], [31.843654, -87.114918], [31.844715999999995, -87.113831], [31.845012000000043, -87.11351200000001], [31.845387000000013, -87.113064], [31.845598999999993, -87.112765], [31.84578800000001, -87.112456], [31.845957000000016, -87.112136], [31.846163999999995, -87.111674], [31.84626000000003, -87.1114], [31.846411000000035, -87.110836], [31.846497999999993, -87.110407], [31.846559999999997, -87.109971], [31.84662000000001, -87.109027], [31.846663000000007, -87.108666], [31.846726999999994, -87.10831000000002], [31.84679699999999, -87.108028], [31.84688999999999, -87.10774700000002], [31.847003999999984, -87.107481], [31.84713600000001, -87.107221], [31.847327999999987, -87.106911], [31.847503999999986, -87.106681], [31.847699000000002, -87.106469], [31.848015999999976, -87.106176], [31.84885499999998, -87.105482], [31.849350000000015, -87.105051], [31.849768000000008, -87.104646], [31.850053000000017, -87.104304], [31.850224999999984, -87.10407], [31.85030699999995, -87.103952], [31.850455000000007, -87.103703], [31.850455999999994, -87.10353], [31.849561999999956, -87.103096], [31.847915000000004, -87.10228700000002], [31.846187000000054, -87.101445], [31.844574000000005, -87.100674], [31.84355299999999, -87.100217], [31.841895999999988, -87.0995], [31.840442999999986, -87.098885], [31.839629999999993, -87.098523], [31.838422000000023, -87.09800400000002], [31.83633599999999, -87.097092], [31.836367999999993, -87.096974], [31.836386, -87.09683700000001], [31.836401999999964, -87.096407], [31.83648000000001, -87.095095], [31.836473999999992, -87.094803], [31.83645899999998, -87.094658], [31.836346999999986, -87.094082], [31.836320999999998, -87.093966], [31.83628300000004, -87.093797], [31.836177000000003, -87.093444], [31.836093, -87.093239], [31.83599299999998, -87.093044], [31.835812999999963, -87.092725], [31.835785000000016, -87.09261], [31.835766000000017, -87.091563], [31.835363000000015, -87.091558], [31.83488500000002, -87.091568], [31.834286, -87.091565], [31.833840000000038, -87.091558], [31.833017000000044, -87.091516], [31.832944000000044, -87.091528], [31.832878999999977, -87.09156], [31.832828999999965, -87.091614], [31.832791999999976, -87.091674], [31.83277100000002, -87.091742], [31.83275900000001, -87.091885], [31.832789000000002, -87.092176], [31.832787000000007, -87.092642], [31.83279299999995, -87.093299], [31.832763000000053, -87.095093], [31.83277100000002, -87.095384], [31.832760999999962, -87.095547], [31.831676000000016, -87.095071], [31.831148999999968, -87.094855], [31.831056000000007, -87.095161], [31.830931999999994, -87.095667], [31.83083499999998, -87.096166], [31.830528507768133, -87.0974792622058], [31.830494110809937, -87.12081050314906], [31.830522999999985, -87.120819]],
-                {"bubblingMouseEvents": true, "color": "#3cb44b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3cb44b", "fillOpacity": 0.3, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
-            ).addTo(map_a832c3ea0d9e1810ad0834bd9ca9a4ba);
+                {"bubblingMouseEvents": true, "color": "#f28e2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f28e2b", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 2}
+            ).addTo(map_d4585c01dbfd2504daa9b7069713da72);
         
     
-        var popup_bf64c383e581cbcad9d59d9fd25cf4dd = L.popup({"maxWidth": "100%"});
+        var popup_8fc3c845211ce20a706e99f799e322ab = L.popup({"maxWidth": 300});
 
         
             
-                var html_241a9dd3592db9f68a76b8c3018678a0 = $(`<div id="html_241a9dd3592db9f68a76b8c3018678a0" style="width: 100.0%; height: 100.0%;"><b>Wilcox - AL-CD07</b></div>`)[0];
-                popup_bf64c383e581cbcad9d59d9fd25cf4dd.setContent(html_241a9dd3592db9f68a76b8c3018678a0);
+                var html_0c73442aecdddff586aef5b92f1719ec = $(`<div id="html_0c73442aecdddff586aef5b92f1719ec" style="width: 100.0%; height: 100.0%;">             <div style="font-family: Arial, sans-serif;">                 <h4 style="margin:0 0 5px 0;"> Wilcox - AL-CD07</h4>                              </div>         </div>`)[0];
+                popup_8fc3c845211ce20a706e99f799e322ab.setContent(html_0c73442aecdddff586aef5b92f1719ec);
             
         
 
-        polygon_795d61c14c4780c6f5728eb8f11e4173.bindPopup(popup_bf64c383e581cbcad9d59d9fd25cf4dd)
+        polygon_9b6f73c6148d2a1536fa96330a055d42.bindPopup(popup_8fc3c845211ce20a706e99f799e322ab)
         ;
 
         
     
     
-            var circle_marker_9003c8e37c869bce38a8c1e909bd538e = L.circleMarker(
-                [31.838921301707643, -87.10751580285432],
-                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "stroke": true, "weight": 3}
-            ).addTo(map_a832c3ea0d9e1810ad0834bd9ca9a4ba);
-        
-    
-        var popup_2e9e9556e270ce5af7d0d2a32684ba84 = L.popup({"maxWidth": "100%"});
-
-        
-            
-                var html_06bc0cb2edcf49b64907c9599577728a = $(`<div id="html_06bc0cb2edcf49b64907c9599577728a" style="width: 100.0%; height: 100.0%;"><b>Wilcox - AL-CD07</b></div>`)[0];
-                popup_2e9e9556e270ce5af7d0d2a32684ba84.setContent(html_06bc0cb2edcf49b64907c9599577728a);
-            
-        
-
-        circle_marker_9003c8e37c869bce38a8c1e909bd538e.bindPopup(popup_2e9e9556e270ce5af7d0d2a32684ba84)
-        ;
-
-        
-    
-    
-            circle_marker_9003c8e37c869bce38a8c1e909bd538e.bindTooltip(
+            polygon_9b6f73c6148d2a1536fa96330a055d42.bindTooltip(
                 `<div>
-                     Wilcox - AL-CD07
+                      Wilcox - AL-CD07
                  </div>`,
                 {"sticky": true}
             );
