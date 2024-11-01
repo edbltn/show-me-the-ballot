@@ -1,0 +1,933 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+25978,North Carolina,NC-CD05,Stokes,27022,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 20.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 13      |
+|                         | Average Words per Question      | 92.8|
+|                         | Average Options per Question    | 2.8|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 18||
+|                         | Number of Non-Competitive Races | 6|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.9  years of education      |
+| **Length**              | Ballot Length                 | 10,745 characters       |
+|                         | Word Count                     | 1,206                         |
+
+---
+# Ballot for Stokes County, North Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Justice for All)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+---
+
+## U.S. House North Carolina District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Virginia Foxx** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Virginia_Foxx)
+
+- [ ] **Chuck Hubbard** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chuck_Hubbard)
+
+---
+
+## Governor of North Carolina
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Wayne Turner** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wayne_Turner)
+
+- [ ] **Mike Ross** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Ross_(North_Carolina))
+
+- [ ] **Mark K. Robinson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_K._Robinson_(North_Carolina_lieutenant_governor))
+
+- [ ] **Josh Stein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Josh_Stein)
+
+- [ ] **Vinny Smith** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vinny_Smith)
+
+---
+
+## Lieutenant Governor of North Carolina
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Hal Weatherman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hal_Weatherman)
+
+- [ ] **Rachel Hunt** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachel_Hunt)
+
+- [ ] **Shannon Bray** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shannon_Bray)
+
+- [ ] **Wayne Jones** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wayne_Jones_(North_Carolina))
+
+---
+
+## Attorney General of North Carolina
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dan Bishop** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Bishop)
+
+- [ ] **Jeff Jackson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeff_Jackson)
+
+---
+
+## North Carolina Commissioner of Agriculture
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sarah Taber** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sarah_Taber)
+
+- [ ] **Sean Haugh** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sean_Haugh)
+
+- [ ] **Steve Troxler** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steve_Troxler)
+
+---
+
+## North Carolina Commissioner of Insurance
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Natasha Marcus** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Natasha_Marcus)
+
+- [ ] **Mike Causey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Causey)
+
+---
+
+## North Carolina Commissioner of Labor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Luke Farley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Luke_Farley)
+
+- [ ] **Braxton Winston  II** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Braxton_Winston_II)
+
+---
+
+## North Carolina Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher A. Freeman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_A._Freeman)
+
+- [ ] **Martin Moore** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Martin_Moore_(North_Carolina))
+
+- [ ] **Thomas Murry** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Murry)
+
+- [ ] **Carolyn J. Thompson** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Carolyn_J._Thompson)
+
+- [ ] **Valerie Johnson Zachary** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Valerie_Johnson_Zachary)
+
+- [ ] **Ed Eldred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ed_Eldred)
+
+---
+
+## North Carolina House of Representatives District 91
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vivian Fulk** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vivian_Fulk)
+
+- [ ] **Kyle Hall** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kyle_Hall_(North_Carolina))
+
+---
+
+## North Carolina Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elaine Marshall** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elaine_Marshall)
+
+- [ ] **Chad Brown** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Brown_(North_Carolina))
+
+---
+
+## North Carolina State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jessica Holmes** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jessica_Holmes)
+
+- [ ] **Bob Drach** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Drach)
+
+- [ ] **Dave Boliek** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Boliek)
+
+---
+
+## North Carolina State Senate District 31
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dana Caudill Jones** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dana_Caudill_Jones)
+
+- [ ] **Ronda Mays** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ronda_Mays)
+
+- [ ] **Teresa Hopper Prizer** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Teresa_Hopper_Prizer)
+
+---
+
+## North Carolina Superintendent of Public Instruction
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michele Morrow** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michele_Morrow)
+
+- [ ] **Mo Green** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mo_Green)
+
+---
+
+## North Carolina Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Allison Riggs** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Allison_Riggs)
+
+- [ ] **Jefferson Griffin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jefferson_Griffin)
+
+---
+
+## North Carolina Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Wesley Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wesley_Harris)
+
+- [ ] **Brad Briner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brad_Briner)
+
+---
+
+## North Carolina 4th Superior Court Division District 23 Seat 1
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angela B. Puckett** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angela_B._Puckett_(North_Carolina_4th_Superior_Court_Division_District_23_Seat_1,_North_Carolina,_candidate_2024))
+
+---
+
+## North Carolina District Court District 23 Seat 4
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bill Southern** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Southern_(North_Carolina_District_Court_District_23_Seat_4,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes County Board of Commissioners
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Wayne Barneycastle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wayne_Barneycastle_(Stokes_County_Board_of_Commissioners,_North_Carolina,_candidate_2024))
+
+- [ ] **Sonya Moorefield Cox** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sonya_Moorefield_Cox_(Stokes_County_Board_of_Commissioners,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes County Board of Education
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Von Robertson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Von_Robertson_(Stokes_County_Board_of_Education,_North_Carolina,_candidate_2024))
+
+- [ ] **Cheryl Lawson Knight** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cheryl_Lawson_Knight_(Stokes_County_Board_of_Education,_North_Carolina,_candidate_2024))
+
+- [ ] **Jessica Moore Bennett** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jessica_Moore_Bennett_(Stokes_County_Board_of_Education,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes County Register of Deeds
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brandon Hooker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brandon_Hooker_(Stokes_County_Register_of_Deeds,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes Soil and Water Conservation District Board of Supervisors
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bob Lindsay** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Lindsay_(Stokes_Soil_and_Water_Conservation_District_Board_of_Supervisors,_North_Carolina,_candidate_2024))
+
+---
+
+## North Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",13.0,92.76923076923077,2.8461538461538463,18.0,1.0,6.0,0.0,18.9,10745.0,1206.0
+26324,North Carolina,NC-CD09,Stokes,27022,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 20.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 13      |
+|                         | Average Words per Question      | 92.8|
+|                         | Average Options per Question    | 2.8|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 18||
+|                         | Number of Non-Competitive Races | 6|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.9  years of education      |
+| **Length**              | Ballot Length                 | 10,745 characters       |
+|                         | Word Count                     | 1,206                         |
+
+---
+# Ballot for Stokes County, North Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Justice for All)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+---
+
+## U.S. House North Carolina District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Virginia Foxx** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Virginia_Foxx)
+
+- [ ] **Chuck Hubbard** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chuck_Hubbard)
+
+---
+
+## Governor of North Carolina
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Wayne Turner** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wayne_Turner)
+
+- [ ] **Mike Ross** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Ross_(North_Carolina))
+
+- [ ] **Mark K. Robinson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_K._Robinson_(North_Carolina_lieutenant_governor))
+
+- [ ] **Josh Stein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Josh_Stein)
+
+- [ ] **Vinny Smith** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vinny_Smith)
+
+---
+
+## Lieutenant Governor of North Carolina
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Hal Weatherman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hal_Weatherman)
+
+- [ ] **Rachel Hunt** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachel_Hunt)
+
+- [ ] **Shannon Bray** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shannon_Bray)
+
+- [ ] **Wayne Jones** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wayne_Jones_(North_Carolina))
+
+---
+
+## Attorney General of North Carolina
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dan Bishop** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Bishop)
+
+- [ ] **Jeff Jackson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeff_Jackson)
+
+---
+
+## North Carolina Commissioner of Agriculture
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sarah Taber** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sarah_Taber)
+
+- [ ] **Sean Haugh** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sean_Haugh)
+
+- [ ] **Steve Troxler** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steve_Troxler)
+
+---
+
+## North Carolina Commissioner of Insurance
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Natasha Marcus** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Natasha_Marcus)
+
+- [ ] **Mike Causey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Causey)
+
+---
+
+## North Carolina Commissioner of Labor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Luke Farley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Luke_Farley)
+
+- [ ] **Braxton Winston  II** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Braxton_Winston_II)
+
+---
+
+## North Carolina Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher A. Freeman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_A._Freeman)
+
+- [ ] **Martin Moore** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Martin_Moore_(North_Carolina))
+
+- [ ] **Thomas Murry** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Murry)
+
+- [ ] **Carolyn J. Thompson** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Carolyn_J._Thompson)
+
+- [ ] **Valerie Johnson Zachary** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Valerie_Johnson_Zachary)
+
+- [ ] **Ed Eldred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ed_Eldred)
+
+---
+
+## North Carolina House of Representatives District 91
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vivian Fulk** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vivian_Fulk)
+
+- [ ] **Kyle Hall** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kyle_Hall_(North_Carolina))
+
+---
+
+## North Carolina Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elaine Marshall** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elaine_Marshall)
+
+- [ ] **Chad Brown** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Brown_(North_Carolina))
+
+---
+
+## North Carolina State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jessica Holmes** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jessica_Holmes)
+
+- [ ] **Bob Drach** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Drach)
+
+- [ ] **Dave Boliek** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Boliek)
+
+---
+
+## North Carolina State Senate District 31
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dana Caudill Jones** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dana_Caudill_Jones)
+
+- [ ] **Ronda Mays** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ronda_Mays)
+
+- [ ] **Teresa Hopper Prizer** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Teresa_Hopper_Prizer)
+
+---
+
+## North Carolina Superintendent of Public Instruction
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michele Morrow** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michele_Morrow)
+
+- [ ] **Mo Green** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mo_Green)
+
+---
+
+## North Carolina Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Allison Riggs** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Allison_Riggs)
+
+- [ ] **Jefferson Griffin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jefferson_Griffin)
+
+---
+
+## North Carolina Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Wesley Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wesley_Harris)
+
+- [ ] **Brad Briner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brad_Briner)
+
+---
+
+## North Carolina 4th Superior Court Division District 23 Seat 1
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angela B. Puckett** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angela_B._Puckett_(North_Carolina_4th_Superior_Court_Division_District_23_Seat_1,_North_Carolina,_candidate_2024))
+
+---
+
+## North Carolina District Court District 23 Seat 4
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bill Southern** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Southern_(North_Carolina_District_Court_District_23_Seat_4,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes County Board of Commissioners
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Wayne Barneycastle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wayne_Barneycastle_(Stokes_County_Board_of_Commissioners,_North_Carolina,_candidate_2024))
+
+- [ ] **Sonya Moorefield Cox** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sonya_Moorefield_Cox_(Stokes_County_Board_of_Commissioners,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes County Board of Education
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Von Robertson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Von_Robertson_(Stokes_County_Board_of_Education,_North_Carolina,_candidate_2024))
+
+- [ ] **Cheryl Lawson Knight** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cheryl_Lawson_Knight_(Stokes_County_Board_of_Education,_North_Carolina,_candidate_2024))
+
+- [ ] **Jessica Moore Bennett** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jessica_Moore_Bennett_(Stokes_County_Board_of_Education,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes County Register of Deeds
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brandon Hooker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brandon_Hooker_(Stokes_County_Register_of_Deeds,_North_Carolina,_candidate_2024))
+
+---
+
+## Stokes Soil and Water Conservation District Board of Supervisors
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bob Lindsay** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Lindsay_(Stokes_Soil_and_Water_Conservation_District_Board_of_Supervisors,_North_Carolina,_candidate_2024))
+
+---
+
+## North Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",13.0,92.76923076923077,2.8461538461538463,18.0,1.0,6.0,0.0,18.9,10745.0,1206.0

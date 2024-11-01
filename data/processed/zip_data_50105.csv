@@ -1,0 +1,630 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+12395,Iowa,IA-CD04,Story,50105,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 29.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 340.8|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 20|
+|                         | Non-Partisan Races  | ## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+---
+
+, ## Iowa District Court 2B Associate Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley Beisch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ashley_Beisch_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hans Becker** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hans_Becker_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hunter Thorpe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hunter_Thorpe_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Joseph B. McCarville** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_B._McCarville_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kathryn E. Austin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_E._Austin_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Paul G. Crawford** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_G._Crawford_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+---
+
+, ## Iowa District Court 2B District Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adria Kester** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adria_Kester_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Derek Johnson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Johnson_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kurt John Stoebe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kurt_John_Stoebe_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 22.5  years of education      |
+| **Length**              | Ballot Length                 | 14,009 characters       |
+|                         | Word Count                     | 1,363                         |
+
+---
+# Ballot for Story County, Iowa
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **William P. Stodden** (Socialist Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_P._Stodden)
+  - Running Mate: Stephanie H. Cholensky
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+---
+
+## U.S. House Iowa District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charles Aldrich** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charles_Aldrich)
+
+- [ ] **Ryan Melton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Melton)
+
+- [ ] **Randy Feenstra** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Randy_Feenstra)
+
+---
+
+## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+---
+
+## Iowa House of Representatives District 51
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ryan Condon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Condon)
+
+- [ ] **Brett Barker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brett_Barker)
+
+---
+
+## Iowa State Senate District 26
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kara Warme** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kara_Warme)
+
+- [ ] **Mike Wolfe** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Wolfe_(Iowa))
+
+---
+
+## Iowa Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David May** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_May)
+
+---
+
+## Collins Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steven C. Shipton** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steven_C._Shipton_(Collins_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Franklin Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Douglas Moore** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Douglas_Moore_(Franklin_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Howard Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul N. Risdal** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_N._Risdal_(Howard_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Indian Creek Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ryan F. Peters** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ryan_F._Peters_(Indian_Creek_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Iowa District Court 2B Associate Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley Beisch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ashley_Beisch_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hans Becker** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hans_Becker_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hunter Thorpe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hunter_Thorpe_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Joseph B. McCarville** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_B._McCarville_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kathryn E. Austin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_E._Austin_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Paul G. Crawford** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_G._Crawford_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+---
+
+## Iowa District Court 2B District Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adria Kester** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adria_Kester_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Derek Johnson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Johnson_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kurt John Stoebe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kurt_John_Stoebe_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+---
+
+## Lafayette Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Douglas Doolittle** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Douglas_Doolittle_(Lafayette_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Lincoln Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Raymond Eley** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Raymond_Eley_(Lincoln_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Milford Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lucas Tjelmeland** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lucas_Tjelmeland_(Milford_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Nevada Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joseph Kooiker** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Kooiker_(Nevada_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## New Albany Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bob Jamison** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bob_Jamison_(New_Albany_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Palestine Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Timothy Wayne Wilson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Timothy_Wayne_Wilson_(Palestine_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Richland Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Larry E. Hall** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Larry_E._Hall_(Richland_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Sherman Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steve Scheid** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steve_Scheid_(Sherman_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+- [ ] **Robert Meller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Meller_(Sherman_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Story County Agricultural Extension Council
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 4
+
+### Candidates:
+- [ ] **Cathy Frey** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cathy_Frey_(Story_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Cindy Dorhout** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cindy_Dorhout_(Story_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Marisue Hartung** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Marisue_Hartung_(Story_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Barbara Woods** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Barbara_Woods_(Story_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Allison Coughenour** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Allison_Coughenour_(Story_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Abby Maxwell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Abby_Maxwell_(Story_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+---
+
+## Story County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lucy Martin** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lucy_Martin_(Story_County_Auditor,_Iowa,_candidate_2024))
+
+---
+
+## Story County Board of Supervisors At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Latifah Faisal** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Latifah_Faisal_(Story_County_Board_of_Supervisors_At-large,_Iowa,_candidate_2024))
+
+---
+
+## Story County Public Hospital Trustee Board
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **David Anderson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Anderson_(Story_County_Public_Hospital_Trustee_Board,_Iowa,_candidate_2024))
+
+- [ ] **Gaylan Scofield** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gaylan_Scofield_(Story_County_Public_Hospital_Trustee_Board,_Iowa,_candidate_2024))
+
+- [ ] **Sue Crum** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sue_Crum_(Story_County_Public_Hospital_Trustee_Board,_Iowa,_candidate_2024))
+
+---
+
+## Story County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul H. Fitzgerald** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_H._Fitzgerald_(Story_County_Sheriff,_Iowa,_candidate_2024))
+
+---
+
+## Story County Soil and Water Conservation District Commissioner Board
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Alisha Bower** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alisha_Bower_(Story_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Mark Tjelmeland** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_Tjelmeland_(Story_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Kayla Bergman** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kayla_Bergman_(Story_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+---
+
+## Union Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stacie Link** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stacie_Link_(Union_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Warren Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eric Weuve** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eric_Weuve_(Warren_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Washington Township Trustee Board (Story County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert Finch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Finch_(Washington_Township_Trustee_Board_(Story_County),_Iowa,_candidate_2024))
+
+---
+
+## Iowa Amendment 1, Require Citizenship to Vote in Elections and Allow 17-Year-Olds to Vote in Primaries Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Iowa Amendment 2, Gubernatorial Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",4.0,340.75,2.25,11.0,2.0,20.0,7.0,22.5,14009.0,1363.0

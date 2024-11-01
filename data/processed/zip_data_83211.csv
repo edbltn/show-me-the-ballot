@@ -1,0 +1,168 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+8503,Idaho,ID-CD02,Cassia,83211,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 10.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 210.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 14.9  years of education      |
+| **Length**              | Ballot Length                 | 3,307 characters       |
+|                         | Word Count                     | 420                         |
+
+---
+# Ballot for Cassia County, Idaho
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joel Skousen** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Skousen)
+  - Running Mate: Rik Combs
+
+- [ ] **Randall Terry** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Jill Stein** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Claudia De La Cruz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+---
+
+## U.S. House Idaho District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Roth** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roth)
+
+- [ ] **Michael K. Simpson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Simpson_(Idaho))
+
+- [ ] **Todd Corsetti** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Corsetti)
+
+- [ ] **Idaho Law** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Idaho_Law)
+
+---
+
+## Idaho House of Representatives District 27A
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Douglas T. Pickett** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Douglas_T._Pickett)
+
+- [ ] **Damian Rodriguez** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Damian_Rodriguez)
+
+---
+
+## Idaho House of Representatives District 27B
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Clay Handy** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Clay_Handy)
+
+---
+
+## Idaho State Senate District 27
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kelly Anthon** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kelly_Anthon)
+
+---
+
+## Idaho HJR 5, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Idaho Proposition 1, Top-Four Ranked-Choice Voting Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,210.0,2.0,3.0,2.0,2.0,0.0,14.9,3307.0,420.0

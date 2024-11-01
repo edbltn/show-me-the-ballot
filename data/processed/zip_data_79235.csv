@@ -1,0 +1,380 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+35214,Texas,TX-CD19,Floyd,79235,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 5      |
+|                         | Average Words per Question      | 187.0|
+|                         | Average Options per Question    | 1.2|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 12||
+|                         | Number of Non-Competitive Races | 8|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.0  years of education      |
+| **Length**              | Ballot Length                 | 8,085 characters       |
+|                         | Word Count                     | 935                         |
+
+---
+# Ballot for Floyd County, Texas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Texas District 19
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan Lewis** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Lewis)
+
+- [ ] **Bernard Johnson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernard_Johnson)
+
+- [ ] **Jodey Arrington** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jodey_Arrington)
+
+---
+
+## U.S. Senate Texas
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ted Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ted_Cruz)
+
+- [ ] **Tracy Andrus** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Andrus)
+
+- [ ] **Colin Allred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colin_Allred)
+
+- [ ] **Ted Brown** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Brown_(Texas))
+
+- [ ] **Analisa Roche** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Analisa_Roche)
+
+---
+
+## Texas Court of Criminal Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nancy Mulder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_Mulder)
+
+- [ ] **Gina Parker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Parker)
+
+---
+
+## Texas Court of Criminal Appeals Place 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chika Anyiam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chika_Anyiam)
+
+- [ ] **Lee Finley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Finley)
+
+---
+
+## Texas Court of Criminal Appeals Presiding Judge
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Schenck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Schenck)
+
+- [ ] **Holly Taylor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Holly_Taylor_(Texas))
+
+---
+
+## Texas House of Representatives District 83
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dustin Burrows** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dustin_Burrows)
+
+---
+
+## Texas Railroad Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Katherine Culbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Culbert)
+
+- [ ] **Christi Craddick** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christi_Craddick)
+
+- [ ] **Hawk Dunlap** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hawk_Dunlap)
+
+- [ ] **Richard McKibbin** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_McKibbin)
+
+- [ ] **Eddie Espinoza** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Espinoza)
+
+---
+
+## Texas Seventh District Court of Appeals Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Judy Parker** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Judy_Parker)
+
+---
+
+## Texas Seventh District Court of Appeals Place 3
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Alex Yarbrough** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alex_Yarbrough)
+
+---
+
+## Texas State Board of Education District 15
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Morgan Kirkpatrick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Morgan_Kirkpatrick)
+
+- [ ] **Aaron Kinsey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Aaron_Kinsey)
+
+- [ ] **Jack Westbrook** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jack_Westbrook)
+
+---
+
+## Texas Supreme Court Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Blacklock** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Blacklock)
+
+- [ ] **DaSean Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaSean_Jones)
+
+---
+
+## Texas Supreme Court Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christine Weems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Weems)
+
+- [ ] **John Devine** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Devine_(Texas))
+
+---
+
+## Texas Supreme Court Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jane Bland** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jane_Bland)
+
+- [ ] **David Roberson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roberson)
+
+- [ ] **Bonnie Lee Goldstein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Lee_Goldstein)
+
+---
+
+## Floyd County Attorney
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lex Herrington** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lex_Herrington_(Floyd_County_Attorney,_Texas,_candidate_2024))
+
+---
+
+## Floyd County Commissioner Precinct 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tanner R. Smith** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tanner_R._Smith_(Floyd_County_Commissioner_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Floyd County Commissioner Precinct 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tanner Rance Young** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tanner_Rance_Young_(Floyd_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Floyd County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ruben Deleon** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ruben_Deleon_(Floyd_County_Sheriff,_Texas,_candidate_2024))
+
+- [ ] **Paul Raissez** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_Raissez_(Floyd_County_Sheriff,_Texas,_candidate_2024))
+
+---
+
+## Floyd County Tax Assessor-Collector
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Priscilla R. Dehoyos** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Priscilla_R._Dehoyos_(Floyd_County_Tax_Assessor-Collector,_Texas,_candidate_2024))
+
+---
+
+## Texas 110th Judicial District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Emily Teegardin** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Emily_Teegardin_(Texas_110th_Judicial_District_Attorney,_Texas,_candidate_2024))
+
+---
+
+",5.0,187.0,1.2,12.0,0.0,8.0,0.0,18.0,8085.0,935.0

@@ -1,0 +1,274 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+10336,Illinois,IL-CD17,Mercer,61281,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 212.3|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 8|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.8  years of education      |
+| **Length**              | Ballot Length                 | 5,807 characters       |
+|                         | Word Count                     | 637                         |
+
+---
+# Ballot for Mercer County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 17
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eric Sorensen** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eric_Sorensen)
+
+- [ ] **Joseph G. McGraw** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_G._McGraw)
+
+---
+
+## Illinois 4th District Appellate Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert Steigmann** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Steigmann)
+
+- [ ] **Eugene G. Doherty** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eugene_G._Doherty)
+
+- [ ] **Amy Lannerd** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Lannerd)
+
+---
+
+## Illinois House of Representatives District 71
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel Swanson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Daniel_Swanson)
+
+---
+
+## Illinois Supreme Court 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Holder White** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lisa_Holder_White)
+
+---
+
+## Illinois 14th Circuit Court Mercer County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeffrey S. McKinley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffrey_S._McKinley_(Illinois_14th_Circuit_Court_Mercer_County,_Illinois,_candidate_2024))
+
+- [ ] **Daniel P. Dalton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Daniel_P._Dalton_(Illinois_14th_Circuit_Court_Mercer_County,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 14th Circuit Court Whiteside County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jennifer M. Rangel-Kelly** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_M._Rangel-Kelly_(Illinois_14th_Circuit_Court_Whiteside_County,_Illinois,_candidate_2024))
+
+- [ ] **James F. Heuerman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_F._Heuerman_(Illinois_14th_Circuit_Court_Whiteside_County,_Illinois,_candidate_2024))
+
+---
+
+## Mercer County Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chris DeMink** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_DeMink_(Mercer_County_Board_District_2,_Illinois,_candidate_2024))
+
+---
+
+## Mercer County Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Linda Koepke** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Linda_Koepke_(Mercer_County_Board_District_3,_Illinois,_candidate_2024))
+
+- [ ] **Colton Smith** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colton_Smith_(Mercer_County_Board_District_3,_Illinois,_candidate_2024))
+
+---
+
+## Mercer County Board District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher T. DeFrieze** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_T._DeFrieze_(Mercer_County_Board_District_4,_Illinois,_candidate_2024))
+
+---
+
+## Mercer County Board District 5
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gary L. Anderson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gary_L._Anderson_(Mercer_County_Board_District_5,_Illinois,_candidate_2024))
+
+---
+
+## Mercer County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kristin Relander** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kristin_Relander_(Mercer_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Mercer County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gregory D. Larson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gregory_D._Larson_(Mercer_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Mercer County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Grace Simpson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Grace_Simpson_(Mercer_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,212.33333333333334,2.0,6.0,3.0,8.0,0.0,18.8,5807.0,637.0

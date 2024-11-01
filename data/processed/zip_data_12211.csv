@@ -1,0 +1,143 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+24565,New York,NY-CD20,Albany,12211,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 10.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 321.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.6  years of education      |
+| **Length**              | Ballot Length                 | 2,515 characters       |
+|                         | Word Count                     | 321                         |
+
+---
+# Ballot for Albany County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House New York District 20
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul Tonko** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_Tonko)
+
+- [ ] **Kevin Waltz** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Waltz)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+---
+
+## New York State Assembly District 110
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeffrey Madden** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffrey_Madden)
+
+- [ ] **Phil Steck** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Phil_Steck)
+
+---
+
+## New York State Senate District 43
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Alvin Gamble** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alvin_Gamble)
+
+- [ ] **Jacob Ashby** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jacob_Ashby)
+
+---
+
+## Albany County District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lee Kindlon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Kindlon)
+
+- [ ] **Ralph Ambrosio** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ralph_Ambrosio)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,321.0,2.0,6.0,1.0,0.0,0.0,15.6,2515.0,321.0

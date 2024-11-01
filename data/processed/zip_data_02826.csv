@@ -1,0 +1,237 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+31964,Rhode Island,RI-CD02,Providence,02826,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 611.0|
+|                         | Average Options per Question    | 3.0|
+|                         | Number of Measures              | 5|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 1|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.9  years of education      |
+| **Length**              | Ballot Length                 | 5,186 characters       |
+|                         | Word Count                     | 611                         |
+
+---
+# Ballot for Providence County, Rhode Island
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (Team Kennedy)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Robert Wells Jr.** (Party Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_Wells_Jr.)
+  - Running Mate: Tony Jones
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Rhode Island District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Seth Magaziner** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Seth_Magaziner)
+
+- [ ] **Steven Corvi** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steven_Corvi)
+
+---
+
+## U.S. Senate Rhode Island
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Armando Anzoli** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Armando_Anzoli)
+
+- [ ] **Sheldon Whitehouse** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sheldon_Whitehouse)
+
+- [ ] **Patricia Morgan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_Morgan)
+
+---
+
+## Rhode Island House of Representatives District 48
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Newberry** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brian_Newberry)
+
+---
+
+## Rhode Island State Senate District 23
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jessica de la Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jessica_de_la_Cruz)
+
+- [ ] **Lewis Pryeor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lewis_Pryeor)
+
+---
+
+## Burrillville School Department, At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Victor Bevilacqua Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Victor_Bevilacqua_Jr._(Burrillville_School_Department,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **Sean M. Bouzan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sean_M._Bouzan_(Burrillville_School_Department,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **John Anthony Scott** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Anthony_Scott_(Burrillville_School_Department,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **Donison Lapham Allen** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donison_Lapham_Allen_(Burrillville_School_Department,_At-large,_Rhode_Island,_candidate_2024))
+
+---
+
+## Burrillville Town Council
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin S. McDaniel** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_S._McDaniel_(Burrillville_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Justin P. Batalon** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_P._Batalon_(Burrillville_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Anne Martha Brown** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Anne_Martha_Brown_(Burrillville_Town_Council,_Rhode_Island,_candidate_2024))
+
+---
+
+## Rhode Island Question 1, Constitutional Convention Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 2, Higher Education Facilities Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 3, Housing Acquisition, Development, and Infrastructure Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 4, Environmental and Recreational Infrastructure Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 5, Cultural Arts and Economy Grant Program Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,611.0,3.0,6.0,5.0,1.0,0.0,17.9,5186.0,611.0

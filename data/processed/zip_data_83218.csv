@@ -1,0 +1,172 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+8469,Idaho,ID-CD02,Bingham,83218,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 11.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 216.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 1|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.2  years of education      |
+| **Length**              | Ballot Length                 | 3,426 characters       |
+|                         | Word Count                     | 432                         |
+
+---
+# Ballot for Bingham County, Idaho
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joel Skousen** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Skousen)
+  - Running Mate: Rik Combs
+
+- [ ] **Randall Terry** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Jill Stein** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Claudia De La Cruz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Idaho District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Roth** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roth)
+
+- [ ] **Michael K. Simpson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Simpson_(Idaho))
+
+- [ ] **Todd Corsetti** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Corsetti)
+
+- [ ] **Idaho Law** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Idaho_Law)
+
+---
+
+## Idaho House of Representatives District 30A
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Cannon** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Cannon)
+
+---
+
+## Idaho House of Representatives District 30B
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ben Fuhriman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ben_Fuhriman)
+
+- [ ] **Breane Buckingham** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Breane_Buckingham)
+
+---
+
+## Idaho State Senate District 30
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karen Keith** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_Keith_(Idaho))
+
+- [ ] **Julie VanOrden** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Julie_VanOrden)
+
+---
+
+## Idaho HJR 5, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Idaho Proposition 1, Top-Four Ranked-Choice Voting Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,216.0,2.0,4.0,2.0,1.0,0.0,16.2,3426.0,432.0

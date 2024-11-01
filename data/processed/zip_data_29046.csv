@@ -1,0 +1,269 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+32315,South Carolina,SC-CD05,Lee,29046,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 7      |
+|                         | Average Words per Question      | 92.9|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 12|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.7  years of education      |
+| **Length**              | Ballot Length                 | 5,859 characters       |
+|                         | Word Count                     | 650                         |
+
+---
+# Ballot for Lee County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Claudia De La Cruz** (South Carolina Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Cornel West** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+---
+
+## U.S. House South Carolina District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Evangeline Hundley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Evangeline_Hundley)
+
+- [ ] **Ralph Norman** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ralph_Norman)
+
+---
+
+## South Carolina House of Representatives District 50
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Will Wheeler** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Will_Wheeler)
+
+---
+
+## South Carolina State Senate District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gerald Malloy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gerald_Malloy_(South_Carolina))
+
+- [ ] **J.D. Chaplin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J.D._Chaplin)
+
+---
+
+## Lee County Clerk of Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Teresa Arledge Brown** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Teresa_Arledge_Brown_(Lee_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Larry J. Logan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Larry_J._Logan_(Lee_County_Coroner,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County Council District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **R. Travis Windham** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/R._Travis_Windham_(Lee_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County Council District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ron Fountain** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ron_Fountain_(Lee_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County Council District 5
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jacqueline Josey** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jacqueline_Josey_(Lee_County_Council_District_5,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County Probate Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael A. Davis** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_A._Davis_(Lee_County_Probate_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County School District School Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mattie Moses Mack** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mattie_Moses_Mack_(Lee_County_School_District_School_Board_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County School District School Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Echo F. Belvin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Echo_F._Belvin_(Lee_County_School_District_School_Board_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County School District school board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bernard Simon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernard_Simon_(Lee_County_School_District_school_board_District_3,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County School District school board District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lucretia Mack** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lucretia_Mack_(Lee_County_School_District_school_board_District_7,_South_Carolina,_candidate_2024))
+
+---
+
+## Lee County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel Simon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Daniel_Simon_(Lee_County_Sheriff,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",7.0,92.85714285714286,1.0,3.0,1.0,12.0,0.0,18.7,5859.0,650.0

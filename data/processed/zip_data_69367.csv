@@ -1,0 +1,432 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+20860,Nebraska,NE-CD01,Dawes,69367,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 533.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 7|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 1|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.1  years of education      |
+| **Length**              | Ballot Length                 | 4,001 characters       |
+|                         | Word Count                     | 533                         |
+
+---
+# Ballot for Dawes County, Nebraska
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+---
+
+## U.S. House South Dakota At-large District
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dusty Johnson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dusty_Johnson_(South_Dakota))
+
+- [ ] **Sheryl Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sheryl_Johnson)
+
+---
+
+## South Dakota House of Representatives District 30
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Tim Goodwin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tim_Goodwin_(South_Dakota))
+
+- [ ] **Susan Scheirbeck** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Susan_Scheirbeck)
+
+- [ ] **Trish Ladner** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Trish_Ladner)
+
+---
+
+## South Dakota Public Utilities Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Forrest Wilson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Forrest_Wilson)
+
+- [ ] **Kristie Fiegen** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kristie_Fiegen)
+
+- [ ] **Gideon Oakes** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gideon_Oakes)
+
+---
+
+## South Dakota State Senate District 30
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bret Swanson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bret_Swanson)
+
+- [ ] **Amber Hulse** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Amber_Hulse)
+
+---
+
+## South Dakota Supreme Court District 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scott P. Myren** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Scott_P._Myren)
+
+---
+
+## South Dakota Constitutional Amendment E, Gender-Neutral Constitutional Language Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Constitutional Amendment F, Medicaid Work Requirement Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Constitutional Amendment G, Right to Abortion Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Constitutional Amendment H, Top-Two Primary Elections Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Initiated Measure 28, Prohibit Food and Grocery Taxes Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Initiated Measure 29, Marijuana Legalization Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Referred Law 21, Regulation of Carbon Dioxide Pipelines Referendum (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,533.0,2.0,5.0,7.0,1.0,0.0,16.1,4001.0,533.0
+21214,Nebraska,NE-CD03,Dawes,69367,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 20.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 57.4|
+|                         | Average Options per Question    | 2.1|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 1|
+|                         | Non-Partisan Races  | ## Nebraska State Senate District 43
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tanya Storer** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tanya_Storer)
+
+- [ ] **Tony Tangwall** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tony_Tangwall)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.8  years of education      |
+| **Length**              | Ballot Length                 | 3,439 characters       |
+|                         | Word Count                     | 459                         |
+
+---
+# Ballot for Dawes County, Nebraska
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Cornel West** (Legal Marijuana Now Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+---
+
+## U.S. House Nebraska District 3
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel Ebers** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Daniel_Ebers)
+
+- [ ] **Adrian Smith** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adrian_Smith_(Nebraska))
+
+---
+
+## U.S. Senate Nebraska
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Pete Ricketts** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Pete_Ricketts)
+
+- [ ] **Preston Love Jr.** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Preston_Love_Jr.)
+
+- [ ] **Deb Fischer** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Deb_Fischer)
+
+- [ ] **Dan Osborn** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Osborn)
+
+---
+
+## Nebraska State Senate District 43
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tanya Storer** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tanya_Storer)
+
+- [ ] **Tony Tangwall** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tony_Tangwall)
+
+---
+
+## Nebraska Workers' Compensation Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Julie Martin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Julie_Martin)
+
+---
+
+## Nebraska Initiative 434, Prohibit Abortions After the First Trimester Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nebraska Initiative 436, Paid Sick Leave Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nebraska Initiative 437, Medical Marijuana Legalization Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nebraska Initiative 438, Medical Marijuana Regulation Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nebraska Initiative 439, Right to Abortion Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nebraska Referendum 435, Private Education Scholarship Program Referendum (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,57.375,2.125,4.0,6.0,1.0,1.0,16.8,3439.0,459.0

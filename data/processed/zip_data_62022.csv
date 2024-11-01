@@ -1,0 +1,270 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+9844,Illinois,IL-CD15,Jersey,62022,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 205.7|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 11|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.1  years of education      |
+| **Length**              | Ballot Length                 | 5,566 characters       |
+|                         | Word Count                     | 617                         |
+
+---
+# Ballot for Jersey County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 15
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Miller** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Miller_(Illinois))
+
+---
+
+## Illinois 4th District Appellate Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert Steigmann** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Steigmann)
+
+- [ ] **Eugene G. Doherty** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eugene_G._Doherty)
+
+- [ ] **Amy Lannerd** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Lannerd)
+
+---
+
+## Illinois House of Representatives District 100
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **C.D. Davidsmeyer** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/C.D._Davidsmeyer)
+
+---
+
+## Illinois Supreme Court 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Holder White** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lisa_Holder_White)
+
+---
+
+## Illinois 7th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David R. Cherry** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_R._Cherry_(Illinois_7th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 7th Circuit Court 3rd Subcircuit
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas D. Denby** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_D._Denby_(Illinois_7th_Circuit_Court_3rd_Subcircuit,_Illinois,_candidate_2024))
+
+---
+
+## Jersey County Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Jarrod Hayes** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jarrod_Hayes_(Jersey_County_Board_District_1,_Illinois,_candidate_2024))
+
+- [ ] **Kenneth A. Grizzle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kenneth_A._Grizzle_(Jersey_County_Board_District_1,_Illinois,_candidate_2024))
+
+---
+
+## Jersey County Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jared Mills** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jared_Mills_(Jersey_County_Board_District_2,_Illinois,_candidate_2024))
+
+- [ ] **Benjamin J. Heitzig** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Benjamin_J._Heitzig_(Jersey_County_Board_District_2,_Illinois,_candidate_2024))
+
+- [ ] **Martin Ward** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Martin_Ward_(Jersey_County_Board_District_2,_Illinois,_candidate_2024))
+
+---
+
+## Jersey County Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Wagner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Wagner_(Jersey_County_Board_District_3,_Illinois,_candidate_2024))
+
+---
+
+## Jersey County Board District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Edward Koenig** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Edward_Koenig_(Jersey_County_Board_District_4,_Illinois,_candidate_2024))
+
+---
+
+## Jersey County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mitchell P. Reynolds** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mitchell_P._Reynolds_(Jersey_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Jersey County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin Ayres** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Ayres_(Jersey_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Jersey County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ben Goetten** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ben_Goetten_(Jersey_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,205.66666666666666,2.0,4.0,3.0,11.0,0.0,19.1,5566.0,617.0

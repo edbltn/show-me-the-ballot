@@ -1,0 +1,497 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+12447,Iowa,IA-CD04,Wright,50071,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 26.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 262.2|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 10||
+|                         | Number of Non-Competitive Races | 9|
+|                         | Non-Partisan Races  | ## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+---
+
+, ## Iowa District Court 2B Associate Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley Beisch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ashley_Beisch_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hans Becker** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hans_Becker_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hunter Thorpe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hunter_Thorpe_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Joseph B. McCarville** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_B._McCarville_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kathryn E. Austin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_E._Austin_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Paul G. Crawford** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_G._Crawford_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+---
+
+, ## Iowa District Court 2B District Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adria Kester** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adria_Kester_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Derek Johnson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Johnson_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kurt John Stoebe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kurt_John_Stoebe_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.2  years of education      |
+| **Length**              | Ballot Length                 | 10,466 characters       |
+|                         | Word Count                     | 1,049                         |
+
+---
+# Ballot for Wright County, Iowa
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **William P. Stodden** (Socialist Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_P._Stodden)
+  - Running Mate: Stephanie H. Cholensky
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+---
+
+## U.S. House Iowa District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charles Aldrich** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charles_Aldrich)
+
+- [ ] **Ryan Melton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Melton)
+
+- [ ] **Randy Feenstra** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Randy_Feenstra)
+
+---
+
+## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+---
+
+## Iowa House of Representatives District 55
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Shannon Latham** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Shannon_Latham)
+
+---
+
+## Iowa State Senate District 28
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cynthia Paschen** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cynthia_Oppedal_Paschen)
+
+- [ ] **Dennis Guth** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dennis_Guth)
+
+---
+
+## Iowa Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David May** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_May)
+
+---
+
+## Iowa District Court 2B Associate Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul G. Crawford** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_G._Crawford_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kathryn E. Austin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_E._Austin_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Joseph B. McCarville** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_B._McCarville_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hunter Thorpe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hunter_Thorpe_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hans Becker** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hans_Becker_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Ashley Beisch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ashley_Beisch_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+---
+
+## Iowa District Court 2B District Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kurt John Stoebe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kurt_John_Stoebe_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Derek Johnson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Johnson_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Adria Kester** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adria_Kester_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+---
+
+## Iowa Township Trustee Board (Wright County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **R.E. Lee Aldrich** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/R.E._Lee_Aldrich_(Iowa_Township_Trustee_Board_(Wright_County),_Iowa,_candidate_2024))
+
+- [ ] **Chris Canon** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Canon_(Iowa_Township_Trustee_Board_(Wright_County),_Iowa,_candidate_2024))
+
+---
+
+## Wall Lake Township Trustee Board (Wright County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Jeremiah Feltz** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeremiah_Feltz_(Wall_Lake_Township_Trustee_Board_(Wright_County),_Iowa,_candidate_2024))
+
+---
+
+## Woolstock Township Trustee Board (Wright County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **David Vanderheiden** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Vanderheiden_(Woolstock_Township_Trustee_Board_(Wright_County),_Iowa,_candidate_2024))
+
+---
+
+## Wright County Agricultural Extension Council
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 4
+
+### Candidates:
+- [ ] **Lenny Watts** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lenny_Watts_(Wright_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Hillari Klaver** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hillari_Klaver_(Wright_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Mike Marshall** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Marshall_(Wright_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Wendy Brandt** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wendy_Brandt_(Wright_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Brian Greving** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Greving_(Wright_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Amanda Meyer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Amanda_Meyer_(Wright_County_Auditor,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Board of Supervisors District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rick Rasmussen** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rick_Rasmussen_(Wright_County_Board_of_Supervisors_District_1,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Board of Supervisors District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley Bosch** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ashley_Bosch_(Wright_County_Board_of_Supervisors_District_2,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Board of Supervisors District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dean Kluss** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dean_Kluss_(Wright_County_Board_of_Supervisors_District_3,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Board of Supervisors District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lynn A. Loux** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lynn_A._Loux_(Wright_County_Board_of_Supervisors_District_4,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Board of Supervisors District 5
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Betty Ellis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Betty_Ellis_(Wright_County_Board_of_Supervisors_District_5,_Iowa,_candidate_2024))
+
+- [ ] **Todd Foss** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Foss_(Wright_County_Board_of_Supervisors_District_5,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jason Schluttenhofer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Schluttenhofer_(Wright_County_Sheriff,_Iowa,_candidate_2024))
+
+---
+
+## Wright County Soil and Water Conservation District Commissioner Board
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Kyle Watne** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kyle_Watne_(Wright_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Austin Charlson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Austin_Charlson_(Wright_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+---
+
+## Iowa Amendment 1, Require Citizenship to Vote in Elections and Allow 17-Year-Olds to Vote in Primaries Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Iowa Amendment 2, Gubernatorial Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",4.0,262.25,2.25,10.0,2.0,9.0,6.0,21.2,10466.0,1049.0

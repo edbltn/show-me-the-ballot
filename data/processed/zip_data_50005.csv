@@ -1,0 +1,635 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+12264,Iowa,IA-CD04,Marshall,50005,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 29.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 342.8|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 20|
+|                         | Non-Partisan Races  | ## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+---
+
+, ## Iowa District Court 2B Associate Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley Beisch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ashley_Beisch_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hans Becker** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hans_Becker_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hunter Thorpe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hunter_Thorpe_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Joseph B. McCarville** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_B._McCarville_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kathryn E. Austin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_E._Austin_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Paul G. Crawford** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_G._Crawford_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+---
+
+, ## Iowa District Court 2B District Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adria Kester** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adria_Kester_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Derek Johnson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Johnson_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kurt John Stoebe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kurt_John_Stoebe_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 22.6  years of education      |
+| **Length**              | Ballot Length                 | 14,058 characters       |
+|                         | Word Count                     | 1,371                         |
+
+---
+# Ballot for Marshall County, Iowa
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **William P. Stodden** (Socialist Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_P._Stodden)
+  - Running Mate: Stephanie H. Cholensky
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+---
+
+## U.S. House Iowa District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charles Aldrich** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charles_Aldrich)
+
+- [ ] **Ryan Melton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Melton)
+
+- [ ] **Randy Feenstra** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Randy_Feenstra)
+
+---
+
+## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+---
+
+## Iowa House of Representatives District 51
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ryan Condon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Condon)
+
+- [ ] **Brett Barker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brett_Barker)
+
+---
+
+## Iowa State Senate District 26
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kara Warme** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kara_Warme)
+
+- [ ] **Mike Wolfe** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Wolfe_(Iowa))
+
+---
+
+## Iowa Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David May** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_May)
+
+---
+
+## Bangor Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tim Lehman** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tim_Lehman_(Bangor_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Eden Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tom Hilleman** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_Hilleman_(Eden_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Green Castle Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matt Nelson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matt_Nelson_(Green_Castle_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Iowa District Court 2B Associate Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley Beisch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ashley_Beisch_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hans Becker** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hans_Becker_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Hunter Thorpe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hunter_Thorpe_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Joseph B. McCarville** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_B._McCarville_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kathryn E. Austin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_E._Austin_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Paul G. Crawford** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_G._Crawford_(Iowa_District_Court_2B_Associate_Judge,_Iowa,_candidate_2024))
+
+---
+
+## Iowa District Court 2B District Judge
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adria Kester** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adria_Kester_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Derek Johnson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Johnson_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+- [ ] **Kurt John Stoebe** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kurt_John_Stoebe_(Iowa_District_Court_2B_District_Judge,_Iowa,_candidate_2024))
+
+---
+
+## Jefferson Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jason Jones** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Jones_(Jefferson_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Le Grand Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carl Rasmussen** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carl_Rasmussen_(Le_Grand_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Liberty Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joe Detrick** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_Detrick_(Liberty_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Liscomb Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eric Engle** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Engle_(Liscomb_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Logan Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Fitz** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Fitz_(Logan_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Marietta Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brad Nichols** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brad_Nichols_(Marietta_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Marion Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Fleming** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Fleming_(Marion_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Marshall County Agricultural Extension Council
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Linda J. Von Holten** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Linda_J._Von_Holten_(Marshall_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Jasmin Banderas** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jasmin_Banderas_(Marshall_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Emma Michels** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Emma_Michels_(Marshall_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Eric Bidwell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Bidwell_(Marshall_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Colton Paul** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colton_Paul_(Marshall_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+---
+
+## Marshall County Auditor/Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joel Oliva** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Oliva_(Marshall_County_Auditor/Recorder,_Iowa,_candidate_2024))
+
+- [ ] **Nan Benson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nan_Benson_(Marshall_County_Auditor/Recorder,_Iowa,_candidate_2024))
+
+---
+
+## Marshall County Board of Supervisors At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Johnathon E. Remster** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Johnathon_E._Remster_(Marshall_County_Board_of_Supervisors_At-large,_Iowa,_candidate_2024))
+
+- [ ] **Kevin C. Goodman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_C._Goodman_(Marshall_County_Board_of_Supervisors_At-large,_Iowa,_candidate_2024))
+
+---
+
+## Marshall County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joel R. Phillips** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_R._Phillips_(Marshall_County_Sheriff,_Iowa,_candidate_2024))
+
+---
+
+## Marshall County Soil and Water Conservation District Commissioner Board
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Eric K. Goslinga** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_K._Goslinga_(Marshall_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Ethan Crow** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ethan_Crow_(Marshall_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Wade Dooley** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wade_Dooley_(Marshall_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+---
+
+## Minerva Township Clerk (Marshall County)
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elizabeth Smith** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elizabeth_Smith_(Minerva_Township_Clerk_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Minerva Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Jones** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Jones_(Minerva_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## State Center Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Taft** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Taft_(State_Center_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Taylor Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Wade Dooley** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wade_Dooley_(Taylor_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Timber Creek Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald McKibben** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_McKibben_(Timber_Creek_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Vienna Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Degner** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Degner_(Vienna_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Washington Township Trustee Board (Marshall County)
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jon Brockman** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jon_Brockman_(Washington_Township_Trustee_Board_(Marshall_County),_Iowa,_candidate_2024))
+
+---
+
+## Iowa Amendment 1, Require Citizenship to Vote in Elections and Allow 17-Year-Olds to Vote in Primaries Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Iowa Amendment 2, Gubernatorial Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",4.0,342.75,2.25,11.0,2.0,20.0,5.0,22.6,14058.0,1371.0

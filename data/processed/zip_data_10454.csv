@@ -1,0 +1,730 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+23903,New York,NY-CD13,Bronx,10454,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 610.0|
+|                         | Average Options per Question    | 6.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 3|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.0  years of education      |
+| **Length**              | Ballot Length                 | 4,635 characters       |
+|                         | Word Count                     | 610                         |
+
+---
+# Ballot for Bronx County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 14
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tina Forte** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tina_Forte)
+
+- [ ] **Alexandria Ocasio-Cortez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alexandria_Ocasio-Cortez)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+---
+
+## New York State Assembly District 84
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tyreek Goodman** (Conservative Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tyreek_Goodman)
+
+- [ ] **Rosaline Nieves** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rosaline_Nieves)
+
+- [ ] **Amanda Septimo** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amanda_Septimo)
+
+---
+
+## New York State Senate District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tanya Carmichael** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tanya_Carmichael)
+
+- [ ] **Jose M. Serrano** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jose_M._Serrano)
+
+---
+
+## New York City Civil Court Bronx County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Dawn Guglielmo** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dawn_Guglielmo)
+
+- [ ] **Deidra Moore** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deidra_Moore)
+
+- [ ] **Eliezer Rodriguez** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eliezer_Rodriguez)
+
+- [ ] **Scott Krompinger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_Krompinger)
+
+- [ ] **Angel Cruz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angel_Cruz_(New_York))
+
+- [ ] **Diomarys Escano-Bell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diomarys_Escano-Bell)
+
+---
+
+## New York City Civil Court Bronx County 2nd Municipal Court District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brenda Rivera** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brenda_Rivera)
+
+---
+
+## New York Supreme Court 12th Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Parker-Raso** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matthew_Parker-Raso)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,610.0,6.0,6.0,6.0,3.0,0.0,15.0,4635.0,610.0
+23923,New York,NY-CD14,Bronx,10454,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 610.0|
+|                         | Average Options per Question    | 6.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 3|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.0  years of education      |
+| **Length**              | Ballot Length                 | 4,635 characters       |
+|                         | Word Count                     | 610                         |
+
+---
+# Ballot for Bronx County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 14
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tina Forte** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tina_Forte)
+
+- [ ] **Alexandria Ocasio-Cortez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alexandria_Ocasio-Cortez)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+---
+
+## New York State Assembly District 84
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tyreek Goodman** (Conservative Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tyreek_Goodman)
+
+- [ ] **Rosaline Nieves** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rosaline_Nieves)
+
+- [ ] **Amanda Septimo** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amanda_Septimo)
+
+---
+
+## New York State Senate District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tanya Carmichael** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tanya_Carmichael)
+
+- [ ] **Jose M. Serrano** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jose_M._Serrano)
+
+---
+
+## New York City Civil Court Bronx County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Dawn Guglielmo** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dawn_Guglielmo)
+
+- [ ] **Deidra Moore** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deidra_Moore)
+
+- [ ] **Eliezer Rodriguez** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eliezer_Rodriguez)
+
+- [ ] **Scott Krompinger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_Krompinger)
+
+- [ ] **Angel Cruz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angel_Cruz_(New_York))
+
+- [ ] **Diomarys Escano-Bell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diomarys_Escano-Bell)
+
+---
+
+## New York City Civil Court Bronx County 2nd Municipal Court District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brenda Rivera** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brenda_Rivera)
+
+---
+
+## New York Supreme Court 12th Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Parker-Raso** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matthew_Parker-Raso)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,610.0,6.0,6.0,6.0,3.0,0.0,15.0,4635.0,610.0
+23956,New York,NY-CD15,Bronx,10454,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 610.0|
+|                         | Average Options per Question    | 6.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 3|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.0  years of education      |
+| **Length**              | Ballot Length                 | 4,635 characters       |
+|                         | Word Count                     | 610                         |
+
+---
+# Ballot for Bronx County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 14
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tina Forte** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tina_Forte)
+
+- [ ] **Alexandria Ocasio-Cortez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alexandria_Ocasio-Cortez)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+---
+
+## New York State Assembly District 84
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tyreek Goodman** (Conservative Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tyreek_Goodman)
+
+- [ ] **Rosaline Nieves** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rosaline_Nieves)
+
+- [ ] **Amanda Septimo** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amanda_Septimo)
+
+---
+
+## New York State Senate District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tanya Carmichael** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tanya_Carmichael)
+
+- [ ] **Jose M. Serrano** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jose_M._Serrano)
+
+---
+
+## New York City Civil Court Bronx County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Dawn Guglielmo** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dawn_Guglielmo)
+
+- [ ] **Deidra Moore** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deidra_Moore)
+
+- [ ] **Eliezer Rodriguez** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eliezer_Rodriguez)
+
+- [ ] **Scott Krompinger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_Krompinger)
+
+- [ ] **Angel Cruz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angel_Cruz_(New_York))
+
+- [ ] **Diomarys Escano-Bell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diomarys_Escano-Bell)
+
+---
+
+## New York City Civil Court Bronx County 2nd Municipal Court District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brenda Rivera** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brenda_Rivera)
+
+---
+
+## New York Supreme Court 12th Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Parker-Raso** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matthew_Parker-Raso)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,610.0,6.0,6.0,6.0,3.0,0.0,15.0,4635.0,610.0

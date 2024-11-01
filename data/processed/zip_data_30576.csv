@@ -1,0 +1,137 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+7843,Georgia,GA-CD09,Rabun,30576,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 10.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 104.7|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.3  years of education      |
+| **Length**              | Ballot Length                 | 2,342 characters       |
+|                         | Word Count                     | 314                         |
+
+---
+# Ballot for Rabun County, Georgia
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Georgia District 9
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tambrei Cash** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tambrei_Cash)
+
+- [ ] **Andrew Clyde** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Andrew_Clyde)
+
+---
+
+## Georgia House of Representatives District 10
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paulette Williams** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paulette_Williams)
+
+- [ ] **Victor Anderson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Victor_Anderson)
+
+---
+
+## Georgia State Senate District 50
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bo Hatchett** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bo_Hatchett)
+
+- [ ] **June Krise** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/June_Krise)
+
+---
+
+## Georgia Amendment 1, Local Option Homestead Property Tax Exemption Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Georgia Amendment 2, Creation of Tax Court Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Georgia Referendum A, Personal Property Tax Exemption Increase Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,104.66666666666667,2.0,4.0,3.0,0.0,0.0,15.3,2342.0,314.0

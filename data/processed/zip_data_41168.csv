@@ -1,0 +1,163 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+13809,Kentucky,KY-CD05,Boyd,41168,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 382.0|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 1||
+|                         | Number of Non-Competitive Races | 6|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.7  years of education      |
+| **Length**              | Ballot Length                 | 3,240 characters       |
+|                         | Word Count                     | 382                         |
+
+---
+# Ballot for Boyd County, Kentucky
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Jill Stein** (Kentucky Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Kentucky District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Hal Rogers** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hal_Rogers)
+
+---
+
+## Kentucky House of Representatives District 96
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patrick Flannery** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Patrick_Flannery)
+
+---
+
+## 32nd Judicial Circuit Commonwealth's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rhonda Copley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Copley_(32nd_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+---
+
+## Boyd County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Hall Sergent** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_Hall_Sergent_(Boyd_County_Circuit_Court_Clerk,_Kentucky,_candidate_2024))
+
+---
+
+## Boyd County Schools Board of Education Division 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Wallin** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Wallin_(Boyd_County_Schools_Board_of_Education_Division_3,_Kentucky,_candidate_2024))
+
+---
+
+## Boyd County Schools Board of Education Division 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Randall Stapleton Jr.** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Stapleton_Jr._(Boyd_County_Schools_Board_of_Education_Division_4,_Kentucky,_candidate_2024))
+
+---
+
+## Kentucky Constitutional Amendment 1, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Kentucky Constitutional Amendment 2, Allow State Funding for Non-Public Education Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,382.0,1.0,1.0,2.0,6.0,0.0,18.7,3240.0,382.0

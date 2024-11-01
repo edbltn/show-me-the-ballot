@@ -1,0 +1,311 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+10138,Illinois,IL-CD16,Marshall,61537,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 249.7|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 8|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.6  years of education      |
+| **Length**              | Ballot Length                 | 7,170 characters       |
+|                         | Word Count                     | 749                         |
+
+---
+# Ballot for Marshall County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 16
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Darin LaHood** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Darin_LaHood)
+
+---
+
+## Illinois 4th District Appellate Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eugene G. Doherty** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eugene_G._Doherty)
+
+- [ ] **Robert Steigmann** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Steigmann)
+
+- [ ] **Amy Lannerd** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Lannerd)
+
+---
+
+## Illinois House of Representatives District 105
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dennis Tipsword Jr.** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dennis_Tipsword_Jr.)
+
+- [ ] **Morgan Phillips** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Morgan_Phillips)
+
+---
+
+## Illinois State Senate District 53
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chris Balkema** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Balkema)
+
+---
+
+## Illinois Supreme Court 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Holder White** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lisa_Holder_White)
+
+---
+
+## Illinois 10th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kate Gorman** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kate_Gorman_(Illinois_10th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 10th Circuit Court Peoria County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sean W. Donahue** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sean_W._Donahue_(Illinois_10th_Circuit_Court_Peoria_County,_Illinois,_candidate_2024))
+
+- [ ] **John M. Spears** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_M._Spears_(Illinois_10th_Circuit_Court_Peoria_County,_Illinois,_candidate_2024))
+
+- [ ] **Frank W. Ierulli** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Frank_W._Ierulli_(Illinois_10th_Circuit_Court_Peoria_County,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 10th Circuit Court Stark County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Caroline Borden Campion** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Caroline_Borden_Campion_(Illinois_10th_Circuit_Court_Stark_County,_Illinois,_candidate_2024))
+
+---
+
+## Marshall County Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Regina Stanmar** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Regina_Stanmar_(Marshall_County_Board_District_1,_Illinois,_candidate_2024))
+
+- [ ] **David L. Leuders** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_L._Leuders_(Marshall_County_Board_District_1,_Illinois,_candidate_2024))
+
+- [ ] **Charlotte Balensiefen** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charlotte_Balensiefen_(Marshall_County_Board_District_1,_Illinois,_candidate_2024))
+
+---
+
+## Marshall County Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Jamie D. Durham** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jamie_D._Durham_(Marshall_County_Board_District_2,_Illinois,_candidate_2024))
+
+- [ ] **William F. Fecht** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_F._Fecht_(Marshall_County_Board_District_2,_Illinois,_candidate_2024))
+
+- [ ] **Steven Todd Perona** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steven_Todd_Perona_(Marshall_County_Board_District_2,_Illinois,_candidate_2024))
+
+- [ ] **Bradley J. Linstrom** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bradley_J._Linstrom_(Marshall_County_Board_District_2,_Illinois,_candidate_2024))
+
+---
+
+## Marshall County Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Travis McGlasson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Travis_McGlasson_(Marshall_County_Board_District_3,_Illinois,_candidate_2024))
+
+- [ ] **Martin J. McLaughlin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Martin_J._McLaughlin_(Marshall_County_Board_District_3,_Illinois,_candidate_2024))
+
+- [ ] **Donna Augustyn-Sloan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donna_Augustyn-Sloan_(Marshall_County_Board_District_3,_Illinois,_candidate_2024))
+
+---
+
+## Marshall County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina M. Noe** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_M._Noe_(Marshall_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Marshall County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David C. Lenz Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_C._Lenz_Jr._(Marshall_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Marshall County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patrick J. Murphy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patrick_J._Murphy_(Marshall_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,249.66666666666666,2.0,7.0,3.0,8.0,0.0,20.6,7170.0,749.0

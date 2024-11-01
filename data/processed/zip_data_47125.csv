@@ -1,0 +1,803 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+11213,Indiana,IN-CD08,Washington,47125,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 26.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 7      |
+|                         | Average Words per Question      | 133.4|
+|                         | Average Options per Question    | 2.9|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 9|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.8  years of education      |
+| **Length**              | Ballot Length                 | 8,769 characters       |
+|                         | Word Count                     | 934                         |
+
+---
+# Ballot for Washington County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Indiana District 9
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Timothy Peck** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Timothy_Peck)
+
+- [ ] **Russell Brooksbank** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russell_Brooksbank)
+
+- [ ] **Erin Houchin** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Erin_Houchin)
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+---
+
+## Indiana Court of Appeals 1st District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Peter R. Foley** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Peter_R._Foley)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 65
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher May** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christopher_May)
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+---
+
+## Washington County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephanie K. Rockey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephanie_K._Rockey_(Washington_County_Circuit_Court_Clerk,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David H. Norton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_H._Norton_(Washington_County_Commissioner_Board_District_1,_Indiana,_candidate_2024))
+
+- [ ] **Phil Marshall** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phil_Marshall_(Washington_County_Commissioner_Board_District_1,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Commissioner Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ernie L. Tuttle** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ernie_L._Tuttle_(Washington_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+- [ ] **Tony Cardwell Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tony_Cardwell_Jr._(Washington_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+- [ ] **Rhonda Ann Greene** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Ann_Greene_(Washington_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Shawnda Keltner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shawnda_Keltner_(Washington_County_Coroner,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Bradley Gilbert** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bradley_Gilbert_(Washington_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Todd Armstrong** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Armstrong_(Washington_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Mark E. Abbott** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_E._Abbott_(Washington_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Surveyor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Max J. Greene** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Max_J._Greene_(Washington_County_Surveyor,_Indiana,_candidate_2024))
+
+- [ ] **Emily Rodman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Emily_Rodman_(Washington_County_Surveyor,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nancy J. Coats** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_J._Coats_(Washington_County_Treasurer,_Indiana,_candidate_2024))
+
+---
+
+## West Washington School Corporation school board Madison Township
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carri Jo Cambron** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carri_Jo_Cambron_(West_Washington_School_Corporation_school_board_Madison_Township,_Indiana,_candidate_2024))
+
+---
+
+## West Washington School Corporation school board Posey Township
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Farmer** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Farmer_(West_Washington_School_Corporation_school_board_Posey_Township,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",7.0,133.42857142857142,2.857142857142857,11.0,1.0,9.0,1.0,20.8,8769.0,934.0
+11330,Indiana,IN-CD09,Washington,47125,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 26.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 7      |
+|                         | Average Words per Question      | 135.3|
+|                         | Average Options per Question    | 2.9|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 12||
+|                         | Number of Non-Competitive Races | 8|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.7  years of education      |
+| **Length**              | Ballot Length                 | 8,886 characters       |
+|                         | Word Count                     | 947                         |
+
+---
+# Ballot for Washington County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Indiana District 9
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Timothy Peck** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Timothy_Peck)
+
+- [ ] **Russell Brooksbank** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russell_Brooksbank)
+
+- [ ] **Erin Houchin** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Erin_Houchin)
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+---
+
+## Indiana Court of Appeals 1st District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Peter R. Foley** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Peter_R._Foley)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 70
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sarah Blessing** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sarah_Blessing)
+
+- [ ] **Karen Engleman** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Karen_Engleman)
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+---
+
+## Washington County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephanie K. Rockey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephanie_K._Rockey_(Washington_County_Circuit_Court_Clerk,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David H. Norton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_H._Norton_(Washington_County_Commissioner_Board_District_1,_Indiana,_candidate_2024))
+
+- [ ] **Phil Marshall** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phil_Marshall_(Washington_County_Commissioner_Board_District_1,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Commissioner Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ernie L. Tuttle** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ernie_L._Tuttle_(Washington_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+- [ ] **Tony Cardwell Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tony_Cardwell_Jr._(Washington_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+- [ ] **Rhonda Ann Greene** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Ann_Greene_(Washington_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Shawnda Keltner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shawnda_Keltner_(Washington_County_Coroner,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Bradley Gilbert** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bradley_Gilbert_(Washington_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Todd Armstrong** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Armstrong_(Washington_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Mark E. Abbott** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_E._Abbott_(Washington_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Surveyor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Max J. Greene** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Max_J._Greene_(Washington_County_Surveyor,_Indiana,_candidate_2024))
+
+- [ ] **Emily Rodman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Emily_Rodman_(Washington_County_Surveyor,_Indiana,_candidate_2024))
+
+---
+
+## Washington County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nancy J. Coats** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_J._Coats_(Washington_County_Treasurer,_Indiana,_candidate_2024))
+
+---
+
+## West Washington School Corporation school board Madison Township
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carri Jo Cambron** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carri_Jo_Cambron_(West_Washington_School_Corporation_school_board_Madison_Township,_Indiana,_candidate_2024))
+
+---
+
+## West Washington School Corporation school board Posey Township
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Farmer** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Farmer_(West_Washington_School_Corporation_school_board_Posey_Township,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",7.0,135.28571428571428,2.857142857142857,12.0,1.0,8.0,1.0,20.7,8886.0,947.0

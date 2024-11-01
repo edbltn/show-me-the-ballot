@@ -1,0 +1,265 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+9834,Illinois,IL-CD15,Henderson,61418,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 21.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 141.2|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 8|
+|                         | Non-Partisan Races  | ## Illinois 9th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bruce C. Beal** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bruce_C._Beal_(Illinois_9th_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **James Standard** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Standard_(Illinois_9th_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Rodney G. Clark** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rodney_G._Clark_(Illinois_9th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.8  years of education      |
+| **Length**              | Ballot Length                 | 5,226 characters       |
+|                         | Word Count                     | 565                         |
+
+---
+# Ballot for Henderson County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 15
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Miller** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Miller_(Illinois))
+
+---
+
+## Illinois 4th District Appellate Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Amy Lannerd** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Lannerd)
+
+- [ ] **Eugene G. Doherty** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eugene_G._Doherty)
+
+- [ ] **Robert Steigmann** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Steigmann)
+
+---
+
+## Illinois House of Representatives District 94
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Norine Hammond** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Norine_Hammond)
+
+---
+
+## Illinois Supreme Court 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Holder White** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lisa_Holder_White)
+
+---
+
+## Henderson County Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 5
+
+### Candidates:
+- [ ] **Todd Miller** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Miller_(Henderson_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Kurt McChesney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kurt_McChesney_(Henderson_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Kim R. Gullberg** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kim_R._Gullberg_(Henderson_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Janet L. Stubbs** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Janet_L._Stubbs_(Henderson_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Bill Knupp** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Knupp_(Henderson_County_Board_At-large,_Illinois,_candidate_2024))
+
+---
+
+## Henderson County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sandra Keane** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sandra_Keane_(Henderson_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Henderson County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Fedler** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Fedler_(Henderson_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Henderson County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Susan M. Maxwell-Schneider** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Susan_M._Maxwell-Schneider_(Henderson_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 9th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bruce C. Beal** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bruce_C._Beal_(Illinois_9th_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **James Standard** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Standard_(Illinois_9th_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Rodney G. Clark** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rodney_G._Clark_(Illinois_9th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 9th Circuit Court McDonough County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nigel D. Graham** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nigel_D._Graham_(Illinois_9th_Circuit_Court_McDonough_County,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",4.0,141.25,2.0,4.0,3.0,8.0,1.0,19.8,5226.0,565.0

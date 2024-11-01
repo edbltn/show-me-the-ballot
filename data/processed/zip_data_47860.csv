@@ -1,0 +1,336 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+11129,Indiana,IN-CD08,Parke,47860,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 23.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 7      |
+|                         | Average Words per Question      | 110.4|
+|                         | Average Options per Question    | 2.9|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 7|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.2  years of education      |
+| **Length**              | Ballot Length                 | 6,846 characters       |
+|                         | Word Count                     | 773                         |
+
+---
+# Ballot for Parke County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Indiana District 8
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **K. Richard Fitzlaff** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/K._Richard_Fitzlaff)
+
+- [ ] **Mark Messmer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Messmer)
+
+- [ ] **Erik Hurt** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erik_Hurt)
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+---
+
+## Indiana Court of Appeals 1st District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Peter R. Foley** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Peter_R._Foley)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 42
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Alan Morrison** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alan_Morrison)
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+---
+
+## Parke County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dan R. Collom** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_R._Collom_(Parke_County_Commissioner_Board_District_1,_Indiana,_candidate_2024))
+
+---
+
+## Parke County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Chance A. Hoover** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chance_A._Hoover_(Parke_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **J.B. Butler** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J.B._Butler_(Parke_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Mary Alice Gregg** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_Alice_Gregg_(Parke_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Matthew C. Helderman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_C._Helderman_(Parke_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## Parke County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jamie L. York** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jamie_L._York_(Parke_County_Recorder,_Indiana,_candidate_2024))
+
+---
+
+## Parke County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kim Shorter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kim_Shorter_(Parke_County_Treasurer,_Indiana,_candidate_2024))
+
+---
+
+## Southwest Parke Community School Corporation school board District 1
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel J. Harkrider** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Daniel_J._Harkrider_(Southwest_Parke_Community_School_Corporation_school_board_District_1,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",7.0,110.42857142857143,2.857142857142857,8.0,1.0,7.0,1.0,18.2,6846.0,773.0

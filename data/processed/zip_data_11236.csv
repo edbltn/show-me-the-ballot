@@ -1,0 +1,485 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+23753,New York,NY-CD08,Kings,11236,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 615.0|
+|                         | Average Options per Question    | 6.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 4|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.2  years of education      |
+| **Length**              | Ballot Length                 | 4,695 characters       |
+|                         | Word Count                     | 615                         |
+
+---
+# Ballot for Kings County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 8
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Delaney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Delaney_(New_York))
+
+- [ ] **Hakeem Jeffries** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hakeem_Jeffries)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+---
+
+## New York State Assembly District 59
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jaime Williams** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jaime_Williams)
+
+---
+
+## New York State Senate District 19
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Roxanne Persaud** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Roxanne_Persaud)
+
+---
+
+## New York City Civil Court Kings County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Alexis Riley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alexis_Riley)
+
+- [ ] **Tehilah Berman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tehilah_Berman)
+
+- [ ] **Tawanna St. Louis** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tawanna_St._Louis)
+
+- [ ] **Abayomi Whint** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Abayomi_Whint)
+
+- [ ] **Mark Kagan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Kagan)
+
+- [ ] **Turquoise Haskin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Turquoise_Haskin)
+
+---
+
+## New York Supreme Court 2nd Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 7
+
+### Candidates:
+- [ ] **Jeffrey S. Sunshine** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jeffrey_S._Sunshine)
+
+- [ ] **Keisha Alleyne** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Keisha_Alleyne)
+
+- [ ] **Christopher Robles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Robles)
+
+- [ ] **Sharen D. Hudson** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sharen_D._Hudson)
+
+- [ ] **Lisa Lewis** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Lewis_(New_York))
+
+- [ ] **Inga O'Neale** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Inga_O'Neale)
+
+- [ ] **Adam Perlmutter** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Perlmutter)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,615.0,6.0,5.0,6.0,4.0,0.0,15.2,4695.0,615.0
+23795,New York,NY-CD09,Kings,11236,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 616.0|
+|                         | Average Options per Question    | 6.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 4|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.0  years of education      |
+| **Length**              | Ballot Length                 | 4,715 characters       |
+|                         | Word Count                     | 616                         |
+
+---
+# Ballot for Kings County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 9
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Menachem Raitport** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Menachem_Raitport)
+
+- [ ] **Yvette D. Clarke** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Yvette_Clarke)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+---
+
+## New York State Assembly District 58
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Monique Chandler-Waterman** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Monique_Chandler-Waterman)
+
+---
+
+## New York State Senate District 19
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Roxanne Persaud** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Roxanne_Persaud)
+
+---
+
+## New York City Civil Court Kings County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Alexis Riley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alexis_Riley)
+
+- [ ] **Tehilah Berman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tehilah_Berman)
+
+- [ ] **Tawanna St. Louis** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tawanna_St._Louis)
+
+- [ ] **Abayomi Whint** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Abayomi_Whint)
+
+- [ ] **Mark Kagan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Kagan)
+
+- [ ] **Turquoise Haskin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Turquoise_Haskin)
+
+---
+
+## New York Supreme Court 2nd Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 7
+
+### Candidates:
+- [ ] **Jeffrey S. Sunshine** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jeffrey_S._Sunshine)
+
+- [ ] **Keisha Alleyne** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Keisha_Alleyne)
+
+- [ ] **Christopher Robles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Robles)
+
+- [ ] **Sharen D. Hudson** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sharen_D._Hudson)
+
+- [ ] **Lisa Lewis** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Lewis_(New_York))
+
+- [ ] **Inga O'Neale** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Inga_O'Neale)
+
+- [ ] **Adam Perlmutter** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Perlmutter)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,616.0,6.0,5.0,6.0,4.0,0.0,15.0,4715.0,616.0

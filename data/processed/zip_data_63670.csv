@@ -1,0 +1,625 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+20388,Missouri,MO-CD08,Ste. Genevieve,63670,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 24.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 13      |
+|                         | Average Words per Question      | 73.8|
+|                         | Average Options per Question    | 3.1|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 1|
+|                         | Non-Partisan Races  | ## Missouri Court of Appeals Eastern District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael S. Wright** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_S._Wright)
+
+- [ ] **Gary Gaertner Jr.** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gary_Gaertner_Jr.)
+
+- [ ] **Robert M. Clayton III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_M._Clayton,_III)
+
+- [ ] **Renee Hardin-Tammons** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Renee_Hardin-Tammons)
+
+- [ ] **Cristian M. Stevens** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cristian_M._Stevens)
+
+---
+
+, ## Missouri Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kelly C. Broniec** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kelly_C._Broniec)
+
+- [ ] **Ginger Gooch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ginger_Gooch)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.2  years of education      |
+| **Length**              | Ballot Length                 | 7,727 characters       |
+|                         | Word Count                     | 960                         |
+
+---
+# Ballot for Ste. Genevieve County, Missouri
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Missouri District 8
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jake Dawson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jake_Dawson_(Missouri))
+
+- [ ] **Randi McCallian** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randi_McCallian)
+
+- [ ] **Jason Smith** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jason_Smith_(Missouri_congressional_representative))
+
+---
+
+## U.S. Senate Missouri
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Bufe** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Bufe)
+
+- [ ] **Nathan Kline** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Kline)
+
+- [ ] **W. C. Young** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/W._C._Young)
+
+- [ ] **Jared Young** (Better Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jared_Young_(Missouri))
+
+- [ ] **Josh Hawley** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Josh_Hawley)
+
+- [ ] **Lucas Kunce** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lucas_Kunce)
+
+---
+
+## Governor of Missouri
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul Lehmann** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paul_Lehmann)
+
+- [ ] **Bill Slantz** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Slantz)
+
+- [ ] **Crystal Quade** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Crystal_Quade)
+
+- [ ] **Mike Kehoe** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Kehoe)
+
+- [ ] **Theodis Brown Sr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Theodis_Brown_Sr.)
+
+---
+
+## Lieutenant Governor of Missouri
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Danielle Elliott** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Danielle_Elliott)
+
+- [ ] **Ken Iverson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ken_Iverson)
+
+- [ ] **David Wasinger** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Wasinger)
+
+- [ ] **Richard Brown** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Brown_(Missouri))
+
+---
+
+## Attorney General of Missouri
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ryan Munro** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Munro)
+
+- [ ] **Andrew Bailey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Andrew_Bailey_(Missouri))
+
+- [ ] **Elad Gross** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elad_Gross)
+
+---
+
+## Missouri Court of Appeals Eastern District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cristian M. Stevens** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cristian_M._Stevens)
+
+- [ ] **Renee Hardin-Tammons** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Renee_Hardin-Tammons)
+
+- [ ] **Robert M. Clayton III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_M._Clayton,_III)
+
+- [ ] **Gary Gaertner Jr.** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gary_Gaertner_Jr.)
+
+- [ ] **Michael S. Wright** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_S._Wright)
+
+---
+
+## Missouri House of Representatives District 145
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bryant Wolfin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bryant_Wolfin)
+
+---
+
+## Missouri Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Denny Hoskins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Denny_Hoskins)
+
+- [ ] **Jerome H. Bauer** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jerome_Bauer)
+
+- [ ] **Carl Herman Freese** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carl_Herman_Freese)
+
+- [ ] **Barbara Phifer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Barbara_Phifer)
+
+---
+
+## Missouri State Senate District 3
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Henderson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Henderson)
+
+- [ ] **Doug Halbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Doug_Halbert)
+
+---
+
+## Missouri Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ginger Gooch** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ginger_Gooch)
+
+- [ ] **Kelly C. Broniec** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kelly_C._Broniec)
+
+---
+
+## Missouri Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Hartwig** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Hartwig)
+
+- [ ] **Mark Osmack** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Osmack)
+
+- [ ] **Vivek Malek** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Vivek_Malek)
+
+- [ ] **Reagn Haase** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Reagn_Haase)
+
+---
+
+## Missouri Amendment 2, Sports Betting Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Missouri Amendment 3, Right to Reproductive Freedom Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Missouri Amendment 5, Osage River Gambling Boat License Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Missouri Amendment 6, Levying of Fees to Support Salaries of Law Enforcement Personnel Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Missouri Amendment 7, Require Citizenship to Vote and Prohibit Ranked-Choice Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Missouri Proposition A, Minimum Wage and Earned Paid Sick Time Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",13.0,73.84615384615384,3.076923076923077,11.0,6.0,1.0,2.0,16.2,7727.0,960.0
+20446,Missouri,MO-CD12,Ste. Genevieve,63670,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 156.3|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 4|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.4  years of education      |
+| **Length**              | Ballot Length                 | 4,262 characters       |
+|                         | Word Count                     | 469                         |
+
+---
+# Ballot for Ste. Genevieve County, Missouri
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 12
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Bost** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Bost)
+
+- [ ] **Brian Roberts** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Roberts)
+
+---
+
+## Illinois House of Representatives District 115
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Friess** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Friess)
+
+---
+
+## Illinois State Senate District 58
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Terri Bryant** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Terri_Bryant)
+
+---
+
+## Illinois 24th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel J. Emge** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Daniel_J._Emge_(Illinois_24th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Randolph County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patricia B. Stewart** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_B._Stewart_(Randolph_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+- [ ] **Julie A. Carnahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Julie_A._Carnahan_(Randolph_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Randolph County Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Martin Giordano** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Martin_Giordano_(Randolph_County_Commissioner_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Andy Gerlach** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Gerlach_(Randolph_County_Commissioner_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Christopher M. Hayer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_M._Hayer_(Randolph_County_Commissioner_Board_At-large,_Illinois,_candidate_2024))
+
+---
+
+## Randolph County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tracy L. Vallett** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_L._Vallett_(Randolph_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Randolph County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dennis L. Frech** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dennis_L._Frech_(Randolph_County_State's_Attorney,_Illinois,_candidate_2024))
+
+- [ ] **Christopher P. Koeneman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_P._Koeneman_(Randolph_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,156.33333333333334,2.0,5.0,3.0,4.0,0.0,18.4,4262.0,469.0

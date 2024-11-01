@@ -1,0 +1,248 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+10214,Illinois,IL-CD16,Stark,61449,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 192.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 9|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.1  years of education      |
+| **Length**              | Ballot Length                 | 5,189 characters       |
+|                         | Word Count                     | 576                         |
+
+---
+# Ballot for Stark County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 16
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Darin LaHood** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Darin_LaHood)
+
+---
+
+## Illinois 4th District Appellate Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert Steigmann** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Steigmann)
+
+- [ ] **Eugene G. Doherty** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eugene_G._Doherty)
+
+- [ ] **Amy Lannerd** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Lannerd)
+
+---
+
+## Illinois House of Representatives District 93
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Travis Weaver** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Travis_Weaver)
+
+---
+
+## Illinois Supreme Court 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Holder White** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lisa_Holder_White)
+
+---
+
+## Illinois 10th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kate Gorman** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kate_Gorman_(Illinois_10th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 10th Circuit Court Peoria County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John M. Spears** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_M._Spears_(Illinois_10th_Circuit_Court_Peoria_County,_Illinois,_candidate_2024))
+
+- [ ] **Sean W. Donahue** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sean_W._Donahue_(Illinois_10th_Circuit_Court_Peoria_County,_Illinois,_candidate_2024))
+
+- [ ] **Frank W. Ierulli** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Frank_W._Ierulli_(Illinois_10th_Circuit_Court_Peoria_County,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 10th Circuit Court Stark County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Caroline Borden Campion** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Caroline_Borden_Campion_(Illinois_10th_Circuit_Court_Stark_County,_Illinois,_candidate_2024))
+
+---
+
+## Stark County Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Kari Bush** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kari_Bush_(Stark_County_Board_District_1,_Illinois,_candidate_2024))
+
+- [ ] **Adam Wilson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Wilson_(Stark_County_Board_District_1,_Illinois,_candidate_2024))
+
+---
+
+## Stark County Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **William A. Loane** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_A._Loane_(Stark_County_Board_District_2,_Illinois,_candidate_2024))
+
+- [ ] **Robin R. Nowlan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robin_R._Nowlan_(Stark_County_Board_District_2,_Illinois,_candidate_2024))
+
+---
+
+## Stark County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kenney Julie A** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kenney_Julie_A_(Stark_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Stark County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Austin King** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Austin_King_(Stark_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,192.0,2.0,5.0,3.0,9.0,0.0,19.1,5189.0,576.0

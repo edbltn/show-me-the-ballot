@@ -1,0 +1,754 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+36629,Utah,UT-CD02,Salt Lake,84006,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 20.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 907.0|
+|                         | Average Options per Question    | 8.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 10||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.3  years of education      |
+| **Length**              | Ballot Length                 | 7,551 characters       |
+|                         | Word Count                     | 907                         |
+
+---
+# Ballot for Salt Lake County, Utah
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Claudia De La Cruz** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Lucifer Everylove** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lucifer_Everylove)
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Joel Skousen** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Skousen)
+  - Running Mate: Rik Combs
+
+---
+
+## U.S. House Utah District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Celeste Maloy** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Celeste_Maloy)
+
+- [ ] **Cassie Easley** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cassie_Easley)
+
+- [ ] **Tyler Murset** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tyler_Murset)
+
+- [ ] **Nathaniel Woodward** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathaniel_Woodward)
+
+---
+
+## U.S. Senate Utah
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Caroline Gleich** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Caroline_Gleich)
+
+- [ ] **Laird Hamblin** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Laird_Hamblin)
+
+- [ ] **John Curtis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Curtis_(Utah))
+
+- [ ] **Carlton Bowen** (Independent American Party of Utah)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carlton_Bowen)
+
+---
+
+## Governor of Utah
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charlie Tautuaa** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charlie_Tautuaa)
+
+- [ ] **J. Robert Latham** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J._Robert_Latham)
+
+- [ ] **Tom Tomeny** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_Tomeny)
+
+- [ ] **Tommy Williams** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tommy_Williams_(Utah))
+
+- [ ] **Brian King** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_King)
+
+- [ ] **Spencer Cox** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Spencer_Cox)
+
+- [ ] **Phil Lyman** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phil_Lyman)
+
+---
+
+## Lieutenant Governor of Utah
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Natalie Clawson** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Natalie_Clawson)
+
+- [ ] **Sylvia Miera Fisk** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sylvia_Miera_Fisk)
+
+- [ ] **William Taylor** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Taylor_(Utah))
+
+- [ ] **Barry Evan Short** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Barry_Evan_Short)
+
+- [ ] **Deidre Henderson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Deidre_Henderson)
+
+- [ ] **Archie Williams III** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Archie_Williams_III)
+
+- [ ] **Rebekah Cummings** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rebekah_Cummings)
+
+---
+
+## Attorney General of Utah
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Austin Hepworth** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Austin_Hepworth)
+
+- [ ] **Andrew McCullough** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_McCullough)
+
+- [ ] **Michelle Quist** (United Utah Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michelle_Quist)
+
+- [ ] **Rudy Bautista** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rudy_Bautista)
+
+- [ ] **Derek Brown** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Derek_Brown_(Utah))
+
+---
+
+## Utah Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ryan Tenney** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ryan_Tenney)
+
+---
+
+## Utah House of Representatives District 28
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nicholeen Peck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nicholeen_Peck)
+
+- [ ] **Fred Baker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Fred_Baker)
+
+---
+
+## Utah State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tina Cannon** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tina_Cannon_(Utah))
+
+- [ ] **Jeffrey Ostler** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffrey_Ostler)
+
+- [ ] **Catherine Voutaz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Catherine_Voutaz)
+
+---
+
+## Utah State Board of Education District 10
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matt Hymas** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matt_Hymas)
+
+- [ ] **Deborah L. Gatrell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deborah_Gatrell)
+
+---
+
+## Utah Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Durrant** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matthew_Durrant)
+
+---
+
+## Utah Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Miles Pomeroy** (Utah Forward Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Miles_Pomeroy)
+
+- [ ] **Marlo Oaks** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Marlo_Oaks)
+
+- [ ] **Neil Hansen** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Neil_Hansen)
+
+---
+
+## Utah Amendment B, State School Fund Distribution Cap Increase Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Utah Amendment C, Elections of County Sheriffs Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,907.0,8.0,10.0,2.0,2.0,0.0,17.3,7551.0,907.0
+36793,Utah,UT-CD04,Salt Lake,84006,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 25.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 1017.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 4|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 2|
+|                         | Non-Partisan Races  | ## Jordan School District, Voting District 6
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Niki George** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Niki_George)
+
+- [ ] **Clareen Arnold** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Clareen_Arnold)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.5  years of education      |
+| **Length**              | Ballot Length                 | 8,307 characters       |
+|                         | Word Count                     | 1,017                         |
+
+---
+# Ballot for Salt Lake County, Utah
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joel Skousen** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Skousen)
+  - Running Mate: Rik Combs
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Lucifer Everylove** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lucifer_Everylove)
+
+- [ ] **Claudia De La Cruz** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Cornel West** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+---
+
+## U.S. House Utah District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **M. Evan Bullard** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/M._Evan_Bullard)
+
+- [ ] **Burgess Owens** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Burgess_Owens)
+
+- [ ] **Vaughn R. Cook** (United Utah Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vaughn_Cook)
+
+- [ ] **Katrina Fallick-Wang** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katrina_Fallick-Wang)
+
+---
+
+## U.S. Senate Utah
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Laird Hamblin** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Laird_Hamblin)
+
+- [ ] **John Curtis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Curtis_(Utah))
+
+- [ ] **Carlton Bowen** (Independent American Party of Utah)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carlton_Bowen)
+
+- [ ] **Caroline Gleich** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Caroline_Gleich)
+
+---
+
+## Governor of Utah
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charlie Tautuaa** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charlie_Tautuaa)
+
+- [ ] **Spencer Cox** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Spencer_Cox)
+
+- [ ] **Tom Tomeny** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_Tomeny)
+
+- [ ] **Tommy Williams** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tommy_Williams_(Utah))
+
+- [ ] **Brian King** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_King)
+
+- [ ] **Phil Lyman** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phil_Lyman)
+
+- [ ] **J. Robert Latham** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J._Robert_Latham)
+
+---
+
+## Lieutenant Governor of Utah
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Natalie Clawson** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Natalie_Clawson)
+
+- [ ] **Archie Williams III** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Archie_Williams_III)
+
+- [ ] **Deidre Henderson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Deidre_Henderson)
+
+- [ ] **Rebekah Cummings** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rebekah_Cummings)
+
+- [ ] **William Taylor** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Taylor_(Utah))
+
+- [ ] **Sylvia Miera Fisk** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sylvia_Miera_Fisk)
+
+- [ ] **Barry Evan Short** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Barry_Evan_Short)
+
+---
+
+## Attorney General of Utah
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Austin Hepworth** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Austin_Hepworth)
+
+- [ ] **Andrew McCullough** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_McCullough)
+
+- [ ] **Michelle Quist** (United Utah Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michelle_Quist)
+
+- [ ] **Rudy Bautista** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rudy_Bautista)
+
+- [ ] **Derek Brown** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Derek_Brown_(Utah))
+
+---
+
+## Utah Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ryan Tenney** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ryan_Tenney)
+
+---
+
+## Utah House of Representatives District 27
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dawn Stevenson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dawn_Stevenson)
+
+- [ ] **Anthony Loubet** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Anthony_Loubet)
+
+---
+
+## Utah State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tina Cannon** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tina_Cannon_(Utah))
+
+- [ ] **Catherine Voutaz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Catherine_Voutaz)
+
+- [ ] **Jeffrey Ostler** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffrey_Ostler)
+
+---
+
+## Utah State Board of Education District 10
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Deborah L. Gatrell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deborah_Gatrell)
+
+- [ ] **Matt Hymas** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matt_Hymas)
+
+---
+
+## Utah Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Durrant** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matthew_Durrant)
+
+---
+
+## Utah Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Neil Hansen** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Neil_Hansen)
+
+- [ ] **Miles Pomeroy** (Utah Forward Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Miles_Pomeroy)
+
+- [ ] **Marlo Oaks** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Marlo_Oaks)
+
+---
+
+## Jordan School District, Voting District 6
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Clareen Arnold** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Clareen_Arnold)
+
+- [ ] **Niki George** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Niki_George)
+
+---
+
+## Salt Lake County, Utah, Law Enforcement and Correctional Facilities Bond Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Salt Lake County, Utah, Proposal 8, Zoo, Arts, and Parks (ZAP) Tax Renewal Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Utah Amendment B, State School Fund Distribution Cap Increase Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Utah Amendment C, Elections of County Sheriffs Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,1017.0,2.0,11.0,4.0,2.0,1.0,17.5,8307.0,1017.0

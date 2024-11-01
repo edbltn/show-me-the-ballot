@@ -1,0 +1,383 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+10989,Indiana,IN-CD06,Shelby,46144,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 25.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 7      |
+|                         | Average Words per Question      | 127.4|
+|                         | Average Options per Question    | 2.9|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 10||
+|                         | Number of Non-Competitive Races | 8|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.7  years of education      |
+| **Length**              | Ballot Length                 | 8,153 characters       |
+|                         | Word Count                     | 892                         |
+
+---
+# Ballot for Shelby County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+---
+
+## U.S. House Indiana District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Sceniak** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_Sceniak)
+
+- [ ] **Jefferson Shreve** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jefferson_Shreve)
+
+- [ ] **Cynthia Wirth** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cynthia_Wirth)
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+---
+
+## Indiana Court of Appeals 1st District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Peter R. Foley** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Peter_R._Foley)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 54
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cory Criswell** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cory_Criswell)
+
+---
+
+## Indiana State Senate District 42
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jean Leising** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jean_Leising)
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+---
+
+## Shelby County Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Trent Meltzer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Trent_Meltzer_(Shelby_County_Circuit_Court,_Indiana,_candidate_2024))
+
+---
+
+## Shelby County Commissioner Board Center District
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Winnie Soviar** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Winnie_Soviar_(Shelby_County_Commissioner_Board_Center_District,_Indiana,_candidate_2024))
+
+- [ ] **David L. Lawson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_L._Lawson_(Shelby_County_Commissioner_Board_Center_District,_Indiana,_candidate_2024))
+
+---
+
+## Shelby County Commissioner Board South District
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan Runnebohm** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Runnebohm_(Shelby_County_Commissioner_Board_South_District,_Indiana,_candidate_2024))
+
+- [ ] **Joe Land** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_Land_(Shelby_County_Commissioner_Board_South_District,_Indiana,_candidate_2024))
+
+---
+
+## Shelby County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Jeremy Ruble** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeremy_Ruble_(Shelby_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Troy Merrick** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Troy_Merrick_(Shelby_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Charity Mohr** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charity_Mohr_(Shelby_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Chase D. Yanzer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_D._Yanzer_(Shelby_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## Shelby Eastern Schools school board Shelby Township
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lori L. Shaw** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lori_L._Shaw_(Shelby_Eastern_Schools_school_board_Shelby_Township,_Indiana,_candidate_2024))
+
+---
+
+## Shelby Eastern Schools school board Union Township
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brandon J. Kleine** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brandon_J._Kleine_(Shelby_Eastern_Schools_school_board_Union_Township,_Indiana,_candidate_2024))
+
+---
+
+## Shelby Eastern Schools school board Van Buren Township
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Andrew J. Hawk** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_J._Hawk_(Shelby_Eastern_Schools_school_board_Van_Buren_Township,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",7.0,127.42857142857143,2.857142857142857,10.0,1.0,8.0,1.0,19.7,8153.0,892.0

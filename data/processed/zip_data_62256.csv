@@ -1,0 +1,189 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+9377,Illinois,IL-CD12,Monroe,62256,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 136.7|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 2||
+|                         | Number of Non-Competitive Races | 7|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.9  years of education      |
+| **Length**              | Ballot Length                 | 3,421 characters       |
+|                         | Word Count                     | 410                         |
+
+---
+# Ballot for Monroe County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Illinois District 12
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Bost** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Bost)
+
+- [ ] **Brian Roberts** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Roberts)
+
+---
+
+## Illinois House of Representatives District 115
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Friess** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Friess)
+
+---
+
+## Illinois State Senate District 58
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Terri Bryant** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Terri_Bryant)
+
+---
+
+## Illinois 24th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel J. Emge** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Daniel_J._Emge_(Illinois_24th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Monroe County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Fallon** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Fallon_(Monroe_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Monroe County Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Douglas Garner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Douglas_Garner_(Monroe_County_Commissioner_Board_At-large,_Illinois,_candidate_2024))
+
+---
+
+## Monroe County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bob Hill** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Hill_(Monroe_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Monroe County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ryan Webb** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Webb_(Monroe_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,136.66666666666666,2.0,2.0,3.0,7.0,0.0,17.9,3421.0,410.0

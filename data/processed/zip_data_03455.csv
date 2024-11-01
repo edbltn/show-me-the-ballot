@@ -1,0 +1,166 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+21959,New Hampshire,NH-CD02,Cheshire,03455,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 11.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 196.5|
+|                         | Average Options per Question    | 2.5|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 1|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.8  years of education      |
+| **Length**              | Ballot Length                 | 3,146 characters       |
+|                         | Word Count                     | 393                         |
+
+---
+# Ballot for Cheshire County, New Hampshire
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House New Hampshire District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lily Williams** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lily_Williams)
+
+- [ ] **Maggie Goodlander** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maggie_Goodlander)
+
+---
+
+## Governor of New Hampshire
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kelly Ayotte** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kelly_Ayotte)
+
+- [ ] **Joyce Craig** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joyce_Craig)
+
+- [ ] **Stephen Villee** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Villee)
+
+---
+
+## New Hampshire Executive Council District 2
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kim Strathdee** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kim_Strathdee)
+
+- [ ] **Karen Liot Hill** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_Liot_Hill)
+
+---
+
+## New Hampshire House of Representatives Cheshire 16
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Gruber** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_Gruber)
+
+- [ ] **Bob Willis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Willis_(New_Hampshire))
+
+---
+
+## New Hampshire House of Representatives Cheshire 8
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lucius Parshall** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lucius_Parshall)
+
+---
+
+## New Hampshire State Senate District 10
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Merkt** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Merkt)
+
+- [ ] **Donovan Fenton** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Donovan_Fenton)
+
+---
+
+## New Hampshire Increase Mandatory Judicial Retirement Age Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,196.5,2.5,6.0,1.0,1.0,0.0,15.8,3146.0,393.0

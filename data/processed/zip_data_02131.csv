@@ -1,0 +1,267 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+16455,Massachusetts,MA-CD07,Suffolk,02131,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 109.3|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 8|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.1  years of education      |
+| **Length**              | Ballot Length                 | 5,102 characters       |
+|                         | Word Count                     | 656                         |
+
+---
+# Ballot for Suffolk County, Massachusetts
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Gloria Caballero-Roca
+
+---
+
+## U.S. House Massachusetts District 7
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ayanna Pressley** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ayanna_Pressley)
+
+---
+
+## U.S. Senate Massachusetts
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elizabeth Warren** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elizabeth_Warren)
+
+- [ ] **John Deaton** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Deaton_(Massachusetts))
+
+---
+
+## Massachusetts Governor's Council District 4
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher Iannella** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christopher_Iannella)
+
+---
+
+## Massachusetts House of Representatives 14th Suffolk District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rob Consalvo** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rob_Consalvo)
+
+---
+
+## Massachusetts State Senate Norfolk and Suffolk District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Rush** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Rush)
+
+---
+
+## Suffolk County Clerk of Courts Civil Business
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John E. Powers** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_E._Powers_(Massachusetts))
+
+---
+
+## Suffolk County Clerk of Courts Criminal Business
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Maura Hennigan** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Maura_Hennigan)
+
+---
+
+## Suffolk County Clerk of Supreme Judicial Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Allison Cartwright** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Allison_Cartwright)
+
+---
+
+## Suffolk County Register of Deeds
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephen Murphy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stephen_J._Murphy_(Massachusetts))
+
+---
+
+## Suffolk County Register of Probate
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephanie L. Everett** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stephanie_L._Everett)
+
+- [ ] **Mohamed Bah** (Unenrolled)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mohamed_Bah)
+
+---
+
+## Massachusetts House District 14, Question 6, Single-Payer Healthcare Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** State Legislative (Lower)
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 1, Authorization of State Auditor to Audit General Court Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 2, Repeal Competency Assessment Requirement for High School Graduation Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 3, Unionization and Collective Bargaining for Transportation Network Drivers Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 4, Legalization and Regulation of Psychedelic Substances Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 5, Minimum Wage for Tipped Employees Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",6.0,109.33333333333333,2.0,3.0,6.0,8.0,0.0,18.1,5102.0,656.0

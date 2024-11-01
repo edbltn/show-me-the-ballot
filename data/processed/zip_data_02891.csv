@@ -1,0 +1,281 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+32004,Rhode Island,RI-CD02,Washington,02891,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 127.3|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 5|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 1|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.2  years of education      |
+| **Length**              | Ballot Length                 | 7,224 characters       |
+|                         | Word Count                     | 764                         |
+
+---
+# Ballot for Washington County, Rhode Island
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (Team Kennedy)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Robert Wells Jr.** (Party Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_Wells_Jr.)
+  - Running Mate: Tony Jones
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House Rhode Island District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steven Corvi** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steven_Corvi)
+
+- [ ] **Seth Magaziner** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Seth_Magaziner)
+
+---
+
+## U.S. Senate Rhode Island
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sheldon Whitehouse** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sheldon_Whitehouse)
+
+- [ ] **Patricia Morgan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_Morgan)
+
+- [ ] **Armando Anzoli** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Armando_Anzoli)
+
+---
+
+## Rhode Island House of Representatives District 38
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Kennedy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brian_Kennedy_(Rhode_Island))
+
+---
+
+## Rhode Island State Senate District 38
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Westin Place** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Westin_Place)
+
+- [ ] **Victoria Gu** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Victoria_Gu)
+
+---
+
+## Westerly Public Schools school board, At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angela B. Goethals** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angela_B._Goethals_(Westerly_Public_Schools_school_board,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **Crystal Dawn Jackson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Crystal_Dawn_Jackson_(Westerly_Public_Schools_school_board,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **Joseph D. Jackson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_D._Jackson_(Westerly_Public_Schools_school_board,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **Kristi E. Walston** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kristi_E._Walston_(Westerly_Public_Schools_school_board,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **Timothy C. Killam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Timothy_C._Killam_(Westerly_Public_Schools_school_board,_At-large,_Rhode_Island,_candidate_2024))
+
+- [ ] **Peter L. Nero** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_L._Nero_(Westerly_Public_Schools_school_board,_At-large,_Rhode_Island,_candidate_2024))
+
+---
+
+## Westerly Town Council
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **William J. Aiello** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_J._Aiello_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Rose Van Dover** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rose_Van_Dover_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Robert L. Lombardo** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_L._Lombardo_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Michael T. Niemeyer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_T._Niemeyer_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Mary E. Scialabba** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_E._Scialabba_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Joy L. Cordio** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joy_L._Cordio_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **James George Nicholas** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_George_Nicholas_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Dylan J. Lapietra** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dylan_J._Lapietra_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Christopher A. Duhamel** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_A._Duhamel_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Alexandra L. Healy** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alexandra_L._Healy_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **A. Frederick Provost** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/A._Frederick_Provost_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+- [ ] **Jean L. Gagnier** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jean_L._Gagnier_(Westerly_Town_Council,_Rhode_Island,_candidate_2024))
+
+---
+
+## Rhode Island Question 1, Constitutional Convention Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 2, Higher Education Facilities Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 3, Housing Acquisition, Development, and Infrastructure Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 4, Environmental and Recreational Infrastructure Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Rhode Island Question 5, Cultural Arts and Economy Grant Program Bond Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",6.0,127.33333333333333,2.1666666666666665,6.0,5.0,1.0,0.0,20.2,7224.0,764.0

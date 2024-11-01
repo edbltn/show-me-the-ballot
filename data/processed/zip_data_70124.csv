@@ -1,0 +1,507 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+14261,Louisiana,LA-CD01,Orleans,70124,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 13.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 5      |
+|                         | Average Words per Question      | 136.6|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 9|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.2  years of education      |
+| **Length**              | Ballot Length                 | 5,117 characters       |
+|                         | Word Count                     | 683                         |
+
+---
+# Ballot for Orleans County, Louisiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rachele Fruit** (Socialist Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Dennis Richter
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Ajamu Baraka
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Peter Sonski** (American Solidarity Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Mattie Preston** (Godliness, Truth, Justice)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mattie_Preston)
+  - Running Mate: Shannel Conner
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Justice for All)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+---
+
+## U.S. House Louisiana District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Frankie Hyers** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Frankie_Hyers)
+
+- [ ] **Randall Arrington** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Arrington)
+
+- [ ] **Steve Scalise** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steve_Scalise)
+
+- [ ] **Mel Manuel** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mel_Manuel)
+
+- [ ] **Ross Shales** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ross_Shales)
+
+---
+
+## Orleans Parish School Board District 2
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gabriela Biro** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gabriela_Biro)
+
+- [ ] **Chan Tucker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chan_Tucker)
+
+- [ ] **Eric Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Jones_(Louisiana))
+
+---
+
+## Orleans Parish School Board District 4
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **KaTrina Chantelle Griffin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/KaTrina_Chantelle_Griffin)
+
+- [ ] **Donaldo Batiste** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Donaldo_Batiste)
+
+---
+
+## Louisiana 48-Hour Waiting Period for Concurrence on Appropriation Bills Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Allow Legislature to Extend Regular Sessions to Pass Appropriations Bills Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Judiciary Commission Investigation of Sitting Judges Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Outer Continental Shelf Revenues for Coastal Protection and Restoration Fund Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Property Tax Sales Administration Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Lakeshore Crime Prevention District Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Mid-City Security District Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Parishwide Home Rule Charter Amendment Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Parishwide Home Rule Charter Workers Amendment Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",5.0,136.6,2.0,4.0,9.0,0.0,0.0,17.2,5117.0,683.0
+14365,Louisiana,LA-CD02,Orleans,70124,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 13.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 5      |
+|                         | Average Words per Question      | 136.6|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 9|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.2  years of education      |
+| **Length**              | Ballot Length                 | 5,117 characters       |
+|                         | Word Count                     | 683                         |
+
+---
+# Ballot for Orleans County, Louisiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rachele Fruit** (Socialist Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Dennis Richter
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Ajamu Baraka
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Peter Sonski** (American Solidarity Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Mattie Preston** (Godliness, Truth, Justice)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mattie_Preston)
+  - Running Mate: Shannel Conner
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Justice for All)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+---
+
+## U.S. House Louisiana District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Frankie Hyers** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Frankie_Hyers)
+
+- [ ] **Randall Arrington** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Arrington)
+
+- [ ] **Steve Scalise** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steve_Scalise)
+
+- [ ] **Mel Manuel** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mel_Manuel)
+
+- [ ] **Ross Shales** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ross_Shales)
+
+---
+
+## Orleans Parish School Board District 2
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gabriela Biro** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gabriela_Biro)
+
+- [ ] **Chan Tucker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chan_Tucker)
+
+- [ ] **Eric Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Jones_(Louisiana))
+
+---
+
+## Orleans Parish School Board District 4
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **KaTrina Chantelle Griffin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/KaTrina_Chantelle_Griffin)
+
+- [ ] **Donaldo Batiste** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Donaldo_Batiste)
+
+---
+
+## Louisiana 48-Hour Waiting Period for Concurrence on Appropriation Bills Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Allow Legislature to Extend Regular Sessions to Pass Appropriations Bills Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Judiciary Commission Investigation of Sitting Judges Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Outer Continental Shelf Revenues for Coastal Protection and Restoration Fund Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Louisiana Property Tax Sales Administration Amendment (December 2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Lakeshore Crime Prevention District Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Mid-City Security District Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Parishwide Home Rule Charter Amendment Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Orleans Parish, Louisiana, Parishwide Home Rule Charter Workers Amendment Measure (November 2024)
+
+**Type:** Ballot Measure
+**District Type:** County
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",5.0,136.6,2.0,4.0,9.0,0.0,0.0,17.2,5117.0,683.0

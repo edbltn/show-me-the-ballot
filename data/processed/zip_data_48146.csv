@@ -1,0 +1,859 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+17730,Michigan,MI-CD13,Wayne,48146,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 49.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 2125.0|
+|                         | Average Options per Question    | 22.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 23||
+|                         | Number of Non-Competitive Races | 7|
+|                         | Non-Partisan Races  | ## Belleville District Library Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Alma Hughes-Grubbs** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alma_Hughes-Grubbs_(Belleville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Joy Cichewicz** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joy_Cichewicz_(Belleville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Maria Jackson-Smith** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maria_Jackson-Smith_(Belleville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+---
+
+, ## Lincoln Park City Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Carlos Salcido** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carlos_Salcido_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Eric Szor** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Szor_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Eulis E. Jones** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eulis_E._Jones_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Jason Behr** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Behr_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Jason H. Nichols** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_H._Nichols_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Lylian Ross** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lylian_Ross_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Tracy Duprey** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Duprey_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+---
+
+, ## Lincoln Park School District of the City of, At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Annie Chapa Kowalski** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Annie_Chapa_Kowalski_(Lincoln_Park_School_District_of_the_City_of,_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Kathy Carter** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathy_Carter_(Lincoln_Park_School_District_of_the_City_of,_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Shannon Akers** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shannon_Akers_(Lincoln_Park_School_District_of_the_City_of,_At-large,_Michigan,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.9  years of education      |
+| **Length**              | Ballot Length                 | 20,406 characters       |
+|                         | Word Count                     | 2,125                         |
+
+---
+# Ballot for Wayne County, Michigan
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Randall Terry** (U.S. Taxpayers Party of Michigan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Joseph Kishore** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Kishore)
+  - Running Mate: Jerry White
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Robert F. Kennedy Jr.** (Natural Law Party of Michigan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Michigan District 13
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher Dardzinski** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Dardzinski)
+
+- [ ] **Christopher Clark** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Clark_(Michigan))
+
+- [ ] **Simone Coleman** (Working Class Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Simone_Coleman)
+
+- [ ] **Martell Bivings** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Martell_Bivings)
+
+- [ ] **Shri Thanedar** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Shri_Thanedar)
+
+---
+
+## U.S. Senate Michigan
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elissa Slotkin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elissa_Slotkin)
+
+- [ ] **Douglas P. Marsh** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Douglas_P_Marsh)
+
+- [ ] **Mike Rogers** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Rogers_(Michigan))
+
+- [ ] **Joseph Solis-Mullen** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Solis-Mullen)
+
+- [ ] **Dave Stein** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Stein)
+
+- [ ] **Doug Dern** (Natural Law Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Doug_Dern)
+
+- [ ] **James Chapman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_Chapman_(Michigan))
+
+- [ ] **Valerie Willis** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_Willis)
+
+---
+
+## Wayne State University Board of Governors
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **William Mohr II** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Mohr_II)
+
+- [ ] **Kathleen Oakford** (Natural Law Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathleen_Oakford)
+
+- [ ] **Farid Ishac** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Farid_Ishac)
+
+- [ ] **Mark Gaffney** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_Gaffney)
+
+- [ ] **Rasha Demashkieh** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rasha_Demashkieh)
+
+- [ ] **Sami Makhoul** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sami_Makhoul)
+
+- [ ] **Sunny Reddy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sunny_Reddy)
+
+- [ ] **Suzanne Roehrig** (Working Class Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Suzanne_Roehrig)
+
+- [ ] **Michael Busuito** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Busuito)
+
+---
+
+## Michigan 1st District Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Kirsten Frank Kelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Frank_Kelly)
+
+- [ ] **Michael Riordan** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Riordan)
+
+---
+
+## Michigan House of Representatives District 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark DaSacco** (Working Class Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_DaSacco)
+
+- [ ] **Tullio Liberati** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tullio_Liberati)
+
+- [ ] **Ronald Kokinda** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ronald_Kokinda)
+
+---
+
+## Michigan State Board of Education
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Nikki Snyder** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Nikki_Snyder)
+
+- [ ] **Adam Zemke** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Zemke)
+
+- [ ] **Tom McMillin** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tom_McMillin)
+
+- [ ] **Mary Anne Hering** (Working Class Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_Anne_Hering)
+
+- [ ] **Ted Gerrard** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Gerrard)
+
+- [ ] **Christine Schwartz** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Schwartz)
+
+- [ ] **Theodore Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Theodore_Jones_(Michigan))
+
+- [ ] **Scott Boman** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_Boman)
+
+---
+
+## Michigan State University Board of Trustees
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Grant Baker** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Grant_Baker)
+
+- [ ] **John Anthony La Pietra** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Anthony_La_Pietra)
+
+- [ ] **John Sanger** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Sanger)
+
+- [ ] **Thomas Stallworth III** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Stallworth_III)
+
+- [ ] **Mike Balow** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Balow)
+
+- [ ] **Julie Maday** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Julie_Maday)
+
+- [ ] **Janet Sanger** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Janet_Sanger)
+
+- [ ] **Rebecca Bahar-Cook** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rebecca_Bahar-Cook)
+
+---
+
+## Michigan Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Andrew Fink** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_Fink)
+
+- [ ] **Kimberly Thomas** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Thomas_(Michigan))
+
+- [ ] **Kyra Harris Bolden** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kyra_Harris_Bolden)
+
+- [ ] **Patrick W. O'Grady** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patrick_W._O'Grady)
+
+---
+
+## University of Michigan Board of Regents
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Sevag Vartanian** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sevag_Vartanian)
+
+- [ ] **Shauna Diggs** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shauna_Diggs)
+
+- [ ] **Denise Ilitch** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Denise_Ilitch)
+
+- [ ] **Donna Oetman** (U.S. Taxpayers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donna_Oetman)
+
+- [ ] **Carl Meyers** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carl_Meyers)
+
+- [ ] **Andrew Chadderdon** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_Chadderdon)
+
+---
+
+## Belleville District Library Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Maria Jackson-Smith** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maria_Jackson-Smith_(Belleville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Alma Hughes-Grubbs** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alma_Hughes-Grubbs_(Belleville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Joy Cichewicz** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joy_Cichewicz_(Belleville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+---
+
+## Lincoln Park City Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kerry Kehrer** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kerry_Kehrer_(Lincoln_Park_City_Clerk,_Michigan,_candidate_2024))
+
+---
+
+## Lincoln Park City Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Tracy Duprey** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Duprey_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Lylian Ross** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lylian_Ross_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Jason H. Nichols** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_H._Nichols_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Jason Behr** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Behr_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Eulis E. Jones** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eulis_E._Jones_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Eric Szor** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Szor_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Carlos Salcido** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carlos_Salcido_(Lincoln_Park_City_Council_At-large,_Michigan,_candidate_2024))
+
+---
+
+## Lincoln Park City Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patricia Lulko** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_Lulko_(Lincoln_Park_City_Treasurer,_Michigan,_candidate_2024))
+
+---
+
+## Lincoln Park School District of the City of, At-large
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Shannon Akers** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shannon_Akers_(Lincoln_Park_School_District_of_the_City_of,_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Kathy Carter** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathy_Carter_(Lincoln_Park_School_District_of_the_City_of,_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Annie Chapa Kowalski** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Annie_Chapa_Kowalski_(Lincoln_Park_School_District_of_the_City_of,_At-large,_Michigan,_candidate_2024))
+
+---
+
+## Mayor of Lincoln Park
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Higgins Sr.** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Higgins_Sr._(Mayor_of_Lincoln_Park,_Michigan,_candidate_2024))
+
+- [ ] **Maureen Tobin** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maureen_Tobin_(Mayor_of_Lincoln_Park,_Michigan,_candidate_2024))
+
+---
+
+## Michigan 3rd Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 18
+
+### Candidates:
+- [ ] **Annette Berry** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Annette_Berry)
+
+- [ ] **Kathleen McCarthy** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathleen_McCarthy_(Michigan))
+
+- [ ] **Qiana Lillard** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Qiana_Lillard)
+
+- [ ] **Catherine Heise** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Catherine_Heise)
+
+- [ ] **Charles Hegarty** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Charles_Hegarty)
+
+- [ ] **Dana Margaret Hathaway** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dana_Margaret_Hathaway)
+
+- [ ] **Bridget Hathaway** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bridget_Hathaway)
+
+- [ ] **Adel Harb** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Adel_Harb)
+
+- [ ] **Tracy Green** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tracy_Green_(Michigan))
+
+- [ ] **Edward Ewell Jr.** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Edward_Ewell_Jr.)
+
+- [ ] **Lawrence Elassal** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lawrence_Elassal)
+
+- [ ] **Prentis Edwards Jr.** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Prentis_Edwards_Jr.)
+
+- [ ] **Paul Cusick** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_Cusick)
+
+- [ ] **Kevin Cox** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kevin_Cox_(Michigan))
+
+- [ ] **Jerome Cavanagh** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jerome_Cavanagh)
+
+- [ ] **Karen Braxton** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Karen_Braxton)
+
+- [ ] **Leslie Smith** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Leslie_Smith)
+
+- [ ] **Regina Thomas** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Regina_Thomas)
+
+- [ ] **Adrienne Scruggs** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adrienne_Scruggs)
+
+- [ ] **Nicole Goodson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Nicole_Goodson)
+
+- [ ] **Bradley Cobb** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bradley_Cobb)
+
+- [ ] **John Larkin** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Larkin)
+
+---
+
+## Northville District Library Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Nicholas A. Vlisides** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nicholas_A._Vlisides_(Northville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Jennifer Gustafson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_Gustafson_(Northville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Barry Roy Puckett** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Barry_Roy_Puckett_(Northville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Joseph P. Corriveau** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_P._Corriveau_(Northville_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+---
+
+## Plymouth District Library Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Jean Marie Walsh** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jean_Marie_Walsh_(Plymouth_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Jacqueline George** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jacqueline_George_(Plymouth_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Denise Burrows** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Denise_Burrows_(Plymouth_District_Library_Board_At-large,_Michigan,_candidate_2024))
+
+---
+
+## Schoolcraft College Board of Trustees At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joan Gebhardt** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joan_Gebhardt_(Schoolcraft_College_Board_of_Trustees_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Candy R. Little** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Candy_R._Little_(Schoolcraft_College_Board_of_Trustees_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Dillon E. Breen** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dillon_E._Breen_(Schoolcraft_College_Board_of_Trustees_At-large,_Michigan,_candidate_2024))
+
+- [ ] **Angela Jaafar** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angela_Jaafar_(Schoolcraft_College_Board_of_Trustees_At-large,_Michigan,_candidate_2024))
+
+---
+
+## Wayne County Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joseph LeBlanc** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_LeBlanc_(Michigan))
+
+- [ ] **Cathy Garrett** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cathy_Garrett)
+
+---
+
+## Wayne County Commission District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cara Clemente** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cara_Clemente)
+
+---
+
+## Wayne County Probate Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Macie Gaines** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Macie_Gaines)
+
+- [ ] **Todd Briggs** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Briggs)
+
+- [ ] **David Perkins** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Perkins)
+
+- [ ] **Ron Haywood** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ron_Haywood)
+
+- [ ] **Daniel Mercier** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Daniel_Mercier)
+
+---
+
+## Wayne County Prosecutor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kerry Lee Morgan** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kerry_Lee_Morgan)
+
+- [ ] **Kym Worthy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kym_Worthy)
+
+---
+
+## Wayne County Register of Deeds
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Afaf Ahmad** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Afaf_Ahmad)
+
+- [ ] **Bernard Youngblood** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bernard_Youngblood)
+
+---
+
+## Wayne County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **T.P. Nykoriak** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/T.P._Nykoriak)
+
+- [ ] **Raphael Washington** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Raphael_Washington)
+
+---
+
+## Wayne County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eric Sabree** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eric_Sabree)
+
+---
+
+",1.0,2125.0,22.0,23.0,0.0,7.0,11.0,19.9,20406.0,2125.0

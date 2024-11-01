@@ -1,0 +1,271 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+9418,Illinois,IL-CD12,Saline,62930,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 22.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 189.7|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 5|
+|                         | Non-Partisan Races  | ## Illinois 1st Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Amanda Byassee Gott** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amanda_Byassee_Gott_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Carey C. Gill** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Carey_C._Gill_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Christy W. Solverson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christy_W._Solverson_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Cord Zachary Wittig** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cord_Zachary_Wittig_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **John W. Sanders** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_W._Sanders_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Stephen R. Green** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stephen_R._Green_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.5  years of education      |
+| **Length**              | Ballot Length                 | 5,605 characters       |
+|                         | Word Count                     | 569                         |
+
+---
+# Ballot for Saline County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 12
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Bost** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Bost)
+
+- [ ] **Brian Roberts** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Roberts)
+
+---
+
+## Illinois House of Representatives District 117
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patrick Windhorst** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Patrick_Windhorst)
+
+---
+
+## Illinois 1st Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephen R. Green** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stephen_R._Green_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **John W. Sanders** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_W._Sanders_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Cord Zachary Wittig** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cord_Zachary_Wittig_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Christy W. Solverson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christy_W._Solverson_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Carey C. Gill** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Carey_C._Gill_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+- [ ] **Amanda Byassee Gott** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amanda_Byassee_Gott_(Illinois_1st_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 1st Circuit Court Pope County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melissa Presser** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_Presser_(Illinois_1st_Circuit_Court_Pope_County,_Illinois,_candidate_2024))
+
+---
+
+## Saline County Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Mike McKinnies** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_McKinnies_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Mike Barnhill** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Barnhill_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Jeff Guard** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeff_Guard_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Jean Ellis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jean_Ellis_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Dennis Gauger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dennis_Gauger_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Danny Gibbs** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Danny_Gibbs_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Brendan H. Jennings** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brendan_H._Jennings_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+- [ ] **Curt Hustedde** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Curt_Hustedde_(Saline_County_Board_At-large,_Illinois,_candidate_2024))
+
+---
+
+## Saline County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary J. Kuczynski** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_J._Kuczynski_(Saline_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Saline County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jon Poore** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jon_Poore_(Saline_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Saline County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Walden E. Morris** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Walden_E._Morris_(Saline_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,189.66666666666666,2.0,4.0,3.0,5.0,1.0,20.5,5605.0,569.0

@@ -1,0 +1,652 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+27334,Ohio,OH-CD04,Logan,43358,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 92.1|
+|                         | Average Options per Question    | 1.1|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 9|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.2  years of education      |
+| **Length**              | Ballot Length                 | 6,494 characters       |
+|                         | Word Count                     | 737                         |
+
+---
+# Ballot for Logan County, Ohio
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Duncan** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Duncan_(Ohio))
+  - Running Mate: Mitchell Preston Bupp
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Ohio District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Jordan** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jim_Jordan_(Ohio))
+
+- [ ] **Tamie Wilson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tamie_Wilson)
+
+---
+
+## U.S. Senate Ohio
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan Russell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Russell)
+
+- [ ] **David Pastorius** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Pastorius)
+
+- [ ] **Stephen Faris** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Faris)
+
+- [ ] **Don Kissick** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Kissick)
+
+- [ ] **Tariq Shabazz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tariq_Shabazz)
+
+- [ ] **Sherrod Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sherrod_Brown)
+
+- [ ] **Bernie Moreno** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernie_Moreno)
+
+---
+
+## Ohio House of Representatives District 83
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sheila Coressel** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sheila_Coressel)
+
+- [ ] **Ty Mathews** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ty_Mathews)
+
+---
+
+## Ohio State Board of Education District 1
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kristie Reighard** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kristie_Reighard)
+
+---
+
+## Ohio Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joseph Deters** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_Deters)
+
+- [ ] **Megan E. Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Shanahan)
+
+- [ ] **Melody Stewart** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Melody_Stewart)
+
+- [ ] **Dan Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Hawkins_(Ohio))
+
+- [ ] **Lisa Forbes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Forbes)
+
+- [ ] **Michael P. Donnelly** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_P._Donnelly_(Ohio))
+
+---
+
+## Ohio Third District Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Willamowski** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Willamowski)
+
+---
+
+## Logan County Clerk of Courts
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jackie Prater** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jackie_Prater_(Logan_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+---
+
+## Logan County Commission
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joseph M. Antram** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_M._Antram_(Logan_County_Commission,_Ohio,_candidate_2024))
+
+- [ ] **Greg Fitzpatrick** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Greg_Fitzpatrick_(Logan_County_Commission,_Ohio,_candidate_2024))
+
+---
+
+## Logan County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **J. Chris O'Connor** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J._Chris_O'Connor_(Logan_County_Coroner,_Ohio,_candidate_2024))
+
+---
+
+## Logan County Engineer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scott C. Coleman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_C._Coleman_(Logan_County_Engineer,_Ohio,_candidate_2024))
+
+---
+
+## Logan County Prosecuting Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eric C. Stewart** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_C._Stewart_(Logan_County_Prosecuting_Attorney,_Ohio,_candidate_2024))
+
+---
+
+## Logan County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patricia A. Myers** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_A._Myers_(Logan_County_Recorder,_Ohio,_candidate_2024))
+
+---
+
+## Logan County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Randall J. Dodds** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_J._Dodds_(Logan_County_Sheriff,_Ohio,_candidate_2024))
+
+---
+
+## Logan County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rhonda K. Stafford** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_K._Stafford_(Logan_County_Treasurer,_Ohio,_candidate_2024))
+
+---
+
+## Ohio Issue 1, Establish the Citizens Redistricting Commission Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,92.125,1.125,6.0,1.0,9.0,0.0,18.2,6494.0,737.0
+27382,Ohio,OH-CD04,Union,43358,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 24.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 262.3|
+|                         | Average Options per Question    | 5.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 8|
+|                         | Non-Partisan Races  | ## Ohio State Board of Education District 7
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jessica Goeller** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jessica_Goeller)
+
+- [ ] **Rhonda Johnson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Johnson_(Ohio))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.9  years of education      |
+| **Length**              | Ballot Length                 | 6,936 characters       |
+|                         | Word Count                     | 787                         |
+
+---
+# Ballot for Union County, Ohio
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Duncan** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Duncan_(Ohio))
+  - Running Mate: Mitchell Preston Bupp
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Ohio District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Jordan** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jim_Jordan_(Ohio))
+
+- [ ] **Tamie Wilson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tamie_Wilson)
+
+---
+
+## U.S. Senate Ohio
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephen Faris** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Faris)
+
+- [ ] **David Pastorius** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Pastorius)
+
+- [ ] **Nathan Russell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Russell)
+
+- [ ] **Tariq Shabazz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tariq_Shabazz)
+
+- [ ] **Bernie Moreno** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernie_Moreno)
+
+- [ ] **Sherrod Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sherrod_Brown)
+
+- [ ] **Don Kissick** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Kissick)
+
+---
+
+## Ohio House of Representatives District 86
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lesley Verbus** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lesley_Verbus)
+
+- [ ] **Tracy Richardson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tracy_Richardson)
+
+---
+
+## Ohio State Board of Education District 7
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rhonda Johnson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rhonda_Johnson_(Ohio))
+
+- [ ] **Jessica Goeller** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jessica_Goeller)
+
+---
+
+## Ohio State Senate District 26
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mohamud Jama** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mohamud_Jama)
+
+- [ ] **Bill Reineke** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bill_Reineke)
+
+---
+
+## Ohio Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melody Stewart** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Melody_Stewart)
+
+- [ ] **Joseph Deters** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_Deters)
+
+- [ ] **Megan E. Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Shanahan)
+
+- [ ] **Lisa Forbes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Forbes)
+
+- [ ] **Dan Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Hawkins_(Ohio))
+
+- [ ] **Michael P. Donnelly** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_P._Donnelly_(Ohio))
+
+---
+
+## Ohio Third District Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Willamowski** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Willamowski)
+
+---
+
+## Union County Clerk of Courts
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Danielle Sullivan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Danielle_Sullivan_(Union_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+---
+
+## Union County Commission
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tom McCarthy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_McCarthy_(Union_County_Commission,_Ohio,_candidate_2024))
+
+- [ ] **Steve Robinson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Robinson_(Union_County_Commission,_Ohio,_candidate_2024))
+
+---
+
+## Union County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Applegate** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Applegate_(Union_County_Coroner,_Ohio,_candidate_2024))
+
+---
+
+## Union County Engineer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeff Stauch** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeff_Stauch_(Union_County_Engineer,_Ohio,_candidate_2024))
+
+---
+
+## Union County Prosecuting Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Phillips** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Phillips_(Union_County_Prosecuting_Attorney,_Ohio,_candidate_2024))
+
+---
+
+## Union County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karen J. Riffle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_J._Riffle_(Union_County_Recorder,_Ohio,_candidate_2024))
+
+---
+
+## Union County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Justice** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Justice_(Union_County_Sheriff,_Ohio,_candidate_2024))
+
+---
+
+## Union County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Andrew Smarra** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_Smarra_(Union_County_Treasurer,_Ohio,_candidate_2024))
+
+---
+
+## Ohio Issue 1, Establish the Citizens Redistricting Commission Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,262.3333333333333,5.0,8.0,1.0,8.0,1.0,18.9,6936.0,787.0

@@ -1,0 +1,207 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+16376,Massachusetts,MA-CD06,Essex,01915,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 86.3|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 5|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 1|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.1  years of education      |
+| **Length**              | Ballot Length                 | 4,040 characters       |
+|                         | Word Count                     | 518                         |
+
+---
+# Ballot for Essex County, Massachusetts
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Gloria Caballero-Roca
+
+---
+
+## U.S. House Massachusetts District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Seth Moulton** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Seth_Moulton)
+
+---
+
+## U.S. Senate Massachusetts
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elizabeth Warren** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elizabeth_Warren)
+
+- [ ] **John Deaton** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Deaton_(Massachusetts))
+
+---
+
+## Massachusetts Governor's Council District 5
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jody Elliott** (Unenrolled)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jody_Elliott)
+
+- [ ] **Anne Manning-Martin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Anne_Manning-Martin)
+
+- [ ] **Eunice Zeigler** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eunice_Zeigler)
+
+---
+
+## Massachusetts House of Representatives 6th Essex District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jerry Parisella** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jerry_Parisella)
+
+- [ ] **Ty Vitale** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ty_Vitale)
+
+- [ ] **Euplio Marciano** (All American)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Euplio_Marciano)
+
+---
+
+## Massachusetts State Senate 2nd Essex District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joan Lovely** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joan_Lovely)
+
+- [ ] **Damian Anketell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Damian_Anketell)
+
+---
+
+## Massachusetts Question 1, Authorization of State Auditor to Audit General Court Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 2, Repeal Competency Assessment Requirement for High School Graduation Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 3, Unionization and Collective Bargaining for Transportation Network Drivers Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 4, Legalization and Regulation of Psychedelic Substances Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 5, Minimum Wage for Tipped Employees Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",6.0,86.33333333333333,2.0,5.0,5.0,1.0,0.0,17.1,4040.0,518.0

@@ -1,0 +1,411 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+35709,Texas,TX-CD25,Jack,76427,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 167.2|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 12||
+|                         | Number of Non-Competitive Races | 11|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.3  years of education      |
+| **Length**              | Ballot Length                 | 8,530 characters       |
+|                         | Word Count                     | 1,003                         |
+
+---
+# Ballot for Jack County, Texas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Texas District 25
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chad Hagg** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Hagg)
+
+- [ ] **Roger Williams** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Roger_Williams_(Texas))
+
+---
+
+## U.S. Senate Texas
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ted Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ted_Cruz)
+
+- [ ] **Tracy Andrus** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Andrus)
+
+- [ ] **Colin Allred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colin_Allred)
+
+- [ ] **Ted Brown** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Brown_(Texas))
+
+- [ ] **Analisa Roche** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Analisa_Roche)
+
+---
+
+## Texas Court of Criminal Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Parker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Parker)
+
+- [ ] **Nancy Mulder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_Mulder)
+
+---
+
+## Texas Court of Criminal Appeals Place 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chika Anyiam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chika_Anyiam)
+
+- [ ] **Lee Finley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Finley)
+
+---
+
+## Texas Court of Criminal Appeals Presiding Judge
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Schenck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Schenck)
+
+- [ ] **Holly Taylor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Holly_Taylor_(Texas))
+
+---
+
+## Texas House of Representatives District 68
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Spiller** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Spiller)
+
+- [ ] **Stacey Swann** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stacey_Swann)
+
+---
+
+## Texas Railroad Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Katherine Culbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Culbert)
+
+- [ ] **Eddie Espinoza** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Espinoza)
+
+- [ ] **Hawk Dunlap** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hawk_Dunlap)
+
+- [ ] **Richard McKibbin** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_McKibbin)
+
+- [ ] **Christi Craddick** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christi_Craddick)
+
+---
+
+## Texas Second District Court of Appeals Chief Justice
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bonnie Sudderth** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bonnie_Sudderth)
+
+---
+
+## Texas Second District Court of Appeals Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Wade Birdwell** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Wade_Birdwell)
+
+---
+
+## Texas Second District Court of Appeals Place 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dabney Bassel** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dabney_Bassel)
+
+---
+
+## Texas Second District Court of Appeals Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Wallach** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Wallach)
+
+---
+
+## Texas State Senate District 30
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brent Hagenbuch** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brent_Hagenbuch)
+
+- [ ] **Dale Frey** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dale_Frey)
+
+---
+
+## Texas Supreme Court Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Blacklock** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Blacklock)
+
+- [ ] **DaSean Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaSean_Jones)
+
+---
+
+## Texas Supreme Court Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christine Weems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Weems)
+
+- [ ] **John Devine** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Devine_(Texas))
+
+---
+
+## Texas Supreme Court Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jane Bland** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jane_Bland)
+
+- [ ] **David Roberson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roberson)
+
+- [ ] **Bonnie Lee Goldstein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Lee_Goldstein)
+
+---
+
+## 271st Judicial District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James M. Stainton** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_M._Stainton_(271st_Judicial_District_Attorney,_Texas,_candidate_2024))
+
+---
+
+## Jack County Attorney
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brad Dixon** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brad_Dixon_(Jack_County_Attorney,_Texas,_candidate_2024))
+
+---
+
+## Jack County Commissioner Precinct 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gary Oliver** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gary_Oliver_(Jack_County_Commissioner_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Jack County Commissioner Precinct 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Henry D. Birdwell Jr.** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Henry_D._Birdwell_Jr._(Jack_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Jack County Constable
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Clyde Watson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Clyde_Watson_(Jack_County_Constable,_Texas,_candidate_2024))
+
+---
+
+## Jack County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charles Tbob Hauger Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charles_Tbob_Hauger_Jr._(Jack_County_Sheriff,_Texas,_candidate_2024))
+
+---
+
+## Jack County Tax Assessor-Collector
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Trasi Ogle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Trasi_Ogle_(Jack_County_Tax_Assessor-Collector,_Texas,_candidate_2024))
+
+---
+
+",6.0,167.16666666666666,1.0,12.0,0.0,11.0,0.0,18.3,8530.0,1003.0

@@ -1,0 +1,585 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+23628,New York,NY-CD04,Queens,11413,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 5      |
+|                         | Average Words per Question      | 151.6|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.2  years of education      |
+| **Length**              | Ballot Length                 | 5,946 characters       |
+|                         | Word Count                     | 758                         |
+
+---
+# Ballot for Queens County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul King** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paul_King_(New_York))
+
+- [ ] **Gregory W. Meeks** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gregory_Meeks)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+---
+
+## New York State Assembly District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dwayne Moore** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dwayne_Moore)
+
+- [ ] **Alicia Hyndman** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alicia_Hyndman)
+
+---
+
+## New York State Senate District 14
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Leroy Comrie** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Leroy_Comrie)
+
+---
+
+## New York City Civil Court Queens County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 5
+
+### Candidates:
+- [ ] **Mary-Ann Maloney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary-Ann_Maloney)
+
+- [ ] **Stephen Dachtera** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Dachtera)
+
+- [ ] **Peter F. Lane** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_F._Lane_(New_York,_New_York))
+
+- [ ] **William Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Shanahan)
+
+- [ ] **Amish Doshi** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Amish_Doshi)
+
+- [ ] **Glenda Hernandez** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenda_Hernandez)
+
+- [ ] **Sharifa Nasser-Cuellar** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sharifa_Nasser-Cuellar)
+
+- [ ] **Melissa Deberry** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_Deberry)
+
+---
+
+## New York City Civil Court Queens County 4th Municipal Court District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elizabeth Newton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elizabeth_Newton)
+
+---
+
+## New York Supreme Court 11th Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 7
+
+### Candidates:
+- [ ] **Kathy Wu Parrino** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathy_Wu_Parrino)
+
+- [ ] **Gary Muraca** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gary_Muraca)
+
+- [ ] **Sandra Munoz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sandra_Munoz)
+
+- [ ] **Andrea Ogle** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrea_Ogle)
+
+- [ ] **Claudia Lanzetta** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_Lanzetta)
+
+- [ ] **Lumarie Maldonado-Cruz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lumarie_Maldonado-Cruz)
+
+- [ ] **Delsia Marshall** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Delsia_Marshall)
+
+- [ ] **Alan Schiff** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alan_Schiff)
+
+- [ ] **John Katsanos** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Katsanos)
+
+---
+
+## Queens County Surrogate's Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cassandra Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cassandra_Johnson)
+
+- [ ] **Stephen Weiner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Weiner)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",5.0,151.6,2.0,7.0,6.0,2.0,0.0,16.2,5946.0,758.0
+23656,New York,NY-CD05,Queens,11413,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 5      |
+|                         | Average Words per Question      | 151.6|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.2  years of education      |
+| **Length**              | Ballot Length                 | 5,946 characters       |
+|                         | Word Count                     | 758                         |
+
+---
+# Ballot for Queens County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul King** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paul_King_(New_York))
+
+- [ ] **Gregory W. Meeks** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gregory_Meeks)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+---
+
+## New York State Assembly District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dwayne Moore** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dwayne_Moore)
+
+- [ ] **Alicia Hyndman** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alicia_Hyndman)
+
+---
+
+## New York State Senate District 14
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Leroy Comrie** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Leroy_Comrie)
+
+---
+
+## New York City Civil Court Queens County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 5
+
+### Candidates:
+- [ ] **Mary-Ann Maloney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary-Ann_Maloney)
+
+- [ ] **Stephen Dachtera** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Dachtera)
+
+- [ ] **Peter F. Lane** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_F._Lane_(New_York,_New_York))
+
+- [ ] **William Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Shanahan)
+
+- [ ] **Amish Doshi** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Amish_Doshi)
+
+- [ ] **Glenda Hernandez** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenda_Hernandez)
+
+- [ ] **Sharifa Nasser-Cuellar** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sharifa_Nasser-Cuellar)
+
+- [ ] **Melissa Deberry** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_Deberry)
+
+---
+
+## New York City Civil Court Queens County 4th Municipal Court District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elizabeth Newton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elizabeth_Newton)
+
+---
+
+## New York Supreme Court 11th Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 7
+
+### Candidates:
+- [ ] **Kathy Wu Parrino** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathy_Wu_Parrino)
+
+- [ ] **Gary Muraca** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gary_Muraca)
+
+- [ ] **Sandra Munoz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sandra_Munoz)
+
+- [ ] **Andrea Ogle** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrea_Ogle)
+
+- [ ] **Claudia Lanzetta** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_Lanzetta)
+
+- [ ] **Lumarie Maldonado-Cruz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lumarie_Maldonado-Cruz)
+
+- [ ] **Delsia Marshall** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Delsia_Marshall)
+
+- [ ] **Alan Schiff** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alan_Schiff)
+
+- [ ] **John Katsanos** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Katsanos)
+
+---
+
+## Queens County Surrogate's Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cassandra Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cassandra_Johnson)
+
+- [ ] **Stephen Weiner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Weiner)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",5.0,151.6,2.0,7.0,6.0,2.0,0.0,16.2,5946.0,758.0

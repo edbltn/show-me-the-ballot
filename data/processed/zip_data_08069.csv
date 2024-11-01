@@ -1,0 +1,596 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+22118,New Jersey,NJ-CD01,Salem,08069,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 20.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 280.5|
+|                         | Average Options per Question    | 2.5|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 10||
+|                         | Number of Non-Competitive Races | 18|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.8  years of education      |
+| **Length**              | Ballot Length                 | 11,011 characters       |
+|                         | Word Count                     | 1,122                         |
+
+---
+# Ballot for Salem County, New Jersey
+
+Election Date: 2024-11-05
+
+## New Castle County Council President
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Monique Johns** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Monique_Johns_(New_Castle_County_Council_President,_Delaware,_candidate_2024))
+
+- [ ] **Melissa S. Brayman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_S._Brayman_(New_Castle_County_Council_President,_Delaware,_candidate_2024))
+
+---
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Vermin Supreme** (Conservative Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vermin_Supreme)
+  - Running Mate: Jonathan Realz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (Independent Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## Wilmington City Council President
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Trippi Congo** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Trippi_Congo_(Wilmington_City_Council_President,_Delaware,_candidate_2024))
+
+---
+
+## U.S. Senate Delaware
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Blunt Rochester** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Blunt_Rochester)
+
+- [ ] **Eric Hansen** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Hansen_(Delaware))
+
+- [ ] **Michael Katz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Katz)
+
+---
+
+## Governor of Delaware
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matt Meyer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matt_Meyer)
+
+- [ ] **Michael Ramone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Ramone)
+
+- [ ] **Danny Ace Valentine** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Danny_Ace_Valentine)
+
+---
+
+## Lieutenant Governor of Delaware
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kyle Evans Gay** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kyle_Evans_Gay)
+
+- [ ] **Ruth Briggs King** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ruth_Briggs_King)
+
+---
+
+## Delaware House of Representatives District 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephanie Bolden** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stephanie_Bolden)
+
+---
+
+## Delaware Insurance Commissioner
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ralph Taylor** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ralph_Taylor_(Delaware_Insurance_Commissioner))
+
+- [ ] **Trinidad Navarro** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Trinidad_Navarro)
+
+---
+
+## Delaware State Senate District 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Darius Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Darius_Brown)
+
+- [ ] **Jon Roe** (Conservative Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jon_Roe)
+
+---
+
+## Mayor of Wilmington
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John C. Carney Jr.** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_C._Carney_Jr._(Mayor_of_Wilmington,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Clerk of The Peace
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Darrah** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Darrah_(New_Castle_County_Clerk_of_The_Peace,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Commissioner Board District 10
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jea P. Street** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jea_P._Street_(New_Castle_County_Commissioner_Board_District_10,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Commissioner Board District 11
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David L. Tackett** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_L._Tackett_(New_Castle_County_Commissioner_Board_District_11,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Commissioner Board District 8
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael C. Senisch** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_C._Senisch_(New_Castle_County_Commissioner_Board_District_8,_Delaware,_candidate_2024))
+
+- [ ] **John Cartier** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Cartier_(New_Castle_County_Commissioner_Board_District_8,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Commissioner Board District 9
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Timothy P. Sheldon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Timothy_P._Sheldon_(New_Castle_County_Commissioner_Board_District_9,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Council District 12
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin Caneco** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Caneco_(New_Castle_County_Council_District_12,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Council District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **George Smiley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/George_Smiley_(New_Castle_County_Council_District_7,_Delaware,_candidate_2024))
+
+---
+
+## New Castle County Executive
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Marcus Henry** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Marcus_Henry_(New_Castle_County_Executive,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Shawn Dottery** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shawn_Dottery_(Wilmington_City_Council_At-large,_Delaware,_candidate_2024))
+
+- [ ] **James Spadola** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_Spadola_(Wilmington_City_Council_At-large,_Delaware,_candidate_2024))
+
+- [ ] **Latisha Bracy** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Latisha_Bracy_(Wilmington_City_Council_At-large,_Delaware,_candidate_2024))
+
+- [ ] **Alexander Hackett** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alexander_Hackett_(Wilmington_City_Council_At-large,_Delaware,_candidate_2024))
+
+- [ ] **Maria D. Cabrera** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maria_D._Cabrera_(Wilmington_City_Council_At-large,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Coby Owens** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Coby_Owens_(Wilmington_City_Council_District_1,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Shane Nicole Darby** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shane_Nicole_Darby_(Wilmington_City_Council_District_2,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Zanthia Oliver** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Zanthia_Oliver_(Wilmington_City_Council_District_3,_Delaware,_candidate_2024))
+
+- [ ] **Don Farrell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Farrell_(Wilmington_City_Council_District_3,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michelle Harlee** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michelle_Harlee_(Wilmington_City_Council_District_4,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 5
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christian Willauer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christian_Willauer_(Wilmington_City_Council_District_5,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 6
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Yolanda M. McCoy** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Yolanda_M._McCoy_(Wilmington_City_Council_District_6,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chris Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Johnson_(Wilmington_City_Council_District_7,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington City Council District 8
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan Field** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Field_(Wilmington_City_Council_District_8,_Delaware,_candidate_2024))
+
+---
+
+## Wilmington Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **DaWayne Sims** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaWayne_Sims_(Wilmington_Treasurer,_Delaware,_candidate_2024))
+
+---
+
+",4.0,280.5,2.5,10.0,0.0,18.0,0.0,21.8,11011.0,1122.0
+22289,New Jersey,NJ-CD02,Salem,08069,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 13.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 355.0|
+|                         | Average Options per Question    | 6.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.7  years of education      |
+| **Length**              | Ballot Length                 | 2,903 characters       |
+|                         | Word Count                     | 355                         |
+
+---
+# Ballot for Salem County, New Jersey
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rachele Fruit** (Socialist Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Margaret Trowe
+
+- [ ] **Joseph Kishore** (Socialist Equality Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Kishore)
+  - Running Mate: Jerry White
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House New Jersey District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joe Salerno** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_Salerno)
+
+- [ ] **Jeff Van Drew** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jeff_Van_Drew)
+
+- [ ] **Thomas Cannavo** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Cannavo)
+
+---
+
+## U.S. Senate New Jersey
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christina Khalil** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christina_Khalil)
+
+- [ ] **Joanne Kuniansky** (Socialist Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joanne_Kuniansky)
+
+- [ ] **Kenneth Kaplan** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kenneth_Kaplan)
+
+- [ ] **Patricia Mooneyham** (Vote Better Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_Mooneyham)
+
+- [ ] **Curtis Bashaw** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Curtis_Bashaw)
+
+- [ ] **Andrew Kim** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_Kim_(New_Jersey))
+
+---
+
+",1.0,355.0,6.0,3.0,0.0,0.0,0.0,15.7,2903.0,355.0

@@ -1,0 +1,261 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+29316,Oregon,OR-CD02,Douglas,97469,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 10      |
+|                         | Average Words per Question      | 64.4|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 5|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.4  years of education      |
+| **Length**              | Ballot Length                 | 5,023 characters       |
+|                         | Word Count                     | 644                         |
+
+---
+# Ballot for Douglas County, Oregon
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Jill Stein** (Pacific Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Cornel West** (Progressive Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+
+---
+
+## U.S. House Oregon District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Stettler** (Constitution​ Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Stettler)
+
+- [ ] **Dan Ruby** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Ruby_(Oregon))
+
+- [ ] **Cliff Bentz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cliff_Bentz)
+
+---
+
+## Attorney General of Oregon
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dan Rayfield** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Rayfield)
+
+- [ ] **Will Lathrop** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Will_Lathrop)
+
+---
+
+## Oregon House of Representatives District 4
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Chasm** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Chasm)
+
+- [ ] **Alek Skarlatos** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alek_Skarlatos)
+
+---
+
+## Oregon Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dennis Linthicum** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dennis_Linthicum)
+
+- [ ] **Tobias Read** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tobias_Read)
+
+- [ ] **Nathalie Paravicini** (Progressive Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathalie_Paravicini)
+
+---
+
+## Oregon State Senate District 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tracy Thompson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Thompson)
+
+- [ ] **Noah Robinson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Noah_Robinson_(Oregon))
+
+---
+
+## Oregon Supreme Court Position 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephen K. Bushong** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stephen_K._Bushong)
+
+---
+
+## Oregon Supreme Court Position 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bronson James** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bronson_James)
+
+---
+
+## Oregon Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary King** (Working Families Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_King)
+
+- [ ] **Brian Boquist** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Boquist)
+
+- [ ] **Elizabeth Steiner Hayward** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elizabeth_Steiner_Hayward)
+
+---
+
+## Oregon Measure 115, Impeachment of Elected State Executives Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 116, Independent Public Service Compensation Commission Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 117, Ranked-Choice Voting for Federal and State Elections Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 118, Corporate Tax Revenue Rebate for Residents Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 119, Unionization of Cannabis Workers Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",10.0,64.4,2.0,7.0,5.0,2.0,0.0,16.4,5023.0,644.0

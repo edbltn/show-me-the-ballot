@@ -1,0 +1,957 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+9572,Illinois,IL-CD13,Sangamon,62520,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 19.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 383.7|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 14||
+|                         | Number of Non-Competitive Races | 13|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.7  years of education      |
+| **Length**              | Ballot Length                 | 11,195 characters       |
+|                         | Word Count                     | 1,151                         |
+
+---
+# Ballot for Sangamon County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 13
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bradley Horges Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bradley_Horges_Jr.)
+
+- [ ] **Joshua Loyd** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Loyd)
+
+- [ ] **Nikki Budzinski** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Nikki_Budzinski)
+
+---
+
+## Illinois 4th District Appellate Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Amy Lannerd** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Lannerd)
+
+- [ ] **Eugene G. Doherty** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eugene_G._Doherty)
+
+- [ ] **Robert Steigmann** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Steigmann)
+
+---
+
+## Illinois House of Representatives District 96
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sue Scherer** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sue_Scherer)
+
+- [ ] **Lisa Smith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Smith_(Illinois))
+
+---
+
+## Illinois Supreme Court 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Holder White** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lisa_Holder_White)
+
+---
+
+## Illinois 7th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David R. Cherry** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_R._Cherry_(Illinois_7th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 7th Circuit Court 3rd Subcircuit
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas D. Denby** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_D._Denby_(Illinois_7th_Circuit_Court_3rd_Subcircuit,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Andy Goleman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Goleman_(Sangamon_County_Auditor,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 12
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Marc Ayers** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Marc_Ayers_(Sangamon_County_Board_District_12,_Illinois,_candidate_2024))
+
+- [ ] **Colleen Lucas Cavanaugh** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colleen_Lucas_Cavanaugh_(Sangamon_County_Board_District_12,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 13
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brad Miller** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brad_Miller_(Sangamon_County_Board_District_13,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 15
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tim Krell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tim_Krell_(Sangamon_County_Board_District_15,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 16
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Garret Selinger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Garret_Selinger_(Sangamon_County_Board_District_16,_Illinois,_candidate_2024))
+
+- [ ] **Greg Stumpf** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Greg_Stumpf_(Sangamon_County_Board_District_16,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 17
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Annette Fulgenzi** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Annette_Fulgenzi_(Sangamon_County_Board_District_17,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 19
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vera Small** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vera_Small_(Sangamon_County_Board_District_19,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 21
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Clyde Bunch** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Clyde_Bunch_(Sangamon_County_Board_District_21,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 22
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Lathan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Lathan_(Sangamon_County_Board_District_22,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 24
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **A.D. VanMeter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/A.D._VanMeter_(Sangamon_County_Board_District_24,_Illinois,_candidate_2024))
+
+- [ ] **Maureen Duffy Bommarite** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maureen_Duffy_Bommarite_(Sangamon_County_Board_District_24,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 25
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Russ Clark** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russ_Clark_(Sangamon_County_Board_District_25,_Illinois,_candidate_2024))
+
+- [ ] **Jennifer Merritt** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_Merritt_(Sangamon_County_Board_District_25,_Illinois,_candidate_2024))
+
+- [ ] **Jennifer Ghesquiere Deaner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_Ghesquiere_Deaner_(Sangamon_County_Board_District_25,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 26
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Justin Davsko** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_Davsko_(Sangamon_County_Board_District_26,_Illinois,_candidate_2024))
+
+- [ ] **Rick Thompson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rick_Thompson_(Sangamon_County_Board_District_26,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 27
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamilah Renee Webb** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamilah_Renee_Webb_(Sangamon_County_Board_District_27,_Illinois,_candidate_2024))
+
+- [ ] **Abe Forsyth** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Abe_Forsyth_(Sangamon_County_Board_District_27,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 28
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin McGuire** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_McGuire_(Sangamon_County_Board_District_28,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 8
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Rader** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Rader_(Sangamon_County_Board_District_8,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 9
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dana Stoerger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dana_Stoerger_(Sangamon_County_Board_District_9,_Illinois,_candidate_2024))
+
+- [ ] **Tom Madonia Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_Madonia_Jr._(Sangamon_County_Board_District_9,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joe Roesch** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_Roesch_(Sangamon_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+- [ ] **Juwanda M. Burrage** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Juwanda_M._Burrage_(Sangamon_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Allmon** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Allmon_(Sangamon_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Frank J. Lesko** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Frank_J._Lesko_(Sangamon_County_Recorder,_Illinois,_candidate_2024))
+
+- [ ] **Joshua Langfelder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Langfelder_(Sangamon_County_Recorder,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Milhiser** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Milhiser)
+
+- [ ] **Kimberly Talken** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Talken)
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,383.6666666666667,2.0,14.0,3.0,13.0,0.0,21.7,11195.0,1151.0
+9970,Illinois,IL-CD15,Sangamon,62520,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 19.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 375.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 13||
+|                         | Number of Non-Competitive Races | 14|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.9  years of education      |
+| **Length**              | Ballot Length                 | 10,963 characters       |
+|                         | Word Count                     | 1,125                         |
+
+---
+# Ballot for Sangamon County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 15
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Miller** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Miller_(Illinois))
+
+---
+
+## Illinois 4th District Appellate Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert Steigmann** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Steigmann)
+
+- [ ] **Eugene G. Doherty** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eugene_G._Doherty)
+
+- [ ] **Amy Lannerd** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Lannerd)
+
+---
+
+## Illinois House of Representatives District 96
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sue Scherer** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sue_Scherer)
+
+- [ ] **Lisa Smith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Smith_(Illinois))
+
+---
+
+## Illinois Supreme Court 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Holder White** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lisa_Holder_White)
+
+---
+
+## Illinois 7th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David R. Cherry** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_R._Cherry_(Illinois_7th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Illinois 7th Circuit Court 3rd Subcircuit
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas D. Denby** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_D._Denby_(Illinois_7th_Circuit_Court_3rd_Subcircuit,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Andy Goleman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Goleman_(Sangamon_County_Auditor,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 12
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Marc Ayers** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Marc_Ayers_(Sangamon_County_Board_District_12,_Illinois,_candidate_2024))
+
+- [ ] **Colleen Lucas Cavanaugh** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colleen_Lucas_Cavanaugh_(Sangamon_County_Board_District_12,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 13
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brad Miller** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brad_Miller_(Sangamon_County_Board_District_13,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 15
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tim Krell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tim_Krell_(Sangamon_County_Board_District_15,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 16
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Garret Selinger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Garret_Selinger_(Sangamon_County_Board_District_16,_Illinois,_candidate_2024))
+
+- [ ] **Greg Stumpf** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Greg_Stumpf_(Sangamon_County_Board_District_16,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 17
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Annette Fulgenzi** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Annette_Fulgenzi_(Sangamon_County_Board_District_17,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 19
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vera Small** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vera_Small_(Sangamon_County_Board_District_19,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 21
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Clyde Bunch** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Clyde_Bunch_(Sangamon_County_Board_District_21,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 22
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Lathan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Lathan_(Sangamon_County_Board_District_22,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 24
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **A.D. VanMeter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/A.D._VanMeter_(Sangamon_County_Board_District_24,_Illinois,_candidate_2024))
+
+- [ ] **Maureen Duffy Bommarite** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maureen_Duffy_Bommarite_(Sangamon_County_Board_District_24,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 25
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Russ Clark** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russ_Clark_(Sangamon_County_Board_District_25,_Illinois,_candidate_2024))
+
+- [ ] **Jennifer Merritt** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_Merritt_(Sangamon_County_Board_District_25,_Illinois,_candidate_2024))
+
+- [ ] **Jennifer Ghesquiere Deaner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_Ghesquiere_Deaner_(Sangamon_County_Board_District_25,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 26
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Justin Davsko** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_Davsko_(Sangamon_County_Board_District_26,_Illinois,_candidate_2024))
+
+- [ ] **Rick Thompson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rick_Thompson_(Sangamon_County_Board_District_26,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 27
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Abe Forsyth** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Abe_Forsyth_(Sangamon_County_Board_District_27,_Illinois,_candidate_2024))
+
+- [ ] **Kamilah Renee Webb** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamilah_Renee_Webb_(Sangamon_County_Board_District_27,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 28
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin McGuire** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_McGuire_(Sangamon_County_Board_District_28,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 8
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Rader** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Rader_(Sangamon_County_Board_District_8,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Board District 9
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dana Stoerger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dana_Stoerger_(Sangamon_County_Board_District_9,_Illinois,_candidate_2024))
+
+- [ ] **Tom Madonia Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_Madonia_Jr._(Sangamon_County_Board_District_9,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Juwanda M. Burrage** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Juwanda_M._Burrage_(Sangamon_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+- [ ] **Joe Roesch** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_Roesch_(Sangamon_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Allmon** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Allmon_(Sangamon_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Frank J. Lesko** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Frank_J._Lesko_(Sangamon_County_Recorder,_Illinois,_candidate_2024))
+
+- [ ] **Joshua Langfelder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Langfelder_(Sangamon_County_Recorder,_Illinois,_candidate_2024))
+
+---
+
+## Sangamon County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Milhiser** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Milhiser)
+
+- [ ] **Kimberly Talken** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Talken)
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,375.0,2.0,13.0,3.0,14.0,0.0,21.9,10963.0,1125.0

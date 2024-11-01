@@ -1,0 +1,126 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+24007,New York,NY-CD16,Westchester,10580,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 9.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 140.0|
+|                         | Average Options per Question    | 2.5|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 14.0  years of education      |
+| **Length**              | Ballot Length                 | 2,200 characters       |
+|                         | Word Count                     | 280                         |
+
+---
+# Ballot for Westchester County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House New York District 16
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **George Latimer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/George_Latimer_(New_York))
+
+- [ ] **Miriam Flisser** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Miriam_Flisser)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+---
+
+## New York State Assembly District 91
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Katie Manger** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katie_Manger)
+
+- [ ] **Steven Otis** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steven_Otis)
+
+---
+
+## New York State Senate District 37
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tricia S. Lindsay** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tricia_Lindsay)
+
+- [ ] **Shelley Mayer** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Shelley_Mayer)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,140.0,2.5,5.0,1.0,0.0,0.0,14.0,2200.0,280.0

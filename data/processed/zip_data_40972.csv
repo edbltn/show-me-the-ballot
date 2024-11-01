@@ -1,0 +1,193 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+13832,Kentucky,KY-CD05,Clay,40972,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 13.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 461.0|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 2||
+|                         | Number of Non-Competitive Races | 7|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.2  years of education      |
+| **Length**              | Ballot Length                 | 4,044 characters       |
+|                         | Word Count                     | 461                         |
+
+---
+# Ballot for Clay County, Kentucky
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Kentucky Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+---
+
+## U.S. House Kentucky District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Hal Rogers** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hal_Rogers)
+
+---
+
+## Kentucky House of Representatives District 90
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Lewis** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Lewis_(Kentucky))
+
+---
+
+## Kentucky State Senate District 25
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert Stivers** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Stivers)
+
+---
+
+## 41st Judicial Circuit Commonwealth's Attorney
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jake Roberts** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jake_Roberts_(41st_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+- [ ] **Haley Jo Fields** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Haley_Jo_Fields_(41st_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+---
+
+## Clay County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Leslie Phillips** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Leslie_Phillips_(Clay_County_Circuit_Court_Clerk,_Kentucky,_candidate_2024))
+
+---
+
+## Clay County School District Board of Education District 2
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robin Denise Combs** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robin_Denise_Combs_(Clay_County_School_District_Board_of_Education_District_2,_Kentucky,_candidate_2024))
+
+---
+
+## Clay County School District Board of Education District 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Roy Glenn Allen** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Roy_Glenn_Allen_(Clay_County_School_District_Board_of_Education_District_4,_Kentucky,_candidate_2024))
+
+---
+
+## Clay County School District Board of Education District 5
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Hoskins** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Hoskins_(Clay_County_School_District_Board_of_Education_District_5,_Kentucky,_candidate_2024))
+
+---
+
+## Kentucky Constitutional Amendment 1, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Kentucky Constitutional Amendment 2, Allow State Funding for Non-Public Education Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,461.0,1.0,2.0,2.0,7.0,0.0,19.2,4044.0,461.0

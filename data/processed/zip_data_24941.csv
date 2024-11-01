@@ -1,0 +1,883 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+39273,West Virginia,WV-CD01,Monroe,24941,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 17.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 759.0|
+|                         | Average Options per Question    | 5.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.1  years of education      |
+| **Length**              | Ballot Length                 | 6,444 characters       |
+|                         | Word Count                     | 759                         |
+
+---
+# Ballot for Monroe County, West Virginia
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Jill Stein** (Mountain Party of West Virginia)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House West Virginia District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Umberger** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Umberger)
+
+- [ ] **Wes Holden** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wes_Holden)
+
+- [ ] **Chris Reed** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Reed_(West_Virginia))
+
+- [ ] **Carol Miller** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Carol_Miller_(West_Virginia))
+
+- [ ] **A. Warden** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/A._Warden)
+
+---
+
+## U.S. Senate West Virginia
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tim Stevenski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tim_Stevenski)
+
+- [ ] **Lewie Andrews** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lewie_Andrews)
+
+- [ ] **David Moran** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Moran_(West_Virginia))
+
+- [ ] **Glenn Elliott** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenn_Elliott)
+
+- [ ] **Jim Justice** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Justice)
+
+- [ ] **Joshua Standridge** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Standridge)
+
+---
+
+## Governor of West Virginia
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Quintin Gerard Caldwell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Quintin_Gerard_Caldwell)
+
+- [ ] **Troy Green** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Troy_Green_(West_Virginia))
+
+- [ ] **S. Marshall Wilson** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/S._Marshall_Wilson_(West_Virginia))
+
+- [ ] **Patrick Morrisey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patrick_Morrisey)
+
+- [ ] **Chase Linko-Looper** (Mountain Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Linko-Looper)
+
+- [ ] **Steve Williams** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Williams_(West_Virginia))
+
+- [ ] **Erika Kolenich** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erika_Kolenich)
+
+- [ ] **William Meadows** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Meadows)
+
+---
+
+## Attorney General of West Virginia
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Teresa Toriseva** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Teresa_Toriseva)
+
+- [ ] **John B. McCuskey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_B._McCuskey)
+
+---
+
+## West Virginia Commissioner of Agriculture
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kent Leonhardt** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kent_Leonhardt)
+
+- [ ] **Deborah Stiles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deborah_Stiles)
+
+---
+
+## West Virginia House of Delegates District 40
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim McNeely** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_McNeely)
+
+- [ ] **Roy G. Cooper** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Roy_G._Cooper)
+
+---
+
+## West Virginia Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thornton Cooper** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thornton_Cooper)
+
+- [ ] **Kris Warner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kris_Warner)
+
+---
+
+## West Virginia State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Hunt** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Hunt)
+
+- [ ] **Mary Ann Claytor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_Ann_Claytor)
+
+---
+
+## West Virginia State Senate District 10
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jack Woodrum** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jack_Woodrum)
+
+- [ ] **Lee Forbes** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Forbes)
+
+---
+
+## West Virginia Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gabriel Covington** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gabriel_Covington)
+
+- [ ] **Mike Tremblay** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Tremblay)
+
+- [ ] **Larry Pack** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Larry_Pack_(West_Virginia))
+
+---
+
+## West Virginia Amendment 1, Prohibit ""Medically-Assisted Suicide, Euthanasia, and Mercy Killing"" Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,759.0,5.0,11.0,1.0,0.0,0.0,17.1,6444.0,759.0
+39739,West Virginia,WV-CD06,Monroe,24941,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 17.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 759.0|
+|                         | Average Options per Question    | 5.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.1  years of education      |
+| **Length**              | Ballot Length                 | 6,444 characters       |
+|                         | Word Count                     | 759                         |
+
+---
+# Ballot for Monroe County, West Virginia
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Jill Stein** (Mountain Party of West Virginia)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House West Virginia District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Umberger** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Umberger)
+
+- [ ] **Wes Holden** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wes_Holden)
+
+- [ ] **Chris Reed** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Reed_(West_Virginia))
+
+- [ ] **Carol Miller** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Carol_Miller_(West_Virginia))
+
+- [ ] **A. Warden** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/A._Warden)
+
+---
+
+## U.S. Senate West Virginia
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tim Stevenski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tim_Stevenski)
+
+- [ ] **Lewie Andrews** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lewie_Andrews)
+
+- [ ] **David Moran** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Moran_(West_Virginia))
+
+- [ ] **Glenn Elliott** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenn_Elliott)
+
+- [ ] **Jim Justice** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Justice)
+
+- [ ] **Joshua Standridge** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Standridge)
+
+---
+
+## Governor of West Virginia
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Quintin Gerard Caldwell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Quintin_Gerard_Caldwell)
+
+- [ ] **Troy Green** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Troy_Green_(West_Virginia))
+
+- [ ] **S. Marshall Wilson** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/S._Marshall_Wilson_(West_Virginia))
+
+- [ ] **Patrick Morrisey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patrick_Morrisey)
+
+- [ ] **Chase Linko-Looper** (Mountain Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Linko-Looper)
+
+- [ ] **Steve Williams** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Williams_(West_Virginia))
+
+- [ ] **Erika Kolenich** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erika_Kolenich)
+
+- [ ] **William Meadows** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Meadows)
+
+---
+
+## Attorney General of West Virginia
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Teresa Toriseva** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Teresa_Toriseva)
+
+- [ ] **John B. McCuskey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_B._McCuskey)
+
+---
+
+## West Virginia Commissioner of Agriculture
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kent Leonhardt** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kent_Leonhardt)
+
+- [ ] **Deborah Stiles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deborah_Stiles)
+
+---
+
+## West Virginia House of Delegates District 40
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim McNeely** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_McNeely)
+
+- [ ] **Roy G. Cooper** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Roy_G._Cooper)
+
+---
+
+## West Virginia Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thornton Cooper** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thornton_Cooper)
+
+- [ ] **Kris Warner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kris_Warner)
+
+---
+
+## West Virginia State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Hunt** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Hunt)
+
+- [ ] **Mary Ann Claytor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_Ann_Claytor)
+
+---
+
+## West Virginia State Senate District 10
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jack Woodrum** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jack_Woodrum)
+
+- [ ] **Lee Forbes** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Forbes)
+
+---
+
+## West Virginia Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gabriel Covington** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gabriel_Covington)
+
+- [ ] **Mike Tremblay** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Tremblay)
+
+- [ ] **Larry Pack** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Larry_Pack_(West_Virginia))
+
+---
+
+## West Virginia Amendment 1, Prohibit ""Medically-Assisted Suicide, Euthanasia, and Mercy Killing"" Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,759.0,5.0,11.0,1.0,0.0,0.0,17.1,6444.0,759.0
+39772,West Virginia,WV-CD09,Monroe,24941,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 17.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 759.0|
+|                         | Average Options per Question    | 5.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.1  years of education      |
+| **Length**              | Ballot Length                 | 6,444 characters       |
+|                         | Word Count                     | 759                         |
+
+---
+# Ballot for Monroe County, West Virginia
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Jill Stein** (Mountain Party of West Virginia)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House West Virginia District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Umberger** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Umberger)
+
+- [ ] **Wes Holden** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wes_Holden)
+
+- [ ] **Chris Reed** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Reed_(West_Virginia))
+
+- [ ] **Carol Miller** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Carol_Miller_(West_Virginia))
+
+- [ ] **A. Warden** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/A._Warden)
+
+---
+
+## U.S. Senate West Virginia
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tim Stevenski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tim_Stevenski)
+
+- [ ] **Lewie Andrews** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lewie_Andrews)
+
+- [ ] **David Moran** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Moran_(West_Virginia))
+
+- [ ] **Glenn Elliott** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenn_Elliott)
+
+- [ ] **Jim Justice** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Justice)
+
+- [ ] **Joshua Standridge** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Standridge)
+
+---
+
+## Governor of West Virginia
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Quintin Gerard Caldwell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Quintin_Gerard_Caldwell)
+
+- [ ] **Troy Green** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Troy_Green_(West_Virginia))
+
+- [ ] **S. Marshall Wilson** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/S._Marshall_Wilson_(West_Virginia))
+
+- [ ] **Patrick Morrisey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patrick_Morrisey)
+
+- [ ] **Chase Linko-Looper** (Mountain Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Linko-Looper)
+
+- [ ] **Steve Williams** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Williams_(West_Virginia))
+
+- [ ] **Erika Kolenich** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erika_Kolenich)
+
+- [ ] **William Meadows** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Meadows)
+
+---
+
+## Attorney General of West Virginia
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Teresa Toriseva** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Teresa_Toriseva)
+
+- [ ] **John B. McCuskey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_B._McCuskey)
+
+---
+
+## West Virginia Commissioner of Agriculture
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kent Leonhardt** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kent_Leonhardt)
+
+- [ ] **Deborah Stiles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deborah_Stiles)
+
+---
+
+## West Virginia House of Delegates District 40
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim McNeely** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_McNeely)
+
+- [ ] **Roy G. Cooper** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Roy_G._Cooper)
+
+---
+
+## West Virginia Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thornton Cooper** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thornton_Cooper)
+
+- [ ] **Kris Warner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kris_Warner)
+
+---
+
+## West Virginia State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Hunt** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Hunt)
+
+- [ ] **Mary Ann Claytor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_Ann_Claytor)
+
+---
+
+## West Virginia State Senate District 10
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jack Woodrum** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jack_Woodrum)
+
+- [ ] **Lee Forbes** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Forbes)
+
+---
+
+## West Virginia Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gabriel Covington** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gabriel_Covington)
+
+- [ ] **Mike Tremblay** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Tremblay)
+
+- [ ] **Larry Pack** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Larry_Pack_(West_Virginia))
+
+---
+
+## West Virginia Amendment 1, Prohibit ""Medically-Assisted Suicide, Euthanasia, and Mercy Killing"" Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,759.0,5.0,11.0,1.0,0.0,0.0,17.1,6444.0,759.0

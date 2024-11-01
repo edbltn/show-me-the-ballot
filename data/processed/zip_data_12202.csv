@@ -1,0 +1,143 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+24556,New York,NY-CD20,Albany,12202,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 10.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 322.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.3  years of education      |
+| **Length**              | Ballot Length                 | 2,540 characters       |
+|                         | Word Count                     | 322                         |
+
+---
+# Ballot for Albany County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House New York District 20
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul Tonko** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_Tonko)
+
+- [ ] **Kevin Waltz** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Waltz)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+---
+
+## New York State Assembly District 109
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Alicia Purdy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alicia_Purdy)
+
+- [ ] **Gabriella Romero** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gabriella_Romero)
+
+---
+
+## New York State Senate District 46
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patricia Fahy** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_Fahy)
+
+- [ ] **Theodore Danz, Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Theodore_J._Danz,_Jr.)
+
+---
+
+## Albany County District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lee Kindlon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Kindlon)
+
+- [ ] **Ralph Ambrosio** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ralph_Ambrosio)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,322.0,2.0,6.0,1.0,0.0,0.0,15.3,2540.0,322.0

@@ -1,0 +1,138 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+18775,Mississippi,MS-CD01,Calhoun,38914,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 11.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 338.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.0  years of education      |
+| **Length**              | Ballot Length                 | 2,728 characters       |
+|                         | Word Count                     | 338                         |
+
+---
+# Ballot for Calhoun County, Mississippi
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Claudia De La Cruz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Mississippi District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Trent Kelly** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Trent_Kelly)
+
+- [ ] **Dianne Black** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dianne_Black)
+
+---
+
+## U.S. Senate Mississippi
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ty Pinkins** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ty_Pinkins)
+
+- [ ] **Roger Wicker** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Roger_Wicker)
+
+---
+
+## Mississippi Supreme Court District 3 Position 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert P. Chamberlin** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_Chamberlin)
+
+---
+
+## Mississippi Supreme Court District 3 Position 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Maxwell** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Maxwell)
+
+---
+
+",1.0,338.0,2.0,3.0,0.0,2.0,0.0,16.0,2728.0,338.0

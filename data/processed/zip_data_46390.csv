@@ -1,0 +1,889 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+10424,Indiana,IN-CD01,LaPorte,46390,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 26.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 7      |
+|                         | Average Words per Question      | 150.7|
+|                         | Average Options per Question    | 2.9|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 16||
+|                         | Number of Non-Competitive Races | 4|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.8  years of education      |
+| **Length**              | Ballot Length                 | 10,105 characters       |
+|                         | Word Count                     | 1,055                         |
+
+---
+# Ballot for LaPorte County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Indiana District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudy Yakym** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudy_Yakym)
+
+- [ ] **Mike Hubbard** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Hubbard_(Indiana))
+
+- [ ] **Lori A. Camp** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lori_Camp)
+
+- [ ] **William Henry** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Henry_(Indiana))
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 20
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Pressel** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jim_Pressel)
+
+---
+
+## Indiana State Senate District 8
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Bohacek** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Bohacek)
+
+- [ ] **Leon P. Smith** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Leon_P._Smith_(Indiana))
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+## LaPorte County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Rosenbaum** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Rosenbaum_(LaPorte_County_Auditor,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Julianne K. Havens** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Julianne_K._Havens_(LaPorte_County_Circuit_Court,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Heather Stevens** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Heather_Stevens_(LaPorte_County_Circuit_Court_Clerk,_Indiana,_candidate_2024))
+
+- [ ] **Angela Henzman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angela_Henzman_(LaPorte_County_Circuit_Court_Clerk,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Commissioner Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steve Holifield** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Holifield_(LaPorte_County_Commissioner_Board_District_2,_Indiana,_candidate_2024))
+
+- [ ] **Mike Kellems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Kellems_(LaPorte_County_Commissioner_Board_District_2,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Commissioner Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Randy Novak** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randy_Novak_(LaPorte_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+- [ ] **Joe Haney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_Haney_(LaPorte_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark P. Baker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_P._Baker_(LaPorte_County_Coroner,_Indiana,_candidate_2024))
+
+- [ ] **Lynn Swanson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lynn_Swanson_(LaPorte_County_Coroner,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Scott Ford** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_Ford_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Mike Mollenhauer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Mollenhauer_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Heather Oake** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Heather_Oake_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Brett H. Kessler** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brett_H._Kessler_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Adam Koronka** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Koronka_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Johnny Stimley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Johnny_Stimley_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Sikorski** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Sikorski_(LaPorte_County_Recorder,_Indiana,_candidate_2024))
+
+- [ ] **Elzbieta Ela Bilderback** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elzbieta_Ela_Bilderback_(LaPorte_County_Recorder,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Surveyor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Matwyshyn** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Matwyshyn_(LaPorte_County_Surveyor,_Indiana,_candidate_2024))
+
+- [ ] **Anthony Charles Hendricks** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Anthony_Charles_Hendricks_(LaPorte_County_Surveyor,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joie Winski** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joie_Winski_(LaPorte_County_Treasurer,_Indiana,_candidate_2024))
+
+- [ ] **Dan Barenie** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Barenie_(LaPorte_County_Treasurer,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",7.0,150.71428571428572,2.857142857142857,16.0,1.0,4.0,1.0,20.8,10105.0,1055.0
+10519,Indiana,IN-CD02,LaPorte,46390,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 26.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 7      |
+|                         | Average Words per Question      | 150.7|
+|                         | Average Options per Question    | 2.9|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 16||
+|                         | Number of Non-Competitive Races | 4|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.8  years of education      |
+| **Length**              | Ballot Length                 | 10,105 characters       |
+|                         | Word Count                     | 1,055                         |
+
+---
+# Ballot for LaPorte County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Indiana District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudy Yakym** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudy_Yakym)
+
+- [ ] **Mike Hubbard** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Hubbard_(Indiana))
+
+- [ ] **Lori A. Camp** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lori_Camp)
+
+- [ ] **William Henry** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Henry_(Indiana))
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 20
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Pressel** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jim_Pressel)
+
+---
+
+## Indiana State Senate District 8
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Bohacek** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Bohacek)
+
+- [ ] **Leon P. Smith** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Leon_P._Smith_(Indiana))
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+## LaPorte County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Rosenbaum** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Rosenbaum_(LaPorte_County_Auditor,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Julianne K. Havens** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Julianne_K._Havens_(LaPorte_County_Circuit_Court,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Heather Stevens** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Heather_Stevens_(LaPorte_County_Circuit_Court_Clerk,_Indiana,_candidate_2024))
+
+- [ ] **Angela Henzman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angela_Henzman_(LaPorte_County_Circuit_Court_Clerk,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Commissioner Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steve Holifield** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Holifield_(LaPorte_County_Commissioner_Board_District_2,_Indiana,_candidate_2024))
+
+- [ ] **Mike Kellems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Kellems_(LaPorte_County_Commissioner_Board_District_2,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Commissioner Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Randy Novak** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randy_Novak_(LaPorte_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+- [ ] **Joe Haney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_Haney_(LaPorte_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark P. Baker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_P._Baker_(LaPorte_County_Coroner,_Indiana,_candidate_2024))
+
+- [ ] **Lynn Swanson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lynn_Swanson_(LaPorte_County_Coroner,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Scott Ford** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_Ford_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Mike Mollenhauer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Mollenhauer_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Heather Oake** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Heather_Oake_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Brett H. Kessler** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brett_H._Kessler_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Adam Koronka** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Koronka_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Johnny Stimley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Johnny_Stimley_(LaPorte_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Sikorski** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Sikorski_(LaPorte_County_Recorder,_Indiana,_candidate_2024))
+
+- [ ] **Elzbieta Ela Bilderback** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elzbieta_Ela_Bilderback_(LaPorte_County_Recorder,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Surveyor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Matwyshyn** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Matwyshyn_(LaPorte_County_Surveyor,_Indiana,_candidate_2024))
+
+- [ ] **Anthony Charles Hendricks** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Anthony_Charles_Hendricks_(LaPorte_County_Surveyor,_Indiana,_candidate_2024))
+
+---
+
+## LaPorte County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joie Winski** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joie_Winski_(LaPorte_County_Treasurer,_Indiana,_candidate_2024))
+
+- [ ] **Dan Barenie** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Barenie_(LaPorte_County_Treasurer,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",7.0,150.71428571428572,2.857142857142857,16.0,1.0,4.0,1.0,20.8,10105.0,1055.0

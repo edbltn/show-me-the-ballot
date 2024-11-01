@@ -1,0 +1,363 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+21871,New Hampshire,NH-CD01,Hillsborough,03052,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 222.0|
+|                         | Average Options per Question    | 2.5|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.6  years of education      |
+| **Length**              | Ballot Length                 | 3,641 characters       |
+|                         | Word Count                     | 444                         |
+
+---
+# Ballot for Hillsborough County, New Hampshire
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House New Hampshire District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lily Williams** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lily_Williams)
+
+- [ ] **Maggie Goodlander** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maggie_Goodlander)
+
+---
+
+## Governor of New Hampshire
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kelly Ayotte** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kelly_Ayotte)
+
+- [ ] **Joyce Craig** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joyce_Craig)
+
+- [ ] **Stephen Villee** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Villee)
+
+---
+
+## New Hampshire Executive Council District 5
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dave Wheeler** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dave_Wheeler)
+
+- [ ] **Melanie Levesque** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melanie_Levesque)
+
+---
+
+## New Hampshire House of Representatives Hillsborough 14
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Michael Aniskovich** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Aniskovich)
+
+- [ ] **Ray Peeples** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ray_Peeples)
+
+- [ ] **Mahendra Bakshi** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mahendra_Bakshi)
+
+- [ ] **Richard Lascelles** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Richard_Lascelles)
+
+---
+
+## New Hampshire House of Representatives Hillsborough 38
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Kimberly Rice** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Rice_(New_Hampshire))
+
+- [ ] **Ralph Boehm** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ralph_Boehm)
+
+- [ ] **Luan Baci** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Luan_Baci)
+
+---
+
+## New Hampshire State Senate District 18
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donna Soucy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Donna_Soucy)
+
+- [ ] **Victoria Sullivan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Victoria_Sullivan)
+
+---
+
+## New Hampshire Increase Mandatory Judicial Retirement Age Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,222.0,2.5,7.0,1.0,0.0,0.0,16.6,3641.0,444.0
+22028,New Hampshire,NH-CD02,Hillsborough,03052,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 222.0|
+|                         | Average Options per Question    | 2.5|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.6  years of education      |
+| **Length**              | Ballot Length                 | 3,641 characters       |
+|                         | Word Count                     | 444                         |
+
+---
+# Ballot for Hillsborough County, New Hampshire
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House New Hampshire District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lily Williams** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lily_Williams)
+
+- [ ] **Maggie Goodlander** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Maggie_Goodlander)
+
+---
+
+## Governor of New Hampshire
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kelly Ayotte** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kelly_Ayotte)
+
+- [ ] **Joyce Craig** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joyce_Craig)
+
+- [ ] **Stephen Villee** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Villee)
+
+---
+
+## New Hampshire Executive Council District 5
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dave Wheeler** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dave_Wheeler)
+
+- [ ] **Melanie Levesque** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melanie_Levesque)
+
+---
+
+## New Hampshire House of Representatives Hillsborough 14
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Michael Aniskovich** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Aniskovich)
+
+- [ ] **Ray Peeples** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ray_Peeples)
+
+- [ ] **Mahendra Bakshi** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mahendra_Bakshi)
+
+- [ ] **Richard Lascelles** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Richard_Lascelles)
+
+---
+
+## New Hampshire House of Representatives Hillsborough 38
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Kimberly Rice** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Rice_(New_Hampshire))
+
+- [ ] **Ralph Boehm** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ralph_Boehm)
+
+- [ ] **Luan Baci** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Luan_Baci)
+
+---
+
+## New Hampshire State Senate District 18
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donna Soucy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Donna_Soucy)
+
+- [ ] **Victoria Sullivan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Victoria_Sullivan)
+
+---
+
+## New Hampshire Increase Mandatory Judicial Retirement Age Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,222.0,2.5,7.0,1.0,0.0,0.0,16.6,3641.0,444.0

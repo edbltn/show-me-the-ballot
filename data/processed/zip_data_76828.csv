@@ -1,0 +1,761 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+34570,Texas,TX-CD11,Coleman,76828,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 153.3|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 10||
+|                         | Number of Non-Competitive Races | 11|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.3  years of education      |
+| **Length**              | Ballot Length                 | 8,006 characters       |
+|                         | Word Count                     | 920                         |
+
+---
+# Ballot for Coleman County, Texas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Texas District 11
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **August Pfluger** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/August_Pfluger)
+
+---
+
+## U.S. Senate Texas
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ted Brown** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Brown_(Texas))
+
+- [ ] **Colin Allred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colin_Allred)
+
+- [ ] **Analisa Roche** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Analisa_Roche)
+
+- [ ] **Ted Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ted_Cruz)
+
+- [ ] **Tracy Andrus** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Andrus)
+
+---
+
+## Texas Court of Criminal Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Parker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Parker)
+
+- [ ] **Nancy Mulder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_Mulder)
+
+---
+
+## Texas Court of Criminal Appeals Place 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lee Finley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Finley)
+
+- [ ] **Chika Anyiam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chika_Anyiam)
+
+---
+
+## Texas Court of Criminal Appeals Presiding Judge
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Schenck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Schenck)
+
+- [ ] **Holly Taylor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Holly_Taylor_(Texas))
+
+---
+
+## Texas Eleventh District Court of Appeals Chief Justice
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Bailey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Bailey_(Texas))
+
+---
+
+## Texas House of Representatives District 72
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Drew Darby** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Drew_Darby)
+
+---
+
+## Texas Railroad Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard McKibbin** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_McKibbin)
+
+- [ ] **Hawk Dunlap** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hawk_Dunlap)
+
+- [ ] **Eddie Espinoza** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Espinoza)
+
+- [ ] **Christi Craddick** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christi_Craddick)
+
+- [ ] **Katherine Culbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Culbert)
+
+---
+
+## Texas State Board of Education District 15
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Morgan Kirkpatrick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Morgan_Kirkpatrick)
+
+- [ ] **Aaron Kinsey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Aaron_Kinsey)
+
+- [ ] **Jack Westbrook** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jack_Westbrook)
+
+---
+
+## Texas Supreme Court Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Blacklock** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Blacklock)
+
+- [ ] **DaSean Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaSean_Jones)
+
+---
+
+## Texas Supreme Court Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Devine** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Devine_(Texas))
+
+- [ ] **Christine Weems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Weems)
+
+---
+
+## Texas Supreme Court Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Roberson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roberson)
+
+- [ ] **Bonnie Lee Goldstein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Lee_Goldstein)
+
+- [ ] **Jane Bland** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jane_Bland)
+
+---
+
+## Coleman County Attorney
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Hayden J. Wise** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hayden_J._Wise_(Coleman_County_Attorney,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Commissioner Precinct 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matt Henderson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matt_Henderson_(Coleman_County_Commissioner_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Commissioner Precinct 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scotty Lawrence** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Scotty_Lawrence_(Coleman_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Constable
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Johnny Barkemeyer** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Johnny_Barkemeyer_(Coleman_County_Constable,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Les Cogdill** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Les_Cogdill_(Coleman_County_Sheriff,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Tax Assessor-Collector
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jamie Dodgen** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jamie_Dodgen_(Coleman_County_Tax_Assessor-Collector,_Texas,_candidate_2024))
+
+---
+
+## Texas 42nd District Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Arimy Beasley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Arimy_Beasley_(Texas_42nd_District_Court,_Texas,_candidate_2024))
+
+---
+
+## Texas 42nd Judicial District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Heath Hemphill** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Heath_Hemphill_(Texas_42nd_Judicial_District_Attorney,_Texas,_candidate_2024))
+
+---
+
+",6.0,153.33333333333334,1.0,10.0,0.0,11.0,0.0,18.3,8006.0,920.0
+35687,Texas,TX-CD25,Coleman,76828,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 153.3|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 10||
+|                         | Number of Non-Competitive Races | 11|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.3  years of education      |
+| **Length**              | Ballot Length                 | 8,006 characters       |
+|                         | Word Count                     | 920                         |
+
+---
+# Ballot for Coleman County, Texas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Texas District 11
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **August Pfluger** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/August_Pfluger)
+
+---
+
+## U.S. Senate Texas
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ted Brown** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Brown_(Texas))
+
+- [ ] **Colin Allred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colin_Allred)
+
+- [ ] **Analisa Roche** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Analisa_Roche)
+
+- [ ] **Ted Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ted_Cruz)
+
+- [ ] **Tracy Andrus** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Andrus)
+
+---
+
+## Texas Court of Criminal Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Parker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Parker)
+
+- [ ] **Nancy Mulder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_Mulder)
+
+---
+
+## Texas Court of Criminal Appeals Place 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lee Finley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Finley)
+
+- [ ] **Chika Anyiam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chika_Anyiam)
+
+---
+
+## Texas Court of Criminal Appeals Presiding Judge
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Schenck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Schenck)
+
+- [ ] **Holly Taylor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Holly_Taylor_(Texas))
+
+---
+
+## Texas Eleventh District Court of Appeals Chief Justice
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Bailey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Bailey_(Texas))
+
+---
+
+## Texas House of Representatives District 72
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Drew Darby** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Drew_Darby)
+
+---
+
+## Texas Railroad Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard McKibbin** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_McKibbin)
+
+- [ ] **Hawk Dunlap** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hawk_Dunlap)
+
+- [ ] **Eddie Espinoza** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Espinoza)
+
+- [ ] **Christi Craddick** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christi_Craddick)
+
+- [ ] **Katherine Culbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Culbert)
+
+---
+
+## Texas State Board of Education District 15
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Morgan Kirkpatrick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Morgan_Kirkpatrick)
+
+- [ ] **Aaron Kinsey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Aaron_Kinsey)
+
+- [ ] **Jack Westbrook** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jack_Westbrook)
+
+---
+
+## Texas Supreme Court Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Blacklock** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Blacklock)
+
+- [ ] **DaSean Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaSean_Jones)
+
+---
+
+## Texas Supreme Court Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Devine** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Devine_(Texas))
+
+- [ ] **Christine Weems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Weems)
+
+---
+
+## Texas Supreme Court Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Roberson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roberson)
+
+- [ ] **Bonnie Lee Goldstein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Lee_Goldstein)
+
+- [ ] **Jane Bland** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jane_Bland)
+
+---
+
+## Coleman County Attorney
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Hayden J. Wise** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Hayden_J._Wise_(Coleman_County_Attorney,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Commissioner Precinct 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matt Henderson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matt_Henderson_(Coleman_County_Commissioner_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Commissioner Precinct 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scotty Lawrence** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Scotty_Lawrence_(Coleman_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Constable
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Johnny Barkemeyer** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Johnny_Barkemeyer_(Coleman_County_Constable,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Les Cogdill** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Les_Cogdill_(Coleman_County_Sheriff,_Texas,_candidate_2024))
+
+---
+
+## Coleman County Tax Assessor-Collector
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jamie Dodgen** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jamie_Dodgen_(Coleman_County_Tax_Assessor-Collector,_Texas,_candidate_2024))
+
+---
+
+## Texas 42nd District Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Arimy Beasley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Arimy_Beasley_(Texas_42nd_District_Court,_Texas,_candidate_2024))
+
+---
+
+## Texas 42nd Judicial District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Heath Hemphill** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Heath_Hemphill_(Texas_42nd_Judicial_District_Attorney,_Texas,_candidate_2024))
+
+---
+
+",6.0,153.33333333333334,1.0,10.0,0.0,11.0,0.0,18.3,8006.0,920.0

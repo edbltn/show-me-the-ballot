@@ -1,0 +1,215 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+13366,Kentucky,KY-CD01,Boyle,40440,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 19.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 467.0|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 6|
+|                         | Non-Partisan Races  | ## Kentucky Supreme Court 5th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Pamela R. Goodwine** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Pamela_R._Goodwine)
+
+- [ ] **Erin Izzo** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erin_Izzo)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.0  years of education      |
+| **Length**              | Ballot Length                 | 4,029 characters       |
+|                         | Word Count                     | 467                         |
+
+---
+# Ballot for Boyle County, Kentucky
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Kentucky Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+---
+
+## U.S. House Kentucky District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Comer Jr.** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Comer_Jr.)
+
+- [ ] **Erin Marshall** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erin_Marshall)
+
+---
+
+## Kentucky House of Representatives District 54
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel Elliott** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Daniel_Elliott_(Kentucky))
+
+---
+
+## Kentucky Supreme Court 5th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Pamela R. Goodwine** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Pamela_R._Goodwine)
+
+- [ ] **Erin Izzo** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erin_Izzo)
+
+---
+
+## 50th Judicial Circuit Commonwealth's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Justin Johnson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_Johnson_(50th_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+---
+
+## Boyle County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cortney Shewmaker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cortney_Shewmaker_(Boyle_County_Circuit_Court_Clerk,_Kentucky,_candidate_2024))
+
+---
+
+## Boyle County Schools school board District 1
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephen T. Tamme** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_T._Tamme_(Boyle_County_Schools_school_board_District_1,_Kentucky,_candidate_2024))
+
+---
+
+## Boyle County Schools school board District 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jennifer Gilbert Newby** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_Gilbert_Newby_(Boyle_County_Schools_school_board_District_4,_Kentucky,_candidate_2024))
+
+---
+
+## Boyle County Schools school board District 5
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cara Adkins** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cara_Adkins_(Boyle_County_Schools_school_board_District_5,_Kentucky,_candidate_2024))
+
+---
+
+## Kentucky Constitutional Amendment 1, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Kentucky Constitutional Amendment 2, Allow State Funding for Non-Public Education Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,467.0,1.0,3.0,2.0,6.0,1.0,17.0,4029.0,467.0

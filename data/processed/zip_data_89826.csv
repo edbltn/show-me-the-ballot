@@ -1,0 +1,524 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+21585,Nevada,NV-CD01,Elko,89826,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 9.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 122.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 1||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 13.9  years of education      |
+| **Length**              | Ballot Length                 | 1,845 characters       |
+|                         | Word Count                     | 244                         |
+
+---
+# Ballot for Elko County, Nevada
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Claudia De La Cruz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Randall Terry** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Joel Skousen** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Skousen)
+  - Running Mate: Rik Combs
+
+---
+
+## Idaho HJR 5, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Idaho Proposition 1, Top-Four Ranked-Choice Voting Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,122.0,2.0,1.0,2.0,0.0,0.0,13.9,1845.0,244.0
+21606,Nevada,NV-CD02,Elko,89826,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 23.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 5      |
+|                         | Average Words per Question      | 183.8|
+|                         | Average Options per Question    | 1.4|
+|                         | Number of Measures              | 7|
+|                         | Number of Races                 | 9||
+|                         | Number of Non-Competitive Races | 7|
+|                         | Non-Partisan Races  | ## Elko County School District school board, District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Austin Allen Whitney** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Austin_Allen_Whitney_(Elko_County_School_District_school_board,_District_2,_Nevada,_candidate_2024))
+
+- [ ] **Joshua Byers** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Byers_(Elko_County_School_District_school_board,_District_2,_Nevada,_candidate_2024))
+
+---
+
+, ## Elko County School District school board, District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lincoln Litchfield** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lincoln_Litchfield_(Elko_County_School_District_school_board,_District_3,_Nevada,_candidate_2024))
+
+- [ ] **Matthew Greg Mccarty** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Greg_Mccarty_(Elko_County_School_District_school_board,_District_3,_Nevada,_candidate_2024))
+
+---
+
+, ## Nevada State Board of Education District 2
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angela Orr** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Angela_Orr)
+
+- [ ] **Paul Davis** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paul_Davis_(Nevada))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.2  years of education      |
+| **Length**              | Ballot Length                 | 7,806 characters       |
+|                         | Word Count                     | 919                         |
+
+---
+# Ballot for Elko County, Nevada
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joel Skousen** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joel_Skousen)
+  - Running Mate: Rik Combs
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Nevada District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Greg Kidd** (No Political Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Greg_Kidd_(Nevada))
+
+- [ ] **Lynn Chapman** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lynn_Chapman)
+
+- [ ] **Javi Tachiquin** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Javi_Tachiquin)
+
+- [ ] **Mark Amodei** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_Amodei)
+
+---
+
+## U.S. Senate Nevada
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Janine Hansen** (Independent American Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Janine_Hansen)
+
+- [ ] **Chris Cunningham** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Cunningham_(Nevada))
+
+- [ ] **Sam Brown** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sam_Brown_(Nevada))
+
+- [ ] **Jacky Rosen** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jacky_Rosen)
+
+---
+
+## Nevada State Assembly District 33
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Darryl Baber** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Darryl_Baber)
+
+- [ ] **Bert Gurr** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bert_Gurr)
+
+---
+
+## Nevada State Board of Education District 2
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul Davis** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paul_Davis_(Nevada))
+
+- [ ] **Angela Orr** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Angela_Orr)
+
+---
+
+## Nevada State Senate District 19
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Ellison** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Ellison)
+
+---
+
+## Nevada Supreme Court Seat C
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elissa Cadish** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elissa_Cadish)
+
+---
+
+## Nevada Supreme Court Seat F
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patricia Lee** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Patricia_Lee)
+
+---
+
+## Nevada Supreme Court Seat G
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lidia Stiglich** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lidia_Stiglich)
+
+---
+
+## Eastline Justice Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kenneth R. Quirk** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kenneth_R._Quirk_(Eastline_Justice_Court,_Nevada,_candidate_2024))
+
+---
+
+## Elko County Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Thomas Hawkins** (Independent American Party of Nevada)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Thomas_Hawkins_(Elko_County_Clerk,_Nevada,_candidate_2024))
+
+- [ ] **Rebecca Plunkett** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rebecca_Plunkett_(Elko_County_Clerk,_Nevada,_candidate_2024))
+
+---
+
+## Elko County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian D. Gale** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_D._Gale_(Elko_County_Commissioner_Board_District_1,_Nevada,_candidate_2024))
+
+- [ ] **Jay Brad Dalton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jay_Brad_Dalton_(Elko_County_Commissioner_Board_District_1,_Nevada,_candidate_2024))
+
+---
+
+## Elko County Commissioner Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jonathan R. Karr** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jonathan_R._Karr_(Elko_County_Commissioner_Board_District_3,_Nevada,_candidate_2024))
+
+---
+
+## Elko County Commissioner Board District 5
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rex Steninger** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rex_Steninger_(Elko_County_Commissioner_Board_District_5,_Nevada,_candidate_2024))
+
+---
+
+## Elko County School District school board, District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Austin Allen Whitney** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Austin_Allen_Whitney_(Elko_County_School_District_school_board,_District_2,_Nevada,_candidate_2024))
+
+- [ ] **Joshua Byers** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Byers_(Elko_County_School_District_school_board,_District_2,_Nevada,_candidate_2024))
+
+---
+
+## Elko County School District school board, District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lincoln Litchfield** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lincoln_Litchfield_(Elko_County_School_District_school_board,_District_3,_Nevada,_candidate_2024))
+
+- [ ] **Matthew Greg Mccarty** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Greg_Mccarty_(Elko_County_School_District_school_board,_District_3,_Nevada,_candidate_2024))
+
+---
+
+## Nevada Question 1, Remove Constitutional Status of Board of Regents Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 2, Revising Language Related to Public Entities for Individuals with Mental Illness, Blindness, or Deafness Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 3, Top-Five Ranked-Choice Voting Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 4, Remove Slavery as Punishment for Crime from Constitution Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 5, Sales Tax Exemption for Diapers Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 6, Right to Abortion Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Nevada Question 7, Require Voter Identification Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",5.0,183.8,1.4,9.0,7.0,7.0,3.0,18.2,7806.0,919.0

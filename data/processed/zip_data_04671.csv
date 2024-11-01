@@ -1,0 +1,219 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+15315,Maine,ME-CD02,Washington,04671,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 88.5|
+|                         | Average Options per Question    | 2.3|
+|                         | Number of Measures              | 5|
+|                         | Number of Races                 | 5||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.4  years of education      |
+| **Length**              | Ballot Length                 | 4,152 characters       |
+|                         | Word Count                     | 531                         |
+
+---
+# Ballot for Washington County, Maine
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Cornel West** (Justice for All)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House Maine District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Diana Merenda** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diana_Merenda)
+
+- [ ] **Jared Golden** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jared_Golden)
+
+- [ ] **Austin Theriault** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Austin_Theriault)
+
+---
+
+## U.S. Senate Maine
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Costello** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Costello)
+
+- [ ] **Demi Kouzounas** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Demi_Kouzounas)
+
+- [ ] **Jason Cherry** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Cherry)
+
+- [ ] **Angus King** (Independent)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Angus_King)
+
+---
+
+## Maine House of Representatives District 9
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Darin McGaw** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Darin_McGaw)
+
+- [ ] **Arthur Mingo** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Arthur_Mingo)
+
+---
+
+## Maine State Senate District 6
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jonathan C. Goble** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jonathan_Goble)
+
+- [ ] **Marianne Moore** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Marianne_Moore)
+
+---
+
+## Washington County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **William W. Howard III** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_W._Howard_III_(Washington_County_Commissioner_Board_District_1,_Maine,_candidate_2024))
+
+---
+
+## Washington County Commissioner Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David C. Burns** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_C._Burns_(Washington_County_Commissioner_Board_District_2,_Maine,_candidate_2024))
+
+---
+
+## Maine Question 1, Limit Contributions to Super PACs Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Maine Question 2, Science and Technology Research and Commercialization Bond Issue (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Maine Question 3,  Historic Community Buildings Bond Issue (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Maine Question 4,  Development and Maintenance of Trails Bond Issue (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Maine Question 5, State Flag Referendum (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",6.0,88.5,2.3333333333333335,5.0,5.0,2.0,0.0,16.4,4152.0,531.0

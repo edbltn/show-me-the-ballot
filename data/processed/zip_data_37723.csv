@@ -1,0 +1,131 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+33412,Tennessee,TN-CD06,Cumberland,37723,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 13.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 317.0|
+|                         | Average Options per Question    | 5.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.0  years of education      |
+| **Length**              | Ballot Length                 | 2,672 characters       |
+|                         | Word Count                     | 317                         |
+
+---
+# Ballot for Cumberland County, Tennessee
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Claudia De La Cruz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Jay Bowman** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jay_Bowman)
+  - Running Mate: De Bowman
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Rachele Fruit** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Dennis Richter
+
+---
+
+## U.S. House Tennessee District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lore Bergman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lore_Bergman)
+
+- [ ] **John Rose** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Rose_(Tennessee))
+
+---
+
+## U.S. Senate Tennessee
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Marsha Blackburn** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Marsha_Blackburn)
+
+- [ ] **Gloria Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gloria_Johnson_(Tennessee))
+
+- [ ] **Pamela Moses** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Pamela_Moses)
+
+- [ ] **Tharon Chandler** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tharon_Chandler)
+
+- [ ] **Hastina Robinson** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hastina_Robinson)
+
+---
+
+## Tennessee House of Representatives District 25
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cameron Sexton** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cameron_Sexton)
+
+- [ ] **Wesley Adkins** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wesley_Adkins)
+
+---
+
+",1.0,317.0,5.0,4.0,0.0,0.0,0.0,17.0,2672.0,317.0

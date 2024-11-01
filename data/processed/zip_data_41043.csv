@@ -1,0 +1,184 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+13712,Kentucky,KY-CD04,Bracken,41043,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 13.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 441.0|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 5|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.5  years of education      |
+| **Length**              | Ballot Length                 | 3,948 characters       |
+|                         | Word Count                     | 441                         |
+
+---
+# Ballot for Bracken County, Kentucky
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Kentucky Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+---
+
+## U.S. House Kentucky District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Benjamin Middendorf** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Benjamin_Middendorf)
+
+- [ ] **Thomas Massie** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_Massie)
+
+---
+
+## Kentucky House of Representatives District 70
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **William Lawrence** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/William_Lawrence_(Kentucky))
+
+---
+
+## 19th Judicial Circuit Commonwealth's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher L. Kelley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_L._Kelley_(19th_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+- [ ] **Johnathan Gay** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Johnathan_Gay_(19th_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+---
+
+## Bracken County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Crystal Dunn** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Crystal_Dunn_(Bracken_County_Circuit_Court_Clerk,_Kentucky,_candidate_2024))
+
+---
+
+## Bracken County Schools Board of Education District 1
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tracy Ellen Florer** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Ellen_Florer_(Bracken_County_Schools_Board_of_Education_District_1,_Kentucky,_candidate_2024))
+
+---
+
+## Bracken County Schools Board of Education District 2
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angela Kern Crawford** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angela_Kern_Crawford_(Bracken_County_Schools_Board_of_Education_District_2,_Kentucky,_candidate_2024))
+
+---
+
+## Bracken County Schools Board of Education District 5
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melissa K. Takata** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_K._Takata_(Bracken_County_Schools_Board_of_Education_District_5,_Kentucky,_candidate_2024))
+
+---
+
+## Kentucky Constitutional Amendment 1, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Kentucky Constitutional Amendment 2, Allow State Funding for Non-Public Education Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,441.0,1.0,3.0,2.0,5.0,0.0,19.5,3948.0,441.0

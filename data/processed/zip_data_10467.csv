@@ -1,0 +1,235 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+23965,New York,NY-CD15,Bronx,10467,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 588.0|
+|                         | Average Options per Question    | 6.0|
+|                         | Number of Measures              | 6|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 15.9  years of education      |
+| **Length**              | Ballot Length                 | 4,455 characters       |
+|                         | Word Count                     | 588                         |
+
+---
+# Ballot for Bronx County, New York
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House New York District 15
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gonzalo Duran** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gonzalo_Duran)
+
+- [ ] **Jose Vega** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jose_Vega)
+
+- [ ] **Ritchie Torres** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ritchie_Torres)
+
+---
+
+## U.S. Senate New York
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Sapraicone** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Sapraicone)
+
+- [ ] **Diane Sare** (LaRouche Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diane_Sare)
+
+- [ ] **Kirsten Gillibrand** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kirsten_Gillibrand)
+
+---
+
+## New York State Assembly District 80
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Zaccaro Jr.** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Zaccaro_Jr.)
+
+- [ ] **Grace Marrero** (Conservative Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Grace_Marrero)
+
+- [ ] **Nicholas Marricco** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nicholas_Marricco)
+
+---
+
+## New York State Senate District 33
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dion Powell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dion_Powell)
+
+- [ ] **J. Gustavo Rivera** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/J._Gustavo_Rivera)
+
+---
+
+## New York City Civil Court Bronx County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 6
+
+### Candidates:
+- [ ] **Dawn Guglielmo** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dawn_Guglielmo)
+
+- [ ] **Deidra Moore** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deidra_Moore)
+
+- [ ] **Eliezer Rodriguez** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eliezer_Rodriguez)
+
+- [ ] **Scott Krompinger** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_Krompinger)
+
+- [ ] **Angel Cruz** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angel_Cruz_(New_York))
+
+- [ ] **Diomarys Escano-Bell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Diomarys_Escano-Bell)
+
+---
+
+## New York Supreme Court 12th Judicial District
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Parker-Raso** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Matthew_Parker-Raso)
+
+---
+
+## New York Proposal 1, Equal Protection of Law Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Additional Public Notice Before City Council Vote on Public Safety Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Capital Planning Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Fiscal Analysis and Budget Deadline Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Minority and Women-Owned Business Enterprise and Film Permits Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## New York, New York, Street Cleaning and Requirement of Waste Containers Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** City-town
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,588.0,6.0,6.0,6.0,2.0,0.0,15.9,4455.0,588.0

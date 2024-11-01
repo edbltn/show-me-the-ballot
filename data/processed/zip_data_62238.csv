@@ -1,0 +1,206 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+9383,Illinois,IL-CD12,Perry,62238,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 152.3|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 7|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.3  years of education      |
+| **Length**              | Ballot Length                 | 3,943 characters       |
+|                         | Word Count                     | 457                         |
+
+---
+# Ballot for Perry County, Illinois
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+---
+
+## U.S. House Illinois District 12
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Bost** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Bost)
+
+- [ ] **Brian Roberts** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Roberts)
+
+---
+
+## Illinois House of Representatives District 115
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Friess** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Friess)
+
+---
+
+## Illinois State Senate District 58
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Terri Bryant** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Terri_Bryant)
+
+---
+
+## Illinois 24th Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel J. Emge** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Daniel_J._Emge_(Illinois_24th_Circuit_Court,_Illinois,_candidate_2024))
+
+---
+
+## Perry County Circuit Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kimberly Kellerman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Kellerman_(Perry_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+- [ ] **Tricia Chandler** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tricia_Chandler_(Perry_County_Circuit_Clerk,_Illinois,_candidate_2024))
+
+---
+
+## Perry County Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joseph W. Folden** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_W._Folden_(Perry_County_Commissioner_Board_At-large,_Illinois,_candidate_2024))
+
+---
+
+## Perry County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul D. Searby** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paul_D._Searby_(Perry_County_Coroner,_Illinois,_candidate_2024))
+
+---
+
+## Perry County State's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David H. Searby Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_H._Searby_Jr._(Perry_County_State's_Attorney,_Illinois,_candidate_2024))
+
+---
+
+## Perry County Supervisor of Assessments
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Josh Smith** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Josh_Smith_(Perry_County_Supervisor_of_Assessments,_Illinois,_candidate_2024))
+
+---
+
+## Illinois Assisted Reproductive Healthcare Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Income Tax Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Illinois Penalties for Candidate Interference with Election Worker's Duties Advisory Question (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,152.33333333333334,2.0,3.0,3.0,7.0,0.0,18.3,3943.0,457.0

@@ -1,0 +1,367 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+13479,Kentucky,KY-CD01,Monroe,42151,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 222.5|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 5|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.7  years of education      |
+| **Length**              | Ballot Length                 | 3,879 characters       |
+|                         | Word Count                     | 445                         |
+
+---
+# Ballot for Monroe County, Kentucky
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Jill Stein** (Kentucky Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House Kentucky District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Comer Jr.** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Comer_Jr.)
+
+- [ ] **Erin Marshall** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erin_Marshall)
+
+---
+
+## Kentucky House of Representatives District 21
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Amy Neighbors** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Neighbors)
+
+- [ ] **Jeffery Humble** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffery_Humble)
+
+---
+
+## 40th Judicial Circuit Commonwealth's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jesse M. Stockton Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jesse_M._Stockton_Jr._(40th_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kimberly Dianne Hagan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Dianne_Hagan_(Monroe_County_Circuit_Court_Clerk,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County School District Board of Education District 1
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Harlin** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Harlin_(Monroe_County_School_District_Board_of_Education_District_1,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County School District Board of Education District 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carter Walden** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carter_Walden_(Monroe_County_School_District_Board_of_Education_District_3,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County School District Board of Education District 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eddie Proffitt** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Proffitt_(Monroe_County_School_District_Board_of_Education_District_4,_Kentucky,_candidate_2024))
+
+---
+
+## Kentucky Constitutional Amendment 1, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Kentucky Constitutional Amendment 2, Allow State Funding for Non-Public Education Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,222.5,2.0,3.0,2.0,5.0,0.0,18.7,3879.0,445.0
+14158,Kentucky,KY-CD06,Monroe,42151,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 2      |
+|                         | Average Words per Question      | 222.5|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 3||
+|                         | Number of Non-Competitive Races | 5|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.7  years of education      |
+| **Length**              | Ballot Length                 | 3,879 characters       |
+|                         | Word Count                     | 445                         |
+
+---
+# Ballot for Monroe County, Kentucky
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Jill Stein** (Kentucky Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+---
+
+## U.S. House Kentucky District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Comer Jr.** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Comer_Jr.)
+
+- [ ] **Erin Marshall** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erin_Marshall)
+
+---
+
+## Kentucky House of Representatives District 21
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Amy Neighbors** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Amy_Neighbors)
+
+- [ ] **Jeffery Humble** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffery_Humble)
+
+---
+
+## 40th Judicial Circuit Commonwealth's Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jesse M. Stockton Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jesse_M._Stockton_Jr._(40th_Judicial_Circuit_Commonwealth's_Attorney,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County Circuit Court Clerk
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kimberly Dianne Hagan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kimberly_Dianne_Hagan_(Monroe_County_Circuit_Court_Clerk,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County School District Board of Education District 1
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Harlin** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Harlin_(Monroe_County_School_District_Board_of_Education_District_1,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County School District Board of Education District 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carter Walden** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carter_Walden_(Monroe_County_School_District_Board_of_Education_District_3,_Kentucky,_candidate_2024))
+
+---
+
+## Monroe County School District Board of Education District 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eddie Proffitt** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Proffitt_(Monroe_County_School_District_Board_of_Education_District_4,_Kentucky,_candidate_2024))
+
+---
+
+## Kentucky Constitutional Amendment 1, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Kentucky Constitutional Amendment 2, Allow State Funding for Non-Public Education Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",2.0,222.5,2.0,3.0,2.0,5.0,0.0,18.7,3879.0,445.0

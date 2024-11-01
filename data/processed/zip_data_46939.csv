@@ -1,0 +1,401 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+10489,Indiana,IN-CD02,Fulton,46939,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 23.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 305.3|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 13|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.7  years of education      |
+| **Length**              | Ballot Length                 | 8,245 characters       |
+|                         | Word Count                     | 916                         |
+
+---
+# Ballot for Fulton County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+---
+
+## U.S. House Indiana District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudy Yakym** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudy_Yakym)
+
+- [ ] **Lori A. Camp** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lori_Camp)
+
+- [ ] **William Henry** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_Henry_(Indiana))
+
+- [ ] **Mike Hubbard** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Hubbard_(Indiana))
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 17
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jack Jordan** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jack_Jordan)
+
+---
+
+## Indiana State Senate District 18
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stacey Donato** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stacey_Donato)
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+## Caston School Corporation, Number 2
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chad Boldry** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Boldry_(Caston_School_Corporation,_Number_2,_Indiana,_candidate_2024))
+
+---
+
+## Caston School Corporation, Number 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scott M. Rudicel** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Scott_M._Rudicel_(Caston_School_Corporation,_Number_3,_Indiana,_candidate_2024))
+
+---
+
+## Caston School Corporation, Number 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cristie E. Rans** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cristie_E._Rans_(Caston_School_Corporation,_Number_4,_Indiana,_candidate_2024))
+
+---
+
+## Fulton County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Katherine Adamson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Adamson_(Fulton_County_Auditor,_Indiana,_candidate_2024))
+
+---
+
+## Fulton County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Sommers** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Sommers_(Fulton_County_Commissioner_Board_District_1,_Indiana,_candidate_2024))
+
+---
+
+## Fulton County Commissioner Board District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard A. Ranstead** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_A._Ranstead_(Fulton_County_Commissioner_Board_District_3,_Indiana,_candidate_2024))
+
+---
+
+## Fulton County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jon D. Good** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jon_D._Good_(Fulton_County_Coroner,_Indiana,_candidate_2024))
+
+---
+
+## Fulton County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Barry S. Baldwin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Barry_S._Baldwin_(Fulton_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Patty Geier** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patty_Geier_(Fulton_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Steven L. Fishburn** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steven_L._Fishburn_(Fulton_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## Fulton County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jennifer L. Utter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_L._Utter_(Fulton_County_Treasurer,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Superior Courts Fulton County
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gregory Lee Heller** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gregory_Lee_Heller_(Indiana_Superior_Courts_Fulton_County,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,305.3333333333333,1.0,8.0,1.0,13.0,1.0,19.7,8245.0,916.0

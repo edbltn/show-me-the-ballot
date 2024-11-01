@@ -1,0 +1,1328 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+32158,South Carolina,SC-CD03,Anderson,29643,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 9.8/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 3      |
+|                         | Average Words per Question      | 96.3|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 3|
+|                         | Number of Races                 | 2||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 14.7  years of education      |
+| **Length**              | Ballot Length                 | 2,121 characters       |
+|                         | Word Count                     | 289                         |
+
+---
+# Ballot for Anderson County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Georgia District 10
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Collins** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Collins_(Georgia))
+
+- [ ] **Lexy Doherty** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lexy_Doherty)
+
+---
+
+## Georgia House of Representatives District 33
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Alan Powell** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alan_Powell)
+
+---
+
+## Georgia State Senate District 24
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lee Anderson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lee_Anderson)
+
+---
+
+## Georgia Amendment 1, Local Option Homestead Property Tax Exemption Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Georgia Amendment 2, Creation of Tax Court Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Georgia Referendum A, Personal Property Tax Exemption Increase Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",3.0,96.33333333333333,2.0,2.0,3.0,2.0,0.0,14.7,2121.0,289.0
+32199,South Carolina,SC-CD03,Oconee,29643,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 24.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 9      |
+|                         | Average Words per Question      | 84.0|
+|                         | Average Options per Question    | 1.1|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 11|
+|                         | Non-Partisan Races  | ## Keowee Fire District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bill Robertson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Robertson_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **Rod Halsell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rod_Halsell_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+, ## School District of Oconee County school board, Council District II
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Meghan McPhail Ketterman** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Meghan_McPhail_Ketterman_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+- [ ] **Vicky Smith** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vicky_Smith_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+---
+
+, ## School District of Oconee County school board, Council District IV
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Denise McCormick** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Denise_McCormick_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+- [ ] **Q. Sawyer Gambrell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Q._Sawyer_Gambrell_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.1  years of education      |
+| **Length**              | Ballot Length                 | 7,386 characters       |
+|                         | Word Count                     | 756                         |
+
+---
+# Ballot for Oconee County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Claudia De La Cruz** (South Carolina Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Cornel West** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+---
+
+## U.S. House South Carolina District 3
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bryon Best** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bryon_Best)
+
+- [ ] **Michael Bedenbaugh** (Alliance Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Bedenbaugh)
+
+- [ ] **Sheri Biggs** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sheri_Biggs)
+
+---
+
+## South Carolina House of Representatives District 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adam Duncan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Duncan)
+
+---
+
+## South Carolina State Senate District 1
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Alexander** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_Alexander)
+
+---
+
+## Keowee Fire District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rod Halsell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rod_Halsell_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **Bill Robertson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Robertson_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christy W. Hubbard** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christy_W._Hubbard_(Oconee_County_Auditor,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Clerk of Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melissa C Lisa Burton** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_C_Lisa_Burton_(Oconee_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karl E. Addis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karl_E._Addis_(Oconee_County_Coroner,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Council District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Durham** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Durham_(Oconee_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Council District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tommy James** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tommy_James_(Oconee_County_Council_District_4,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Council District 5
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Glenn Hart** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenn_Hart_(Oconee_County_Council_District_5,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Crenshaw** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Crenshaw_(Oconee_County_Sheriff,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gena Acree** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gena_Acree_(Oconee_County_Treasurer,_South_Carolina,_candidate_2024))
+
+---
+
+## School District of Oconee County school board, Council District II
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vicky Smith** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vicky_Smith_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+- [ ] **Meghan McPhail Ketterman** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Meghan_McPhail_Ketterman_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+---
+
+## School District of Oconee County school board, Council District IV
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Denise McCormick** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Denise_McCormick_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+- [ ] **Q. Sawyer Gambrell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Q._Sawyer_Gambrell_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+---
+
+## School District of Oconee County school board, Council District V
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Terry Swain** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Swain_(School_District_of_Oconee_County_school_board,_Council_District_V,_South_Carolina,_candidate_2024))
+
+- [ ] **Keith Johnson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Keith_Johnson_(School_District_of_Oconee_County_school_board,_Council_District_V,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina 10th Judicial Circuit Solicitor
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah Black** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Black_(South_Carolina_10th_Judicial_Circuit_Solicitor,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",9.0,84.0,1.1111111111111112,6.0,1.0,11.0,4.0,21.1,7386.0,756.0
+32555,South Carolina,SC-CD09,Anderson,29643,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 28.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 18      |
+|                         | Average Words per Question      | 59.5|
+|                         | Average Options per Question    | 1.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 21|
+|                         | Non-Partisan Races  | ## Brushy Creek Watershed Conservation District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carter Vest** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carter_Vest_(Brushy_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **Eric McConnell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_McConnell_(Brushy_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+, ## Three and Twenty Creek Watershed Conservation District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **J. Mark Bishop** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J._Mark_Bishop_(Three_and_Twenty_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **Joseph Chad Langston** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Chad_Langston_(Three_and_Twenty_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 22.0  years of education      |
+| **Length**              | Ballot Length                 | 10,579 characters       |
+|                         | Word Count                     | 1,071                         |
+
+---
+# Ballot for Anderson County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Claudia De La Cruz** (South Carolina Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Cornel West** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+---
+
+## U.S. House South Carolina District 3
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bryon Best** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bryon_Best)
+
+- [ ] **Michael Bedenbaugh** (Alliance Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Bedenbaugh)
+
+- [ ] **Sheri Biggs** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sheri_Biggs)
+
+---
+
+## South Carolina House of Representatives District 8
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jackie Todd** (Alliance Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jackie_Todd)
+
+- [ ] **Don Chapman** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Don_Chapman)
+
+---
+
+## South Carolina State Senate District 3
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Cash** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Richard_Cash)
+
+- [ ] **Jessicka Spearman** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jessicka_Spearman)
+
+---
+
+## Anderson County Auditor
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Benca** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Benca_(Anderson_County_Auditor,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Board of Education District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael S. Upton** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_S._Upton_(Anderson_County_Board_of_Education_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Board of Education District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **W. Mark Williamson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/W._Mark_Williamson_(Anderson_County_Board_of_Education_District_7,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Board of Education District 8
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vaughn Parfitt** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vaughn_Parfitt_(Anderson_County_Board_of_Education_District_8,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Board of Education District 9
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Blanding** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Blanding_(Anderson_County_Board_of_Education_District_9,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Clerk of Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **C. Reena Thomason** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/C._Reena_Thomason_(Anderson_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Greg L. Shore** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Greg_L._Shore_(Anderson_County_Coroner,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Council District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chris Sullivan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Sullivan_(Anderson_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Council District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Glenn Davis** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenn_Davis_(Anderson_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Council District 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Greg Elgin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Greg_Elgin_(Anderson_County_Council_District_3,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Council District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brett Sanders** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brett_Sanders_(Anderson_County_Council_District_4,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Council District 5
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tommy Dunn** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tommy_Dunn_(Anderson_County_Council_District_5,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Council District 6
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Davis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jimmy_Davis_(Anderson_County_Council_District_6,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Council District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **M. Cindy Wilson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/M._Cindy_Wilson_(Anderson_County_Council_District_7,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chad McBride** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_McBride_(Anderson_County_Sheriff,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Soil and Water Conservation District Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jay P. Copelan** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jay_P._Copelan_(Anderson_County_Soil_and_Water_Conservation_District_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jason P. Phillips** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_P._Phillips_(Anderson_County_Treasurer,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson School District 4 school board, Area 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Waylon H. Priester** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Waylon_H._Priester_(Anderson_School_District_4_school_board,_Area_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Anderson School District 4 school board, Area 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charles V. Privette III** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charles_V._Privette_III_(Anderson_School_District_4_school_board,_Area_3,_South_Carolina,_candidate_2024))
+
+---
+
+## Broadmouth Creek Watershed Conservation District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tom Hill** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_Hill_(Broadmouth_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+## Brushy Creek Watershed Conservation District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carter Vest** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carter_Vest_(Brushy_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **Eric McConnell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_McConnell_(Brushy_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina 10th Judicial Circuit Solicitor
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah Black** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Black_(South_Carolina_10th_Judicial_Circuit_Solicitor,_South_Carolina,_candidate_2024))
+
+---
+
+## Three and Twenty Creek Watershed Conservation District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joseph Chad Langston** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Chad_Langston_(Three_and_Twenty_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **J. Mark Bishop** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J._Mark_Bishop_(Three_and_Twenty_Creek_Watershed_Conservation_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",18.0,59.5,1.0,6.0,1.0,21.0,2.0,22.0,10579.0,1071.0
+32559,South Carolina,SC-CD09,Oconee,29643,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 24.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 9      |
+|                         | Average Words per Question      | 84.0|
+|                         | Average Options per Question    | 1.1|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 11|
+|                         | Non-Partisan Races  | ## Keowee Fire District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bill Robertson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Robertson_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **Rod Halsell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rod_Halsell_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+, ## School District of Oconee County school board, Council District II
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Meghan McPhail Ketterman** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Meghan_McPhail_Ketterman_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+- [ ] **Vicky Smith** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vicky_Smith_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+---
+
+, ## School District of Oconee County school board, Council District IV
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Denise McCormick** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Denise_McCormick_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+- [ ] **Q. Sawyer Gambrell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Q._Sawyer_Gambrell_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.1  years of education      |
+| **Length**              | Ballot Length                 | 7,386 characters       |
+|                         | Word Count                     | 756                         |
+
+---
+# Ballot for Oconee County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Claudia De La Cruz** (South Carolina Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Cornel West** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+---
+
+## U.S. House South Carolina District 3
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bryon Best** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bryon_Best)
+
+- [ ] **Michael Bedenbaugh** (Alliance Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Bedenbaugh)
+
+- [ ] **Sheri Biggs** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sheri_Biggs)
+
+---
+
+## South Carolina House of Representatives District 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adam Duncan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Duncan)
+
+---
+
+## South Carolina State Senate District 1
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Alexander** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_Alexander)
+
+---
+
+## Keowee Fire District Commissioner Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rod Halsell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rod_Halsell_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+- [ ] **Bill Robertson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Robertson_(Keowee_Fire_District_Commissioner_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christy W. Hubbard** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christy_W._Hubbard_(Oconee_County_Auditor,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Clerk of Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melissa C Lisa Burton** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_C_Lisa_Burton_(Oconee_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karl E. Addis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karl_E._Addis_(Oconee_County_Coroner,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Council District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matthew Durham** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Durham_(Oconee_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Council District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tommy James** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tommy_James_(Oconee_County_Council_District_4,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Council District 5
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Glenn Hart** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Glenn_Hart_(Oconee_County_Council_District_5,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Crenshaw** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Crenshaw_(Oconee_County_Sheriff,_South_Carolina,_candidate_2024))
+
+---
+
+## Oconee County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gena Acree** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gena_Acree_(Oconee_County_Treasurer,_South_Carolina,_candidate_2024))
+
+---
+
+## School District of Oconee County school board, Council District II
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vicky Smith** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vicky_Smith_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+- [ ] **Meghan McPhail Ketterman** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Meghan_McPhail_Ketterman_(School_District_of_Oconee_County_school_board,_Council_District_II,_South_Carolina,_candidate_2024))
+
+---
+
+## School District of Oconee County school board, Council District IV
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Denise McCormick** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Denise_McCormick_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+- [ ] **Q. Sawyer Gambrell** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Q._Sawyer_Gambrell_(School_District_of_Oconee_County_school_board,_Council_District_IV,_South_Carolina,_candidate_2024))
+
+---
+
+## School District of Oconee County school board, Council District V
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Terry Swain** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Swain_(School_District_of_Oconee_County_school_board,_Council_District_V,_South_Carolina,_candidate_2024))
+
+- [ ] **Keith Johnson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Keith_Johnson_(School_District_of_Oconee_County_school_board,_Council_District_V,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina 10th Judicial Circuit Solicitor
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah Black** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Black_(South_Carolina_10th_Judicial_Circuit_Solicitor,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",9.0,84.0,1.1111111111111112,6.0,1.0,11.0,4.0,21.1,7386.0,756.0

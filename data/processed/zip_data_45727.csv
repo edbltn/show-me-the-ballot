@@ -1,0 +1,681 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+27683,Ohio,OH-CD06,Noble,45727,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 102.4|
+|                         | Average Options per Question    | 1.2|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 9|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.5  years of education      |
+| **Length**              | Ballot Length                 | 7,232 characters       |
+|                         | Word Count                     | 819                         |
+
+---
+# Ballot for Noble County, Ohio
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Duncan** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Duncan_(Ohio))
+  - Running Mate: Mitchell Preston Bupp
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Ohio District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Kripchak** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Kripchak)
+
+- [ ] **Michael Rulli** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Rulli)
+
+---
+
+## U.S. Senate Ohio
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan Russell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Russell)
+
+- [ ] **David Pastorius** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Pastorius)
+
+- [ ] **Stephen Faris** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Faris)
+
+- [ ] **Don Kissick** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Kissick)
+
+- [ ] **Bernie Moreno** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernie_Moreno)
+
+- [ ] **Tariq Shabazz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tariq_Shabazz)
+
+- [ ] **Sherrod Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sherrod_Brown)
+
+---
+
+## Ohio House of Representatives District 95
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah McCarey** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_McCarey)
+
+- [ ] **Don Jones** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Don_Jones_(Ohio))
+
+---
+
+## Ohio Seventh District Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Katelyn Dickey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Katelyn_Dickey)
+
+---
+
+## Ohio State Board of Education District 8
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karen Lloyd** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_Lloyd)
+
+---
+
+## Ohio State Senate District 30
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Iva Faber** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Iva_Faber)
+
+- [ ] **Brian Chavez** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brian_Chavez)
+
+---
+
+## Ohio Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Forbes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Forbes)
+
+- [ ] **Dan Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Hawkins_(Ohio))
+
+- [ ] **Michael P. Donnelly** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_P._Donnelly_(Ohio))
+
+- [ ] **Megan E. Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Shanahan)
+
+- [ ] **Joseph Deters** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_Deters)
+
+- [ ] **Melody Stewart** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Melody_Stewart)
+
+---
+
+## Noble County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ruth E. Hayes** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ruth_E._Hayes_(Noble_County_Auditor,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Clerk of Courts
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley K. Reiter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ashley_K._Reiter_(Noble_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+- [ ] **Michelle Curry** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michelle_Curry_(Noble_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Commission
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gary D. Saling** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gary_D._Saling_(Noble_County_Commission,_Ohio,_candidate_2024))
+
+- [ ] **Ty Moore** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ty_Moore_(Noble_County_Commission,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jennifer L. Arnold** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_L._Arnold_(Noble_County_Court,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Engineer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd Coss** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Coss_(Noble_County_Engineer,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Prosecuting Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jordan Croucher** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jordan_Croucher_(Noble_County_Prosecuting_Attorney,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Juanita Matheney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Juanita_Matheney_(Noble_County_Recorder,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jason Mackie** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Mackie_(Noble_County_Sheriff,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kelly D. Saling** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kelly_D._Saling_(Noble_County_Treasurer,_Ohio,_candidate_2024))
+
+---
+
+## Ohio Issue 1, Establish the Citizens Redistricting Commission Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,102.375,1.25,8.0,1.0,9.0,0.0,18.5,7232.0,819.0
+28186,Ohio,OH-CD12,Noble,45727,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 102.4|
+|                         | Average Options per Question    | 1.2|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 9|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.5  years of education      |
+| **Length**              | Ballot Length                 | 7,232 characters       |
+|                         | Word Count                     | 819                         |
+
+---
+# Ballot for Noble County, Ohio
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Duncan** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Duncan_(Ohio))
+  - Running Mate: Mitchell Preston Bupp
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Ohio District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Kripchak** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Kripchak)
+
+- [ ] **Michael Rulli** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Rulli)
+
+---
+
+## U.S. Senate Ohio
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan Russell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Russell)
+
+- [ ] **David Pastorius** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Pastorius)
+
+- [ ] **Stephen Faris** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Faris)
+
+- [ ] **Don Kissick** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Kissick)
+
+- [ ] **Bernie Moreno** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernie_Moreno)
+
+- [ ] **Tariq Shabazz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tariq_Shabazz)
+
+- [ ] **Sherrod Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sherrod_Brown)
+
+---
+
+## Ohio House of Representatives District 95
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Micah McCarey** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_McCarey)
+
+- [ ] **Don Jones** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Don_Jones_(Ohio))
+
+---
+
+## Ohio Seventh District Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Katelyn Dickey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Katelyn_Dickey)
+
+---
+
+## Ohio State Board of Education District 8
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karen Lloyd** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_Lloyd)
+
+---
+
+## Ohio State Senate District 30
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Iva Faber** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Iva_Faber)
+
+- [ ] **Brian Chavez** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brian_Chavez)
+
+---
+
+## Ohio Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lisa Forbes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Forbes)
+
+- [ ] **Dan Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Hawkins_(Ohio))
+
+- [ ] **Michael P. Donnelly** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_P._Donnelly_(Ohio))
+
+- [ ] **Megan E. Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Shanahan)
+
+- [ ] **Joseph Deters** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_Deters)
+
+- [ ] **Melody Stewart** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Melody_Stewart)
+
+---
+
+## Noble County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ruth E. Hayes** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ruth_E._Hayes_(Noble_County_Auditor,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Clerk of Courts
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ashley K. Reiter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ashley_K._Reiter_(Noble_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+- [ ] **Michelle Curry** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michelle_Curry_(Noble_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Commission
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gary D. Saling** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gary_D._Saling_(Noble_County_Commission,_Ohio,_candidate_2024))
+
+- [ ] **Ty Moore** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ty_Moore_(Noble_County_Commission,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jennifer L. Arnold** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_L._Arnold_(Noble_County_Court,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Engineer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd Coss** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Coss_(Noble_County_Engineer,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Prosecuting Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jordan Croucher** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jordan_Croucher_(Noble_County_Prosecuting_Attorney,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Juanita Matheney** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Juanita_Matheney_(Noble_County_Recorder,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jason Mackie** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Mackie_(Noble_County_Sheriff,_Ohio,_candidate_2024))
+
+---
+
+## Noble County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kelly D. Saling** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kelly_D._Saling_(Noble_County_Treasurer,_Ohio,_candidate_2024))
+
+---
+
+## Ohio Issue 1, Establish the Citizens Redistricting Commission Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,102.375,1.25,8.0,1.0,9.0,0.0,18.5,7232.0,819.0

@@ -1,0 +1,298 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+37026,Vermont,VT-CD01,Rutland,05730,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 18.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 808.0|
+|                         | Average Options per Question    | 7.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 11||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.3  years of education      |
+| **Length**              | Ballot Length                 | 6,843 characters       |
+|                         | Word Count                     | 808                         |
+
+---
+# Ballot for Rutland County, Vermont
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Green Mountain Peace and Justice Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Rachele Fruit** (Socialist Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Dennis Richter
+
+---
+
+## U.S. House Vermont At-large District
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jessica Diamondstone** (Green Mountain Peace and Justice Party of Vermont)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jessica_Diamondstone)
+
+- [ ] **Adam Ortiz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Ortiz)
+
+- [ ] **Mark Coester** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Coester)
+
+- [ ] **Becca Balint** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Becca_Balint)
+
+---
+
+## U.S. Senate Vermont
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Justin Schoville** (Green Mountain Peace and Justice Party of Vermont)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_Schoville)
+
+- [ ] **Matthew Hill** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Hill_(Vermont))
+
+- [ ] **Mark Stewart Greenstein** (Epic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Stewart_Greenstein)
+
+- [ ] **Steve Berry** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Berry_(Vermont))
+
+- [ ] **Bernie Sanders** (Independent)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bernie_Sanders)
+
+- [ ] **Gerald Malloy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gerald_Malloy_(Vermont))
+
+---
+
+## Governor of Vermont
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin Hoyt** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Hoyt)
+
+- [ ] **June Goodband** (Green Mountain Peace and Justice Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/June_Goodband)
+
+- [ ] **Poa Mutino** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Poa_Mutino)
+
+- [ ] **Phil Scott** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Phil_Scott)
+
+- [ ] **Esther Charlestin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Esther_Charlestin)
+
+---
+
+## Lieutenant Governor of Vermont
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Zuckerman** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Zuckerman_(Vermont))
+
+- [ ] **Ian Diamondstone** (Green Mountain Peace and Justice Party of Vermont)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ian_Diamondstone)
+
+- [ ] **John Rodgers** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Rodgers_(Vermont))
+
+---
+
+## Attorney General of Vermont
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ture Nelson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ture_Nelson)
+
+- [ ] **Kevin Gustafson** (Green Mountain Peace and Justice Party of Vermont)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Gustafson)
+
+- [ ] **Charity Clark** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Charity_Clark)
+
+---
+
+## Vermont House of Representatives Rutland-Windsor District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin Winter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Winter)
+
+- [ ] **Adrienne Raymond** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adrienne_Raymond)
+
+---
+
+## Vermont Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **H. Brooke Paige** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brooke_Paige)
+
+- [ ] **Sarah Copeland Hanzas** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sarah_Copeland_Hanzas)
+
+---
+
+## Vermont State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **H. Brooke Paige** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brooke_Paige)
+
+- [ ] **Doug Hoffer** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Doug_Hoffer)
+
+---
+
+## Vermont State Senate Rutland District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Robert Richards** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_Richards)
+
+- [ ] **Marsha Cassel** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Marsha_Cassel)
+
+- [ ] **David Weeks** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Weeks_(Vermont))
+
+- [ ] **Brian Collamore** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brian_Collamore)
+
+- [ ] **Terry Williams** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Terry_Williams_(Vermont))
+
+- [ ] **Dana Peterson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dana_Peterson)
+
+---
+
+## Vermont Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joshua Bechhoefer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Bechhoefer)
+
+- [ ] **Michael Pieciak** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Pieciak)
+
+---
+
+",1.0,808.0,7.0,11.0,0.0,0.0,0.0,17.3,6843.0,808.0

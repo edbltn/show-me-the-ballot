@@ -1,0 +1,175 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+12610,Kansas,KS-CD01,Lane,67839,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 21.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 320.0|
+|                         | Average Options per Question    | 7.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 1|
+|                         | Non-Partisan Races  | ## Kansas Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angela Coble** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Angela_Coble)
+
+- [ ] **David E. Bruns** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_E._Bruns)
+
+- [ ] **G. Gordon Atcheson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/G._Gordon_Atcheson)
+
+- [ ] **Karen Arnold-Burger** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Karen_Arnold-Burger)
+
+- [ ] **Kathryn Gardner** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_Gardner)
+
+- [ ] **Sarah Warner** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sarah_Warner)
+
+- [ ] **Rachel Pickering** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rachel_Pickering)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.8  years of education      |
+| **Length**              | Ballot Length                 | 2,668 characters       |
+|                         | Word Count                     | 320                         |
+
+---
+# Ballot for Lane County, Kansas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Kansas District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tracey Mann** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tracey_Mann)
+
+- [ ] **Paul Buskirk** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Paul_Buskirk)
+
+---
+
+## Kansas Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angela Coble** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Angela_Coble)
+
+- [ ] **David E. Bruns** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_E._Bruns)
+
+- [ ] **G. Gordon Atcheson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/G._Gordon_Atcheson)
+
+- [ ] **Karen Arnold-Burger** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Karen_Arnold-Burger)
+
+- [ ] **Kathryn Gardner** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kathryn_Gardner)
+
+- [ ] **Sarah Warner** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sarah_Warner)
+
+- [ ] **Rachel Pickering** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rachel_Pickering)
+
+---
+
+## Kansas House of Representatives District 118
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Minnix** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jim_Minnix)
+
+---
+
+## Kansas State Senate District 39
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bill Clifford** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Clifford)
+
+- [ ] **Isidro Marino** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Isidro_Marino)
+
+---
+
+",1.0,320.0,7.0,4.0,0.0,1.0,1.0,16.8,2668.0,320.0

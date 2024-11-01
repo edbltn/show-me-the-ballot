@@ -1,0 +1,1022 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+32108,South Carolina,SC-CD02,Calhoun,29135,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 99.2|
+|                         | Average Options per Question    | 1.5|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 8|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.1  years of education      |
+| **Length**              | Ballot Length                 | 7,523 characters       |
+|                         | Word Count                     | 794                         |
+
+---
+# Ballot for Calhoun County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Claudia De La Cruz** (South Carolina Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Cornel West** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+---
+
+## U.S. House South Carolina District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Duke Buckner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Duke_Buckner)
+
+- [ ] **Joseph Oddo** (Alliance Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Oddo)
+
+- [ ] **Michael Simpson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Simpson_(South_Carolina))
+
+- [ ] **Gregg Marcel Dixon** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gregg_Marcel_Dixon)
+
+- [ ] **James Clyburn** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Clyburn)
+
+---
+
+## South Carolina House of Representatives District 93
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Harold Geddings III** (Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Harold_Geddings_III)
+
+- [ ] **Krista Hassell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Krista_Hassell)
+
+- [ ] **Jerry Govan Jr.** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jerry_Govan_Jr.)
+
+---
+
+## South Carolina State Senate District 26
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jason Guerry** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Guerry)
+
+- [ ] **Russell L. Ott** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russell_L._Ott)
+
+---
+
+## Calhoun County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **April Wise** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/April_Wise_(Calhoun_County_Auditor,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Clerk of Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lakeisha S. Moorer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lakeisha_S._Moorer_(Calhoun_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+- [ ] **Bob Brockington** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Brockington_(Calhoun_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donnie B. Porth** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donnie_B._Porth_(Calhoun_County_Coroner,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Council District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Carson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Carson_(Calhoun_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+- [ ] **Ronald Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ronald_Johnson_(Calhoun_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Council District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Margaret S Hydie Kirkland** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Margaret_S_Hydie_Kirkland_(Calhoun_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+- [ ] **Ken Westbury** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ken_Westbury_(Calhoun_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Probate Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kathy S. Brown** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathy_S._Brown_(Calhoun_County_Probate_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County School District school board, District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gary Porth** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gary_Porth_(Calhoun_County_School_District_school_board,_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County School District school board, District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Diaz** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Diaz_(Calhoun_County_School_District_school_board,_District_3,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County School District school board, District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ned Nelson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ned_Nelson_(Calhoun_County_School_District_school_board,_District_4,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Summers** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Summers_(Calhoun_County_Sheriff,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tammi Milligan Green** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tammi_Milligan_Green_(Calhoun_County_Treasurer,_South_Carolina,_candidate_2024))
+
+- [ ] **Alicia Scott** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alicia_Scott_(Calhoun_County_Treasurer,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina 1st Judicial Circuit Solicitor
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David M. Pascoe** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_M._Pascoe_(South_Carolina_1st_Judicial_Circuit_Solicitor,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,99.25,1.5,8.0,1.0,8.0,0.0,20.1,7523.0,794.0
+32277,South Carolina,SC-CD05,Calhoun,29135,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 26.0/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 824.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 10||
+|                         | Number of Non-Competitive Races | 8|
+|                         | Non-Partisan Races  | ## Sumter School District school board, District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian L. Alston** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_L._Alston_(Sumter_School_District_school_board,_District_1,_South_Carolina,_candidate_2024))
+
+- [ ] **Daniel Patrick Palumbo** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Daniel_Patrick_Palumbo_(Sumter_School_District_school_board,_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+, ## Sumter School District school board, District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brittany English** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brittany_English_(Sumter_School_District_school_board,_District_2,_South_Carolina,_candidate_2024))
+
+- [ ] **Chris Patten** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Patten_(Sumter_School_District_school_board,_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+, ## Sumter School District school board, District 9
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bonnie Disney** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Disney_(Sumter_School_District_school_board,_District_9,_South_Carolina,_candidate_2024))
+
+- [ ] **Desaray S. Ross** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Desaray_S._Ross_(Sumter_School_District_school_board,_District_9,_South_Carolina,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 21.5  years of education      |
+| **Length**              | Ballot Length                 | 8,159 characters       |
+|                         | Word Count                     | 824                         |
+
+---
+# Ballot for Calhoun County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Claudia De La Cruz** (South Carolina Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Cornel West** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+---
+
+## U.S. House South Carolina District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Evangeline Hundley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Evangeline_Hundley)
+
+- [ ] **Ralph Norman** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ralph_Norman)
+
+---
+
+## South Carolina House of Representatives District 64
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Fawn Pedalino** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Fawn_Pedalino)
+
+- [ ] **Quadri Bell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Quadri_Bell)
+
+---
+
+## South Carolina State Senate District 35
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeffrey Graham** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffrey_Graham_(South_Carolina))
+
+- [ ] **Mike Jones** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Jones_(South_Carolina))
+
+---
+
+## Sumter County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lauretha A. McCants** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lauretha_A._McCants_(Sumter_County_Auditor,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Clerk of Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James C. Campbell** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_C._Campbell_(Sumter_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robbie Baker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robbie_Baker_(Sumter_County_Coroner,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Council District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carlton B. Washington** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carlton_B._Washington_(Sumter_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+- [ ] **Angus McDuffie** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angus_McDuffie_(Sumter_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Council District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Byrd** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jimmy_Byrd_(Sumter_County_Council_District_3,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Council District 5
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Vivian Fleming McGhaney** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Vivian_Fleming_McGhaney_(Sumter_County_Council_District_5,_South_Carolina,_candidate_2024))
+
+- [ ] **Shery White** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shery_White_(Sumter_County_Council_District_5,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Council District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Leviner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Leviner_(Sumter_County_Council_District_7,_South_Carolina,_candidate_2024))
+
+- [ ] **Tasha Gardner-Greene** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tasha_Gardner-Greene_(Sumter_County_Council_District_7,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Anthony Dennis** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Anthony_Dennis_(Sumter_County_Sheriff,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Soil and Water Conservation District Board At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chris Sumpter II** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Sumpter_II_(Sumter_County_Soil_and_Water_Conservation_District_Board_At-large,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Carolina B. Richardson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carolina_B._Richardson_(Sumter_County_Treasurer,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter School District school board, District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Daniel Patrick Palumbo** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Daniel_Patrick_Palumbo_(Sumter_School_District_school_board,_District_1,_South_Carolina,_candidate_2024))
+
+- [ ] **Brian L. Alston** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_L._Alston_(Sumter_School_District_school_board,_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter School District school board, District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chris Patten** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Patten_(Sumter_School_District_school_board,_District_2,_South_Carolina,_candidate_2024))
+
+- [ ] **Brittany English** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brittany_English_(Sumter_School_District_school_board,_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter School District school board, District 7
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gloria Rose Lee** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gloria_Rose_Lee_(Sumter_School_District_school_board,_District_7,_South_Carolina,_candidate_2024))
+
+---
+
+## Sumter School District school board, District 9
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Desaray S. Ross** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Desaray_S._Ross_(Sumter_School_District_school_board,_District_9,_South_Carolina,_candidate_2024))
+
+- [ ] **Bonnie Disney** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Disney_(Sumter_School_District_school_board,_District_9,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,824.0,2.0,10.0,1.0,8.0,3.0,21.5,8159.0,824.0
+32382,South Carolina,SC-CD06,Calhoun,29135,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 99.2|
+|                         | Average Options per Question    | 1.5|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 8|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.1  years of education      |
+| **Length**              | Ballot Length                 | 7,523 characters       |
+|                         | Word Count                     | 794                         |
+
+---
+# Ballot for Calhoun County, South Carolina
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+  - Running Mate: Stephen E. Broden
+
+- [ ] **Claudia De La Cruz** (South Carolina Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Cornel West** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+---
+
+## U.S. House South Carolina District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Duke Buckner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Duke_Buckner)
+
+- [ ] **Joseph Oddo** (Alliance Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Oddo)
+
+- [ ] **Michael Simpson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Simpson_(South_Carolina))
+
+- [ ] **Gregg Marcel Dixon** (United Citizens Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gregg_Marcel_Dixon)
+
+- [ ] **James Clyburn** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Clyburn)
+
+---
+
+## South Carolina House of Representatives District 93
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Harold Geddings III** (Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Harold_Geddings_III)
+
+- [ ] **Krista Hassell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Krista_Hassell)
+
+- [ ] **Jerry Govan Jr.** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jerry_Govan_Jr.)
+
+---
+
+## South Carolina State Senate District 26
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jason Guerry** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jason_Guerry)
+
+- [ ] **Russell L. Ott** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Russell_L._Ott)
+
+---
+
+## Calhoun County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **April Wise** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/April_Wise_(Calhoun_County_Auditor,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Clerk of Court
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lakeisha S. Moorer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lakeisha_S._Moorer_(Calhoun_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+- [ ] **Bob Brockington** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Brockington_(Calhoun_County_Clerk_of_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donnie B. Porth** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donnie_B._Porth_(Calhoun_County_Coroner,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Council District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Carson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Carson_(Calhoun_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+- [ ] **Ronald Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ronald_Johnson_(Calhoun_County_Council_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Council District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Margaret S Hydie Kirkland** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Margaret_S_Hydie_Kirkland_(Calhoun_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+- [ ] **Ken Westbury** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ken_Westbury_(Calhoun_County_Council_District_2,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Probate Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kathy S. Brown** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathy_S._Brown_(Calhoun_County_Probate_Court,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County School District school board, District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gary Porth** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gary_Porth_(Calhoun_County_School_District_school_board,_District_1,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County School District school board, District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Diaz** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Diaz_(Calhoun_County_School_District_school_board,_District_3,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County School District school board, District 4
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ned Nelson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ned_Nelson_(Calhoun_County_School_District_school_board,_District_4,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas Summers** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Thomas_Summers_(Calhoun_County_Sheriff,_South_Carolina,_candidate_2024))
+
+---
+
+## Calhoun County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tammi Milligan Green** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tammi_Milligan_Green_(Calhoun_County_Treasurer,_South_Carolina,_candidate_2024))
+
+- [ ] **Alicia Scott** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alicia_Scott_(Calhoun_County_Treasurer,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina 1st Judicial Circuit Solicitor
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David M. Pascoe** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_M._Pascoe_(South_Carolina_1st_Judicial_Circuit_Solicitor,_South_Carolina,_candidate_2024))
+
+---
+
+## South Carolina Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,99.25,1.5,8.0,1.0,8.0,0.0,20.1,7523.0,794.0

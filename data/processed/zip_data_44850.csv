@@ -1,0 +1,311 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+27444,Ohio,OH-CD05,Huron,44850,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 94.0|
+|                         | Average Options per Question    | 1.1|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 9|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.2  years of education      |
+| **Length**              | Ballot Length                 | 6,657 characters       |
+|                         | Word Count                     | 752                         |
+
+---
+# Ballot for Huron County, Ohio
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Duncan** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Duncan_(Ohio))
+  - Running Mate: Mitchell Preston Bupp
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Ohio District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Keith Mundy** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Keith_Mundy)
+
+- [ ] **Bob Latta** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bob_Latta)
+
+---
+
+## U.S. Senate Ohio
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan Russell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Russell)
+
+- [ ] **David Pastorius** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Pastorius)
+
+- [ ] **Stephen Faris** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Faris)
+
+- [ ] **Don Kissick** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Kissick)
+
+- [ ] **Bernie Moreno** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernie_Moreno)
+
+- [ ] **Tariq Shabazz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tariq_Shabazz)
+
+- [ ] **Sherrod Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sherrod_Brown)
+
+---
+
+## Ohio House of Representatives District 54
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Andrew Leonard** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andrew_Leonard)
+
+- [ ] **Kellie Deeter** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kellie_Deeter)
+
+- [ ] **Brenda Buchanan** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brenda_Buchanan)
+
+---
+
+## Ohio Sixth District Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gene A. Zmuda** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Gene_Zmuda)
+
+---
+
+## Ohio Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melody Stewart** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Melody_Stewart)
+
+- [ ] **Lisa Forbes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Forbes)
+
+- [ ] **Dan Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Hawkins_(Ohio))
+
+- [ ] **Michael P. Donnelly** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_P._Donnelly_(Ohio))
+
+- [ ] **Megan E. Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Shanahan)
+
+- [ ] **Joseph Deters** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_Deters)
+
+---
+
+## Huron County Clerk of Courts
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Hartman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Hartman_(Huron_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Commission
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bradley R. Mesenburg** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bradley_R._Mesenburg_(Huron_County_Commission,_Ohio,_candidate_2024))
+
+- [ ] **Tom Dunlap** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tom_Dunlap_(Huron_County_Commission,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeffrey A. Harwood** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeffrey_A._Harwood_(Huron_County_Coroner,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Court of Common Pleas General Division
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James W. Conway** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_W._Conway_(Huron_County_Court_of_Common_Pleas_General_Division,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Engineer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lee E. Tansey** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_E._Tansey_(Huron_County_Engineer,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Prosecuting Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Joel Sitterly** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_Joel_Sitterly_(Huron_County_Prosecuting_Attorney,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jan M. Tkach** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jan_M._Tkach_(Huron_County_Recorder,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd J. Corbin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_J._Corbin_(Huron_County_Sheriff,_Ohio,_candidate_2024))
+
+---
+
+## Huron County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Megan Bursley** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Bursley_(Huron_County_Treasurer,_Ohio,_candidate_2024))
+
+---
+
+## Ohio Issue 1, Establish the Citizens Redistricting Commission Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,94.0,1.125,6.0,1.0,9.0,0.0,18.2,6657.0,752.0

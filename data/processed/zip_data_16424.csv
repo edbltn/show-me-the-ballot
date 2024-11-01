@@ -1,0 +1,512 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+31094,Pennsylvania,PA-CD14,Crawford,16424,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 89.2|
+|                         | Average Options per Question    | 1.2|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 7|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 19.8  years of education      |
+| **Length**              | Ballot Length                 | 6,505 characters       |
+|                         | Word Count                     | 714                         |
+
+---
+# Ballot for Crawford County, Pennsylvania
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Duncan** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Duncan_(Ohio))
+  - Running Mate: Mitchell Preston Bupp
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Ohio District 14
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Kenderes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Kenderes)
+
+- [ ] **David Joyce** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Joyce)
+
+---
+
+## U.S. Senate Ohio
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tariq Shabazz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tariq_Shabazz)
+
+- [ ] **David Pastorius** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Pastorius)
+
+- [ ] **Stephen Faris** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Faris)
+
+- [ ] **Don Kissick** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Kissick)
+
+- [ ] **Bernie Moreno** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernie_Moreno)
+
+- [ ] **Nathan Russell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Russell)
+
+- [ ] **Sherrod Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sherrod_Brown)
+
+---
+
+## Ohio House of Representatives District 65
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Thomas** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Thomas_(Ohio))
+
+---
+
+## Ohio State Senate District 32
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sandra O'Brien** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sandra_O'Brien_(Ohio))
+
+- [ ] **Michael Shrodek** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Shrodek)
+
+---
+
+## Ohio Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melody Stewart** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Melody_Stewart)
+
+- [ ] **Lisa Forbes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Forbes)
+
+- [ ] **Dan Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Hawkins_(Ohio))
+
+- [ ] **Michael P. Donnelly** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_P._Donnelly_(Ohio))
+
+- [ ] **Megan E. Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Shanahan)
+
+- [ ] **Joseph Deters** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_Deters)
+
+---
+
+## Ashtabula County Clerk of Courts
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jodi Thurber** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jodi_Thurber_(Ashtabula_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+- [ ] **April Mariotti-Daniels** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/April_Mariotti-Daniels_(Ashtabula_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+---
+
+## Ashtabula County Commission
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **J.P. Ducro IV** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/J.P._Ducro_IV_(Ashtabula_County_Commission,_Ohio,_candidate_2024))
+
+- [ ] **Kathryn Whittington** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathryn_Whittington_(Ashtabula_County_Commission,_Ohio,_candidate_2024))
+
+---
+
+## Ashtabula County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Pamela Lancaster** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Pamela_Lancaster_(Ashtabula_County_Coroner,_Ohio,_candidate_2024))
+
+---
+
+## Ashtabula County Engineer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Timothy T. Martin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Timothy_T._Martin_(Ashtabula_County_Engineer,_Ohio,_candidate_2024))
+
+---
+
+## Ashtabula County Prosecuting Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **April Grabman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/April_Grabman_(Ashtabula_County_Prosecuting_Attorney,_Ohio,_candidate_2024))
+
+---
+
+## Ashtabula County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Barbara Schaab** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Barbara_Schaab_(Ashtabula_County_Recorder,_Ohio,_candidate_2024))
+
+---
+
+## Ashtabula County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bill Niemi** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bill_Niemi_(Ashtabula_County_Sheriff,_Ohio,_candidate_2024))
+
+---
+
+## Ashtabula County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Angie Maki-Cliff** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Angie_Maki-Cliff_(Ashtabula_County_Treasurer,_Ohio,_candidate_2024))
+
+---
+
+## Ohio Issue 1, Establish the Citizens Redistricting Commission Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,89.25,1.25,7.0,1.0,7.0,0.0,19.8,6505.0,714.0
+31707,Pennsylvania,PA-CD16,Crawford,16424,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 137.0|
+|                         | Average Options per Question    | 5.8|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.4  years of education      |
+| **Length**              | Ballot Length                 | 4,751 characters       |
+|                         | Word Count                     | 548                         |
+
+---
+# Ballot for Crawford County, Pennsylvania
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+---
+
+## U.S. House Pennsylvania District 16
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Kelly** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Kelly_(Pennsylvania))
+
+- [ ] **Preston Nouri** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Preston_Nouri)
+
+---
+
+## U.S. Senate Pennsylvania
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bob Casey Jr.** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bob_Casey_Jr.)
+
+- [ ] **Cory Widmann** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cory_Widmann)
+
+- [ ] **David McCormick** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_McCormick_(Pennsylvania))
+
+- [ ] **Quincy Magee** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Quincy_Magee)
+
+- [ ] **Marty Selker** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Marty_Selker)
+
+- [ ] **John Thomas** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Thomas_(U.S._Senate,_Pennsylvania))
+
+- [ ] **Leila Hazou** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Leila_Hazou)
+
+---
+
+## Attorney General of Pennsylvania
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eugene DePasquale** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eugene_DePasquale)
+
+- [ ] **Justin Magill** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_Magill)
+
+- [ ] **Eric Settle** (Forward Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Settle)
+
+- [ ] **Richard Weiss** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Weiss_(Pennsylvania))
+
+- [ ] **Rob Cowburn** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rob_Cowburn)
+
+- [ ] **Dave Sunday** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Sunday)
+
+---
+
+## Pennsylvania Auditor General
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Alan Goodrich** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Alan_Goodrich)
+
+- [ ] **Eric Anton** (American Solidarity Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eric_Anton)
+
+- [ ] **Timothy DeFoor** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Timothy_DeFoor)
+
+- [ ] **Malcolm Kenyatta** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Malcolm_Kenyatta)
+
+- [ ] **Reece Smith** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Reece_Smith)
+
+---
+
+## Pennsylvania House of Representatives District 6
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bradley Roae** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bradley_Roae)
+
+- [ ] **Michael Walker** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Walker_(Pennsylvania))
+
+---
+
+## Pennsylvania Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Troy Bowman** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Troy_Bowman)
+
+- [ ] **Chris Foster** (Forward Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chris_Foster)
+
+- [ ] **Nickolas Ciesielski** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nickolas_Ciesielski)
+
+- [ ] **Stacy Garrity** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stacy_Garrity)
+
+- [ ] **Erin McClelland** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Erin_McClelland)
+
+---
+
+",4.0,137.0,5.75,7.0,0.0,0.0,0.0,20.4,4751.0,548.0

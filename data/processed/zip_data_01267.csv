@@ -1,0 +1,417 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+15931,Massachusetts,MA-CD01,Berkshire,01267,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 595.0|
+|                         | Average Options per Question    | 7.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 8||
+|                         | Number of Non-Competitive Races | 0|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.3  years of education      |
+| **Length**              | Ballot Length                 | 4,976 characters       |
+|                         | Word Count                     | 595                         |
+
+---
+# Ballot for Berkshire County, Massachusetts
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Green Mountain Peace and Justice Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Rachele Fruit** (Socialist Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Dennis Richter
+
+---
+
+## U.S. Senate Vermont
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Justin Schoville** (Green Mountain Peace and Justice Party of Vermont)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Justin_Schoville)
+
+- [ ] **Matthew Hill** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matthew_Hill_(Vermont))
+
+- [ ] **Mark Stewart Greenstein** (Epic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Stewart_Greenstein)
+
+- [ ] **Bernie Sanders** (Independent)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bernie_Sanders)
+
+- [ ] **Gerald Malloy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gerald_Malloy_(Vermont))
+
+- [ ] **Steve Berry** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steve_Berry_(Vermont))
+
+---
+
+## Governor of Vermont
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin Hoyt** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Hoyt)
+
+- [ ] **Phil Scott** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Phil_Scott)
+
+- [ ] **Poa Mutino** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Poa_Mutino)
+
+- [ ] **Esther Charlestin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Esther_Charlestin)
+
+- [ ] **June Goodband** (Green Mountain Peace and Justice Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/June_Goodband)
+
+---
+
+## Lieutenant Governor of Vermont
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Zuckerman** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_Zuckerman_(Vermont))
+
+- [ ] **Ian Diamondstone** (Green Mountain Peace and Justice Party of Vermont)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ian_Diamondstone)
+
+- [ ] **John Rodgers** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Rodgers_(Vermont))
+
+---
+
+## Attorney General of Vermont
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charity Clark** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Charity_Clark)
+
+- [ ] **Kevin Gustafson** (Green Mountain Peace and Justice Party of Vermont)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Gustafson)
+
+- [ ] **Ture Nelson** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ture_Nelson)
+
+---
+
+## Vermont Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sarah Copeland Hanzas** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sarah_Copeland_Hanzas)
+
+- [ ] **H. Brooke Paige** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brooke_Paige)
+
+---
+
+## Vermont State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Doug Hoffer** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Doug_Hoffer)
+
+- [ ] **H. Brooke Paige** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brooke_Paige)
+
+---
+
+## Vermont Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Pieciak** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Pieciak)
+
+- [ ] **Joshua Bechhoefer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joshua_Bechhoefer)
+
+---
+
+",1.0,595.0,7.0,8.0,0.0,0.0,0.0,16.3,4976.0,595.0
+15967,Massachusetts,MA-CD01,Berkshire,01267,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.9/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 80.5|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 5|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.8  years of education      |
+| **Length**              | Ballot Length                 | 3,730 characters       |
+|                         | Word Count                     | 483                         |
+
+---
+# Ballot for Berkshire County, Massachusetts
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Gloria Caballero-Roca
+
+---
+
+## U.S. House Massachusetts District 1
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Neal** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Richard_Neal)
+
+- [ ] **Nadia Milleron** (Unenrolled)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nadia_Milleron)
+
+---
+
+## U.S. Senate Massachusetts
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Elizabeth Warren** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Elizabeth_Warren)
+
+- [ ] **John Deaton** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Deaton_(Massachusetts))
+
+---
+
+## Massachusetts Governor's Council District 8
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tara Jacobs** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tara_Jacobs)
+
+---
+
+## Massachusetts House of Representatives 1st Berkshire District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Barrett III** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Barrett_III)
+
+---
+
+## Massachusetts State Senate Berkshire, Hampden, Franklin, and Hampshire District
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Paul Mark** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Paul_Mark)
+
+- [ ] **David Rosa** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Rosa_(Massachusetts))
+
+---
+
+## Massachusetts Question 1, Authorization of State Auditor to Audit General Court Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 2, Repeal Competency Assessment Requirement for High School Graduation Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 3, Unionization and Collective Bargaining for Transportation Network Drivers Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 4, Legalization and Regulation of Psychedelic Substances Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Massachusetts Question 5, Minimum Wage for Tipped Employees Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",6.0,80.5,2.0,4.0,5.0,2.0,0.0,17.8,3730.0,483.0

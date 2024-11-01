@@ -1,0 +1,345 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+34627,Texas,TX-CD11,Menard,76848,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 16.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 109.4|
+|                         | Average Options per Question    | 2.9|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 14||
+|                         | Number of Non-Competitive Races | 3|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.7  years of education      |
+| **Length**              | Ballot Length                 | 7,175 characters       |
+|                         | Word Count                     | 875                         |
+
+---
+# Ballot for Menard County, Texas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Texas District 11
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **August Pfluger** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/August_Pfluger)
+
+---
+
+## U.S. Senate Texas
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Ted Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ted_Cruz)
+
+- [ ] **Ted Brown** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Brown_(Texas))
+
+- [ ] **Tracy Andrus** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Andrus)
+
+- [ ] **Colin Allred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colin_Allred)
+
+- [ ] **Analisa Roche** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Analisa_Roche)
+
+---
+
+## Texas Court of Criminal Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nancy Mulder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_Mulder)
+
+- [ ] **Gina Parker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Parker)
+
+---
+
+## Texas Court of Criminal Appeals Place 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lee Finley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Finley)
+
+- [ ] **Chika Anyiam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chika_Anyiam)
+
+---
+
+## Texas Court of Criminal Appeals Presiding Judge
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Holly Taylor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Holly_Taylor_(Texas))
+
+- [ ] **David Schenck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Schenck)
+
+---
+
+## Texas Fourth District Court of Appeals Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Velia Meza** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Velia_Meza)
+
+---
+
+## Texas Fourth District Court of Appeals Place 3
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd McCray** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_McCray)
+
+- [ ] **Cynthia Marie Chapa** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cynthia_Marie_Chapa)
+
+---
+
+## Texas Fourth District Court of Appeals Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Luz Elena Chapa** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Luz_Elena_Chapa)
+
+- [ ] **Lori Brissette** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lori_Brissette)
+
+---
+
+## Texas Fourth District Court of Appeals Place 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Liza Rodriguez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Liza_Rodriguez)
+
+- [ ] **Adrian Spears** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adrian_Spears_(Texas_appeals_court_candidate))
+
+---
+
+## Texas Fourth District Court of Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lori I. Valenzuela** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lori_I._Valenzuela)
+
+---
+
+## Texas House of Representatives District 53
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Joe P. Herrera** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joe_P._Herrera)
+
+- [ ] **Wesley Virdell** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Wesley_Virdell)
+
+- [ ] **Brian Holk** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Holk)
+
+---
+
+## Texas Railroad Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christi Craddick** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christi_Craddick)
+
+- [ ] **Eddie Espinoza** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Espinoza)
+
+- [ ] **Hawk Dunlap** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hawk_Dunlap)
+
+- [ ] **Richard McKibbin** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_McKibbin)
+
+- [ ] **Katherine Culbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Culbert)
+
+---
+
+## Texas State Board of Education District 1
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gustavo Reveles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gustavo_Reveles)
+
+- [ ] **Michael Stevens** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Stevens_(Texas))
+
+---
+
+## Texas Supreme Court Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **DaSean Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaSean_Jones)
+
+- [ ] **Jimmy Blacklock** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Blacklock)
+
+---
+
+## Texas Supreme Court Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christine Weems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Weems)
+
+- [ ] **John Devine** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Devine_(Texas))
+
+---
+
+## Texas Supreme Court Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jane Bland** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jane_Bland)
+
+- [ ] **David Roberson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roberson)
+
+- [ ] **Bonnie Lee Goldstein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Lee_Goldstein)
+
+---
+
+",8.0,109.375,2.875,14.0,0.0,3.0,0.0,16.7,7175.0,875.0

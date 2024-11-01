@@ -1,0 +1,729 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+29424,Oregon,OR-CD02,Umatilla,97862,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.1/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 10      |
+|                         | Average Words per Question      | 63.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 5|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 3|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.5  years of education      |
+| **Length**              | Ballot Length                 | 4,881 characters       |
+|                         | Word Count                     | 630                         |
+
+---
+# Ballot for Umatilla County, Oregon
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Jill Stein** (Pacific Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Cornel West** (Progressive Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Randall Terry** (Constitution Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Randall_Terry)
+
+---
+
+## U.S. House Oregon District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Stettler** (Constitution​ Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Stettler)
+
+- [ ] **Dan Ruby** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Ruby_(Oregon))
+
+- [ ] **Cliff Bentz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cliff_Bentz)
+
+---
+
+## Attorney General of Oregon
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dan Rayfield** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Rayfield)
+
+- [ ] **Will Lathrop** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Will_Lathrop)
+
+---
+
+## Oregon House of Representatives District 58
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bobby Levy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bobby_Levy)
+
+---
+
+## Oregon Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dennis Linthicum** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dennis_Linthicum)
+
+- [ ] **Tobias Read** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tobias_Read)
+
+- [ ] **Nathalie Paravicini** (Progressive Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathalie_Paravicini)
+
+---
+
+## Oregon State Senate District 29
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tania Wildbill** (Unaffiliated)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tania_Wildbill)
+
+- [ ] **Todd Nash** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_Nash)
+
+---
+
+## Oregon Supreme Court Position 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Stephen K. Bushong** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Stephen_K._Bushong)
+
+---
+
+## Oregon Supreme Court Position 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bronson James** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bronson_James)
+
+---
+
+## Oregon Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Boquist** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Boquist)
+
+- [ ] **Elizabeth Steiner Hayward** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Elizabeth_Steiner_Hayward)
+
+- [ ] **Mary King** (Working Families Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_King)
+
+---
+
+## Oregon Measure 115, Impeachment of Elected State Executives Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 116, Independent Public Service Compensation Commission Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 117, Ranked-Choice Voting for Federal and State Elections Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 118, Corporate Tax Revenue Rebate for Residents Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oregon Measure 119, Unionization of Cannabis Workers Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",10.0,63.0,2.0,6.0,5.0,3.0,0.0,16.5,4881.0,630.0
+29658,Oregon,OR-CD05,Umatilla,97862,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 31.4/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 1103.0|
+|                         | Average Options per Question    | 10.0|
+|                         | Number of Measures              | 4|
+|                         | Number of Races                 | 17||
+|                         | Number of Non-Competitive Races | 3|
+|                         | Non-Partisan Races  | ## Washington State Supreme Court Position 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sal Mungia** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sal_Mungia)
+
+- [ ] **Dave Larson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Larson)
+
+---
+
+, ## Washington Superintendent of Public Instruction
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chris Reykdal** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Chris_Reykdal)
+
+- [ ] **David Olson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Olson_(Washington))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.6  years of education      |
+| **Length**              | Ballot Length                 | 9,232 characters       |
+|                         | Word Count                     | 1,103                         |
+
+---
+# Ballot for Umatilla County, Oregon
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Cornel West** (Justice for All)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cornel_West)
+  - Running Mate: Melina Abdullah
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+- [ ] **Joseph Kishore** (Socialist Equality Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Joseph_Kishore)
+  - Running Mate: Jerry White
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Rachele Fruit** (Socialist Workers Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Dennis Richter
+
+---
+
+## U.S. House Washington District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Baumgartner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Baumgartner_(Washington))
+
+- [ ] **Carmela Conroy** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Carmela_Conroy)
+
+---
+
+## U.S. Senate Washington
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Maria Cantwell** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Maria_Cantwell)
+
+- [ ] **Raul Garcia** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Raul_Garcia_(Washington))
+
+---
+
+## Governor of Washington
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bob Ferguson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bob_Ferguson)
+
+- [ ] **Dave Reichert** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Reichert)
+
+---
+
+## Lieutenant Governor of Washington
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Denny Heck** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Denny_Heck)
+
+- [ ] **Dan Matthews** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Matthews_(Washington))
+
+---
+
+## Attorney General of Washington
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Pete Serrano** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Pete_Serrano)
+
+- [ ] **Nick Brown** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nick_Brown_(Washington))
+
+---
+
+## Washington Commissioner of Insurance
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Phil Fortunato** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phil_Fortunato)
+
+- [ ] **Patricia Kuderer** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_Kuderer)
+
+---
+
+## Washington Commissioner of Public Lands
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jaime Herrera Beutler** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jaime_Herrera_Beutler)
+
+- [ ] **Dave Upthegrove** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Upthegrove)
+
+---
+
+## Washington House of Representatives District 16-Position 1
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Linda Gunshefski** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Linda_Gunshefski)
+
+- [ ] **Mark Klicker** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_Klicker)
+
+---
+
+## Washington House of Representatives District 16-Position 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Craig Woodard** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Craig_Woodard)
+
+- [ ] **Skyler Rude** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Skyler_Rude)
+
+---
+
+## Washington Secretary of State
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dale Whitaker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dale_Whitaker_(Washington))
+
+- [ ] **Steve Hobbs** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steve_Hobbs_(Washington))
+
+---
+
+## Washington State Auditor
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Matt Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matt_Hawkins)
+
+- [ ] **Pat McCarthy** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Pat_McCarthy)
+
+---
+
+## Washington State Senate District 16
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Perry Dozier** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Perry_Dozier)
+
+- [ ] **Kari Isaacson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kari_Isaacson)
+
+---
+
+## Washington State Supreme Court Position 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sal Mungia** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sal_Mungia)
+
+- [ ] **Dave Larson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dave_Larson)
+
+---
+
+## Washington State Supreme Court Position 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steven Gonzalez** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Steven_Gonzalez)
+
+---
+
+## Washington State Supreme Court Position 9
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Sheryl Gordon McCloud** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sheryl_McCloud)
+
+---
+
+## Washington Superintendent of Public Instruction
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Olson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Olson_(Washington))
+
+- [ ] **Chris Reykdal** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Chris_Reykdal)
+
+---
+
+## Washington Treasurer
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mike Pellicciotti** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mike_Pellicciotti)
+
+- [ ] **Sharon Hanek** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sharon_Hanek)
+
+---
+
+## Walla Walla County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jenny Mayberry** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jenny_Mayberry_(Walla_Walla_County_Commissioner_Board_District_1,_Washington,_candidate_2024))
+
+- [ ] **Bertha Clayton** (No party preference)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bertha_Clayton_(Walla_Walla_County_Commissioner_Board_District_1,_Washington,_candidate_2024))
+
+---
+
+## Walla Walla County Commissioner Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd L. Kimball** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_L._Kimball_(Walla_Walla_County_Commissioner_Board_District_2,_Washington,_candidate_2024))
+
+---
+
+## Washington Initiative 2066, Natural Gas Policies Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Washington Initiative 2109, Repeal Capital Gains Tax Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Washington Initiative 2117, Repeal Carbon Cap and Invest Program Measure (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Washington Initiative 2124, Opt-Out of Long-Term Services Insurance Program Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,1103.0,10.0,17.0,4.0,3.0,2.0,18.6,9232.0,1103.0

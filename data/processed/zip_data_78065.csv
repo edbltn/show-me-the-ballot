@@ -1,0 +1,957 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+35498,Texas,TX-CD23,Atascosa,78065,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 18.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 9      |
+|                         | Average Words per Question      | 131.7|
+|                         | Average Options per Question    | 1.1|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 16||
+|                         | Number of Non-Competitive Races | 11|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.5  years of education      |
+| **Length**              | Ballot Length                 | 10,391 characters       |
+|                         | Word Count                     | 1,185                         |
+
+---
+# Ballot for Atascosa County, Texas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Texas District 28
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jay Furman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jay_Furman)
+
+- [ ] **Henry Cuellar** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Henry_Cuellar)
+
+---
+
+## U.S. Senate Texas
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Analisa Roche** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Analisa_Roche)
+
+- [ ] **Colin Allred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colin_Allred)
+
+- [ ] **Tracy Andrus** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Andrus)
+
+- [ ] **Ted Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ted_Cruz)
+
+- [ ] **Ted Brown** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Brown_(Texas))
+
+---
+
+## Texas Court of Criminal Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Parker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Parker)
+
+- [ ] **Nancy Mulder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_Mulder)
+
+---
+
+## Texas Court of Criminal Appeals Place 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chika Anyiam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chika_Anyiam)
+
+- [ ] **Lee Finley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Finley)
+
+---
+
+## Texas Court of Criminal Appeals Presiding Judge
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Schenck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Schenck)
+
+- [ ] **Holly Taylor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Holly_Taylor_(Texas))
+
+---
+
+## Texas Fourth District Court of Appeals Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Velia Meza** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Velia_Meza)
+
+---
+
+## Texas Fourth District Court of Appeals Place 3
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cynthia Marie Chapa** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cynthia_Marie_Chapa)
+
+- [ ] **Todd McCray** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_McCray)
+
+---
+
+## Texas Fourth District Court of Appeals Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Luz Elena Chapa** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Luz_Elena_Chapa)
+
+- [ ] **Lori Brissette** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lori_Brissette)
+
+---
+
+## Texas Fourth District Court of Appeals Place 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Liza Rodriguez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Liza_Rodriguez)
+
+- [ ] **Adrian Spears** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adrian_Spears_(Texas_appeals_court_candidate))
+
+---
+
+## Texas Fourth District Court of Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lori I. Valenzuela** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lori_I._Valenzuela)
+
+---
+
+## Texas House of Representatives District 80
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cecilia Castellano** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cecilia_Castellano)
+
+- [ ] **Don McLaughlin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_McLaughlin)
+
+---
+
+## Texas Railroad Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard McKibbin** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_McKibbin)
+
+- [ ] **Hawk Dunlap** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hawk_Dunlap)
+
+- [ ] **Eddie Espinoza** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Espinoza)
+
+- [ ] **Christi Craddick** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christi_Craddick)
+
+- [ ] **Katherine Culbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Culbert)
+
+---
+
+## Texas State Board of Education District 1
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Stevens** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Stevens_(Texas))
+
+- [ ] **Gustavo Reveles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gustavo_Reveles)
+
+---
+
+## Texas Supreme Court Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Blacklock** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Blacklock)
+
+- [ ] **DaSean Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaSean_Jones)
+
+---
+
+## Texas Supreme Court Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Devine** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Devine_(Texas))
+
+- [ ] **Christine Weems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Weems)
+
+---
+
+## Texas Supreme Court Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jane Bland** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jane_Bland)
+
+- [ ] **David Roberson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roberson)
+
+- [ ] **Bonnie Lee Goldstein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Lee_Goldstein)
+
+---
+
+## Atascosa County Attorney
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Molly Groesbeck Solis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Molly_Groesbeck_Solis_(Atascosa_County_Attorney,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Commissioner Precinct 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Gillespie** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_Gillespie_(Atascosa_County_Commissioner_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Commissioner Precinct 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eliseo Perez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eliseo_Perez_(Atascosa_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+- [ ] **George Pawelek** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/George_Pawelek_(Atascosa_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 1
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Medina** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Medina_(Atascosa_County_Constable_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 2
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Johnny Salazar** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Johnny_Salazar_(Atascosa_County_Constable_Precinct_2,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cregg M. Thompson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cregg_M._Thompson_(Atascosa_County_Constable_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Rutherford** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Rutherford_(Atascosa_County_Constable_Precinct_4,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jake Guerra** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jake_Guerra_(Atascosa_County_Sheriff,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Tax Assessor-Collector
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Loretta Holley** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_Holley_(Atascosa_County_Tax_Assessor-Collector,_Texas,_candidate_2024))
+
+---
+
+## Texas 81st Judicial District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Audrey Gossett Louis** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Audrey_Gossett_Louis_(Texas_81st_Judicial_District_Attorney,_Texas,_candidate_2024))
+
+---
+
+",9.0,131.66666666666666,1.1111111111111112,16.0,0.0,11.0,0.0,18.5,10391.0,1185.0
+35942,Texas,TX-CD28,Atascosa,78065,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 18.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 9      |
+|                         | Average Words per Question      | 131.7|
+|                         | Average Options per Question    | 1.1|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 16||
+|                         | Number of Non-Competitive Races | 11|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.5  years of education      |
+| **Length**              | Ballot Length                 | 10,391 characters       |
+|                         | Word Count                     | 1,185                         |
+
+---
+# Ballot for Atascosa County, Texas
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Jill Stein** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Butch Ware
+
+---
+
+## U.S. House Texas District 28
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jay Furman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jay_Furman)
+
+- [ ] **Henry Cuellar** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Henry_Cuellar)
+
+---
+
+## U.S. Senate Texas
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Analisa Roche** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Analisa_Roche)
+
+- [ ] **Colin Allred** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Colin_Allred)
+
+- [ ] **Tracy Andrus** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tracy_Andrus)
+
+- [ ] **Ted Cruz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Ted_Cruz)
+
+- [ ] **Ted Brown** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ted_Brown_(Texas))
+
+---
+
+## Texas Court of Criminal Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Gina Parker** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gina_Parker)
+
+- [ ] **Nancy Mulder** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nancy_Mulder)
+
+---
+
+## Texas Court of Criminal Appeals Place 8
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chika Anyiam** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chika_Anyiam)
+
+- [ ] **Lee Finley** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lee_Finley)
+
+---
+
+## Texas Court of Criminal Appeals Presiding Judge
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David Schenck** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Schenck)
+
+- [ ] **Holly Taylor** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Holly_Taylor_(Texas))
+
+---
+
+## Texas Fourth District Court of Appeals Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Velia Meza** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Velia_Meza)
+
+---
+
+## Texas Fourth District Court of Appeals Place 3
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cynthia Marie Chapa** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cynthia_Marie_Chapa)
+
+- [ ] **Todd McCray** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Todd_McCray)
+
+---
+
+## Texas Fourth District Court of Appeals Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Luz Elena Chapa** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Luz_Elena_Chapa)
+
+- [ ] **Lori Brissette** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lori_Brissette)
+
+---
+
+## Texas Fourth District Court of Appeals Place 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Liza Rodriguez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Liza_Rodriguez)
+
+- [ ] **Adrian Spears** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adrian_Spears_(Texas_appeals_court_candidate))
+
+---
+
+## Texas Fourth District Court of Appeals Place 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lori I. Valenzuela** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lori_I._Valenzuela)
+
+---
+
+## Texas House of Representatives District 80
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cecilia Castellano** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cecilia_Castellano)
+
+- [ ] **Don McLaughlin** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_McLaughlin)
+
+---
+
+## Texas Railroad Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard McKibbin** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_McKibbin)
+
+- [ ] **Hawk Dunlap** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hawk_Dunlap)
+
+- [ ] **Eddie Espinoza** (Green Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Eddie_Espinoza)
+
+- [ ] **Christi Craddick** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Christi_Craddick)
+
+- [ ] **Katherine Culbert** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Katherine_Culbert)
+
+---
+
+## Texas State Board of Education District 1
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Stevens** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Stevens_(Texas))
+
+- [ ] **Gustavo Reveles** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gustavo_Reveles)
+
+---
+
+## Texas Supreme Court Place 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jimmy Blacklock** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jimmy_Blacklock)
+
+- [ ] **DaSean Jones** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DaSean_Jones)
+
+---
+
+## Texas Supreme Court Place 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Devine** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/John_Devine_(Texas))
+
+- [ ] **Christine Weems** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christine_Weems)
+
+---
+
+## Texas Supreme Court Place 6
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jane Bland** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jane_Bland)
+
+- [ ] **David Roberson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Roberson)
+
+- [ ] **Bonnie Lee Goldstein** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bonnie_Lee_Goldstein)
+
+---
+
+## Atascosa County Attorney
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Molly Groesbeck Solis** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Molly_Groesbeck_Solis_(Atascosa_County_Attorney,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Commissioner Precinct 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Gillespie** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_Gillespie_(Atascosa_County_Commissioner_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Commissioner Precinct 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Eliseo Perez** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Eliseo_Perez_(Atascosa_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+- [ ] **George Pawelek** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/George_Pawelek_(Atascosa_County_Commissioner_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 1
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark Medina** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_Medina_(Atascosa_County_Constable_Precinct_1,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 2
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Johnny Salazar** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Johnny_Salazar_(Atascosa_County_Constable_Precinct_2,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cregg M. Thompson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Cregg_M._Thompson_(Atascosa_County_Constable_Precinct_3,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Constable Precinct 4
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **John Rutherford** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/John_Rutherford_(Atascosa_County_Constable_Precinct_4,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jake Guerra** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jake_Guerra_(Atascosa_County_Sheriff,_Texas,_candidate_2024))
+
+---
+
+## Atascosa County Tax Assessor-Collector
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Loretta Holley** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_Holley_(Atascosa_County_Tax_Assessor-Collector,_Texas,_candidate_2024))
+
+---
+
+## Texas 81st Judicial District Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Audrey Gossett Louis** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Audrey_Gossett_Louis_(Texas_81st_Judicial_District_Attorney,_Texas,_candidate_2024))
+
+---
+
+",9.0,131.66666666666666,1.1111111111111112,16.0,0.0,11.0,0.0,18.5,10391.0,1185.0

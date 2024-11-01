@@ -1,0 +1,144 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+33122,Tennessee,TN-CD02,Claiborne,37730,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 13.3/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 347.0|
+|                         | Average Options per Question    | 5.0|
+|                         | Number of Measures              | 0|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 1|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 17.0  years of education      |
+| **Length**              | Ballot Length                 | 2,908 characters       |
+|                         | Word Count                     | 347                         |
+
+---
+# Ballot for Claiborne County, Tennessee
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rachele Fruit** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Rachele_Fruit)
+  - Running Mate: Dennis Richter
+
+- [ ] **Jay Bowman** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jay_Bowman)
+  - Running Mate: De Bowman
+
+- [ ] **Jill Stein** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jill_Stein)
+  - Running Mate: Samson LeBeau Kpadenou
+
+- [ ] **Claudia De La Cruz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Tennessee District 2
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jane George** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jane_George)
+
+- [ ] **Tim Burchett** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tim_Burchett)
+
+---
+
+## U.S. Senate Tennessee
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Marsha Blackburn** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Marsha_Blackburn)
+
+- [ ] **Hastina Robinson** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Hastina_Robinson)
+
+- [ ] **Tharon Chandler** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tharon_Chandler)
+
+- [ ] **Pamela Moses** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Pamela_Moses)
+
+- [ ] **Gloria Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gloria_Johnson_(Tennessee))
+
+---
+
+## Tennessee House of Representatives District 36
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dennis Powers** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dennis_Powers_(Tennessee))
+
+---
+
+## Tennessee State Senate District 8
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **R.E. Ellison** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/R.E._Ellison)
+
+- [ ] **Jessie Seal** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jessie_Seal)
+
+---
+
+",1.0,347.0,5.0,4.0,0.0,1.0,0.0,17.0,2908.0,347.0

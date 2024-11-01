@@ -1,0 +1,392 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+10860,Indiana,IN-CD05,Grant,46987,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 23.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 6      |
+|                         | Average Words per Question      | 151.8|
+|                         | Average Options per Question    | 1.5|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 9||
+|                         | Number of Non-Competitive Races | 11|
+|                         | Non-Partisan Races  | ## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.2  years of education      |
+| **Length**              | Ballot Length                 | 8,307 characters       |
+|                         | Word Count                     | 911                         |
+
+---
+# Ballot for Grant County, Indiana
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+---
+
+## U.S. House Indiana District 5
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robby Slaughter** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robby_Slaughter)
+
+- [ ] **Lauri Shillings** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lauri_Shillings)
+
+- [ ] **Deborah A. Pickett** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Deborah_Pickett)
+
+- [ ] **Victoria Spartz** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Victoria_Spartz)
+
+---
+
+## U.S. Senate Indiana
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Antonio Alvarez** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Antonio_Alvarez)
+
+- [ ] **Phillip Beachy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Phillip_Beachy)
+
+- [ ] **Valerie McCray** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Valerie_McCray)
+
+- [ ] **Andy Horning** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Andy_Horning)
+
+- [ ] **Jim Banks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jim_Banks_(Indiana))
+
+---
+
+## Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Donald Rainwater** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Rainwater)
+
+- [ ] **Christopher Stried** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Stried)
+
+- [ ] **Jennifer McCormick** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jennifer_McCormick)
+
+- [ ] **Mike Braun** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mike_Braun)
+
+---
+
+## Lieutenant Governor of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tonya Hudson** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tonya_Hudson)
+
+- [ ] **Micah Beckwith** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Micah_Beckwith)
+
+- [ ] **Terry Goodin** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Terry_Goodin)
+
+---
+
+## Attorney General of Indiana
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Todd Rokita** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Todd_Rokita)
+
+- [ ] **Destiny Scott Wells** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Destiny_Scott_Wells)
+
+---
+
+## Indiana Court of Appeals 4th District
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Rudolph Pyle III** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Rudolph_Pyle_III)
+
+---
+
+## Indiana House of Representatives District 31
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Lori Goss-Reaves** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Lori_Goss-Reaves)
+
+---
+
+## Indiana Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Loretta H. Rush** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Loretta_H._Rush)
+
+- [ ] **Derek Molter** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Derek_Molter)
+
+- [ ] **Mark S. Massa** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mark_S._Massa)
+
+---
+
+## Grant County Circuit Court
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mark E. Spitzer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mark_E._Spitzer_(Grant_County_Circuit_Court,_Indiana,_candidate_2024))
+
+---
+
+## Grant County Commissioner Board District 1
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Shane E. Middlesworth** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shane_E._Middlesworth_(Grant_County_Commissioner_Board_District_1,_Indiana,_candidate_2024))
+
+---
+
+## Grant County Commissioner Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Charles Poling Jr.** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charles_Poling_Jr._(Grant_County_Commissioner_Board_District_2,_Indiana,_candidate_2024))
+
+- [ ] **Michael Spaulding II** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Spaulding_II_(Grant_County_Commissioner_Board_District_2,_Indiana,_candidate_2024))
+
+---
+
+## Grant County Council At-large
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Greg Brankle** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Greg_Brankle_(Grant_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **James E. McWhirt** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_E._McWhirt_(Grant_County_Council_At-large,_Indiana,_candidate_2024))
+
+- [ ] **Gregory S. Kitts** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gregory_S._Kitts_(Grant_County_Council_At-large,_Indiana,_candidate_2024))
+
+---
+
+## Grant County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kathy D. Foy** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kathy_D._Foy_(Grant_County_Recorder,_Indiana,_candidate_2024))
+
+---
+
+## Grant County Superior Court No. 3
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Nathan D. Meeks** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_D._Meeks_(Grant_County_Superior_Court_No._3,_Indiana,_candidate_2024))
+
+---
+
+## Grant County Surveyor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Raymond A. Bair** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Raymond_A._Bair_(Grant_County_Surveyor,_Indiana,_candidate_2024))
+
+---
+
+## Grant County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **April R. Legare** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/April_R._Legare_(Grant_County_Treasurer,_Indiana,_candidate_2024))
+
+---
+
+## Oak Hill United School Corporation school board District 3
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Aaron Pickering** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Aaron_Pickering_(Oak_Hill_United_School_Corporation_school_board_District_3,_Indiana,_candidate_2024))
+
+---
+
+## Oak Hill United School Corporation school board District 5
+
+**Level:** Local
+**Branch:** None
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Adam Joseph Thompson** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Adam_Joseph_Thompson_(Oak_Hill_United_School_Corporation_school_board_District_5,_Indiana,_candidate_2024))
+
+---
+
+## Indiana Remove Superintendent of Public Instruction from Gubernatorial Line of Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",6.0,151.83333333333334,1.5,9.0,1.0,11.0,1.0,18.2,8307.0,911.0

@@ -1,0 +1,337 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+27582,Ohio,OH-CD06,Carroll,44615,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 15.6/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 8      |
+|                         | Average Words per Question      | 102.0|
+|                         | Average Options per Question    | 1.1|
+|                         | Number of Measures              | 1|
+|                         | Number of Races                 | 7||
+|                         | Number of Non-Competitive Races | 10|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 18.4  years of education      |
+| **Length**              | Ballot Length                 | 7,243 characters       |
+|                         | Word Count                     | 816                         |
+
+---
+# Ballot for Carroll County, Ohio
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Richard Duncan** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Duncan_(Ohio))
+  - Running Mate: Mitchell Preston Bupp
+
+- [ ] **Peter Sonski** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Peter_Sonski)
+  - Running Mate: Lauren Onak
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+---
+
+## U.S. House Ohio District 6
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Rulli** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_Rulli)
+
+- [ ] **Michael Kripchak** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Kripchak)
+
+---
+
+## U.S. Senate Ohio
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tariq Shabazz** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Tariq_Shabazz)
+
+- [ ] **Nathan Russell** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Nathan_Russell)
+
+- [ ] **David Pastorius** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/David_Pastorius)
+
+- [ ] **Stephen Faris** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stephen_Faris)
+
+- [ ] **Don Kissick** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Don_Kissick)
+
+- [ ] **Bernie Moreno** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Bernie_Moreno)
+
+- [ ] **Sherrod Brown** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Sherrod_Brown)
+
+---
+
+## Ohio House of Representatives District 79
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Monica Robb Blasdel** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Monica_Robb_Blasdel)
+
+- [ ] **Dan Votaw** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Votaw)
+
+---
+
+## Ohio Seventh District Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Katelyn Dickey** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Katelyn_Dickey)
+
+---
+
+## Ohio State Board of Education District 8
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Karen Lloyd** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Karen_Lloyd)
+
+---
+
+## Ohio State Senate District 33
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Alessandro Cutrona** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Alessandro_Cutrona)
+
+- [ ] **Marty Hume** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Marty_Hume)
+
+---
+
+## Ohio Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Melody Stewart** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Melody_Stewart)
+
+- [ ] **Joseph Deters** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Joseph_Deters)
+
+- [ ] **Lisa Forbes** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Lisa_Forbes)
+
+- [ ] **Michael P. Donnelly** (Democratic Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Michael_P._Donnelly_(Ohio))
+
+- [ ] **Dan Hawkins** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dan_Hawkins_(Ohio))
+
+- [ ] **Megan E. Shanahan** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Megan_Shanahan)
+
+---
+
+## Carroll County Clerk of Courts
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **William R. Wohlwend** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_R._Wohlwend_(Carroll_County_Clerk_of_Courts,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Commission
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Christopher R. Modranski** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_R._Modranski_(Carroll_County_Commission,_Ohio,_candidate_2024))
+
+- [ ] **Robert E. Wirkner** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_E._Wirkner_(Carroll_County_Commission,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Coroner
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mandal B. Haas** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mandal_B._Haas_(Carroll_County_Coroner,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Court of Common Pleas General Division
+
+**Level:** Local
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael V. Repella II** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_V._Repella_II_(Carroll_County_Court_of_Common_Pleas_General_Division,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Engineer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian J. Wise** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_J._Wise_(Carroll_County_Engineer,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Prosecuting Attorney
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Steven D. Barnett** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Steven_D._Barnett_(Carroll_County_Prosecuting_Attorney,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Recorder
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Patricia J. Oyer** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Patricia_J._Oyer_(Carroll_County_Recorder,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Calvin Graham** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Calvin_Graham_(Carroll_County_Sheriff,_Ohio,_candidate_2024))
+
+---
+
+## Carroll County Treasurer
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeff Yeager** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Jeff_Yeager_(Carroll_County_Treasurer,_Ohio,_candidate_2024))
+
+---
+
+## Ohio Issue 1, Establish the Citizens Redistricting Commission Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",8.0,102.0,1.125,7.0,1.0,10.0,0.0,18.4,7243.0,816.0

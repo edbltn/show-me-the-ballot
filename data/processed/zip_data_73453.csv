@@ -1,0 +1,295 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+29045,Oklahoma,OK-CD04,Love,73453,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 14.5/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 710.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 12|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.1  years of education      |
+| **Length**              | Ballot Length                 | 5,758 characters       |
+|                         | Word Count                     | 710                         |
+
+---
+# Ballot for Love County, Oklahoma
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Christopher Garrity** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Christopher_Garrity)
+  - Running Mate: Cody Ballard
+
+---
+
+## U.S. House Oklahoma District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Stacy** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/James_Stacy_(Oklahoma))
+
+- [ ] **Mary Brannon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Mary_Brannon)
+
+- [ ] **Tom Cole** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tom_Cole_(Oklahoma))
+
+---
+
+## Oklahoma Corporation Commissioner
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Chad Williams** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Williams_(Oklahoma))
+
+- [ ] **Harold Spradling** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Harold_Spradling)
+
+- [ ] **Brian Bingman** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Bingman)
+
+---
+
+## Oklahoma Court of Civil Appeals District 2 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jim Huber** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jim_Huber)
+
+---
+
+## Oklahoma Court of Civil Appeals District 4 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Timothy Downing** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Timothy_Downing)
+
+---
+
+## Oklahoma Court of Civil Appeals District 5 Office 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Thomas E. Prince** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Thomas_E._Prince)
+
+---
+
+## Oklahoma Court of Civil Appeals District 5 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Robert D. Bell** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Robert_D._Bell_(Oklahoma))
+
+---
+
+## Oklahoma Court of Civil Appeals District 6 Office 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Bay Mitchell** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Bay_Mitchell)
+
+---
+
+## Oklahoma Court of Civil Appeals District 6 Office 2
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Goree** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Brian_Goree)
+
+---
+
+## Oklahoma Court of Criminal Appeals District 1
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **William J. Musseman** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/William_J._Musseman)
+
+---
+
+## Oklahoma Court of Criminal Appeals District 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scott Rowland** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Scott_Rowland)
+
+---
+
+## Oklahoma Court of Criminal Appeals District 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David B. Lewis** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_B._Lewis)
+
+---
+
+## Oklahoma Supreme Court District 3
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Noma D. Gurich** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Noma_D._Gurich)
+
+---
+
+## Oklahoma Supreme Court District 4
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Yvonne Kauger** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Yvonne_Kauger)
+
+---
+
+## Oklahoma Supreme Court District 7
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **James Edmondson** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/James_Edmondson_(Oklahoma))
+
+---
+
+## Love County Commissioner Board District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Michael Otis Mayes** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Michael_Otis_Mayes_(Love_County_Commissioner_Board_District_2,_Oklahoma,_candidate_2024))
+
+- [ ] **Edith Redmon** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Edith_Redmon_(Love_County_Commissioner_Board_District_2,_Oklahoma,_candidate_2024))
+
+---
+
+## Oklahoma State Question 833, Public Infrastructure Districts Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Oklahoma State Question 834, Citizenship Requirement for Voting Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,710.0,2.0,4.0,2.0,12.0,0.0,16.1,5758.0,710.0

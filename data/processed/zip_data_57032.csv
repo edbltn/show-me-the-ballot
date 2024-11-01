@@ -1,0 +1,563 @@
+,state,district,county,zip,full_markdown,unique_questions,avg_words_per_question,avg_options_per_question,races,measures,non_competitive_races,non_partisan_races,flesch_kincaid_grade,ballot_length,word_count
+32810,South Dakota,SD-CD01,Lincoln,57032,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 12.7/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 1      |
+|                         | Average Words per Question      | 521.0|
+|                         | Average Options per Question    | 2.0|
+|                         | Number of Measures              | 7|
+|                         | Number of Races                 | 4||
+|                         | Number of Non-Competitive Races | 2|
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 16.3  years of education      |
+| **Length**              | Ballot Length                 | 3,886 characters       |
+|                         | Word Count                     | 521                         |
+
+---
+# Ballot for Lincoln County, South Dakota
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Robert F. Kennedy Jr.** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+---
+
+## U.S. House South Dakota At-large District
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dusty Johnson** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Dusty_Johnson_(South_Dakota))
+
+- [ ] **Sheryl Johnson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Sheryl_Johnson)
+
+---
+
+## South Dakota House of Representatives District 16
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 2
+
+### Candidates:
+- [ ] **Richard Vasgaard** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Richard_Vasgaard)
+
+- [ ] **Matt Ness** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Matt_Ness)
+
+- [ ] **Karla Lems** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Karla_Lems)
+
+---
+
+## South Dakota Public Utilities Commission
+
+**Level:** State
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kristie Fiegen** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Kristie_Fiegen)
+
+- [ ] **Gideon Oakes** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Gideon_Oakes)
+
+- [ ] **Forrest Wilson** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Forrest_Wilson)
+
+---
+
+## South Dakota State Senate District 16
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kevin Jensen** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kevin_Jensen_(South_Dakota))
+
+---
+
+## South Dakota Supreme Court District 5
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Scott P. Myren** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Scott_P._Myren)
+
+---
+
+## South Dakota Constitutional Amendment E, Gender-Neutral Constitutional Language Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Constitutional Amendment F, Medicaid Work Requirement Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Constitutional Amendment G, Right to Abortion Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Constitutional Amendment H, Top-Two Primary Elections Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Initiated Measure 28, Prohibit Food and Grocery Taxes Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Initiated Measure 29, Marijuana Legalization Initiative (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## South Dakota Referred Law 21, Regulation of Carbon Dioxide Pipelines Referendum (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",1.0,521.0,2.0,4.0,7.0,2.0,0.0,16.3,3886.0,521.0
+32988,South Dakota,SD-CD04,Lincoln,57032,"# Ballot Complexity Report
+ 
+*This report provides an AI-assisted analysis of ballot complexity. Please note that this is a supplementary analysis and not a substitute for official election information.*
+
+**Overall Complexity Score: 23.2/100**
+|                         |                                 |                                          |
+|-------------------------|---------------------------------|------------------------------------------|
+| **Decision Complexity** | Number of Questions             | 4      |
+|                         | Average Words per Question      | 172.8|
+|                         | Average Options per Question    | 2.2|
+|                         | Number of Measures              | 2|
+|                         | Number of Races                 | 6||
+|                         | Number of Non-Competitive Races | 8|
+|                         | Non-Partisan Races  | ## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+---
+
+, ## Lyon County Agricultural Extension Council
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 4
+
+### Candidates:
+- [ ] **DeAnn Krull** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DeAnn_Krull_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Ethan Blauwet** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ethan_Blauwet_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Laura Nachtigal** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Laura_Nachtigal_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Melissa Harberts** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_Harberts_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+---
+
+, ## Lyon County Soil and Water Conservation District Commissioner Board
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Chad Ter Wee** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Ter_Wee_(Lyon_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Robert Ladd** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_Ladd_(Lyon_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Ross Mogler** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ross_Mogler_(Lyon_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+---
+
+ |
+| **Language Complexity** | [Flesch-Kincaid Grade Level](https://ballotpedia.org/Ballot_measure_readability_scores,_2024#Flesch-Kincaid_Grade_Level)| 20.3  years of education      |
+| **Length**              | Ballot Length                 | 6,352 characters       |
+|                         | Word Count                     | 691                         |
+
+---
+# Ballot for Lincoln County, South Dakota
+
+Election Date: 2024-11-05
+
+## President of the United States
+
+**Level:** Federal
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Kamala D. Harris** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Kamala_Harris)
+  - Running Mate: Tim Walz
+
+- [ ] **Claudia De La Cruz** (Party for Socialism and Liberation)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Claudia_De_La_Cruz)
+  - Running Mate: Karina Garcia
+
+- [ ] **Donald Trump** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Donald_Trump)
+  - Running Mate: J.D. Vance
+
+- [ ] **William P. Stodden** (Socialist Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/William_P._Stodden)
+  - Running Mate: Stephanie H. Cholensky
+
+- [ ] **Robert F. Kennedy Jr.** (We the People)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_F._Kennedy_Jr.)
+  - Running Mate: Nicole Shanahan
+
+- [ ] **Shiva Ayyadurai** (Independent)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Shiva_Ayyadurai)
+  - Running Mate: Crystal Ellis
+
+- [ ] **Chase Oliver** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chase_Oliver)
+  - Running Mate: Mike ter Maat
+
+---
+
+## U.S. House Iowa District 4
+
+**Level:** Federal
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Randy Feenstra** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Randy_Feenstra)
+
+- [ ] **Charles Aldrich** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Charles_Aldrich)
+
+- [ ] **Ryan Melton** (Democratic Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ryan_Melton)
+
+---
+
+## Iowa Court of Appeals
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Tyler Buller** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Tyler_Buller)
+
+- [ ] **Samuel Langholz** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Samuel_Langholz)
+
+- [ ] **Mary Tabor** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Tabor)
+
+- [ ] **Mary Chicchelly** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Mary_Chicchelly)
+
+---
+
+## Iowa House of Representatives District 4
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Skyler Wheeler** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Skyler_Wheeler)
+
+---
+
+## Iowa State Senate District 2
+
+**Level:** State
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Jeff Taylor** (Republican Party)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/Jeff_Taylor_(Iowa))
+
+---
+
+## Iowa Supreme Court
+
+**Level:** State
+**Branch:** Judicial
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **David May** (Nonpartisan)
+  - Incumbent: Yes
+  - [More Info](https://ballotpedia.org/David_May)
+
+---
+
+## Lyon County Agricultural Extension Council
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 4
+
+### Candidates:
+- [ ] **Melissa Harberts** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Melissa_Harberts_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Laura Nachtigal** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Laura_Nachtigal_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **Ethan Blauwet** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ethan_Blauwet_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+- [ ] **DeAnn Krull** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/DeAnn_Krull_(Lyon_County_Agricultural_Extension_Council,_Iowa,_candidate_2024))
+
+---
+
+## Lyon County Auditor
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Amy Sprock** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Amy_Sprock_(Lyon_County_Auditor,_Iowa,_candidate_2024))
+
+---
+
+## Lyon County Board of Supervisors District 2
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Dennis Red Scholten** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Dennis_Red_Scholten_(Lyon_County_Board_of_Supervisors_District_2,_Iowa,_candidate_2024))
+
+---
+
+## Lyon County Board of Supervisors District 3
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Cory Altena** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Cory_Altena_(Lyon_County_Board_of_Supervisors_District_3,_Iowa,_candidate_2024))
+
+---
+
+## Lyon County Sheriff
+
+**Level:** Local
+**Branch:** Executive
+**Number of Seats:** 1
+
+### Candidates:
+- [ ] **Brian Hilt** (Republican Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Brian_Hilt_(Lyon_County_Sheriff,_Iowa,_candidate_2024))
+
+- [ ] **Stewart Vander Stoep** (Libertarian Party)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Stewart_Vander_Stoep_(Lyon_County_Sheriff,_Iowa,_candidate_2024))
+
+---
+
+## Lyon County Soil and Water Conservation District Commissioner Board
+
+**Level:** Local
+**Branch:** Legislative
+**Number of Seats:** 3
+
+### Candidates:
+- [ ] **Robert Ladd** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Robert_Ladd_(Lyon_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Ross Mogler** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Ross_Mogler_(Lyon_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+- [ ] **Chad Ter Wee** (Nonpartisan)
+  - Incumbent: No
+  - [More Info](https://ballotpedia.org/Chad_Ter_Wee_(Lyon_County_Soil_and_Water_Conservation_District_Commissioner_Board,_Iowa,_candidate_2024))
+
+---
+
+## Iowa Amendment 1, Require Citizenship to Vote in Elections and Allow 17-Year-Olds to Vote in Primaries Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+## Iowa Amendment 2, Gubernatorial Succession Amendment (2024)
+
+**Type:** Ballot Measure
+**District Type:** State
+
+### Options:
+- [ ] Yes
+- [ ] No
+
+---
+
+",4.0,172.75,2.25,6.0,2.0,8.0,3.0,20.3,6352.0,691.0
